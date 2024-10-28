@@ -439,8 +439,6 @@ class Game:
             if not game.clan.clan_settings["dead_relations"]:
                 if not inter_cat.dead:
                     inter_cat.save_relationship_of_cat(directory + "/relationships")
-                else:
-                    pass
             else:
                 inter_cat.save_relationship_of_cat(directory + "/relationships")
 

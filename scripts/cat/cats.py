@@ -8,7 +8,7 @@ import bisect
 import itertools
 import os.path
 import sys
-from random import choice, randint, sample, random, getrandbits, randrange
+from random import choice, choices, randint, sample, random, getrandbits, randrange
 from typing import Dict, List, Any
 
 import ujson  # type: ignore
@@ -1593,7 +1593,9 @@ class Cat:
             # Roll kin-based thought
             if thought_type == 'kin':
                 kin_group_choice = randint(0, 100)
-                close_kin, kin, distant_kin = get_kin_groups(self, dead_chance, use_dead_chance=True)
+                # If dead_chance == 1, include dead cats, otherwise exclude them
+                include_dead = (dead_chance == 1)
+                close_kin, kin, distant_kin = get_kin_groups(self, include_dead=include_dead)
                 
                 # 50% chance of choosing close kin
                 if kin_group_choice >= 50:
