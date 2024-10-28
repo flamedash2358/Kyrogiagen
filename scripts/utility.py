@@ -1665,7 +1665,7 @@ def change_relationship_values(
                     if log_text not in rel.log:
                         rel.log.append(log_text)
 
-def get_kin_groups(self, include_dead=True):
+def get_kin_groups(cat, include_dead=True):
     """
     Retrieves the kin groups (close kin, kin, and distant kin) for the cat.
     :param include_dead: Whether to include dead cats in the kin groups (default: True).
@@ -1675,22 +1675,22 @@ def get_kin_groups(self, include_dead=True):
              - distant_kin: Dictionary of distant kin groups.
     """
     close_kin = {
-        "gen_parents": [self.all_cats.get(cat_id) for cat_id in self.get_parents()],
-        "gen_siblings": [self.all_cats.get(cat_id) for cat_id in self.get_siblings()],
-        "gen_children": [self.all_cats.get(cat_id) for cat_id in self.get_children()],
-        "gen_mates": [self.all_cats.get(cat_id) for cat_id in self.mate],
-        "gen_former_mates": [self.all_cats.get(cat_id) for cat_id in self.previous_mates]
+        "gen_parents": [cat.all_cats.get(cat_id) for cat_id in cat.get_parents()],
+        "gen_siblings": [cat.all_cats.get(cat_id) for cat_id in cat.get_siblings()],
+        "gen_children": [cat.all_cats.get(cat_id) for cat_id in cat.get_children()],
+        "gen_mates": [cat.all_cats.get(cat_id) for cat_id in cat.mate],
+        "gen_former_mates": [cat.all_cats.get(cat_id) for cat_id in cat.previous_mates]
     }
 
     kin = {
-        "gen_grandparents": [self.all_cats.get(cat_id) for cat_id in self.all_cats if self.all_cats.get(cat_id).is_grandparent(self)],
-        "gen_auntuncle": [self.all_cats.get(cat_id) for cat_id in self.all_cats if self.is_uncle_aunt(self.all_cats.get(cat_id))],
-        "gen_cousin": [self.all_cats.get(cat_id) for cat_id in self.all_cats if self.is_cousin(self.all_cats.get(cat_id))],
-        "gen_grandkits": [self.all_cats.get(cat_id) for cat_id in self.get_grandkits()]
+        "gen_grandparents": [cat.all_cats.get(cat_id) for cat_id in cat.all_cats if cat.all_cats.get(cat_id).is_grandparent(cat)],
+        "gen_auntuncle": [cat.all_cats.get(cat_id) for cat_id in cat.all_cats if cat.is_uncle_aunt(cat.all_cats.get(cat_id))],
+        "gen_cousin": [cat.all_cats.get(cat_id) for cat_id in cat.all_cats if cat.is_cousin(cat.all_cats.get(cat_id))],
+        "gen_grandkits": [cat.all_cats.get(cat_id) for cat_id in cat.get_grandkits()]
     }
 
     distant_kin = {
-        "gen_distantkin": [self.all_cats.get(cat_id) for cat_id in self.get_distant_kin()]
+        "gen_distantkin": [cat.all_cats.get(cat_id) for cat_id in cat.get_distant_kin()]
     }
 
     if not include_dead:
