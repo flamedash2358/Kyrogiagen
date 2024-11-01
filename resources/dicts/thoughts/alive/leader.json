@@ -296,5 +296,28 @@
             "cold",
             "vengeful"
         ]
+    },
+    {
+        "id": "leader_last_life",
+        "thoughts": [
+            "Worries about how the Clan will survive once {PRONOUN/r_c/subject} {VERB/r_c/are/is} gone",
+            "Seems more distant than usual",
+            "Quietly ponders {PRONOUN/m_c/poss} own mortality"
+        ],
+        "leader_life_constraint": [
+            1
+        ]
+    },
+    {
+        "id": "leader_many_lives",
+        "thoughts": [
+            "Takes on the most dangerous tasks, insistent that {PRONOUN/m_c/subject} {VERB/r_c/have/has} plenty of lives to spare"
+        ],
+        "leader_life_constraint": [
+            6,
+            7,
+            8,
+            9
+        ]
     }
 ]

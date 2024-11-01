@@ -4607,5 +4607,89 @@
         "random_living_status": [
             "living"
         ]
+    },
+    {
+        "id": "no_medcat_gen",
+          "thoughts": [
+              "Hopes StarClan is still watching over the Clan",
+              "Isn't sure the Clan can survive long without a medicine cat"
+          ],
+          "clan_missing_status_constraint": [
+              "medicine cat"
+          ],
+          "main_status_constraint": [
+            "apprentice",
+            "mediator apprentice",
+            "warrior",
+            "mediator",
+            "deputy",
+            "leader",
+            "elder"
+        ]
+    },
+    {
+        "id": "skilled_no_medcat_gen",
+          "thoughts": [
+              "Wonders if they should become a medicine cat"
+          ],
+          "main_skill_constraint": [
+              "HEALER,1",
+              "STAR,1"
+          ],
+          "clan_missing_status_constraint": [
+              "medicine cat"
+          ],
+          "main_status_constraint": [
+            "apprentice",
+            "mediator apprentice",
+            "warrior",
+            "mediator",
+            "deputy",
+            "leader",
+            "elder"
+        ]
+    },
+    {
+        "id": "no_leader_deputy_gen",
+          "thoughts": [
+              "Wonders who will grant r_c their nine lives",
+              "Watches r_c expectantly",
+              "Feels like one era has ended and another is beginning"
+          ],
+          "clan_missing_status_constraint": [
+              "leader"
+          ],
+          "random_status_constraint": [
+            "deputy"
+        ],
+        "main_status_constraint": [
+            "apprentice",
+            "medicine cat apprentice",
+            "mediator apprentice",
+            "warrior",
+            "medicine cat",
+            "mediator",
+            "elder"
+        ]
+    },
+    {
+        "id": "no_leader_no_deputy_gen",
+          "thoughts": [
+              "Is left feeling lost and uncertain without a leader or deputy",
+              "Wonders how long the Clan can go on with no leadership"
+          ],
+          "clan_missing_status_constraint": [
+              "leader",
+              "deputy"
+          ],
+          "main_status_constraint": [
+            "apprentice",
+            "medicine cat apprentice",
+            "mediator apprentice",
+            "warrior",
+            "medicine cat",
+            "mediator",
+            "elder"
+        ]
     }
 ]

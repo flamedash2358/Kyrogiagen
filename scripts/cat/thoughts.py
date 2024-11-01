@@ -1,5 +1,6 @@
 import traceback
 from random import choice
+from scripts.game_structure.game_essentials import game
 
 import ujson
 
@@ -94,7 +95,30 @@ class Thoughts:
                 return False
         elif 'random_status_constraint' in thought and not random_cat:
             pass
+        
+        # Constraints for empty positions of power in the Clan
+        # Only works for leader, deputy, and medicine cat
+        if 'clan_missing_status_constraint' in thought:
+            for status in thought['clan_missing_status_constraint']:
+                if game.clan:
+                    if status == ['medicine cat']:
+                        status = "med_cat"
+                    if getattr(game.clan, status):
+                        return False
 
+        # Constraints for size of herb store
+        if 'herb_max_constraint' in thought:
+            if game.clan:
+                if thought['herb_max_constraint'] < sum(game.clan.herbs.values()):
+                    return False
+                
+        # Constraints for current leader's remaining lives
+        # Multiple values can be accepted
+        if 'leader_life_constraint' in thought:
+            if game.clan:
+                if game.clan.leader_lives not in thought['leader_life_constraint']:
+                    return False
+        
         # main cat age constraint
         if 'main_age_constraint' in thought:
             if main_cat.age not in thought['main_age_constraint']:

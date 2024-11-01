@@ -501,5 +501,29 @@
         "random_living_status": [
             "darkforest"
         ]
-    }     
+    },
+    {
+        "id": "med_cat_herbs_none",
+        "thoughts": [
+            "Feels a sense of dread as they look at their empty herb stores",
+            "Desperately paws along the corners of their den, trying to find even a single poppy seed",
+            "Spends all day searching for herbs, returning empty-pawed at almost moonhigh"
+        ],
+        "herb_max_constraint": [
+            0
+        ]
+    },
+    {
+        "id": "med_cat_lead_last_life",
+        "thoughts": [
+            "Can tell that r_c is on their last life",
+            "Urges r_c to be more cautious"
+        ],
+        "leader_life_constraint": [
+            1
+        ],
+        "random_status_constraint": [
+            "leader"
+        ]
+    }
 ]

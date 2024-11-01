@@ -34,10 +34,34 @@
     {
         "id": "warrior_gen_deputy",
         "thoughts": [
-            "Wants to be chosen as the new deputy"
+            "Wants to become deputy one day"
         ],
         "random_status_constraint": [
             "deputy"
+        ]
+    },
+    {
+        "id": "warrior_gen_no_deputy",
+        "thoughts": [
+            "Wants to be chosen as the new deputy"
+        ],
+        "clan_missing_status_constraint": [
+            "deputy"
+        ]
+    },
+    {
+        "id": "warrior_gen_no_deputy_ambitious",
+        "thoughts": [
+            "Desperately hopes r_c will choose them to be the new deputy"
+        ],
+        "clan_missing_status_constraint": [
+            "deputy"
+        ],
+        "main_trait_constraint": [
+            "ambitious"
+        ],
+        "random_status_constraint": [
+            "leader"
         ]
     },
     {
