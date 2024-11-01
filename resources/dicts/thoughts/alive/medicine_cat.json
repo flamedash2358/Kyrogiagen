@@ -514,13 +514,25 @@
         ]
     },
     {
-        "id": "med_cat_lead_last_life",
+        "id": "medcat_lead_last_life",
         "thoughts": [
-            "Can tell that r_c is on their last life",
+            "Can tell that r_c is on {PRONOUN/r_c/poss} last life",
             "Urges r_c to be more cautious"
         ],
         "leader_life_constraint": [
             1
+        ],
+        "random_status_constraint": [
+            "leader"
+        ]
+    },
+    {
+        "id": "medcat_no_deputy",
+        "thoughts": [
+            "Shares {PRONOUN/m_c/poss} thoughts with r_c on who should be the next deputy"
+        ],
+        "clan_missing_status_constraint": [
+            "deputy"
         ],
         "random_status_constraint": [
             "leader"

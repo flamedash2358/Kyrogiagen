@@ -300,7 +300,7 @@
     {
         "id": "leader_last_life",
         "thoughts": [
-            "Worries about how the Clan will survive once {PRONOUN/r_c/subject} {VERB/r_c/are/is} gone",
+            "Worries about how the Clan will survive once {PRONOUN/m_c/subject} {VERB/m_c/are/is} gone",
             "Seems more distant than usual",
             "Quietly ponders {PRONOUN/m_c/poss} own mortality"
         ],
@@ -311,13 +311,23 @@
     {
         "id": "leader_many_lives",
         "thoughts": [
-            "Takes on the most dangerous tasks, insistent that {PRONOUN/m_c/subject} {VERB/r_c/have/has} plenty of lives to spare"
+            "Takes on the most dangerous tasks, insistent that {PRONOUN/m_c/subject} {VERB/m_c/have/has} plenty of lives to spare"
         ],
         "leader_life_constraint": [
             6,
             7,
             8,
             9
+        ]
+    },
+    {
+        "id": "leader_no_deputy",
+        "thoughts": [
+            "Is carefully mulling over who would be a good deputy",
+            "Organizes the patrols by {PRONOUN/m_c/object}"
+        ],
+        "clan_missing_status_constraint": [
+            "deputy"
         ]
     }
 ]
