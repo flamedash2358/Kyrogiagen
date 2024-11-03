@@ -819,10 +819,13 @@
     {
         "id": "app_gen",
           "thoughts": [
-              "Has been begging an apprentice to teach {PRONOUN/m_c/object} a hunting move"
+              "Has been begging an apprentice to teach {PRONOUN/m_c/object} and r_c a hunting move"
           ],
           "clan_present_status_constraint": [
               "apprentice"
+          ],
+          "random_status_constraint": [
+              "kitten"
           ]
     }
 ]
