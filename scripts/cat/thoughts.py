@@ -104,14 +104,14 @@ class Thoughts:
         if 'clan_missing_status_constraint' in thought:
             for status in thought['clan_missing_status_constraint']:
                 # Get all cats with the specified status
-                cats_with_status = get_alive_status_cats(main_cat, [status])
+                cats_with_status = get_alive_status_cats(game.cat_class, [status])
                 
                 if cats_with_status:  # If we found any cats with this status
                     return False
 
         if 'clan_present_status_constraint' in thought:
             for status in thought['clan_present_status_constraint']:
-                cats_with_status = get_alive_status_cats(main_cat, [status])
+                cats_with_status = get_alive_status_cats(game.cat_class, [status])
                 
                 if not cats_with_status:  # If we didn't find any cats with this status
                     return False
