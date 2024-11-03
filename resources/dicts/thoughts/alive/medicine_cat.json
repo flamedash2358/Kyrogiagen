@@ -515,11 +515,30 @@
         "id": "med_cat_herbs_none",
         "thoughts": [
             "Feels a sense of dread as {PRONOUN/m_c/subject} {VERB/m_c/look/looks} at {PRONOUN/m_c/poss} empty herb stores",
-            "Desperately paws along the corners of their den, trying to find even a single poppy seed",
+            "Desperately paws along the corners of {PRONOUN/m_c/poss} den, trying to find even a single poppy seed",
             "Spends all day searching for herbs, returning empty-pawed at almost moonhigh"
         ],
-        "herb_max_constraint": [
-            0
+        "herb_supply_constraint": [
+            "none"
+        ]
+    },
+    {
+        "id": "med_cat_herbs_low",
+        "thoughts": [
+            "Is all too aware of how few herbs {PRONOUN/m_c/subject} {VERB/m_c/have/has}"
+        ],
+        "herb_supply_constraint": [
+            "very low",
+            "low"
+        ]
+    },
+    {
+        "id": "med_cat_herbs_excess",
+        "thoughts": [
+            "Is struggling to find enough space to store {PRONOUN/m_c/poss} herbs"
+        ],
+        "herb_supply_constraint": [
+            "excess"
         ]
     },
     {

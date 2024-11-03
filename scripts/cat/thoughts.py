@@ -1,6 +1,6 @@
 import traceback
 from random import choice
-from scripts.utility import get_alive_status_cats
+from scripts.utility import get_alive_status_cats, check_herb_constraint
 from scripts.game_structure.game_essentials import game
 
 import ujson
@@ -116,12 +116,15 @@ class Thoughts:
                 if not cats_with_status:  # If we didn't find any cats with this status
                     return False
 
-        # Constraints for size of herb store
-        if 'herb_max_constraint' in thought:
-            if game.clan:
-                herb_max = (thought['herb_max_constraint'])[0]
-                if herb_max < sum(game.clan.herbs.values()):
-                    return False
+        # Constraints for herb supply level
+        # Accepts 'none', 'very low', 'low', 'adequate', 'full', 'excess'
+        if 'herb_supply_constraint' in thought:
+            print("HERB TEST 1")
+            if not check_herb_constraint(game.cat_class, thought['herb_supply_constraint']):
+                print("HERB TEST 2")
+                return False
+            else:
+                print("WORKING?", main_cat)
                 
         # Constraints for current leader's remaining lives
         # Multiple values can be accepted
