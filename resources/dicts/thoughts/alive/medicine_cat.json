@@ -72,7 +72,7 @@
         "main_trait_constraint": [
             "adventurous"
         ],
-        "random_status_constraint": [
+        "clan_present_status_constraint": [
             "kitten"
         ]
     },
@@ -180,11 +180,20 @@
     {
         "id": "charismatic_medicine_cat",
         "thoughts": [
-            "Is doing {PRONOUN/m_c/poss} daily checkup on the elders",
             "Is thinking of just the right way to ask another Clan's medicine cat for herbs"
         ],
         "main_trait_constraint": [
             "charismatic"
+        ]
+    },
+    {
+        "id": "charismatic_medicine_cat_elder",
+        "thoughts": [
+            "Is doing {PRONOUN/m_c/poss} daily checkup on the elders",
+            "Is thinking of just the right way to ask another Clan's medicine cat for herbs"
+        ],
+        "clan_present_status_constraint": [
+            "elder"
         ]
     },
     {
@@ -314,7 +323,7 @@
         "main_trait_constraint": [
             "loving"
         ],
-        "random_status_constraint":[
+        "clan_present_status_constraint":[
             "newborn"
         ]
     },
