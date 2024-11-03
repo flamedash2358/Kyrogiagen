@@ -1038,6 +1038,21 @@
         ]
     },
     {
+        "id": "compassionate_warrior_to_lone_app_med_cat",
+        "thoughts": [
+            "Is helping r_c with {PRONOUN/r_c/poss} duties, hoping {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} doing alright without a mentor"
+        ],
+        "random_status_constraint": [
+            "medicine cat apprentice"
+        ],
+        "main_trait_constraint": [
+            "compassionate"
+        ],
+        "clan_missing_status_constraint": [
+            "medicine cat"
+        ]
+    },
+    {
         "id": "competitive_gen",
         "thoughts": [
             "Is challenging cats around camp to participate in some friendly competition",
@@ -4615,7 +4630,8 @@
               "Isn't sure the Clan can survive long without a medicine cat"
           ],
           "clan_missing_status_constraint": [
-              "medicine cat"
+              "medicine cat",
+              "medicine cat apprentice"
           ],
           "main_status_constraint": [
             "apprentice",
@@ -4637,7 +4653,8 @@
               "STAR,1"
           ],
           "clan_missing_status_constraint": [
-              "medicine cat"
+              "medicine cat",
+              "medicine cat apprentice"
           ],
           "main_status_constraint": [
             "apprentice",
