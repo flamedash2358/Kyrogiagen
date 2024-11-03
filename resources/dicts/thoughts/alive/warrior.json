@@ -435,5 +435,33 @@
         "random_living_status": [
             "living"
         ]
+    },
+    {
+        "id": "gen_no_deputy",
+        "thoughts": [
+            "Asks r_c if {PRONOUN/r_c/subject} {VERB/m_c/think/thinks} {PRONOUN/m_c/subject} would make a good deputy"
+        ],
+        "random_status_constraint": [
+            "warrior",
+            "mediator",
+            "elder",
+            "medicine cat"
+        ],
+        "clan_missing_status_constraint": [
+            "deputy"
+        ]
+    },
+    {
+        "id": "gen_deputy",
+        "thoughts": [
+            "Stands with r_c in the clearing, waiting for the deputy to assign the day's patrols"
+        ],
+        "random_status_constraint": [
+            "warrior",
+            "apprentice"
+        ],
+        "clan_missing_status_constraint": [
+            "deputy"
+        ]
     }
 ]
