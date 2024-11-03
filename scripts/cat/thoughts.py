@@ -132,6 +132,8 @@ class Thoughts:
             if game.clan:
                 if game.clan.leader_lives not in thought['leader_life_constraint']:
                     return False
+            else:
+                return False
         
         # main cat age constraint
         if 'main_age_constraint' in thought:
