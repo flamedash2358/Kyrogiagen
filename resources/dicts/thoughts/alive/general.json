@@ -1038,12 +1038,20 @@
         ]
     },
     {
-        "id": "compassionate_warrior_to_lone_app_med_cat",
+        "id": "compassionate_to_lone_app_med_cat",
         "thoughts": [
             "Is helping r_c with {PRONOUN/r_c/poss} duties, hoping {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} doing alright without a mentor"
         ],
         "random_status_constraint": [
             "medicine cat apprentice"
+        ],
+        "main_status_constraint": [
+            "leader",
+            "deputy",
+            "warrior",
+            "mediator",
+            "apprentice",
+            "mediator apprentice"
         ],
         "main_trait_constraint": [
             "compassionate"
