@@ -119,12 +119,8 @@ class Thoughts:
         # Constraints for herb supply level
         # Accepts 'none', 'very low', 'low', 'adequate', 'full', 'excess'
         if 'herb_supply_constraint' in thought:
-            print("HERB TEST 1")
             if not check_herb_constraint(game.cat_class, thought['herb_supply_constraint']):
-                print("HERB TEST 2")
                 return False
-            else:
-                print("WORKING?", main_cat)
                 
         # Constraints for current leader's remaining lives
         # Multiple values can be accepted
