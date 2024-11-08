@@ -5,7 +5,7 @@ from copy import deepcopy
 from itertools import repeat
 from os.path import exists as path_exists
 from random import choice, randint, choices
-from typing import List, Tuple
+from typing import List, Tuple, Optional
 
 import pygame
 import ujson
@@ -103,7 +103,7 @@ class Patrol:
             self.patrol_event.intro_text, self.patrol_event.intro_text_kwargs, None
         )
 
-    def proceed_patrol(self, path: str = "proceed") -> Tuple[str]:
+    def proceed_patrol(self, path: str = "proceed") -> Tuple[str, str, Optional[str]]:
         """Proceed the patrol to the next step.
         path can be: "proceed", "antag", or "decline" """
 
@@ -166,7 +166,7 @@ class Patrol:
                 else:
                     self.patrol_statuses["all apprentices"] = 1
 
-            if cat.status in ("warrior", "deputy", "leader"):
+            if cat.status in ("warrior", "deputy", "leader") and cat.age != "adolescent":
                 if "normal adult" in self.patrol_statuses:
                     self.patrol_statuses["normal adult"] += 1
                 else:
@@ -414,7 +414,7 @@ class Patrol:
         # This is a debug option. If the patrol_id set isn "debug_ensure_patrol" is possible,
         # make it the *only* possible patrol
         if isinstance(game.config["patrol_generation"]["debug_ensure_patrol_id"], str):
-            for _pat in possible_patrols:
+            for _pat in final_patrols:
                 if (
                     _pat.patrol_id
                     == game.config["patrol_generation"]["debug_ensure_patrol_id"]
@@ -672,9 +672,9 @@ class Patrol:
 
         return all_patrol_events
 
-    def determine_outcome(self, antagonize=False):
+    def determine_outcome(self, antagonize=False) -> Tuple[str, str, Optional[str]]:
         if self.patrol_event is None:
-            return
+            raise Exception("No patrol event supplied")
 
         # First Step - Filter outcomes and pick a fail and success outcome
         success_outcomes = (
@@ -1061,7 +1061,7 @@ class Patrol:
 
         return pygame.image.load(f"{root_dir}{file_name}.png")
 
-    def process_text(self, text, text_kwargs, stat_cat: Cat) -> str:
+    def process_text(self, text, text_kwargs, stat_cat: Optional[Cat]) -> str:
         """Processes text"""
 
         vowels = ["A", "E", "I", "O", "U"]
@@ -1200,7 +1200,7 @@ class Patrol:
 
         text = text.replace("c_n", str(game.clan.name) + "Clan")
 
-        text, senses, list_type = find_special_list_types(text)
+        text, senses, list_type, _ = find_special_list_types(text)
         if list_type:
             sign_list = get_special_snippet_list(
                 list_type, amount=randint(1, 3), sense_groups=senses

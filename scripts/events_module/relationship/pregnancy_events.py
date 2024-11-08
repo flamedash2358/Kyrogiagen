@@ -262,7 +262,7 @@ class Pregnancy_Events:
                 )
                 return
 
-            # if the other cat is a female and the current cat is a male, make the female cat pregnant
+            # if the other cat is afab and the current cat is amab, make the afab cat pregnant
             pregnant_cat = cat
             second_parent = other_cat
             if (
@@ -424,6 +424,8 @@ class Pregnancy_Events:
             event_list.append(choice(events["birth"]["affair"]))
         else:
             event_list.append(choice(events["birth"]["unmated_parent"]))
+
+        involved_cats += [k.ID for k in kits]
 
         if clan.game_mode != "classic":
             try:
@@ -726,7 +728,7 @@ class Pregnancy_Events:
         blood_parent = None
 
         ##### SELECT BACKSTORY #####
-        if cat and cat.gender == "female":
+        if cat and "pregnant" in cat.injuries:
             backstory = choice(["halfclan1", "outsider_roots1"])
         elif cat:
             backstory = choice(["halfclan2", "outsider_roots2"])
@@ -756,7 +758,6 @@ class Pregnancy_Events:
 
         #### GENERATE THE KITS ######
         for kit in range(kits_amount):
-            kit = None
             if not cat:
                 # No parents provided, give a blood parent - this is an adoption.
                 if not blood_parent:
