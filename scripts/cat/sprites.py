@@ -13,9 +13,9 @@ class Sprites:
     clan_symbols = []
 
     def __init__(self):
-        """Class that handles and hold all spritesheets. 
+        """Class that handles and hold all spritesheets.
         Size is normally automatically determined by the size
-        of the lineart. If a size is passed, it will override 
+        of the lineart. If a size is passed, it will override
         this value. """
         self.symbol_dict = None
         self.size = None
@@ -226,7 +226,7 @@ class Sprites:
             for col, mask in enumerate(masks):
                 self.make_group('tortiepatchesmasks', (col, row), f"tortiemask{mask}")
 
-        # Define skin colors 
+        # Define skin colors
         skin_colors = [
             ['BLACK', 'RED', 'PINK', 'DARKBROWN', 'BROWN', 'LIGHTBROWN'],
             ['DARK', 'DARKGREY', 'GREY', 'DARKSALMON', 'SALMON', 'PEACH'],
@@ -261,7 +261,7 @@ class Sprites:
             ["LEFTEAR", "RIGHTEAR", "NOTAIL", "NOLEFTEAR", "NORIGHTEAR", "NOEAR", "HALFTAIL", "NOPAW"]
         ]
 
-        # scars 
+        # scars
         for row, scars in enumerate(scars_data):
             for col, scar in enumerate(scars):
                 self.make_group('scars', (col, row), f'scars{scar}')

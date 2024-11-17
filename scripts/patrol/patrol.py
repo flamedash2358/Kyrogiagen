@@ -369,7 +369,7 @@ class Patrol:
             possible_patrols, biome, camp, current_season, patrol_type
         )
 
-        # This is a debug option, this allows you to remove any constraints of a patrol regarding location, session, biomes, etc. 
+        # This is a debug option, this allows you to remove any constraints of a patrol regarding location, session, biomes, etc.
         if game.config["patrol_generation"]["debug_override_patrol_stat_requirements"]:
             final_patrols = final_romance_patrols = possible_patrols
             # Logging
@@ -667,7 +667,7 @@ class Patrol:
         # Run the chosen outcome
         return final_event.execute_outcome(self)
 
-    def calculate_success( 
+    def calculate_success(
         self, success_outcome: PatrolOutcome, fail_outcome: PatrolOutcome
     ) -> Tuple[PatrolOutcome, bool]:
         """Returns both the chosen event, and a boolean that's True if success, and False is fail."""
@@ -1098,7 +1098,7 @@ More Documentation: https://docs.google.com/document/d/1Vuyclyd40mjG7PFXtl0852Dl
 
 
 Patrol Template.
-This is a good starting point for writing your own patrols. 
+This is a good starting point for writing your own patrols.
 
 {
     "patrol_id": "some_unique_id",
@@ -1133,7 +1133,7 @@ This is a good starting point for writing your own patrols.
         },
         {
             SEE OUTCOME BLOCK TEMPLATE
-            
+
         },
     ],
     "fail_outcomes": [
@@ -1142,7 +1142,7 @@ This is a good starting point for writing your own patrols.
         },
         {
             SEE OUTCOME BLOCK TEMPLATE
-            
+
         },
     ],
 
@@ -1152,7 +1152,7 @@ This is a good starting point for writing your own patrols.
         },
         {
             SEE OUTCOME BLOCK TEMPLATE
-            
+
         },
     ],
 
@@ -1162,7 +1162,7 @@ This is a good starting point for writing your own patrols.
         },
         {
             SEE OUTCOME BLOCK TEMPLATE
-            
+
         },
     ],
 

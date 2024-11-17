@@ -503,7 +503,7 @@ class Cat:
 
     def __eq__(self, other):
         return self.ID == other.ID if isinstance(other, Cat) else False
-    
+
     def __hash__(self):
         return hash(self.ID)
 
@@ -2549,7 +2549,7 @@ class Cat:
             other_relationship.comfortable += 20
             other_relationship.trust += 10
             other_relationship.mate = True
-            
+
     def unset_adoptive_parent(self, other_cat: Cat):
         """Unset the adoptive parent from self"""
         self.adoptive_parents.remove(other_cat.ID)
@@ -2571,7 +2571,7 @@ class Cat:
             other_relationship.platonic_like -= 20
             other_relationship.comfortable -= 20
             other_relationship.trust -= 10
-            
+
     def set_adoptive_parent(self, other_cat: Cat):
         """Sets up a parent-child relationship between self and other_cat."""
         self.adoptive_parents.append(other_cat.ID)
