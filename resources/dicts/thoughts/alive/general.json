@@ -270,7 +270,7 @@
             "Is hoping r_c will tell {PRONOUN/m_c/object} a new story",
             "Wonders at all that r_c has seen and done",
             "Is telling r_c a story",
-            "Is spending time with r_c", 
+            "Is spending time with r_c",
             "Wonders if r_c misses {PRONOUN/r_c/poss} warrior days",
             "Wants to visit the elders to hear a story"
         ],
@@ -1138,7 +1138,7 @@
             "Feels safe within the walls of the camp",
             "Promises to stick by a Clanmate's side",
             "Refuses to reconsider a belief a Clanmate disagreed with",
-            "Is debating a conflicting belief with a Clanmate", 
+            "Is debating a conflicting belief with a Clanmate",
             "Leaves fresh-kill at the grave of a dead loved one"
         ],
         "main_trait_constraint": [
@@ -1633,10 +1633,10 @@
         "main_trait_constraint": [
             "responsible"
         ],
-        "random_status_constraint":[
+        "random_status_constraint": [
             "kitten"
         ],
-        "random_living_status":[
+        "random_living_status": [
             "living"
         ]
     },
@@ -1649,7 +1649,7 @@
             "Always cheers the loudest of any cat at naming ceremonies",
             "Silently judges a Clanmate from afar",
             "Reported a Clanmate for breaking the code",
-            "Is appalled at a Clanmate blatantly lying" 
+            "Is appalled at a Clanmate blatantly lying"
         ],
         "main_trait_constraint": [
             "righteous"
@@ -1663,10 +1663,10 @@
         "main_trait_constraint": [
             "righteous"
         ],
-        "random_status_constraint":[
+        "random_status_constraint": [
             "kitten"
         ],
-        "random_living_status":[
+        "random_living_status": [
             "living"
         ]
     },
@@ -2023,7 +2023,7 @@
         "id": "wise_to_living_apprentices",
         "thoughts": [
             "Is telling stories to a very interested bunch of apprentices",
-            "Instills {PRONOUN/m_c/poss} wisdom into some rowdy apprentices" 
+            "Instills {PRONOUN/m_c/poss} wisdom into some rowdy apprentices"
         ],
         "random_status_constraint": [
             "apprentice",
@@ -2223,7 +2223,7 @@
         "thoughts": [
             "Play fights with r_c, just like old times",
             "Reminisces with r_c about when they were kits",
-            "Takes the fresh-kill r_c was saving specifically because {PRONOUN/r_c/subject} {VERB/r_c/were/was} saving it", 
+            "Takes the fresh-kill r_c was saving specifically because {PRONOUN/r_c/subject} {VERB/r_c/were/was} saving it",
             "Is waiting for r_c to return to camp",
             "Explores the territory with r_c"
         ],
@@ -2258,7 +2258,7 @@
     },
     {
         "id": "parent_to_kit",
-        "thoughts":[
+        "thoughts": [
             "Pulls r_c aside and starts grooming {PRONOUN/r_c/object} despite {PRONOUN/r_c/poss} protests",
             "Purrs as {PRONOUN/m_c/subject} {VERB/m_c/listen/listens} to r_c talk about nothing in particular",
             "Is comforting r_c after a hard day",
@@ -3834,7 +3834,7 @@
     },
     {
         "id": "gen_to_dead_parent",
-        "thoughts":[
+        "thoughts": [
             "Heard r_c humming a tune in {PRONOUN/m_c/poss} dream that {PRONOUN/m_c/subject} remembered r_c humming in the nursery",
             "Had a tearful visit from r_c in {PRONOUN/m_c/poss} dream last night",
             "Wants to work hard knowing r_c is watching {PRONOUN/m_c/object}"
@@ -3957,7 +3957,7 @@
             "Never had to imagine life without {PRONOUN/m_c/poss} sibling...",
             "Is remembering growing up with r_c"
         ],
-        "relationship_constraint":[
+        "relationship_constraint": [
             "littermates"
         ],
         "random_living_status": [

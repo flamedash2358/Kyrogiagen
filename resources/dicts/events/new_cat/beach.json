@@ -29,20 +29,33 @@
             ]
         ],
         "relationships": [
-          {
-            "cats_from": ["m_c"],
-            "cats_to": ["n_c:0"],
-            "mutual": true,
-            "values": ["comfort"],
-            "amount": 10
-          },
-          {
-            "cats_from": ["n_c:0"],
-            "cats_to": ["m_c"],
-            "mutual": true,
-            "values": ["platonic", "trust"],
-            "amount": 10
-          }
+            {
+                "cats_from": [
+                    "m_c"
+                ],
+                "cats_to": [
+                    "n_c:0"
+                ],
+                "mutual": true,
+                "values": [
+                    "comfort"
+                ],
+                "amount": 10
+            },
+            {
+                "cats_from": [
+                    "n_c:0"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "mutual": true,
+                "values": [
+                    "platonic",
+                    "trust"
+                ],
+                "amount": 10
+            }
         ],
         "outsider": {
             "current_rep": [

@@ -8,11 +8,20 @@
             "m_c chats with r_c1 about how r_c2 is a nice cat."
         ],
         "trait_constraint": {
-            "m_c": ["charismatic", "empathetic", "loyal", "charming"]
+            "m_c": [
+                "charismatic",
+                "empathetic",
+                "loyal",
+                "charming"
+            ]
         },
         "relationship_constraint": {
-            "m_c_to_r_c2": ["platonic_20"],
-            "r_c1_to_r_c2": ["dislike_20"]
+            "m_c_to_r_c2": [
+                "platonic_20"
+            ],
+            "r_c1_to_r_c2": [
+                "dislike_20"
+            ]
         },
         "specific_reaction": {
             "m_c_to_r_c1": {
