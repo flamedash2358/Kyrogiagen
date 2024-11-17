@@ -398,7 +398,7 @@ class TestMateFunctions(unittest.TestCase):
         self.assertGreater(old_relation2.comfortable, relation2.comfortable)
         self.assertGreater(old_relation2.trust, relation2.trust)
         self.assertGreaterEqual(old_relation2.admiration, relation2.admiration)
-        self.assertGreaterEqual(old_relation2.jealousy, relation2.jealousy)  
+        self.assertGreaterEqual(old_relation2.jealousy, relation2.jealousy)
 
 
 class TestUpdateMentor(unittest.TestCase):

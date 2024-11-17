@@ -2589,7 +2589,7 @@ class Cat:
 
         if not other_cat.dead:
             if self.ID not in other_cat.relationships:
-                other_cat.create_one_relationship(self)               
+                other_cat.create_one_relationship(self)
             other_relationship = other_cat.relationships[self.ID]
             other_relationship.platonic_like += 20
             other_relationship.comfortable += 20

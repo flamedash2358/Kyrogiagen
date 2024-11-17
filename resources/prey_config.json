@@ -6,18 +6,18 @@
     "auto_apprentice_prey": [1,3],
     "condition_increase": 1,
     "base_event_trigger_factor": 4,
-	"events_weights":{
-		"death": 1,
-		"injury": 5,
-		"reduce": 8
-	},
+    "events_weights":{
+        "death": 1,
+        "injury": 5,
+        "reduce": 8
+    },
     "additional_prey": 1,
     "nutrition_malnourished_percentage" : 45,
     "nutrition_starving_percentage" : 20,
-	"text_nutrition":{
-		"lower_range":[0, 21, 41, 61, 81, 91],
-		"text": ["starving", "very hungry", "hungry", "satiated", "full", "stuffed"]
-	},
+    "text_nutrition":{
+        "lower_range":[0, 21, 41, 61, 81, 91],
+        "text": ["starving", "very hungry", "hungry", "satiated", "full", "stuffed"]
+    },
     "prey_requirement":{
         "leader": 3,
         "deputy": 3,
@@ -62,7 +62,7 @@
         "2_class_bigger_prey_allowed": [10,14],
         "3_class_bigger_prey_allowed": [5,9],
         "4_class_bigger_prey_allowed": [0,4]
-    },	
+    },    
     "patrol_balance": {
         "comment": [
         "A season array consist of ['very_small', 'small', 'medium', 'large', 'huge']",

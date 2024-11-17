@@ -191,7 +191,7 @@
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
-				"prey" : ["small"]
+                "prey" : ["small"]
             },
             {
                 "text": "r_c is about to leap for the rabbit when s_c grabs {PRONOUN/r_c/object} by the scruff and pulls {PRONOUN/r_c/object} back! A moment later, r_c sees the group of o_c_n cats that had just come into view. Good thing s_c stopped them before they could blatantly trespass in full view of the other Clan.",
@@ -204,7 +204,7 @@
                     "sneaky",
                     "responsible"
                 ],
-				"prey":["small"]
+                "prey":["small"]
             }
         ],
         "fail_outcomes": [
@@ -213,7 +213,7 @@
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1,
-				"prey": ["medium"]
+                "prey": ["medium"]
             },
             {
                 "text": "s_c pounces with no hesitation! {PRONOUN/s_c/subject/CAP} easily {VERB/s_c/kill/kills} the rabbit before glancing up and coming face-to-face with a o_c_n cat. s_c is promptly chased back over the border. The other cat glares, hissing and spitting until the patrol leaves the area.",

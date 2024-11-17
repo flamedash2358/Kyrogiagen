@@ -616,7 +616,7 @@
         "min_max_status": {},
         "weight": 20,
         "intro_text": "The patrol comes across a small dog right on the border of c_n territory.",
-        "decline_text": "p_l decides not to pursue the dog and instead cuts the patrol short to head back to camp and report it.",        
+        "decline_text": "p_l decides not to pursue the dog and instead cuts the patrol short to head back to camp and report it.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
@@ -1737,7 +1737,7 @@
                         "mutual": true,
                         "values": ["respect"],
                         "amount": 3
-                    }	
+                    }
                 ]
             },
             {
@@ -1756,7 +1756,7 @@
                         "mutual": true,
                         "values": ["respect", "trust"],
                         "amount": 3
-                    }	
+                    }
                 ]
             },
             {
@@ -1772,7 +1772,7 @@
                         "mutual": false,
                         "values": ["dislike", "trust", "comfort"],
                         "amount": 5
-                    }	
+                    }
                 ]
             },
             {
@@ -1789,7 +1789,7 @@
                         "mutual": true,
                         "values": ["platonic"],
                         "amount": 5
-                    }	
+                    }
                 ]
             }
         ],
@@ -1814,7 +1814,7 @@
                         "mutual": false,
                         "values": ["dislike"],
                         "amount": 3
-                    }	
+                    }
                 ]
             },
             {
@@ -1844,7 +1844,7 @@
                         "mutual": false,
                         "values": ["platonic", "respect"],
                         "amount": -5
-                    }		
+                    }
                 ]
             },
             {
@@ -1860,7 +1860,7 @@
                         "mutual": true,
                         "values": ["dislike"],
                         "amount": 5
-                    }	
+                    }
                 ]
             }
         ]
@@ -1907,7 +1907,7 @@
                         "mutual": true,
                         "values": ["dislike"],
                         "amount": -10
-                    }	
+                    }
                 ],
                 "other_clan_rep": -1
             },
@@ -1923,7 +1923,7 @@
                         "mutual": true,
                         "values": ["respect"],
                         "amount": 3
-                    }	
+                    }
                 ]
             },
             {
@@ -1942,7 +1942,7 @@
                         "mutual": true,
                         "values": ["respect", "trust"],
                         "amount": 3
-                    }	
+                    }
                 ]
             },
             {
@@ -1958,7 +1958,7 @@
                         "mutual": false,
                         "values": ["dislike", "trust", "comfort"],
                         "amount": 5
-                    }	
+                    }
                 ]
             },
             {
@@ -1975,7 +1975,7 @@
                         "mutual": true,
                         "values": ["platonic"],
                         "amount": 5
-                    }	
+                    }
                 ]
             }
         ],
@@ -2015,7 +2015,7 @@
                         "mutual": false,
                         "values": ["respect"],
                         "amount": -5
-                    }	
+                    }
                 ]
             },
             {
@@ -2053,7 +2053,7 @@
                         "mutual": false,
                         "values": ["platonic", "respect"],
                         "amount": -5
-                    }		
+                    }
                 ]
             },
             {
@@ -2069,7 +2069,7 @@
                         "mutual": true,
                         "values": ["dislike"],
                         "amount": 5
-                    }	
+                    }
                 ]
             },
             {
@@ -2127,7 +2127,7 @@
                 "art": "gen_happy_cat2",
                 "other_clan_rep": 2,
                 "relationships":
-				[
+                [
                 {
                     "cats_to": [ "app1" ],
                     "cats_from": [ "patrol" ],
@@ -2135,7 +2135,7 @@
                     "values": [ "platonic", "trust", "respect" ],
                     "amount": 10
                 }
-				]
+                ]
             },
             {
                 "text": "app1 watches the other apprentice from across the border as the two patrols get on with marking their side of the border in silence. Every so often, app1 looks up and catches the other apprentice's eye; would they have been friends, if they were born in the same Clan? The patrol passes without incident, and app1 can't help casting a look back at the border as {PRONOUN/app1/subject} {VERB/app1/leave/leaves}.",
@@ -2395,8 +2395,8 @@
             "exp": 5,
             "weight": 30,
             "art": "gen_hunt_huntassessment",
-	        "stat_trait": ["bold", "childish", "cold", "cunning", "daring", "troublesome", "vengeful", "bloodthirsty", "rebellious"],
-	        "herbs": ["catmint"],
+            "stat_trait": ["bold", "childish", "cold", "cunning", "daring", "troublesome", "vengeful", "bloodthirsty", "rebellious"],
+            "herbs": ["catmint"],
             "relationships": [
                 {
                     "cats_to": ["s_c"],
@@ -2406,13 +2406,13 @@
                 }
             ]
         },
-	    {
+        {
             "text": "Sick of app1's useless ambling, s_c orders {PRONOUN/app1/object} to steal a rabbit from o_c_n's territory. app1 hesitates - surely stealing prey from other Clans is wrong? Looking anxiously across the border, app1 shakes {PRONOUN/app1/poss} head. {PRONOUN/app1/subject/CAP} won't do it. Startled by app1's refusal, s_c stalks off to continue the patrol, fuming - and maybe a tiny bit impressed.",
             "exp": 10,
-	        "stat_trait": ["bloodthirsty", "arrogant", "vengeful", "fierce", "bold"],
-	        "weight": 30,
+            "stat_trait": ["bloodthirsty", "arrogant", "vengeful", "fierce", "bold"],
+            "weight": 30,
             "art": "gen_train_argueAW",
-	        "relationships": [
+            "relationships": [
                     {
                         "cats_to": ["app1"],
                         "cats_from": ["s_c"],
@@ -2420,7 +2420,7 @@
                         "values": ["respect"],
                         "amount": 10
                     },
-		    {
+            {
                         "cats_to": ["app1"],
                         "cats_from": ["s_c"],
                         "mutual": true,
@@ -2429,12 +2429,12 @@
                     }
                 ]
         },
-	    {
+        {
             "text": "Sighing to {PRONOUN/p_l/self}, p_l brightly suggests a super exciting mission for app1. All {PRONOUN/app1/subject} have to do is spot the closest bush in o_c_n territory, and sprint there and back as fast as {PRONOUN/app1/subject} can. While a slightly risky decision on p_l's part, the tiny transgression thankfully goes unnoticed, and gives app1 the thrill {PRONOUN/app1/subject} need to actually focus during the rest of the patrol. And besides, p_l reasons, what o_c_n doesn't know can't hurt them.",
             "exp": 5,
-	        "weight": 20,
+            "weight": 20,
             "art": "running_app2",
-	        "relationships": [
+            "relationships": [
                     {
                         "cats_to": ["app1"],
                         "cats_from": ["p_l"],
@@ -2453,12 +2453,12 @@
             "exp": 0,
             "weight": 20,
             "art": "gen_bord_otherclan_hostile",
-	        "other_clan_rep": -1,
-	        "relationships": [
+            "other_clan_rep": -1,
+            "relationships": [
                 {
                     "cats_to": ["app1"],
                     "cats_from": ["p_l"],
-		    "mutual": true,
+            "mutual": true,
                     "values": ["respect"],
                     "amount": -5
                 }
@@ -2469,8 +2469,8 @@
             "exp": 0,
             "weight": 20,
             "art": "gen_battle_app_other_clan",
-	        "other_clan_rep": -2,
-	        "stat_trait": ["bloodthirsty", "vengeful", "cunning", "sneaky"],
+            "other_clan_rep": -2,
+            "stat_trait": ["bloodthirsty", "vengeful", "cunning", "sneaky"],
             "injury": [
 {
                     "cats": ["app1"],
@@ -2482,7 +2482,7 @@
                 "reg_death": "m_c died from a border skirmish after sneaking across the o_c_n border.",
                 "scar": "m_c was scarred in a border skirmish after sneaking across the o_c_n border"
             },
-	        "relationships": [
+            "relationships": [
                 {
                         "cats_to": ["app1"],
                         "cats_from": ["s_c"],
@@ -2490,13 +2490,13 @@
                         "values": ["dislike"],
                         "amount": 10
                     },
-		    {
+            {
                         "cats_to": ["s_c"],
                         "cats_from": ["app1"],
                         "values": ["platonic", "trust"],
                         "amount": -10
                     }
-		    ]
+            ]
         }
 
     ]
@@ -2519,10 +2519,10 @@
         {
             "text": "Confused, p_l turns towards the source of the voice. A plump kittypet bounds forwards, saying that {PRONOUN/n_c:0/poss} name is n_c:0, and asking p_l not to hurt {PRONOUN/n_c:0/poss} friend. It takes p_l a while to realise {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} talking about the dog. Too stunned to argue, p_l watches n_c:0 walk away, {PRONOUN/n_c:0/poss} canine companion excitably following. The other warriors were not going to believe this!",
             "exp": 5,
-	        "new_cat": [
-		["kittypet", "meeting", "exists"]
-		],
-	        "relationships": [
+            "new_cat": [
+        ["kittypet", "meeting", "exists"]
+        ],
+            "relationships": [
                 {
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:0"],
@@ -2530,36 +2530,36 @@
                         "values": ["comfort"],
                         "amount": 5
                     }
-		],
+        ],
             "weight": 20,
             "art": "gen_kittypet_friends_with_dog1"
         },
-	    {
+        {
             "text": "s_c whirls around to find the source of the noise, and comes face-to-face with a startled looking kittypet. The kittypet stutters out an apology, hastily explaining that the dog is {PRONOUN/n_c:0/poss} friend, and nervously asking s_c not to hurt them. Any other day, s_c might have clawed <i>both</i> of their faces off, but right now, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} in too much shock at the concept of a cat and dog being friends to even consider it.",
             "exp": 5,
-	        "new_cat": [
-		["kittypet", "meeting", "exists"]
-		],
-	        "relationships": [
-	           {
+            "new_cat": [
+        ["kittypet", "meeting", "exists"]
+        ],
+            "relationships": [
+               {
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:0"],
                         "values": ["comfort"],
                         "amount": -5
                     }
-	    ],
-	        "stat_trait": ["bloodthirsty", "arrogant", "vengeful", "fierce", "cold", "grumpy"],
-	        "weight": 30,
+        ],
+            "stat_trait": ["bloodthirsty", "arrogant", "vengeful", "fierce", "cold", "grumpy"],
+            "weight": 30,
             "art": "gen_kittypet_friends_with_dog1"
 
         },
         {
             "text": "p_l lashes out to swipe at the dog but is interrupted by a kittypet rushing to stand in {PRONOUN/p_l/poss} way. p_l's fur bristles for a moment, but the kittypet tells {PRONOUN/p_l/object} to calm down, that this is {PRONOUN/n_c:0/poss} friend. As p_l recovers from. <i>Whatever this is</i>, {PRONOUN/p_l/subject} offers the kittypet a place to stay in c_n- this kittypet's skill in communicating with dogs may come in handy later.",
             "exp": 10,
-	        "new_cat": [
-		["status:warrior", "backstory:kittypet1", "kittypet", "exists"]
-		],
-	        "relationships": [
+            "new_cat": [
+        ["status:warrior", "backstory:kittypet1", "kittypet", "exists"]
+        ],
+            "relationships": [
                 {
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:0"],
@@ -2567,7 +2567,7 @@
                         "values": ["platonic","trust"],
                         "amount": 10
                     }
-		],
+        ],
             "weight": 20,
             "art": "gen_kittypet_friends_with_dog1",
             "outsider_rep": 1
@@ -2575,14 +2575,14 @@
     ],
             "fail_outcomes": [
         {
-	        "text": "Momentarily distracted, p_l doesn't have time to react as the increasingly-infuriating dog nips at {PRONOUN/p_l/poss} ear. {PRONOUN/p_l/subject/CAP} {VERB/p_l/hiss/hisses}, lashing out at the dog just as an incredibly appologetic kittypet rushes over, leading the whimpering dog away. p_l stares after them in shock. Did that dog actually listen to the kittypet...? Perhaps better to head back to camp, and process this bizarre experience.",
+            "text": "Momentarily distracted, p_l doesn't have time to react as the increasingly-infuriating dog nips at {PRONOUN/p_l/poss} ear. {PRONOUN/p_l/subject/CAP} {VERB/p_l/hiss/hisses}, lashing out at the dog just as an incredibly appologetic kittypet rushes over, leading the whimpering dog away. p_l stares after them in shock. Did that dog actually listen to the kittypet...? Perhaps better to head back to camp, and process this bizarre experience.",
             "exp": 2,
-	        "weight": 20,
+            "weight": 20,
             "art": "gen_kittypet_friends_with_dog1",
-	        "new_cat": [
-		    ["kittypet", "meeting", "exists"]
-		],
-	        "relationships": [
+            "new_cat": [
+            ["kittypet", "meeting", "exists"]
+        ],
+            "relationships": [
                 {
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:0"],
@@ -2590,31 +2590,31 @@
                         "values": ["dislike"],
                         "amount": 5
                     },
-		    {
+            {
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:0"],
                         "mutual": true,
                         "values": ["platonic", "comfort"],
                         "amount": -10
                     }
-		],
-	        "injury": [
-		{
+        ],
+            "injury": [
+        {
                     "cats": ["p_l"],
                     "injuries": ["torn ear"],
                     "scars": ["RIGHTEAR", "LEFTEAR"]
                 }
             ]
         },
-	{
-	    "text": "p_l spins around just in time to see an impressively viscous kittypet lunging at {PRONOUN/p_l/object}. Once {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} recovered from {PRONOUN/p_l/poss} momentary shock, p_l easily overpowers the kittypet, who's snarling something about the dog being {PRONOUN/n_c:0/poss} 'friend'. The odd pair quickly run off, leaving behind a slightly dazed - and very confused - p_l.",
+    {
+        "text": "p_l spins around just in time to see an impressively viscous kittypet lunging at {PRONOUN/p_l/object}. Once {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} recovered from {PRONOUN/p_l/poss} momentary shock, p_l easily overpowers the kittypet, who's snarling something about the dog being {PRONOUN/n_c:0/poss} 'friend'. The odd pair quickly run off, leaving behind a slightly dazed - and very confused - p_l.",
         "exp": 2,
-	    "weight": 15,
+        "weight": 15,
         "art": "gen_battle_warrior_danger",
-	     "new_cat": [
-		["kittypet", "meeting", "exists"]
-		],
-	    "relationships": [
+         "new_cat": [
+        ["kittypet", "meeting", "exists"]
+        ],
+        "relationships": [
                 {
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:0"],
@@ -2622,42 +2622,42 @@
                         "values": ["dislike"],
                         "amount": 10
                     },
-		{
+        {
                         "cats_to": ["n_c:0"],
                         "cats_from": ["p_l"],
                         "values": ["respect"],
                         "amount": 5
                     },
-		    {
+            {
                         "cats_to": ["n_c:0"],
                         "cats_from": ["p_l"],
-			            "mutual": true,
+                        "mutual": true,
                         "values": ["platonic", "comfort"],
                         "amount": -10
                     }
-		],
-	    "       injury": [
-		{
+        ],
+        "       injury": [
+        {
                     "cats": ["p_l"],
                     "injuries": ["claw-wound", "cat bite", "torn pelt", "torn ear"],
                     "scars": ["RIGHTEAR", "LEFTEAR", "SCRATCHSIDE", "CATBITETWO"]
                 }
             ],
-		        "history_text": {
+                "history_text": {
                 "reg_death": "m_c died from injuries given by a particularly vicious kittypet.",
-		        "lead_death": "died from injuries given by a particularly vicious kittypet",
+                "lead_death": "died from injuries given by a particularly vicious kittypet",
                 "scar": "m_c was scarred after a kittypet took them by surprise, though {PRONOUN/p_l/subject} {VERB/p_l/tell/tells} everyone it was a bloodthirsty rogue."
             }
         }
       ],
-	    "antag_success_outcomes": [
+        "antag_success_outcomes": [
         {
-	        "text": "p_l ignores the voice, swiping {PRONOUN/p_l/poss} claws across the dog's face. Out of the corner of {PRONOUN/p_l/poss} eye, {PRONOUN/p_l/subject} sees a kittypet halt in {PRONOUN/n_c:0/poss} tracks, letting out a cry of dismay. It only takes another snarl from p_l for both kittypet and dog to flee.",
+            "text": "p_l ignores the voice, swiping {PRONOUN/p_l/poss} claws across the dog's face. Out of the corner of {PRONOUN/p_l/poss} eye, {PRONOUN/p_l/subject} sees a kittypet halt in {PRONOUN/n_c:0/poss} tracks, letting out a cry of dismay. It only takes another snarl from p_l for both kittypet and dog to flee.",
             "exp": 5,
-	        "new_cat": [
-		["kittypet", "meeting", "exists"]
-		],
-	        "relationships": [
+            "new_cat": [
+        ["kittypet", "meeting", "exists"]
+        ],
+            "relationships": [
                 {
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:0"],
@@ -2665,10 +2665,10 @@
                         "values": ["dislike"],
                         "amount": 15
                     }
-		],
-	        "weight": 10,
+        ],
+            "weight": 10,
             "art": "gen_kittypet_friends_with_dog1"
-	},
+    },
     {
             "text": "p_l lets out a vicious yowl, ignoring the now shrill voice calling out to {PRONOUN/p_l/object}, pleading with {PRONOUN/p_l/object} to stop as {PRONOUN/p_l/subject} {VERB/p_l/attack/attacks} the dog, violently tearing at the dog's pelt as it yaps and whines. After the tussle, the dog hauls itself towards the now teary-eyed kittypet, and p_l can't help but smirk at {PRONOUN/n_c:0/poss} terrified expression.",
             "exp": 5,
@@ -2688,15 +2688,15 @@
             "stat_trait": ["bloodthirsty", "vengeful"],
                 "art": "gen_kittypet_friends_with_dog1"
         }
-	],
-	        "antag_fail_outcomes": [
+    ],
+            "antag_fail_outcomes": [
         {
-	        "text": "p_l ignores the voice, and is about to swipe {PRONOUN/p_l/poss} claws across the dog's face when a kittypet barrels into {PRONOUN/p_l/object}. Having caught p_l by surprise, the kittypet is able to get a lucky blow, and the warrior is forced to retreat.",
+            "text": "p_l ignores the voice, and is about to swipe {PRONOUN/p_l/poss} claws across the dog's face when a kittypet barrels into {PRONOUN/p_l/object}. Having caught p_l by surprise, the kittypet is able to get a lucky blow, and the warrior is forced to retreat.",
             "exp": 0,
-	        "new_cat": [
-		["kittypet", "meeting", "exists"]
-		],
-	        "relationships": [
+            "new_cat": [
+        ["kittypet", "meeting", "exists"]
+        ],
+            "relationships": [
                 {
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:0"],
@@ -2704,19 +2704,19 @@
                         "values": ["dislike"],
                         "amount": 15
                     }
-		],
-	        "weight": 10,
+        ],
+            "weight": 10,
             "art": "gen_battle_warrior_danger",
-	        "injury": [
+            "injury": [
                     {
                         "cats": ["p_l"],
-			            "injuries": ["claw-wound"],
+                        "injuries": ["claw-wound"],
                         "scars": ["THREE", "BRIDGE", "SNOUT", "FACE", "CHEEK"]
                     }
                 ],
-		    "history_text": {
+            "history_text": {
                 "reg_death": "m_c died from injuries given by a particularly vicious kittypet.",
-		        "lead_death": "died from injuries given by a particularly vicious kittypet",
+                "lead_death": "died from injuries given by a particularly vicious kittypet",
                 "scar": "m_c was scarred when a kittypet took {PRONOUN/m_c/object} by surprise, though {PRONOUN/m_c/subject} {VERB/m_c/tell/tells} everyone it was a bloodthirsty rogue."
             }
             }
@@ -2897,25 +2897,25 @@
     ]
 },
 {
-	"patrol_id": "gen_border_romeo_and_juliet",
-	"biome": [ "any" ],
-	"season": [ "any" ],
-	"types": [],
-	"tags": [ "other_clan", "new_cat" ],
-	"patrol_art": "gen_train_talkingWOCW",
-	"min_cats": 1,
-	"max_cats": 1,
-	"min_max_status": {
+    "patrol_id": "gen_border_romeo_and_juliet",
+    "biome": [ "any" ],
+    "season": [ "any" ],
+    "types": [],
+    "tags": [ "other_clan", "new_cat" ],
+    "patrol_art": "gen_train_talkingWOCW",
+    "min_cats": 1,
+    "max_cats": 1,
+    "min_max_status": {
         "normal adult": [1, 1],
         "all apprentices": [-1, -1],
         "leader": [-1, -1]
-	},
-	"weight": 10,
-	"chance_of_success": 40,
-	"intro_text": "p_l slinks out of camp to the o_c_n border. A pair of eyes gleam from the bushes, then {PRONOUN/p_l/poss} secret beloved appears. p_l breathes in the o_c_n scent, feeling a guilty rush of delight {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} felt so many times before. But tonight is different. Tonight, p_l's o_c_n lover has come to give {PRONOUN/p_l/object} an ultimatum.",
-	"decline_text": "p_l admits {PRONOUN/p_l/subject} can't stay and hurries back to camp.",
-	"success_outcomes": [
-		{
+    },
+    "weight": 10,
+    "chance_of_success": 40,
+    "intro_text": "p_l slinks out of camp to the o_c_n border. A pair of eyes gleam from the bushes, then {PRONOUN/p_l/poss} secret beloved appears. p_l breathes in the o_c_n scent, feeling a guilty rush of delight {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} felt so many times before. But tonight is different. Tonight, p_l's o_c_n lover has come to give {PRONOUN/p_l/object} an ultimatum.",
+    "decline_text": "p_l admits {PRONOUN/p_l/subject} can't stay and hurries back to camp.",
+    "success_outcomes": [
+        {
             "text": "p_l begs n_c:0 to come back with {PRONOUN/p_l/object}. n_c:0 shakes {PRONOUN/n_c:0/poss} head regretfully, reminding {PRONOUN/p_l/object} that their Clans would never accept it. Instead, n_c:0 declares {PRONOUN/n_c:0/poss} intent to live beyond the borders, and asks p_l to join {PRONOUN/n_c:0/object} when {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} ready.",
             "exp": 20,
             "weight": 50,
@@ -2927,14 +2927,14 @@
                     "mutual": true,
                     "values": ["romantic", "platonic"],
                     "amount": 46
-        },	
+        },
         {
                 "cats_to": ["p_l"],
                 "cats_from": ["n_c:0"],
                 "mutual": true,
                 "values": ["trust", "comfort"],
                 "amount": 28
-        },	
+        },
         {
                 "cats_to": ["p_l"],
                 "cats_from": [ "clan" ],
@@ -2961,14 +2961,14 @@
             "mutual": true,
             "values": ["romantic", "platonic"],
             "amount": 46
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": ["n_c:0"],
         "mutual": true,
         "values": ["trust", "comfort"],
         "amount": 28
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": [ "clan" ],
@@ -2994,14 +2994,14 @@
             "mutual": true,
             "values": ["romantic", "platonic"],
             "amount": 46
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": ["n_c:0"],
         "mutual": true,
         "values": ["trust", "comfort"],
         "amount": 28
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": [ "clan" ],
@@ -3015,9 +3015,9 @@
 ],
 "art": "gen_flower_date_warrior_other_clan"
 }
-	],
-	"fail_outcomes": [
-		
+    ],
+    "fail_outcomes": [
+        
 {
     "text": "{PRONOUN/p_l/subject/CAP}{VERB/p_l/'ve/'s} made up {PRONOUN/p_l/poss} mind. p_l presses {PRONOUN/p_l/poss} pelt to n_c:0's, purring bittersweetly. {PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} said {PRONOUN/p_l/poss} goodbyes, and so has n_c:0. Now all that's left is to travel to the outer border together to start their shared life.",
     "exp": 5,
@@ -3031,14 +3031,14 @@
             "mutual": true,
             "values": ["romantic", "platonic"],
             "amount": 46
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": ["n_c:0"],
         "mutual": true,
         "values": ["trust", "comfort"],
         "amount": 28
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": [ "clan" ],
@@ -3070,14 +3070,14 @@
             "mutual": true,
             "values": ["romantic", "platonic"],
             "amount": 24
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": ["n_c:0"],
         "mutual": true,
         "values": ["trust", "comfort"],
         "amount": 12
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": [ "clan" ],
@@ -3121,14 +3121,14 @@
             "mutual": true,
             "values": ["romantic", "platonic"],
             "amount": 46
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": ["n_c:0"],
         "mutual": true,
         "values": ["trust", "comfort"],
         "amount": 28
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": [ "clan" ],
@@ -3166,14 +3166,14 @@
             "mutual": true,
             "values": ["romantic", "platonic"],
             "amount": 46
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": ["n_c:0"],
         "mutual": true,
         "values": ["trust", "comfort"],
         "amount": 28
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": [ "clan" ],
@@ -3205,14 +3205,14 @@
             "mutual": true,
             "values": ["romantic", "platonic"],
             "amount": 46
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": ["n_c:0"],
         "mutual": true,
         "values": ["trust", "comfort"],
         "amount": 28
-},	
+},
 {
         "cats_to": ["p_l"],
         "cats_from": [ "clan" ],
@@ -3226,10 +3226,10 @@
 ],
 "art": "gen_battle_warrior_other_clan"
 }
-	],
+    ],
 
-	"antag_success_outcomes": [
-		{
+    "antag_success_outcomes": [
+        {
             "text": "As they discuss running away together, p_l and n_c:0 lose track of time together and only realize the sun is rising when a c_n dawn patrol finds them. p_l tries to calm {PRONOUN/p_l/poss} Clanmates, but it's futile. They pounce on n_c:0, and though p_l tries to defend {PRONOUN/n_c:0/object}, n_c:0 is too grievously injured in the fray.",
             "exp": 0,
             "weight": 10,
@@ -3253,28 +3253,28 @@
                     "mutual": true,
                     "values": ["romantic", "platonic"],
                     "amount": 46
-        },	
+        },
         {
                 "cats_to": ["p_l"],
                 "cats_from": ["n_c:0"],
                 "mutual": true,
                 "values": ["trust", "comfort"],
                 "amount": 28
-        },	
+        },
         {
                 "cats_to": ["p_l"],
                 "cats_from": [ "clan" ],
                 "mutual": true,
                 "values": ["trust"],
                 "amount": -15
-        },	
+        },
         {
                 "cats_to": ["clan"],
                 "cats_from": [ "p_l" ],
                 "mutual": false,
                 "values": ["comfort", "platonic" ],
                 "amount": -10
-        },	
+        },
         {
                 "cats_to": ["clan"],
                 "cats_from": [ "p_l" ],
@@ -3300,14 +3300,14 @@
                     "mutual": true,
                     "values": ["romantic", "platonic"],
                     "amount": 22
-        },	
+        },
         {
                 "cats_to": ["p_l"],
                 "cats_from": ["n_c:0"],
                 "mutual": true,
                 "values": ["trust", "comfort"],
                 "amount": 14
-        },	
+        },
         {
                 "cats_to": ["p_l"],
                 "cats_from": [ "clan" ],
@@ -3322,8 +3322,8 @@
 
         "art": "gen_bord_twocat_hostile_warrior_warrior"
         }
-	],
-	"antag_fail_outcomes": [
+    ],
+    "antag_fail_outcomes": [
         {
             "text": "p_l and n_c:0 spend moonhigh together discussing whether to run away together, but then a rustle from both sides of the border reveals that their Clans have found them. Before p_l or n_c:0 can explain, battle erupts between the two patrols, fur flying and blood soaking the ground. Both p_l and n_c:0 are left cold in the aftermath, still reaching out for each other.",
             "exp": 0,
@@ -3337,14 +3337,14 @@
                     "mutual": true,
                     "values": ["romantic", "platonic"],
                     "amount": 48
-        },	
+        },
         {
                 "cats_to": ["p_l"],
                 "cats_from": ["n_c:0"],
                 "mutual": true,
                 "values": ["trust", "comfort"],
                 "amount": 36
-        },	
+        },
         {
                 "cats_to": ["p_l"],
                 "cats_from": [ "clan" ],
@@ -3363,53 +3363,53 @@
         ],
         "art": "gen_battle_warrior_other_clan"
         }
-	]
+    ]
 },
 {
-	"patrol_id": "gen_bord_asyoulikeit1",
-	"biome": [ "any" ],
-	"season": [ "any" ],
-	"types": [],
-	"tags": [],
-	"patrol_art": "cat_running_two",
-	"min_cats": 2,
-	"max_cats": 2,
-	"min_max_status": {
-		"normal adult": [1, 6],
-		"all apprentices": [-1, -1]
-	},
-	"weight": 20,
-	"chance_of_success": 50,
-	"intro_text": "p_l and r_c head to the outer border, near some Twoleg nests. {PRONOUN/p_l/subject/CAP} {VERB/p_l/signal/signals} silently for r_c to stop when {PRONOUN/p_l/subject} {VERB/p_l/hear/hears} some commotion. Together, they peep from the bushes and see two kittypets locked in argument.",
-	"decline_text": "Squabbling kittypets is no business of c_n's. p_l carries on with the patrol.",
-	"success_outcomes": [
-		{
-	    "text": "Through eavesdropping, p_l and r_c learn that one kittypet - n_c:0 - is in love with the other - n_c:1 - who is having none of it. p_l inserts {PRONOUN/p_l/self} into the situation and tells n_c:0 {PRONOUN/n_c:0/subject} should take no for an answer. n_c:1 shoots p_l a grateful look.",
-	    "exp": 20,
+    "patrol_id": "gen_bord_asyoulikeit1",
+    "biome": [ "any" ],
+    "season": [ "any" ],
+    "types": [],
+    "tags": [],
+    "patrol_art": "cat_running_two",
+    "min_cats": 2,
+    "max_cats": 2,
+    "min_max_status": {
+        "normal adult": [1, 6],
+        "all apprentices": [-1, -1]
+    },
+    "weight": 20,
+    "chance_of_success": 50,
+    "intro_text": "p_l and r_c head to the outer border, near some Twoleg nests. {PRONOUN/p_l/subject/CAP} {VERB/p_l/signal/signals} silently for r_c to stop when {PRONOUN/p_l/subject} {VERB/p_l/hear/hears} some commotion. Together, they peep from the bushes and see two kittypets locked in argument.",
+    "decline_text": "Squabbling kittypets is no business of c_n's. p_l carries on with the patrol.",
+    "success_outcomes": [
+        {
+        "text": "Through eavesdropping, p_l and r_c learn that one kittypet - n_c:0 - is in love with the other - n_c:1 - who is having none of it. p_l inserts {PRONOUN/p_l/self} into the situation and tells n_c:0 {PRONOUN/n_c:0/subject} should take no for an answer. n_c:1 shoots p_l a grateful look.",
+        "exp": 20,
         "weight": 20,
-	    "outsider_rep": 2,
-	"relationships": [
+        "outsider_rep": 2,
+    "relationships": [
         {
-			"cats_to": [ "n_c:1" ],
-			"cats_from": [ "n_c:0" ],
-			"mutual": false,
-			"values": [ "romantic", "platonic", "trust", "comfort", "admiration" ],
-			"amount": 55
-        },	
+            "cats_to": [ "n_c:1" ],
+            "cats_from": [ "n_c:0" ],
+            "mutual": false,
+            "values": [ "romantic", "platonic", "trust", "comfort", "admiration" ],
+            "amount": 55
+        },
         {
-			"cats_to": [ "n_c:0" ],
-			"cats_from": [ "n_c:1" ],
-			"mutual": false,
-			"values": [ "dislike" ],
-			"amount": 25
-		},	
+            "cats_to": [ "n_c:0" ],
+            "cats_from": [ "n_c:1" ],
+            "mutual": false,
+            "values": [ "dislike" ],
+            "amount": 25
+        },
         {
             "cats_to": [ "n_c:0" ],
             "cats_from": [ "n_c:1" ],
             "mutual": false,
             "values": [ "platonic", "trust" ],
             "amount": 15
-        },	
+        },
         {
             "cats_to": [ "p_l" ],
             "cats_from": [ "n_c:1" ],
@@ -3436,14 +3436,14 @@
         "mutual": false,
         "values": [ "romantic", "platonic", "trust", "comfort", "admiration" ],
         "amount": 55
-    },	
+    },
     {
         "cats_to": [ "n_c:0" ],
         "cats_from": [ "n_c:1" ],
         "mutual": false,
         "values": [ "dislike" ],
         "amount": 25
-    },	
+    },
     {
         "cats_to": [ "n_c:0" ],
         "cats_from": [ "n_c:1" ],
@@ -3457,8 +3457,8 @@
 ["meeting", "kittypet", "age:young adult", "exists"]
 ],
 "art": "gen_gen_newcat_hostile"
-		},
-		{
+        },
+        {
             "text": "Through eavesdropping, p_l and r_c learn that one kittypet - n_c:0 - is in love with the other - n_c:1 - who is having none of it. s_c steps forward to help them see each other's side and come to a resolution. n_c:0 apologizes for badgering n_c:1, and n_c:1 admits {PRONOUN/n_c:1/subject} {VERB/n_c:1/do/does} feel some fondness for {PRONOUN/n_c:0/object}, but {PRONOUN/n_c:1/subject} {VERB/n_c:1/are/is}n't ready for that kind of commitment.",
             "exp": 20,
             "weight": 50,
@@ -3471,21 +3471,21 @@
                 "mutual": false,
                 "values": [ "romantic", "platonic", "trust", "comfort", "admiration" ],
                 "amount": 55
-            },	
+            },
             {
                 "cats_to": [ "n_c:0" ],
                 "cats_from": [ "n_c:1" ],
                 "mutual": false,
                 "values": [ "dislike" ],
                 "amount": 5
-            },	
+            },
             {
                 "cats_to": [ "n_c:0" ],
                 "cats_from": [ "n_c:1" ],
                 "mutual": false,
                 "values": [ "romantic", "platonic", "trust" ],
                 "amount": 15
-            },	
+            },
             {
                 "cats_to": [ "s_c" ],
                 "cats_from": [ "n_c:1", "n_c:0" ],
@@ -3513,21 +3513,21 @@
             "mutual": false,
             "values": [ "romantic", "platonic", "trust", "comfort", "admiration" ],
             "amount": 55
-        },	
+        },
         {
             "cats_to": [ "n_c:0" ],
             "cats_from": [ "n_c:1" ],
             "mutual": false,
             "values": [ "dislike" ],
             "amount": 5
-        },	
+        },
         {
             "cats_to": [ "n_c:0" ],
             "cats_from": [ "n_c:1" ],
             "mutual": false,
             "values": [ "romantic", "platonic", "trust" ],
             "amount": 15
-        },	
+        },
         {
             "cats_to": [ "s_c" ],
             "cats_from": [ "n_c:1", "n_c:0" ],
@@ -3542,9 +3542,9 @@
 ],
 "art": "gen_speaking_cat_w2"
 }
-	],
-	"fail_outcomes": [
-		{
+    ],
+    "fail_outcomes": [
+        {
             "text": "Through eavesdropping, p_l and r_c learn that one kittypet - n_c:0 - is in love with the other - n_c:1 - who is having none of it. p_l steps in and tells n_c:0 {PRONOUN/n_c:0/subject} should take no for an answer. n_c:1 shoots p_l a grateful and flirty look, and p_l hastily backs off. n_c:0 catches that glance, jealousy in {PRONOUN/n_c:0/poss} eyes.",
             "exp": 20,
             "weight": 20,
@@ -3556,28 +3556,28 @@
                 "mutual": false,
                 "values": [ "romantic", "platonic", "trust", "comfort", "admiration" ],
                 "amount": 55
-            },	
+            },
             {
                 "cats_to": [ "n_c:0" ],
                 "cats_from": [ "n_c:1" ],
                 "mutual": false,
                 "values": [ "dislike" ],
                 "amount": 25
-            },	
+            },
             {
                 "cats_to": [ "n_c:0" ],
                 "cats_from": [ "n_c:1" ],
                 "mutual": false,
                 "values": [ "platonic", "trust" ],
                 "amount": 15
-            },	
+            },
             {
                 "cats_to": [ "p_l" ],
                 "cats_from": [ "n_c:1" ],
                 "mutual": false,
                 "values": [ "romantic", "platonic", "trust", "comfort" ],
                 "amount": 15
-            },	
+            },
             {
                 "cats_to": [ "p_l" ],
                 "cats_from": [ "n_c:0" ],
@@ -3611,7 +3611,7 @@
         "mutual": false,
         "values": [ "platonic", "trust" ],
         "amount": 45
-    },	
+    },
     {
         "cats_to": [ "p_l" ],
         "cats_from": [ "n_c:1", "n_c:0" ],
@@ -3625,7 +3625,7 @@
 ["meeting", "kittypet", "age:young adult", "exists"]
 ],
 "art": "gen_bord_twocat_hostile_loner_loner"
-	},
+    },
     {
         "text": "s_c has no interest in what the kittypets' problems with each other are. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stroll/strolls} forward and coldly tells them both to get lost before s_c sends them off with their tails between their legs.",
         "exp": 20,
@@ -3654,8 +3654,8 @@
     ],
     "art": "gen_bord_twocat_hostile_warrior_warrior"
         }
-	],
-	"antag_success_outcomes": [
+    ],
+    "antag_success_outcomes": [
         {
             "text": "p_l rolls {PRONOUN/p_l/poss} eyes and interrupts the kittypets' argument to tell them both to scram - and to go tell all their kittypet friends to keep their personal lives on the other side of the border.",
             "exp": 20,
@@ -3709,7 +3709,7 @@
 ["meeting", "kittypet", "age:young adult", "exists"]
 ],
 "art": "gen_battle_warrior_loner"
-		},
+        },
         {
             "text": "Through eavesdropping, p_l and r_c learn that one kittypet - n_c:0 - is in love with the other - n_c:1 - who is having none of it. p_l interrupts to tell n_c:1 that an ugly mangepelt like {PRONOUN/n_c:1/self} should be pleased that any cat at all has shown an interest.",
             "exp": 20,
@@ -3728,14 +3728,14 @@
                 "mutual": false,
                 "values": [ "romantic", "platonic", "trust", "comfort", "admiration" ],
                 "amount": 55
-            },	
+            },
             {
                 "cats_to": [ "n_c:0" ],
                 "cats_from": [ "n_c:1" ],
                 "mutual": false,
                 "values": [ "dislike" ],
                 "amount": 25
-            },	
+            },
             {
                 "cats_to": [ "n_c:0" ],
                 "cats_from": [ "n_c:1" ],
@@ -3749,7 +3749,7 @@
         ["meeting", "kittypet", "age:young adult", "exists"]
         ],
         "art": "gen_gen_newcat_hostile"
-                },		
+                },
         {
                     "text": "Through eavesdropping, p_l and r_c learn that one kittypet - n_c:0 - is in love with the other - n_c:1 - who is having none of it. p_l interrupts to tell n_c:0 that {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} flattering a prideful and vain-hearted mouse-brain. Neither kittypet seems to appreciate this.",
                     "exp": 20,
@@ -3768,14 +3768,14 @@
                         "mutual": false,
                         "values": [ "romantic", "platonic", "trust", "comfort", "admiration" ],
                         "amount": 55
-                    },	
+                    },
                     {
                         "cats_to": [ "n_c:0" ],
                         "cats_from": [ "n_c:1" ],
                         "mutual": false,
                         "values": [ "dislike" ],
                         "amount": 25
-                    },	
+                    },
                     {
                         "cats_to": [ "n_c:0" ],
                         "cats_from": [ "n_c:1" ],
@@ -3790,9 +3790,9 @@
                 ],
                 "art": "gen_bord_twocat_hostile_loner_loner"
         }
-	],
-	"antag_fail_outcomes": [
-		{
+    ],
+    "antag_fail_outcomes": [
+        {
             "text": "p_l doesn't care about kittypet drama. {PRONOUN/p_l/subject/CAP} {VERB/p_l/interrupt/interrupts} and {VERB/p_l/tell/tells} the kittypets to get lost. One kittypet doesn't appreciate p_l's tone and takes a swipe at {PRONOUN/p_l/object}. r_c jumps in to help a humiliated p_l drive off the kittypets.",
 
             "exp": 20,
@@ -3830,7 +3830,7 @@
         ["meeting", "kittypet", "age:young adult", "exists"]
         ],
         "art": "gen_battle_warrior_loner"
-},        
+},
 {
     "text": "Through eavesdropping, p_l and r_c learn that one kittypet - n_c:0 - is in love with the other - n_c:1 - who is having none of it. p_l interrupts to tell n_c:1 that {PRONOUN/n_c:1/subject}{VERB/n_c:1/'re/'s} one of the ugliest badger-faced fleapelts p_l's ever had the displeasure of looking on. Inexplicably, n_c:1 bats {PRONOUN/n_c:1/poss} eyelashes at p_l and giggles. n_c:0 looks on jealously.",
     "exp": 20,
@@ -3857,14 +3857,14 @@
         "mutual": false,
         "values": [ "romantic", "platonic", "trust", "comfort", "admiration" ],
         "amount": 55
-    },	
+    },
     {
         "cats_to": [ "n_c:0" ],
         "cats_from": [ "n_c:1" ],
         "mutual": false,
         "values": [ "dislike" ],
         "amount": 25
-    },	
+    },
     {
         "cats_to": [ "n_c:0" ],
         "cats_from": [ "n_c:1" ],
@@ -3879,6 +3879,6 @@
 ],
 "art": "gen_happy_cat3"
 }
-	]
+    ]
 }
 ]
