@@ -265,7 +265,7 @@ class GroupEvents:
         # last filter based on relationships between the cats
         filtered = []
         for interact in interactions:
-            # if this interaction is not in the  abbreviations dictionary,
+            # if this interaction is not in the abbreviations dictionary,
             # there is no solution for the cat-abbreviations problem and thus, this
             # interaction is not possible
             if interact.id not in abbr_per_interaction.keys():

@@ -4,7 +4,7 @@ import os
 from os.path import exists as file_exists
 import re
 
-""" This script exists to count and catalogue all patrols.   """
+"""This script exists to count and catalogue all patrols. """
 
 ALL_PATROLS = []
 DETAILS = {}
