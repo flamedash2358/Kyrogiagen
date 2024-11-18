@@ -545,7 +545,7 @@ def reformat(path):
         # print(new_format["tags"])
 
         dict_text = ujson.dumps(new_format, indent=4)
-        dict_text = dict_text.replace("\/", "/")  # ujson tries to escape "/", but doesn't end up doing a good job.
+        dict_text = dict_text.replace("\/", "/") # ujson tries to escape "/", but doesn't end up doing a good job.
 
         if "injury" in path:
             if "beach" in path:

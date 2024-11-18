@@ -4,7 +4,7 @@ from os.path import exists as file_exists
 
 import ujson
 
-""" This script exists to count and catalogue all patrols.   """
+"""This script exists to count and catalogue all patrols. """
 
 ALL_PATROLS = []
 DETAILS = {}

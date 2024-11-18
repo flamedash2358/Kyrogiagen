@@ -26,7 +26,7 @@ class TestCreationAge(unittest.TestCase):
     def test_young_adult(self):
         test_cat = Cat(moons=12)
         self.assertEqual(test_cat.age, "young adult")
-    
+
     # test that a cat with 48-95 moons has the age of an adult
     def test_adult(self):
         test_cat = Cat(moons=48)
@@ -334,7 +334,7 @@ class TestMateFunctions(unittest.TestCase):
         old_relation1 = deepcopy(relation1)
         relation2 = Relationship(cat2, cat1)
         old_relation2 = deepcopy(relation1)
-        
+
         cat1.relationships[cat2.ID] = relation1
         cat2.relationships[cat1.ID] = relation2
 
@@ -398,7 +398,7 @@ class TestMateFunctions(unittest.TestCase):
         self.assertGreater(old_relation2.comfortable, relation2.comfortable)
         self.assertGreater(old_relation2.trust, relation2.trust)
         self.assertGreaterEqual(old_relation2.admiration, relation2.admiration)
-        self.assertGreaterEqual(old_relation2.jealousy, relation2.jealousy)  
+        self.assertGreaterEqual(old_relation2.jealousy, relation2.jealousy)
 
 
 class TestUpdateMentor(unittest.TestCase):

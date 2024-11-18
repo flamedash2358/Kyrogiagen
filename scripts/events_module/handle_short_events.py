@@ -155,7 +155,7 @@ class HandleShortEvents:
             if not found:
                 # this print is very spammy, but can be helpful if unsure why a debug event isn't triggering
                 # print(f"debug_ensure_event_id: {game.config['event_generation']['debug_ensure_event_id']} "
-                #      f"was not possible for {self.main_cat.name}.  {self.main_cat.name} was looking for a {event_type}: {self.sub_types} event")
+                #      f"was not possible for {self.main_cat.name}. {self.main_cat.name} was looking for a {event_type}: {self.sub_types} event")
                 pass
         # ---------------------------------------------------------------------------- #
         #                               do the event                                   #

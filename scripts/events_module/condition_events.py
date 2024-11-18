@@ -493,7 +493,7 @@ class Condition_Events:
                     return perm_condition
             else:
                 print(
-                    f"WARNING: {scar} for {injury_name} is either None or is not in scar_to_condition dict. This is not necessarily a bug.  Only report if you feel the scar should have resulted in a permanent condition."
+                    f"WARNING: {scar} for {injury_name} is either None or is not in scar_to_condition dict. This is not necessarily a bug. Only report if you feel the scar should have resulted in a permanent condition."
                 )
 
         elif condition is not None:

@@ -531,7 +531,7 @@ class Pregnancy_Events:
             for mate_id in cat.mate:
                 if mate_id not in cat.all_cats:
                     print(
-                        f"WARNING: {cat.name}  has an invalid mate # {mate_id}. This has been unset."
+                        f"WARNING: {cat.name} has an invalid mate # {mate_id}. This has been unset."
                     )
                     cat.mate.remove(mate_id)
 

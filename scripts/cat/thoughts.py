@@ -76,7 +76,7 @@ class Thoughts:
         if len(r_c_in) > 0 and not random_cat:
             return False
 
-        # This is for filtering certain relationship types between the main cat and random cat. 
+        # This is for filtering certain relationship types between the main cat and random cat.
         if "relationship_constraint" in thought and random_cat:
             if not Thoughts.thought_fulfill_rel_constraints(main_cat, random_cat, thought["relationship_constraint"]):
                 return False
@@ -234,7 +234,7 @@ class Thoughts:
                             return False
                     else:
                         return False
-        
+
         if "perm_conditions" in thought:
             if "m_c" in thought["perm_conditions"]:
                 if main_cat.permanent_condition:
@@ -328,14 +328,14 @@ class Thoughts:
             chosen_thought = "Prrrp! You shouldn't see this! Report as a bug."
 
         return chosen_thought
-    
+
     def create_death_thoughts(self, inter_list) -> list:
         #helper function for death thoughts
         created_list = []
         for inter in inter_list:
             created_list.append(inter)
         return created_list
-    
+
     def leader_death_thought(self, lives_left, darkforest):
         """
         Load the special leader death thoughts, since they function differently than regular ones
@@ -347,7 +347,7 @@ class Thoughts:
             spec_dir = "/starclan"
         elif darkforest:
             spec_dir = "/darkforest"
-        THOUGHTS: []
+        THOUGHTS: dict
         try:
             if lives_left > 0:
                 with open(f"{base_path}{spec_dir}/leader_life.json", 'r') as read_file:
@@ -375,7 +375,7 @@ class Thoughts:
             spec_dir = "/starclan"
         elif darkforest:
             spec_dir = "/darkforest"
-        THOUGHTS: []
+        THOUGHTS: dict
         try:
             with open(f"{base_path}{spec_dir}/general.json", 'r') as read_file:
                 THOUGHTS = ujson.loads(read_file.read())
