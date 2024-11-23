@@ -1,0 +1,109 @@
+{
+    "images": [
+        "lineart", "lineartdf", "lineartdead",
+        "eyes", "eyes2", "skin",
+        "scars", "missingscars",
+        "medcatherbs", "wild",
+        "collars", "bellcollars", "bowcollars", "nyloncollars",
+        "singlecolours", "speckledcolours", "tabbycolours", "bengalcolours", "marbledcolours",
+        "rosettecolours", "smokecolours", "tickedcolours", "mackerelcolours", "classiccolours",
+        "sokokecolours", "agouticolours", "singlestripecolours", "maskedcolours",
+        "shadersnewwhite", "lightingnew",
+        "whitepatches", "tortiepatchesmasks",
+        "fademask", "fadestarclan", "fadedarkforest",
+        "symbols"
+    ],
+    "eye_colors": [
+        ["YELLOW", "AMBER", "HAZEL", "PALEGREEN", "GREEN", "BLUE", "DARKBLUE", "GREY", "CYAN", "EMERALD",
+         "HEATHERBLUE", "SUNLITICE"],
+        ["COPPER", "SAGE", "COBALT", "PALEBLUE", "BRONZE", "SILVER", "PALEYELLOW", "GOLD", "GREENYELLOW"]
+    ],
+    "white_patches": [
+        ["FULLWHITE", "ANY", "TUXEDO", "LITTLE", "COLOURPOINT", "VAN", "ANYTWO", "MOON", "PHANTOM", "POWDER",
+         "BLEACHED", "SAVANNAH", "FADESPOTS", "PEBBLESHINE"],
+        ["EXTRA", "ONEEAR", "BROKEN", "LIGHTTUXEDO", "BUZZARDFANG", "RAGDOLL", "LIGHTSONG", "VITILIGO", "BLACKSTAR",
+         "PIEBALD", "CURVED", "PETAL", "SHIBAINU", "OWL"],
+        ["TIP", "FANCY", "FRECKLES", "RINGTAIL", "HALFFACE", "PANTSTWO", "GOATEE", "VITILIGOTWO", "PAWS", "MITAINE",
+         "BROKENBLAZE", "SCOURGE", "DIVA", "BEARD"],
+        ["TAIL", "BLAZE", "PRINCE", "BIB", "VEE", "UNDERS", "HONEY", "FAROFA", "DAMIEN", "MISTER", "BELLY",
+         "TAILTIP", "TOES", "TOPCOVER"],
+        ["APRON", "CAPSADDLE", "MASKMANTLE", "SQUEAKS", "STAR", "TOESTAIL", "RAVENPAW", "PANTS", "REVERSEPANTS",
+         "SKUNK", "KARPATI", "HALFWHITE", "APPALOOSA", "DAPPLEPAW"],
+        ["HEART", "LILTWO", "GLASS", "MOORISH", "SEPIAPOINT", "MINKPOINT", "SEALPOINT", "MAO", "LUNA", "CHESTSPECK",
+         "WINGS", "PAINTED", "HEARTTWO", "WOODPECKER"],
+        ["BOOTS", "MISS", "COW", "COWTWO", "BUB", "BOWTIE", "MUSTACHE", "REVERSEHEART", "SPARROW", "VEST",
+         "LOVEBUG", "TRIXIE", "SAMMY", "SPARKLE"],
+        ["RIGHTEAR", "LEFTEAR", "ESTRELLA", "SHOOTINGSTAR", "EYESPOT", "REVERSEEYE", "FADEBELLY", "FRONT",
+         "BLOSSOMSTEP", "PEBBLE", "TAILTWO", "BUDDY", "BACKSPOT", "EYEBAGS"],
+        ["BULLSEYE", "FINN", "DIGIT", "KROPKA", "FCTWO", "FCONE", "MIA", "SCAR", "BUSTER", "SMOKEY", "HAWKBLAZE",
+         "CAKE", "ROSINA", "PRINCESS"],
+        ["LOCKET", "BLAZEMASK", "TEARS", "DOUGIE"]
+    ],
+    "color_categories": [
+        ["WHITE", "PALEGREY", "SILVER", "GREY", "DARKGREY", "GHOST", "BLACK"],
+        ["CREAM", "PALEGINGER", "GOLDEN", "GINGER", "DARKGINGER", "SIENNA"],
+        ["LIGHTBROWN", "LILAC", "BROWN", "GOLDEN-BROWN", "DARKBROWN", "CHOCOLATE"]
+    ],
+    "color_types": [
+        "singlecolours", "tabbycolours", "marbledcolours", "rosettecolours",
+        "smokecolours", "tickedcolours", "speckledcolours", "bengalcolours",
+        "mackerelcolours", "classiccolours", "sokokecolours", "agouticolours",
+        "singlestripecolours", "maskedcolours"
+    ],
+    "tortiepatchesmasks": [
+        ["ONE", "TWO", "THREE", "FOUR", "REDTAIL", "DELILAH", "HALF", "STREAK", "MASK", "SMOKE"],
+        ["MINIMALONE", "MINIMALTWO", "MINIMALTHREE", "MINIMALFOUR", "OREO", "SWOOP", "CHIMERA", "CHEST", "ARMTAIL",
+         "GRUMPYFACE"],
+        ["MOTTLED", "SIDEMASK", "EYEDOT", "BANDANA", "PACMAN", "STREAMSTRIKE", "SMUDGED", "DAUB", "EMBER", "BRIE"],
+        ["ORIOLE", "ROBIN", "BRINDLE", "PAIGE", "ROSETAIL", "SAFI", "DAPPLENIGHT", "BLANKET", "BELOVED", "BODY"],
+        ["SHILOH", "FRECKLED", "HEARTBEAT"]
+    ],
+    "skin_colors": [
+        ["BLACK", "RED", "PINK", "DARKBROWN", "BROWN", "LIGHTBROWN"],
+        ["DARK", "DARKGREY", "GREY", "DARKSALMON", "SALMON", "PEACH"],
+        ["DARKMARBLED", "MARBLED", "LIGHTMARBLED", "DARKBLUE", "BLUE", "LIGHTBLUE"]
+    ],
+    "scars_data": [
+        ["ONE", "TWO", "THREE", "MANLEG", "BRIGHTHEART", "MANTAIL", "BRIDGE", "RIGHTBLIND", "LEFTBLIND",
+         "BOTHBLIND", "BURNPAWS", "BURNTAIL"],
+        ["BURNBELLY", "BEAKCHEEK", "BEAKLOWER", "BURNRUMP", "CATBITE", "RATBITE", "FROSTFACE", "FROSTTAIL",
+         "FROSTMITT", "FROSTSOCK", "QUILLCHUNK", "QUILLSCRATCH"],
+        ["TAILSCAR", "SNOUT", "CHEEK", "SIDE", "THROAT", "TAILBASE", "BELLY", "TOETRAP", "SNAKE", "LEGBITE",
+         "NECKBITE", "FACE"],
+        ["HINDLEG", "BACK", "QUILLSIDE", "SCRATCHSIDE", "TOE", "BEAKSIDE", "CATBITETWO", "SNAKETWO", "FOUR"]
+    ],
+    "missing_parts_data": [
+        ["LEFTEAR", "RIGHTEAR", "NOTAIL", "NOLEFTEAR", "NORIGHTEAR", "NOEAR", "HALFTAIL", "NOPAW"]
+    ],
+    "medcatherbs_data": [
+        ["MAPLE LEAF", "HOLLY", "BLUE BERRIES", "FORGET ME NOTS", "RYE STALK", "CATTAIL", "POPPY", "ORANGE POPPY", "CYAN POPPY", "WHITE POPPY", "PINK POPPY"],
+        ["BLUEBELLS", "LILY OF THE VALLEY", "SNAPDRAGON", "HERBS", "PETALS", "NETTLE", "HEATHER", "GORSE", "JUNIPER", "RASPBERRY", "LAVENDER"],
+        ["OAK LEAVES", "CATMINT", "MAPLE SEED", "LAUREL", "BULB WHITE", "BULB YELLOW", "BULB ORANGE", "BULB PINK", "BULB BLUE", "CLOVER", "DAISY"]
+    ],
+    "dryherbs_data": [
+        ["DRY HERBS", "DRY CATMINT", "DRY NETTLES", "DRY LAURELS"]
+    ],
+    "wild_data": [
+        ["RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS", "GULL FEATHERS", "SPARROW FEATHERS", "MOTH WINGS", "ROSY MOTH WINGS", "MORPHO BUTTERFLY", "MONARCH BUTTERFLY", "CICADA WINGS", "BLACK CICADA"]
+    ],
+    "collars_data": [
+        ["CRIMSON", "BLUE", "YELLOW", "CYAN", "RED", "LIME"],
+        ["GREEN", "RAINBOW", "BLACK", "SPIKES", "WHITE"],
+        ["PINK", "PURPLE", "MULTI", "INDIGO"]
+    ],
+    "bellcollars_data": [
+        ["CRIMSONBELL", "BLUEBELL", "YELLOWBELL", "CYANBELL", "REDBELL", "LIMEBELL"],
+        ["GREENBELL", "RAINBOWBELL", "BLACKBELL", "SPIKESBELL", "WHITEBELL"],
+        ["PINKBELL", "PURPLEBELL", "MULTIBELL", "INDIGOBELL"]
+    ],
+    "bowcollars_data": [
+        ["CRIMSONBOW", "BLUEBOW", "YELLOWBOW", "CYANBOW", "REDBOW", "LIMEBOW"],
+        ["GREENBOW", "RAINBOWBOW", "BLACKBOW", "SPIKESBOW", "WHITEBOW"],
+        ["PINKBOW", "PURPLEBOW", "MULTIBOW", "INDIGOBOW"]
+    ],
+    "nyloncollars_data": [
+        ["CRIMSONNYLON", "BLUENYLON", "YELLOWNYLON", "CYANNYLON", "REDNYLON", "LIMENYLON"],
+        ["GREENNYLON", "RAINBOWNYLON", "BLACKNYLON", "SPIKESNYLON", "WHITENYLON"],
+        ["PINKNYLON", "PURPLENYLON", "MULTINYLON", "INDIGONYLON"]
+    ]
+}
