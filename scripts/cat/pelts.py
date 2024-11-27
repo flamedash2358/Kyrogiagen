@@ -167,9 +167,9 @@ class Pelt:
                  paralyzed: bool = False,
                  opacity: int = 100,
                  scars: list = None,
-                 tint: str = "none",
+                 tint: str = None,
                  skin: str = "BLACK",
-                 white_patches_tint: str = "none",
+                 white_patches_tint: str = None,
                  kitten_sprite: int = None,
                  adol_sprite: int = None,
                  adult_sprite: int = None,
@@ -259,7 +259,7 @@ class Pelt:
             self.white_patches = convert_dict["old_creamy_patches"][self.white_patches]
             self.white_patches_tint = "darkcream"
         elif self.white_patches in ['SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']:
-            self.white_patches_tint = "none"
+            self.white_patches_tint = None
 
         # Eye Color Convert Stuff
         if self.eye_colour == "BLUE2":
@@ -903,7 +903,7 @@ class Pelt:
         if base_tints or color_tints:
             self.tint = choice(base_tints + color_tints)
         else:
-            self.tint = "none"
+            self.tint = None
 
         # WHITE PATCHES TINT
         if self.white_patches or self.points:
@@ -918,9 +918,9 @@ class Pelt:
             if base_tints or color_tints:
                 self.white_patches_tint = choice(base_tints + color_tints)
             else:
-                self.white_patches_tint = "none"
+                self.white_patches_tint = None
         else:
-            self.white_patches_tint = "none"
+            self.white_patches_tint = None
 
     @property
     def white(self):

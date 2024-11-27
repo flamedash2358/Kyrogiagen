@@ -82,6 +82,13 @@ def json_load():
                 if cat["eye_colour2"] == "BLUE2":
                     cat["eye_colour2"] = "COBALT"
 
+            if "tint" in cat:
+                if cat["tint"] == "none":
+                    cat["tint"] = None
+            if "white_patches_tint" in cat:
+                if cat["white_patches_tint"] == "none":
+                    cat["white_patches_tint"] = None
+
             new_cat.pelt = Pelt(
                 name=cat["pelt_name"],
                 length=cat["pelt_length"],
@@ -126,7 +133,7 @@ def json_load():
                 tortiepattern=cat["tortie_pattern"],
                 pattern=cat["pattern"],
                 skin=cat["skin"],
-                tint=cat["tint"] if "tint" in cat else "none",
+                tint=cat["tint"] if "tint" in cat else None,
                 scars=cat["scars"] if "scars" in cat else [],
                 accessory=cat["accessory"],
                 opacity=cat["opacity"] if "opacity" in cat else 100,

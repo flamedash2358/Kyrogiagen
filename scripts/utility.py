@@ -2667,7 +2667,7 @@ def generate_sprite(
 
         # TINTS
         if (
-            cat.pelt.tint != "none"
+            cat.pelt.tint != None
             and cat.pelt.tint in sprites.cat_tints["tint_colours"]
         ):
             # Multiply with alpha does not work as you would expect - it just lowers the alpha of the
@@ -2677,7 +2677,7 @@ def generate_sprite(
             tint.fill(tuple(sprites.cat_tints["tint_colours"][cat.pelt.tint]))
             new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
         if (
-            cat.pelt.tint != "none"
+            cat.pelt.tint != None
             and cat.pelt.tint in sprites.cat_tints["dilute_tint_colours"]
         ):
             tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
@@ -2692,7 +2692,7 @@ def generate_sprite(
 
             # Apply tint to white patches.
             if (
-                cat.pelt.white_patches_tint != "none"
+                cat.pelt.white_patches_tint != None 
                 and cat.pelt.white_patches_tint
                 in sprites.white_patches_tints["tint_colours"]
             ):
@@ -2713,7 +2713,7 @@ def generate_sprite(
         if cat.pelt.points:
             points = sprites.sprites["white" + cat.pelt.points + cat_sprite].copy()
             if (
-                cat.pelt.white_patches_tint != "none"
+                cat.pelt.white_patches_tint != None
                 and cat.pelt.white_patches_tint
                 in sprites.white_patches_tints["tint_colours"]
             ):
