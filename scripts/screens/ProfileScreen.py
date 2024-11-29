@@ -748,180 +748,120 @@ class ProfileScreen(Screens):
 
     def generate_column1(self, the_cat):
         """Generate the left column information"""
-        output = ""
+        output = []
         # SEX/GENDER
         if the_cat.genderalign is None or the_cat.genderalign == the_cat.gender:
-            output += str(the_cat.gender)
+            output.append(str(the_cat.gender))
         else:
-            output += str(the_cat.genderalign)
-        # NEWLINE ----------
-        output += "\n"
+            output.append(the_cat.genderalign)
 
         # AGE
         if the_cat.age == "kitten":
-            output += "young"
-        elif the_cat.age == "senior":
-            output += "senior"
+            output.append("young")
         else:
-            output += the_cat.age
-        # NEWLINE ----------
-        output += "\n"
+            output.append(the_cat.age)
 
         # EYE COLOR
-        output += "eyes: " + str(the_cat.describe_eyes())
-        # NEWLINE ----------
-        output += "\n"
+        output.append("eyes: " + str(the_cat.describe_eyes()))
 
         # PELT TYPE
-        output += "pelt: " + the_cat.pelt.name.lower()
-        # NEWLINE ----------
-        output += "\n"
+        output.append("pelt: " + the_cat.pelt.name.lower())
 
         # PELT LENGTH
-        output += "fur length: " + the_cat.pelt.length
-        # NEWLINE ----------
+        output.append("fur length: " + the_cat.pelt.length)
 
         # ACCESSORY
         if the_cat.pelt.accessory:
-            output += "\n"
-            output += "accessory: " + str(
-                ACC_DISPLAY[the_cat.pelt.accessory]["default"]
-            )
-            # NEWLINE ----------
+            output.append("accessory: " + str(ACC_DISPLAY[the_cat.pelt.accessory]["default"]))
 
         # PARENTS
         all_parents = [Cat.fetch_cat(i) for i in the_cat.get_parents()]
         if all_parents:
-            output += "\n"
             if len(all_parents) == 1:
-                output += "parent: " + str(all_parents[0].name)
+                output.append("parent: " + str(all_parents[0].name))
             elif len(all_parents) > 2:
-                output += (
-                    "parents: "
-                    + ", ".join([str(i.name) for i in all_parents[:2]])
-                    + f", and {len(all_parents) - 2} "
-                )
-                if len(all_parents) - 2 == 1:
-                    output += "other"
-                else:
-                    output += "others"
+                parent_list = ", ".join([str(i.name) for i in all_parents[:2]])
+                remaining_parents = len(all_parents) - 2
+                other_word = "other" if remaining_parents == 1 else "others"
+                output.append(f"parents: {parent_list}, and {remaining_parents} {other_word}")
             else:
-                output += "parents: " + ", ".join([str(i.name) for i in all_parents])
+                output.append("parents: " + ", ".join([str(i.name) for i in all_parents]))
 
         # MOONS
-        output += "\n"
         if the_cat.dead:
-            output += str(the_cat.moons)
-            if the_cat.moons == 1:
-                output += " moon (in life)\n"
-            elif the_cat.moons != 1:
-                output += " moons (in life)\n"
-
-            output += str(the_cat.dead_for)
-            if the_cat.dead_for == 1:
-                output += " moon (in death)"
-            elif the_cat.dead_for != 1:
-                output += " moons (in death)"
+            output.append(f"{the_cat.moons} moon{'s' if the_cat.moons != 1 else ''} (in life)")
+            output.append(f"{the_cat.dead_for} moon{'s' if the_cat.dead_for != 1 else ''} (in death)")
         else:
-            output += str(the_cat.moons)
-            if the_cat.moons == 1:
-                output += " moon"
-            elif the_cat.moons != 1:
-                output += " moons"
+            output.append(f"{the_cat.moons} moon{'s' if the_cat.moons != 1 else ''}")
 
         # MATE
-        if len(the_cat.mate) > 0:
-            output += "\n"
-
+        if the_cat.mate:
             mate_names = []
             # Grab the names of only the first two, since that's all we will display
             for _m in the_cat.mate[:2]:
                 mate_ob = Cat.fetch_cat(_m)
                 if not isinstance(mate_ob, Cat):
                     continue
-                if mate_ob.dead != self.the_cat.dead:
-                    if the_cat.dead:
-                        former_indicate = "(living)"
-                    else:
-                        former_indicate = "(dead)"
-
+                if mate_ob.dead != the_cat.dead:
+                    former_indicate = "(living)" if the_cat.dead else "(dead)"
                     mate_names.append(f"{str(mate_ob.name)} {former_indicate}")
-                elif mate_ob.outside != self.the_cat.outside:
+                elif mate_ob.outside != the_cat.outside:
                     mate_names.append(f"{str(mate_ob.name)} (away)")
                 else:
-                    mate_names.append(f"{str(mate_ob.name)}")
+                    mate_names.append(str(mate_ob.name))
 
-            if len(the_cat.mate) == 1:
-                output += "mate: "
-            else:
-                output += "mates: "
+            mate_label = "mate: " if len(the_cat.mate) == 1 else "mates: "
+            mates = ", ".join(mate_names)
+            additional_mates = len(the_cat.mate) - 2
+            if additional_mates > 0:
+                mates += f", and {additional_mates} other{'s' if additional_mates > 1 else ''}"
+            output.append(mate_label + mates)
 
-            output += ", ".join(mate_names)
-
-            if len(the_cat.mate) > 2:
-                output += f", and {len(the_cat.mate) - 2}"
-                if len(the_cat.mate) - 2 > 1:
-                    output += " others"
-                else:
-                    output += " other"
-
-        if not the_cat.dead:
-            # NEWLINE ----------
-            output += "\n"
-
-        return output
+        return "\n".join(output)
 
     def generate_column2(self, the_cat):
         """Generate the right column information"""
-        output = ""
+        output = []
 
         # STATUS
         if (
-            the_cat.outside
-            and not the_cat.exiled
-            and the_cat.status not in ["kittypet", "loner", "rogue", "former Clancat"]
+                the_cat.outside
+                and not the_cat.exiled
+                and the_cat.status not in ["kittypet", "loner", "rogue", "former Clancat"]
         ):
-            output += "<font color='#FF0000'>lost</font>"
+            output.append("<font color='#FF0000'>lost</font>")
         elif the_cat.exiled:
-            output += "<font color='#FF0000'>exiled</font>"
+            output.append("<font color='#FF0000'>exiled</font>")
         else:
-            output += the_cat.status
-
-        # NEWLINE ----------
-        output += "\n"
+            output.append(the_cat.status)
 
         # LEADER LIVES:
         # Optional - Only shows up for leaders
         if not the_cat.dead and "leader" in the_cat.status:
-            output += "remaining lives: " + str(game.clan.leader_lives)
-            # NEWLINE ----------
-            output += "\n"
+            output.append("remaining lives: " + str(game.clan.leader_lives))
 
         # MENTOR
         # Only shows up if the cat has a mentor.
         if the_cat.mentor:
             mentor_ob = Cat.fetch_cat(the_cat.mentor)
             if mentor_ob:
-                output += "mentor: " + str(mentor_ob.name) + "\n"
+                output.append("mentor: " + str(mentor_ob.name))
 
         # CURRENT APPRENTICES
         # Optional - only shows up if the cat has an apprentice currently
         if the_cat.apprentice:
             app_count = len(the_cat.apprentice)
             if app_count == 1 and Cat.fetch_cat(the_cat.apprentice[0]):
-                output += "apprentice: " + str(
+                output.append("apprentice: " + str(
                     Cat.fetch_cat(the_cat.apprentice[0]).name
-                )
+                ))
             elif app_count > 1:
-                output += "apprentice: " + ", ".join(
-                    [
-                        str(Cat.fetch_cat(i).name)
-                        for i in the_cat.apprentice
-                        if Cat.fetch_cat(i)
-                    ]
-                )
-            # NEWLINE ----------
-            output += "\n"
+                apprentices = [
+                    str(Cat.fetch_cat(i).name)
+                    for i in the_cat.apprentice
+                    if Cat.fetch_cat(i)
+                ]
+                output.append("apprentice: " + ", ".join(apprentices))
 
         # FORMER APPRENTICES
         # Optional - Only shows up if the cat has previous apprentice(s)
@@ -931,45 +871,27 @@ class ProfileScreen(Screens):
                 for i in the_cat.former_apprentices
                 if isinstance(Cat.fetch_cat(i), Cat)
             ]
-
             if len(apprentices) > 2:
-                output += (
-                    "former apprentices: "
-                    + ", ".join([str(i.name) for i in apprentices[:2]])
-                    + ", and "
-                    + str(len(apprentices) - 2)
+                first_two = ", ".join([str(i.name) for i in apprentices[:2]])
+                remaining_count = len(apprentices) - 2
+                output.append(
+                    f"former apprentices: {first_two}, and {remaining_count} other{'s' if remaining_count > 1 else ''}"
                 )
-                if len(apprentices) - 2 > 1:
-                    output += " others"
-                else:
-                    output += " other"
             else:
-                if len(apprentices) > 1:
-                    output += "former apprentices: "
-                else:
-                    output += "former apprentice: "
-                output += ", ".join(str(i.name) for i in apprentices)
-
-            # NEWLINE ----------
-            output += "\n"
+                label = "former apprentices: " if len(apprentices) > 1 else "former apprentice: "
+                output.append(label + ", ".join(str(i.name) for i in apprentices))
 
         # CHARACTER TRAIT
-        output += the_cat.personality.trait
-        # NEWLINE ----------
-        output += "\n"
+        output.append(the_cat.personality.trait)
 
         # CAT SKILLS
-        output += the_cat.skills.skill_string()
-        # NEWLINE ----------
-        output += "\n"
+        output.append(the_cat.skills.skill_string())
 
         # EXPERIENCE
-        output += "experience: " + str(the_cat.experience_level)
-
+        experience = "experience: " + str(the_cat.experience_level)
         if game.clan.clan_settings["showxp"]:
-            output += " (" + str(the_cat.experience) + ")"
-        # NEWLINE ----------
-        output += "\n"
+            experience += f" ({the_cat.experience})"
+        output.append(experience)
 
         # BACKSTORY
         bs_text = "this should not appear"
@@ -979,22 +901,20 @@ class ProfileScreen(Screens):
             if the_cat.backstory:
                 for category in BACKSTORIES["backstory_categories"]:
                     if (
-                        the_cat.backstory
-                        in BACKSTORIES["backstory_categories"][category]
+                            the_cat.backstory
+                            in BACKSTORIES["backstory_categories"][category]
                     ):
                         bs_text = BACKSTORIES["backstory_display"][category]
                         break
             else:
                 bs_text = "Clanborn"
-        output += f"backstory: {bs_text}"
-        # NEWLINE ----------
-        output += "\n"
+        output.append(f"backstory: {bs_text}")
 
         # NUTRITION INFO (if the game is in the correct mode)
         if (
-            game.clan.game_mode in ["expanded", "cruel season"]
-            and the_cat.is_alive()
-            and FRESHKILL_ACTIVE
+                game.clan.game_mode in ["expanded", "cruel season"]
+                and the_cat.is_alive()
+                and FRESHKILL_ACTIVE
         ):
             # Check to only show nutrition for clan cats
             if str(the_cat.status) not in [
@@ -1010,40 +930,37 @@ class ProfileScreen(Screens):
                 if not nutr:
                     game.clan.freshkill_pile.add_cat_to_nutrition(the_cat)
                     nutr = game.clan.freshkill_pile.nutrition_info[the_cat.ID]
-                output += "nutrition: " + nutr.nutrition_text
+                nutrition_text = "nutrition: " + nutr.nutrition_text
                 if game.clan.clan_settings["showxp"]:
-                    output += " (" + str(int(nutr.percentage)) + ")"
-                output += "\n"
+                    nutrition_text += f" ({int(nutr.percentage)})"
+                output.append(nutrition_text)
 
         if the_cat.is_disabled():
             for condition in the_cat.permanent_condition:
                 if (
-                    the_cat.permanent_condition[condition]["born_with"] is True
-                    and the_cat.permanent_condition[condition]["moons_until"] != -2
+                        the_cat.permanent_condition[condition]["born_with"] is True
+                        and the_cat.permanent_condition[condition]["moons_until"] != -2
                 ):
                     continue
-                output += "has a permanent condition"
-
-                # NEWLINE ----------
-                output += "\n"
+                output.append("has a permanent condition")
                 break
 
         if the_cat.is_injured():
             if "recovering from birth" in the_cat.injuries:
-                output += "recovering from birth!"
+                output.append("recovering from birth!")
             elif "pregnant" in the_cat.injuries:
-                output += "pregnant!"
+                output.append("pregnant!")
             else:
-                output += "injured!"
+                output.append("injured!")
         elif the_cat.is_ill():
             if "grief stricken" in the_cat.illnesses:
-                output += "grieving!"
+                output.append("grieving!")
             elif "fleas" in the_cat.illnesses:
-                output += "flea-ridden!"
+                output.append("flea-ridden!")
             else:
-                output += "sick!"
+                output.append("sick!")
 
-        return output
+        return "\n".join(output)
 
     def toggle_history_tab(self, sub_tab_switch=False):
         """Opens the history tab
