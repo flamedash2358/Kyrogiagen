@@ -159,7 +159,7 @@ class Pelt:
                  eye_colour2: str = None,
                  tortiebase: str = None,
                  tortiecolour: str = None,
-                 pattern: str = None,
+                 tortiemarking: str = None,
                  tortiepattern: str = None,
                  vitiligo: str = None,
                  points: str = None,
@@ -183,7 +183,7 @@ class Pelt:
         self.eye_colour = eye_color
         self.eye_colour2 = eye_colour2
         self.tortiebase = tortiebase
-        self.pattern = pattern
+        self.tortiemarking = tortiemarking
         self.tortiepattern = tortiepattern
         self.tortiecolour = tortiecolour
         self.vitiligo = vitiligo
@@ -295,9 +295,9 @@ class Pelt:
             elif self.cat_sprites['senior'] == 5:
                 self.cat_sprites['senior'] = 14
         
-        if self.pattern in convert_dict["old_tortie_patches"]:
-            old_pattern = self.pattern
-            self.pattern = convert_dict["old_tortie_patches"][old_pattern][1]
+        if self.tortiemarking in convert_dict["old_tortie_patches"]:
+            old_pattern = self.tortiemarking
+            self.tortiemarking = convert_dict["old_tortie_patches"][old_pattern][1]
 
             # If the pattern is old, there is also a chance the base color is stored in
             # tortiecolour. That may be different from the pelt color ("main" for torties)
@@ -306,14 +306,14 @@ class Pelt:
             self.colour = self.tortiecolour
             self.tortiecolour = convert_dict["old_tortie_patches"][old_pattern][0]
             
-        if self.pattern == "MINIMAL1":
-            self.pattern = "MINIMALONE"
-        elif self.pattern == "MINIMAL2":
-            self.pattern = "MINIMALTWO"
-        elif self.pattern == "MINIMAL3":
-            self.pattern = "MINIMALTHREE"
-        elif self.pattern == "MINIMAL4":
-            self.pattern = "MINIMALFOUR"
+        if self.tortiemarking == "MINIMAL1":
+            self.tortiemarking = "MINIMALONE"
+        elif self.tortiemarking == "MINIMAL2":
+            self.tortiemarking = "MINIMALTWO"
+        elif self.tortiemarking == "MINIMAL3":
+            self.tortiemarking = "MINIMALTHREE"
+        elif self.tortiemarking == "MINIMAL4":
+            self.tortiemarking = "MINIMALFOUR"
         
     def init_eyes(self, parents):
         if not parents:
@@ -683,8 +683,8 @@ class Pelt:
         if self.name in Pelt.torties:
             if not self.tortiebase:
                 self.tortiebase = choice(Pelt.tortiebases)
-            if not self.pattern:
-                self.pattern = choice(Pelt.tortiepatterns)
+            if not self.tortiemarking:
+                self.tortiemarking = choice(Pelt.tortiepatterns)
 
             wildcard_chance = game.config["cat_generation"]["wildcard_tortie"]
             if self.colour:
@@ -735,7 +735,7 @@ class Pelt:
             self.tortiebase = None
             self.tortiepattern = None
             self.tortiecolour = None
-            self.pattern = None
+            self.tortiemarking = None
 
     def white_patches_inheritance(self, parents: tuple):
 

@@ -89,6 +89,9 @@ def json_load():
                 if cat["white_patches_tint"] == "none":
                     cat["white_patches_tint"] = None
 
+            if "pattern" in cat:
+                cat["tortie_marking"] = cat["pattern"]
+
             new_cat.pelt = Pelt(
                 name=cat["pelt_name"],
                 length=cat["pelt_length"],
@@ -131,7 +134,7 @@ def json_load():
                 tortiebase=cat["tortie_base"],
                 tortiecolour=cat["tortie_color"],
                 tortiepattern=cat["tortie_pattern"],
-                pattern=cat["pattern"],
+                tortiemarking=cat["tortie_marking"],
                 skin=cat["skin"],
                 tint=cat["tint"] if "tint" in cat else None,
                 scars=cat["scars"] if "scars" in cat else [],
@@ -390,7 +393,7 @@ def csv_load(all_cats):
                 (
                     the_cat.pelt.reverse,
                     the_cat.pelt.white_patches,
-                    the_cat.pelt.pattern,
+                    the_cat.pelt.tortiemarking,
                 ) = (attr[18], attr[19], attr[20])
                 game.switches["error_message"] = (
                     "8There was an error loading cat # " + str(attr[0])
