@@ -91,6 +91,7 @@ def json_load():
 
             if "pattern" in cat:
                 cat["tortie_marking"] = cat["pattern"]
+                del cat["pattern"]
 
             new_cat.pelt = Pelt(
                 name=cat["pelt_name"],
