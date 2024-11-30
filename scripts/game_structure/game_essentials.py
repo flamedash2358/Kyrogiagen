@@ -139,6 +139,7 @@ class Game:
         "disallowed_symbol_tags": [],
         "saved_scroll_positions": {},
         "moon&season_open": False,
+        "switch_clan": False
     }
     all_screens = {}
     cur_events = {}

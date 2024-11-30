@@ -456,7 +456,8 @@ class Clan:
         TODO: DOCS
         """
         game.save_clanlist(clan)
-        quit(savesettings=False, clearevents=True)
+        game.switches["switch_clan"] = True
+        #quit(savesettings=False, clearevents=True)
 
     def save_clan(self):
         """
