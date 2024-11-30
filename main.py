@@ -214,8 +214,6 @@ def load_data():
 
 
 def loading_animation(scale: float = 1):
-    global finished_loading
-
     # Load images, adjust color
     color = pygame.Surface((200 * scale, 210 * scale))
     if game.settings["dark mode"]:
@@ -273,9 +271,20 @@ loading_animation(screen_scale)
 # is just for safety. Plus some cleanup.
 loading_thread.join()
 del loading_thread
-del finished_loading
-del loading_animation
-del load_data
+
+def switch_clan():
+    global finished_loading
+
+    game.switches["switch_clan"] = False
+    game.cur_events_list.clear() 
+
+    finished_loading = False
+    loading_thread = threading.Thread(target=load_data)
+    loading_thread.start()
+    loading_animation(screen_scale)
+    loading_thread.join()
+    
+    game.all_screens[game.current_screen].change_screen("start screen")
 
 pygame.mixer.pre_init(buffer=44100)
 pygame.mixer.init()
@@ -295,6 +304,9 @@ while 1:
             pygame.mouse.set_cursor(cursor)
     elif pygame.mouse.get_cursor() == cursor:
         pygame.mouse.set_cursor(disabled_cursor)
+
+    if game.switches["switch_clan"]:
+        switch_clan()
     # Draw screens
     # This occurs before events are handled to stop pygame_gui buttons from blinking.
     game.all_screens[game.current_screen].on_use()
