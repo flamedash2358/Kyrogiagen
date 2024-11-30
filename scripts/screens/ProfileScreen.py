@@ -825,9 +825,9 @@ class ProfileScreen(Screens):
 
         # STATUS
         if (
-                the_cat.outside
-                and not the_cat.exiled
-                and the_cat.status not in ["kittypet", "loner", "rogue", "former Clancat"]
+            the_cat.outside
+            and not the_cat.exiled
+            and the_cat.status not in ["kittypet", "loner", "rogue", "former Clancat"]
         ):
             output.append("<font color='#FF0000'>lost</font>")
         elif the_cat.exiled:
@@ -901,8 +901,8 @@ class ProfileScreen(Screens):
             if the_cat.backstory:
                 for category in BACKSTORIES["backstory_categories"]:
                     if (
-                            the_cat.backstory
-                            in BACKSTORIES["backstory_categories"][category]
+                        the_cat.backstory
+                        in BACKSTORIES["backstory_categories"][category]
                     ):
                         bs_text = BACKSTORIES["backstory_display"][category]
                         break
@@ -912,9 +912,9 @@ class ProfileScreen(Screens):
 
         # NUTRITION INFO (if the game is in the correct mode)
         if (
-                game.clan.game_mode in ["expanded", "cruel season"]
-                and the_cat.is_alive()
-                and FRESHKILL_ACTIVE
+            game.clan.game_mode in ["expanded", "cruel season"]
+            and the_cat.is_alive()
+            and FRESHKILL_ACTIVE
         ):
             # Check to only show nutrition for clan cats
             if str(the_cat.status) not in [
@@ -938,8 +938,8 @@ class ProfileScreen(Screens):
         if the_cat.is_disabled():
             for condition in the_cat.permanent_condition:
                 if (
-                        the_cat.permanent_condition[condition]["born_with"] is True
-                        and the_cat.permanent_condition[condition]["moons_until"] != -2
+                    the_cat.permanent_condition[condition]["born_with"] is True
+                    and the_cat.permanent_condition[condition]["moons_until"] != -2
                 ):
                     continue
                 output.append("has a permanent condition")
