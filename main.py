@@ -261,30 +261,27 @@ def loading_animation(scale: float = 1):
 
         pygame.display.update()
 
+def load_game():
+    """
+    Performs the functions needed to load the game.
 
-loading_thread = threading.Thread(target=load_data)
-loading_thread.start()
-
-loading_animation(screen_scale)
-
-# The loading thread should be done by now. This line
-# is just for safety. Plus some cleanup.
-loading_thread.join()
-del loading_thread
-
-def switch_clan():
+    This function is ran when the game loads and whenever the player
+    switches clans.
+    """
     global finished_loading
 
+    game.cur_events_list.clear()
     game.switches["switch_clan"] = False
-    game.cur_events_list.clear() 
 
     finished_loading = False
     loading_thread = threading.Thread(target=load_data)
     loading_thread.start()
     loading_animation(screen_scale)
+
+    #loading thread should be done by now, so just join it for safety.
     loading_thread.join()
-    
-    game.all_screens[game.current_screen].change_screen("start screen")
+
+load_game()
 
 pygame.mixer.pre_init(buffer=44100)
 pygame.mixer.init()
@@ -306,7 +303,8 @@ while 1:
         pygame.mouse.set_cursor(disabled_cursor)
 
     if game.switches["switch_clan"]:
-        switch_clan()
+        game.all_screens[game.current_screen].change_screen("start screen")
+        load_game()
     # Draw screens
     # This occurs before events are handled to stop pygame_gui buttons from blinking.
     game.all_screens[game.current_screen].on_use()

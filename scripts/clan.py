@@ -124,6 +124,7 @@ class Clan:
         self.starting_season = starting_season
         self.instructor = None
         # This is the first cat in starclan, to "guide" the other dead cats there.
+        self.clan_cats = []
         self.biome = biome
         self.camp_bg = camp_bg
         self.chosen_symbol = symbol
