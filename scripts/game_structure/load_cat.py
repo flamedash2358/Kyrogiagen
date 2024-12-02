@@ -30,6 +30,9 @@ def load_cats():
 
 
 def json_load():
+    Cat.all_cats.clear()
+    Cat.all_cats_list.clear()
+    Cat.dead_cats.clear()
     all_cats = []
     cat_data = None
     clanname = game.switches["clan_list"][0]
