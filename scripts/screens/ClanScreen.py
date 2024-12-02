@@ -161,6 +161,7 @@ class ClanScreen(Screens):
                     cat_object=x,
                     starting_height=layers[i],
                     tool_tip_text=str(x.name),
+                    tool_tip_object_id="#clan_screen_cat_tooltip",
                 )
             )
 

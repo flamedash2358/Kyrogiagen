@@ -4,9 +4,6 @@ from math import ceil
 from typing import (
     Tuple,
     Optional,
-    Dict,
-    Iterable,
-    Callable,
     List,
     Union,
     Dict,
@@ -25,7 +22,8 @@ from pygame_gui.core.utility import translate
 from pygame_gui.elements import UIAutoResizingContainer
 
 from scripts.game_structure import image_cache
-from scripts.game_structure.game_essentials import game, screen
+from scripts.game_structure.game_essentials import game
+from scripts.game_structure.screen_settings import screen
 from scripts.utility import (
     ui_scale,
     shorten_text_to_fit,
@@ -727,6 +725,7 @@ class UISpriteButton:
         manager: IUIManagerInterface = None,
         container=None,
         object_id=None,
+        tool_tip_object_id=None,
         tool_tip_text=None,
         anchors=None,
         mask=None,
@@ -768,6 +767,7 @@ class UISpriteButton:
             starting_height=starting_height,
             manager=manager,
             tool_tip_text=tool_tip_text,
+            tool_tip_object_id=tool_tip_object_id,
             container=container,
             anchors=anchors,
             mask=mask,
@@ -838,6 +838,7 @@ class CatButton(UIImageButton):
         mask=None,
         mask_padding=None,
         auto_disable_if_no_data=False,
+        tool_tip_object_id=None,
     ):
         self.cat_id = cat_id
         self.cat_object = cat_object
@@ -856,6 +857,7 @@ class CatButton(UIImageButton):
             allow_double_clicks=True,
             mask=mask,
             mask_padding=mask_padding,
+            tool_tip_object_id=tool_tip_object_id,
         )
         if auto_disable_if_no_data and cat_id is None and cat_object is None:
             self.disable()
