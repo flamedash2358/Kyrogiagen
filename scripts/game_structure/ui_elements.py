@@ -316,7 +316,7 @@ class UIImageButton(pygame_gui.elements.UIButton):
 
     @mask.setter
     def mask(self, val: Union[pygame.Mask, pygame.Surface, None]):
-        if not isinstance(val, pygame.Mask | pygame.Surface | None):
+        if not isinstance(val, Union[pygame.Mask, pygame.Surface, None]):
             return
 
         if val is None:
