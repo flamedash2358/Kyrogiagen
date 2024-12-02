@@ -2019,7 +2019,7 @@ def event_text_adjust(
     Cat,
     text,
     *,
-    l_leader=None,
+    patrol_leader=None,
     main_cat=None,
     random_cat=None,
     stat_cat=None,
