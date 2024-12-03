@@ -145,6 +145,11 @@ class StartScreen(Screens):
         self.switch_clan_button.kill()
         self.new_clan_button.kill()
         self.settings_button.kill()
+        if game.switches["error_message"]:
+            self.error_box.kill()
+            self.error_gethelp.kill()
+            self.closebtn.kill()
+            self.open_data_directory_button.kill()
         self.error_label.kill()
         self.warning_label.kill()
         self.update_button.kill()
