@@ -55,6 +55,8 @@ class StartScreen(Screens):
 
         self.social_buttons = {}
 
+        self.error_open = False
+
     def handle_event(self, event):
         """This is where events that occur on this page are handled.
         For the pygame_gui rewrite, button presses are also handled here."""
@@ -73,7 +75,7 @@ class StartScreen(Screens):
                 self.new_clan_button: "make clan screen",
                 self.settings_button: "settings screen",
             }
-            if event.ui_element in screens:
+            if event.ui_element in screens and not self.error_open:
                 self.change_screen(screens[event.ui_element])
             elif event.ui_element == self.open_data_directory_button:
                 if platform.system() == "Darwin":
@@ -89,6 +91,7 @@ class StartScreen(Screens):
                 self.error_gethelp.kill()
                 self.closebtn.kill()
                 self.open_data_directory_button.kill()
+                self.error_open = True
                 # game.switches['error_message'] = ''
                 # game.switches['traceback'] = ''
             elif event.ui_element == self.update_button:
@@ -145,11 +148,6 @@ class StartScreen(Screens):
         self.switch_clan_button.kill()
         self.new_clan_button.kill()
         self.settings_button.kill()
-        if game.switches["error_message"]:
-            self.error_box.kill()
-            self.error_gethelp.kill()
-            self.closebtn.kill()
-            self.open_data_directory_button.kill()
         self.error_label.kill()
         self.warning_label.kill()
         self.update_button.kill()
@@ -415,6 +413,7 @@ class StartScreen(Screens):
                 self.open_data_directory_button.hide()
 
             self.closebtn.show()
+            self.error_open = True
 
         if game.clan is not None:
             key_copy = tuple(Cat.all_cats.keys())
