@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
+import logging
 import random
 from copy import deepcopy
 from itertools import repeat
 from os.path import exists as path_exists
 from random import choice, randint, choices
-from typing import List, Tuple, Optional, Union
+from typing import List, Tuple, Optional, Union, Dict
 
 import pygame
 import ujson
@@ -37,7 +38,11 @@ When adding new patrols, use \n to add a paragraph break in the text
 class Patrol:
     used_patrols = []
 
+    with open("resources/patrol_config.json", "r", encoding="utf-8") as read_file:
+        PATROL_CONFIG = ujson.loads(read_file.read())
+
     def __init__(self):
+        self.patrol_type = None
         self.patrol_event: PatrolEvent = None
 
         self.patrol_leader = None
@@ -46,7 +51,7 @@ class Patrol:
         self.patrol_apprentices = []
         self.other_clan = None
         self.intro_text = ""
-        self.cat_count = 0
+        self.patrol_size = 0
 
         self.patrol_statuses = {}
         self.patrol_status_list = []
@@ -60,7 +65,8 @@ class Patrol:
         print("PATROL START ---------------------------------------------------")
 
         self.add_patrol_cats(patrol_cats, game.clan)
-        self.cat_count = len(patrol_cats)
+        self.patrol_size = len(patrol_cats)
+        self.patrol_type = patrol_type
 
         final_patrols, final_romance_patrols = self.get_possible_patrols(
             str(game.clan.current_season).casefold(),
@@ -102,7 +108,7 @@ class Patrol:
         Patrol.used_patrols.append(self.patrol_event.patrol_id)
 
         return self.process_text(
-            self.get_from_patrol_size(self.patrol_event.intro_text, self.cat_count),
+            self.unpack_patrol_text(self.patrol_event.intro_text, self.patrol_size),
             self.patrol_event.intro_text_kwargs,
             None,
         )
@@ -118,8 +124,8 @@ class Patrol:
                 )
                 return (
                     self.process_text(
-                        self.get_from_patrol_size(
-                            self.patrol_event.decline_text, self.cat_count
+                        self.unpack_patrol_text(
+                            self.patrol_event.decline_text, self.patrol_size
                         ),
                         self.patrol_event.decline_text_kwargs,
                         None,
@@ -662,6 +668,7 @@ class Patrol:
                 decline_text=patrol.get("decline_text"),
                 decline_text_kwargs=patrol.get("decline_text_kwargs"),
                 chance_of_success=patrol.get("chance_of_success"),
+                success_modifier=patrol.get("success_modifier"),
                 min_cats=patrol.get("min_cats", 1),
                 max_cats=patrol.get("max_cats", 6),
                 min_max_status=patrol.get("min_max_status"),
@@ -727,7 +734,7 @@ class Patrol:
             final_event.herbs = self.get_dynamic_list(final_event.herbs)
 
         # Run the chosen outcome
-        final_event.text = self.get_from_patrol_size(final_event.text, self.cat_count)
+        final_event.text = self.unpack_patrol_text(final_event.text, self.patrol_size)
         return final_event.execute_outcome(self)
 
     def calculate_success(
@@ -744,8 +751,14 @@ class Patrol:
         exp_adustment = (
             (1 + 0.10 * patrol_size) * total_exp / (patrol_size * gm_modifier * 2)
         )
-
-        if isinstance(self.patrol_event.chance_of_success, dict):
+        if self.patrol_event.success_modifier is not None:
+            base_success_chance = (
+                self.PATROL_CONFIG["base_success"][game.clan.biome.lower()][
+                    self.patrol_type
+                ][game.clan.current_season.lower()]
+                + self.patrol_event.success_modifier
+            )
+        elif isinstance(self.patrol_event.chance_of_success, dict):
             base_success_chance = self.get_dynamic_int(
                 self.patrol_event.chance_of_success
             )
@@ -765,6 +778,7 @@ class Patrol:
         else:
             # old-style success chance, just use the base value
             base_success_chance = self.patrol_event.chance_of_success
+
         success_chance = base_success_chance + int(exp_adustment)
         success_chance = min(success_chance, 90)
 
@@ -867,13 +881,41 @@ class Patrol:
                         value.add(item)
         return list(value)
 
-    def get_from_patrol_size(self, text, num_cats) -> Union[str, float]:
+    def unpack_patrol_text(
+        self, text: Union[str, Dict[str, Union[str, int]]], num_cats
+    ) -> Union[str, float]:
         """
-        Handles getting the correct value for the right cat count.
+        Handles unpacking patrol text to get the right string.
         :param text: a string / dictionary of text.
         :param num_cats: Number of cats on the patrol
         :return: A string for display
         """
+
+        if isinstance(text, str):
+            return text
+
+        if "constraints" in text:
+            constraint_order = text["constraints"]
+        else:
+            logging.warning(f"No constraints provided for dictionary.")
+            return f"Text is missing 'constraints' field, please report! Patrol ID: {self.patrol_event.patrol_id}"
+
+        for constraint in constraint_order:
+            if constraint == "patrol_size":
+                text = self.get_from_patrol_size(text, num_cats)
+            elif constraint == "biome":
+                text = text.get(game.clan.biome.lower(), text.get("any"))
+            elif constraint == "season":
+                text = text.get(game.clan.current_season.lower(), text.get("any"))
+            if text is None:
+                logging.warning(f"No default provided for {constraint}!")
+                return f"No text found, report this! Patrol ID: {self.patrol_event.patrol_id}"
+
+        if isinstance(text, str):
+            return text
+        raise Exception("Didn't get to a string when unpacking patrol data!")
+
+    def get_from_patrol_size(self, text, num_cats):
         lookup = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six"}
         if isinstance(text, str):
             return text

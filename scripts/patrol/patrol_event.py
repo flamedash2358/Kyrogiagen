@@ -21,7 +21,8 @@ class PatrolEvent:
         intro_text_kwargs: Optional[Dict] = None,
         decline_text: Union[str, Dict[str, str]] = "",
         decline_text_kwargs: Optional[Dict] = None,
-        chance_of_success=0,
+        chance_of_success: Optional[int] = 0,
+        success_modifier: Optional[int] = 0,
         success_outcomes: List[PatrolOutcome] = None,
         fail_outcomes: List[PatrolOutcome] = None,
         antag_success_outcomes: List[PatrolOutcome] = None,
@@ -54,7 +55,12 @@ class PatrolEvent:
         self.decline_text_kwargs = (
             decline_text_kwargs if decline_text_kwargs is not None else {}
         )
-        self.chance_of_success = chance_of_success  # out of 100
+        self.chance_of_success = (
+            chance_of_success if chance_of_success else 0
+        )  # out of 100
+        self.success_modifier = (
+            success_modifier if success_modifier else None
+        )  # new success chance
         self.min_cats = min_cats
         self.max_cats = max_cats
         self.antag_success_outcomes = (
