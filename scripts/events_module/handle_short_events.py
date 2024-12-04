@@ -291,6 +291,8 @@ class HandleShortEvents:
         if self.chosen_herb:
             game.herb_events_list.append(f"{self.chosen_event} {self.herb_notice}.")
 
+        self.prep_delayed_event()
+
         game.cur_events_list.append(
             Single_Event(
                 self.text + " " + self.additional_event_text,
@@ -313,7 +315,7 @@ class HandleShortEvents:
         # getting IDs for cats who will be involved
         for new_role in delayed_info["involved_cats"]:
             # handle any cats that need to be newly gathered
-            if isinstance(new_role, dict):
+            if isinstance(delayed_info["involved_cats"][new_role], dict):
                 gathered_cat_dict[new_role] = delayed_event.get_constrained_cat(Cat,
                                                                                 delayed_info["involved_cats"][new_role])
                 continue
@@ -328,7 +330,7 @@ class HandleShortEvents:
 
             gathered_cat_dict[new_role] = possible_cats[old_role].ID
 
-        DelayedEvent(
+        self.delayed_event = DelayedEvent(
             originator_event=self.chosen_event.event_id,
             pool=delayed_info["pool"],
             amount_of_events=random.choice(

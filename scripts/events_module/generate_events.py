@@ -140,7 +140,8 @@ class GenerateEvents:
                         outsider=event["outsider"] if "outsider" in event else {},
                         other_clan=event["other_clan"] if "other_clan" in event else {},
                         supplies=event["supplies"] if "supplies" in event else [],
-                        new_gender=event["new_gender"] if "new_gender" in event else []
+                        new_gender=event["new_gender"] if "new_gender" in event else [],
+                        delayed_event=event["delayed_event"] if "delayed_event" in event else {}
                     )
                     event_list.append(event)
 
@@ -1199,6 +1200,7 @@ class DelayedEvent:
             for i in Cat.all_cats.values()
             if not i.dead and not i.outside
         ]
+
         funct_dict = {
             "age": self._check_age,
             "status": self._check_status,
