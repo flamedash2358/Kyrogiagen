@@ -1,5 +1,69 @@
 [
     {
+        "patrol_id": "testing123",
+        "biome": ["any"],
+        "season": ["any"],
+        "types": ["training"],
+        "tags": [],
+        "patrol_art": "train_general_intro",
+        "min_cats": 1,
+        "max_cats": 6,
+        "min_max_status": {},
+        "weight": 10,
+        "intro_text": "While out training, r_c stumbles upon a bush of red berries.",
+        "decline_text": "r_c decides not to touch the berries.",
+        "success_modifier": -20,
+        "success_outcomes": [
+            {
+                "text": {
+                    "constraints": ["patrol_size"],
+                    "one": "one cat is {CHOICE/cute/adorable/floofty}",
+                    "two": "two cats are {BIOME/desc}",
+                    "some": "some cats",
+                    "many": "so many cats y'all"
+                },
+                "text_kwargs": {
+                    "desc": {
+                        "desert": "dusty",
+                        "any": "fluffy"
+                    }
+                },
+                "exp": 20,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            }
+        ],
+        "fail_outcomes": [
+            {
+                "text": {
+                    "one": "one cat oops",
+                    "two": "two cats",
+                    "some": "some cats",
+                    "many": "so many cats y'all"
+                },
+                "exp": 20,
+                "weight": 20,
+                "relationships": [
+                    {
+                        "cats_to": ["patrol"],
+                        "cats_from": ["patrol"],
+                        "mutual": false,
+                        "values": ["comfort", "trust"],
+                        "amount": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "patrol_id": "gen_train_berrybush1",
         "biome": ["any"],
         "season": ["greenleaf"],
