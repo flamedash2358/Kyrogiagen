@@ -735,6 +735,12 @@ class Patrol:
 
         # Run the chosen outcome
         final_event.text = self.unpack_patrol_text(final_event.text, self.patrol_size)
+        final_event.outcome_art = self.unpack_patrol_text(
+            final_event.outcome_art, self.patrol_size
+        )
+        final_event.outcome_art_clean = self.unpack_patrol_text(
+            final_event.outcome_art_clean, self.patrol_size
+        )
         return final_event.execute_outcome(self)
 
     def calculate_success(
