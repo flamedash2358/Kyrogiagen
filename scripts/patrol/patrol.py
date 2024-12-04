@@ -891,7 +891,7 @@ class Patrol:
         :return: A string for display
         """
 
-        if isinstance(text, str):
+        if isinstance(text, Union[str, None]):
             return text
 
         if "constraints" in text:
@@ -1101,15 +1101,21 @@ class Patrol:
 
     def get_patrol_art(self) -> pygame.Surface:
         """Return's patrol art surface"""
-        if not self.patrol_event or not isinstance(self.patrol_event.patrol_art, str):
+        if not self.patrol_event or not isinstance(
+            self.patrol_event.patrol_art, Union[str, dict]
+        ):
             return pygame.Surface((600, 600), flags=pygame.SRCALPHA)
 
         root_dir = "resources/images/patrol_art/"
 
         if game.settings.get("gore") and self.patrol_event.patrol_art_clean:
-            file_name = self.patrol_event.patrol_art_clean
+            file_name = self.unpack_patrol_text(
+                self.patrol_event.patrol_art_clean, self.patrol_size
+            )
         else:
-            file_name = self.patrol_event.patrol_art
+            file_name = self.unpack_patrol_text(
+                self.patrol_event.patrol_art, self.patrol_size
+            )
 
         if not isinstance(file_name, str) or not path_exists(
             f"{root_dir}{file_name}.png"
