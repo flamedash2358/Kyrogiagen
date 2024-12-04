@@ -1174,21 +1174,104 @@ class OngoingEvent:
 class DelayedEvent:
     def __init__(
             self,
-            event_id: str = None,
+            originator_event: str = None,
             pool: dict = None,
             amount_of_events: tuple = None,
-            moon_delay: int = 0,
-            involved: dict = None,
+            moon_delay: tuple = 0,
+            involved_cats: dict = None,
     ):
-        self.event_id = event_id
+        self.originator_event = originator_event
         self.pool = pool
         self.amount_of_events = amount_of_events
         self.moon_delay = moon_delay
 
-        self.involved_cats = involved
+        self.involved_cats = involved_cats
 
-    def get_amount_of_events(self) -> int:
+    def get_constrained_cat(self, Cat, constraint_dict):
         """
-        returns a chosen int from the event's self.amount_of_events range
+        checks the living clan cat list against constraint_dict to find any eligible cats.
+        returns a single cat ID chosen from eligible cats
         """
-        return random.choice(range(self.amount_of_events[0], self.amount_of_events[1]))
+
+        # we're just keeping this to living cats within the clan for now, more complexity can come later
+        alive_cats = [
+            i
+            for i in Cat.all_cats.values()
+            if not i.dead and not i.outside
+        ]
+        funct_dict = {
+            "age": self._check_age,
+            "status": self._check_status,
+            "skill": self._check_skill,
+            "trait": self._check_trait,
+            "backstory": self._check_backstory
+        }
+
+        allowed_cats = []
+        for param in funct_dict:
+            allowed_cats = funct_dict[param](alive_cats, constraint_dict["param"])
+
+            # if the list is emptied, break
+            if not allowed_cats:
+                break
+
+        if not allowed_cats:
+            return
+
+        return random.choice(allowed_cats).ID
+
+    def _check_age(self, cat_list: list, ages: list) -> list:
+        """
+        checks cat_list against required ages and returns qualifying cats
+        """
+        if "any" in ages:
+            return cat_list
+
+        return [kitty for kitty in cat_list if kitty.age in ages]
+
+    def _check_status(self, cat_list: list, statuses: list) -> list:
+        """
+        checks cat_list against required statuses and returns qualifying cats
+        """
+        if "any" in statuses:
+            return cat_list
+
+        return [kitty for kitty in cat_list if kitty.status in statuses]
+
+    def _check_skill(self, cat_list: list, skills: list) -> list:
+        """
+        checks cat_list against required skills and returns qualifying cats
+        """
+        removals = []
+
+        for kitty in cat_list:
+            has_skill = False
+            for _skill in skills:
+                split_skill = _skill.split(",")
+
+                if len(split_skill) < 2:
+                    print("Cat skill incorrectly formatted", _skill)
+                    continue
+
+                if kitty.skills.meets_skill_requirement(split_skill[0], int(split_skill[1])):
+                    has_skill = True
+
+            if not has_skill:
+                removals.append(kitty)
+
+        return [kitty for kitty in cat_list if kitty not in removals]
+
+    def _check_trait(self, cat_list: list, traits: list) -> list:
+        """
+        checks cat_list against required traits and returns qualifying cats
+        """
+        return [kitty for kitty in cat_list if kitty.trait in traits]
+
+    def _check_backstory(self, cat_list: list, backstories: list) -> list:
+        """
+        checks cat_list against required backstories and returns qualifying cats
+        """
+        return [kitty for kitty in cat_list if kitty.backstory in backstories]
+
+
+delayed_event = DelayedEvent()

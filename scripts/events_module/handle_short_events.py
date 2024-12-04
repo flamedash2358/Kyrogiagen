@@ -11,7 +11,7 @@ from scripts.clan_resources.freshkill import (
     FRESHKILL_EVENT_TRIGGER_FACTOR,
 )
 from scripts.event_class import Single_Event
-from scripts.events_module.generate_events import GenerateEvents
+from scripts.events_module.generate_events import GenerateEvents, DelayedEvent, delayed_event
 from scripts.events_module.relation_events import Relation_Events
 from scripts.game_structure.game_essentials import game
 from scripts.utility import (
@@ -28,11 +28,6 @@ from scripts.utility import (
     get_living_clan_cat_count,
     adjust_list_text,
 )
-
-
-# ---------------------------------------------------------------------------- #
-#                               Death Event Class                              #
-# ---------------------------------------------------------------------------- #
 
 
 class HandleShortEvents:
@@ -64,12 +59,12 @@ class HandleShortEvents:
         self.additional_event_text = ""
 
     def handle_event(
-        self,
-        event_type: str,
-        main_cat: Cat,
-        random_cat: Cat,
-        freshkill_pile: FreshkillPile,
-        sub_type: list = None,
+            self,
+            event_type: str,
+            main_cat: Cat,
+            random_cat: Cat,
+            freshkill_pile: FreshkillPile,
+            sub_type: list = None,
     ):
         """
         This function handles the generation and execution of the event
@@ -142,8 +137,8 @@ class HandleShortEvents:
             found = False
             for _event in final_events:
                 if (
-                    _event.event_id
-                    == game.config["event_generation"]["debug_ensure_event_id"]
+                        _event.event_id
+                        == game.config["event_generation"]["debug_ensure_event_id"]
                 ):
                     final_events = [_event]
                     print(
@@ -304,6 +299,44 @@ class HandleShortEvents:
             )
         )
 
+    def prep_delayed_event(self):
+        """
+        handles processing of delayed event assignments
+        """
+        if not self.chosen_event.delayed_event:
+            return
+
+        delayed_info = self.chosen_event.delayed_event
+
+        gathered_cat_dict = {}
+
+        # getting IDs for cats who will be involved
+        for new_role in delayed_info["involved_cats"]:
+            # handle any cats that need to be newly gathered
+            if isinstance(new_role, dict):
+                gathered_cat_dict[new_role] = delayed_event.get_constrained_cat(Cat,
+                                                                                delayed_info["involved_cats"][new_role])
+                continue
+
+            # now grab the cats that were already involved and need to continue being involved
+            possible_cats = {
+                "m_c": self.main_cat,
+                "r_c": self.random_cat,
+                "mur_c": self.victim_cat
+            }
+            old_role = delayed_info["involved_cats"][new_role]
+
+            gathered_cat_dict[new_role] = possible_cats[old_role].ID
+
+        DelayedEvent(
+            originator_event=self.chosen_event.event_id,
+            pool=delayed_info["pool"],
+            amount_of_events=random.choice(
+                range(delayed_info["amount_of_events"][0], delayed_info["amount_of_events"][1])),
+            moon_delay=random.choice(range(delayed_info["moon_delay"][0], delayed_info["moon_delay"][1])),
+            involved_cats=delayed_info["involved_cats"]
+        )
+
     def handle_new_cats(self):
         """
         handles adding new cats to the clan
@@ -349,13 +382,13 @@ class HandleShortEvents:
                 # Search for parent
                 for sub_sub in self.new_cats:
                     if (
-                        sub_sub[0] != sub[0]
-                        and (
+                            sub_sub[0] != sub[0]
+                            and (
                             sub_sub[0].gender == "female"
                             or game.clan.clan_settings["same sex birth"]
-                        )
-                        and sub_sub[0].ID in (sub[0].parent1, sub[0].parent2)
-                        and not (sub_sub[0].dead or sub_sub[0].outside)
+                    )
+                            and sub_sub[0].ID in (sub[0].parent1, sub[0].parent2)
+                            and not (sub_sub[0].dead or sub_sub[0].outside)
                     ):
                         sub_sub[0].get_injured("recovering from birth")
                         break  # Break - only one parent ever gives birth
@@ -384,8 +417,8 @@ class HandleShortEvents:
 
         if hasattr(self.main_cat.pelt, "scars"):
             if (
-                "NOTAIL" in self.main_cat.pelt.scars
-                or "HALFTAIL" in self.main_cat.pelt.scars
+                    "NOTAIL" in self.main_cat.pelt.scars
+                    or "HALFTAIL" in self.main_cat.pelt.scars
             ):
                 for acc in pelts.tail_accessories:
                     if acc in acc_list:
@@ -473,14 +506,14 @@ class HandleShortEvents:
         requirements = self.chosen_event.m_c
         for kitty in alive_cats:
             if (
-                kitty.status not in requirements["status"]
-                and "any" not in requirements["status"]
+                    kitty.status not in requirements["status"]
+                    and "any" not in requirements["status"]
             ):
                 alive_cats.remove(kitty)
                 continue
             if (
-                kitty.age not in requirements["age"]
-                and "any" not in requirements["age"]
+                    kitty.age not in requirements["age"]
+                    and "any" not in requirements["age"]
             ):
                 alive_cats.remove(kitty)
         alive_count = len(alive_cats)
@@ -820,13 +853,13 @@ class HandleShortEvents:
                     if "low" in trigger and herbs[herb] < needed_amount / 2:
                         possible_herbs.append(herb)
                     if (
-                        "adequate" in trigger
-                        and needed_amount / 2 < herbs[herb] < needed_amount
+                            "adequate" in trigger
+                            and needed_amount / 2 < herbs[herb] < needed_amount
                     ):
                         possible_herbs.append(herb)
                     if (
-                        "full" in trigger
-                        and needed_amount < herbs[herb] < needed_amount * 2
+                            "full" in trigger
+                            and needed_amount < herbs[herb] < needed_amount * 2
                     ):
                         possible_herbs.append(herb)
                     if "excess" in trigger and needed_amount * 2 < herbs[herb]:
