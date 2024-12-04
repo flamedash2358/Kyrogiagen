@@ -5,7 +5,7 @@ from copy import deepcopy
 from itertools import repeat
 from os.path import exists as path_exists
 from random import choice, randint, choices
-from typing import List, Tuple, Optional
+from typing import List, Tuple, Optional, Union
 
 import pygame
 import ujson
@@ -46,6 +46,7 @@ class Patrol:
         self.patrol_apprentices = []
         self.other_clan = None
         self.intro_text = ""
+        self.cat_count = 0
 
         self.patrol_statuses = {}
         self.patrol_status_list = []
@@ -59,6 +60,7 @@ class Patrol:
         print("PATROL START ---------------------------------------------------")
 
         self.add_patrol_cats(patrol_cats, game.clan)
+        self.cat_count = len(patrol_cats)
 
         final_patrols, final_romance_patrols = self.get_possible_patrols(
             str(game.clan.current_season).casefold(),
@@ -100,7 +102,9 @@ class Patrol:
         Patrol.used_patrols.append(self.patrol_event.patrol_id)
 
         return self.process_text(
-            self.patrol_event.intro_text, self.patrol_event.intro_text_kwargs, None
+            self.get_from_patrol_size(self.patrol_event.intro_text, self.cat_count),
+            self.patrol_event.intro_text_kwargs,
+            None,
         )
 
     def proceed_patrol(self, path: str = "proceed") -> Tuple[str, str, Optional[str]]:
@@ -114,7 +118,9 @@ class Patrol:
                 )
                 return (
                     self.process_text(
-                        self.patrol_event.decline_text,
+                        self.get_from_patrol_size(
+                            self.patrol_event.decline_text, self.cat_count
+                        ),
                         self.patrol_event.decline_text_kwargs,
                         None,
                     ),
@@ -166,7 +172,10 @@ class Patrol:
                 else:
                     self.patrol_statuses["all apprentices"] = 1
 
-            if cat.status in ("warrior", "deputy", "leader") and cat.age != "adolescent":
+            if (
+                cat.status in ("warrior", "deputy", "leader")
+                and cat.age != "adolescent"
+            ):
                 if "normal adult" in self.patrol_statuses:
                     self.patrol_statuses["normal adult"] += 1
                 else:
@@ -309,7 +318,6 @@ class Patrol:
             if ["medicine cat", "medicine cat apprentice"] in self.patrol_status_list
             else patrol_type
         )
-        patrol_size = len(self.patrol_cats)
         reputation = game.clan.reputation  # reputation with outsiders
         other_clan = self.other_clan
         clan_relations = int(other_clan.relations) if other_clan else 0
@@ -719,6 +727,7 @@ class Patrol:
             final_event.herbs = self.get_dynamic_list(final_event.herbs)
 
         # Run the chosen outcome
+        final_event.text = self.get_from_patrol_size(final_event.text, self.cat_count)
         return final_event.execute_outcome(self)
 
     def calculate_success(
@@ -830,10 +839,9 @@ class Patrol:
             value += value_dict["season"][game.clan.biome.casefold()]
 
         if "patrol_size" in value_dict:
-            size = len(self.patrol_cats)
-            patrol_size = "many" if size > 4 else "some" if size > 1 else "one"
-            if patrol_size in value_dict["patrol_size"]:
-                value += value_dict["patrol_size"][patrol_size]
+            value += self.get_from_patrol_size(
+                value_dict["patrol_size"], len(self.patrol_cats)
+            )
         return value
 
     def get_dynamic_list(self, value_dict) -> List:
@@ -846,10 +854,6 @@ class Patrol:
         for trait, check in [
             ["season".casefold(), game.clan.current_season.casefold()],
             ["biome".casefold(), game.clan.biome.casefold()],
-            [
-                "patrol_size".casefold(),
-                "many" if size > 4 else "some" if size > 1 else "one",
-            ],
         ]:
             if trait in value_dict and check in value_dict[trait]:
                 for item in value_dict[trait][check]:
@@ -862,6 +866,26 @@ class Patrol:
                     elif item not in blacklist:
                         value.add(item)
         return list(value)
+
+    def get_from_patrol_size(self, text, num_cats) -> Union[str, float]:
+        """
+        Handles getting the correct value for the right cat count.
+        :param text: a string / dictionary of text.
+        :param num_cats: Number of cats on the patrol
+        :return: A string for display
+        """
+        lookup = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six"}
+        if isinstance(text, str):
+            return text
+
+        if lookup[num_cats] in text.keys():  # explicit patrol size
+            return text[lookup[num_cats]]
+        elif 2 < num_cats < 5 and "some" in text.keys():  # 3 or 4 cats
+            return text["some"]
+        elif "many" in text.keys():  # general plural / 5 or 6 cats
+            return text["many"]
+        else:
+            raise KeyError("No default text for patrol!")
 
     def update_resources(self, biome_dir, leaf):
         resource_dir = "resources/dicts/patrols/"
@@ -1208,6 +1232,7 @@ class Patrol:
             text = text.replace(list_type, str(sign_list))
 
         # TODO: check if this can be handled in event_text_adjust
+
         return text
 
 

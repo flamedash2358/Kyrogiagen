@@ -44,7 +44,7 @@ class PatrolOutcome:
         self,
         success: bool = True,
         antagonize: bool = False,
-        text: str = None,
+        text: Union[str, Dict[str, str]] = None,
         text_kwargs: Dict = None,
         weight: int = 20,
         exp: int = 0,
