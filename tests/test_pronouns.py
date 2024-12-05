@@ -22,77 +22,6 @@ os.environ["SDL_VIDEODRIVER"] = "dummy"
 os.environ["SDL_AUDIODRIVER"] = "dummy"
 
 
-def test():
-    """Iterate through all files in 'resources'
-    and verify that any detected pronoun tags are
-    formatted correctly."""
-    failed = False
-    failed_files = []
-
-    # Note - we are replacing with a singular-conjugated pronoun,
-    # to ensure that we are catching cases where only one verb conjugation
-    # was provided - since singular-conjugation
-    # should be the second provided conjugation.
-    _r = ("Name", Cat.default_pronouns[1])
-    replacement_dict = {
-        "m_c": _r,
-        "r_c": _r,
-        "r_c1": _r,
-        "r_c2": _r,
-        "n_c": _r,
-        "app1": _r,
-        "app2": _r,
-        "app3": _r,
-        "app4": _r,
-        "app5": _r,
-        "app6": _r,
-        "p_l": _r,
-        "s_c": _r,
-        "(mentor)": _r,
-        "l_n": _r,
-        "dead_par1": _r,
-        "dead_par2": _r,
-        "p1": _r,
-        "p2": _r,
-        "(deadmentor)": _r,
-        "(previous_mentor)": _r,
-        "mur_c": _r,
-        "c_n": _r,
-        "o_c_n": _r,
-        "lead_name": _r,
-        "dep_name": _r,
-        "med_name": _r,
-        "cat_tag": _r,
-    }
-
-    for x in range(0, 11):
-        replacement_dict[f"n_c:{x}"] = _r
-
-    for root, _, files in os.walk("resources"):
-        for file in files:
-            if file.endswith(".json") and file not in [
-                "credits_text.json",
-                "clansettings.json",
-                "gamesettings.json",
-            ]:
-                path = os.path.join(root, file)
-
-                if not test_replacement_failure(path, replacement_dict):
-                    failed = True
-                    failed_files.append(path)
-
-    if failed:
-        # Set the GITHUB_OUTPUT environment variable to the list of failed files
-        if "GITHUB_OUTPUT" in os.environ:
-            with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
-                print(f"files={':'.join(failed_files)}", file=handle)
-        else:
-            print(f"files={':'.join(failed_files)}")
-        sys.exit(1)
-    else:
-        sys.exit(0)
-
-
 def test_replacement_failure(path: str, repl_dict: dict) -> bool:
     """Reads in a file, and finds strings, and runs pronoun replacment on those strings.
     Returns False if there were any issues with the pronoun replacement, or if the
@@ -109,7 +38,9 @@ def test_replacement_failure(path: str, repl_dict: dict) -> bool:
 
     for _str in get_all_strings(contents):
         try:
-            processed = process_text(_str, repl_dict, True)
+            processed = process_text(
+                text=_str, cat_dict=repl_dict, raise_exception=True
+            )
         except (KeyError, IndexError) as _e:
             print(
                 f'::error file={path}: "{_str}" contains invalid pronoun or verb tags.'
@@ -167,5 +98,73 @@ class TestPronouns(unittest.TestCase):
     def test_pronouns(self):
         """Test that all files are ascii decodable."""
         with self.assertRaises(SystemExit) as cm:
-            test()
+            """Iterate through all files in 'resources'
+            and verify that any detected pronoun tags are
+            formatted correctly."""
+            failed = False
+            failed_files = []
+
+            # Note - we are replacing with a singular-conjugated pronoun,
+            # to ensure that we are catching cases where only one verb conjugation
+            # was provided - since singular-conjugation
+            # should be the second provided conjugation.
+            _r = ("Name", Cat.default_pronouns[1])
+            replacement_dict = {
+                "m_c": _r,
+                "r_c": _r,
+                "r_c1": _r,
+                "r_c2": _r,
+                "n_c": _r,
+                "app1": _r,
+                "app2": _r,
+                "app3": _r,
+                "app4": _r,
+                "app5": _r,
+                "app6": _r,
+                "p_l": _r,
+                "s_c": _r,
+                "(mentor)": _r,
+                "l_n": _r,
+                "dead_par1": _r,
+                "dead_par2": _r,
+                "p1": _r,
+                "p2": _r,
+                "(deadmentor)": _r,
+                "(previous_mentor)": _r,
+                "mur_c": _r,
+                "c_n": _r,
+                "o_c_n": _r,
+                "lead_name": _r,
+                "dep_name": _r,
+                "med_name": _r,
+                "cat_tag": _r,
+            }
+
+            for x in range(0, 11):
+                replacement_dict[f"n_c:{x}"] = _r
+
+            for root, _, files in os.walk("resources"):
+                for file in files:
+                    if file.endswith(".json") and file not in [
+                        "credits_text.json",
+                        "clansettings.json",
+                        "gamesettings.json",
+                    ]:
+                        with self.subTest(file=file):
+                            path = os.path.join(root, file)
+
+                            if not test_replacement_failure(path, replacement_dict):
+                                failed = True
+                                failed_files.append(path)
+
+            if failed:
+                # Set the GITHUB_OUTPUT environment variable to the list of failed files
+                if "GITHUB_OUTPUT" in os.environ:
+                    with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
+                        print(f"files={':'.join(failed_files)}", file=handle)
+                else:
+                    print(f"files={':'.join(failed_files)}")
+                sys.exit(1)
+            else:
+                sys.exit(0)
         self.assertEqual(cm.exception.code, 0)

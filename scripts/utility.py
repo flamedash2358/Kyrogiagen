@@ -1762,7 +1762,7 @@ def name_repl(m, cat_dict):
 
 def attr_repl(text, text_kwargs, raise_exception=False, *, cat_count=0, patrol=False):
     values = text.group(1).split("/")
-    if values[0].upper() == "PRONOUN" or values[0].upper() == "VERB":
+    if values[0].upper() in ["PRONOUN", "VERB", "INSERT"]:
         return text.group()  # this is a pronoun tag and should be ignored
     elif values[0].upper() == "CHOICE":
         return choice(values[1:])
@@ -1772,6 +1772,10 @@ def attr_repl(text, text_kwargs, raise_exception=False, *, cat_count=0, patrol=F
         subvalues = values[0].upper().split("_")
     else:
         subvalues = [values[0].upper()]
+
+    if text_kwargs is None:
+        return "MISSING_KWARGS"  # you're someone else's problem now!
+        # this has to be capitalized so that it can't throw problems in tests, just go with it.
 
     try:
         record = text_kwargs[values[1]]
@@ -1841,16 +1845,13 @@ def process_text(
 ):
     """Add the correct name and pronouns into a string."""
 
-    if text_kwargs is not None:
-        adjust_text = re.sub(
-            r"\{(.*?)}",
-            lambda x: attr_repl(
-                x, text_kwargs, raise_exception, cat_count=cat_count, patrol=patrol
-            ),
-            text,
-        )
-    else:
-        adjust_text = text
+    adjust_text = re.sub(
+        r"\{(.*?)}",
+        lambda x: attr_repl(
+            x, text_kwargs, raise_exception, cat_count=cat_count, patrol=patrol
+        ),
+        text,
+    )
 
     if cat_dict:
         adjust_text = re.sub(
@@ -2114,8 +2115,8 @@ def ongoing_event_text_adjust(Cat, text, clan=None, other_clan_name=None):
 def event_text_adjust(
     Cat,
     text,
-        *,
-        patrol_leader=None,
+    *,
+    patrol_leader=None,
     main_cat=None,
     random_cat=None,
     stat_cat=None,
