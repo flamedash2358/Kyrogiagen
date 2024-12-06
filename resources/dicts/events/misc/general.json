@@ -4339,15 +4339,16 @@
     },
     "new_gender": ["trans male", "nonbinary"]
   },
-  {
-    "event_id": "gen_misc_transition_from_male1",
-    "location": ["any"],
-    "season": ["any"],
-    "sub_type": ["transition"],
-    "weight": 10,
-    "event_text": "m_c has realized that tom doesn't describe how {PRONOUN/m_c/subject} {VERB/m_c/feel/feels} anymore.",
-    "m_c": {
-      "gender": ["male"]
+    {
+        "event_id": "gen_misc_transition_from_male1",
+        "location": ["any"],
+        "season": ["any"],
+        "sub_type": ["transition"],
+        "weight": 10,
+        "event_text": "m_c has realized that tom doesn't describe how {PRONOUN/m_c/subject} {VERB/m_c/feel/feels} anymore.",
+        "m_c": {
+            "gender": ["male"]
+        }
     },
     {
         "event_id": "gen_misc_transition_from_male1",
