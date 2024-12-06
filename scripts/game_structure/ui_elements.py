@@ -285,6 +285,7 @@ class UIImageButton(pygame_gui.elements.UIButton):
         self.sound_id = sound_id
         self.mask_padding = mask_padding if mask_padding is not None else 2
         self.mask_info = [relative_rect[0:2], []]
+
         super().__init__(
             relative_rect=relative_rect,
             text=text,
@@ -326,6 +327,8 @@ class UIImageButton(pygame_gui.elements.UIButton):
             self._mask = val
             self.mask_padding = (val.get_size()[0] - self.rect[2]) / 2
         else:
+            # if you're looking for the cat's sprite mask, that's
+            # set in utility.py:update_mask
             val = pygame.mask.from_surface(val, threshold=250)
 
             inflated_mask = pygame.Mask(
@@ -448,11 +451,6 @@ class UIImageButton(pygame_gui.elements.UIButton):
             else:
                 pygame.draw.lines(screen, (255, 0, 0), True, self.mask_info[1], width=2)
         return hover
-
-    def on_hovered(self):
-        super().on_hovered()
-        if self.mask is not None and self.tool_tip is not None:
-            self.tool_tip.disable()
 
 
 class UIModifiedScrollingContainer(pygame_gui.elements.UIScrollingContainer):
@@ -731,6 +729,24 @@ class UISpriteButton:
         mask=None,
         mask_padding=None,
     ):
+        # The transparent button. This a subclass that UIButton that also hold the cat_id.
+        self.button = CatButton(
+            relative_rect,
+            "",
+            object_id="#cat_button",
+            visible=visible,
+            cat_id=cat_id,
+            cat_object=cat_object,
+            starting_height=starting_height + 1,
+            manager=manager,
+            tool_tip_text=tool_tip_text,
+            tool_tip_object_id=tool_tip_object_id,
+            container=container,
+            anchors=anchors,
+            mask=mask,
+            mask_padding=mask_padding,
+        )
+
         input_sprite = sprite.premul_alpha()
         # if it's going to be small on the screen, smoothscale out the crunch
         input_sprite = (
@@ -752,27 +768,10 @@ class UISpriteButton:
             container=container,
             object_id=object_id,
             anchors=anchors,
+            starting_height=starting_height,
         )
         self.image.disable()
         del input_sprite
-
-        # The transparent button. This a subclass that UIButton that also hold the cat_id.
-        self.button = CatButton(
-            relative_rect,
-            "",
-            object_id="#cat_button",
-            visible=visible,
-            cat_id=cat_id,
-            cat_object=cat_object,
-            starting_height=starting_height,
-            manager=manager,
-            tool_tip_text=tool_tip_text,
-            tool_tip_object_id=tool_tip_object_id,
-            container=container,
-            anchors=anchors,
-            mask=mask,
-            mask_padding=mask_padding,
-        )
 
     def return_cat_id(self):
         return self.button.return_cat_id()
@@ -815,6 +814,9 @@ class UISpriteButton:
 
     def get_abs_rect(self):
         return self.button.get_abs_rect()
+
+    def on_hovered(self):
+        self.button.on_hovered()
 
 
 class CatButton(UIImageButton):

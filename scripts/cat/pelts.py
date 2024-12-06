@@ -2,6 +2,7 @@ import random
 from random import choice
 from re import sub
 
+import scripts.game_structure.screen_settings
 from scripts.cat.sprites import sprites
 from scripts.game_structure.game_essentials import game
 
@@ -678,6 +679,7 @@ class Pelt:
         self.scars = scars if isinstance(scars, list) else []
         self.tint = tint
         self.white_patches_tint = white_patches_tint
+        self.screen_scale = scripts.game_structure.screen_settings.screen_scale
         self.cat_sprites = {
             "kitten": kitten_sprite if kitten_sprite is not None else 0,
             "adolescent": adol_sprite if adol_sprite is not None else 0,
@@ -846,8 +848,12 @@ class Pelt:
             colour_wheel = [Pelt.yellow_eyes, Pelt.blue_eyes, Pelt.green_eyes]
             for colour in colour_wheel[:]:
                 if self.eye_colour in colour:
-                    colour_wheel.remove(colour) # removes the selected list from the options
-                    self.eye_colour2 = choice(choice(colour_wheel)) # choose from the remaining two lists
+                    colour_wheel.remove(
+                        colour
+                    )  # removes the selected list from the options
+                    self.eye_colour2 = choice(
+                        choice(colour_wheel)
+                    )  # choose from the remaining two lists
                     break
 
     def pattern_color_inheritance(self, parents: tuple = (), gender="female"):

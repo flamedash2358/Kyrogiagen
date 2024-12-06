@@ -2522,7 +2522,9 @@ def update_sprite(cat):
 
 
 def update_mask(cat):
-    val = pygame.mask.from_surface(cat.sprite, threshold=250)
+    val = pygame.mask.from_surface(
+        pygame.transform.scale(cat.sprite, ui_scale_dimensions((50, 50))), threshold=250
+    )
 
     inflated_mask = pygame.Mask(
         (
@@ -2531,7 +2533,7 @@ def update_mask(cat):
         )
     )
     inflated_mask.draw(val, (5, 5))
-    for _ in range(5):
+    for _ in range(3):
         outline = inflated_mask.outline()
         for point in outline:
             for dx in range(-1, 2):

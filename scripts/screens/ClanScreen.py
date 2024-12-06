@@ -154,47 +154,36 @@ class ClanScreen(Screens):
             layers[-1] += all_positions.count(place) - used_positions.count(place)
             used_positions.remove(place)
 
-                try:
-                    image = Cat.all_cats[x].sprite.convert_alpha()
-                    blend_layer = (
-                        self.game_bgs[self.active_bg]
-                        .subsurface(
-                            ui_scale(
-                                pygame.Rect(tuple(Cat.all_cats[x].placement), (50, 50))
-                            )
-                        )
-                        .convert_alpha()
-                    )
-                    blend_layer = pygame.transform.box_blur(
-                        blend_layer, self.layout["cat_shading"]["blur"]
-                    )
+            try:
+                image = x.sprite.convert_alpha()
+                blend_layer = (
+                    self.game_bgs[self.active_bg]
+                    .subsurface(ui_scale(pygame.Rect(tuple(x.placement), (50, 50))))
+                    .convert_alpha()
+                )
+                blend_layer = pygame.transform.box_blur(
+                    blend_layer, self.layout["cat_shading"]["blur"]
+                )
 
-                    sprite = image.copy()
-                    sprite.fill(
-                        (255, 255, 255, 255), special_flags=pygame.BLEND_RGB_MAX
-                    )
-                    sprite.blit(
-                        blend_layer, (0, 0), special_flags=pygame.BLEND_RGBA_MULT
-                    )
-                    image.set_alpha(self.layout["cat_shading"]["blend_strength"])
-                    sprite.blit(image, (0, 0), special_flags=pygame.BLEND_ALPHA_SDL2)
-                    sprite.set_alpha(255)
+                sprite = image.copy()
+                sprite.fill((255, 255, 255, 255), special_flags=pygame.BLEND_RGB_MAX)
+                sprite.blit(blend_layer, (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
+                image.set_alpha(self.layout["cat_shading"]["blend_strength"])
+                sprite.blit(image, (0, 0), special_flags=pygame.BLEND_ALPHA_SDL2)
+                sprite.set_alpha(255)
 
-                    self.cat_buttons.append(
-                        UISpriteButton(
-                            ui_scale(
-                                pygame.Rect(tuple(Cat.all_cats[x].placement), (50, 50))
-                            ),
-                            sprite,
-                            mask=x.sprite_mask,
-                            cat_id=x,
-                            starting_height=i,
-                        )
+                self.cat_buttons.append(
+                    UISpriteButton(
+                        ui_scale(pygame.Rect(tuple(x.placement), (50, 50))),
+                        sprite,
+                        mask=x.sprite_mask,
+                        cat_id=x.ID,
+                        starting_height=layers[-1],
+                        tool_tip_text=str(x.name),
                     )
-                except:
-                    print(
-                        f"ERROR: placing {Cat.all_cats[x].name}'s sprite on Clan page"
-                    )
+                )
+            except:
+                print(f"ERROR: placing {x.name}'s sprite on Clan page")
 
         # Den Labels
         # Redo the locations, so that it uses layout on the Clan page

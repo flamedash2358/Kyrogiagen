@@ -43,6 +43,7 @@ from scripts.utility import (
     leader_ceremony_text_adjust,
     update_mask,
 )
+import scripts.game_structure.screen_settings
 
 
 class Cat:
@@ -3369,6 +3370,12 @@ class Cat:
 
     @property
     def sprite_mask(self):
+        if (
+            scripts.game_structure.screen_settings.screen_scale
+            != self.pelt.screen_scale
+        ):
+            self.pelt.screen_scale = scripts.game_structure.screen_settings.screen_scale
+            update_mask(self)
         return self._sprite_mask
 
     @sprite_mask.setter
