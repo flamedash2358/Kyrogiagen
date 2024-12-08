@@ -44,7 +44,8 @@ class PatrolOutcome:
         self,
         success: bool = True,
         antagonize: bool = False,
-        text: str = None,
+        text: Union[str, Dict[str, str]] = None,
+        text_kwargs: Dict = None,
         weight: int = 20,
         exp: int = 0,
         stat_trait: List[str] = None,
@@ -70,6 +71,7 @@ class PatrolOutcome:
         self.success = success
         self.antagonize = antagonize
         self.text = text if text is not None else ""
+        self.text_kwargs = text_kwargs if text_kwargs is not None else {}
         self.weight = weight
         self.exp = exp
         self.stat_trait = stat_trait if stat_trait is not None else []
@@ -169,6 +171,7 @@ class PatrolOutcome:
                     success=success,
                     antagonize=antagonize,
                     text=_d.get("text"),
+                    text_kwargs=_d.get("text_kwargs", {}),
                     weight=_d.get("weight"),
                     exp=_d.get("exp"),
                     stat_skill=_d.get("stat_skill"),
@@ -226,6 +229,7 @@ class PatrolOutcome:
             new_cats=patrol.new_cats,
             clan=game.clan,
             other_clan=patrol.other_clan,
+            text_kwargs=self.text_kwargs,
         )
 
         # This order is important.

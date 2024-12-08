@@ -12,7 +12,7 @@ from itertools import combinations
 from math import floor
 from random import choice, choices, randint, random, sample, randrange, getrandbits
 from sys import exit as sys_exit
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 
 import pygame
 import ujson
@@ -1760,16 +1760,110 @@ def name_repl(m, cat_dict):
     return cat_dict[m.group(0)][0]
 
 
-def process_text(text, cat_dict, raise_exception=False):
+def attr_repl(text, text_kwargs, raise_exception=False, *, cat_count=0, patrol=False):
+    values = text.group(1).split("/")
+    if values[0].upper() in ["PRONOUN", "VERB", "INSERT"]:
+        return text.group()  # this is a pronoun tag and should be ignored
+    elif values[0].upper() == "CHOICE":
+        return choice(values[1:])
+
+    # handling multi-type attributes
+    if "_" in values[0]:
+        subvalues = values[0].upper().split("_")
+    else:
+        subvalues = [values[0].upper()]
+
+    if text_kwargs is None:
+        return "MISSING_KWARGS"  # you're someone else's problem now!
+        # this has to be capitalized so that it can't throw problems in tests, just go with it.
+
+    try:
+        record = text_kwargs[values[1]]
+    except KeyError:
+        if raise_exception:
+            raise
+        return "error3_missing_id_in_kwargs"
+
+    output = record
+    for value in subvalues:
+        keys = []
+        if value.startswith("BIOME"):
+            keys.append(game.clan.biome.lower())
+        elif values[0].upper().startswith("SEASON"):
+            keys.append(game.clan.current_season.lower())
+        elif values[0].upper().startswith("SIZE"):
+            if patrol:
+                # one: 1
+                # some: 2-4
+                # many: 5-6
+                keys.append(
+                    "many" if cat_count > 4 else "some" if cat_count > 1 else "one"
+                )
+            elif not patrol:
+                # one: 1-10
+                # some: 11-100
+                # many: 100+
+                keys.append(
+                    "many" if cat_count > 50 else "some" if cat_count > 20 else "one"
+                )
+        else:
+            if raise_exception:
+                raise KeyError(f"Attribute tag: {value} does not exist.")
+            return "error4_nonexistent_attribute"
+
+        keys.append("any")
+
+        match = False
+        anykey = False
+        for key in keys:
+            if key in output:
+                match = True
+                anykey = key == "any"
+                output = record[key]
+                break
+
+        if not match:
+            if raise_exception:
+                raise KeyError(
+                    f"No key found. Ensure 'any' is an option to avoid this!."
+                )
+            return "error5_no_match"
+
+        if anykey:  # if we had to go to default, go no further
+            break
+
+    if isinstance(output, str):
+        return output
+    elif raise_exception:
+        raise TypeError(f"Expected to return string, got: {type(output)}")
+    else:
+        return "error6_typeerror"
+
+
+def process_text(
+    text, cat_dict, text_kwargs=None, raise_exception=False, cat_count=0, patrol=False
+):
     """Add the correct name and pronouns into a string."""
+
     adjust_text = re.sub(
-        r"\{(.*?)\}", lambda x: pronoun_repl(x, cat_dict, raise_exception), text
+        r"\{(.*?)}",
+        lambda x: attr_repl(
+            x, text_kwargs, raise_exception, cat_count=cat_count, patrol=patrol
+        ),
+        text,
     )
 
-    name_patterns = [r"(?<!\{)" + re.escape(l) + r"(?!\})" for l in cat_dict]
-    adjust_text = re.sub(
-        "|".join(name_patterns), lambda x: name_repl(x, cat_dict), adjust_text
-    )
+    if cat_dict:
+        adjust_text = re.sub(
+            r"\{(.*?)}",
+            lambda x: pronoun_repl(x, cat_dict, raise_exception),
+            adjust_text,
+        )
+
+        name_patterns = [r"(?<!\{)" + re.escape(l) + r"(?!\})" for l in cat_dict]
+        adjust_text = re.sub(
+            "|".join(name_patterns), lambda x: name_repl(x, cat_dict), adjust_text
+        )
     return adjust_text
 
 
@@ -2034,6 +2128,7 @@ def event_text_adjust(
     clan=None,
     other_clan=None,
     chosen_herb: str = None,
+    text_kwargs: Dict = None,
 ):
     """
     handles finding abbreviations in the text and replacing them appropriately, returns the adjusted text
@@ -2051,6 +2146,7 @@ def event_text_adjust(
     :param Clan clan: pass game.clan
     :param OtherClan other_clan: OtherClan object for other_clan (o_c_n), if present
     :param str chosen_herb: string of chosen_herb (chosen_herb), if present
+    :param text_kwargs: keyword arguments for the event text, if present
     """
     vowels = ["A", "E", "I", "O", "U"]
 
@@ -2069,6 +2165,10 @@ def event_text_adjust(
         text = text.replace(list_type, str(sign_list))
         if cat_tag:
             text = text.replace("cat_tag", cat_tag)
+
+    # runs the text kwargs part
+    if text_kwargs:
+        text = process_text(text, None, text_kwargs=text_kwargs)
 
     # main_cat
     if "m_c" in text:
@@ -2152,7 +2252,7 @@ def event_text_adjust(
         replace_dict["med_name"] = (str(med.name), choice(med.pronouns))
 
     # assign all names and pronouns
-    if replace_dict:
+    if replace_dict or text_kwargs:
         text = process_text(text, replace_dict)
 
     # multi_cat

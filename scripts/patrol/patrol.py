@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
+import logging
 import random
 from copy import deepcopy
 from itertools import repeat
 from os.path import exists as path_exists
 from random import choice, randint, choices
-from typing import List, Tuple, Optional
+from typing import List, Tuple, Optional, Union, Dict
 
 import pygame
 import ujson
@@ -37,7 +38,11 @@ When adding new patrols, use \n to add a paragraph break in the text
 class Patrol:
     used_patrols = []
 
+    with open("resources/patrol_config.json", "r", encoding="utf-8") as read_file:
+        PATROL_CONFIG = ujson.loads(read_file.read())
+
     def __init__(self):
+        self.patrol_type = None
         self.patrol_event: PatrolEvent = None
 
         self.patrol_leader = None
@@ -46,6 +51,7 @@ class Patrol:
         self.patrol_apprentices = []
         self.other_clan = None
         self.intro_text = ""
+        self.patrol_size = 0
 
         self.patrol_statuses = {}
         self.patrol_status_list = []
@@ -59,6 +65,8 @@ class Patrol:
         print("PATROL START ---------------------------------------------------")
 
         self.add_patrol_cats(patrol_cats, game.clan)
+        self.patrol_size = len(patrol_cats)
+        self.patrol_type = patrol_type
 
         final_patrols, final_romance_patrols = self.get_possible_patrols(
             str(game.clan.current_season).casefold(),
@@ -99,7 +107,11 @@ class Patrol:
 
         Patrol.used_patrols.append(self.patrol_event.patrol_id)
 
-        return self.process_text(self.patrol_event.intro_text, None)
+        return self.process_text(
+            self.unpack_patrol_text(self.patrol_event.intro_text, self.patrol_size),
+            self.patrol_event.intro_text_kwargs,
+            None,
+        )
 
     def proceed_patrol(self, path: str = "proceed") -> Tuple[str, str, Optional[str]]:
         """Proceed the patrol to the next step.
@@ -110,7 +122,17 @@ class Patrol:
                 print(
                     f"PATROL ID: {self.patrol_event.patrol_id} | SUCCESS: N/A (did not proceed)"
                 )
-                return self.process_text(self.patrol_event.decline_text, None), "", None
+                return (
+                    self.process_text(
+                        self.unpack_patrol_text(
+                            self.patrol_event.decline_text, self.patrol_size
+                        ),
+                        self.patrol_event.decline_text_kwargs,
+                        None,
+                    ),
+                    "",
+                    None,
+                )
             else:
                 return "Error - no event chosen", "", None
 
@@ -156,7 +178,10 @@ class Patrol:
                 else:
                     self.patrol_statuses["all apprentices"] = 1
 
-            if cat.status in ("warrior", "deputy", "leader") and cat.age != "adolescent":
+            if (
+                cat.status in ("warrior", "deputy", "leader")
+                and cat.age != "adolescent"
+            ):
                 if "normal adult" in self.patrol_statuses:
                     self.patrol_statuses["normal adult"] += 1
                 else:
@@ -245,29 +270,53 @@ class Patrol:
 
         possible_patrols = []
         # This is for debugging purposes, load-in *ALL* the possible patrols when debug_override_patrol_stat_requirements is true. (May require longer loading time)
-        if (game.config["patrol_generation"]["debug_override_patrol_stat_requirements"]):
+        if game.config["patrol_generation"]["debug_override_patrol_stat_requirements"]:
             leaves = ["greenleaf", "leaf-bare", "leaf-fall", "newleaf", "any"]
             for biome in game.clan.BIOME_TYPES:
                 for leaf in leaves:
                     biome_dir = f"{biome.lower()}/"
                     self.update_resources(biome_dir, leaf)
                     possible_patrols.extend(self.generate_patrol_events(self.HUNTING))
-                    possible_patrols.extend(self.generate_patrol_events(self.HUNTING_SZN))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.HUNTING_SZN)
+                    )
                     possible_patrols.extend(self.generate_patrol_events(self.BORDER))
-                    possible_patrols.extend(self.generate_patrol_events(self.BORDER_SZN))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.BORDER_SZN)
+                    )
                     possible_patrols.extend(self.generate_patrol_events(self.TRAINING))
-                    possible_patrols.extend(self.generate_patrol_events(self.TRAINING_SZN))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.TRAINING_SZN)
+                    )
                     possible_patrols.extend(self.generate_patrol_events(self.MEDCAT))
-                    possible_patrols.extend(self.generate_patrol_events(self.MEDCAT_SZN))
-                    possible_patrols.extend(self.generate_patrol_events(self.HUNTING_GEN))
-                    possible_patrols.extend(self.generate_patrol_events(self.BORDER_GEN))
-                    possible_patrols.extend(self.generate_patrol_events(self.TRAINING_GEN))
-                    possible_patrols.extend(self.generate_patrol_events(self.MEDCAT_GEN))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.MEDCAT_SZN)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.HUNTING_GEN)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.BORDER_GEN)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.TRAINING_GEN)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.MEDCAT_GEN)
+                    )
                     possible_patrols.extend(self.generate_patrol_events(self.DISASTER))
-                    possible_patrols.extend(self.generate_patrol_events(self.NEW_CAT_WELCOMING))
-                    possible_patrols.extend(self.generate_patrol_events(self.NEW_CAT_HOSTILE))
-                    possible_patrols.extend(self.generate_patrol_events(self.OTHER_CLAN_ALLIES))
-                    possible_patrols.extend(self.generate_patrol_events(self.OTHER_CLAN_HOSTILE))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.NEW_CAT_WELCOMING)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.NEW_CAT_HOSTILE)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.OTHER_CLAN_ALLIES)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.OTHER_CLAN_HOSTILE)
+                    )
 
         # this next one is needed for Classic specifically
         patrol_type = (
@@ -275,7 +324,6 @@ class Patrol:
             if ["medicine cat", "medicine cat apprentice"] in self.patrol_status_list
             else patrol_type
         )
-        patrol_size = len(self.patrol_cats)
         reputation = game.clan.reputation  # reputation with outsiders
         other_clan = self.other_clan
         clan_relations = int(other_clan.relations) if other_clan else 0
@@ -369,12 +417,13 @@ class Patrol:
             possible_patrols, biome, camp, current_season, patrol_type
         )
 
-        # This is a debug option, this allows you to remove any constraints of a patrol regarding location, session, biomes, etc. 
+        # This is a debug option, this allows you to remove any constraints of a patrol regarding location, session, biomes, etc.
         if game.config["patrol_generation"]["debug_override_patrol_stat_requirements"]:
             final_patrols = final_romance_patrols = possible_patrols
             # Logging
-            print("All patrol filters regarding location, session, etc. have been removed.")
-
+            print(
+                "All patrol filters regarding location, session, etc. have been removed."
+            )
 
         # This is a debug option. If the patrol_id set isn "debug_ensure_patrol" is possible,
         # make it the *only* possible patrol
@@ -593,15 +642,21 @@ class Patrol:
     def generate_patrol_events(self, patrol_dict):
         all_patrol_events = []
         for patrol in patrol_dict:
+            weight = patrol.get("weight", 20)
+            if isinstance(weight, dict):
+                weight = self.get_dynamic_int(weight)
+                weight = max(1, weight)
+
             patrol_event = PatrolEvent(
                 patrol_id=patrol.get("patrol_id"),
                 biome=patrol.get("biome"),
                 camp=patrol.get("camp"),
                 season=patrol.get("season"),
                 tags=patrol.get("tags"),
-                weight=patrol.get("weight", 20),
+                weight=weight,
                 types=patrol.get("types"),
                 intro_text=patrol.get("intro_text"),
+                intro_text_kwargs=patrol.get("intro_text_kwargs"),
                 patrol_art=patrol.get("patrol_art"),
                 patrol_art_clean=patrol.get("patrol_art_clean"),
                 success_outcomes=PatrolOutcome.generate_from_info(
@@ -611,7 +666,9 @@ class Patrol:
                     patrol.get("fail_outcomes"), success=False
                 ),
                 decline_text=patrol.get("decline_text"),
+                decline_text_kwargs=patrol.get("decline_text_kwargs"),
                 chance_of_success=patrol.get("chance_of_success"),
+                success_modifier=patrol.get("success_modifier"),
                 min_cats=patrol.get("min_cats", 1),
                 max_cats=patrol.get("max_cats", 6),
                 min_max_status=patrol.get("min_max_status"),
@@ -653,6 +710,12 @@ class Patrol:
         fail_outcomes = PatrolOutcome.prepare_allowed_outcomes(fail_outcomes, self)
 
         # Choose a success and fail outcome
+        for outcome in success_outcomes:
+            if isinstance(outcome.weight, dict):
+                outcome.weight = self.get_dynamic_int(outcome.weight)
+        for outcome in fail_outcomes:
+            if isinstance(outcome.weight, dict):
+                outcome.weight = self.get_dynamic_int(outcome.weight)
         chosen_success = choices(
             success_outcomes, weights=[x.weight for x in success_outcomes]
         )[0]
@@ -664,10 +727,23 @@ class Patrol:
 
         print(f"PATROL ID: {self.patrol_event.patrol_id} | SUCCESS: {success}")
 
+        if isinstance(final_event.exp, dict):
+            final_event.exp = self.get_dynamic_int(final_event.exp)
+
+        if isinstance(final_event.herbs, dict):
+            final_event.herbs = self.get_dynamic_list(final_event.herbs)
+
         # Run the chosen outcome
+        final_event.text = self.unpack_patrol_text(final_event.text, self.patrol_size)
+        final_event.outcome_art = self.unpack_patrol_text(
+            final_event.outcome_art, self.patrol_size
+        )
+        final_event.outcome_art_clean = self.unpack_patrol_text(
+            final_event.outcome_art_clean, self.patrol_size
+        )
         return final_event.execute_outcome(self)
 
-    def calculate_success( 
+    def calculate_success(
         self, success_outcome: PatrolOutcome, fail_outcome: PatrolOutcome
     ) -> Tuple[PatrolOutcome, bool]:
         """Returns both the chosen event, and a boolean that's True if success, and False is fail."""
@@ -681,14 +757,41 @@ class Patrol:
         exp_adustment = (
             (1 + 0.10 * patrol_size) * total_exp / (patrol_size * gm_modifier * 2)
         )
+        if self.patrol_event.success_modifier is not None:
+            base_success_chance = (
+                self.PATROL_CONFIG["base_success"][game.clan.biome.lower()][
+                    self.patrol_type
+                ][game.clan.current_season.lower()]
+                + self.patrol_event.success_modifier
+            )
+        elif isinstance(self.patrol_event.chance_of_success, dict):
+            base_success_chance = self.get_dynamic_int(
+                self.patrol_event.chance_of_success
+            )
+            # constraining value to 10-85 or custom range
+            base_success_chance = max(
+                base_success_chance,
+                self.patrol_event.chance_of_success["min_size"]
+                if "min_size" in self.patrol_event.chance_of_success
+                else 10,
+            )
+            base_success_chance = min(
+                base_success_chance,
+                self.patrol_event.chance_of_success["max_size"]
+                if "max_size" in self.patrol_event.chance_of_success
+                else 85,
+            )
+        else:
+            # old-style success chance, just use the base value
+            base_success_chance = self.patrol_event.chance_of_success
 
-        success_chance = self.patrol_event.chance_of_success + int(exp_adustment)
+        success_chance = base_success_chance + int(exp_adustment)
         success_chance = min(success_chance, 90)
 
         # Now, apply success and fail skill
         print(
             "starting chance:",
-            self.patrol_event.chance_of_success,
+            base_success_chance,
             "| EX_updated chance:",
             success_chance,
         )
@@ -727,12 +830,110 @@ class Patrol:
         success = int(random.random() * 120) < success_chance
 
         # This is a debug option, this will forcefully change the outcome of a patrol
-        if isinstance(game.config["patrol_generation"]["debug_ensure_patrol_outcome"], bool):
+        if isinstance(
+            game.config["patrol_generation"]["debug_ensure_patrol_outcome"], bool
+        ):
             success = game.config["patrol_generation"]["debug_ensure_patrol_outcome"]
             # Logging
-            print(f"The outcome of {self.patrol_event.patrol_id} was altered to {success}")
+            print(
+                f"The outcome of {self.patrol_event.patrol_id} was altered to {success}"
+            )
 
         return (success_outcome if success else fail_outcome, success)
+
+    def get_dynamic_int(self, value_dict):
+        if "base" not in value_dict:
+            raise KeyError("Dict format used but no base value!")
+        value = value_dict.pop("base")
+
+        if (
+            "season".casefold() in value_dict
+            and game.clan.current_season.casefold() in value_dict["season"]
+        ):
+            value += value_dict["season"][game.clan.current_season.casefold()]
+
+        if (
+            "biome".casefold() in value_dict
+            and game.clan.biome.casefold() in value_dict["biome"]
+        ):
+            value += value_dict["season"][game.clan.biome.casefold()]
+
+        if "patrol_size" in value_dict:
+            value += self.get_from_patrol_size(
+                value_dict["patrol_size"], len(self.patrol_cats)
+            )
+        return value
+
+    def get_dynamic_list(self, value_dict) -> List:
+        if "base" not in value_dict:
+            raise KeyError("Dict format used but no base value!")
+        value = set(value_dict.pop("base"))
+        blacklist = set()
+
+        size = len(self.patrol_cats)
+        for trait, check in [
+            ["season".casefold(), game.clan.current_season.casefold()],
+            ["biome".casefold(), game.clan.biome.casefold()],
+        ]:
+            if trait in value_dict and check in value_dict[trait]:
+                for item in value_dict[trait][check]:
+                    # if we are removing an item:
+                    if item.startswith("-"):
+                        if item[1:] in value:
+                            value.remove(item[1:])
+                        # add that item to the blacklist, so we can't re-add it
+                        blacklist.add(item[1:])
+                    elif item not in blacklist:
+                        value.add(item)
+        return list(value)
+
+    def unpack_patrol_text(
+        self, text: Union[str, Dict[str, Union[str, int]]], num_cats
+    ) -> Union[str, float]:
+        """
+        Handles unpacking patrol text to get the right string.
+        :param text: a string / dictionary of text.
+        :param num_cats: Number of cats on the patrol
+        :return: A string for display
+        """
+
+        if isinstance(text, Union[str, None]):
+            return text
+
+        if "constraints" in text:
+            constraint_order = text["constraints"]
+        else:
+            logging.warning(f"No constraints provided for dictionary.")
+            return f"Text is missing 'constraints' field, please report! Patrol ID: {self.patrol_event.patrol_id}"
+
+        for constraint in constraint_order:
+            if constraint == "patrol_size":
+                text = self.get_from_patrol_size(text, num_cats)
+            elif constraint == "biome":
+                text = text.get(game.clan.biome.lower(), text.get("any"))
+            elif constraint == "season":
+                text = text.get(game.clan.current_season.lower(), text.get("any"))
+            if text is None:
+                logging.warning(f"No default provided for {constraint}!")
+                return f"No text found, report this! Patrol ID: {self.patrol_event.patrol_id}"
+
+        if isinstance(text, str):
+            return text
+        raise Exception("Didn't get to a string when unpacking patrol data!")
+
+    def get_from_patrol_size(self, text, num_cats):
+        lookup = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six"}
+        if isinstance(text, str):
+            return text
+
+        if lookup[num_cats] in text.keys():  # explicit patrol size
+            return text[lookup[num_cats]]
+        elif 2 < num_cats < 5 and "some" in text.keys():  # 3 or 4 cats
+            return text["some"]
+        elif "many" in text.keys():  # general plural / 5 or 6 cats
+            return text["many"]
+        else:
+            raise KeyError("No default text for patrol!")
 
     def update_resources(self, biome_dir, leaf):
         resource_dir = "resources/dicts/patrols/"
@@ -906,15 +1107,21 @@ class Patrol:
 
     def get_patrol_art(self) -> pygame.Surface:
         """Return's patrol art surface"""
-        if not self.patrol_event or not isinstance(self.patrol_event.patrol_art, str):
+        if not self.patrol_event or not isinstance(
+            self.patrol_event.patrol_art, Union[str, dict]
+        ):
             return pygame.Surface((600, 600), flags=pygame.SRCALPHA)
 
         root_dir = "resources/images/patrol_art/"
 
         if game.settings.get("gore") and self.patrol_event.patrol_art_clean:
-            file_name = self.patrol_event.patrol_art_clean
+            file_name = self.unpack_patrol_text(
+                self.patrol_event.patrol_art_clean, self.patrol_size
+            )
         else:
-            file_name = self.patrol_event.patrol_art
+            file_name = self.unpack_patrol_text(
+                self.patrol_event.patrol_art, self.patrol_size
+            )
 
         if not isinstance(file_name, str) or not path_exists(
             f"{root_dir}{file_name}.png"
@@ -932,7 +1139,7 @@ class Patrol:
 
         return pygame.image.load(f"{root_dir}{file_name}.png")
 
-    def process_text(self, text, stat_cat: Optional[Cat]) -> str:
+    def process_text(self, text, text_kwargs, stat_cat: Optional[Cat]) -> str:
         """Processes text"""
 
         vowels = ["A", "E", "I", "O", "U"]
@@ -1024,7 +1231,7 @@ class Patrol:
         if stat_cat:
             replace_dict["s_c"] = (str(stat_cat.name), choice(stat_cat.pronouns))
 
-        text = process_text(text, replace_dict)
+        text = process_text(text, replace_dict, text_kwargs=text_kwargs, patrol=True)
         text = adjust_prey_abbr(text)
 
         other_clan_name = self.other_clan.name
@@ -1079,6 +1286,7 @@ class Patrol:
             text = text.replace(list_type, str(sign_list))
 
         # TODO: check if this can be handled in event_text_adjust
+
         return text
 
 
