@@ -24,7 +24,8 @@
                         "cats_from": ["patrol"],
                         "mutual": false,
                         "values": ["comfort", "trust"],
-                        "amount": 5
+                        "amount": 5,
+                        "log": "r_c warned the patrol {PRONOUN/r_c/subject} {VERB/r_c/were/was} with about some potentially dangerous red berries"
                     }
                 ]
             },
@@ -543,6 +544,7 @@
                     "ambitious",
                     "grumpy"
                 ],
+                "can_have_stat": ["r_c"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3847,6 +3849,7 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
+                "can_have_stat": ["r_c"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3876,6 +3879,7 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["MEDIATOR,1"],
+                "can_have_stat": ["not_pl_rc"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3905,6 +3909,7 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
+                "can_have_stat": ["r_c"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3927,6 +3932,7 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["INSIGHTFUL,1"],
+                "can_have_stat": ["r_c"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3956,6 +3962,7 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["HEALER,1"],
+                "can_have_stat": ["r_c"],
                 "injury": [
                     {
                         "cats": ["p_l"],
@@ -4012,6 +4019,7 @@
                     "arrogant",
                     "ambitious"
                 ],
+                "can_have_stat": ["r_c"],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
@@ -4473,6 +4481,7 @@
                     "arrogant",
                     "ambitious"
                 ],
+                "can_have_stat": ["r_c"],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
@@ -10787,11 +10796,12 @@
         "min_cats": 2,
         "max_cats": 4,
         "min_max_status": {
-            "apprentice": [1, 6],
-            "normal adult": [-1, -1]
+            "apprentice": [2, 6],
+            "normal adult": [-1, -1],
+            "warrior": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "{PRONOUN/app1/poss/CAP} mentor sends {PRONOUN/app1/object} out with other apprentices from the Clan to assess {PRONOUN/app1/poss} hunting skills. {PRONOUN/app1/poss/CAP} group argues about who should really lead this patrol. app2 wants to be in charge, but {PRONOUN/app2/subject} {VERB/app2/are/is}n't the easiest cat to work with. app1 thinks {PRONOUN/app1/subject} should speak up.",
+        "intro_text": "app1's mentor sends {PRONOUN/app1/object} out with other apprentices from the Clan to assess {PRONOUN/app1/poss} hunting skills. {PRONOUN/app1/poss/CAP} group argues about who should really lead this patrol. app2 wants to be in charge, but {PRONOUN/app2/subject} {VERB/app2/are/is}n't the easiest cat to work with. app1 thinks {PRONOUN/app1/subject} should speak up.",
         "decline_text": "app1 confesses to {PRONOUN/app1/poss} mentor that {PRONOUN/app1/subject} {VERB/app1/do/does} not feel ready for {PRONOUN/app1/poss} assessment. {PRONOUN/app1/poss/CAP} mentor looks disappointed but seems to understand and offers to postpone the test until next moon. Part of app1 cannot help but wonder if the other apprentices will think poorly of {PRONOUN/app1/object}.",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -12182,7 +12192,8 @@
                     "flamboyant",
                     "rebellious"
                 ],
-                "relationships": [
+                "can_have_stat": ["not_pl_rc"],
+            "relationships": [
                     {
                         "cats_to": ["patrol"],
                         "cats_from": ["patrol"],
@@ -12237,7 +12248,7 @@
                     "sincere",
                     "flamboyant",
                     "rebellious"
-                ],
+                ],"can_have_stat": ["not_pl_rc"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -12293,7 +12304,7 @@
                     "sincere",
                     "flamboyant",
                     "rebellious"
-                ],
+                ],"can_have_stat": ["not_pl_rc"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -12326,7 +12337,8 @@
                     "fierce",
                     "competitive"
                 ],
-                "relationships": [
+                "can_have_stat": ["not_pl_rc"],
+	"relationships": [
                     {
                         "cats_to": ["patrol"],
                         "cats_from": ["patrol"],
@@ -12358,7 +12370,8 @@
                     "competitive"
                 ],
                 "stat_skill": ["FIGHTER,2"],
-                "relationships": [
+                "can_have_stat": ["not_pl_rc"],
+            "relationships": [
                     {
                         "cats_to": ["patrol"],
                         "cats_from": ["patrol"],
@@ -12382,7 +12395,8 @@
                 "weight": 40,
                 "stat_trait": ["wise", "thoughtful", "calm", "careful", "lonesome"],
                 "stat_skill": ["FIGHTER,2"],
-                "relationships": [
+                "can_have_stat": ["not_pl_rc"],
+            "relationships": [
                     {
                         "cats_to": ["patrol"],
                         "cats_from": ["patrol"],
@@ -12405,7 +12419,7 @@
                 "exp": 10,
                 "weight": 40,
                 "stat_trait": ["cunning", "sneaky", "shameless", "flamboyant", "charismatic", "daring", "bold"],
-                "stat_skill": ["FIGHTER,1"],
+                "stat_skill": ["FIGHTER,1"],"can_have_stat": ["not_pl_rc"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -12438,7 +12452,7 @@
                     "thoughtful",
                     "sincere"
                 ],
-                "stat_skill": ["FIGHTER,2"],
+                "stat_skill": ["FIGHTER,2"],"can_have_stat": ["not_pl_rc"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -12473,7 +12487,7 @@
                     "insecure",
                     "nervous"
                 ],
-                "stat_skill": ["FIGHTER,2"],
+                "stat_skill": ["FIGHTER,2"],"can_have_stat": ["not_pl_rc"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -12497,7 +12511,7 @@
                 "exp": 10,
                 "weight": 40,
                 "stat_trait": ["gloomy", "lonesome", "insecure", "nervous"],
-                "stat_skill": ["FIGHTER,2"],
+                "stat_skill": ["FIGHTER,2"],"can_have_stat": ["not_pl_rc"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -12521,7 +12535,8 @@
                 "exp": 10,
                 "weight": 40,
                 "stat_skill": ["CLAIRVOYANT,1"],
-                "relationships": [
+                "can_have_stat": ["not_pl_rc"],
+            "relationships": [
                     {
                         "cats_to": ["patrol"],
                         "cats_from": ["patrol"],
@@ -12546,7 +12561,8 @@
                 "exp": 0,
                 "weight": 40,
                 "stat_trait": ["childish"],
-                "relationships": [
+                "can_have_stat": ["not_pl_rc"],
+            "relationships": [
                     {
                         "cats_to": ["s_c"],
                         "cats_from": ["p_l", "r_c"],
@@ -12605,7 +12621,8 @@
                     "flamboyant",
                     "rebellious"
                 ],
-                "relationships": [
+                "can_have_stat": ["not_pl_rc"],
+        "relationships": [
                     {
                         "cats_to": ["s_c"],
                         "cats_from": ["p_l", "r_c"],
@@ -12660,7 +12677,7 @@
                     "sincere",
                     "flamboyant",
                     "rebellious"
-                ],
+                ],"can_have_stat": ["not_pl_rc"],
                 "relationships": [
                     {
                         "cats_to": ["p_l", "r_c"],
@@ -12683,35 +12700,10 @@
                 "text": "p_l and r_c team up against s_c and, despite s_c's best efforts, the fight is over extremely quickly. While p_l and r_c compliment each other's fighting styles, s_c's temper boils over, and {PRONOUN/s_c/subject} {VERB/s_c/snap/snaps} that it was an unfair fight - {PRONOUN/s_c/subject} could totally beat either of them one-on-one!",
                 "exp": 0,
                 "weight": 10,
-                "stat_trait": [
-                    "troublesome",
-                    "lonesome",
-                    "fierce",
-                    "bloodthirsty",
-                    "cold",
-                    "childish",
-                    "bold",
-                    "daring",
-                    "righteous",
-                    "insecure",
-                    "strict",
-                    "ambitious",
-                    "confident",
-                    "adventurous",
-                    "faithful",
-                    "loyal",
-                    "shameless",
-                    "sneaky",
-                    "strange",
-                    "vengeful",
-                    "arrogant",
-                    "competitive",
-                    "grumpy",
-                    "gloomy",
-                    "sincere",
-                    "flamboyant",
-                    "rebellious"
-                ],
+                "stat_trait": [ 
+                "troublesome", "lonesome", "fierce", "bloodthirsty", "cold", "childish", "bold", "daring", "righteous", "insecure", "strict", "ambitious", "confident", "adventurous", "faithful", "loyal", "shameless", "sneaky", "strange", "vengeful", "arrogant", "competitive", "grumpy", "gloomy", "sincere", "flamboyant", "rebellious"
+            ],
+                "can_have_stat": ["not_pl_rc"],
                 "relationships": [
                     {
                         "cats_to": ["p_l", "r_c"],
@@ -12785,7 +12777,8 @@
                     "flamboyant",
                     "rebellious"
                 ],
-                "injury": [
+                "can_have_stat": ["not_pl_rc"],
+            "injury": [
                     {
                         "cats": ["p_l"],
                         "injuries": ["sprain"]
