@@ -1757,10 +1757,12 @@
                 "exp": 10,
                 "weight": 5,
                 "art": "gen_battle_rogue_warrior",
-                "injury": {
-                    "cats": ["r_c"],
-                    "injuries": ["battle_injury", "battle_injury"]
-                },
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["battle_injury", "battle_injury"]
+                    }
+                ],
                 "history_text": {
                     "reg_death": "m_c died from {PRONOUN/r_c/poss} injuries after a fight with a rogue.",
                     "scar": "m_c was scarred in a fight with a rogue."
@@ -1780,7 +1782,7 @@
                 "exp": 10,
                 "weight": 10,
                 "can_have_stat": ["p_l"],
-                "stat_trait": ["troublesome", "fierce", "bloodthirsty", "cold", "childish", "shameless", "vengeful", "arrogant", "competitive", "grumpy", "cunning", "oblivous", "rebellious"],
+                "stat_trait": ["troublesome", "fierce", "bloodthirsty", "cold", "childish", "shameless", "vengeful", "arrogant", "competitive", "grumpy", "cunning", "oblivious", "rebellious"],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
@@ -1819,10 +1821,12 @@
                 "text": "While they are bickering, r_c trips, and p_l snickers, earning r_c's ire.",
                 "exp": 0,
                 "weight": 20,
-                "injury": {
-                    "cats": ["r_c"],
-                    "injuries": ["minor_injury"]
-                },
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["minor_injury"]
+                    }
+                ],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -1849,7 +1853,7 @@
                 "exp": 0,
                 "weight": 10,
                 "can_have_stat": ["p_l"],
-                "stat_trait": ["troublesome", "fierce", "bloodthirsty", "cold", "childish", "shameless", "vengeful", "arrogant", "competitive", "grumpy", "cunning", "oblivous", "rebellious"],
+                "stat_trait": ["troublesome", "fierce", "bloodthirsty", "cold", "childish", "shameless", "vengeful", "arrogant", "competitive", "grumpy", "cunning", "oblivious", "rebellious"],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
@@ -1951,10 +1955,12 @@
                 "exp": 10,
                 "weight": 15,
                 "art": "gen_otherclan_ambush",
-                "injury": {
-                    "cats": ["r_c"],
-                    "injuries": ["battle_injury", "battle_injury"]
-                },
+                "injury": [
+                    {
+                        "cats": ["r_c"],
+                        "injuries": ["battle_injury", "battle_injury"]
+                    }
+                ],
                 "history_text": {
                     "scar": "m_c was scarred after being ambushed on patrol.",
                     "reg_death": "m_c died of injuries sustained in an ambush.",
@@ -1975,7 +1981,7 @@
                 "exp": 10,
                 "weight": 10,
                 "can_have_stat": ["p_l"],
-                "stat_trait": ["troublesome", "fierce", "bloodthirsty", "cold", "childish", "shameless", "vengeful", "arrogant", "competitive", "grumpy", "cunning", "oblivous", "rebellious"],
+                "stat_trait": ["troublesome", "fierce", "bloodthirsty", "cold", "childish", "shameless", "vengeful", "arrogant", "competitive", "grumpy", "cunning", "oblivious", "rebellious"],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
@@ -2015,10 +2021,12 @@
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_warrior_infighting",
-                "injury": {
-                    "cats": ["r_c", "p_l"],
-                    "injuries": ["minor_injury","minor_injury","battle_injury"]
-                },
+                "injury": [
+                    {
+                        "cats": ["r_c", "p_l"],
+                        "injuries": ["minor_injury","minor_injury","battle_injury"]
+                    }
+                ],
                 "history_text": {
                     "scar": "m_c was scarred after brawling with a Clanmate.",
                     "reg_death": "m_c died from injuries sustained in a brawl with a Clanmate.",
@@ -2078,7 +2086,7 @@
                 "exp": 0,
                 "weight": 10,
                 "can_have_stat": ["p_l"],
-                "stat_trait": ["troublesome", "fierce", "bloodthirsty", "cold", "childish", "shameless", "vengeful", "arrogant", "competitive", "grumpy", "cunning", "oblivous", "rebellious"],
+                "stat_trait": ["troublesome", "fierce", "bloodthirsty", "cold", "childish", "shameless", "vengeful", "arrogant", "competitive", "grumpy", "cunning", "oblivious", "rebellious"],
                 "relationships": [
                     {
                         "cats_to": ["s_c"],
@@ -2803,7 +2811,7 @@
                     {
                         "cats_from": ["n_c:0", "n_c:1"],
                         "cats_to": ["patrol"],
-                        "mutual": "true",
+                        "mutual": true,
                         "values": ["platonic", "trust", "comfort"],
                         "amount": 10
                     }
@@ -2876,8 +2884,8 @@
                     }
                 ],
                 "new_cat": [
-                    ["kittypet", "meeting", "existing"],
-                    ["kittypet", "meeting", "existing"]
+                    ["kittypet", "meeting", "exists"],
+                    ["kittypet", "meeting", "exists"]
                 ],
                 "outsider_rep": -1
             },
@@ -2903,7 +2911,7 @@
                     }
                 ],
                 "new_cat": [
-                    ["dead", "meeting", "existing", "kittypet"],
+                    ["dead", "meeting", "exists", "kittypet"],
                     ["kittypet", "meeting"]
                 ],
                 "outsider_rep": -2
@@ -3152,12 +3160,12 @@
                         "injuries": ["grief stricken"]
                     }
                 ],
-                "history_text": [
+                "history_text":
                     {
                         "scar": "m_c was scarred by {PRONOUN/m_c/poss} mate's Clanmates.",
                         "reg_death": "m_c died from injuries inflicted by {PRONOUN/m_c/poss} mate's Clanmates."
                     }
-                ],
+                ,
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3433,7 +3441,7 @@
                         "cats_to": ["n_c:1"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["romantic", "platonic", "trust", "comfort", "admiration"],
+                        "values": ["romantic", "platonic", "trust", "comfort", "respect"],
                         "amount": 55
                     },
                     {
@@ -3474,7 +3482,7 @@
                         "cats_to": ["n_c:1"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["romantic", "platonic", "trust", "comfort", "admiration"],
+                        "values": ["romantic", "platonic", "trust", "comfort", "respect"],
                         "amount": 55
                     },
                     {
@@ -3509,7 +3517,7 @@
                         "cats_to": ["n_c:1"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["romantic", "platonic", "trust", "comfort", "admiration"],
+                        "values": ["romantic", "platonic", "trust", "comfort", "respect"],
                         "amount": 55
                     },
                     {
@@ -3551,7 +3559,7 @@
                         "cats_to": ["n_c:1"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["romantic", "platonic", "trust", "comfort", "admiration"],
+                        "values": ["romantic", "platonic", "trust", "comfort", "respect"],
                         "amount": 55
                     },
                     {
@@ -3594,7 +3602,7 @@
                         "cats_to": ["n_c:1"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["romantic", "platonic", "trust", "comfort", "admiration"],
+                        "values": ["romantic", "platonic", "trust", "comfort", "respect"],
                         "amount": 55
                     },
                     {
@@ -3622,7 +3630,7 @@
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["jealousy", "dislike"],
+                        "values": ["jealous", "dislike"],
                         "amount": 15
                     }
                 ],
@@ -3642,7 +3650,7 @@
                         "cats_to": ["n_c:1"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["romantic", "platonic", "trust", "comfort", "admiration"],
+                        "values": ["romantic", "platonic", "trust", "comfort", "respect"],
                         "amount": 55
                     },
                     {
@@ -3766,7 +3774,7 @@
                         "cats_to": ["n_c:1"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["romantic", "platonic", "trust", "comfort", "admiration"],
+                        "values": ["romantic", "platonic", "trust", "comfort", "respect"],
                         "amount": 55
                     },
                     {
@@ -3806,7 +3814,7 @@
                         "cats_to": ["n_c:1"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["romantic", "platonic", "trust", "comfort", "admiration"],
+                        "values": ["romantic", "platonic", "trust", "comfort", "respect"],
                         "amount": 55
                     },
                     {
@@ -3880,21 +3888,21 @@
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["dislike", "jealousy"],
+                        "values": ["dislike", "jealous"],
                         "amount": 35
                     },
                     {
                         "cats_to": ["p_l"],
                         "cats_from": ["n_c:1"],
                         "mutual": false,
-                        "values": ["romantic", "platonic", "comfort", "trust", "admiration"],
+                        "values": ["romantic", "platonic", "comfort", "trust", "respect"],
                         "amount": 15
                     },
                     {
                         "cats_to": ["n_c:1"],
                         "cats_from": ["n_c:0"],
                         "mutual": false,
-                        "values": ["romantic", "platonic", "trust", "comfort", "admiration"],
+                        "values": ["romantic", "platonic", "trust", "comfort", "respect"],
                         "amount": 55
                     },
                     {
