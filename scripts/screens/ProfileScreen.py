@@ -134,6 +134,8 @@ class ProfileScreen(Screens):
     # helps with exiting the screen
     open_tab = None
 
+    window_open = False
+
     def __init__(self, name=None):
         super().__init__(name)
         self.condition_data = {}
@@ -247,7 +249,7 @@ class ProfileScreen(Screens):
                 self.handle_tab_events(event)
 
         elif event.type == pygame.KEYDOWN and game.settings["keybinds"]:
-            if event.key == pygame.K_LEFT:
+            if event.key == pygame.K_LEFT and not self.window_open:
                 if isinstance(Cat.fetch_cat(self.previous_cat), Cat):
                     self.clear_profile()
                     game.switches["cat"] = self.previous_cat
@@ -255,7 +257,7 @@ class ProfileScreen(Screens):
                     self.update_disabled_buttons_and_text()
                 else:
                     print("invalid previous cat", self.previous_cat)
-            elif event.key == pygame.K_RIGHT:
+            elif event.key == pygame.K_RIGHT and not self.window_open:
                 if isinstance(Cat.fetch_cat(self.next_cat), Cat):
                     self.clear_profile()
                     game.switches["cat"] = self.next_cat
@@ -263,8 +265,7 @@ class ProfileScreen(Screens):
                     self.update_disabled_buttons_and_text()
                 else:
                     print("invalid next cat", self.previous_cat)
-
-            elif event.key == pygame.K_ESCAPE:
+            elif event.key == pygame.K_ESCAPE and not self.window_open:
                 self.close_current_tab()
                 self.change_screen(game.last_screen_forProfile)
 
