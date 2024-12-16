@@ -7,7 +7,7 @@
 			"m_c has a friendly chat with r_c that leaves them both feeling happy.",
 			"r_c's laugh reminds m_c of someone {PRONOUN/m_c/subject} {VERB/m_c/miss/misses}.",
 			"m_c overhears r_c humming a comforting tune.",
-			"r_c brought m_c some dry bedding.",
+			"r_c brought m_c some dry bedding.",t
 			"r_c lets m_c grab a piece of fresh-kill first.",
 			"m_c had a good dream about r_c.",
 			"m_c remembers something nice that r_c did.",
@@ -136,7 +136,9 @@
 			"r_c noticed m_c was struggling, and offered to help {PRONOUN/m_c/object}."
 		],
 		"random_trait_constraint": [
-			"empathetic"
+			"compassionate",
+			"loving",
+			"thoughtful"
 		]
 	},
 	{
@@ -180,7 +182,7 @@
 			"r_c helps m_c with a tedious task and it makes the whole day a lot easier."
 		],
 		"random_trait_constraint": [
-			"patient"
+			"calm"
 		]
 	},
 	{
