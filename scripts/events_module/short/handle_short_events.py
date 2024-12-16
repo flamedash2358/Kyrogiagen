@@ -59,6 +59,7 @@ class HandleShortEvents:
         self.chosen_event = None
         self.additional_event_text = ""
         self.allowed_events = None
+        self.excluded_events = None
         self.delayed_event = None
 
     def handle_event(
@@ -134,7 +135,8 @@ class HandleShortEvents:
             freshkill_active=FRESHKILL_EVENT_ACTIVE,
             freshkill_trigger_factor=FRESHKILL_EVENT_TRIGGER_FACTOR,
             sub_types=self.sub_types,
-            allowed_events=self.allowed_events
+            allowed_events=self.allowed_events,
+            excluded_events=self.excluded_events
         )
 
         if isinstance(game.config["event_generation"]["debug_ensure_event_id"], str):
@@ -344,6 +346,7 @@ class HandleShortEvents:
 
     def trigger_delayed_event(self, event):
         self.allowed_events = event.pool.get("event_ids")
+        self.excluded_events = event.pool.get("excluded_event_ids")
 
         self.handle_event(
             event_type=event.type,
@@ -352,6 +355,8 @@ class HandleShortEvents:
             freshkill_pile=game.clan.freshkill_pile,
             sub_type=event.pool.get("subtype")
         )
+        self.allowed_events = []
+        self.excluded_events = []
 
     def handle_new_cats(self):
         """

@@ -238,7 +238,8 @@ class GenerateEvents:
             freshkill_active,
             freshkill_trigger_factor,
             sub_types=None,
-            allowed_events=None
+            allowed_events=None,
+            excluded_events=None
     ):
         final_events = []
         incorrect_format = []
@@ -273,10 +274,11 @@ class GenerateEvents:
                             f"{event.event_id} injury formatted incorrectly"
                         )
 
-            # check if event is in allowed_events
-            if allowed_events:
-                if event.event_id not in allowed_events:
-                    continue
+            # check if event is in allowed or excluded
+            if allowed_events and event.event_id not in allowed_events:
+                continue
+            if excluded_events and event.event_id in excluded_events:
+                continue
 
             # check for event sub_type
             if set(event.sub_type) != set(sub_types):
