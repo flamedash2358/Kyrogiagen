@@ -589,7 +589,6 @@ class ChangeCatName(UIWindow):
                 manager=MANAGER,
                 container=self,
             )
-        game.all_screens["profile screen"].window_open = True
         self.set_blocking(True)
 
     def process_event(self, event):
@@ -670,7 +669,6 @@ class ChangeCatName(UIWindow):
             elif event.ui_element == self.back_button:
                 game.all_screens["profile screen"].exit_screen()
                 game.all_screens["profile screen"].screen_switches()
-                game.all_screens["profile screen"].window_open = False
                 self.kill()
         return super().process_event(event)
 
@@ -1189,7 +1187,6 @@ class KillCat(UIWindow):
                 container=self,
             )
         self.set_blocking(True)
-        game.all_screens["profile screen"].window_open = True
 
     def process_event(self, event):
         super().process_event(event)
@@ -1221,7 +1218,6 @@ class KillCat(UIWindow):
                 update_sprite(self.the_cat)
                 game.all_screens["profile screen"].exit_screen()
                 game.all_screens["profile screen"].screen_switches()
-                game.all_screens["profile screen"].window_open = False
                 self.kill()
             elif event.ui_element == self.all_lives_check:
                 self.take_all = False
@@ -1234,7 +1230,6 @@ class KillCat(UIWindow):
             elif event.ui_element == self.back_button:
                 game.all_screens["profile screen"].exit_screen()
                 game.all_screens["profile screen"].screen_switches()
-                game.all_screens["profile screen"].window_open = False
                 self.kill()
 
         return super().process_event(event)
@@ -1949,8 +1944,6 @@ class ChangeCatToggles(UIWindow):
             container=self,
         )
 
-        game.all_screens["profile screen"].window_open = True
-
         # Text
 
     def refresh_checkboxes(self):
@@ -2034,7 +2027,6 @@ class ChangeCatToggles(UIWindow):
             if event.ui_element == self.back_button:
                 game.all_screens["profile screen"].exit_screen()
                 game.all_screens["profile screen"].screen_switches()
-                game.all_screens["profile screen"].window_open = False
                 self.kill()
             elif event.ui_element == self.checkboxes["prevent_fading"]:
                 self.the_cat.prevent_fading = not self.the_cat.prevent_fading
