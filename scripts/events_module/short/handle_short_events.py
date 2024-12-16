@@ -11,7 +11,8 @@ from scripts.clan_resources.freshkill import (
     FRESHKILL_EVENT_TRIGGER_FACTOR,
 )
 from scripts.event_class import Single_Event
-from scripts.events_module.generate_events import GenerateEvents, DelayedEvent, delayed_event
+from scripts.events_module.delayed.delayed_event import delayed_event, DelayedEvent
+from scripts.events_module.generate_events import GenerateEvents
 from scripts.events_module.relationship.relation_events import Relation_Events
 from scripts.game_structure.game_essentials import game
 from scripts.utility import (
@@ -34,6 +35,7 @@ class HandleShortEvents:
     """Handles generating and executing ShortEvents"""
 
     def __init__(self):
+        self.delayed_event = None
         self.current_lives = None
         self.herb_notice = None
         self.types = []
@@ -310,33 +312,27 @@ class HandleShortEvents:
 
         delayed_info = self.chosen_event.delayed_event
 
-        gathered_cat_dict = {}
+        # now grab the cats that were already involved and need to continue being involved
+        possible_cats = {
+            "m_c": self.main_cat,
+            "r_c": self.random_cat,
+            "mur_c": self.victim_cat
+        }
 
-        # getting IDs for cats who will be involved
-        for new_role in delayed_info["involved_cats"]:
-            # handle any cats that need to be newly gathered
-            if isinstance(delayed_info["involved_cats"][new_role], dict):
-                gathered_cat_dict[new_role] = delayed_event.get_constrained_cat(Cat,
-                                                                                delayed_info["involved_cats"][new_role])
-                continue
+        # create dict of all cats that need to be involved in delayed event
+        gathered_cat_dict = delayed_event.collect_involved_cats(
+            possible_cats,
+            delayed_info
+        )
 
-            # now grab the cats that were already involved and need to continue being involved
-            possible_cats = {
-                "m_c": self.main_cat,
-                "r_c": self.random_cat,
-                "mur_c": self.victim_cat
-            }
-            old_role = delayed_info["involved_cats"][new_role]
-
-            gathered_cat_dict[new_role] = possible_cats[old_role].ID
-
+        # create delayed event
         self.delayed_event = DelayedEvent(
             originator_event=self.chosen_event.event_id,
             pool=delayed_info["pool"],
             amount_of_events=random.choice(
                 range(delayed_info["amount_of_events"][0], delayed_info["amount_of_events"][1])),
             moon_delay=random.choice(range(delayed_info["moon_delay"][0], delayed_info["moon_delay"][1])),
-            involved_cats=delayed_info["involved_cats"]
+            involved_cats=gathered_cat_dict
         )
 
     def handle_new_cats(self):
