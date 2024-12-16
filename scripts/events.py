@@ -301,6 +301,15 @@ class Events:
             except:
                 SaveError(traceback.format_exc())
 
+    def handle_delayed_events(self):
+        """
+        Handles aging delayed events and triggering them.
+        """
+        for event in game.clan.delayed_events:
+            event.moon_delay -= 1
+            if event.moon_delay <= 0:
+                handle_short_events.trigger_delayed_event(event)
+
     def handle_lead_den_event(self):
         """
         Handles the events that are chosen in the leaders den the previous moon and resets the relevant clan settings

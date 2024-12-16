@@ -35,7 +35,6 @@ class HandleShortEvents:
     """Handles generating and executing ShortEvents"""
 
     def __init__(self):
-        self.delayed_event = None
         self.current_lives = None
         self.herb_notice = None
         self.types = []
@@ -59,6 +58,8 @@ class HandleShortEvents:
 
         self.chosen_event = None
         self.additional_event_text = ""
+        self.allowed_events = None
+        self.delayed_event = None
 
     def handle_event(
             self,
@@ -133,6 +134,7 @@ class HandleShortEvents:
             freshkill_active=FRESHKILL_EVENT_ACTIVE,
             freshkill_trigger_factor=FRESHKILL_EVENT_TRIGGER_FACTOR,
             sub_types=self.sub_types,
+            allowed_events=self.allowed_events
         )
 
         if isinstance(game.config["event_generation"]["debug_ensure_event_id"], str):
@@ -325,14 +327,30 @@ class HandleShortEvents:
             delayed_info
         )
 
-        # create delayed event
-        self.delayed_event = DelayedEvent(
-            originator_event=self.chosen_event.event_id,
-            pool=delayed_info["pool"],
-            amount_of_events=random.choice(
-                range(delayed_info["amount_of_events"][0], delayed_info["amount_of_events"][1])),
-            moon_delay=random.choice(range(delayed_info["moon_delay"][0], delayed_info["moon_delay"][1])),
-            involved_cats=gathered_cat_dict
+        # create delayed event and add it to the delayed event list
+        game.clan.delayed_events.append(
+            DelayedEvent(
+                originator_event=self.chosen_event.event_id,
+                type=delayed_info["type"],
+                pool=delayed_info["pool"],
+                amount_of_events=random.choice(
+                    range(delayed_info["amount_of_events"][0], delayed_info["amount_of_events"][1])
+                ),
+                moon_delay=random.choice(
+                    range(delayed_info["moon_delay"][0], delayed_info["moon_delay"][1])
+                ),
+                involved_cats=gathered_cat_dict
+            ))
+
+    def trigger_delayed_event(self, event):
+        self.allowed_events = event.pool.get("event_ids")
+
+        self.handle_event(
+            event_type=event.type,
+            main_cat=event.involved_cats["m_c"],
+            random_cat=event.involved_cats["r_c"],
+            freshkill_pile=game.clan.freshkill_pile,
+            sub_type=event.pool.get("subtype")
         )
 
     def handle_new_cats(self):

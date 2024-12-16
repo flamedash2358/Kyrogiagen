@@ -171,6 +171,7 @@ class Clan:
             "enemy": None,
             "duration": 0,
         }
+        self.delayed_events = []
         self.last_focus_change = None
         self.clans_in_focus = []
 
@@ -180,7 +181,8 @@ class Clan:
         if self_run_init_functions:
             self.post_initialization_functions()
 
-    # The clan couldn't save itself in time due to issues arising, for example, from this function: "if deputy is not None: self.deputy.status_change('deputy') -> game.clan.remove_med_cat(self)"
+    # The clan couldn't save itself in time due to issues arising, for example, from this function: "if deputy is not
+    # None: self.deputy.status_change('deputy') -> game.clan.remove_med_cat(self)"
     def post_initialization_functions(self):
         if self.deputy is not None:
             self.deputy.status_change("deputy")

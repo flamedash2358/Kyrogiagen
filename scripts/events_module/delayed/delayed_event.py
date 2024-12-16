@@ -7,12 +7,14 @@ class DelayedEvent:
     def __init__(
             self,
             originator_event: str = None,
+            type: str = None,
             pool: dict = None,
             amount_of_events: tuple = None,
             moon_delay: tuple = 0,
             involved_cats: dict = None,
     ):
         self.originator_event = originator_event
+        self.type = type
         self.pool = pool
         self.amount_of_events = amount_of_events
         self.moon_delay = moon_delay
@@ -34,7 +36,8 @@ class DelayedEvent:
             # grab any cats that need to be newly gathered
             if isinstance(cat_involved, dict):
                 gathered_cat_dict[new_role] = self.get_constrained_cat(
-                    cat_involved
+                    cat_involved,
+                    cat_dict
                 )
                 continue
 
@@ -43,7 +46,7 @@ class DelayedEvent:
 
         return gathered_cat_dict
 
-    def get_constrained_cat(self, constraint_dict):
+    def get_constrained_cat(self, constraint_dict, already_involved: dict):
         """
         checks the living clan cat list against constraint_dict to find any eligible cats.
         returns a single cat ID chosen from eligible cats
@@ -51,9 +54,10 @@ class DelayedEvent:
 
         # we're just keeping this to living cats within the clan for now, more complexity can come later
         alive_cats = [
-            i
-            for i in Cat.all_cats.values()
-            if not i.dead and not i.outside
+            kitty for kitty in Cat.all_cats.values()
+            if not kitty.dead
+            and not kitty.outside
+            and kitty not in already_involved.values()
         ]
 
         funct_dict = {
@@ -73,7 +77,7 @@ class DelayedEvent:
                 break
 
         if not allowed_cats:
-            return
+            return None
 
         return choice(allowed_cats).ID
 
