@@ -25,6 +25,8 @@ import threading
 import time
 from importlib.util import find_spec
 
+from scripts.housekeeping.logfilters import MaxLevelFilter
+
 if not getattr(sys, "frozen", False):
     requiredModules = [
         "ujson",
@@ -102,13 +104,25 @@ file_handler = logging.FileHandler(log_file_name)
 file_handler.setFormatter(formatter)
 # Only log errors to file
 file_handler.setLevel(logging.ERROR)
-# Logging for console
-stream_handler = logging.StreamHandler()
+# our own module-level logger should log debug info
+logging.getLogger(__name__).setLevel(logging.DEBUG)
+
+# Logging for console (logs info and debug in normal text)
+stream_handler = logging.StreamHandler(stream=sys.stdout)
 stream_handler.setFormatter(formatter)
+stream_handler.addFilter(MaxLevelFilter(logging.WARNING))
+
+error_handler = logging.StreamHandler(stream=sys.stderr)
+error_handler.setFormatter(formatter)
+error_handler.setLevel(logging.WARNING)
+
 logging.root.addHandler(file_handler)
-logging.root.addHandler(stream_handler)
+logging.root.addHandler(error_handler)
+# only want debug info on our own stuff
+logging.getLogger(__name__).addHandler(stream_handler)
 
 prune_logs(logs_to_keep=10, retain_empty_logs=False)
+logger = logging.getLogger(__name__)
 
 
 def log_crash(logtype, value, tb):
@@ -166,6 +180,7 @@ from scripts.clan import clan_class
 from scripts.utility import (
     quit,
 )  # pylint: disable=redefined-builtin
+
 # from scripts.debug_menu import debugmode
 from scripts.debug_console import debug_mode
 import pygame
@@ -300,7 +315,11 @@ while 1:
     game.all_screens[game.current_screen].on_use()
     # EVENTS
     for event in pygame.event.get():
-        if event.type == pygame.KEYDOWN and game.settings["keybinds"] and debug_mode.debug_menu.visible:
+        if (
+            event.type == pygame.KEYDOWN
+            and game.settings["keybinds"]
+            and debug_mode.debug_menu.visible
+        ):
             pass
         else:
             game.all_screens[game.current_screen].handle_event(event)
@@ -341,7 +360,7 @@ while 1:
                 MANAGER.print_layer_debug()
             elif event.key == pygame.K_F3:
                 debug_mode.toggle_debug_mode()
-                #debugmode.toggle_console()
+                # debugmode.toggle_console()
             elif event.key == pygame.K_F11:
                 scripts.game_structure.screen_settings.toggle_fullscreen(
                     source_screen=getattr(
