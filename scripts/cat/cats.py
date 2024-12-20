@@ -1180,48 +1180,33 @@ class Cat:
         )
 
         # if we have relations, then make sure we only take the top 8
-        if dead_relations:
-            i = 0
-            for rel in dead_relations:
-                if i == 8:
-                    break
-                if rel.cat_to.status == "leader":
-                    life_giving_leader = rel.cat_to
-                    continue
-                life_givers.append(rel.cat_to.ID)
-                i += 1
+        for i in range(min(8,len(dead_relations))):
+            if rel.cat_to.status == "leader":
+                life_giving_leader = rel.cat_to
+                continue
+            life_givers.append(rel.cat_to.ID)
+
         # check amount of life givers, if we need more, then grab from the other dead cats
         if len(life_givers) < 8:
             amount = 8 - len(life_givers)
 
             if starclan:
-                # this part just checks how many SC cats are available, if there aren't enough to fill all the slots,
-                # then we just take however many are available
-
-                possible_sc_cats = [
-                    i
-                    for i in game.clan.starclan_cats
-                    if self.fetch_cat(i)
-                    and i not in life_givers
-                    and self.fetch_cat(i).status not in ["leader", "newborn"]
-                ]
-
-                if len(possible_sc_cats) - 1 < amount:
-                    extra_givers = possible_sc_cats
-                else:
-                    extra_givers = sample(possible_sc_cats, k=amount)
+                possible_life_givers = game.clan.starclan_cats
             else:
-                possible_df_cats = [
-                    i
-                    for i in game.clan.darkforest_cats
-                    if self.fetch_cat(i)
-                    and i not in life_givers
-                    and self.fetch_cat(i).status not in ["leader", "newborn"]
-                ]
-                if len(possible_df_cats) - 1 < amount:
-                    extra_givers = possible_df_cats
-                else:
-                    extra_givers = sample(possible_df_cats, k=amount)
+                possible_life_givers = game.clan.darkforest_cats
+
+            possible_cats = [
+                cat
+                for cat in possible_life_givers
+                if self.fetch_cat(cat)
+                and cat not in life_givers
+                and self.fetch_cat(cat).status not in ["leader", "newborn"]
+            ]
+
+            if len(possible_cats) - 1 < amount:
+                extra_givers = possible_cats
+            else:
+                extra_givers = sample(possible_cats, k=amount)
 
             life_givers.extend(extra_givers)
 
