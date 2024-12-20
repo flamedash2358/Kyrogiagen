@@ -2229,7 +2229,7 @@
                 "can_have_stat": ["adult"],
                 "relationships": [
                     {
-                        "cats_to": ["p_l"],
+                        "cats_to": ["s_c"],
                         "cats_from": ["patrol"],
                         "mutual": false,
                         "values": ["comfort", "dislike"],
@@ -2404,7 +2404,7 @@
                         "amount": 5
                     },
                     {
-                        "cats_to": ["p_l"],
+                        "cats_to": ["s_c"],
                         "cats_from": ["patrol"],
                         "mutual": false,
                         "values": ["dislike"],
@@ -2519,7 +2519,7 @@
                         "amount": 5
                     },
                     {
-                        "cats_to": ["p_l"],
+                        "cats_to": ["s_c"],
                         "cats_from": ["patrol"],
                         "mutual": false,
                         "values": ["dislike"],
@@ -2546,7 +2546,7 @@
                         "amount": 5
                     },
                     {
-                        "cats_to": ["p_l"],
+                        "cats_to": ["s_c"],
                         "cats_from": ["patrol"],
                         "mutual": false,
                         "values": ["dislike"],
@@ -2571,7 +2571,7 @@
                         "amount": 5
                     },
                     {
-                        "cats_to": ["p_l"],
+                        "cats_to": ["s_c"],
                         "cats_from": ["patrol"],
                         "mutual": false,
                         "values": ["dislike"],
@@ -2594,7 +2594,7 @@
                         "amount": -5
                     },
                     {
-                        "cats_to": ["p_l"],
+                        "cats_to": ["s_c"],
                         "cats_from": ["patrol"],
                         "mutual": false,
                         "values": ["dislike"],
@@ -2619,7 +2619,7 @@
                 "can_have_stat": ["p_l"],
                 "relationships": [
                     {
-                        "cats_to": ["p_l"],
+                        "cats_to": ["s_c"],
                         "cats_from": ["patrol"],
                         "mutual": false,
                         "values": ["respect", "comfort", "trust"],
@@ -10367,7 +10367,7 @@
                         "cats_from": ["patrol"],
                         "mutual": false,
                         "values": ["dislike"],
-                        "amount": -5
+                        "amount": -6
                     }
                 ]
             },
