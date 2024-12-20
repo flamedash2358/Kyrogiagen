@@ -5,6 +5,7 @@ TODO: Docs
 
 
 """
+import logging
 
 # pylint: enable=line-too-long
 
@@ -30,6 +31,8 @@ from scripts.utility import (
     quit,
     clan_symbol_sprite,
 )  # pylint: disable=redefined-builtin
+
+logger = logging.getLogger(__name__)
 
 
 class Clan:
@@ -202,6 +205,7 @@ class Clan:
         created in the 'clan created' screen, not every time
         the program starts
         """
+        logger.debug("Generating instructor")
         self.instructor = Cat(
             status=choice(
                 [
@@ -223,12 +227,14 @@ class Clan:
         self.add_to_starclan(self.instructor)
         self.all_clans = []
 
+        logger.debug("Adding cats")
         key_copy = tuple(Cat.all_cats.keys())
         for i in key_copy:  # Going through all currently existing cats
             # cat_class is a Cat-object
             not_found = True
             for x in self.starting_members:
                 if Cat.all_cats[i] == x:
+                    logger.debug("Add %s to Clan", Cat.all_cats[i].name)
                     self.add_cat(Cat.all_cats[i])
                     not_found = False
             if (
@@ -238,6 +244,7 @@ class Clan:
                 and Cat.all_cats[i] != self.instructor
                 and not_found
             ):
+                logger.debug("Mark %s as example", Cat.all_cats[i].name)
                 Cat.all_cats[i].example = True
                 self.remove_cat(Cat.all_cats[i].ID)
 
@@ -246,18 +253,26 @@ class Clan:
             Cat.all_cats.get(cat_id).init_all_relationships()
             Cat.all_cats.get(cat_id).backstory = "clan_founder"
             if Cat.all_cats.get(cat_id).status == "apprentice":
+                logger.debug("Apprentice config for %s", Cat.all_cats[cat_id].name)
                 Cat.all_cats.get(cat_id).status_change("apprentice")
             Cat.all_cats.get(cat_id).thoughts()
 
         game.save_cats()
         number_other_clans = randint(3, 5)
+        logger.debug("Generating %d other Clans", number_other_clans)
         for _ in range(number_other_clans):
             other_clan_names = [str(i.name) for i in self.all_clans] + [game.clan.name]
-            other_clan_name = choice(names.names_dict["normal_prefixes"] + names.names_dict["clan_prefixes"])
+            other_clan_name = choice(
+                names.names_dict["normal_prefixes"] + names.names_dict["clan_prefixes"]
+            )
             while other_clan_name in other_clan_names:
-                other_clan_name = choice(names.names_dict["normal_prefixes"] + names.names_dict["clan_prefixes"])
+                other_clan_name = choice(
+                    names.names_dict["normal_prefixes"]
+                    + names.names_dict["clan_prefixes"]
+                )
             other_clan = OtherClan(name=other_clan_name)
             self.all_clans.append(other_clan)
+            logger.debug("- %s added", other_clan_name)
         self.save_clan()
         game.save_clanlist(self.name)
         game.switches["clan_list"] = game.read_clans()
@@ -462,7 +477,7 @@ class Clan:
         """
         TODO: DOCS
         """
-
+        logger.info("Saving Clan")
         clan_data = {
             "clanname": self.name,
             "clanage": self.age,
@@ -518,7 +533,7 @@ class Clan:
 
         # OTHER CLANS
         clan_data["other_clans"] = [vars(i) for i in self.all_clans]
-        
+
         clan_data["war"] = self.war
 
         self.save_herbs(game.clan)
@@ -531,7 +546,9 @@ class Clan:
 
         game.safe_save(f"{get_save_dir()}/{self.name}clan.json", clan_data)
 
-        if os.path.exists(get_save_dir() + f"/{self.name}clan.txt") & (self.name != 'current'):
+        if os.path.exists(get_save_dir() + f"/{self.name}clan.txt") & (
+            self.name != "current"
+        ):
             os.remove(get_save_dir() + f"/{self.name}clan.txt")
 
     def switch_setting(self, setting_name):
@@ -553,6 +570,8 @@ class Clan:
                 list_index + 1
             ]
 
+        logger.debug("Updated %s to %s", setting_name, self.clan_settings[setting_name])
+
     def save_clan_settings(self):
         game.safe_save(
             get_save_dir() + f"/{self.name}/clan_settings.json", self.clan_settings
@@ -573,6 +592,7 @@ class Clan:
         ):
             self.load_clan_txt()
         else:
+            logger.error("Clan data could not be found (no JSON or .txt detected)")
             game.switches["error_message"] = "There was an error loading the clan.json"
 
         game.clan.load_clan_settings()
@@ -743,7 +763,7 @@ class Clan:
                 game.clan.add_cat(Cat.all_cats[cat])
                 game.clan.add_to_starclan(Cat.all_cats[cat])
             else:
-                print("WARNING: Cat not found:", cat)
+                logger.warning("WARNING: Cat not found: %s", cat)
         self.load_pregnancy(game.clan)
 
         # assigning a symbol, since this save would be too old to have a chosen symbol
@@ -843,7 +863,14 @@ class Clan:
 
         if "other_clans" in clan_data:
             for other_clan in clan_data["other_clans"]:
-                game.clan.all_clans.append(OtherClan(other_clan["name"], int(other_clan["relations"]), other_clan["temperament"], other_clan["chosen_symbol"]))
+                game.clan.all_clans.append(
+                    OtherClan(
+                        other_clan["name"],
+                        int(other_clan["relations"]),
+                        other_clan["temperament"],
+                        other_clan["chosen_symbol"],
+                    )
+                )
         else:
             if "other_clan_chosen_symbol" not in clan_data:
                 for name, relation, temper in zip(
@@ -870,7 +897,7 @@ class Clan:
                 game.clan.add_to_darkforest(Cat.all_cats[cat])
                 game.clan.add_to_unknown(Cat.all_cats[cat])
             else:
-                print("WARNING: Cat not found:", cat)
+                logger.error("Cat not found: %s", cat)
         if "war" in clan_data:
             game.clan.war = clan_data["war"]
 
@@ -1228,7 +1255,7 @@ class Clan:
                 statistics.median([i.personality.aggression for i in all_cats])
             )
         else:
-            print("returned default temper: stoic")
+            logging.info("Returned default temper (stoic)")
             return "stoic"
 
         # _temperament = ['low_aggression', 'med_aggression', 'high_aggression', ]

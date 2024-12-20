@@ -7,8 +7,11 @@ easily manipulate and update the inheritance. This class will be used to check f
 while mating and for the display of the family tree screen.
 
 """
+import logging
 
 from strenum import StrEnum  # pylint: disable=no-name-in-module
+
+logger = logging.getLogger(__name__)
 
 
 class RelationType(StrEnum):

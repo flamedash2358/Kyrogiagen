@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
+import logging
 import random
 from copy import deepcopy
 from itertools import repeat
@@ -25,6 +26,8 @@ from scripts.utility import (
     filter_relationship_type,
     get_special_snippet_list,
 )
+
+logger = logging.getLogger("scripts.patrol")
 
 # ---------------------------------------------------------------------------- #
 #                              PATROL CLASS START                              #
@@ -56,7 +59,7 @@ class Patrol:
     def setup_patrol(self, patrol_cats: List[Cat], patrol_type: str) -> str:
         # Add cats
 
-        print("PATROL START ---------------------------------------------------")
+        logger.info("PATROL START ---------------------------------------------------")
 
         self.add_patrol_cats(patrol_cats, game.clan)
 
@@ -68,7 +71,7 @@ class Patrol:
             game.settings.get("disasters"),
         )
 
-        print(
+        logger.debug(
             f"Total Number of Possible Patrols | normal: {len(final_patrols)}, romantic: {len(final_romance_patrols)} "
         )
 
@@ -77,7 +80,9 @@ class Patrol:
                 final_patrols, weights=[x.weight for x in final_patrols]
             )[0]
         else:
-            print("ERROR: NO POSSIBLE NORMAL PATROLS FOUND for: ", self.patrol_statuses)
+            logger.error(
+                "No possible normal patrols found for: %s", self.patrol_statuses
+            )
             raise RuntimeError
 
         romantic_event_choice = None
@@ -92,7 +97,7 @@ class Patrol:
             self.random_cat,
             self.patrol_apprentices,
         ):
-            print("did the romance")
+            logger.info("did the romance")
             self.patrol_event = romantic_event_choice
         else:
             self.patrol_event = normal_event_choice
@@ -107,11 +112,13 @@ class Patrol:
 
         if path == "decline":
             if self.patrol_event:
-                print(
-                    f"PATROL ID: {self.patrol_event.patrol_id} | SUCCESS: N/A (did not proceed)"
+                logger.info(
+                    f"PATROL ID: %s | SUCCESS: N/A (did not proceed)",
+                    self.patrol_event.patrol_id,
                 )
                 return self.process_text(self.patrol_event.decline_text, None), "", None
             else:
+                logger.error("No event chosen")
                 return "Error - no event chosen", "", None
 
         return self.determine_outcome(antagonize=(path == "antag"))
@@ -156,7 +163,10 @@ class Patrol:
                 else:
                     self.patrol_statuses["all apprentices"] = 1
 
-            if cat.status in ("warrior", "deputy", "leader") and cat.age != "adolescent":
+            if (
+                cat.status in ("warrior", "deputy", "leader")
+                and cat.age != "adolescent"
+            ):
                 if "normal adult" in self.patrol_statuses:
                     self.patrol_statuses["normal adult"] += 1
                 else:
@@ -217,8 +227,8 @@ class Patrol:
         else:
             self.random_cat = choice(patrol_cats)
 
-        print("Patrol Leader:", str(self.patrol_leader.name))
-        print("Random Cat:", str(self.random_cat.name))
+        logger.info("Patrol Leader: %s", str(self.patrol_leader.name))
+        logger.info("Random Cat: %s", str(self.random_cat.name))
 
     def get_possible_patrols(
         self,
@@ -245,29 +255,53 @@ class Patrol:
 
         possible_patrols = []
         # This is for debugging purposes, load-in *ALL* the possible patrols when debug_override_patrol_stat_requirements is true. (May require longer loading time)
-        if (game.config["patrol_generation"]["debug_override_patrol_stat_requirements"]):
+        if game.config["patrol_generation"]["debug_override_patrol_stat_requirements"]:
             leaves = ["greenleaf", "leaf-bare", "leaf-fall", "newleaf", "any"]
             for biome in game.clan.BIOME_TYPES:
                 for leaf in leaves:
                     biome_dir = f"{biome.lower()}/"
                     self.update_resources(biome_dir, leaf)
                     possible_patrols.extend(self.generate_patrol_events(self.HUNTING))
-                    possible_patrols.extend(self.generate_patrol_events(self.HUNTING_SZN))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.HUNTING_SZN)
+                    )
                     possible_patrols.extend(self.generate_patrol_events(self.BORDER))
-                    possible_patrols.extend(self.generate_patrol_events(self.BORDER_SZN))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.BORDER_SZN)
+                    )
                     possible_patrols.extend(self.generate_patrol_events(self.TRAINING))
-                    possible_patrols.extend(self.generate_patrol_events(self.TRAINING_SZN))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.TRAINING_SZN)
+                    )
                     possible_patrols.extend(self.generate_patrol_events(self.MEDCAT))
-                    possible_patrols.extend(self.generate_patrol_events(self.MEDCAT_SZN))
-                    possible_patrols.extend(self.generate_patrol_events(self.HUNTING_GEN))
-                    possible_patrols.extend(self.generate_patrol_events(self.BORDER_GEN))
-                    possible_patrols.extend(self.generate_patrol_events(self.TRAINING_GEN))
-                    possible_patrols.extend(self.generate_patrol_events(self.MEDCAT_GEN))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.MEDCAT_SZN)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.HUNTING_GEN)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.BORDER_GEN)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.TRAINING_GEN)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.MEDCAT_GEN)
+                    )
                     possible_patrols.extend(self.generate_patrol_events(self.DISASTER))
-                    possible_patrols.extend(self.generate_patrol_events(self.NEW_CAT_WELCOMING))
-                    possible_patrols.extend(self.generate_patrol_events(self.NEW_CAT_HOSTILE))
-                    possible_patrols.extend(self.generate_patrol_events(self.OTHER_CLAN_ALLIES))
-                    possible_patrols.extend(self.generate_patrol_events(self.OTHER_CLAN_HOSTILE))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.NEW_CAT_WELCOMING)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.NEW_CAT_HOSTILE)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.OTHER_CLAN_ALLIES)
+                    )
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.OTHER_CLAN_HOSTILE)
+                    )
 
         # this next one is needed for Classic specifically
         patrol_type = (
@@ -369,12 +403,13 @@ class Patrol:
             possible_patrols, biome, camp, current_season, patrol_type
         )
 
-        # This is a debug option, this allows you to remove any constraints of a patrol regarding location, session, biomes, etc. 
+        # This is a debug option, this allows you to remove any constraints of a patrol regarding location, session, biomes, etc.
         if game.config["patrol_generation"]["debug_override_patrol_stat_requirements"]:
             final_patrols = final_romance_patrols = possible_patrols
             # Logging
-            print("All patrol filters regarding location, session, etc. have been removed.")
-
+            logger.debug(
+                "All patrol filters regarding location, session, etc. have been removed."
+            )
 
         # This is a debug option. If the patrol_id set isn "debug_ensure_patrol" is possible,
         # make it the *only* possible patrol
@@ -386,18 +421,18 @@ class Patrol:
                 ):
                     patrol_type = choice(_pat.types) if _pat.types != [] else "general"
                     final_patrols = final_romance_patrols = [_pat]
-                    print(
-                        f"debug_ensure_patrol_id: "
-                        f'"{game.config["patrol_generation"]["debug_ensure_patrol_id"]}" '
-                        f"is a possible {patrol_type} patrol, and was set as the only "
-                        f"{patrol_type} patrol option"
+                    logger.debug(
+                        f"debug_ensure_patrol_id: %s is a possible %s patrol, and was set as the only %s "
+                        f"patrol option",
+                        game.config["patrol_generation"]["debug_ensure_patrol_id"],
+                        patrol_type,
+                        patrol_type,
                     )
                     break
             else:
-                print(
-                    f"debug_ensure_patrol_id: "
-                    f'"{game.config["patrol_generation"]["debug_ensure_patrol_id"]}" '
-                    f"is not found."
+                logger.info(
+                    f"debug_ensure_patrol_id: %s is not found.",
+                    game.config["patrol_generation"]["debug_ensure_patrol_id"],
                 )
         return final_patrols, final_romance_patrols
 
@@ -433,12 +468,12 @@ class Patrol:
         # if no romance was available or the patrol lead and random cat aren't potential mates then use the normal event
 
         if not romantic_event:
-            print("No romantic event")
+            logger.info("No romantic event")
             return False
 
         if "rom_two_apps" in romantic_event.tags:
             if len(patrol_apprentices) < 2:
-                print("somehow, there are not enough apprentices for romantic patrol")
+                logger.warning("Not enough apprentices for romantic patrol")
                 return False
             love1 = patrol_apprentices[0]
             love2 = patrol_apprentices[1]
@@ -450,10 +485,10 @@ class Patrol:
             not love1.is_potential_mate(love2, for_love_interest=True)
             and love1.ID not in love2.mate
         ):
-            print("not a potential mate or current mate")
+            logger.debug("Not a potential mate or current mate")
             return False
 
-        print("attempted romance between:", love1.name, love2.name)
+        logger.info("Attempted romance between: %s and %s", love1.name, love2.name)
         chance_of_romance_patrol = game.config["patrol_generation"][
             "chance_of_romance_patrol"
         ]
@@ -486,7 +521,7 @@ class Patrol:
                 chance_of_romance_patrol += 2
         if chance_of_romance_patrol <= 0:
             chance_of_romance_patrol = 1
-        print("final romance chance:", chance_of_romance_patrol)
+        logger.debug("Final romance chance: %d", chance_of_romance_patrol)
         return not int(random.random() * chance_of_romance_patrol)
 
     def _filter_patrols(
@@ -530,7 +565,7 @@ class Patrol:
             flag = False
             for sta, num in patrol.min_max_status.items():
                 if len(num) != 2:
-                    print(f"Issue with status limits: {patrol.patrol_id}")
+                    logger.warning(f"Issue with status limits: %s", patrol.patrol_id)
                     continue
 
                 if not (num[0] <= self.patrol_statuses.get(sta, -1) <= num[1]):
@@ -579,11 +614,11 @@ class Patrol:
         )
 
         if not filtered_patrols:
-            print(
+            logger.warning(
                 "No normal patrols possible. Repeating filter with used patrols cleared."
             )
             self.used_patrols.clear()
-            print("used patrols cleared", self.used_patrols)
+            logger.debug("used patrols cleared: %s", self.used_patrols)
             filtered_patrols, romantic_patrols = self._filter_patrols(
                 possible_patrols, biome, camp, current_season, patrol_type
             )
@@ -662,12 +697,14 @@ class Patrol:
 
         final_event, success = self.calculate_success(chosen_success, chosen_failure)
 
-        print(f"PATROL ID: {self.patrol_event.patrol_id} | SUCCESS: {success}")
+        logger.info(
+            f"PATROL ID: %s | SUCCESS: %s", self.patrol_event.patrol_id, success
+        )
 
         # Run the chosen outcome
         return final_event.execute_outcome(self)
 
-    def calculate_success( 
+    def calculate_success(
         self, success_outcome: PatrolOutcome, fail_outcome: PatrolOutcome
     ) -> Tuple[PatrolOutcome, bool]:
         """Returns both the chosen event, and a boolean that's True if success, and False is fail."""
@@ -686,13 +723,11 @@ class Patrol:
         success_chance = min(success_chance, 90)
 
         # Now, apply success and fail skill
-        print(
-            "starting chance:",
+        logger.debug(
+            "Starting chance: %s | EXP updated chance: %s",
             self.patrol_event.chance_of_success,
-            "| EX_updated chance:",
             success_chance,
         )
-        skill_updates = ""
 
         # Skill and trait stuff
         for kitty in self.patrol_cats:
@@ -716,21 +751,25 @@ class Patrol:
                     "fail_stat_cat_modifier"
                 ]
 
-            skill_updates += f"{kitty.name} updated chance to {success_chance} | "
+            logger.debug("Chance updated to %d (%s)", success_chance, kitty.name)
 
         if success_chance >= 120:
             success_chance = 115
-            skill_updates += "success chance over 120, updated to 115"
-
-        print(skill_updates)
+            logger.info("Success chance over 120, updated to 115")
 
         success = int(random.random() * 120) < success_chance
 
         # This is a debug option, this will forcefully change the outcome of a patrol
-        if isinstance(game.config["patrol_generation"]["debug_ensure_patrol_outcome"], bool):
+        if isinstance(
+            game.config["patrol_generation"]["debug_ensure_patrol_outcome"], bool
+        ):
             success = game.config["patrol_generation"]["debug_ensure_patrol_outcome"]
             # Logging
-            print(f"The outcome of {self.patrol_event.patrol_id} was altered to {success}")
+            logger.debug(
+                f"Outcome of %s was altered to %s",
+                self.patrol_event.patrol_id,
+                success,
+            )
 
         return (success_outcome if success else fail_outcome, success)
 
@@ -859,7 +898,7 @@ class Patrol:
             possible_prey_size.extend(repeat(prey_size[idx], amount))
             idx += 1
         chosen_prey_size = choice(possible_prey_size)
-        print(f"chosen filter prey size: {chosen_prey_size}")
+        logger.info(f"Chosen filter prey size: %s", chosen_prey_size)
 
         # filter all possible patrol depending on the needed prey size
         for patrol in possible_patrols:
@@ -898,9 +937,7 @@ class Patrol:
 
         # if the filtering results in an empty list, don't filter and return whole possible patrols
         if len(filtered_patrols) <= 0:
-            print(
-                "---- WARNING ---- filtering to balance out the hunting, didn't work."
-            )
+            logger.warning("Hunting balance failed, defaulting to all possible patrols")
             filtered_patrols = possible_patrols
         return filtered_patrols
 

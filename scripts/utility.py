@@ -229,7 +229,9 @@ def get_random_moon_cat(
                 random_cat = Cat.fetch_cat(choice(main_cat.apprentice))
 
     if isinstance(random_cat, str):
-        print(f"WARNING: random cat was {random_cat} instead of cat object")
+        logger.warning(
+            "WARNING: random cat was string (%s) instead of cat object", random_cat
+        )
         random_cat = Cat.fetch_cat(random_cat)
     return random_cat
 
@@ -366,7 +368,7 @@ def create_new_cat_block(
                     "medicine cat apprentice",
                     "mediator apprentice",
                 ]:
-                    print("Can't give apprentices mates")
+                    logger.info("Mate index skipped: can't give apprentices mates")
                     continue
 
                 give_mates.append(in_event_cats[index])
@@ -374,7 +376,7 @@ def create_new_cat_block(
             try:
                 index = int(index)
             except ValueError:
-                print(f"mate-index not correct: {index}")
+                logger.warning("mate-index not correct: %s", index)
                 continue
 
             if index >= i:
@@ -1268,8 +1270,8 @@ def filter_relationship_type(
 
             # there should be only one value constraint for each value type
         elif len(tags) > 1:
-            print(
-                f"ERROR: event {event_id} has multiple relationship constraints for the value {v_type}."
+            logging.error(
+                f"%s has multiple relationship constraints for %s.", event_id, v_type
             )
             break_loop = True
             break
@@ -1278,23 +1280,19 @@ def filter_relationship_type(
         try:
             threshold = int(tags[0].split("_")[1])
         except:
-            print(
-                f"ERROR: event {event_id} with the relationship constraint for the value does not {v_type} follow the formatting guidelines."
-            )
+            logger.error(f"%s formatted incorrectly in %s.", v_type, event_id)
             break_loop = True
             break
 
         if threshold > 100:
-            print(
-                f"ERROR: event {event_id} has a relationship constraint for the value {v_type}, which is higher than the max value of a relationship."
+            logger.error(
+                "Relationship constraint over 100 for %s in %s.", v_type, event_id
             )
             break_loop = True
             break
 
         if threshold <= 0:
-            print(
-                f"ERROR: event {event_id} has a relationship constraint for the value {v_type}, which is lower than the min value of a relationship or 0."
-            )
+            print("Relationship constraint less than 0 for %s in %s.", v_type, event_id)
             break_loop = True
             break
 
@@ -1422,7 +1420,7 @@ def gather_cat_objects(
             if index < len(event.new_cats):
                 out_set.update(event.new_cats[index])
         else:
-            print(f"WARNING: Unsupported abbreviation {abbr}")
+            logger.warning("Unsupported abbreviation %s", abbr)
 
     return list(out_set)
 
@@ -1468,8 +1466,8 @@ def unpack_rel_block(
 
         # Check to see if value block
         if not (cats_to_ob and cats_from_ob and values and isinstance(amount, int)):
-            print(f"Relationship block incorrectly formatted: {block}")
-            continue
+            logger.warning(f"Relationship block incorrectly formatted: {block}")
+            continue  # TODO: shouldn't this be return?
 
         positive = False
 
@@ -1518,26 +1516,25 @@ def unpack_rel_block(
         # Get log
         log1 = None
         log2 = None
-        if block.get("log"):
-            log = block.get("log")
-            if isinstance(log, str):
-                log1 = log
-            elif isinstance(log, list):
-                if len(log) >= 2:
-                    log1 = log[0]
-                    log2 = log[1]
-                elif len(log) == 1:
-                    log1 = log[0]
-            else:
-                print(f"something is wrong with relationship log: {log}")
+        log = block.get("log")
+        if isinstance(log, str):
+            log1 = log
+        elif isinstance(log, list):
+            if len(log) >= 2:
+                log1 = log[0]
+                log2 = log[1]
+            elif len(log) == 1:
+                log1 = log[0]
+        else:
+            logger.warning("Provided log is not a string or list, cannot parse.")
 
         if not log1:
             if hasattr(event, "text"):
                 try:
                     log1 = event.text + effect
                 except AttributeError:
-                    print(
-                        f"WARNING: event changed relationships but did not create a relationship log"
+                    logger.warning(
+                        "Event changed relationships but did not create a relationship log (log1)."
                     )
             else:
                 log1 = "These cats recently interacted." + effect
@@ -1546,8 +1543,8 @@ def unpack_rel_block(
                 try:
                     log2 = event.text + effect
                 except AttributeError:
-                    print(
-                        f"WARNING: event changed relationships but did not create a relationship log"
+                    logger.warning(
+                        "Event changed relationships but did not create a relationship log (log2)."
                     )
             else:
                 log2 = f"These cats recently interacted." + effect
@@ -1747,14 +1744,13 @@ def pronoun_repl(m, cat_pronouns_dict, raise_exception=False):
                 "indicated as a PRONOUN or VERB tag."
             )
 
-        print("Failed to find pronoun:", m.group(1))
+        logger.error("%s not properly indicated as a PRONOUN or VERB tag.", m.group(1))
         return "error1"
     except (KeyError, IndexError) as e:
         if raise_exception:
             raise
 
-        logger.exception("Failed to find pronoun: " + m.group(1))
-        print("Failed to find pronoun:", m.group(1))
+        logger.exception("Failed to find pronoun %s", m.group(1))
         return "error2"
 
 
@@ -2058,8 +2054,9 @@ def event_text_adjust(
     vowels = ["A", "E", "I", "O", "U"]
 
     if not text:
-        text = "This should not appear, report as a bug please! Tried to adjust the text, but no text was provided."
-        print("WARNING: Tried to adjust text, but no text was provided.")
+        text = "This should not appear, report as a bug please! Tried to adjust text, but no text was provided."
+        logger.warning("Text argument is None")
+        return text
 
     # this check is really just here to catch odd bug edge-cases from old saves, specifically in death history
     # otherwise we should really *never* have lists being passed as the text
@@ -2556,8 +2553,9 @@ def clan_symbol_sprite(clan, return_string=False, force_light=False):
                 return choice(possible_sprites)
             else:
                 # give random symbol if no matching symbol exists
-                print(
-                    f"WARNING: attempted to return symbol string, but there's no clan symbol for {clan_name.upper()}.  Random symbol string returned."
+                logger.warning(
+                    "No clan symbol for %s, random symbol string returned.",
+                    clan_name.upper(),
                 )
                 return f"{choice(sprites.clan_symbols)}"
 
@@ -2571,8 +2569,9 @@ def clan_symbol_sprite(clan, return_string=False, force_light=False):
                 return sprites.sprites[choice(possible_sprites)]
         else:
             # give random symbol if no matching symbol exists
-            print(
-                f"WARNING: attempted to return symbol sprite, but there's no clan symbol for {clan_name.upper()}.  Random symbol sprite returned."
+            logger.info(
+                "No clan symbol for %s, random symbol string returned.",
+                clan_name.upper(),
             )
             return sprites.dark_mode_symbol(
                 sprites.sprites[f"{choice(sprites.clan_symbols)}"]

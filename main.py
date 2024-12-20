@@ -25,7 +25,7 @@ import threading
 import time
 from importlib.util import find_spec
 
-from scripts.housekeeping.logfilters import MaxLevelFilter
+from scripts.housekeeping.logging_config import MaxLevelFilter
 
 if not getattr(sys, "frozen", False):
     requiredModules = [
@@ -96,6 +96,7 @@ import logging
 formatter = logging.Formatter(
     "%(name)s - %(levelname)s - %(filename)s / %(funcName)s / %(lineno)d - %(message)s"
 )
+shortformat = logging.Formatter("%(levelname)s - %(name)s - %(message)s")
 
 # Logging for file
 timestr = time.strftime("%Y%m%d_%H%M%S")
@@ -104,12 +105,11 @@ file_handler = logging.FileHandler(log_file_name)
 file_handler.setFormatter(formatter)
 # Only log errors to file
 file_handler.setLevel(logging.ERROR)
-# our own module-level logger should log debug info
-logging.getLogger(__name__).setLevel(logging.DEBUG)
+logging.root.setLevel(logging.DEBUG)
 
 # Logging for console (logs info and debug in normal text)
 stream_handler = logging.StreamHandler(stream=sys.stdout)
-stream_handler.setFormatter(formatter)
+stream_handler.setFormatter(shortformat)
 stream_handler.addFilter(MaxLevelFilter(logging.WARNING))
 
 error_handler = logging.StreamHandler(stream=sys.stderr)
@@ -119,7 +119,7 @@ error_handler.setLevel(logging.WARNING)
 logging.root.addHandler(file_handler)
 logging.root.addHandler(error_handler)
 # only want debug info on our own stuff
-logging.getLogger(__name__).addHandler(stream_handler)
+logging.root.addHandler(stream_handler)
 
 prune_logs(logs_to_keep=10, retain_empty_logs=False)
 logger = logging.getLogger(__name__)
@@ -165,8 +165,8 @@ if get_version_info().is_source_build:
 else:
     print("Running on PyInstaller build")
 
-print("Version Name: ", VERSION_NAME)
-print("Running on commit " + get_version_info().version_number)
+logger.info("Version Name: %s", VERSION_NAME)
+logger.info("Running on commit %s", get_version_info().version_number)
 
 # Load game
 from scripts.game_structure.audio import sound_manager, music_manager
@@ -218,7 +218,7 @@ def load_data():
             game.load_events()
             scripts.screens.screens_core.screens_core.rebuild_core()
         except Exception as e:
-            logging.exception("File failed to load")
+            logger.exception("File failed to load")
             if not game.switches["error_message"]:
                 game.switches[
                     "error_message"

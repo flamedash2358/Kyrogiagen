@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
+import logging
 import random
 import re
 from os.path import exists as path_exists
@@ -35,6 +36,8 @@ from scripts.clan_resources.freshkill import (
     HUNTER_BONUS,
     FRESHKILL_ACTIVE,
 )
+
+logger = logging.getLogger("scripts.patrol")
 
 
 class PatrolOutcome:
@@ -119,14 +122,14 @@ class PatrolOutcome:
         # Determine which outcomes are possible
         reg_outcomes = []
         special_outcomes = []
-        for out in outcomes:
+        for i, out in enumerate(outcomes):
             # We want to gather special (ie, gated with stat or relationship constaints)
             # outcomes seperatly, so we can ensure that those occur if possible.
             special = False
 
             if out.stat_skill or out.stat_trait:
                 special = True
-                out._get_stat_cat(patrol)
+                out._get_stat_cat(patrol, i)
                 if not isinstance(out.stat_cat, Cat):
                     continue
 
@@ -280,7 +283,7 @@ class PatrolOutcome:
         # Filter out empty results strings
         results = [x for x in results if x]
 
-        print("PATROL END -----------------------------------------------------")
+        logger.info("PATROL END -----------------------------------------------------")
 
         return processed_text, " ".join(results), self.get_outcome_art()
 
@@ -326,14 +329,15 @@ class PatrolOutcome:
 
         return False
 
-    def _get_stat_cat(self, patrol: "Patrol"):
+    def _get_stat_cat(self, patrol: "Patrol", outcome_idx):
         """Sets the stat cat. Returns true if a stat cat was found, and False if a stat cat was not found"""
 
-        print("---")
-        print(
-            f"Finding stat cat. Outcome Type: Success = {self.success}, Antag = {self.antagonize}"
+        logger.debug("---")
+        logger.debug("Finding stat cat for outcome %d", outcome_idx)
+        logger.debug(
+            "Outcome Type: Success = %s, Antag = %s", self.success, self.antagonize
         )
-        print(f"Can Have Stat: {self.can_have_stat}")
+        logger.debug(f"Can Have Stat: %s", self.can_have_stat)
 
         # Grab any specfic stat cat requirements:
         allowed_specific = [
@@ -374,7 +378,9 @@ class PatrolOutcome:
 
             possible_stat_cats.append(kitty)
 
-        print("POSSIBLE STAT CATS", [str(i.name) for i in possible_stat_cats])
+        logger.debug(
+            "POSSIBLE STAT CATS: %s", [str(i.name) for i in possible_stat_cats]
+        )
 
         actual_stat_cats = []
         for kitty in possible_stat_cats:
@@ -386,11 +392,13 @@ class PatrolOutcome:
 
         if actual_stat_cats:
             self.stat_cat = choice(actual_stat_cats)
-            print(f"Found stat cat: {self.stat_cat.name}")
+            logger.info(
+                "Found stat cat: %s for outcome %d", self.stat_cat.name, outcome_idx
+            )
         else:
-            print("No Stat Cat Found")
+            logger.debug("No Stat Cat Found")
 
-        print("---")
+        logger.debug("---")
 
         return
 
@@ -466,8 +474,9 @@ class PatrolOutcome:
         )
 
         if not cats_to_kill:
-            print(
-                f"Something was indicated in dead_cats, but no cats were indicated: {self.dead_cats}"
+            logger.warning(
+                "Something was indicated in dead_cats, but no cats were indicated: %s",
+                patrol.patrol_event.patrol_id,
             )
             return ""
 
@@ -511,8 +520,9 @@ class PatrolOutcome:
         )
 
         if not cats_to_lose:
-            print(
-                f"Something was indicated in lost_cats, but no cats were indicated: {self.lost_cats}"
+            logger.warning(
+                f"Something was indicated in lost_cats, but no cats were indicated: %s",
+                patrol.patrol_event.patrol_id,
             )
             return ""
 
@@ -539,7 +549,11 @@ class PatrolOutcome:
             scars = block.get("scars", ())
 
             if not (cats and injury):
-                print(f"something is wrong with injury - {block}")
+                logger.warning(
+                    f"Something is wrong with injury - %s. Patrol ID: %s",
+                    block,
+                    patrol.patrol_event.patrol_id,
+                )
                 continue
 
             possible_injuries = []
@@ -567,8 +581,8 @@ class PatrolOutcome:
                 if set(possible_injuries).issubset(
                     old_injuries + old_illnesses + old_perm_cond
                 ):
-                    print(
-                        "WARNING: All possible conditions are already on this cat! (poor kitty)"
+                    logger.warning(
+                        "All possible conditions are already on this cat! Skipping (poor kitty)"
                     )
                     continue
 
@@ -588,7 +602,7 @@ class PatrolOutcome:
                 elif give_injury in PERMANENT:
                     _cat.get_permanent_condition(give_injury)
                 else:
-                    print("WARNING: No Conditions to Give")
+                    logger.warning("No conditions to give")
                     continue
 
                 given_conditions = []
@@ -672,7 +686,7 @@ class PatrolOutcome:
         specific_herbs = list(set(specific_herbs))
 
         if not specific_herbs:
-            print(f"{self.herbs} - gave no herbs to give")
+            logger.warning(f"%s - gave no herbs to give", self.herbs)
             return ""
 
         patrol_size_modifier = int(len(patrol.patrol_cats) * 0.5)
@@ -736,7 +750,7 @@ class PatrolOutcome:
                 used_tag = tag
                 break
         else:
-            print(f"{self.prey} - no prey amount tags in prey property")
+            logger.warning(f"%s - no prey amount tags in prey property", self.prey)
             return ""
 
         total_amount = 0
@@ -780,7 +794,7 @@ class PatrolOutcome:
                 amount_text = amount_text.replace("_", " ")
 
             total_amount = round(total_amount, 2)
-            print(f"PREY ADDED: {total_amount}")
+            logger.debug(f"PREY ADDED: %d", total_amount)
             game.freshkill_event_list.append(
                 f"{total_amount} pieces of prey were caught on a patrol."
             )
@@ -912,7 +926,7 @@ class PatrolOutcome:
 
             History.add_scar(cat, history_text)
         else:
-            print("WARNING: Scar occured, but scar history is missing")
+            logger.warning("Scar given, but no scar history")
 
         return chosen_scar
 
@@ -924,7 +938,7 @@ class PatrolOutcome:
         if not (
             self.history_leader_death and self.history_reg_death and self.history_scar
         ):
-            print("WARNING: Injury occured, but some death or scar history is missing.")
+            logger.warning("Injury occured, but some death or scar history is missing.")
 
         final_death_history = None
         if cat.status == "leader":
@@ -966,7 +980,7 @@ class PatrolOutcome:
         """Handles adding death history, for dead cats."""
 
         if not (self.history_leader_death and self.history_reg_death):
-            print("WARNING: Death occured, but some death history is missing.")
+            logger.warning("Cat died but some death history is missing.")
 
         final_death_history = None
         if cat.status == "leader":
