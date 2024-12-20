@@ -1,3 +1,4 @@
+import logging
 import os
 from copy import deepcopy
 from random import choice
@@ -8,6 +9,8 @@ from scripts.cat.cats import Cat
 from scripts.event_class import Single_Event
 from scripts.game_structure.game_essentials import game
 from scripts.utility import change_relationship_values, event_text_adjust
+
+logger = logging.getLogger(__name__)
 
 
 class Welcoming_Events:
@@ -41,7 +44,7 @@ class Welcoming_Events:
         # collect all events
         possible_events = deepcopy(GENERAL_WELCOMING)
         if status not in WELCOMING_MASTER_DICT:
-            print(f"ERROR: there is no welcoming json for the status {status}")
+            logger.error("No welcoming text found for status %s", status)
         else:
             possible_events.extend(WELCOMING_MASTER_DICT[status])
         filtered_events = Welcoming_Events.filter_welcome_interactions(
@@ -53,7 +56,9 @@ class Welcoming_Events:
         interaction_str = choice(random_interaction.interactions)
 
         # prepare string for display
-        interaction_str = event_text_adjust(Cat, interaction_str, main_cat=clan_cat, random_cat=new_cat)
+        interaction_str = event_text_adjust(
+            Cat, interaction_str, main_cat=clan_cat, random_cat=new_cat
+        )
 
         # influence the relationship
         new_to_clan_cat = game.config["new_cat"]["rel_buff"]["new_to_clan_cat"]
@@ -67,7 +72,7 @@ class Welcoming_Events:
             admiration=new_to_clan_cat["admiration"],
             comfortable=new_to_clan_cat["comfortable"],
             jealousy=new_to_clan_cat["jealousy"],
-            trust=new_to_clan_cat["trust"]
+            trust=new_to_clan_cat["trust"],
         )
         change_relationship_values(
             cats_to=[new_cat],
@@ -78,7 +83,7 @@ class Welcoming_Events:
             admiration=clan_cat_to_new["admiration"],
             comfortable=clan_cat_to_new["comfortable"],
             jealousy=clan_cat_to_new["jealousy"],
-            trust=clan_cat_to_new["trust"]
+            trust=clan_cat_to_new["trust"],
         )
 
         # add it to the event list
@@ -169,8 +174,8 @@ class Welcoming_Events:
                     "over" not in interaction.new_cat_moons
                     and "under" not in interaction.new_cat_moons
                 ):
-                    print(
-                        f"ERROR: The new cat welcoming event {interaction.id} has a not valid moon restriction for the new cat."
+                    logger.warning(
+                        "Event %s has invalid moon constraints", interaction.id
                     )
                     continue
 
@@ -179,7 +184,6 @@ class Welcoming_Events:
 
 
 class Welcome_Interaction:
-
     def __init__(self, id, interactions=None, background=None, new_cat_moons=None):
         self.id = id
         self.background = background

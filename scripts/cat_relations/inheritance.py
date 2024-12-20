@@ -337,9 +337,10 @@ class Inheritance:
                 if grand_id in self.parents.keys():
                     parent_relation = self.parents[grand_id]
                     if parent_relation["type"] == RelationType.BLOOD:
-                        print(
-                            "WARNING - How did this happen? "
-                            "A grandparent is also the blood parent? Please report this!"
+                        logger.warning(
+                            "Cat #%s is both blood grandparent and blood parent of #%s!",
+                            grand_id,
+                            self.cat.ID,
                         )
                     continue  # even it is not blood related, it is confusing
                 grand_type = (
@@ -386,7 +387,11 @@ class Inheritance:
                 for blood_parent_id in inter_blood_parents:
                     blood_parent_cat = self.cat.fetch_cat(blood_parent_id)
                     if blood_parent_cat is None:
-                        print(f"ERROR: the blood_parent of {str(inter_cat.name)}")
+                        logger.warning(
+                            "Could not fetch blood parent cat #%s for #%s",
+                            blood_parent_id,
+                            self.cat.ID,
+                        )
                     else:
                         name.append(blood_parent_cat.name)
                 if 0 < len(name) < 2:

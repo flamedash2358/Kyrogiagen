@@ -1280,19 +1280,17 @@ def filter_relationship_type(
         try:
             threshold = int(tags[0].split("_")[1])
         except:
-            logger.error(f"%s formatted incorrectly in %s.", v_type, event_id)
+            logger.error("%s: malformed constraint for %s", event_id, v_type)
             break_loop = True
             break
 
         if threshold > 100:
-            logger.error(
-                "Relationship constraint over 100 for %s in %s.", v_type, event_id
-            )
+            logger.error("%s: constraint over 100 for %s.", event_id, v_type)
             break_loop = True
             break
 
         if threshold <= 0:
-            print("Relationship constraint less than 0 for %s in %s.", v_type, event_id)
+            logger.error("%s: constraint less than 0 for %s.", event_id, v_type)
             break_loop = True
             break
 

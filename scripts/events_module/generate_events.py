@@ -466,7 +466,7 @@ class GenerateEvents:
             final_events.extend([event] * event.weight)
 
         for notice in incorrect_format:
-            print(notice)
+            logger.error(notice)
 
         return final_events
 
@@ -475,25 +475,21 @@ class GenerateEvents:
         event_list = []
 
         if game.clan.biome not in game.clan.BIOME_TYPES:
-            print(
-                f"WARNING: unrecognised biome {game.clan.biome} in generate_events. Have you added it to BIOME_TYPES in clan.py?"
-            )
+            logger.error(f"Unrecognised biome %s in generate_events.", game.clan.biome)
+            return
 
+        biome = game.clan.biome.lower()
+        if not specific_event:
+            event_list.extend(GenerateEvents.generate_ongoing_events(event_type, biome))
+            """event_list.extend(
+                GenerateEvents.generate_ongoing_events(event_type, "general", specific_event)
+            )"""
+            return event_list
         else:
-            biome = game.clan.biome.lower()
-            if not specific_event:
-                event_list.extend(
-                    GenerateEvents.generate_ongoing_events(event_type, biome)
-                )
-                """event_list.extend(
-                    GenerateEvents.generate_ongoing_events(event_type, "general", specific_event)
-                )"""
-                return event_list
-            else:
-                event = GenerateEvents.generate_ongoing_events(
-                    event_type, biome, specific_event
-                )
-                return event
+            event = GenerateEvents.generate_ongoing_events(
+                event_type, biome, specific_event
+            )
+            return event
 
     @staticmethod
     def possible_death_reactions(family_relation, rel_value, trait, body_status):

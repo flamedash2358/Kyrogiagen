@@ -1,4 +1,7 @@
+import logging
 from typing import List
+
+logger = logging.getLogger(__name__)
 
 
 class ShortEvent:
@@ -8,28 +11,29 @@ class ShortEvent:
     """
 
     def __init__(
-            self,
-            event_id: str = "",
-            location: List[str] = None,
-            season: List[str] = None,
-            sub_type: List[str] = None,
-            tags: List[str] = None,
-            weight: int = 0,
-            text: str = "",
-            new_accessory: List[str] = None,
-            m_c=None,
-            r_c=None,
-            new_cat: List[list] = None,
-            injury: list = None,
-            history: list = None,
-            relationships: list = None,
-            outsider: dict = None,
-            other_clan: dict = None,
-            supplies: list = None,
-            new_gender: List[str] = None
+        self,
+        event_id: str = "",
+        location: List[str] = None,
+        season: List[str] = None,
+        sub_type: List[str] = None,
+        tags: List[str] = None,
+        weight: int = 0,
+        text: str = "",
+        new_accessory: List[str] = None,
+        m_c=None,
+        r_c=None,
+        new_cat: List[list] = None,
+        injury: list = None,
+        history: list = None,
+        relationships: list = None,
+        outsider: dict = None,
+        other_clan: dict = None,
+        supplies: list = None,
+        new_gender: List[str] = None,
     ):
         if not event_id:
-            print("WARNING: moon event has no event_id")
+            logger.error("Moon event has no event_id!")
+            return
         self.event_id = event_id
         self.location = location if location else ["any"]
         self.season = season if season else ["any"]

@@ -1,3 +1,4 @@
+import logging
 import os
 import traceback
 from ast import literal_eval
@@ -10,6 +11,7 @@ from scripts.event_class import Single_Event
 from scripts.game_structure.screen_settings import toggle_fullscreen
 from scripts.housekeeping.datadir import get_save_dir, get_temp_dir
 
+logger = logging.getLogger(__name__)
 pygame.init()
 
 
@@ -210,7 +212,6 @@ class Game:
         self.clicked = False
         self.keyspressed = []
 
-
     @staticmethod
     def safe_save(path: str, write_data, check_integrity=False, max_attempts: int = 15):
         """If write_data is not a string, assumes you want this
@@ -247,14 +248,16 @@ class Game:
                 if _data != _read_data:
                     i += 1
                     if i > max_attempts:
-                        print(
-                            f"Safe_Save ERROR: {file_name} was unable to properly save {i} times. Saving Failed."
+                        logger.error(
+                            f"%s was unable to properly save %d times. Saving Failed.",
+                            file_name,
+                            i,
                         )
                         raise RuntimeError(
                             f"Safe_Save: {file_name} was unable to properly save {i} times!"
                         )
-                    print(
-                        f"Safe_Save: {file_name} was incorrectly saved. Trying again."
+                    logger.warning(
+                        f"Safe_Save: %s did not save correctly. Retrying.", file_name
                     )
                     continue
 

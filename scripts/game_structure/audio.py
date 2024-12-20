@@ -104,7 +104,7 @@ class MusicManager:
         pygame.mixer.music.load(self.current_track)
         pygame.mixer.music.set_volume(self.volume)
         pygame.mixer.music.play(loops, fade_ms=1000)
-        # print(f"playing music:{self.current_track}")
+        logger.debug(f"Playing music: %s", self.current_track)
 
     def queue_music(self):
         """
@@ -118,7 +118,7 @@ class MusicManager:
         # otherwise we pick a new track and queue it
         if self.current_track and self.number_of_tracks > 1:
             playlist_copy = self.current_playlist.copy()
-            # print(f"playlist: {playlist_copy}, removing track: {self.current_track}")
+            logger.debug(f"playlist: %s, removing track: %s", playlist_copy)
             playlist_copy.remove(
                 self.current_track
             )  # don't want to repeat current track, so we take it out
@@ -129,11 +129,13 @@ class MusicManager:
 
         try:
             self.queued_track = random.choice(options)
-            print(
-                f"queueing music: current track is {self.current_track}, new track is {self.queued_track}"
+            logger.info(
+                f"Queueing music: current track is %s, new track is %s",
+                self.current_track,
+                self.queued_track,
             )
         except IndexError:
-            print("WARNING: playlist is empty")
+            logger.warning("Playlist is empty")
             self.queued_track = None
 
     def play_queued(self):

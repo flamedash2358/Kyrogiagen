@@ -1,3 +1,4 @@
+import logging
 import random
 from random import choice
 
@@ -13,6 +14,7 @@ from scripts.event_class import Single_Event
 from scripts.game_structure.game_essentials import game
 from scripts.utility import get_personality_compatibility, process_text
 
+logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------- #
 #                           START Relationship class                           #
@@ -126,8 +128,8 @@ class Relationship:
 
         # return if there are no possible interactions.
         if len(possible_interactions) <= 0:
-            print(
-                "WARNING: No interaction with this conditions.",
+            logger.error(
+                "No interactions for %s %s at %s intensity.",
                 rel_type,
                 in_de_crease,
                 intensity,
@@ -160,8 +162,9 @@ class Relationship:
                 injury_dict,
             ) in self.chosen_interaction.get_injuries.items():
                 if "injury_names" not in injury_dict:
-                    print(
-                        f"ERROR: there are no injury names in the chosen interaction {self.chosen_interaction.id}."
+                    logger.error(
+                        "No injuries listed in injuring interaction %s",
+                        self.chosen_interaction.id,
                     )
                     continue
 
