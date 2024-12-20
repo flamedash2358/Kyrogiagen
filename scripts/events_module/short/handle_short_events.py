@@ -15,6 +15,7 @@ from scripts.events_module.generate_events import GenerateEvents
 from scripts.events_module.relationship.relation_events import Relation_Events
 from scripts.game_structure.game_essentials import game
 from scripts.utility import (
+    clamp,
     event_text_adjust,
     change_clan_relations,
     change_relationship_values,
@@ -443,10 +444,10 @@ class HandleShortEvents:
 
             if cat.status == "leader":
                 if "all_lives" in self.chosen_event.tags:
-                    game.clan.leader_lives -= 10
+                    game.clan.leader_lives = 0
                 elif "some_lives" in self.chosen_event.tags:
                     game.clan.leader_lives -= random.randrange(
-                        2, self.current_lives - 1
+                        2, max(1, self.current_lives - 1)
                     )
                 else:
                     game.clan.leader_lives -= 1
