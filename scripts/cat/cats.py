@@ -552,7 +552,6 @@ class Cat:
             self.illnesses.clear()
 
         # Deal with leader death
-        text = ""
         darkforest = game.clan.instructor.df
         isoutside = self.outside
         if self.status == "leader":
@@ -571,12 +570,6 @@ class Cat:
                 death_thought = Thoughts.leader_death_thought(self, 0, darkforest)
                 final_thought = event_text_adjust(self, death_thought, main_cat=self)
                 self.thought = final_thought
-                if game.clan.instructor.df is False:
-                    text = (
-                        "They've lost their last life and have travelled to StarClan."
-                    )
-                else:
-                    text = "They've lost their last life and have travelled to the Dark Forest."
         else:
             self.dead = True
             game.just_died.append(self.ID)
