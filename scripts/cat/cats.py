@@ -905,10 +905,7 @@ class Cat:
         if self.status in ["warrior", "medicine cat", "mediator"]:
             # Give a couple doses of mentor influence:
             if mentor:
-                max_influence = randint(0, 2)
-                i = 0
-                while max_influence > i:
-                    i += 1
+                for _ in range(randint(0, 2)):
                     affect_personality = self.personality.mentor_influence(
                         Cat.fetch_cat(mentor).personality
                     )
