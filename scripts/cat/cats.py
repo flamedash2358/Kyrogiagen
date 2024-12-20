@@ -874,44 +874,23 @@ class Cat:
             game.clan.remove_med_cat(self)
 
         # updates mentors
-        if self.status == "apprentice":
+        if (self.status == "apprentice"
+            or self.status == "medicine cat apprentice"
+            or self.status == "mediator"
+            or self.status == "mediator apprentice"
+        ):
             pass
-
-        elif self.status == "medicine cat apprentice":
-            pass
-
-        elif self.status == "warrior":
-            if old_status == "leader" and (
-                game.clan.leader and game.clan.leader.ID == self.ID
-            ):
+        elif self.status == "warrior" or self.status == "elder":
+            if old_status == "leader" and game.clan.leader and game.clan.leader.ID == self.ID:
                 game.clan.leader = None
                 game.clan.leader_predecessors += 1
-            if game.clan and game.clan.deputy and game.clan.deputy.ID == self.ID:
+            if game.clan.deputy and game.clan.deputy.ID == self.ID and game.clan:
                 game.clan.deputy = None
                 game.clan.deputy_predecessors += 1
-
         elif self.status == "medicine cat":
             if game.clan is not None:
                 game.clan.new_medicine_cat(self)
 
-        elif self.status == "elder":
-            if (
-                old_status == "leader"
-                and game.clan.leader
-                and game.clan.leader.ID == self.ID
-            ):
-                game.clan.leader = None
-                game.clan.leader_predecessors += 1
-
-            if game.clan.deputy and game.clan.deputy.ID == self.ID:
-                game.clan.deputy = None
-                game.clan.deputy_predecessors += 1
-
-        elif self.status == "mediator":
-            pass
-
-        elif self.status == "mediator apprentice":
-            pass
 
         # update class dictionary
         self.all_cats[self.ID] = self
