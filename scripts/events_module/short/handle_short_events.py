@@ -156,9 +156,13 @@ class HandleShortEvents:
                     break
             if not found:
                 # this print is very spammy, but can be helpful if unsure why a debug event isn't triggering
-                logger.debug("Debug event %s was not possible for %s looking for %s: %s.",
-                             game.config['event_generation']['debug_ensure_event_id'],
-                             self.main_cat.name, event_type, self.sub_types)
+                logger.debug(
+                    "Debug event %s was not possible for %s looking for %s: %s.",
+                    game.config["event_generation"]["debug_ensure_event_id"],
+                    self.main_cat.name,
+                    event_type,
+                    self.sub_types,
+                )
                 pass
         # ---------------------------------------------------------------------------- #
         #                               do the event                                   #
@@ -413,7 +417,9 @@ class HandleShortEvents:
             elif new_gender == "trans male":
                 self.main_cat.pronouns = [self.main_cat.default_pronouns[2].copy()]
             else:
-                logger.warning("No pronouns found for %s, keeping original pronouns.", new_gender)
+                logger.warning(
+                    "No pronouns found for %s, keeping original pronouns.", new_gender
+                )
 
     def handle_death(self):
         """
@@ -623,9 +629,7 @@ class HandleShortEvents:
                         self.current_lives -= 1
                         if self.current_lives != game.clan.leader_lives:
                             while self.current_lives > game.clan.leader_lives:
-                                History.add_death(
-                                    cat, "multi_lives"
-                                )
+                                History.add_death(cat, "multi_lives")
                                 self.current_lives -= 1
                     History.add_death(cat, death_history)
 

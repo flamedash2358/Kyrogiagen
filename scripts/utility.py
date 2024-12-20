@@ -1608,12 +1608,19 @@ def change_relationship_values(
     """
 
     # This is just for test prints - DON'T DELETE - you can use this to test if relationships are changing
-    """changed = False
-    if romantic_love == 0 and platonic_like == 0 and dislike == 0 and admiration == 0 and \
-            comfortable == 0 and jealousy == 0 and trust == 0:
+    changed = False
+    if (
+        romantic_love == 0
+        and platonic_like == 0
+        and dislike == 0
+        and admiration == 0
+        and comfortable == 0
+        and jealousy == 0
+        and trust == 0
+    ):
         changed = False
     else:
-        changed = True"""
+        changed = True
 
     # pick out the correct cats
     for single_cat_from in cats_from:
@@ -1649,16 +1656,22 @@ def change_relationship_values(
             rel.jealousy += jealousy
             rel.trust += trust
 
-            # for testing purposes - DON'T DELETE - you can use this to test if relationships are changing
-            """
-            print(str(single_cat_from.name) + " gained relationship with " + str(rel.cat_to.name) + ": " +
-                  "Romantic: " + str(romantic_love) +
-                  " /Platonic: " + str(platonic_like) +
-                  " /Dislike: " + str(dislike) +
-                  " /Respect: " + str(admiration) +
-                  " /Comfort: " + str(comfortable) +
-                  " /Jealousy: " + str(jealousy) +
-                  " /Trust: " + str(trust)) if changed else print("No relationship change")"""
+            if changed:
+                logger.debug(
+                    "%s gained relationship with %s: Romantic: %d | Platonic: %d | Dislike: %d | Respect: %d | "
+                    "Comfort: %d | Jealousy: %d | Trust: %d",
+                    str(single_cat_from.name),
+                    str(rel.cat_to.name),
+                    str(romantic_love),
+                    str(platonic_like),
+                    str(dislike),
+                    str(admiration),
+                    str(comfortable),
+                    str(jealousy),
+                    str(trust),
+                )
+            else:
+                logger.debug("No relationship change")
 
             if log and isinstance(log, str):
                 if single_cat_to.moons <= 1:

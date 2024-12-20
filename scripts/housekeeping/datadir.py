@@ -1,7 +1,10 @@
+import logging
 import os
 import platform
 
 from scripts.housekeeping.version import get_version_info
+
+logger = logging.getLogger(__name__)
 
 
 def setup_data_dir():
@@ -10,7 +13,7 @@ def setup_data_dir():
         os.makedirs(get_save_dir(), exist_ok=True)
         os.makedirs(get_temp_dir(), exist_ok=True)
     except FileExistsError:
-        print("Macos ignored exist_ok=true for save or temp dict, continuing.")
+        logger.info("MacOS ignored exist_ok=true for save or temp dict, continuing.")
         pass
     os.makedirs(get_log_dir(), exist_ok=True)
     os.makedirs(get_cache_dir(), exist_ok=True)

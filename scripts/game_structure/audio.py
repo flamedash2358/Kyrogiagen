@@ -46,16 +46,19 @@ class MusicManager:
             return
 
         self.biome_playlist = self.get_biome_music()
-        # print(f"biome playlist is {self.biome_playlist}, current playlist is {self.current_playlist}")
-        # print(f"screen is {screen}")
-        # print(f"menu playlist is {self.playlists['menu_playlist']}")
+        logger.debug(
+            f"biome playlist is %s, current playlist is %s",
+            self.biome_playlist,
+            self.current_playlist,
+        )
+        logger.debug(f"screen is %s", screen)
+        logger.debug("menu playlist is %s", self.playlists["menu_playlist"])
 
         # menu screen
         if (
             screen in menu_screens
             and self.current_playlist != self.playlists["menu_playlist"]
         ):
-            # print("menu screen")
             self.fade_out_music()
             self.play_playlist(self.playlists["menu_playlist"])
 
@@ -64,7 +67,6 @@ class MusicManager:
             screen in creation_screens
             and self.current_playlist != self.playlists["creation_playlist"]
         ):
-            # print("creation screen")
             self.fade_out_music()
             self.play_playlist(self.playlists["creation_playlist"])
 
@@ -74,7 +76,6 @@ class MusicManager:
             and screen not in creation_screens
             and self.current_playlist != self.biome_playlist
         ):
-            # print("biome screen")
             self.fade_out_music()
             self.play_playlist(self.biome_playlist)
 
@@ -118,19 +119,19 @@ class MusicManager:
         # otherwise we pick a new track and queue it
         if self.current_track and self.number_of_tracks > 1:
             playlist_copy = self.current_playlist.copy()
-            logger.debug(f"playlist: %s, removing track: %s", playlist_copy)
+            logger.debug("Playlist: %s, removing track: %s", playlist_copy)
             playlist_copy.remove(
                 self.current_track
             )  # don't want to repeat current track, so we take it out
             options = playlist_copy
-            # print(f"final list: {options}")
+            logger.debug("Final list: %s", options)
         else:
             options = self.current_playlist
 
         try:
             self.queued_track = random.choice(options)
             logger.info(
-                f"Queueing music: current track is %s, new track is %s",
+                f"Queuing music: current track is %s, new track is %s",
                 self.current_track,
                 self.queued_track,
             )

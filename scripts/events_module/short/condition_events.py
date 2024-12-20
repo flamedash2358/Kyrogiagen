@@ -1171,9 +1171,7 @@ class Condition_Events:
             needed_herbs.update(source[condition]["herbs"])
         except KeyError:
             if condition not in ["thorn in paw", "splinter"]:
-                logger.error(
-                    "%s does not exist in condition dict.", condition
-                )
+                logger.error("%s does not exist in condition dict.", condition)
             return
         if game.clan.game_mode == "classic":
             herb_set = needed_herbs
@@ -1206,7 +1204,9 @@ class Condition_Events:
             # classic doesn't actually count herbs
             if game.clan.game_mode != "classic":
                 while game.clan.herbs[herb_used] <= 0:
-                    logger.warning("%s chosen to use but not present in herb stores. Removing & rerolling.")
+                    logger.warning(
+                        "%s chosen to use but not present in herb stores. Removing & rerolling."
+                    )
                     game.clan.herbs.pop(herb_used)
                     usable_herbs.pop(0)
                     if usable_herbs:

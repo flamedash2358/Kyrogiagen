@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
+import logging
 import os
 from random import choice
 from re import sub
@@ -40,6 +41,7 @@ from ..ui.generate_button import ButtonStyles, get_button_dict
 from ..ui.get_arrow import get_arrow
 from ..ui.icon import Icon
 
+logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------- #
 #             change how accessory info displays on cat profiles               #
@@ -1202,10 +1204,7 @@ class ProfileScreen(Screens):
                 if str(self.the_cat.ID) in rel_data:
                     self.user_notes = rel_data.get(str(self.the_cat.ID))
         except Exception as e:
-            print(
-                f"ERROR: there was an error reading the Notes file of cat #{self.the_cat.ID}.\n",
-                e,
-            )
+            logger.exception("Could not read notes file of cat #%s", self.the_cat.ID)
 
     def toggle_history_sub_tab(self):
         """To toggle the history-sub-tab"""

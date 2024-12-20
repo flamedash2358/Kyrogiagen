@@ -1,3 +1,4 @@
+import logging
 import os
 import platform
 import shutil
@@ -17,6 +18,8 @@ from strenum import StrEnum
 from scripts.housekeeping.progress_bar_updater import UIUpdateProgressBar
 from scripts.housekeeping.version import get_version_info
 from scripts.utility import quit
+
+logger = logging.getLogger(__name__)
 
 use_proxy = False  # Set this to True if you want to use a proxy for the update check. Useful for debugging.
 
@@ -95,9 +98,9 @@ def has_update(update_channel: UpdateChannel):
     latest_version = latest_version_number.strip()
 
     if get_version_info().version_number.strip() != latest_version_number.strip():
-        print(f"Update available!")
-        print(f"Current version: {get_version_info().version_number}")
-        print(f"Newest version : {latest_version_number.strip()}")
+        logger.info("Update available!")
+        logger.info(f"Current version: %s", get_version_info().version_number)
+        logger.info(f"Newest version: %s", latest_version_number.strip())
         return True
     else:
         return False
@@ -132,7 +135,7 @@ def self_update(
     progress_bar: UIUpdateProgressBar = None,
     announce_restart_callback: callable = None,
 ):
-    print("Updating Clangen...")
+    logger.info("Updating Clangen...")
 
     platform_name = determine_platform_name()
 
@@ -142,7 +145,7 @@ def self_update(
 
     encoded_signature = response.headers["x-gpg-signature"]
 
-    print("Verifying...")
+    logger.info("Verifying...")
 
     length = response.headers.get("Content-Length")
 
@@ -191,12 +194,12 @@ def self_update(
 
             key.verify(data, signature)
             progress_bar.advance()
-        print("Signature check succeeded.")
+        logger.info("Signature check succeeded.")
     except pgpy.errors.PGPError:
-        print("Signature mismatch.")
+        logger.exception("Signature mismatch.")
         return
 
-    print("Installing...")
+    logger.info("Installing...")
 
     if platform.system() == "Windows":
         with zipfile.ZipFile("download.tmp") as zip_ref:

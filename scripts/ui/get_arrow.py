@@ -1,6 +1,8 @@
+import logging
 from math import floor
 from typing import Union
 
+logger = logging.getLogger(__name__)
 
 def get_arrow(arrow_length: Union[int, float], arrow_left=True):
     if arrow_length == 1:
@@ -17,7 +19,7 @@ def get_arrow(arrow_length: Union[int, float], arrow_left=True):
 
     if 1 < arrow_length < 2:
         arrow_length = 2
-        print(
+        logger.info(
             "Invalid arrow length - due to limitations in the font, arrow lengths "
             "between 1 and 2 are impossible. Rounded up to length 2. Sorry!"
         )

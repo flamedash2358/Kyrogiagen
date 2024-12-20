@@ -1,3 +1,4 @@
+import logging
 from random import choice, sample
 from typing import Dict, Optional
 
@@ -26,6 +27,7 @@ from ..ui.generate_box import BoxStyles, get_box
 from ..ui.generate_button import get_button_dict, ButtonStyles
 from ..ui.icon import Icon
 
+logger = logging.getLogger(__name__)
 
 class PatrolScreen(Screens):
     current_patrol = []
@@ -95,7 +97,7 @@ class PatrolScreen(Screens):
             if self.able_cats:
                 self.selected_cat = choice(self.able_cats)
             else:
-                print('WARNING: attempted to select random cat for patrol from empty list of able cats')
+                logger.warning("Cannot select randomly from empty list")
             self.update_selected_cat()
             self.update_button()
         # Check is a cat is clicked
@@ -134,7 +136,7 @@ class PatrolScreen(Screens):
                     if self.able_cats:
                         self.selected_cat = choice(self.able_cats)
                     else:
-                        print('WARNING: attempted to select random cat for patrol from empty list of able cats')
+                        logger.warning("Cannot select randomly from empty list (able cats)")
                 self.update_selected_cat()
                 self.current_patrol.append(self.selected_cat)
             self.update_cat_images_buttons()
@@ -355,7 +357,7 @@ class PatrolScreen(Screens):
             self.open_patrol_event_screen()
             self.open_patrol_complete_screen()
         else:
-            print("how'd that happen? Unidentified patrol stage.")
+            logger.error("Unrecognized patrol stage %s", self.patrol_stage)
 
     def update_button(self):
         """ " Updates button availabilities."""
