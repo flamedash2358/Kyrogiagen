@@ -555,28 +555,21 @@ class Cat:
         darkforest = game.clan.instructor.df
         isoutside = self.outside
         if self.status == "leader":
-            if game.clan.leader_lives > 0:
-                lives_left = game.clan.leader_lives
-                death_thought = Thoughts.leader_death_thought(
-                    self, lives_left, darkforest
-                )
-                final_thought = event_text_adjust(self, death_thought, main_cat=self)
-                self.thought = final_thought
-                return ""
-            elif game.clan.leader_lives <= 0:
+            if game.clan.leader_lives <= 0:
                 self.dead = True
                 game.just_died.append(self.ID)
                 game.clan.leader_lives = 0
-                death_thought = Thoughts.leader_death_thought(self, 0, darkforest)
-                final_thought = event_text_adjust(self, death_thought, main_cat=self)
-                self.thought = final_thought
+            death_thought = Thoughts.leader_death_thought(self, game.clan.leader_lives, darkforest)
         else:
             self.dead = True
             game.just_died.append(self.ID)
             death_thought = Thoughts.new_death_thought(self, darkforest, isoutside)
-            final_thought = event_text_adjust(self, death_thought, main_cat=self)
-            self.thought = final_thought
+        final_thought = event_text_adjust(self, death_thought, main_cat=self)
+        self.thought = final_thought
 
+        if not self.dead:
+            return ""
+        
         for app in self.apprentice.copy():
             fetched_cat = Cat.fetch_cat(app)
             if fetched_cat:
