@@ -266,7 +266,7 @@ class Relationship:
         compatibility = get_personality_compatibility(self.cat_from, self.cat_to)
         if compatibility is None:
             # neutral compatibility
-            amount = amount
+            pass
         elif compatibility:
             # positive compatibility
             amount += game.config["relationship"]["compatibility_effect"]
