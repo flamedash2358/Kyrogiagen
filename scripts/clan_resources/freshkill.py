@@ -393,16 +393,11 @@ class FreshkillPile:
                 if ration_prey and status == "warrior":
                     feeding_amount = feeding_amount / 2
 
-            if (
-                self.amount_food_needed() < self.total_amount * 1.2
-                and self.nutrition_info[cat.ID].percentage < 100
-            ):
-                feeding_amount += 1
-            elif (
-                self.amount_food_needed() < self.total_amount
-                and self.nutrition_info[cat.ID].percentage < 100
-            ):
-                feeding_amount += 0.5
+            if(self.nutrition_info[cat.ID].percentage < 100):
+                if (self.amount_food_needed() < self.total_amount * 1.2):
+                    feeding_amount += 1
+                elif (self.amount_food_needed() < self.total_amount):
+                    feeding_amount += 0.5
 
             if additional_food_round:
                 needed_amount = 0
@@ -435,20 +430,15 @@ class FreshkillPile:
             for cat in living_cats.copy():
                 if not cat.skills:
                     continue
-                if (
-                    cat.skills.primary
-                    and cat.skills.primary.path == SkillPath.HUNTER
-                    and cat.skills.primary.tier == search_rank
-                ):
-                    best_hunter.insert(0, cat)
-                    living_cats.remove(cat)
-                elif (
-                    cat.skills.secondary
-                    and cat.skills.secondary.path == SkillPath.HUNTER
-                    and cat.skills.secondary.tier == search_rank
-                ):
-                    best_hunter.insert(0, cat)
-                    living_cats.remove(cat)
+                skills = [cat.skills.primary, cat.skills.secondary]
+                for skill in skills:
+                    if (
+                        skill
+                        and skill.path == SkillPath.HUNTER
+                        and skill.tier == search_rank
+                    ):
+                        best_hunter.insert(0, cat)
+                        living_cats.remove(cat)
 
         self.feed_group(best_hunter, additional_food_round)
         self.tactic_status(living_cats, additional_food_round)
@@ -512,26 +502,15 @@ class FreshkillPile:
                 if ration_prey and status == "warrior":
                     feeding_amount = feeding_amount / 2
 
-            if (
-                self.total_amount * 2 > self.amount_food_needed()
-                and self.nutrition_info[cat.ID].percentage < 100
-            ):
-                feeding_amount += 2
-            if (
-                self.total_amount * 1.8 > self.amount_food_needed()
-                and self.nutrition_info[cat.ID].percentage < 100
-            ):
-                feeding_amount += 1.5
-            elif (
-                self.total_amount * 1.2 > self.amount_food_needed()
-                and self.nutrition_info[cat.ID].percentage < 100
-            ):
-                feeding_amount += 1
-            elif (
-                self.total_amount > self.amount_food_needed()
-                and self.nutrition_info[cat.ID].percentage < 100
-            ):
-                feeding_amount += 0.5
+            if(self.nutrition_info[cat.ID].percentage < 100):
+                if (self.total_amount * 2 > self.amount_food_needed()):
+                    feeding_amount += 2
+                elif (self.total_amount * 1.8 > self.amount_food_needed()):
+                    feeding_amount += 1.5
+                elif (self.total_amount * 1.2 > self.amount_food_needed()):
+                    feeding_amount += 1
+                elif (self.total_amount > self.amount_food_needed()):
+                    feeding_amount += 0.5
 
             if additional_food_round:
                 needed_amount = 0
