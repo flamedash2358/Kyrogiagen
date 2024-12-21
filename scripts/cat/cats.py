@@ -1775,9 +1775,7 @@ class Cat:
         if medical_cats_condition_fulfilled(Cat.all_cats.values(), amount_per_med):
             duration = med_duration
         if severity != "minor":
-            duration += randrange(-1, 1)
-        if duration == 0:
-            duration = 1
+            duration += clamp(duration + randrange(-1, 1), 1, duration + 1)
 
         if game.clan and game.clan.game_mode == "cruel season" and mortality != 0:
             mortality = int(mortality * 0.5)
@@ -1845,9 +1843,7 @@ class Cat:
         ):
             duration = med_duration
         if severity != "minor":
-            duration += randrange(-1, 1)
-        if duration == 0:
-            duration = 1
+            duration += clamp(duration + randrange(-1, 1), 1, duration + 1)
 
         if mortality != 0 and (game.clan and game.clan.game_mode == "cruel season"):
             mortality = int(mortality * 0.5)
