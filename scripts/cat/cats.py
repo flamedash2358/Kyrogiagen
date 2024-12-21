@@ -2524,16 +2524,10 @@ class Cat:
             # if they dead (dead cats have no relationships)
             if self.dead or inter_cat.dead:
                 continue
-            # if they are not outside of the Clan at the same time
-            if (
-                self.outside
-                and not inter_cat.outside
-                or not self.outside
-                and inter_cat.outside
-            ):
-                continue
-            inter_cat.relationships[self.ID] = Relationship(inter_cat, self)
-            self.relationships[inter_cat.ID] = Relationship(self, inter_cat)
+            # if they are outside of the Clan at the same time
+            if (self.outside and self.outside == inter_cat.outside):
+                inter_cat.relationships[self.ID] = Relationship(inter_cat, self)
+                self.relationships[inter_cat.ID] = Relationship(self, inter_cat)
 
     def init_all_relationships(self):
         """Create Relationships to all current Clancats."""
