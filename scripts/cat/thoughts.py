@@ -1,3 +1,4 @@
+import os
 import traceback
 from random import choice
 
@@ -262,10 +263,10 @@ class Thoughts:
 
     @staticmethod
     def load_thoughts(main_cat, other_cat, game_mode, biome, season, camp):
-        base_path = f"resources/dicts/thoughts/"
-        status = main_cat.status
-
-        status = status.replace(" ", "_")
+        successfully_loaded_thoughts = True
+        base_path = 'resources/dicts/thoughts'
+        
+        status = main_cat.status.replace(" ", "_")
         # match status:
         #     case "medicine cat apprentice":
         #         status = "medicine_cat_apprentice"
@@ -293,25 +294,35 @@ class Thoughts:
         else:
             spec_dir = ""
 
-        # newborns only pull from their status thoughts. this is done for convenience
-        try:
-            if main_cat.age == 'newborn':
+        if main_cat.age == 'newborn':
+            if os.path.exists(f"{base_path}{life_dir}{spec_dir}/newborn.json"):
                 with open(f"{base_path}{life_dir}{spec_dir}/newborn.json", 'r') as read_file:
                     thoughts = ujson.loads(read_file.read())
                 loaded_thoughts = thoughts
+                genthoughts = ""
             else:
+                successfully_loaded_thoughts = False
+                print(f"WARNING: {base_path}{life_dir}{spec_dir}/newborn.json failed to load")
+        else:
+            if os.path.exists(f"{base_path}{life_dir}{spec_dir}/{status}.json"):
                 with open(f"{base_path}{life_dir}{spec_dir}/{status}.json", 'r') as read_file:
                     thoughts = ujson.loads(read_file.read())
+            else:
+                successfully_loaded_thoughts = False
+                print(f"WARNING: {base_path}{life_dir}{spec_dir}/{status}.json failed to load")
+                
+            if os.path.exists(f"{base_path}{life_dir}{spec_dir}/general.json"):
                 with open(f"{base_path}{life_dir}{spec_dir}/general.json", 'r') as read_file:
                     genthoughts = ujson.loads(read_file.read())
-                loaded_thoughts = thoughts + genthoughts
-
+            else:
+                successfully_loaded_thoughts = False
+                print(f"WARNING: {base_path}{life_dir}{spec_dir}/general.json failed to load")
+        if successfully_loaded_thoughts:
+            loaded_thoughts = thoughts + genthoughts
             final_thoughts = Thoughts.create_thoughts(loaded_thoughts, main_cat, other_cat, game_mode, biome,
-                                                      season, camp)
+                                                        season, camp)
             return final_thoughts
-        except IOError:
-            print("ERROR: loading thoughts")
-
+        
     @staticmethod
     def get_chosen_thought(main_cat, other_cat, game_mode, biome, season, camp):
         # get possible thoughts
@@ -341,43 +352,44 @@ class Thoughts:
         :param lives_left: How many lives the leader has left - used to determine if they actually die or not
         :param darkforest: Whether or not dead cats go to StarClan (false) or the DF (true)
         """
-        base_path = f"resources/dicts/thoughts/ondeath"
-        if darkforest is False:
-            spec_dir = "/starclan"
-        elif darkforest:
-            spec_dir = "/darkforest"
-        THOUGHTS: []
-        try:
-            if lives_left > 0:
-                with open(f"{base_path}{spec_dir}/leader_life.json", 'r') as read_file:
-                    THOUGHTS = ujson.loads(read_file.read())
-            else:
-                with open(f"{base_path}{spec_dir}/leader_death.json", 'r') as read_file:
-                    THOUGHTS = ujson.loads(read_file.read())
-            loaded_thoughts = THOUGHTS
-            thought_group = choice(Thoughts.create_death_thoughts(self, loaded_thoughts))
-            chosen_thought = choice(thought_group["thoughts"])
-            return chosen_thought
-        except Exception:
-            traceback.print_exc()
-            chosen_thought = "Prrrp! You shouldn't see this! Report as a bug."
 
-    def new_death_thought(self, darkforest, isoutside):
-        base_path = f"resources/dicts/thoughts/ondeath"
-        if isoutside:
-            spec_dir = "/unknownresidence"
-        elif darkforest is False:
-            spec_dir = "/starclan"
+        file_path = "resources/dicts/thoughts/ondeath"
+        if darkforest is False:
+            file_path += "/starclan"
         elif darkforest:
-            spec_dir = "/darkforest"
-        THOUGHTS: []
-        try:
-            with open(f"{base_path}{spec_dir}/general.json", 'r') as read_file:
+            file_path += "/darkforest"
+        if lives_left > 0:
+            file_path += "/leader_life.json"
+        else:
+            file_path += "/leader_death.json"
+        if os.path.exists(file_path):
+            with open(file_path, 'r') as read_file:
                 THOUGHTS = ujson.loads(read_file.read())
             loaded_thoughts = THOUGHTS
             thought_group = choice(Thoughts.create_death_thoughts(self, loaded_thoughts))
             chosen_thought = choice(thought_group["thoughts"])
             return chosen_thought
-        except Exception:
-            traceback.print_exc()
+        else:
+            print(f"WARNING: {read_file} failed to load")
+            return "Prrrp! You shouldn't see this! Report as a bug."
+        
+
+    def new_death_thought(self, darkforest, isoutside):
+        file_path = f"resources/dicts/thoughts/ondeath"
+        if isoutside:
+            file_path += "/unknownresidence"
+        elif darkforest is False:
+            file_path += "/starclan"
+        elif darkforest:
+            file_path += "/darkforest"
+        file_path += "/general.json"
+        if os.path.exists(file_path):
+            with open(file_path, 'r') as read_file:
+                THOUGHTS = ujson.loads(read_file.read())
+            loaded_thoughts = THOUGHTS
+            thought_group = choice(Thoughts.create_death_thoughts(self, loaded_thoughts))
+            chosen_thought = choice(thought_group["thoughts"])
+            return chosen_thought
+        else:
+            print(f"WARNING: {read_file} failed to load")
             return "Prrrp! You shouldn't see this! Report as a bug."
