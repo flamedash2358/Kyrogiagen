@@ -210,36 +210,19 @@ class Thoughts:
                                 "any" not in thought['has_injuries']["r_c"]:
                             return False
                     return False
-
-            if "perm_conditions" in thought:
-                if "m_c" in thought["perm_conditions"]:
-                    if main_cat.permanent_condition:
-                        if not [i for i in main_cat.permanent_condition if
-                                i in thought["perm_conditions"]["m_c"]] and \
-                                "any" not in thought['perm_conditions']["m_c"]:
-                            return False
-                    else:
-                        return False
-
-                if "r_c" in thought["perm_conditions"] and random_cat:
-                    if random_cat.permanent_condition:
-                        if not [i for i in random_cat.permanent_condition if
-                                i in thought["perm_conditions"]["r_c"]] and \
-                                "any" not in thought['perm_conditions']["r_c"]:
-                            return False
-                    else:
-                        return False
         
         if "perm_conditions" in thought:
             if "m_c" in thought["perm_conditions"]:
                 if main_cat.permanent_condition:
-                    if not [i for i in main_cat.permanent_condition if i in thought["perm_conditions"]["m_c"]] and \
+                    if not [i for i in main_cat.permanent_condition if 
+                            i in thought["perm_conditions"]["m_c"]] and \
                             "any" not in thought['perm_conditions']["m_c"]:
                         return False
 
             if "r_c" in thought["perm_conditions"] and random_cat:
                 if random_cat.permanent_condition:
-                    if not [i for i in random_cat.permanent_condition if i in thought["perm_conditions"]["r_c"]] and \
+                    if not [i for i in random_cat.permanent_condition if 
+                            i in thought["perm_conditions"]["r_c"]] and \
                             "any" not in thought['perm_conditions']["r_c"]:
                         return False
 
