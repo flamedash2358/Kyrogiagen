@@ -1585,18 +1585,12 @@ class Cat:
 
         moons_with = game.clan.age - self.illnesses[illness]["moon_start"]
 
-        # focus buff
-        moons_prior = game.config["focus"]["rest and recover"]["moons_earlier_healed"]
-
-        if self.illnesses[illness]["duration"] - moons_with <= 0:
-            self.healed_condition = True
-            return False
-
+        moons_until_cured = self.illnesses[illness]["duration"] - moons_with
         # CLAN FOCUS! - if the focus 'rest and recover' is selected
-        elif (
-            game.clan.clan_settings.get("rest and recover")
-            and self.illnesses[illness]["duration"] + moons_prior - moons_with <= 0
-        ):
+        if(game.clan.clan_settings.get("rest and recover")):
+            moons_until_cured -= game.config["focus"]["rest and recover"]["moons_earlier_healed"]
+
+        if moons_until_cured <= 0:
             self.healed_condition = True
             return False
 
@@ -1622,28 +1616,18 @@ class Cat:
                 game.clan.leader_lives -= 1
             self.die()
             return False
-
-        moons_with = game.clan.age - self.injuries[injury]["moon_start"]
-
-        # focus buff
-        moons_prior = game.config["focus"]["rest and recover"]["moons_earlier_healed"]
-
+        
         # if the cat has an infected wound, the wound shouldn't heal till the illness is cured
-        if (
-            not self.injuries[injury]["complication"]
-            and self.injuries[injury]["duration"] - moons_with <= 0
-        ):
-            self.healed_condition = True
-            return False
+        if (not self.injuries[injury]["complication"]):
 
-        # CLAN FOCUS! - if the focus 'rest and recover' is selected
-        elif (
-            not self.injuries[injury]["complication"]
-            and game.clan.clan_settings.get("rest and recover")
-            and self.injuries[injury]["duration"] + moons_prior - moons_with <= 0
-        ):
-            self.healed_condition = True
-            return False
+            moons_with = game.clan.age - self.injuries[injury]["moon_start"]
+            moons_until_healed = self.injuries[injury]["duration"] - moons_with
+            # CLAN FOCUS! - if the focus 'rest and recover' is selected
+            if(game.clan.clan_settings.get("rest and recover")):
+                moons_until_healed -= game.config["focus"]["rest and recover"]["moons_earlier_healed"]
+            if(moons_until_healed <= 0):
+                self.healed_condition = True
+                return False
 
     def moon_skip_permanent_condition(self, condition):
         """handles the moon skip for permanent conditions"""
