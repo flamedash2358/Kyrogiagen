@@ -11,7 +11,7 @@ from scripts.cat_relations.interaction import (
 )
 from scripts.event_class import Single_Event
 from scripts.game_structure.game_essentials import game
-from scripts.utility import get_personality_compatibility, process_text
+from scripts.utility import clamp, get_personality_compatibility, process_text
 
 
 # ---------------------------------------------------------------------------- #
@@ -623,11 +623,7 @@ class Relationship:
 
     @romantic_love.setter
     def romantic_love(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._romantic_love = value
+        self._romantic_love = clamp(value, 0, 100)
 
     @property
     def platonic_like(self):
@@ -635,11 +631,7 @@ class Relationship:
 
     @platonic_like.setter
     def platonic_like(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._platonic_like = value
+        self._platonic_like = clamp(value, 0, 100)
 
     @property
     def dislike(self):
@@ -647,11 +639,7 @@ class Relationship:
 
     @dislike.setter
     def dislike(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._dislike = value
+        self._dislike = clamp(value, 0, 100)
 
     @property
     def admiration(self):
@@ -659,11 +647,7 @@ class Relationship:
 
     @admiration.setter
     def admiration(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._admiration = value
+        self._admiration = clamp(value, 0, 100)
 
     @property
     def comfortable(self):
@@ -671,11 +655,7 @@ class Relationship:
 
     @comfortable.setter
     def comfortable(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._comfortable = value
+        self._comfortable = clamp(value, 0, 100)
 
     @property
     def jealousy(self):
@@ -683,11 +663,7 @@ class Relationship:
 
     @jealousy.setter
     def jealousy(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._jealousy = value
+        self._jealousy = clamp(value, 0, 100)
 
     @property
     def trust(self):
@@ -695,8 +671,4 @@ class Relationship:
 
     @trust.setter
     def trust(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._trust = value
+        self._trust = clamp(value, 0, 100)
