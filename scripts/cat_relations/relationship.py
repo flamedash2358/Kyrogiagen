@@ -112,17 +112,15 @@ class Relationship:
         biome = str(game.clan.biome).casefold()
         game_mode = game.clan.game_mode
 
-        all_interactions = NEUTRAL_INTERACTIONS.copy()
         if in_de_crease != "neutral":
             all_interactions = INTERACTION_MASTER_DICT[rel_type][in_de_crease].copy()
-            possible_interactions = self.get_relevant_interactions(
-                all_interactions, intensity, biome, season, game_mode
-            )
         else:
+            all_interactions = NEUTRAL_INTERACTIONS.copy()
             intensity = None
-            possible_interactions = self.get_relevant_interactions(
-                all_interactions, intensity, biome, season, game_mode
-            )
+
+        possible_interactions = self.get_relevant_interactions(
+            all_interactions, intensity, biome, season, game_mode
+        )
 
         # return if there are no possible interactions.
         if len(possible_interactions) <= 0:
@@ -205,23 +203,22 @@ class Relationship:
         # prepare string for display
         interaction_str = self.adjust_interaction_string(interaction_str)
 
-        effect = " (neutral effect)"
-        if in_de_crease != "neutral" and positive:
+        
+        if in_de_crease == "neutral":
+            effect = " (neutral effect)"
+        elif positive:
             effect = f" ({intensity} positive effect)"
-        if in_de_crease != "neutral" and not positive:
+        else:
             effect = f" ({intensity} negative effect)"
 
-        interaction_str = interaction_str + effect
+        interaction_str += effect + f" - {self.cat_from.name} was {self.cat_from.moons} "
         if self.cat_from.moons == 1:
-            self.log.append(
-                interaction_str
-                + f" - {self.cat_from.name} was {self.cat_from.moons} moon old"
-            )
+            interaction_str += "moon old"
         else:
-            self.log.append(
-                interaction_str
-                + f" - {self.cat_from.name} was {self.cat_from.moons} moons old"
-            )
+            interaction_str += "moons old"
+
+        self.log.append(interaction_str)
+
         relevant_event_tabs = ["relation", "interaction"]
         if self.chosen_interaction.get_injuries:
             relevant_event_tabs.append("health")
