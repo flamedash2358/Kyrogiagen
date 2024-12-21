@@ -1888,9 +1888,8 @@ class Cat:
                 clan_herbs = set()
                 needed_herbs = {"horsetail", "raspberry", "marigold", "cobwebs"}
                 clan_herbs.update(game.clan.herbs.keys())
-                herb_set = needed_herbs.intersection(clan_herbs)
                 usable_herbs = []
-                usable_herbs.extend(herb_set)
+                usable_herbs.extend(needed_herbs.intersection(clan_herbs))
 
                 if usable_herbs:
                     # deplete the herb
@@ -1946,17 +1945,7 @@ class Cat:
             return
 
         # remove accessories if need be
-        if "NOTAIL" in self.pelt.scars and self.pelt.accessory in [
-            "RED FEATHERS",
-            "BLUE FEATHERS",
-            "JAY FEATHERS",
-            "GULL FEATHERS",
-            "SPARROW FEATHERS",
-            "CLOVER",
-            "DAISY",
-        ]:
-            self.pelt.accessory = None
-        if "HALFTAIL" in self.pelt.scars and self.pelt.accessory in [
+        if ("NOTAIL" in self.pelt.scars or "HALFTAIL" in self.pelt.scars) and self.pelt.accessory in [
             "RED FEATHERS",
             "BLUE FEATHERS",
             "JAY FEATHERS",
