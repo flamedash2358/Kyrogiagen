@@ -175,15 +175,16 @@ class Name:
     # Generate possible prefix
     def give_prefix(self, eyes, colour, biome):
         """Generate possible prefix."""
+        name_distribution = random.randint(1,8)
         # decided in game config: cat_name_controls
         if game.config["cat_name_controls"]["always_name_after_appearance"]:
             named_after_appearance = True
-        else:
-            named_after_appearance = not random.getrandbits(
-                2
-            )  # Chance for True is '1/4'
-
-        named_after_biome_ = not random.getrandbits(3)  # chance for True is 1/8
+        # Chance for True is '1/4'
+        if(name_distribution <= 2):
+            named_after_appearance = True  
+        # chance for True is 1/8
+        elif(name_distribution <= 3):
+            named_after_biome_ = True
 
         # Add possible prefix categories to list.
         possible_prefix_categories = []
@@ -199,15 +200,10 @@ class Name:
             possible_prefix_categories.append(self.names_dict["biome_prefixes"][biome])
 
         # Choose appearance-based prefix if possible and named_after_appearance because True.
-        if (
-            named_after_appearance
-            and possible_prefix_categories
-            and not named_after_biome_
-            or named_after_biome_
-            and possible_prefix_categories
-        ):
-            prefix_category = random.choice(possible_prefix_categories)
-            self.prefix = random.choice(prefix_category)
+        if possible_prefix_categories:
+            if (named_after_appearance and not named_after_biome_) or named_after_biome_:
+                prefix_category = random.choice(possible_prefix_categories)
+                self.prefix = random.choice(prefix_category)
         else:
             self.prefix = random.choice(self.names_dict["normal_prefixes"])
 
