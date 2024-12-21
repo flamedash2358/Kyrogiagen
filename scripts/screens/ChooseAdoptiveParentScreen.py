@@ -30,6 +30,7 @@ from ..ui.icon import Icon
 
 logger = logging.getLogger(__name__)
 
+
 class ChooseAdoptiveParentScreen(Screens):
     def __init__(self, name=None):
         super().__init__(name)

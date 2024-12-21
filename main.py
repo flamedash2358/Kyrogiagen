@@ -105,7 +105,7 @@ file_handler = logging.FileHandler(log_file_name)
 file_handler.setFormatter(formatter)
 # Only log errors to file
 file_handler.setLevel(logging.ERROR)
-logging.root.setLevel(logging.DEBUG)
+logging.root.setLevel(logging.INFO)
 
 # Logging for console (logs info and debug in normal text)
 stream_handler = logging.StreamHandler(stream=sys.stdout)

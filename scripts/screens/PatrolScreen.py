@@ -29,6 +29,7 @@ from ..ui.icon import Icon
 
 logger = logging.getLogger(__name__)
 
+
 class PatrolScreen(Screens):
     current_patrol = []
     patrol_stage = "choose_cats"  # Can be 'choose_cats', 'patrol_events' or 'patrol_complete'. Controls the stage of patrol.
@@ -136,7 +137,9 @@ class PatrolScreen(Screens):
                     if self.able_cats:
                         self.selected_cat = choice(self.able_cats)
                     else:
-                        logger.warning("Cannot select randomly from empty list (able cats)")
+                        logger.warning(
+                            "Cannot select randomly from empty list (able cats)"
+                        )
                 self.update_selected_cat()
                 self.current_patrol.append(self.selected_cat)
             self.update_cat_images_buttons()

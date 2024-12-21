@@ -4,6 +4,7 @@ from typing import Union
 
 logger = logging.getLogger(__name__)
 
+
 def get_arrow(arrow_length: Union[int, float], arrow_left=True):
     if arrow_length == 1:
         return "\u2192" if not arrow_left else "\u2190"

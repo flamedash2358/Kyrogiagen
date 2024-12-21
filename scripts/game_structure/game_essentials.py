@@ -470,7 +470,9 @@ class Game:
                 else:
                     parent_faded = self.add_faded_offspring_to_faded_cat(x, cat)
                     if not parent_faded:
-                        logger.warning("Can't find parent of %s with ID %s", cat.name, x)
+                        logger.warning(
+                            "Can't find parent of %s with ID %s", cat.name, x
+                        )
 
             # Get a copy of info
             if game.clan.clan_settings["save_faded_copy"]:

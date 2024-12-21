@@ -43,6 +43,7 @@ from ..ui.icon import Icon
 
 logger = logging.getLogger(__name__)
 
+
 # ---------------------------------------------------------------------------- #
 #             change how accessory info displays on cat profiles               #
 # ---------------------------------------------------------------------------- #
