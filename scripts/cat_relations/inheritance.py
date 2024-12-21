@@ -136,12 +136,10 @@ class Inheritance:
         for cat_id in self.all_involved:
             # Don't update the inheritance of faded cats
             # They are not viewable by the player and won't be used in any checks.
-            if (
-                cat_id in self.all_inheritances
-                and self.cat.fetch_cat(cat_id)
-                and not self.cat.fetch_cat(cat_id).faded
-            ):
-                self.all_inheritances[cat_id].update_inheritance()
+             if ( cat_id in self.all_inheritances):
+                fetched_cat = self.cat.fetch_cat(cat_id)
+                if(fetched_cat and not fetched_cat.faded):
+                    self.all_inheritances[cat_id].update_inheritance()
 
     def update_all_mates(self):
         """
