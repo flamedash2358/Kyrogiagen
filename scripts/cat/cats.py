@@ -2430,26 +2430,25 @@ class Cat:
         if self.inheritance:
             self.inheritance.update_all_mates()
 
+        relationships = []
         # Set starting relationship values
         if not self.dead:
             if other_cat.ID not in self.relationships:
                 self.create_one_relationship(other_cat)
                 self.relationships[other_cat.ID].mate = True
-            self_relationship = self.relationships[other_cat.ID]
-            self_relationship.romantic_love += 20
-            self_relationship.comfortable += 20
-            self_relationship.trust += 10
-            self_relationship.mate = True
+            relationships.append(self.relationships[other_cat.ID])
 
         if not other_cat.dead:
             if self.ID not in other_cat.relationships:
                 other_cat.create_one_relationship(self)
                 other_cat.relationships[self.ID].mate = True
-            other_relationship = other_cat.relationships[self.ID]
-            other_relationship.romantic_love += 20
-            other_relationship.comfortable += 20
-            other_relationship.trust += 10
-            other_relationship.mate = True
+            relationships.append(other_cat.relationships[self.ID])
+            
+        for relationship in relationships:
+            relationship.romantic_love += 20
+            relationship.comfortable += 20
+            relationship.trust += 10
+            relationship.mate = True
 
     def unset_adoptive_parent(self, other_cat: Cat):
         """Unset the adoptive parent from self"""
