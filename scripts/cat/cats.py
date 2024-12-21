@@ -2172,6 +2172,14 @@ class Cat:
     # ---------------------------------------------------------------------------- #
 
     def is_valid_mentor(self, potential_mentor: Cat):
+
+        # If not an app, don't need a mentor
+        if "apprentice" not in self.status:
+            return False
+        # Dead cats don't need mentors
+        if self.dead or self.outside or self.exiled:
+            return False
+        
         # Dead or outside cats can't be mentors
         if potential_mentor.dead or potential_mentor.outside:
             return False
@@ -2191,13 +2199,6 @@ class Cat:
             self.status == "mediator apprentice"
             and potential_mentor.status != "mediator"
         ):
-            return False
-
-        # If not an app, don't need a mentor
-        if "apprentice" not in self.status:
-            return False
-        # Dead cats don't need mentors
-        if self.dead or self.outside or self.exiled:
             return False
         return True
 
