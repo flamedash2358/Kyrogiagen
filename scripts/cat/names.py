@@ -230,13 +230,13 @@ class Name:
     # Generate possible suffix
     def give_suffix(self, pelt, biome, tortiepattern):
         """Generate possible suffix."""
-        if pelt is None or pelt == "SingleColour":
-            self.suffix = random.choice(self.names_dict["normal_suffixes"])
-        else:
-            named_after_pelt = not random.getrandbits(3)  # Chance for True is '1/8'.
-            named_after_biome = not random.getrandbits(3)  # 1/8
-            # Pelt name only gets used if there's an associated suffix.
-            if named_after_pelt:
+        self.suffix = random.choice(self.names_dict["normal_suffixes"])
+            
+        if pelt is not None and pelt != "SingleColour":
+            name_distribution = random.randint(1,8)
+            # 1/8 chance for pelt suffix
+            if(name_distribution <=1):
+                # Pelt name only gets used if there's an associated suffix.
                 if (
                     pelt in ["Tortie", "Calico"]
                     and tortiepattern in self.names_dict["tortie_pelt_suffixes"]
@@ -246,17 +246,13 @@ class Name:
                     )
                 elif pelt in self.names_dict["pelt_suffixes"]:
                     self.suffix = random.choice(self.names_dict["pelt_suffixes"][pelt])
-                else:
-                    self.suffix = random.choice(self.names_dict["normal_suffixes"])
-            elif named_after_biome:
+            # 1/8 chance for biome suffix
+            elif(name_distribution <=2):
                 if biome in self.names_dict["biome_suffixes"]:
                     self.suffix = random.choice(
                         self.names_dict["biome_suffixes"][biome]
                     )
-                else:
-                    self.suffix = random.choice(self.names_dict["normal_suffixes"])
-            else:
-                self.suffix = random.choice(self.names_dict["normal_suffixes"])
+            
 
     def __repr__(self):
         # Handles predefined suffixes (such as newborns being kit),
