@@ -2443,7 +2443,7 @@ class Cat:
                 other_cat.create_one_relationship(self)
                 other_cat.relationships[self.ID].mate = True
             relationships.append(other_cat.relationships[self.ID])
-            
+
         for relationship in relationships:
             relationship.romantic_love += 20
             relationship.comfortable += 20
@@ -2476,22 +2476,22 @@ class Cat:
         self.adoptive_parents.append(other_cat.ID)
         self.create_inheritance_new_cat()
 
+        relationships = []
         # Set starting relationship values
         if not self.dead:
             if other_cat.ID not in self.relationships:
                 self.create_one_relationship(other_cat)
-            self_relationship = self.relationships[other_cat.ID]
-            self_relationship.platonic_like += 20
-            self_relationship.comfortable += 20
-            self_relationship.trust += 10
+            relationships.append(self.relationships[other_cat.ID])
 
         if not other_cat.dead:
             if self.ID not in other_cat.relationships:
                 other_cat.create_one_relationship(self)
-            other_relationship = other_cat.relationships[self.ID]
-            other_relationship.platonic_like += 20
-            other_relationship.comfortable += 20
-            other_relationship.trust += 10
+            relationships.append(other_cat.relationships[self.ID])
+
+        for relationship in relationships:
+            relationship.platonic_like += 20
+            relationship.comfortable += 20
+            relationship.trust += 10
 
     def create_inheritance_new_cat(self):
         """Creates the inheritance class for a new cat."""
