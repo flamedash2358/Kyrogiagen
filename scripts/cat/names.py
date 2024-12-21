@@ -233,7 +233,7 @@ class Name:
         if pelt is None or pelt == "SingleColour":
             self.suffix = random.choice(self.names_dict["normal_suffixes"])
         else:
-            named_after_pelt = not random.getrandbits(2)  # Chance for True is '1/8'.
+            named_after_pelt = not random.getrandbits(3)  # Chance for True is '1/8'.
             named_after_biome = not random.getrandbits(3)  # 1/8
             # Pelt name only gets used if there's an associated suffix.
             if named_after_pelt:
