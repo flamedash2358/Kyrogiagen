@@ -1307,16 +1307,14 @@ class Cat:
                     continue
                 life_list.extend(list(possible_lives[life]["life_giving"]))
 
-            i = 0
             chosen_life = {}
-            while i < 10:
+            for _ in range(10):
                 attempted = []
                 if life_list:
                     chosen_life = choice(life_list)
                     if chosen_life not in used_lives and chosen_life not in attempted:
                         break
                     attempted.append(chosen_life)
-                    i += 1
                 else:
                     print(
                         f"WARNING: life list had no items for giver #{giver_cat.ID}. Using default life. "
@@ -1329,7 +1327,7 @@ class Cat:
             used_lives.append(chosen_life)
             if "virtue" in chosen_life:
                 poss_virtues = [
-                    i for i in chosen_life["virtue"] if i not in used_virtues
+                    poss_virtue for poss_virtue in chosen_life["virtue"] if poss_virtue not in used_virtues
                 ] or ["faith", "friendship", "love", "strength"]
                 virtue = choice(poss_virtues)
                 used_virtues.append(virtue)
@@ -1486,8 +1484,8 @@ class Cat:
             while (
                 other_cat == self.ID
                 and len(all_cats) > 1
-                or (all_cats.get(other_cat).dead and dead_chance != 1)
                 or (other_cat not in self.relationships)
+                or (all_cats.get(other_cat).dead and dead_chance != 1)
             ):
                 other_cat = choice(list(all_cats.keys()))
                 i += 1
@@ -1496,7 +1494,10 @@ class Cat:
                     break
         # for dead cats
         elif where_kitty in ["starclan", "hell", "UR"]:
-            while other_cat == self.ID and len(all_cats) > 1:
+            while (
+                other_cat == self.ID 
+                and len(all_cats) > 1
+            ):
                 other_cat = choice(list(all_cats.keys()))
                 i += 1
                 if i > 100:
