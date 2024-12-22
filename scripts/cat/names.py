@@ -174,36 +174,28 @@ class Name:
 
     # Generate possible prefix
     def give_prefix(self, eyes, colour, biome):
-        """Generate possible prefix."""
+        """Generate possible prefix. Prefix preference is biome->appearance->generic"""
         name_distribution = random.randint(1,8)
-        # decided in game config: cat_name_controls
-        if game.config["cat_name_controls"]["always_name_after_appearance"]:
-            named_after_appearance = True
-        # Chance for True is '1/4'
-        if(name_distribution <= 2):
-            named_after_appearance = True  
-        # chance for True is 1/8
-        elif(name_distribution <= 3):
-            named_after_biome_ = True
-
-        # Add possible prefix categories to list.
         possible_prefix_categories = []
-        if eyes in self.names_dict["eye_prefixes"] and game.config["cat_name_controls"][
-                        "allow_eye_names"
-                    ]:
-            possible_prefix_categories.append(self.names_dict["eye_prefixes"][eyes])
-        if colour in self.names_dict["colour_prefixes"]:
-            possible_prefix_categories.append(
-                self.names_dict["colour_prefixes"][colour]
-            )
-        if biome is not None and biome in self.names_dict["biome_prefixes"]:
-            possible_prefix_categories.append(self.names_dict["biome_prefixes"][biome])
+        # named after biome is '1/8'
+        if(name_distribution <= 1):
+            if biome is not None and biome in self.names_dict["biome_prefixes"]:
+                possible_prefix_categories.append(self.names_dict["biome_prefixes"][biome])
+        # named after appearance is '1/4' or in game config: cat_name_controls or 
+        elif name_distribution <= 3 or game.config["cat_name_controls"]["always_name_after_appearance"]:
+            if eyes in self.names_dict["eye_prefixes"] and game.config["cat_name_controls"][
+                            "allow_eye_names"
+                        ]:
+                possible_prefix_categories.append(self.names_dict["eye_prefixes"][eyes])
+            if colour in self.names_dict["colour_prefixes"]:
+                possible_prefix_categories.append(
+                    self.names_dict["colour_prefixes"][colour]
+                )
 
-        # Choose appearance-based prefix if possible and named_after_appearance because True.
+        # If prefix based on appearcane or biome was identified
         if possible_prefix_categories:
-            if (named_after_appearance and not named_after_biome_) or named_after_biome_:
-                prefix_category = random.choice(possible_prefix_categories)
-                self.prefix = random.choice(prefix_category)
+            prefix_category = random.choice(possible_prefix_categories)
+            self.prefix = random.choice(prefix_category)
         else:
             self.prefix = random.choice(self.names_dict["normal_prefixes"])
 
