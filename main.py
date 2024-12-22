@@ -305,7 +305,6 @@ while 1:
         pygame.mouse.set_cursor(disabled_cursor)
 
     if game.switches["switch_clan"]:
-        game.all_screens[game.current_screen].change_screen("start screen")
         game.patrol_cats.clear()
         game.patrolled.clear()
         load_game()

@@ -61,6 +61,7 @@ class SwitchClanScreen(Screens):
 
                 for page in self.clan_buttons:
                     if event.ui_element in page:
+                        self.change_screen("start screen")
                         Clan.switch_clans(
                             self.clan_name[self.page][page.index(event.ui_element)]
                         )
