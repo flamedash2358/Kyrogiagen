@@ -297,28 +297,25 @@ class Thoughts:
         if main_cat.age == 'newborn':
             if os.path.exists(f"{base_path}{life_dir}{spec_dir}/newborn.json"):
                 with open(f"{base_path}{life_dir}{spec_dir}/newborn.json", 'r') as read_file:
-                    thoughts = ujson.loads(read_file.read())
-                loaded_thoughts = thoughts
-                genthoughts = ""
+                    loaded_thoughts = ujson.loads(read_file.read())
             else:
                 successfully_loaded_thoughts = False
                 print(f"WARNING: {base_path}{life_dir}{spec_dir}/newborn.json failed to load")
         else:
             if os.path.exists(f"{base_path}{life_dir}{spec_dir}/{status}.json"):
                 with open(f"{base_path}{life_dir}{spec_dir}/{status}.json", 'r') as read_file:
-                    thoughts = ujson.loads(read_file.read())
+                    loaded_thoughts = ujson.loads(read_file.read())
             else:
                 successfully_loaded_thoughts = False
                 print(f"WARNING: {base_path}{life_dir}{spec_dir}/{status}.json failed to load")
                 
             if os.path.exists(f"{base_path}{life_dir}{spec_dir}/general.json"):
                 with open(f"{base_path}{life_dir}{spec_dir}/general.json", 'r') as read_file:
-                    genthoughts = ujson.loads(read_file.read())
+                    loaded_thoughts += ujson.loads(read_file.read())
             else:
                 successfully_loaded_thoughts = False
                 print(f"WARNING: {base_path}{life_dir}{spec_dir}/general.json failed to load")
         if successfully_loaded_thoughts:
-            loaded_thoughts = thoughts + genthoughts
             final_thoughts = Thoughts.create_thoughts(loaded_thoughts, main_cat, other_cat, game_mode, biome,
                                                         season, camp)
             return final_thoughts
