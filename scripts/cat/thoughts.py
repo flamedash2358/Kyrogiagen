@@ -278,9 +278,9 @@ class Thoughts:
         #         status = 'former_Clancat'
 
         if not main_cat.dead:
-            life_dir = "alive"
+            life_dir = "/alive"
         else:
-            life_dir = "dead"
+            life_dir = "/dead"
 
         if main_cat.dead:
             if main_cat.outside:
