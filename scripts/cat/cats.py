@@ -1191,22 +1191,22 @@ class Cat:
             amount = 8 - len(life_givers)
 
             if starclan:
-                possible_life_givers = game.clan.starclan_cats
+                cats_in_starcaln_or_darkforest = game.clan.starclan_cats
             else:
-                possible_life_givers = game.clan.darkforest_cats
+                cats_in_starcaln_or_darkforest = game.clan.darkforest_cats
 
-            possible_cats = [
+            possible_life_givers = [
                 cat
-                for cat in possible_life_givers
+                for cat in cats_in_starcaln_or_darkforest
                 if self.fetch_cat(cat)
                 and cat not in life_givers
                 and self.fetch_cat(cat).status not in ["leader", "newborn"]
             ]
 
-            if len(possible_cats) - 1 < amount:
-                extra_givers = possible_cats
+            if len(possible_life_givers) - 1 < amount:
+                extra_givers = possible_life_givers
             else:
-                extra_givers = sample(possible_cats, k=amount)
+                extra_givers = sample(possible_life_givers, k=amount)
 
             life_givers.extend(extra_givers)
 
