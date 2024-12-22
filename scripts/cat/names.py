@@ -251,22 +251,19 @@ class Name:
             adjusted_status: str = ""
 
             if(self.cat.moons < 1):
-                adjusted_status = "newborn"
+                return self.prefix + self.names_dict["special_suffixes"]["newborn"]
             elif(self.cat.moons < 6):
-                adjusted_status = "kitten"
+                return self.prefix + self.names_dict["special_suffixes"]["kitten"]
             elif(self.cat.moons < 12):
-                adjusted_status = "apprentice"
-            else:
-                adjusted_status = "warrior"
-                if (
-                    self.cat.status in self.names_dict["special_suffixes"]
-                    and not self.specsuffix_hidden
-                ):
-                    return self.prefix + self.names_dict["special_suffixes"][self.cat.status]
-                if game.config["fun"]["april_fools"]:
-                    return f"{self.prefix}egg"
-                return self.prefix + self.suffix
-            return self.prefix + self.names_dict["special_suffixes"][adjusted_status]
+                return self.prefix + self.names_dict["special_suffixes"]["apprentice"]
+        if (
+            self.cat.status in self.names_dict["special_suffixes"]
+            and not self.specsuffix_hidden
+        ):
+            return self.prefix + self.names_dict["special_suffixes"][self.cat.status]
+        if game.config["fun"]["april_fools"]:
+            return f"{self.prefix}egg"
+        return self.prefix + self.suffix
         
 
 
