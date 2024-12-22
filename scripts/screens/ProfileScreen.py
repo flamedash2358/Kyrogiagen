@@ -196,7 +196,7 @@ class ProfileScreen(Screens):
                     self.build_profile()
                     self.update_disabled_buttons_and_text()
                 else:
-                    print("invalid previous cat", self.previous_cat)
+                    logger.warning("invalid previous cat %s", self.previous_cat)
             elif event.ui_element == self.next_cat_button:
                 if isinstance(Cat.fetch_cat(self.next_cat), Cat):
                     self.clear_profile()
@@ -204,7 +204,7 @@ class ProfileScreen(Screens):
                     self.build_profile()
                     self.update_disabled_buttons_and_text()
                 else:
-                    print("invalid next cat", self.previous_cat)
+                    logger.warning("invalid next cat %s", self.next_cat)
             elif event.ui_element == self.inspect_button:
                 self.close_current_tab()
                 self.change_screen("sprite inspect screen")
@@ -257,7 +257,7 @@ class ProfileScreen(Screens):
                     self.build_profile()
                     self.update_disabled_buttons_and_text()
                 else:
-                    print("invalid previous cat", self.previous_cat)
+                    logger.warning("invalid previous cat %s", self.previous_cat)
             elif event.key == pygame.K_RIGHT:
                 if isinstance(Cat.fetch_cat(self.next_cat), Cat):
                     self.clear_profile()
@@ -265,7 +265,7 @@ class ProfileScreen(Screens):
                     self.build_profile()
                     self.update_disabled_buttons_and_text()
                 else:
-                    print("invalid next cat", self.previous_cat)
+                    logger.warning("invalid next cat %s", self.next_cat)
 
             elif event.key == pygame.K_ESCAPE:
                 self.close_current_tab()

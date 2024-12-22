@@ -1,3 +1,4 @@
+import logging
 from typing import Dict
 
 import pygame.transform
@@ -27,6 +28,8 @@ from ..ui.generate_box import BoxStyles, get_box
 from ..ui.generate_button import get_button_dict, ButtonStyles
 from ..ui.get_arrow import get_arrow
 from ..ui.icon import Icon
+
+logger = logging.getLogger(__name__)
 
 
 class ChooseMateScreen(Screens):
@@ -118,13 +121,13 @@ class ChooseMateScreen(Screens):
                     game.switches["cat"] = self.previous_cat
                     self.update_current_cat_info()
                 else:
-                    print("invalid previous cat", self.previous_cat)
+                    logger.warning("invalid previous cat %s", self.previous_cat)
             elif event.ui_element == self.next_cat_button:
                 if isinstance(Cat.fetch_cat(self.next_cat), Cat):
                     game.switches["cat"] = self.next_cat
                     self.update_current_cat_info()
                 else:
-                    print("invalid next cat", self.next_cat)
+                    logger.warning("invalid next cat %s", self.next_cat)
 
             # Checkboxes
             elif event.ui_element == self.checkboxes.get("single_only"):
@@ -803,7 +806,14 @@ class ChooseMateScreen(Screens):
         (
             self.next_cat,
             self.previous_cat,
-        ) = self.the_cat.determine_next_and_previous_cats(exclude_status=["kitten", "medicine cat apprentice", "mediator apprentice", "apprentice"])
+        ) = self.the_cat.determine_next_and_previous_cats(
+            exclude_status=[
+                "kitten",
+                "medicine cat apprentice",
+                "mediator apprentice",
+                "apprentice",
+            ]
+        )
         self.next_cat_button.disable() if self.next_cat == 0 else self.next_cat_button.enable()
         self.previous_cat_button.disable() if self.previous_cat == 0 else self.previous_cat_button.enable()
 

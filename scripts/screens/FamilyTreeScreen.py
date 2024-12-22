@@ -1,3 +1,4 @@
+import logging
 from typing import Dict
 
 import pygame.transform
@@ -23,6 +24,8 @@ from ..ui.generate_box import BoxStyles, get_box
 from ..ui.generate_button import get_button_dict, ButtonStyles
 from ..ui.get_arrow import get_arrow
 from ..ui.icon import Icon
+
+logger = logging.getLogger(__name__)
 
 
 class FamilyTreeScreen(Screens):
@@ -100,7 +103,7 @@ class FamilyTreeScreen(Screens):
                     self.exit_screen()
                     self.screen_switches()
                 else:
-                    print("invalid previous cat", self.previous_cat)
+                    logger.warning("invalid previous cat %s", self.previous_cat)
             elif event.ui_element == self.next_cat_button:
                 if isinstance(Cat.fetch_cat(self.next_cat), Cat):
                     game.switches["cat"] = self.next_cat
@@ -108,7 +111,7 @@ class FamilyTreeScreen(Screens):
                     self.exit_screen()
                     self.screen_switches()
                 else:
-                    print("invalid next cat", self.next_cat)
+                    logger.warning("invalid next cat %s", self.next_cat)
             elif event.ui_element == self.parents_button:
                 self.current_group = self.parents
                 self.current_group_name = "parents"

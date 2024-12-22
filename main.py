@@ -130,7 +130,7 @@ def log_crash(logtype, value, tb):
     Log uncaught exceptions to file
     """
     logging.critical("Uncaught exception", exc_info=(logtype, value, tb))
-    sys.__excepthook__(type, value, tb)
+    sys.__excepthook__(logtype, value, tb)
 
 
 sys.excepthook = log_crash
@@ -153,13 +153,15 @@ if os.environ.get("CODESPACES"):
     print("")
 
 if get_version_info().is_source_build:
-    print("Running on source code")
+    logger.info("Running on source code")
     if get_version_info().version_number == VERSION_NAME:
-        print("Failed to get git commit hash, using hardcoded version number instead.")
-        print(
+        logger.warning(
+            "Failed to get git commit hash, using hardcoded version number instead."
+        )
+        logger.warning(
             "Hey testers! We recommend you use git to clone the repository, as it makes things easier for everyone."
         )  # pylint: disable=line-too-long
-        print(
+        logger.warning(
             "There are instructions at https://discord.com/channels/1003759225522110524/1054942461178421289/1078170877117616169"
         )  # pylint: disable=line-too-long
 else:
