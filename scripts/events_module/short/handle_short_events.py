@@ -447,7 +447,7 @@ class HandleShortEvents:
                     game.clan.leader_lives = 0
                 elif "some_lives" in self.chosen_event.tags:
                     game.clan.leader_lives -= random.randrange(
-                        2, max(1, self.current_lives - 1)
+                        2, max(2, self.current_lives - 1)
                     )
                 else:
                     game.clan.leader_lives -= 1
