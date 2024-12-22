@@ -2822,10 +2822,10 @@ class Cat:
                 ran = (4, 6)
                 if sabotage:
                     sabotage_modifier = -1
-                    output += "Platonic interest decreased. "
+                    output += "Platonic like decreased. "
                 else:
                     sabotage_modifier = 1
-                    output += "Platonic interest increased. "
+                    output += "Platonic like increased. "
                 for relationship in relationships:
                     relationship.platonic_like = Cat.effect_relation(
                         relationship.platonic_like,
@@ -2836,10 +2836,10 @@ class Cat:
                 ran = (4, 6)
                 if sabotage:
                     sabotage_modifier = -1
-                    output += "Respect interest decreased. "
+                    output += "Respect decreased. "
                 else:
                     sabotage_modifier = 1
-                    output += "Respect interest increased. "
+                    output += "Respect increased. "
                 for relationship in relationships:
                     relationship.admiration = Cat.effect_relation(
                         relationship.admiration,
@@ -2850,10 +2850,10 @@ class Cat:
                 ran = (4, 6)
                 if sabotage:
                     sabotage_modifier = -1
-                    output += "Comfort interest decreased. "
+                    output += "Comfort decreased. "
                 else:
                     sabotage_modifier = 1
-                    output += "Comfort interest increased. "
+                    output += "Comfort increased. "
                 for relationship in relationships:
                     relationship.comfortable = Cat.effect_relation(
                         relationship.comfortable,
@@ -2864,10 +2864,10 @@ class Cat:
                 ran = (4, 6)
                 if sabotage:
                     sabotage_modifier = -1
-                    output += "Trust interest decreased. "
+                    output += "Trust decreased. "
                 else:
                     sabotage_modifier = 1
-                    output += "Trust interest increased. "
+                    output += "Trust increased. "
                 for relationship in relationships:
                     relationship.trust = Cat.effect_relation(
                         relationship.trust,
@@ -2878,10 +2878,10 @@ class Cat:
                 ran = (4, 9)
                 if sabotage:
                     sabotage_modifier = 1
-                    output += "Dislike interest increased. "
+                    output += "Dislike increased. "
                 else:
                     sabotage_modifier = -1
-                    output += "Dislike interest decreased. "
+                    output += "Dislike decreased. "
                 for relationship in relationships:
                     relationship.dislike = Cat.effect_relation(
                         relationship.dislike,
@@ -2892,10 +2892,10 @@ class Cat:
                 ran = (4, 6)
                 if sabotage:
                     sabotage_modifier = 1
-                    output += "Jealousy interest increased. "
+                    output += "Jealousy increased. "
                 else:
                     sabotage_modifier = -1
-                    output += "Jealousy interest decreased. "
+                    output += "Jealousy decreased. "
                 for relationship in relationships:
                     relationship.jealousy = Cat.effect_relation(
                         relationship.jealousy,
