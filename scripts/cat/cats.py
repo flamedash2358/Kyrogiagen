@@ -884,7 +884,7 @@ class Cat:
             if old_status == "leader" and game.clan.leader and game.clan.leader.ID == self.ID:
                 game.clan.leader = None
                 game.clan.leader_predecessors += 1
-            if game.clan.deputy and game.clan.deputy.ID == self.ID and game.clan:
+            if game.clan and game.clan.deputy and game.clan.deputy.ID == self.ID:
                 game.clan.deputy = None
                 game.clan.deputy_predecessors += 1
         elif self.status == "medicine cat":
