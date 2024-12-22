@@ -421,7 +421,6 @@ def rebuild_bgs():
                     default_fullscreen_bgs[theme][name],
                     theme=theme,
                     vignette_strength=0,
-                    fade_color=None,
                 )
             elif name in ["mainmenu_bg", "darkforest", "unknown_residence"]:
                 default_fullscreen_bgs[theme][name] = process_blur_bg(
@@ -504,7 +503,6 @@ def process_blur_bg(
     theme: str = None,
     blur_radius: Optional[int] = 5,
     vignette_strength: Optional[int] = None,
-    fade_color: Optional[Tuple[int, int, int]] = None,
 ) -> pygame.Surface:
     global vignette
     global fade
