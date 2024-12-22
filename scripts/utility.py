@@ -20,6 +20,7 @@ from pygame_gui.core import ObjectID
 
 logger = logging.getLogger(__name__)
 from scripts.game_structure import image_cache
+from scripts.cat.enums import CatAgeEnum
 from scripts.cat.history import History
 from scripts.cat.names import names
 from scripts.cat.pelts import Pelt
@@ -300,9 +301,7 @@ def change_clan_relations(other_clan, difference):
     game.clan.all_clans[y].relations = clan_relations
 
 
-def create_new_cat_block(
-    Cat, Relationship, event, in_event_cats: dict, i: int, attribute_list: List[str]
-) -> list:
+def create_new_cat_block(Cat, Relationship, event, in_event_cats: dict, i: int, attribute_list: List[str]) -> list:
     """
     Creates a single new_cat block and then generates and returns the cats within the block
     :param Cat Cat: always pass Cat class
@@ -431,15 +430,17 @@ def create_new_cat_block(
             continue
 
         if match.group(1) in Cat.age_moons:
+            min_age, max_age = Cat.age_moons[CatAgeEnum(match.group(1))]
             age = randint(
-                Cat.age_moons[match.group(1)][0], Cat.age_moons[match.group(1)][1]
+                min_age, max_age
             )
             break
 
         # Set same as first mate
         if match.group(1) == "mate" and give_mates:
+            min_age, max_age = Cat.age_moons[give_mates[0].age]
             age = randint(
-                Cat.age_moons[give_mates[0].age][0], Cat.age_moons[give_mates[0].age][1]
+                min_age, max_age
             )
             break
 
@@ -450,7 +451,7 @@ def create_new_cat_block(
     if status and not age:
         if status in ["apprentice", "mediator apprentice", "medicine cat apprentice"]:
             age = randint(
-                Cat.age_moons["adolescent"][0], Cat.age_moons["adolescent"][1]
+                Cat.age_moons[CatAgeEnum.ADOLESCENT][0], Cat.age_moons[CatAgeEnum.ADOLESCENT][1]
             )
         elif status in ["warrior", "mediator", "medicine cat"]:
             age = randint(
@@ -1139,6 +1140,9 @@ def filter_relationship_type(
     :param str event_id: if the event has an ID, include it here
     :param Cat patrol_leader: if you are testing a patrol, ensure you include the self.patrol_leader here
     """
+    if not filter_types:
+        return True
+
     # keeping this list here just for quick reference of what tags are handled here
     possible_rel_types = [
         "siblings",
@@ -2577,7 +2581,7 @@ def generate_sprite(
     if life_state is not None:
         age = life_state
     else:
-        age = cat.age
+        age = cat.age.value
 
     if always_living:
         dead = False
@@ -2844,6 +2848,15 @@ def apply_opacity(surface, opacity):
 def chunks(L, n):
     return [L[x : x + n] for x in range(0, len(L), n)]
 
+def clamp(value: float, minimum_value: float, maximum_value: float) ->float: 
+    """
+    Takes a value and return it constrained to a certain range
+    """
+    if value < minimum_value:
+        return minimum_value
+    elif value > maximum_value:
+        return maximum_value
+    return value
 
 def is_iterable(y):
     try:
