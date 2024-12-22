@@ -160,6 +160,8 @@ class Clan:
         # and 1-29 being "hostile". if you're hostile to outsiders, they will VERY RARELY show up.
         self._reputation = 80
 
+        self.all_clans = []
+
         self.starting_members = starting_members
         if game_mode in ["expanded", "cruel season"]:
             self.freshkill_pile = FreshkillPile()

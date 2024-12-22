@@ -271,6 +271,8 @@ def load_game():
     global finished_loading
 
     game.cur_events_list.clear()
+    game.patrol_cats.clear()
+    game.patrolled.clear()
     game.switches["switch_clan"] = False
 
     finished_loading = False
@@ -304,6 +306,8 @@ while 1:
 
     if game.switches["switch_clan"]:
         game.all_screens[game.current_screen].change_screen("start screen")
+        game.patrol_cats.clear()
+        game.patrolled.clear()
         load_game()
     # Draw screens
     # This occurs before events are handled to stop pygame_gui buttons from blinking.

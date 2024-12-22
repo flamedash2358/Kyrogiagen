@@ -2900,8 +2900,6 @@ def quit(savesettings=False, clearevents=False):
         game.save_settings(None)
     if clearevents:
         game.cur_events_list.clear()
-    game.patrol_cats.clear()
-    game.patrolled.clear()
     game.rpc.close_rpc.set()
     game.rpc.update_rpc.set()
     pygame.display.quit()
