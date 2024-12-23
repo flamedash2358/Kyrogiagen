@@ -123,7 +123,9 @@ class MusicManager:
         # otherwise we pick a new track and queue it
         if self.current_track and self.number_of_tracks > 1:
             playlist_copy = self.current_playlist.copy()
-            logger.debug("Playlist: %s, removing track: %s", playlist_copy)
+            logger.debug(
+                "Playlist: %s, removing track: %s", playlist_copy, self.current_playlist
+            )
             playlist_copy.remove(
                 self.current_track
             )  # don't want to repeat current track, so we take it out
