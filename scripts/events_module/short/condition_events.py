@@ -498,7 +498,7 @@ class Condition_Events:
                     return perm_condition
             else:
                 logger.warning(
-                    "%s for %s is either None or not in scar dictionary.",
+                    "%s for %s is either None or not in scar_to_condition dictionary.",
                     scar,
                     injury_name,
                 )

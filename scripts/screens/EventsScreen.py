@@ -726,6 +726,7 @@ class EventsScreen(Screens):
         """Various sorting and other tasks that must be done with the timeskip is over."""
 
         game.switches["saved_scroll_positions"] = {}
+        logger.info("Timeskip complete (now moon %d)", game.clan.age)
 
         if get_living_clan_cat_count(Cat) == 0:
             GameOver("events screen")

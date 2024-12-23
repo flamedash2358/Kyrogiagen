@@ -280,7 +280,15 @@ def change_clan_reputation(difference):
     """
     will change the Clan's reputation with outsider cats according to the difference parameter.
     """
+
     game.clan.reputation += difference
+    logger.debug(
+        "Outsider reputation: %d -> %d (%s%d)",
+        game.clan.reputation - difference,
+        game.clan.reputation,
+        "-" if difference < 0 else "+",
+        difference,
+    )
 
 
 def change_clan_relations(other_clan, difference):
@@ -302,8 +310,19 @@ def change_clan_relations(other_clan, difference):
     # setting it in the Clan save
     game.clan.all_clans[y].relations = clan_relations
 
+    logger.debug(
+        "%s clan relations: %d -> %d (%s%d)",
+        other_clan,
+        clan_relations - difference,
+        clan_relations,
+        "-" if difference < 0 else "+",
+        difference,
+    )
 
-def create_new_cat_block(Cat, Relationship, event, in_event_cats: dict, i: int, attribute_list: List[str]) -> list:
+
+def create_new_cat_block(
+    Cat, Relationship, event, in_event_cats: dict, i: int, attribute_list: List[str]
+) -> list:
     """
     Creates a single new_cat block and then generates and returns the cats within the block
     :param Cat Cat: always pass Cat class
@@ -433,17 +452,13 @@ def create_new_cat_block(Cat, Relationship, event, in_event_cats: dict, i: int, 
 
         if match.group(1) in Cat.age_moons:
             min_age, max_age = Cat.age_moons[CatAgeEnum(match.group(1))]
-            age = randint(
-                min_age, max_age
-            )
+            age = randint(min_age, max_age)
             break
 
         # Set same as first mate
         if match.group(1) == "mate" and give_mates:
             min_age, max_age = Cat.age_moons[give_mates[0].age]
-            age = randint(
-                min_age, max_age
-            )
+            age = randint(min_age, max_age)
             break
 
         if match.group(1) == "has_kits":
@@ -453,7 +468,8 @@ def create_new_cat_block(Cat, Relationship, event, in_event_cats: dict, i: int, 
     if status and not age:
         if status in ["apprentice", "mediator apprentice", "medicine cat apprentice"]:
             age = randint(
-                Cat.age_moons[CatAgeEnum.ADOLESCENT][0], Cat.age_moons[CatAgeEnum.ADOLESCENT][1]
+                Cat.age_moons[CatAgeEnum.ADOLESCENT][0],
+                Cat.age_moons[CatAgeEnum.ADOLESCENT][1],
             )
         elif status in ["warrior", "mediator", "medicine cat"]:
             age = randint(
@@ -1527,7 +1543,12 @@ def unpack_rel_block(
             elif len(log) == 1:
                 log1 = log[0]
         else:
-            logger.warning("Provided log is not a string or list, cannot parse.")
+            if log is not None:
+                logger.warning(
+                    "Provided log is of type %s, not list or string (%s)",
+                    type(log),
+                    log,
+                )
 
         if not log1:
             if hasattr(event, "text"):
@@ -1661,17 +1682,16 @@ def change_relationship_values(
 
             if changed:
                 logger.debug(
-                    "%s gained relationship with %s: Romantic: %d | Platonic: %d | Dislike: %d | Respect: %d | "
-                    "Comfort: %d | Jealousy: %d | Trust: %d",
+                    "%s gained relationship with %s: %s%s%s%s%s%s%s",
                     str(single_cat_from.name),
                     str(rel.cat_to.name),
-                    str(romantic_love),
-                    str(platonic_like),
-                    str(dislike),
-                    str(admiration),
-                    str(comfortable),
-                    str(jealousy),
-                    str(trust),
+                    f"Romantic: {romantic_love} | " if romantic_love != 0 else "",
+                    f"Platonic: {platonic_like} | " if platonic_like != 0 else "",
+                    f"Dislike: {dislike} | " if dislike != 0 else "",
+                    f"Admiration: {admiration} | " if admiration != 0 else "",
+                    f"Comfortable: {comfortable} | " if comfortable != 0 else "",
+                    f"Jealousy: {jealousy} | " if jealousy != 0 else "",
+                    f"Trust: {trust} | " if trust != 0 else "",
                 )
             else:
                 logger.debug("No relationship change")
@@ -2881,7 +2901,8 @@ def apply_opacity(surface, opacity):
 def chunks(L, n):
     return [L[x : x + n] for x in range(0, len(L), n)]
 
-def clamp(value: float, minimum_value: float, maximum_value: float) ->float: 
+
+def clamp(value: float, minimum_value: float, maximum_value: float) -> float:
     """
     Takes a value and return it constrained to a certain range
     """
@@ -2890,6 +2911,7 @@ def clamp(value: float, minimum_value: float, maximum_value: float) ->float:
     elif value > maximum_value:
         return maximum_value
     return value
+
 
 def is_iterable(y):
     try:

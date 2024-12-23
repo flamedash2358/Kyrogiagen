@@ -73,6 +73,8 @@ class Events:
         """
         Handles the moon skipping of the whole Clan.
         """
+        logger.debug("Timeskip started")
+
         game.cur_events_list = []
         game.herb_events_list = []
         game.freshkill_events_list = []
@@ -314,6 +316,7 @@ class Events:
                 game.clan.save_pregnancy(game.clan)
                 game.save_events()
             except:
+                logger.exception("Could not save!")
                 SaveError(traceback.format_exc())
 
     def handle_lead_den_event(self):

@@ -16,7 +16,6 @@ creation_screens = ["make clan screen"]
 
 class MusicManager:
     def __init__(self):
-        
         self.current_playlist = []
         self.biome_playlist = []
         self.number_of_tracks = len(self.current_playlist)
@@ -26,8 +25,8 @@ class MusicManager:
         self.current_track = None
         self.queued_track = None
 
-        
         self.load_playlists()
+
     def load_playlists(self):
         self.playlists = {}
         # loading playlists
@@ -135,7 +134,7 @@ class MusicManager:
 
         try:
             self.queued_track = random.choice(options)
-            logger.info(
+            logger.debug(
                 f"Queuing music: current track is %s, new track is %s",
                 self.current_track,
                 self.queued_track,
@@ -174,7 +173,7 @@ class MusicManager:
         unpauses current music track, then double checks if the track is appropriate for the screen before changing
         if necessary
         """
-        
+
         if self.audio_disabled:
             try:
                 pygame.mixer.init()
@@ -236,7 +235,7 @@ class _SoundManager:
         self.pressed = None
 
         self.load_sounds()
-    
+
     def load_sounds(self):
         self.sounds = {}
         # open up the sound dictionary

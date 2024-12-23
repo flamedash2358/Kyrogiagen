@@ -507,6 +507,7 @@ class PatrolOutcome:
             # Kill Cat
             self.__handle_death_history(_cat, patrol)
             _cat.die(body)
+            logger.debug("%s killed successfully.", _cat.name)
 
         return " ".join(results)
 
@@ -532,6 +533,7 @@ class PatrolOutcome:
             results.append(f"{_cat.name} has been lost.")
             _cat.gone()
             # _cat.greif(body=False)
+            logger.debug("%s successfully marked as lost.", _cat.name)
 
         return " ".join(results)
 
@@ -620,6 +622,7 @@ class PatrolOutcome:
                         if x not in old_perm_cond
                     ]
                 )
+                logger.debug("%s given %s", _cat.name, give_injury)
                 # History is also ties to "no_results"
                 if not block.get("no_results"):
                     for given_condition in given_conditions:
@@ -691,6 +694,7 @@ class PatrolOutcome:
             return ""
 
         patrol_size_modifier = int(len(patrol.patrol_cats) * 0.5)
+        amount_gotten = 0
         for _herb in specific_herbs:
             if large_bonus:
                 amount_gotten = 6
@@ -720,6 +724,8 @@ class PatrolOutcome:
             insert = f"{', '.join(specific_herbs[:-1])}, and {specific_herbs[-1]} were"
 
         insert = re.sub("[_]", " ", insert)
+
+        logger.debug("HERBS ADDED: %d %s", amount_gotten, specific_herbs)
 
         game.herb_events_list.append(f"{insert.capitalize()} gathered on a patrol.")
         return f"{insert.capitalize()} gathered."
@@ -820,7 +826,9 @@ class PatrolOutcome:
 
         for i, attribute_list in enumerate(self.new_cat):
             patrol.new_cats.append(
-                create_new_cat_block(Cat, Relationship, patrol, in_event_cats, i, attribute_list)
+                create_new_cat_block(
+                    Cat, Relationship, patrol, in_event_cats, i, attribute_list
+                )
             )
 
             for cat in patrol.new_cats[-1]:
@@ -905,6 +913,7 @@ class PatrolOutcome:
 
         chosen_scar = choice(scar_list)
         cat.pelt.scars.append(chosen_scar)
+        logger.debug("%s given scar %s", cat.name, chosen_scar)
 
         history_text = self.history_scar
         if history_text and isinstance(history_text, str):
