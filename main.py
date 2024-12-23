@@ -166,7 +166,8 @@ from scripts.clan import clan_class
 from scripts.utility import (
     quit,
 )  # pylint: disable=redefined-builtin
-from scripts.debug_menu import debugmode
+# from scripts.debug_menu import debugmode
+from scripts.debug_console import debug_mode
 import pygame
 
 
@@ -277,7 +278,12 @@ del loading_animation
 del load_data
 
 pygame.mixer.pre_init(buffer=44100)
-pygame.mixer.init()
+try:
+    pygame.mixer.init()
+except pygame.error:
+    print("Failed to initialize sound. Sound will be disabled.")
+    music_manager.audio_disabled = True
+    music_manager.muted = True
 AllScreens.start_screen.screen_switches()
 
 # dev screen info now lives in scripts/screens/screens_core
@@ -299,7 +305,10 @@ while 1:
     game.all_screens[game.current_screen].on_use()
     # EVENTS
     for event in pygame.event.get():
-        game.all_screens[game.current_screen].handle_event(event)
+        if event.type == pygame.KEYDOWN and game.settings["keybinds"] and debug_mode.debug_menu.visible:
+            pass
+        else:
+            game.all_screens[game.current_screen].handle_event(event)
         sound_manager.handle_sound_events(event)
 
         if event.type == pygame.QUIT:
@@ -336,7 +345,8 @@ while 1:
             if event.key == pygame.K_F2:
                 MANAGER.print_layer_debug()
             elif event.key == pygame.K_F3:
-                debugmode.toggle_console()
+                debug_mode.toggle_debug_mode()
+                #debugmode.toggle_console()
             elif event.key == pygame.K_F11:
                 scripts.game_structure.screen_settings.toggle_fullscreen(
                     source_screen=getattr(
@@ -355,14 +365,14 @@ while 1:
         game.all_screens[game.last_screen_forupdate].exit_screen()
         game.all_screens[game.current_screen].screen_switches()
         game.switch_screens = False
-    if not pygame.mixer.music.get_busy() and not music_manager.muted:
+    if not music_manager.audio_disabled and not pygame.mixer.music.get_busy() and not music_manager.muted:
         music_manager.play_queued()
 
-    debugmode.update1(clock)
+    debug_mode.pre_update(clock)
     # END FRAME
 
     MANAGER.draw_ui(screen)
 
-    debugmode.update2(screen)
+    debug_mode.post_update(screen)
 
     pygame.display.update()

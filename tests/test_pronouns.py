@@ -12,15 +12,13 @@ import os
 import re
 import sys
 import unittest
-
 import ujson
-
-from scripts.cat.cats import Cat
-from scripts.utility import process_text
 
 os.environ["SDL_VIDEODRIVER"] = "dummy"
 os.environ["SDL_AUDIODRIVER"] = "dummy"
 
+from scripts.cat.cats import Cat
+from scripts.utility import process_text
 
 def test_replacement_failure(path: str, repl_dict: dict) -> bool:
     """Reads in a file, and finds strings, and runs pronoun replacment on those strings.

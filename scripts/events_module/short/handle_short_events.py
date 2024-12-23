@@ -2,6 +2,7 @@ import random
 from typing import List
 
 from scripts.cat.cats import Cat
+from scripts.cat.enums import CatAgeEnum
 from scripts.cat.history import History
 from scripts.cat.pelts import Pelt
 from scripts.cat_relations.relationship import Relationship
@@ -12,7 +13,7 @@ from scripts.clan_resources.freshkill import (
 )
 from scripts.event_class import Single_Event
 from scripts.events_module.generate_events import GenerateEvents
-from scripts.events_module.relation_events import Relation_Events
+from scripts.events_module.relationship.relation_events import Relation_Events
 from scripts.game_structure.game_essentials import game
 from scripts.utility import (
     event_text_adjust,
@@ -323,9 +324,7 @@ class HandleShortEvents:
             in_event_cats["r_c"] = self.random_cat
         for i, attribute_list in enumerate(self.chosen_event.new_cat):
             self.new_cats.append(
-                create_new_cat_block(
-                    Cat, Relationship, self, in_event_cats, i, attribute_list
-                )
+                create_new_cat_block(Cat, Relationship, self, in_event_cats, i, attribute_list)
             )
 
             # check if we want to add some extra info to the event text and if we need to welcome
