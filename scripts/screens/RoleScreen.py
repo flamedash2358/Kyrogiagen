@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
+import logging
 import os
 
 import pygame
@@ -23,6 +24,8 @@ from ..game_structure.screen_settings import MANAGER
 from ..ui.generate_box import BoxStyles, get_box
 from ..ui.generate_button import get_button_dict, ButtonStyles
 from ..ui.get_arrow import get_arrow
+
+logger = logging.getLogger(__name__)
 
 
 class RoleScreen(Screens):

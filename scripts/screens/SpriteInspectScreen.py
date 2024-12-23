@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
+import logging
+
 import pygame
 import pygame_gui
 
@@ -19,6 +21,8 @@ from ..game_structure.screen_settings import MANAGER
 from ..game_structure.windows import SaveAsImage
 from ..ui.generate_button import get_button_dict, ButtonStyles
 from ..ui.get_arrow import get_arrow
+
+logger = logging.getLogger(__name__)
 
 
 class SpriteInspectScreen(Screens):
