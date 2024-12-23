@@ -180,7 +180,7 @@ def rel_fulfill_rel_constraints(relationship, constraint, interaction_id) -> boo
             logger.error("%s: constraint over 100 for %s.", interaction_id, v_type)
             break
 
-        if threshold <= 0:
+        elif threshold <= 0:
             logger.error("%s: constraint less than 0 for %s.", interaction_id, v_type)
             break
 

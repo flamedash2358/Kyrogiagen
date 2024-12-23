@@ -7,6 +7,7 @@ from scripts.debug_commands.fps import FpsCommand
 from scripts.debug_commands.help import HelpCommand
 from scripts.debug_commands.loglevels import LogLevelCommand
 from scripts.debug_commands.settings import ToggleCommand, SetCommand, GetCommand
+from scripts.debug_commands.cat_pregnancy import PregnanciesCommand
 
 commandList: List[Command] = [
     ToggleCommand(),
@@ -16,6 +17,7 @@ commandList: List[Command] = [
     FpsCommand(),
     CatsCommand(),
     LogLevelCommand(),
+    PregnanciesCommand()
 ]
 
 helpCommand = HelpCommand(commandList)
