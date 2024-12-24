@@ -34,10 +34,34 @@
     {
         "id": "warrior_gen_deputy",
         "thoughts": [
-            "Wants to be chosen as the new deputy"
+            "Wants to become deputy one day"
         ],
         "random_status_constraint": [
             "deputy"
+        ]
+    },
+    {
+        "id": "warrior_gen_no_deputy",
+        "thoughts": [
+            "Wants to be chosen as the new deputy"
+        ],
+        "clan_missing_status_constraint": [
+            "deputy"
+        ]
+    },
+    {
+        "id": "warrior_gen_no_deputy_ambitious",
+        "thoughts": [
+            "Desperately hopes r_c will choose {PRONOUN/m_c/object} to be the new deputy"
+        ],
+        "clan_missing_status_constraint": [
+            "deputy"
+        ],
+        "main_trait_constraint": [
+            "ambitious"
+        ],
+        "random_status_constraint": [
+            "leader"
         ]
     },
     {
@@ -357,7 +381,7 @@
             "Grooms r_c clean and makes {PRONOUN/r_c/object} presentable",
             "Carries r_c to the nursery because {PRONOUN/r_c/subject} fell asleep",
             "Is scolding r_c for almost being reckless",
-            "Hopes {PRONOUN/m_c/poss} kits arent getting into too much trouble",
+            "Hopes {PRONOUN/m_c/poss} kits aren't getting into too much trouble",
             "Is in awe with how fast r_c is growing"
         ],
         "relationship_constraint": [
@@ -410,6 +434,34 @@
         ],
         "random_living_status": [
             "living"
+        ]
+    },
+    {
+        "id": "gen_no_deputy",
+        "thoughts": [
+            "Asks r_c if {PRONOUN/r_c/subject} {VERB/m_c/think/thinks} {PRONOUN/m_c/subject} would make a good deputy"
+        ],
+        "random_status_constraint": [
+            "warrior",
+            "mediator",
+            "elder",
+            "medicine cat"
+        ],
+        "clan_missing_status_constraint": [
+            "deputy"
+        ]
+    },
+    {
+        "id": "gen_deputy",
+        "thoughts": [
+            "Stands with r_c in the clearing, waiting for the deputy to assign the day's patrols"
+        ],
+        "random_status_constraint": [
+            "warrior",
+            "apprentice"
+        ],
+        "clan_present_status_constraint": [
+            "deputy"
         ]
     }
 ]

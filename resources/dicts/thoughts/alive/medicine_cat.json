@@ -72,7 +72,7 @@
         "main_trait_constraint": [
             "adventurous"
         ],
-        "random_status_constraint": [
+        "clan_present_status_constraint": [
             "kitten"
         ]
     },
@@ -180,11 +180,19 @@
     {
         "id": "charismatic_medicine_cat",
         "thoughts": [
-            "Is doing {PRONOUN/m_c/poss} daily checkup on the elders",
             "Is thinking of just the right way to ask another Clan's medicine cat for herbs"
         ],
         "main_trait_constraint": [
             "charismatic"
+        ]
+    },
+    {
+        "id": "charismatic_medicine_cat_elder",
+        "thoughts": [
+            "Is doing {PRONOUN/m_c/poss} daily checkup on the elders"
+        ],
+        "clan_present_status_constraint": [
+            "elder"
         ]
     },
     {
@@ -314,7 +322,7 @@
         "main_trait_constraint": [
             "loving"
         ],
-        "random_status_constraint":[
+        "clan_present_status_constraint":[
             "newborn"
         ]
     },
@@ -501,5 +509,60 @@
         "random_living_status": [
             "darkforest"
         ]
-    }     
+    },
+    {
+        "id": "med_cat_herbs_none",
+        "thoughts": [
+            "Feels a sense of dread as {PRONOUN/m_c/subject} {VERB/m_c/look/looks} at {PRONOUN/m_c/poss} empty herb stores",
+            "Desperately paws along the corners of {PRONOUN/m_c/poss} den, trying to find even a single poppy seed",
+            "Spends all day searching for herbs, returning empty-pawed at almost moonhigh"
+        ],
+        "herb_supply_constraint": [
+            "none"
+        ]
+    },
+    {
+        "id": "med_cat_herbs_low",
+        "thoughts": [
+            "Is all too aware of how few herbs {PRONOUN/m_c/subject} {VERB/m_c/have/has}"
+        ],
+        "herb_supply_constraint": [
+            "very low",
+            "low"
+        ]
+    },
+    {
+        "id": "med_cat_herbs_excess",
+        "thoughts": [
+            "Is struggling to find enough space to store {PRONOUN/m_c/poss} herbs"
+        ],
+        "herb_supply_constraint": [
+            "excess"
+        ]
+    },
+    {
+        "id": "medcat_lead_last_life",
+        "thoughts": [
+            "Can tell that r_c is on {PRONOUN/r_c/poss} last life",
+            "Urges r_c to be more cautious"
+        ],
+        "leader_life_constraint": [
+            1
+        ],
+        "random_status_constraint": [
+            "leader"
+        ]
+    },
+    {
+        "id": "medcat_no_deputy",
+        "thoughts": [
+            "Shares {PRONOUN/m_c/poss} thoughts with r_c on who should be the next deputy"
+        ],
+        "clan_missing_status_constraint": [
+            "deputy"
+        ],
+        "random_status_constraint": [
+            "leader"
+        ]
+    }
 ]

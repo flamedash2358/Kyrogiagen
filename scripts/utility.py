@@ -2895,6 +2895,50 @@ def get_text_box_theme(theme_name=None):
     else:
         return theme_name
 
+def get_herb_supply_level(clan_size: int, herb_amount: int) -> str:
+    """
+    Determines the supply level of herbs based on clan size and amount.
+    
+    Args:
+        clan_size (int): The size of the clan
+        herb_amount (int): The amount of the specific herb
+    
+    Returns:
+        str: The supply level ('none', 'very low', 'low', 'adequate', 'full', 'excess')
+    """
+    needed_amount = clan_size * 4
+    
+    if herb_amount == 0:
+        return 'none'
+    elif 0 < herb_amount <= needed_amount / 4:
+        return 'very low'
+    elif needed_amount / 4 < herb_amount <= needed_amount / 2:
+        return 'low'
+    elif needed_amount / 2 < herb_amount <= needed_amount:
+        return 'adequate'
+    elif needed_amount < herb_amount <= needed_amount * 2:
+        return 'full'
+    else:  # herb_amount > needed_amount * 2
+        return 'excess'
+
+def check_herb_constraint(Cat, constraint_level: str) -> bool:
+    """
+    Checks if the herb supply meets the specified constraint level.
+    
+    Args:
+        constraint_level (str): The required herb level ('none', 'low', 'adequate', 'full', 'excess')
+    
+    Returns:
+        bool: True if the constraint is met, False otherwise
+    """
+    if not game.clan:
+        return False
+        
+    clan_size = get_living_clan_cat_count(Cat)
+    total_herbs = sum(game.clan.herbs.values())
+    
+    current_level = get_herb_supply_level(clan_size, total_herbs)
+    return current_level in constraint_level
 
 def quit(savesettings=False, clearevents=False):
     """

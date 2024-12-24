@@ -409,11 +409,8 @@
         "main_trait_constraint": [
             "fearless"
         ],
-        "random_status_constraint": [
+        "clan_present_status_constraint": [
             "apprentice"
-        ],
-        "random_living_status": [
-            "living"
         ]
     },
     {
@@ -798,5 +795,37 @@
         "random_living_status": [
             "starclan"
         ]
+    },
+    {
+        "id": "no_elder_gen",
+          "thoughts": [
+              "Wishes there were elders to tell {PRONOUN/m_c/object} stories"
+          ],
+          "clan_missing_status_constraint": [
+              "elder"
+          ]
+    },
+    {
+        "id": "no_app_gen",
+          "thoughts": [
+              "Is caught building {PRONOUN/m_c/poss} own nest in the empty apprentice's den"
+          ],
+          "clan_missing_status_constraint": [
+              "apprentice",
+              "mediator apprentice",
+              "medicine cat apprentice"
+          ]
+    },
+    {
+        "id": "app_gen",
+          "thoughts": [
+              "Has been begging an apprentice to teach {PRONOUN/m_c/object} and r_c a hunting move"
+          ],
+          "clan_present_status_constraint": [
+              "apprentice"
+          ],
+          "random_status_constraint": [
+              "kitten"
+          ]
     }
 ]
