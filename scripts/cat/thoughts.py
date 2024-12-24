@@ -373,7 +373,12 @@ class Thoughts:
             final_thoughts = Thoughts.create_thoughts(
                 loaded_thoughts, main_cat, other_cat, game_mode, biome, season, camp
             )
-            return final_thoughts
+        
+        except Exception:
+            traceback.print_exc()
+            final_thoughts = i18n.t("defaults.thought")
+        
+        return final_thoughts
         
     @staticmethod
     def get_chosen_thought(main_cat, other_cat, game_mode, biome, season, camp):
