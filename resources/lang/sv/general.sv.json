@@ -1,0 +1,198 @@
+{
+    "sv": {
+        "moons_age": {
+            "one": "1 månvarv",
+            "many": "%{count} månvarv"
+        },
+        "moons_age_in_death": {
+            "one": "1 månvarv (sedan de dog)",
+            "many": "%{count} månvarv (sedan de dog)"
+        },
+        "moons_age_in_life": {
+            "one": "1 månvarv (vid liv)",
+            "many": "%{count} månvarv (vid liv)"
+        },
+        "moon_date": "månevarv %{moon}",
+        "leader": {
+            "one": "ledare",
+            "many": "ledare"
+        },
+        "deputy": {
+            "one": "viceledare",
+            "many": "viceledare"
+        },
+        "warrior": {
+            "one": "krigare",
+            "many": "krigare"
+        },
+        "medicine cat": {
+            "one": "medicinkatt",
+            "many": "medicinkatter"
+        },
+        "mediator": {
+            "one": "medlare",
+            "many": "medlare"
+        },
+        "apprentice": {
+            "one": "lärling",
+            "many": "lärlingar"
+        },
+        "medicine cat apprentice": {
+            "one": "medicinkattlärling",
+            "many": "medicinkattlärlingar"
+        },
+        "mediator apprentice": {
+            "one": "medlarlärling",
+            "many": "medlarlärlingar"
+        },
+        "queen": {
+            "one": "drottning",
+            "many": "drottningar"
+        },
+        "queen\/pregnant": {
+            "one": "drottning\/gravid katt",
+            "many": "drottningar\/gravida katter"
+        },
+        "newborn": {
+            "one": "nyfödd",
+            "many": "nyfödda"
+        },
+        "kitten": {
+            "one": "kattunge",
+            "many": "kattungar"
+        },
+        "kitten_profile": "barn",
+        "adolescent": "ungdom",
+        "young adult": "ung vuxen",
+        "adult": "vuxen",
+        "senior adult": "äldre vuxen",
+        "senior": "senior",
+        "kit": {
+            "one": "kattunge",
+            "many": "kattungar"
+        },
+        "elder": {
+            "one": "åldring",
+            "many": "åldringar"
+        },
+        "loner": {
+            "one": "ensamvarg",
+            "many": "ensamvargar"
+        },
+        "rogue": {
+            "one": "landstrykare",
+            "many": "landstrykare"
+        },
+        "kittypet": {
+            "one": "knäkatt",
+            "many": "knäkatt"
+        },
+        "former Clancat": {
+            "one": "före detta klankatt",
+            "many": "före detta klankatt"
+        },
+        "exiled": {
+            "one": "förvisad",
+            "many": "förvisade"
+        },
+        "lost": "förlorad",
+        "mate": {
+            "one": "partner",
+            "many": "partner"
+        },
+        "she-cat": "honkatt",
+        "tom": "hankatt",
+        "cat": "katt",
+        "female": "kvinna",
+        "male": "man",
+        "trans female": "transexuel kvinna",
+        "trans male": "transexuel man",
+        "nonbinary": "ickebinär",
+        "is": "är",
+        "are": "är",
+        "can_work": "Den här katten kan arbeta",
+        "cant_work": "Den här katten kan inte arbeta",
+        "cant_work_condition": "Kan itne arbeta med detta förhållande",
+        "exp_label": "erfarenhet: %{exp}",
+        "newleaf": "nylöv",
+        "greenleaf": "grönlöv",
+        "leaf-fall": "lövfall",
+        "leaf-bare": "lövlös",
+        "relation_BLOOD": "",
+        "relation_ADOPTIVE": "adopterad",
+        "relation_HALF_BLOOD": "halvsyskon",
+        "relation_NOT_BLOOD": "ej blodssläkt",
+        "relation_RELATED": "blodssläkt",
+        "related_label": "relaterad: %{relation}",
+        "niece": "kusinbarn",
+        "nephew": "kusinbarn",
+        "siblings_child": "syskonbarn",
+        "aunt": "förälders syster",
+        "uncle": "förälders bror",
+        "parents_sibling": "förälders bror",
+        "grandparent": "förälders förälder",
+        "grandchild": "barnbarn",
+        "parent": "förälder",
+        "child": "barn",
+        "sibling": "syskon",
+        "sibling_littermate": "syskon (samma kull)",
+        "cousin": "kusin",
+        "starclan": "Stjärnklan",
+        "dark_forest": "Mörka skogen",
+        "unknown_residence": "Okönde vistelse",
+        "empty": "tom",
+        "none": "ingen",
+        "name_search": "namnsökning",
+        "has_a_mate": "har en partner",
+        "cats_mate": "%{name}'s partner",
+        "mate_none": "partner: ingen",
+        "mate_living": "(levande)",
+        "mate_dead": "(död)",
+        "mate_away": "(försvunnen)",
+        "mate_label": {
+            "one": "partner: %{mates}",
+            "many": "partner: %{mates}"
+        },
+        "mate_extra": {
+            "one": "1 annan",
+            "many": "%{count} andra"
+        },
+        "mentor": {
+            "one": "mentor",
+            "many": "mentorer"
+        },
+        "mentor_label": "mentor: %{mentor}",
+        "apprentice_label": {
+            "zero": "",
+            "one": "lärling: %{apprentices}",
+            "many": "lärlingar: %{apprentices}"
+        },
+        "former_apprentice_label": {
+            "one": "före detta lärling: %{apprentices}",
+            "many": "före detta apprlärlingarentices: %{apprentices}"
+        },
+        "apprentice_extra": {
+            "zero": "",
+            "one": "1 annan",
+            "many": "%{count} andra"
+        },
+        "dead_label": "%{name} (död)",
+        "mark_favorite": "Sätt som favorit",
+        "remove_favorite": "Avmarkera som favorit",
+        "has_permanent_condition": "har ett permanent men",
+        "born_with": "född med detta men",
+        "had_perm_condition_for": {
+            "one": "har haft detta men i %{count} månvarv",
+            "many": "har haft detta men i %{count} månvarv"
+        },
+        "had_injury_for": "har varit skadad i %{moons}",
+        "pregnant_for": "har varit gravid i %{moons}",
+        "recovering_from_birth_for": "har återhämtat sig i %{moons}",
+        "sick": "sjuk",
+        "injured": "skadad",
+        "grieving": "sörjande",
+        "fleas": "loppangripen",
+        "is_infected": "är infekterad",
+        "is_festering": "är varig"
+    }
+}
