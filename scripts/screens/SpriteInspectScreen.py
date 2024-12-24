@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
+import logging
+
 import pygame
 import pygame_gui
 
@@ -19,6 +21,8 @@ from ..game_structure.screen_settings import MANAGER
 from ..game_structure.windows import SaveAsImage
 from ..ui.generate_button import get_button_dict, ButtonStyles
 from ..ui.get_arrow import get_arrow
+
+logger = logging.getLogger(__name__)
 
 
 class SpriteInspectScreen(Screens):
@@ -62,13 +66,13 @@ class SpriteInspectScreen(Screens):
                     game.switches["cat"] = self.next_cat
                     self.cat_setup()
                 else:
-                    print("invalid next cat", self.next_cat)
+                    logger.warning("invalid next cat %s", self.next_cat)
             elif event.ui_element == self.previous_cat_button:
                 if isinstance(Cat.fetch_cat(self.previous_cat), Cat):
                     game.switches["cat"] = self.previous_cat
                     self.cat_setup()
                 else:
-                    print("invalid previous cat", self.previous_cat)
+                    logger.warning("invalid previous cat %s", self.previous_cat)
             elif event.ui_element == self.next_life_stage:
                 self.displayed_life_stage = min(
                     self.displayed_life_stage + 1, len(self.valid_life_stages) - 1

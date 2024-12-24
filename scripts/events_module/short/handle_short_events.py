@@ -1,3 +1,4 @@
+import logging
 import random
 from typing import List
 
@@ -30,6 +31,7 @@ from scripts.utility import (
     adjust_list_text,
 )
 
+logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------- #
 #                               Death Event Class                              #
@@ -147,27 +149,31 @@ class HandleShortEvents:
                     == game.config["event_generation"]["debug_ensure_event_id"]
                 ):
                     final_events = [_event]
-                    print(
-                        f"FOUND debug_ensure_event_id: {game.config['event_generation']['debug_ensure_event_id']} "
-                        f"was set as the only event option"
+                    logger.info(
+                        f"Debug_ensure_event_id: {game.config['event_generation']['debug_ensure_event_id']} "
+                        f"triggered successfully."
                     )
                     found = True
                     break
             if not found:
                 # this print is very spammy, but can be helpful if unsure why a debug event isn't triggering
-                # print(f"debug_ensure_event_id: {game.config['event_generation']['debug_ensure_event_id']} "
-                #      f"was not possible for {self.main_cat.name}.  {self.main_cat.name} was looking for a {event_type}: {self.sub_types} event")
+                logger.debug(
+                    "Debug event %s was not possible for %s looking for %s: %s.",
+                    game.config["event_generation"]["debug_ensure_event_id"],
+                    self.main_cat.name,
+                    event_type,
+                    self.sub_types,
+                )
                 pass
         # ---------------------------------------------------------------------------- #
         #                               do the event                                   #
         # ---------------------------------------------------------------------------- #
         try:
             self.chosen_event = random.choice(final_events)
-            # this print is good for testing, but gets spammy in large clans
-            # print(f"CHOSEN: {self.chosen_event.event_id}")
+            logger.debug("Event chosen: %s", self.chosen_event.event_id)
         except IndexError:
             # this doesn't necessarily mean there's a problem, but can be helpful for narrowing down possibilities
-            print(
+            logger.warning(
                 f"WARNING: no {event_type}: {self.sub_types} events found for {self.main_cat.name} "
                 f"and {self.random_cat.name if self.random_cat else 'no random cat'}"
             )
@@ -410,7 +416,9 @@ class HandleShortEvents:
             elif new_gender == "trans male":
                 self.main_cat.pronouns = [self.main_cat.default_pronouns[2].copy()]
             else:
-                print("No pronouns found for new_gender, keeping original pronouns.", new_gender)
+                logger.warning(
+                    "No pronouns found for %s, keeping original pronouns.", new_gender
+                )
 
     def handle_death(self):
         """
@@ -620,9 +628,7 @@ class HandleShortEvents:
                         self.current_lives -= 1
                         if self.current_lives != game.clan.leader_lives:
                             while self.current_lives > game.clan.leader_lives:
-                                History.add_death(
-                                    cat, "multi_lives"
-                                )
+                                History.add_death(cat, "multi_lives")
                                 self.current_lives -= 1
                     History.add_death(cat, death_history)
 

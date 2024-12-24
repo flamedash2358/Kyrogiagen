@@ -1,3 +1,4 @@
+import logging
 import random
 import traceback
 from copy import deepcopy
@@ -24,6 +25,8 @@ from scripts.utility import (
 )
 from .Screens import Screens
 from ..ui.generate_button import ButtonStyles, get_button_dict
+
+logger = logging.getLogger(__name__)
 
 
 class ClanScreen(Screens):
@@ -183,8 +186,8 @@ class ClanScreen(Screens):
                         )
                     )
                 except:
-                    print(
-                        f"ERROR: placing {Cat.all_cats[x].name}'s sprite on Clan page"
+                    logger.exception(
+                        f"Problem placing {Cat.all_cats[x].name}'s sprite on Clan page"
                     )
 
         # Den Labels

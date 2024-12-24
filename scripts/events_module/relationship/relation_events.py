@@ -1,3 +1,4 @@
+import logging
 import os
 import random
 from random import choice, randint
@@ -14,6 +15,8 @@ from scripts.utility import (
     get_cats_of_romantic_interest,
     get_free_possible_mates,
 )
+
+logger = logging.getLogger(__name__)
 
 
 class Relation_Events:
@@ -330,21 +333,15 @@ class Relation_Events:
                     if len(splitted) > 3:
                         lower_than = True
                 except:
-                    print(
-                        f"ERROR: while creating a cat group, the relationship constraint for the value {v_type} follows not the formatting guidelines."
-                    )
+                    logger.warning("Malformed constraint for %s", v_type)
                     break
 
                 if threshold > 100:
-                    print(
-                        f"ERROR: while creating a cat group, the relationship constraints for the value {v_type}, which is higher than the max value of a relationship."
-                    )
+                    logger.error("Constraint over 100 for %s.", v_type)
                     break
 
                 if threshold <= 0:
-                    print(
-                        f"ERROR: while creating a cat group, the relationship constraints for the value {v_type}, which is lower than the min value of a relationship or 0."
-                    )
+                    logger.error("Constraint less than 0 for %s.", v_type)
                     break
 
                 threshold_fulfilled = False

@@ -1,3 +1,4 @@
+import logging
 from random import choice, randrange
 from re import sub
 from typing import Optional
@@ -30,6 +31,8 @@ from ..ui.generate_box import get_box, BoxStyles
 from ..ui.generate_button import ButtonStyles, get_button_dict
 from ..ui.get_arrow import get_arrow
 from ..ui.icon import Icon
+
+logger = logging.getLogger(__name__)
 
 
 class MakeClanScreen(Screens):
@@ -1298,7 +1301,7 @@ class MakeClanScreen(Screens):
                 clan.casefold() for clan in game.switches["clan_list"]
             ]:
                 return chosen_name
-            print("Generated clan name was already in use! Rerolling...")
+            logger.info("Generated clan name was already in use! Rerolling...")
 
     def random_biome_selection(self):
         # Select a random biome and background

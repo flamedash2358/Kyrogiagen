@@ -392,8 +392,8 @@ class StartScreen(Screens):
                 f"There was an error loading the game: {game.switches['error_message']}"
             )
             if game.switches["traceback"]:
-                print("Traceback:")
-                print(game.switches["traceback"])
+                logger.info("Traceback:")
+                logger.info(game.switches["traceback"])
                 error_text += "<br><br>" + escape(
                     "".join(
                         traceback.format_exception(

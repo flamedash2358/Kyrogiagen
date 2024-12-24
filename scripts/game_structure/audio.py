@@ -16,7 +16,6 @@ creation_screens = ["make clan screen"]
 
 class MusicManager:
     def __init__(self):
-        
         self.current_playlist = []
         self.biome_playlist = []
         self.number_of_tracks = len(self.current_playlist)
@@ -26,8 +25,8 @@ class MusicManager:
         self.current_track = None
         self.queued_track = None
 
-        
         self.load_playlists()
+
     def load_playlists(self):
         self.playlists = {}
         # loading playlists
@@ -51,16 +50,19 @@ class MusicManager:
             return
 
         self.biome_playlist = self.get_biome_music()
-        # print(f"biome playlist is {self.biome_playlist}, current playlist is {self.current_playlist}")
-        # print(f"screen is {screen}")
-        # print(f"menu playlist is {self.playlists['menu_playlist']}")
+        logger.debug(
+            f"biome playlist is %s, current playlist is %s",
+            self.biome_playlist,
+            self.current_playlist,
+        )
+        logger.debug(f"screen is %s", screen)
+        logger.debug("menu playlist is %s", self.playlists["menu_playlist"])
 
         # menu screen
         if (
             screen in menu_screens
             and self.current_playlist != self.playlists["menu_playlist"]
         ):
-            # print("menu screen")
             self.fade_out_music()
             self.play_playlist(self.playlists["menu_playlist"])
 
@@ -69,7 +71,6 @@ class MusicManager:
             screen in creation_screens
             and self.current_playlist != self.playlists["creation_playlist"]
         ):
-            # print("creation screen")
             self.fade_out_music()
             self.play_playlist(self.playlists["creation_playlist"])
 
@@ -79,7 +80,6 @@ class MusicManager:
             and screen not in creation_screens
             and self.current_playlist != self.biome_playlist
         ):
-            # print("biome screen")
             self.fade_out_music()
             self.play_playlist(self.biome_playlist)
 
@@ -109,7 +109,7 @@ class MusicManager:
         pygame.mixer.music.load(self.current_track)
         pygame.mixer.music.set_volume(self.volume)
         pygame.mixer.music.play(loops, fade_ms=1000)
-        # print(f"playing music:{self.current_track}")
+        logger.debug(f"Playing music: %s", self.current_track)
 
     def queue_music(self):
         """
@@ -123,22 +123,26 @@ class MusicManager:
         # otherwise we pick a new track and queue it
         if self.current_track and self.number_of_tracks > 1:
             playlist_copy = self.current_playlist.copy()
-            # print(f"playlist: {playlist_copy}, removing track: {self.current_track}")
+            logger.debug(
+                "Playlist: %s, removing track: %s", playlist_copy, self.current_playlist
+            )
             playlist_copy.remove(
                 self.current_track
             )  # don't want to repeat current track, so we take it out
             options = playlist_copy
-            # print(f"final list: {options}")
+            logger.debug("Final list: %s", options)
         else:
             options = self.current_playlist
 
         try:
             self.queued_track = random.choice(options)
-            print(
-                f"queueing music: current track is {self.current_track}, new track is {self.queued_track}"
+            logger.debug(
+                f"Queuing music: current track is %s, new track is %s",
+                self.current_track,
+                self.queued_track,
             )
         except IndexError:
-            print("WARNING: playlist is empty")
+            logger.warning("Playlist is empty")
             self.queued_track = None
 
     def play_queued(self):
@@ -171,7 +175,7 @@ class MusicManager:
         unpauses current music track, then double checks if the track is appropriate for the screen before changing
         if necessary
         """
-        
+
         if self.audio_disabled:
             try:
                 pygame.mixer.init()
@@ -233,7 +237,7 @@ class _SoundManager:
         self.pressed = None
 
         self.load_sounds()
-    
+
     def load_sounds(self):
         self.sounds = {}
         # open up the sound dictionary

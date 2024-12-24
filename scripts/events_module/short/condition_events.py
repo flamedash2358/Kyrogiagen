@@ -1,3 +1,4 @@
+import logging
 import random
 from copy import deepcopy
 
@@ -25,6 +26,7 @@ from scripts.utility import (
     get_leader_life_notice,
 )
 
+logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------- #
 #                             Condition Event Class                            #
@@ -154,8 +156,8 @@ class Condition_Events:
             return
 
         if cat.ID not in nutrition_info.keys():
-            print(
-                f"WARNING: Could not find cat with ID {cat.ID}({cat.name}) in the nutrition information."
+            logger.error(
+                "Nutrition: could not find cat with ID %s (%s).", cat.ID, cat.name
             )
             return
 
@@ -354,8 +356,9 @@ class Condition_Events:
         if cat.is_injured():
             for injury in cat.injuries:
                 if injury == "pregnant" and cat.ID not in game.clan.pregnancy_data:
-                    print(
-                        f"INFO: deleted pregnancy condition of {cat.ID} due no pregnancy data in the clan."
+                    logger.warning(
+                        "No pregnancy data found for %s, removing pregnant injury.",
+                        cat.name,
                     )
                     del cat.injuries[injury]
                     return triggered
@@ -488,13 +491,16 @@ class Condition_Events:
                         else:
                             return perm_condition
                 except KeyError:
-                    print(
-                        f"WARNING: {injury_name} couldn't be found in injury dict! no permanent condition is possible."
+                    logger.exception(
+                        "%s not found in injury dict. No permanent condition is possible.",
+                        injury_name,
                     )
                     return perm_condition
             else:
-                print(
-                    f"WARNING: {scar} for {injury_name} is either None or is not in scar_to_condition dict. This is not necessarily a bug.  Only report if you feel the scar should have resulted in a permanent condition."
+                logger.warning(
+                    "%s for %s is either None or not in scar_to_condition dictionary.",
+                    scar,
+                    injury_name,
                 )
 
         elif condition is not None:
@@ -560,8 +566,8 @@ class Condition_Events:
                     # first event in string lists is always appropriate for history formatting
                     history_event = possible_string_list[0]
                 except KeyError:
-                    print(
-                        f"WARNING: {illness} does not have an injury death string, placeholder used."
+                    logger.warning(
+                        "No death string found for %s. Default used.", illness
                     )
                     event = "m_c was killed by their illness."
                     history_event = "m_c died to an illness."
@@ -664,8 +670,8 @@ class Condition_Events:
                     # first string in the list is always appropriate for history text
                     history_text = possible_string_list[0]
                 except KeyError:
-                    print(
-                        f"WARNING: {injury} does not have an injury death string, placeholder used"
+                    logger.warning(
+                        "No death string found for %s. Default used.", injury
                     )
 
                     event = "m_c was killed by their injuries."
@@ -702,8 +708,8 @@ class Condition_Events:
                             Condition_Events.INJURY_HEALED_STRINGS[injury]
                         )
                     except KeyError:
-                        print(
-                            f"WARNING: {injury} couldn't be found in the healed strings dict! placeholder string was used."
+                        logger.warning(
+                            "No healed string found for %s. Default used.", injury
                         )
                         event = f"m_c's injury {injury} has healed"
 
@@ -730,9 +736,10 @@ class Condition_Events:
                             ]
                         )
                     except KeyError:
-                        print(
-                            f"WARNING: No entry in gain_permanent_condition_strings for injury '{injury}' causing "
-                            f"condition '{condition_got}'. Using default."
+                        logger.warning(
+                            "No permanent condition gain string found for %s causing %s. Default used.",
+                            injury,
+                            condition_got,
                         )
                         possible_string_list = [
                             f"After m_c's {injury} healed, {{PRONOUN/m_c/subject}} now {{VERB/m_c/have/has}} {condition_got}. [Please report this if you see it!]",
@@ -1113,10 +1120,10 @@ class Condition_Events:
                             random_index = 1
                     event = possible_string_list[random_index]
                 except KeyError:
-                    print(
-                        f"WARNING: {condition} couldn't be found in the risk strings! placeholder string was used"
+                    logger.warning(
+                        "No risk string found for %s. Default used.", condition
                     )
-                    event = "m_c's condition has gotten worse."
+                    event = "m_c's condition has worsened."
 
                 event = event_text_adjust(
                     Cat, event, main_cat=cat, random_cat=med_cat
@@ -1164,11 +1171,8 @@ class Condition_Events:
         try:
             needed_herbs.update(source[condition]["herbs"])
         except KeyError:
-            print(
-                f"WARNING: {condition} does not exist in it's condition dict! if the condition is 'thorn in paw' or "
-                "'splinter', disregard this! otherwise, check that your condition is in the correct dict or report "
-                "this as a bug."
-            )
+            if condition not in ["thorn in paw", "splinter"]:
+                logger.error("%s does not exist in condition dict.", condition)
             return
         if game.clan.game_mode == "classic":
             herb_set = needed_herbs
@@ -1201,16 +1205,15 @@ class Condition_Events:
             # classic doesn't actually count herbs
             if game.clan.game_mode != "classic":
                 while game.clan.herbs[herb_used] <= 0:
-                    print(
-                        f"Warning: {herb_used} was chosen to use, although you currently have "
-                        f"{game.clan.herbs[herb_used]}. Removing {herb_used} from herb dict, finding a new herb..."
+                    logger.warning(
+                        "%s chosen to use but not present in herb stores. Removing & rerolling."
                     )
                     game.clan.herbs.pop(herb_used)
                     usable_herbs.pop(0)
                     if usable_herbs:
                         herb_used = usable_herbs[0]
                     else:
-                        print("No herbs to use for this injury")
+                        logger.warning("No herbs to use for %s", condition)
                         return
 
             # deplete the herb

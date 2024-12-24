@@ -25,6 +25,8 @@ import threading
 import time
 from importlib.util import find_spec
 
+from scripts.housekeeping.logging_config import MaxLevelFilter
+
 if not getattr(sys, "frozen", False):
     requiredModules = [
         "ujson",
@@ -94,6 +96,7 @@ import logging
 formatter = logging.Formatter(
     "%(name)s - %(levelname)s - %(filename)s / %(funcName)s / %(lineno)d - %(message)s"
 )
+shortformat = logging.Formatter("%(levelname)s - %(name)s - %(message)s")
 
 # Logging for file
 timestr = time.strftime("%Y%m%d_%H%M%S")
@@ -102,13 +105,24 @@ file_handler = logging.FileHandler(log_file_name)
 file_handler.setFormatter(formatter)
 # Only log errors to file
 file_handler.setLevel(logging.ERROR)
-# Logging for console
-stream_handler = logging.StreamHandler()
-stream_handler.setFormatter(formatter)
+logging.root.setLevel(logging.INFO)
+
+# Logging for console (logs info and debug in normal text)
+stream_handler = logging.StreamHandler(stream=sys.stdout)
+stream_handler.setFormatter(shortformat)
+stream_handler.addFilter(MaxLevelFilter(logging.WARNING))
+
+error_handler = logging.StreamHandler(stream=sys.stderr)
+error_handler.setFormatter(formatter)
+error_handler.setLevel(logging.WARNING)
+
 logging.root.addHandler(file_handler)
+logging.root.addHandler(error_handler)
+# only want debug info on our own stuff
 logging.root.addHandler(stream_handler)
 
 prune_logs(logs_to_keep=10, retain_empty_logs=False)
+logger = logging.getLogger(__name__)
 
 
 def log_crash(logtype, value, tb):
@@ -116,7 +130,7 @@ def log_crash(logtype, value, tb):
     Log uncaught exceptions to file
     """
     logging.critical("Uncaught exception", exc_info=(logtype, value, tb))
-    sys.__excepthook__(type, value, tb)
+    sys.__excepthook__(logtype, value, tb)
 
 
 sys.excepthook = log_crash
@@ -139,20 +153,22 @@ if os.environ.get("CODESPACES"):
     print("")
 
 if get_version_info().is_source_build:
-    print("Running on source code")
+    logger.info("Running on source code")
     if get_version_info().version_number == VERSION_NAME:
-        print("Failed to get git commit hash, using hardcoded version number instead.")
-        print(
+        logger.warning(
+            "Failed to get git commit hash, using hardcoded version number instead."
+        )
+        logger.warning(
             "Hey testers! We recommend you use git to clone the repository, as it makes things easier for everyone."
         )  # pylint: disable=line-too-long
-        print(
+        logger.warning(
             "There are instructions at https://discord.com/channels/1003759225522110524/1054942461178421289/1078170877117616169"
         )  # pylint: disable=line-too-long
 else:
     print("Running on PyInstaller build")
 
-print("Version Name: ", VERSION_NAME)
-print("Running on commit " + get_version_info().version_number)
+logger.info("Version Name: %s", VERSION_NAME)
+logger.info("Running on commit %s", get_version_info().version_number)
 
 # Load game
 from scripts.game_structure.audio import sound_manager, music_manager
@@ -166,6 +182,7 @@ from scripts.clan import clan_class
 from scripts.utility import (
     quit,
 )  # pylint: disable=redefined-builtin
+
 # from scripts.debug_menu import debugmode
 from scripts.debug_console import debug_mode
 import pygame
@@ -203,7 +220,7 @@ def load_data():
             game.load_events()
             scripts.screens.screens_core.screens_core.rebuild_core()
         except Exception as e:
-            logging.exception("File failed to load")
+            logger.exception("File failed to load")
             if not game.switches["error_message"]:
                 game.switches[
                     "error_message"
@@ -305,7 +322,11 @@ while 1:
     game.all_screens[game.current_screen].on_use()
     # EVENTS
     for event in pygame.event.get():
-        if event.type == pygame.KEYDOWN and game.settings["keybinds"] and debug_mode.debug_menu.visible:
+        if (
+            event.type == pygame.KEYDOWN
+            and game.settings["keybinds"]
+            and debug_mode.debug_menu.visible
+        ):
             pass
         else:
             game.all_screens[game.current_screen].handle_event(event)
@@ -346,7 +367,7 @@ while 1:
                 MANAGER.print_layer_debug()
             elif event.key == pygame.K_F3:
                 debug_mode.toggle_debug_mode()
-                #debugmode.toggle_console()
+                # debugmode.toggle_console()
             elif event.key == pygame.K_F11:
                 scripts.game_structure.screen_settings.toggle_fullscreen(
                     source_screen=getattr(
@@ -365,7 +386,11 @@ while 1:
         game.all_screens[game.last_screen_forupdate].exit_screen()
         game.all_screens[game.current_screen].screen_switches()
         game.switch_screens = False
-    if not music_manager.audio_disabled and not pygame.mixer.music.get_busy() and not music_manager.muted:
+    if (
+        not music_manager.audio_disabled
+        and not pygame.mixer.music.get_busy()
+        and not music_manager.muted
+    ):
         music_manager.play_queued()
 
     debug_mode.pre_update(clock)

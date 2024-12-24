@@ -1,3 +1,4 @@
+import logging
 import os
 import traceback
 from ast import literal_eval
@@ -10,6 +11,7 @@ from scripts.event_class import Single_Event
 from scripts.game_structure.screen_settings import toggle_fullscreen
 from scripts.housekeeping.datadir import get_save_dir, get_temp_dir
 
+logger = logging.getLogger(__name__)
 pygame.init()
 
 
@@ -210,7 +212,6 @@ class Game:
         self.clicked = False
         self.keyspressed = []
 
-
     @staticmethod
     def safe_save(path: str, write_data, check_integrity=False, max_attempts: int = 15):
         """If write_data is not a string, assumes you want this
@@ -247,14 +248,16 @@ class Game:
                 if _data != _read_data:
                     i += 1
                     if i > max_attempts:
-                        print(
-                            f"Safe_Save ERROR: {file_name} was unable to properly save {i} times. Saving Failed."
+                        logger.error(
+                            f"%s was unable to properly save %d times. Saving Failed.",
+                            file_name,
+                            i,
                         )
                         raise RuntimeError(
                             f"Safe_Save: {file_name} was unable to properly save {i} times!"
                         )
-                    print(
-                        f"Safe_Save: {file_name} was incorrectly saved. Trying again."
+                    logger.warning(
+                        f"Safe_Save: %s did not save correctly. Retrying.", file_name
                     )
                     continue
 
@@ -288,7 +291,7 @@ class Game:
         # First, we need to make sure the saves folder exists
         if not os.path.exists(get_save_dir()):
             os.makedirs(get_save_dir())
-            print("Created saves folder")
+            logger.info("Created saves folder")
             return None
 
         # Now we can get a list of all the folders in the saves folder
@@ -319,7 +322,7 @@ class Game:
 
         # Now we can return the list of clans
         if not clan_list:
-            print("No clans found")
+            logger.error("No Clans found")
             return None
         return clan_list
 
@@ -467,7 +470,9 @@ class Game:
                 else:
                     parent_faded = self.add_faded_offspring_to_faded_cat(x, cat)
                     if not parent_faded:
-                        print(f"WARNING: Can't find parent {x} of {cat.name}")
+                        logger.warning(
+                            "Can't find parent of %s with ID %s", cat.name, x
+                        )
 
             # Get a copy of info
             if game.clan.clan_settings["save_faded_copy"]:
@@ -476,7 +481,7 @@ class Game:
                     + "\n--------------------------------------------------------------------------\n"
                 )
 
-            # SAVE TO IT'S OWN LITTLE FILE. This is a trimmed-down version for relation keeping only.
+            # SAVE TO ITS OWN LITTLE FILE. This is a trimmed-down version for relation keeping only.
             cat_data = inter_cat.get_save_dict(faded=True)
 
             self.safe_save(
@@ -536,7 +541,7 @@ class Game:
             ) as read_file:
                 cat_info = ujson.loads(read_file.read())
         except:
-            print("ERROR: loading faded cat")
+            logger.exception("Failed to load faded cat.")
             return False
 
         cat_info["faded_offspring"].append(offspring)

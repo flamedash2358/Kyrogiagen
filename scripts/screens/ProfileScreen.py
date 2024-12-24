@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: ascii -*-
+import logging
 import os
 from random import choice
 from re import sub
@@ -40,6 +41,8 @@ from ..ui.generate_box import get_box, BoxStyles
 from ..ui.generate_button import ButtonStyles, get_button_dict
 from ..ui.get_arrow import get_arrow
 from ..ui.icon import Icon
+
+logger = logging.getLogger(__name__)
 
 
 # ---------------------------------------------------------------------------- #
@@ -194,7 +197,7 @@ class ProfileScreen(Screens):
                     self.build_profile()
                     self.update_disabled_buttons_and_text()
                 else:
-                    print("invalid previous cat", self.previous_cat)
+                    logger.warning("invalid previous cat %s", self.previous_cat)
             elif event.ui_element == self.next_cat_button:
                 if isinstance(Cat.fetch_cat(self.next_cat), Cat):
                     self.clear_profile()
@@ -202,7 +205,7 @@ class ProfileScreen(Screens):
                     self.build_profile()
                     self.update_disabled_buttons_and_text()
                 else:
-                    print("invalid next cat", self.previous_cat)
+                    logger.warning("invalid next cat %s", self.next_cat)
             elif event.ui_element == self.inspect_button:
                 self.close_current_tab()
                 self.change_screen("sprite inspect screen")
@@ -255,7 +258,7 @@ class ProfileScreen(Screens):
                     self.build_profile()
                     self.update_disabled_buttons_and_text()
                 else:
-                    print("invalid previous cat", self.previous_cat)
+                    logger.warning("invalid previous cat %s", self.previous_cat)
             elif event.key == pygame.K_RIGHT:
                 if isinstance(Cat.fetch_cat(self.next_cat), Cat):
                     self.clear_profile()
@@ -263,7 +266,7 @@ class ProfileScreen(Screens):
                     self.build_profile()
                     self.update_disabled_buttons_and_text()
                 else:
-                    print("invalid next cat", self.previous_cat)
+                    logger.warning("invalid next cat %s", self.next_cat)
 
             elif event.key == pygame.K_ESCAPE:
                 self.close_current_tab()
@@ -1203,10 +1206,7 @@ class ProfileScreen(Screens):
                 if str(self.the_cat.ID) in rel_data:
                     self.user_notes = rel_data.get(str(self.the_cat.ID))
         except Exception as e:
-            print(
-                f"ERROR: there was an error reading the Notes file of cat #{self.the_cat.ID}.\n",
-                e,
-            )
+            logger.exception("Could not read notes file of cat #%s", self.the_cat.ID)
 
     def toggle_history_sub_tab(self):
         """To toggle the history-sub-tab"""

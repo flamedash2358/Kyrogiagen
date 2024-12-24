@@ -1,3 +1,4 @@
+import logging
 import random
 from random import choice, randint
 
@@ -19,6 +20,8 @@ from scripts.utility import (
     change_relationship_values,
     get_alive_status_cats,
 )
+
+logger = logging.getLogger(__name__)
 
 
 class Pregnancy_Events:
@@ -335,8 +338,8 @@ class Pregnancy_Events:
             if cat.injuries["pregnant"]["severity"] == "minor":
                 cat.injuries["pregnant"]["severity"] = "major"
                 text += choice(Pregnancy_Events.PREGNANT_STRINGS["major_severity"])
-        except:
-            print("Is this an old save? Cat does not have the pregnant condition")
+        except KeyError:
+            logger.exception("Cat does not have pregnant condition!")
 
         text = event_text_adjust(Cat, text, main_cat=cat, clan=game.clan)
         game.cur_events_list.append(Single_Event(text, "birth_death", cat.ID))
@@ -490,9 +493,7 @@ class Pregnancy_Events:
             try:
                 cat.injuries.pop("pregnant")
             except:
-                print(
-                    "Is this an old save? Your cat didn't have the pregnant condition!"
-                )
+                logger.exception("Cat does not have pregnant condition!")
         print_event = " ".join(event_list)
         print_event = print_event.replace("{insert}", insert)
 
@@ -533,10 +534,10 @@ class Pregnancy_Events:
         if len(cat.mate) > 0:
             for mate_id in cat.mate:
                 if mate_id not in cat.all_cats:
-                    print(
-                        f"WARNING: {cat.name}  has an invalid mate # {mate_id}. This has been unset."
-                    )
                     cat.mate.remove(mate_id)
+                    logger.warning(
+                        "%s has invalid mate (ID %s). Unsetting.", cat.name, mate_id
+                    )
 
         # If the "single parentage setting in on, we should only allow cats that have mates to have kits.
         if not single_parentage and len(cat.mate) < 1 and not allow_affair:

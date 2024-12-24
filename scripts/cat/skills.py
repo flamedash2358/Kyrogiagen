@@ -1,6 +1,9 @@
+import logging
 import random
 from enum import Enum, Flag, auto
 from typing import Union
+
+logger = logging.getLogger(__name__)
 
 
 class SkillPath(Enum):
@@ -176,7 +179,6 @@ class Skill:
     }
 
     def __init__(self, path: SkillPath, points: int = 0, interest_only: bool = False):
-
         self.path = path
         self.interest_only = interest_only
         if points > self.point_range[1]:
@@ -246,11 +248,6 @@ class Skill:
         """Skill property"""
         return self.path.value[self.tier]
 
-    @skill.setter
-    def skill(self):
-        """Can't set the skill directly with this setter"""
-        print("Can't set skill directly")
-
     @property
     def tier(self):
         """Returns the tier level of the skill"""
@@ -261,10 +258,6 @@ class Skill:
                 return i
 
         return 1
-
-    @tier.setter
-    def tier(self):
-        print("Can't set tier directly")
 
     def set_points_to_tier(self, tier: int):
         """This is seperate from the tier setter, since it will booonly allow you
@@ -336,7 +329,6 @@ class CatSkills:
         hidden_skill: HiddenSkillEnum = None,
         interest_only=False,
     ):
-
         if skill_dict:
             self.primary = Skill.generate_from_save_string(skill_dict["primary"])
             self.secondary = Skill.generate_from_save_string(skill_dict["secondary"])
@@ -613,7 +605,7 @@ class CatSkills:
                 try:
                     path = HiddenSkillEnum[path]
                 except KeyError:
-                    print(f"{path} is not a real skill path")
+                    logger.exception("%s is not a skill path", path)
                     return False
 
         if isinstance(path, HiddenSkillEnum):
@@ -642,12 +634,12 @@ class CatSkills:
             spl = _skill.split(",")
 
             if len(spl) != 2:
-                print("Incorrectly formatted skill restriction", _skill)
+                logger.error("Incorrectly formatted skill restriction %s", _skill)
                 continue
             try:
                 min_tier = int(spl[1])
             except ValueError:
-                print("Min Skill Tier cannot be converted to int", _skill)
+                logger.error("Min Skill Tier cannot be converted to int for %s", _skill)
                 continue
 
             if self.meets_skill_requirement(spl[0], min_tier):

@@ -1,3 +1,4 @@
+import logging
 from typing import Dict
 
 import pygame.transform
@@ -25,6 +26,8 @@ from ..ui.generate_box import get_box, BoxStyles
 from ..ui.generate_button import get_button_dict, ButtonStyles
 from ..ui.get_arrow import get_arrow
 from ..ui.icon import Icon
+
+logger = logging.getLogger(__name__)
 
 
 class ChooseMentorScreen(Screens):
@@ -91,7 +94,7 @@ class ChooseMentorScreen(Screens):
                     self.update_selected_cat()
                     self.update_buttons()
                 else:
-                    print("invalid next cat", self.next_cat)
+                    logger.warning("invalid next cat %s", self.next_cat)
             elif event.ui_element == self.previous_cat_button:
                 if isinstance(Cat.fetch_cat(self.previous_cat), Cat):
                     game.switches["cat"] = self.previous_cat
@@ -100,7 +103,7 @@ class ChooseMentorScreen(Screens):
                     self.update_selected_cat()
                     self.update_buttons()
                 else:
-                    print("invalid previous cat", self.previous_cat)
+                    logger.warning("invalid previous cat %s", self.previous_cat)
             elif event.ui_element == self.next_page_button:
                 self.current_page += 1
                 self.update_cat_list()

@@ -5,6 +5,7 @@ from scripts.debug_commands.command import Command
 from scripts.debug_commands.eval import EvalCommand, UnderstandRisksCommand
 from scripts.debug_commands.fps import FpsCommand
 from scripts.debug_commands.help import HelpCommand
+from scripts.debug_commands.loglevels import LogLevelCommand
 from scripts.debug_commands.settings import ToggleCommand, SetCommand, GetCommand
 from scripts.debug_commands.cat_pregnancy import PregnanciesCommand
 
@@ -15,6 +16,7 @@ commandList: List[Command] = [
     EvalCommand(),
     FpsCommand(),
     CatsCommand(),
+    LogLevelCommand(),
     PregnanciesCommand()
 ]
 

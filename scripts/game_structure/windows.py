@@ -388,7 +388,7 @@ class DeleteCheck(UIWindow):
                 elif os.path.exists(rempath + "clan.txt"):
                     os.remove(rempath + "clan.txt")
                 else:
-                    print("No clan.json/txt???? Clan prolly wasnt initalized kekw")
+                    logger.warning("No clan.json or clan.txt detected")
                 self.kill()
                 self.reloadscreen("switch clan screen")
 
@@ -629,11 +629,7 @@ class ChangeCatName(UIWindow):
                 else:
                     use_suffix = self.the_cat.name.suffix
                 self.prefix_entry_box.set_text(
-                    Name(
-                        None,
-                        use_suffix,
-                        cat=self.the_cat
-                    ).prefix
+                    Name(None, use_suffix, cat=self.the_cat).prefix
                 )
             elif event.ui_element == self.random_suffix:
                 if self.prefix_entry_box.text:
@@ -641,11 +637,7 @@ class ChangeCatName(UIWindow):
                 else:
                     use_prefix = self.the_cat.name.prefix
                 self.suffix_entry_box.set_text(
-                    Name(
-                        use_prefix,
-                        None,
-                        cat=self.the_cat
-                    ).suffix
+                    Name(use_prefix, None, cat=self.the_cat).suffix
                 )
             elif event.ui_element == self.toggle_spec_block_on:
                 self.specsuffic_hidden = True

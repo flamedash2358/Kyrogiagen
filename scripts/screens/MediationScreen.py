@@ -1,3 +1,4 @@
+import logging
 from math import ceil
 from random import choice
 
@@ -25,6 +26,8 @@ from ..ui.generate_box import get_box, BoxStyles
 from ..ui.generate_button import get_button_dict, ButtonStyles
 from ..ui.get_arrow import get_arrow
 from ..ui.icon import Icon
+
+logger = logging.getLogger(__name__)
 
 
 class MediationScreen(Screens):
@@ -643,12 +646,11 @@ class MediationScreen(Screens):
                 display_romantic = 0
                 # Print, just for bug checking. Again, they should not be able to get love towards their relative.
                 if the_relationship.romantic_love and related:
-                    print(
-                        str(cat.name)
-                        + " has "
-                        + str(the_relationship.romantic_love)
-                        + " romantic love "
-                        "towards their relative, " + str(the_relationship.cat_to.name)
+                    logger.error(
+                        "%s has %d romantic love towards their relative %s",
+                        cat.name,
+                        the_relationship.romantic_love,
+                        the_relationship.cat_to.name,
                     )
             else:
                 display_romantic = the_relationship.romantic_love

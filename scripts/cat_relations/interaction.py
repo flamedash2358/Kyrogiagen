@@ -1,10 +1,12 @@
+import logging
 import os
 
 import ujson
 
+logger = logging.getLogger(__name__)
+
 
 class SingleInteraction:
-
     def __init__(
         self,
         interact_id,
@@ -66,7 +68,6 @@ class SingleInteraction:
 
 
 class GroupInteraction:
-
     def __init__(
         self,
         interact_id,
@@ -171,24 +172,16 @@ def rel_fulfill_rel_constraints(relationship, constraint, interaction_id) -> boo
             threshold = int(splitted[1])
             if len(splitted) >= 3:
                 lower_than = True
-        except:  # TODO: find out what this try-except is protecting against and explicitly guard for it
-            print(
-                f"ERROR: interaction {interaction_id} with the relationship constraint for "
-                f"the value {v_type} doesn't follow the formatting guidelines."
-            )
+        except ValueError:
+            logger.warning("%s: malformed constraint for %s", interaction_id, v_type)
             break
 
         if threshold > 100:
-            print(
-                f"ERROR: interaction {interaction_id} has a relationship constraint for the value {v_type}, "
-                f"which is higher than the max value of a relationship (100)."
-            )
+            logger.error("%s: constraint over 100 for %s.", interaction_id, v_type)
             break
+
         elif threshold <= 0:
-            print(
-                f"ERROR: interaction {interaction_id} has a relationship constraints for the value {v_type}, "
-                f"which is lower than the min value of a relationship or 0."
-            )
+            logger.error("%s: constraint less than 0 for %s.", interaction_id, v_type)
             break
 
         threshold_fulfilled = False

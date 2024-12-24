@@ -1,3 +1,4 @@
+import logging
 import random
 from copy import deepcopy
 from random import choice
@@ -19,6 +20,8 @@ from scripts.utility import (
     get_personality_compatibility,
     process_text,
 )
+
+logger = logging.getLogger(__name__)
 
 
 class Romantic_Events:
@@ -174,8 +177,10 @@ class Romantic_Events:
             filtered_interactions.append(interaction)
 
         if len(filtered_interactions) < 1:
-            print(
-                f"There were no romantic interactions for: {cat_from.name} to {cat_to.name}"
+            logger.error(
+                "No possible romantic interactions for %s and %s",
+                cat_from.name,
+                cat_to.name,
             )
             return False
 
@@ -207,8 +212,9 @@ class Romantic_Events:
         if len(chosen_interaction.get_injuries) > 0:
             for abbreviations, injury_dict in chosen_interaction.get_injuries.items():
                 if "injury_names" not in injury_dict:
-                    print(
-                        f"ERROR: there are no injury names in the chosen interaction {chosen_interaction.id}."
+                    logger.error(
+                        "No injuries listed in injuring interaction %s",
+                        chosen_interaction.id,
                     )
                     continue
 
@@ -344,7 +350,7 @@ class Romantic_Events:
         """Handles moving on from dead or outside mates"""
         for mate_id in cat.mate:
             if mate_id not in Cat.all_cats:
-                print(f"WARNING: Cat #{cat} has a invalid mate. It will be removed.")
+                logger.warning("Invalid mate %s for cat %s. Removing.", mate_id, cat.ID)
                 cat.mate.remove(mate_id)
                 continue
 
@@ -656,9 +662,11 @@ class Romantic_Events:
             return False, None
 
         if poly:
-            print("----- POLY-POLY-POLY", cat_from.name, cat_to.name)
-            print(cat_from.mate)
-            print(cat_to.mate)
+            logger.info(
+                "Polyamory triggered between %s and %s", cat_from.name, cat_to.name
+            )
+            logger.debug("%s mates: %s", cat_from.name, cat_from.mate)
+            logger.debug("%s mates: %s", cat_to.name, cat_to.mate)
 
         mate_string = Romantic_Events.prepare_relationship_string(
             mate_string, cat_from, cat_to
@@ -892,7 +900,9 @@ class Romantic_Events:
                 insert = "mates"
             mate_string = mate_string.replace("(r_c_mate/mates)", insert)
 
-        mate_string = event_text_adjust(Cat, mate_string, main_cat=cat_from, random_cat=cat_to)
+        mate_string = event_text_adjust(
+            Cat, mate_string, main_cat=cat_from, random_cat=cat_to
+        )
         return mate_string
 
     @staticmethod
