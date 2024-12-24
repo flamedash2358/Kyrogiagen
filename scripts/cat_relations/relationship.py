@@ -1,14 +1,15 @@
 import random
 from random import choice
 
+import i18n
+
 from scripts.cat.history import History
 from scripts.cat_relations.interaction import (
-    SingleInteraction,
-    NEUTRAL_INTERACTIONS,
-    INTERACTION_MASTER_DICT,
     rel_fulfill_rel_constraints,
     cats_fulfill_single_interaction_constraints,
+    rebuild_relationship_dicts,
 )
+import scripts.cat_relations.interaction as interactions
 from scripts.event_class import Single_Event
 from scripts.game_structure.game_essentials import game
 from scripts.utility import clamp, get_personality_compatibility, process_text
@@ -21,6 +22,7 @@ from scripts.utility import clamp, get_personality_compatibility, process_text
 
 class Relationship:
     used_interaction_ids = []
+    currently_loaded_lang = None
 
     def __init__(
         self,
@@ -80,6 +82,10 @@ class Relationship:
         if self.cat_to.dead or self.cat_to.outside or self.cat_to.exiled:
             return
 
+        if self.currently_loaded_lang != i18n.config.get("locale"):
+            Relationship.currently_loaded_lang = i18n.config.get("locale")
+            rebuild_relationship_dicts()
+
         # update relationship
         if self.cat_to.ID in self.cat_from.mate:
             self.mates = True
@@ -113,9 +119,9 @@ class Relationship:
         game_mode = game.clan.game_mode
 
         if in_de_crease != "neutral":
-            all_interactions = INTERACTION_MASTER_DICT[rel_type][in_de_crease].copy()
+            all_interactions = interactions.INTERACTION_MASTER_DICT[rel_type][in_de_crease].copy()
         else:
-            all_interactions = NEUTRAL_INTERACTIONS.copy()
+            all_interactions = interactions.NEUTRAL_INTERACTIONS.copy()
             intensity = None
 
         possible_interactions = self.get_relevant_interactions(
