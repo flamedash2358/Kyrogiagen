@@ -382,19 +382,20 @@ class Inheritance:
             self.all_involved.append(inter_id)
             self.all_but_cousins.append(inter_id)
             if len(inter_blood_parents) > 0:
-                parent_names = []
+                parent_name = []
                 for blood_parent_id in inter_blood_parents:
                     blood_parent_cat = self.cat.fetch_cat(blood_parent_id)
                     if blood_parent_cat is None:
                         print(f"ERROR: the blood_parent of {str(inter_cat.name)}")
                     else:
-                        parent_names.append(blood_parent_cat.name)
-                if len(parent_names) == 1:
-                    self.kits[inter_id]["additional"].append(f"blood parent: {parent_names[0]}")
-                elif len(parent_names) == 2:
-                    self.kits[inter_id]["additional"].append(
-                        f"blood parent: {parent_names[0]}, {parent_names[1]}"
+                        parent_name.append(str(blood_parent_cat.name))
+                self.kits[inter_id]["additional"].append(
+                    i18n.t(
+                        "inheritance.blood_parent",
+                        count=len(parent_name),
+                        name=adjust_list_text(parent_name),
                     )
+                )
 
         # check for mates
         if inter_id in self.kits:

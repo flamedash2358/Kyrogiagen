@@ -208,23 +208,22 @@ class Relationship:
 
         # prepare string for display
         interaction_str = self.adjust_interaction_string(interaction_str)
-
-        
         if in_de_crease == "neutral":
-            effect = " (neutral effect)"
+            effect = i18n.t("relationships.neutral_postscript")
         elif positive:
-            effect = f" ({intensity} positive effect)"
+            effect = i18n.t(f"relationships.positive_postscript_{intensity}")
         else:
-            effect = f" ({intensity} negative effect)"
+            effect = i18n.t(f"relationships.negative_postscript_{intensity}")
 
-        interaction_str += effect + f" - {self.cat_from.name} was {self.cat_from.moons} "
-        if self.cat_from.moons == 1:
-            interaction_str += "moon old"
-        else:
-            interaction_str += "moons old"
-
-        self.log.append(interaction_str)
-
+        interaction_str = interaction_str + effect
+        self.log.append(
+            interaction_str
+            + i18n.t(
+                "relationships.age_postscript",
+                name=str(self.cat_from.name),
+                count=self.cat_from.moons,
+            )
+        )
         relevant_event_tabs = ["relation", "interaction"]
         if self.chosen_interaction.get_injuries:
             relevant_event_tabs.append("health")
