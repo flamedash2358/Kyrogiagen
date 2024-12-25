@@ -1,0 +1,132 @@
+{
+    "sv": {
+        "comment": "En dag ska den här filen avra tom och onödig.",
+        "event_deaths": {
+            "one": "Förra månvarvet tog m_c {PRONOUN\/m_c\/poss} plats i Stjärnklanen. c_n sörjer förlusten, och {PRONOUN\/m_c\/poss} klankompisar kommer sakna det {PRONOUN\/m_c\/subject} tillförde i livet. Stunder av {PRONOUN\/m_c\/poss} liv delas av de sörjande samtidigt som de som stog {PRONOUN\/m_c\/object} närmast tar {PRONOUN\/m_c\/object} till {PRONOUN\/m_c\/poss} sista viloplats.",
+            "many": "Förra månvarvet tog %{insert} sina platser i Stjärnklanen. c_n sörjer förlusten, och deras klankompisar kommer sakna det de tillförde i livet. Stunder av deras liv delas av de sörjande samtidigt som de som stog dem närmast tar deras kvarlevor till sin sista viloplats."
+        },
+        "event_shaken_grief": {
+            "one": "All sorg och död har tagit ut sin rätt på katterna i c_n. %{insert} tog det extra hårt.",
+            "many": "All sorg och död har tagit ut sin rätt på katterna i c_n. %{insert} tog det extra hårt."
+        },
+        "relation_improved": " (relation med o_c_n förbättrades.)",
+        "relations_neutral": " (relation med o_c_n är oförändrad.)",
+        "relations_worsened": " (relation med o_c_n försämrades.)",
+        "lead_den_killed": "m_c mördades av c_n.",
+        "condition_retire_adolescent": "m_c väljer {PRONOUN\/m_c\/subject} hellre spenderar {PRONOUN\/m_c\/poss} tid med att hjälpa till i lägret och leka med kattungar; {PRONOUN\/m_c\/subject} välkomnas varmt i pensionärshålan.",
+        "condition_retire_adolescent_ceremony": " {PRONOUN\/m_c\/subject\/CAP} är tilldelad namnet %{newname} som ära för {PRONOUN\/m_c\/poss} bidrag till %{clan}klanen.",
+        "condition_retire_no_leader": "m_c har valt att pesnsionera sig från vanliga klanaktiviteter.",
+        "condition_retire_normal": "lead_name har sett m_c kämpa med sina uppgifter de senaste månvarven. lead_name lovar {PRONOUN\/m_c\/object} att ingen skulle klandra {PRONOUN\/m_c\/object} om {PRONOUN\/m_c\/poss} pensionerade sig i förtid, och {PRONOUN\/m_c\/poss} kommer fortfarande vara en värdefull medlem av klanen som pensionär. m_c håller med; senare samma dag hålls {PRONOUN\/m_c\/poss} pensionärscermoni.",
+        "ceremony_leader_bloodthirsty": "%{name} har blivit den nya klanledaren. Med klorna dragna ser {PRONOUN\/m_c\/subject\/CAP} ner på {PRONOUN\/m_c\/poss} klankompisar och lovar en ny era för klanen.",
+        "ceremony_leader_1": "%{oldname} har befodrats till den nya klanledaren. {PRONOUN\/m_c\/subject\/CAP} reser omedelbart till Månstenen för att få {PRONOUN\/m_c\/poss} nio liv och {PRONOUN\/m_c\/poss} prisas under sitt nya namn, %{newname}.",
+        "ceremony_leader_2": "%{oldname} har blivit den nya klanledaren. {PRONOUN\/m_c\/subject\/CAP} svär att skydda klanen även om det så kostar dem alla nio liven.",
+        "ceremony_leader_3": "%{oldname} har fått {PRONOUN\/m_c\/poss} nio liv och blivit den nya klanledaren. {PRONOUN\/m_c\/subject\/CAP} känner sig inte redo för det stora ansvaret, men kommer göra {PRONOUN\/m_c\/poss} yttersta för klanen.",
+        "ceremony_closer": "Besök %{name}s profil för att se {PRONOUN\/m_c\/poss} hela ledarcermoni.",
+        "ceremony_deputy_bloodthirsty": "m_c har valts till ny viceledare. {PRONOUN\/m_c\/subject\/CAP} sneglar på klanledaren med en oroväckande glint i ögonen.",
+        "ceremony_deputy": "m_c valde r_c att at över som viceledare. %{previous}",
+        "ceremony_deputy_prev0": "{PRONOUN\/m_c\/subject\/CAP} vet dep_name skulle vara nöjd.",
+        "ceremony_deputy_prev1": "{PRONOUN\/m_c\/subject\/CAP} hoppas dep_name skulle vara nöjd.",
+        "ceremony_deputy_prev2": "{PRONOUN\/m_c\/subject\/CAP} har inte en aning om dep_name skulle vara nöjd, men sånt är livet.",
+        "ceremony_deputy_nolead_nodep": "Klanen är helt handlingsförlamad utan både ledare och viceledare. De vänder sig till m_c som hopp för framtiden.",
+        "ceremony_deputy_nolead_retireddep": "Klanen är ledarlös, men en viceledare måste fortfarande utses. m_c väljs till ny viceledare. Den pensionerade viceledaren nickar {PRONOUN\/dep_name\/poss} nöjt.",
+        "ceremony_deputy_lead_retireddep0": "m_c har valts till ny viceledare. Klanen tjuter {PRONOUN\/m_c\/poss} namn instämmande.",
+        "ceremony_deputy_lead_retireddep1": "r_c har valts till ny viceledare. Vissa av klanens äldre medlemmar ifrågasätter visdomen i beslutet.",
+        "ceremony_deputy_lead_retireddep2": "m_c har valts till ny viceledare. {PRONOUN\/m_c\/subject\/CAP} håller sitt huvud högt och lovar göra sitt bästa för klanen.",
+        "ceremony_deputy_lead_retireddep3": "lead_name har tänkt länge och djupt på vem {PRONOUN\/lead_name\/subject} skulle respektera och lita på vid {PRONOUN\/lead_name\/poss} sida. När solen står som högst så tillkännager {PRONOUN\/lead_name\/subject} att m_c kommer bli klanens nya viceledare.",
+        "ceremony_deputy_lead_retireddep4": "m_c har valts till ny viceledare. {PRONOUN\/m_c\/subject\/CAP} ber till stjärnklanen att {PRONOUN\/m_c\/subject} är det rätta valet för klanen.",
+        "ceremony_deputy_lead_retireddep5": "m_c har valts till ny viceledare. Trots att {PRONOUN\/m_c\/subject} är nervös, tar {PRONOUN\/m_c\/subject} sig samman och ser fram emot att kunna hjälpa sin klan.",
+        "ceremony_deputy_unsuitable": "Den finns egentligen ingen katt som passar till viceledare, men någon måste böra ansvaret och m_c pekas ut som viceledare.",
+        "ceremony_deputy_none": "Den finns ingen katt som passar till viceledare.",
+        "adoption_kittens_single": {
+            "one": "%{names} fann en %{insert} och bestämde sig gör att adoptera den.",
+            "many": "%{names} fann ett %{insert} och bestämde sig gör att adoptera dem."
+        },
+        "adoption_kittens_pair": {
+            "one": "%{names} fann en %{insert} och bestämde sig gör att adoptera den.",
+            "many": "%{names} fann ett %{insert} och bestämde sig gör att adoptera dem."
+        },
+        "new_kit_thought": "Gosar in sig i magpälsen hos r_c",
+        "event_mediator_app": "m_c har bestämt sig för att använda {PRONOUN\/m_c\/poss} förmågor och erfarenheter för att lösa klandispyter. Ett möte kallas, och {PRONOUN\/m_c\/subject} utnämns till klanens nyaste medlare.",
+        "herbs_found": {
+            "zero": "med_name fann inga helande örter detta månvarv.",
+            "many": "med_name fann %{insert} detta månvarv."
+        },
+        "prey_catch_count": {
+            "one": "Klanen lycakdes fånga %{count} bit byte detta månvarv.",
+            "many": "Klanen lycakdes fånga %{count} bitar byte detta månvarv."
+        },
+        "focus_prey": {
+            "zero": "Trots klanens fokuserade ansträngningar så lyckades man ej samla extra byte.",
+            "one": "Tack vare klanens fokuserade ansträngningar har %{count} extra bit byte samlats.",
+            "many": "Tack vare klanens fokuserade ansträngningar har %{count} extra bitar byte samlats."
+        },
+        "focus_herbs": {
+            "zero": "Trots klanens fokuserade ansträngningar så lyckades man ej samla extra helande örter.",
+            "one": "Tack vare klanens fokuserade ansträngningar har %{count} helande ört samlats.",
+            "many": "Tack vare klanens fokuserade ansträngningar har %{count} helande örter samlats."
+        },
+        "focus_herbs_log": "Tack vare klanens fokuserade ansträngningar har följande helande ört samlats: %{herbs}.",
+        "focus_raid_prey": {
+            "one": "Tack vare klanens fokuserade ansträngningar har %{amount} extra bit byte... samlats.",
+            "many": "Tack vare klanens fokuserade ansträngningar har %{amount} extra bitar byte... samlats."
+        },
+        "focus_injury_hoarding": {
+            "one": "En katt fick %{condition} på grund av klanens hamstring av byte och helande örter.",
+            "many": "Ett antal katter fick %{condition} på grund av klanens hamstring av byte och helande örter."
+        },
+        "focus_injury_raiding": {
+            "one": "En katt fick %{condition} när det gjordes en räd på en annan klan efter byte.",
+            "many": "Ett antal katter fick %{condition} när det gjordes en räd på en annan klan efter byte."
+        },
+        "focus_multi_prey_herbs": {
+            "zero": "Tack vare klanens fokuserade ansträngningar har %{warrior_amount} extra bitar byte samlats, dock inga helande örter.",
+            "one": "Tack vare klanens fokuserade ansträngningar har %{warrior_amount} extra bitar byte och %{count} helande ört samlats.",
+            "many": "Tack vare klanens fokuserade ansträngningar har %{warrior_amount} extra bitar byte och %{count} helande örter samlats."
+        },
+        "focus_one_prey_herbs": {
+            "zero": "Tack vare klanens fokuserade ansträngningar har %{warrior_amount} extra bit byte samlats, dock inga helande örter.",
+            "one": "Tack vare klanens fokuserade ansträngningar har %{warrior_amount} extra bit byte och %{count} helande ört samlats.",
+            "many": "Tack vare klanens fokuserade ansträngningar har %{warrior_amount} extra bit byte och %{count} helande örter samlats."
+        },
+        "focus_no_prey_herbs": {
+            "zero": "Trots klanens fokuserade ansträngningar så lyckades man ej samla varken extra byte eller helande örter.",
+            "one": "Tack vare klanens fokuserade ansträngningar har %{count} helande ört samlats, dock inget byte.",
+            "many": "Tack vare klanens fokuserade ansträngningar har %{count} helande örter samlats, dock inget byte."
+        },
+        "event_lost1": "Efter en lång vandring har m_c äntligen kommit hem till c_n igen.",
+        "event_lost2": "m_c fanns vid revirgränsen, trött men lättat att äntligen ha hittat hem.",
+        "event_lost3": "Till allas förvåning så kliver m_c in i lägret. {PRONOUN\/m_c\/subject\/CAP} är äntligen hemma!",
+        "event_lost4": "{PRONOUN\/m_c\/subject\/CAP} mötte massa vänner på {PRONOUN\/m_c\/poss} färd, men det är i c_n som m_c känner sig hemma. Med tårfyllda farväl, beger {PRONOUN\/m_c\/subject} sig hem.",
+        "event_lost_kits": {
+            "one": " {PRONOUN\/m_c\/subject\/CAP} kommer med {PRONOUN\/m_c\/poss} kattunge.",
+            "many": " {PRONOUN\/m_c\/subject\/CAP} kommer med {PRONOUN\/m_c\/poss} kattungar."
+        },
+        "kittencough_spread": {
+            "one": "Kattungehostan har spridit sig i barnkammaren. %{kits} har blivit smittad.",
+            "many": "Kattungehostan har spridit sig i barnkammaren. %{kits} har blivit smittade."
+        },
+        "flea_spread": {
+            "two": "Loppor har hoppas från päls till päls och nu är %{cats} båda loppbitna.",
+            "many": "Loppor har hoppas från päls till päls och nu är %{cats} alla loppbitna."
+        },
+        "illness_spread": "%{illness} har spridit sig i lägret. %{cats} har blivit smittade.",
+        "thought_new_cat": "Ser sig förundrat om i lägret",
+        "thought_new_kitten": "Gosar mysigt i barnkammaren",
+        "thought_meeting": "Är nyfiken på de där nya katterna",
+        "thought_new_dead": "Urforskar en ny, stjärnfylld värld",
+        "scar_event0": "m_c's %{injury} har läkte, men {PRONOUN\/m_c\/subject} kommer alltid bära spår av skadan i {PRONOUN\/m_c\/poss} päls.",
+        "scar_event1": "m_c har läkte från {PRONOUN\/m_c\/poss} %{injury} men kommer alltid bära ett ärr.",
+        "scar_event2": "m_c's %{injury} har läkt, men skadan har lämnat {PRONOUN\/m_c\/object} ärrad för livet.",
+        "move_on_dead_mate": "m_c kommer alltid älska %[mate}, men har beslutat sig att gå vidare med livet.",
+        "breakup_angy": "m_c och r_c hade ett stort gräl och gjorde slut.",
+        "breakup_chill": "m_c och r_c gjorde slut.",
+        "expired_prey": {
+            "one": "1 bit byte började ruttna och rensades från bytesdjurshögen.",
+            "many": "%{count} bitar byte började ruttna och rensades från bytesdjurshögen."
+        },
+        "consumed_prey": {
+            "one": "En bit byte var förtärd.",
+            "many": "%{count} bitar byte var förtärt."
+        }
+    }
+}
