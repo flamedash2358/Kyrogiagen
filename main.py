@@ -304,19 +304,21 @@ while 1:
     elif pygame.mouse.get_cursor() == cursor:
         pygame.mouse.set_cursor(disabled_cursor)
 
-    if game.switches["switch_clan"]:
-        game.patrol_cats.clear()
-        game.patrolled.clear()
-        load_game()
     # Draw screens
     # This occurs before events are handled to stop pygame_gui buttons from blinking.
     game.all_screens[game.current_screen].on_use()
     # EVENTS
     for event in pygame.event.get():
-        if event.type == pygame.KEYDOWN and game.settings["keybinds"] and debug_mode.debug_menu.visible:
+        if event.type == pygame.KEYDOWN \
+            and game.settings["keybinds"] \
+            and debug_mode.debug_menu.visible:
             pass
+        elif event.type == pygame.KEYDOWN and event.key == pygame.K_F5:
+            game.all_screens[game.current_screen].change_screen(game.current_screen)
+            game.switches["switch_clan"] = True
         else:
             game.all_screens[game.current_screen].handle_event(event)
+
         sound_manager.handle_sound_events(event)
 
         if event.type == pygame.QUIT:
@@ -366,6 +368,11 @@ while 1:
         MANAGER.process_events(event)
 
     MANAGER.update(time_delta)
+
+    if game.switches["switch_clan"]:
+        game.patrol_cats.clear()
+        game.patrolled.clear()
+        load_game()
 
     # update
     game.update_game()
