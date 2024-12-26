@@ -216,9 +216,6 @@ finished_loading = False
 def load_data():
     global finished_loading
 
-    # load in the spritesheets
-    sprites.load_all()
-
     clan_list = game.read_clans()
     if clan_list:
         game.switches["clan_list"] = clan_list
@@ -309,6 +306,8 @@ def load_game():
     #loading thread should be done by now, so just join it for safety.
     loading_thread.join()
 
+# load spritesheets
+sprites.load_all()
 load_game()
 
 pygame.mixer.pre_init(buffer=44100)

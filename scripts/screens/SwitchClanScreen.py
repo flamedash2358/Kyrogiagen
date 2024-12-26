@@ -75,8 +75,8 @@ class SwitchClanScreen(Screens):
         """
         self.main_menu.kill()
         del self.main_menu
-        self.info.kill()
-        del self.info
+        # self.info.kill()
+        # del self.info
         self.current_clan.kill()
         del self.current_clan
 
