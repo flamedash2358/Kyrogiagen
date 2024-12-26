@@ -374,7 +374,7 @@ class Thoughts:
                 loaded_thoughts, main_cat, other_cat, game_mode, biome, season, camp
             )
         
-        except Exception:
+        except IOError:
             traceback.print_exc()
             final_thoughts = i18n.t("defaults.thought")
         
@@ -396,7 +396,7 @@ class Thoughts:
                     )
                 )
                 chosen_thought = choice(chosen_thought_group["thoughts"])
-        except Exception:
+        except IOError:
             traceback.print_exc()
             chosen_thought = i18n.t("defaults.thought")
 
@@ -435,7 +435,7 @@ class Thoughts:
             )
             chosen_thought = choice(thought_group["thoughts"])
             return chosen_thought
-        except Exception:
+        except IOError:
             traceback.print_exc()
             chosen_thought = i18n.t("defaults.thought")
             return chosen_thought
@@ -460,6 +460,6 @@ class Thoughts:
             )
             chosen_thought = choice(thought_group["thoughts"])
             return chosen_thought
-        except Exception:
+        except IOError:
             traceback.print_exc()
             return i18n.t("defaults.thought")
