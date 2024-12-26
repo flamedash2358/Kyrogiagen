@@ -128,7 +128,7 @@ class SwitchClanScreen(Screens):
         )
 
         self.info = pygame_gui.elements.UITextBox(
-            "Note: Switching clans will save the previous clan.",
+            "screens.switch_clan.info",
             # pylint: disable=line-too-long
             ui_scale(pygame.Rect((100, 600), (600, 70))),
             object_id=get_text_box_theme("#text_box_30_horizcenter"),

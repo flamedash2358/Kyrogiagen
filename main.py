@@ -309,13 +309,12 @@ while 1:
     game.all_screens[game.current_screen].on_use()
     # EVENTS
     for event in pygame.event.get():
-        if event.type == pygame.KEYDOWN \
-            and game.settings["keybinds"] \
-            and debug_mode.debug_menu.visible:
+        if ( 
+            event.type == pygame.KEYDOWN
+            and game.settings["keybinds"]
+            and debug_mode.debug_menu.visible
+        ):
             pass
-        elif event.type == pygame.KEYDOWN and event.key == pygame.K_F5:
-            game.all_screens[game.current_screen].change_screen(game.current_screen)
-            game.switches["switch_clan"] = True
         else:
             game.all_screens[game.current_screen].handle_event(event)
 
