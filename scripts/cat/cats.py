@@ -1173,13 +1173,13 @@ class Cat:
             amount = 8 - len(life_givers)
 
             if starclan:
-                cats_in_starcaln_or_darkforest = game.clan.starclan_cats
+                cats_in_starclan_or_darkforest = game.clan.starclan_cats
             else:
-                cats_in_starcaln_or_darkforest = game.clan.darkforest_cats
+                cats_in_starclan_or_darkforest = game.clan.darkforest_cats
 
             possible_life_givers = [
                 cat
-                for cat in cats_in_starcaln_or_darkforest
+                for cat in cats_in_starclan_or_darkforest
                 if self.fetch_cat(cat)
                 and cat not in life_givers
                 and self.fetch_cat(cat).status not in ["leader", "newborn"]
@@ -1196,20 +1196,20 @@ class Cat:
         ancient_leader = False
         if not life_giving_leader:
             if starclan:
-                cats_in_starcaln_or_darkforest = game.clan.starclan_cats.copy()
+                cats_in_starclan_or_darkforest = game.clan.starclan_cats.copy()
             else:
-                cats_in_starcaln_or_darkforest = game.clan.darkforest_cats.copy()
+                cats_in_starclan_or_darkforest = game.clan.darkforest_cats.copy()
             
             # choosing if the life giving leader will be the oldest leader or previous leader
             if randint(1, 2) == 1:
                 # pick the oldest leader in SC
                 ancient_leader = True
-                cats_in_starcaln_or_darkforest.sort(key=lambda x: -1 * int(Cat.fetch_cat(x).dead_for))
+                cats_in_starclan_or_darkforest.sort(key=lambda x: -1 * int(Cat.fetch_cat(x).dead_for))
             else:
                 # pick previous leader
-                cats_in_starcaln_or_darkforest.sort(key=lambda x: int(Cat.fetch_cat(x).dead_for))
+                cats_in_starclan_or_darkforest.sort(key=lambda x: int(Cat.fetch_cat(x).dead_for))
                 
-            for kitty in cats_in_starcaln_or_darkforest:
+            for kitty in cats_in_starclan_or_darkforest:
                 if (
                     self.fetch_cat(kitty)
                     and self.fetch_cat(kitty).status == "leader"
