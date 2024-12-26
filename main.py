@@ -335,6 +335,11 @@ while 1:
     elif pygame.mouse.get_cursor() == cursor:
         pygame.mouse.set_cursor(disabled_cursor)
 
+    if game.switches["switch_clan"]:
+        game.patrol_cats.clear()
+        game.patrolled.clear()
+        load_game()
+
     # Draw screens
     # This occurs before events are handled to stop pygame_gui buttons from blinking.
     game.all_screens[game.current_screen].on_use()
@@ -398,11 +403,6 @@ while 1:
         MANAGER.process_events(event)
 
     MANAGER.update(time_delta)
-
-    if game.switches["switch_clan"]:
-        game.patrol_cats.clear()
-        game.patrolled.clear()
-        load_game()
 
     # update
     game.update_game()

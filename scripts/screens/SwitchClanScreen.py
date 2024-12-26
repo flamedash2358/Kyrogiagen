@@ -62,7 +62,7 @@ class SwitchClanScreen(Screens):
                     if event.ui_element in page:
                         self.change_screen("start screen")
                         Clan.switch_clans(
-                            self.clan_name[self.page][page.index(event.ui_element)]
+                            self.clan_name[self.page][page.index(event.ui_element)], False
                         )
 
         elif event.type == pygame.KEYDOWN and game.settings["keybinds"]:
@@ -126,13 +126,13 @@ class SwitchClanScreen(Screens):
             starting_height=1,
         )
 
-        self.info = pygame_gui.elements.UITextBox(
-            "screens.switch_clan.info",
-            # pylint: disable=line-too-long
-            ui_scale(pygame.Rect((100, 600), (600, 70))),
-            object_id=get_text_box_theme("#text_box_30_horizcenter"),
-            manager=MANAGER,
-        )
+        # self.info = pygame_gui.elements.UITextBox(
+        #     "screens.switch_clan.info",
+        #     # pylint: disable=line-too-long
+        #     ui_scale(pygame.Rect((100, 600), (600, 70))),
+        #     object_id=get_text_box_theme("#text_box_30_horizcenter"),
+        #     manager=MANAGER,
+        # )
 
         self.current_clan = pygame_gui.elements.UITextBox(
             "screens.switch_clan.current_clan",

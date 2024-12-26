@@ -457,11 +457,14 @@ class Clan:
                         game.clan.medicine_cat = None
 
     @staticmethod
-    def switch_clans(clan):
+    def switch_clans(clan, save=True):
         """
         TODO: DOCS
         """
-        game.save_clanlist(clan)
+        if save:
+            game.save_clanlist(clan, True)
+        else:
+            game.save_clanlist(clan)
         game.switches["switch_clan"] = True
         #quit(savesettings=False, clearevents=True)
 
