@@ -19,7 +19,6 @@ from scripts.events_module.generate_events import GenerateEvents
 from scripts.events_module.relationship.relation_events import Relation_Events
 from scripts.game_structure.game_essentials import game
 from scripts.utility import (
-    clamp,
     event_text_adjust,
     change_clan_relations,
     change_relationship_values,
