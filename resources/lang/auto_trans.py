@@ -215,24 +215,28 @@ def translate_all_files(language_file_paths):
             if('_original' not in language_file_path):
                 print(f"File to translate: {language_file_path}")
                 data = load_json_file(language_file_path)
+                update_data = False
                 if not os.path.isfile(make_backup_file_name(language_file_path)):
                     #save_json(make_backup_file_name(language_file_path), data)
                     #translate file if it has never been transalted before
-                    if (type(data) is list):
+                    if (type(data) is list and len(data) > 0):
                         if (type(data[0]) is dict) and 'translation_type' in data[0].keys():
                             print("File already transalted, skipping file")
                         else:
+                            update_data = True
                             get_translated_list_content(data)
                             data = [{'translation_type': 'Google translate'}] + data
                     else:
                         if 'translation_type' not in data.keys():
+                            update_data = True
                             get_translated_dict_content(data)
                             translation_type = {'translation_type': 'Google translate'}
                             translation_type.update(data)
                             data = translation_type
                         else:
                             print("File already transalted, skipping file")
-                    save_json(language_file_path,data)
+                    if update_data == True:
+                        save_json(language_file_path,data)
                 else:
                     print("File already transalted, skipping file")
 
