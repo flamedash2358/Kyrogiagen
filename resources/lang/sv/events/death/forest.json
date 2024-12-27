@@ -1,5 +1,8 @@
 [
     {
+        "translation_type": "Human"
+    },
+    {
         "event_id": "fst_death_war_any1",
         "location": [
             "forest"
@@ -12,7 +15,7 @@
         ],
         "tags": [],
         "weight": 20,
-        "event_text": "m_c was killed by a falling branch during a battle in a heavily wooded area of the forest.",
+        "event_text": "m_c dödades av en fallande gren under strid i ett kraftigt trädbevuxen område av skogen.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -27,8 +30,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c was crushed by a falling branch.",
-                "lead_death": "{VERB\/m_c\/were\/was} crushed by a falling branch."
+                "reg_death": "m_c var krossad av a fallande gren.",
+                "lead_death": "{VERB/m_c/were/was} krossades av a fallande gren."
             }
         ]
     },
@@ -42,7 +45,7 @@
         ],
         "tags": [],
         "weight": 20,
-        "event_text": "m_c was found dead underneath an oak tree with dog scent wreathing around {PRONOUN\/m_c\/object}.",
+        "event_text": "m_c var funnen död under en ek med hund doft stinkande runt {PRONOUN/m_c/object}.",
         "m_c": {
             "not_skill": [
                 "CLIMBER,2"
@@ -60,8 +63,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c fell out of a tree while trying to escape from a dog.",
-                "lead_death": "fell out of a tree while trying to escape a dog"
+                "reg_death": "m_c föll från ett träd när de jagadddes av hundar.",
+                "lead_death": "föll från ett träd när de jagades av hund"
             }
         ]
     },
@@ -75,7 +78,7 @@
         ],
         "tags": [],
         "weight": 20,
-        "event_text": "m_c was crushed when a tree fell into camp.",
+        "event_text": "m_c krossades av ett träd som föll in i lägret.",
         "m_c": {
             "dies": true
         },
@@ -84,8 +87,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c was crushed by a falling tree.",
-                "lead_death": "{VERB\/m_c\/were\/was} crushed by a falling tree"
+                "reg_death": "m_c var krossad av a fallande träd.",
+                "lead_death": "var krossad av a fallande träd"
             }
         ]
     },
@@ -101,7 +104,7 @@
             "no_body"
         ],
         "weight": 20,
-        "event_text": "m_c was carried off by an owl, never to be seen again.",
+        "event_text": "m_c bars bort av en uggla och sågs aldrig igen.",
         "m_c": {
             "age": [
                 "kitten",
@@ -114,7 +117,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c was carried away by an owl."
+                "reg_death": "m_c bars bort av en uggla."
             }
         ]
     },
@@ -130,7 +133,7 @@
             "no_body"
         ],
         "weight": 20,
-        "event_text": "r_c, guarding camp, yowls a warning as {PRONOUN\/r_c\/subject} {VERB\/r_c\/spot\/spots} a circling shadow, right above m_c. r_c starts sprinting to m_c's position but can't get there in time, not before m_c is carried high into the sky by a rook.",
+        "event_text": "r_c, som bevakade lägret, jamar en varning då {PRONOUN/r_c/subject} ser en cirkulerande skugga dyker upp rätt ovan m_c. r_c rusar mot m_cs position, men hinner inte hindra m_c från att bäras iväg av en råka.",
         "m_c": {
             "age": [
                 "kitten",
@@ -159,7 +162,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c was grabbed by a rook, never to be seen again."
+                "reg_death": "m_c var greppad av a råka och har aldrig setts igen."
             }
         ]
     }
