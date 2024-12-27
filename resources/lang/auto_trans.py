@@ -29,6 +29,7 @@ KEYS_TO_NOT_TRANSLATE = [
     'season',
     'tags',
     'weight',
+    'not_skill',
     #resources\lang\sv\events\disasters
     'event',
     'camp',
@@ -93,8 +94,11 @@ KEYS_TO_NOT_TRANSLATE = [
     'stat_trait',
     'dead_cats',
     'stat_skill'
+]
 
-
+FILES_TO_NOT_TRANSLATE = [
+    f"{DEST_LANGUAGE}\\config.json",
+    f"\\{DEST_LANGUAGE}\\events\\ceremonies\\ceremony-master.json",
 
 ]
 
@@ -109,8 +113,7 @@ def get_files_to_translate(base_path:str):
         y 
         for x in os.walk(f"{base_path}\\") 
         for y in glob(os.path.join(x[0], '*.json'))
-        if y != 'sv\\config.json'
-        and y != '\\sv\\events\\ceremonies\\ceremony-master.json'
+        if y not in FILES_TO_NOT_TRANSLATE
     ]
     return language_file_paths
 
@@ -181,28 +184,26 @@ def get_translated_list_content(data: list):
             #print('->',data[index])
     return data
 
-def is_text_tag(key):
-    '''
-    filter out dictionary keys that should not be translated
-    '''
-    if ( key in KEYS_TO_NOT_TRANSLATE):
-        return False
-    return True
     
 def get_translated_dict_content(data: dict):
     '''
     Recursive search and replace for text to translate
     '''
-    for key, val in data.items():
-        if (is_text_tag(key)):
-            if (type(val) is list):
-                data[key] = get_translated_list_content(val)
-            elif (type(val) is dict):
-                data[key] = get_translated_dict_content(val)
-            else:
-                #print(data[key])
-                data[key] = translate(val)
-                #print('->',data[key])
+    all_keys = data.keys()
+    relevant_keys = [
+        key
+        for key in all_keys
+        if key not in KEYS_TO_NOT_TRANSLATE
+    ]
+    for key in relevant_keys:
+        if (type(data[key]) is list):
+            data[key] = get_translated_list_content(data[key])
+        elif (type(data[key]) is dict):
+            data[key] = get_translated_dict_content(data[key])
+        else:
+            #print(data[key])
+            data[key] = translate(data[key])
+            #print('->',data[key])
     return data
 
 def translate_all_files(language_file_paths):
@@ -219,24 +220,25 @@ def translate_all_files(language_file_paths):
                 if not os.path.isfile(make_backup_file_name(language_file_path)):
                     #save_json(make_backup_file_name(language_file_path), data)
                     #translate file if it has never been transalted before
-                    if (type(data) is list and len(data) > 0):
-                        if (type(data[0]) is dict) and 'translation_type' in data[0].keys():
-                            print("File already transalted, skipping file")
-                        else:
-                            update_data = True
-                            get_translated_list_content(data)
-                            data = [{'translation_type': 'Google translate'}] + data
-                    else:
-                        if 'translation_type' not in data.keys():
-                            update_data = True
-                            get_translated_dict_content(data)
-                            translation_type = {'translation_type': 'Google translate'}
-                            translation_type.update(data)
-                            data = translation_type
-                        else:
-                            print("File already transalted, skipping file")
-                    if update_data == True:
-                        save_json(language_file_path,data)
+                    if (
+                        type(data) is list
+                        and (
+                            len(data) == 0
+                            or  type(data[0]) is not dict 
+                            or 'translation_type' not in data[0].keys()
+                        )
+                    ):
+                        update_data = True
+                        get_translated_list_content(data)
+                        data = [{'translation_type': 'Google translate'}] + data
+                    elif (type(data) is dict and 'translation_type' not in data.keys()):
+                        update_data = True
+                        get_translated_dict_content(data)
+                        translate_entry = {'translation_type': 'Google translate'}
+                        translate_entry.update(data)
+                        data = translate_entry
+                if update_data == True:
+                    save_json(language_file_path,data)
                 else:
                     print("File already transalted, skipping file")
 
