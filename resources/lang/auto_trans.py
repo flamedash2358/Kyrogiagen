@@ -106,7 +106,9 @@ KEYS_TO_NOT_TRANSLATE = [
     'dead_cats',
     'stat_skill',
     'new_cat',
-    'prey'
+    'prey',
+    #resources\lang\sv\thoughts
+    'main_skill_constraint'
 ]
 
 SPECIAL_FILES = [
