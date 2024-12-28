@@ -3,7 +3,10 @@ from glob import glob
 import json
 from googletrans import Translator #pip install googletrans==3.1.0a0, Python 3.13+ break without this specific version
 
-translated_files = []
+translated_files = {}
+translated_files_type = []
+
+translated_files_output = []
 
 
 DEST_LANGUAGE = 'sv'
@@ -130,10 +133,10 @@ def save_translated_files(files):
     '''
     Save a JSON data structure into a .json-file
     '''
-    file_srt = ('\n').join(files)
+    file_str = ('\n').join(files)
     # Open and owerwrite the JSON file
     with open("tranlated_files.txt", "w") as outfile:
-        outfile.write(file_srt)
+        outfile.write(file_str)
 
 
 def load_translated_files():
@@ -143,7 +146,8 @@ def load_translated_files():
     # Open and owerwrite the JSON file
     with open("tranlated_files.txt", 'r') as file:
         for line in file:
-            translated_files.append(line.replace('\n',''))
+            line_data = line.replace('\n','').split(',')
+            translated_files[line_data[0]] = line_data[1]
     return translated_files
 
 
@@ -266,59 +270,44 @@ def ceremony_master_special_translation():
 
 def translate_all_files(language_file_paths: list[str]):
     '''
-    Take a list of json file paths and translate any string type
-    that is not specified to not translate.
+    Google translate any file that has no translation
     '''
-    
-    #Files following the standard transaltion function
     for language_file_path in language_file_paths:
-        if('_original' not in language_file_path):
+        #Skip retranslating files
+        if (language_file_path not in translated_files.keys()):
             print(f"File to translate: {language_file_path}")
             data = load_json_file(language_file_path)
-            update_data = False
-            #.json-file start with either list or dict type
-            #if it has already been tagged as tranlslated, skip it
-            if (
-                type(data) is list
-                and (
-                    len(data) == 0
-                    or  type(data[0]) is not dict 
-                    or 'translation_type' not in data[0].keys()
-                )
-            ):
-            #    #Translate, and tag as google translated
-            #    get_translated_list_content(data)
-                update_data = True
-            #    data = [{'translation_type': 'Google translate'}] + data
+            if ( type(data) is list ):
+                get_translated_list_content(data)
                 pass
-            elif (type(data) is dict and 'translation_type' not in data.keys()):
-                #Translate, and tag as google translated
-            #    get_translated_dict_content(data)
-                update_data = True
-            #    translate_entry = {'translation_type': 'Google translate'}
-            #    translate_entry.update(data)
-            #    data = translate_entry
+            elif (type(data) is dict):
+                get_translated_dict_content(data)
                 pass
-            if update_data == True:
-                #save_json(language_file_path,data)
-                pass
-            else:
-                translated_files.append(language_file_path)
-                print("File already transalted, skipping file")
-        print("\n")
+            save_json(language_file_path,data)
+            translated_files_output.append(language_file_path + ',GoogleTranslate')
+        else:
+            print(f"{language_file_path} already transalted, skipping file")
+            if translated_files[language_file_path] != 'Human':
+                print(f"WARNING: THIS IS A {translated_files[language_file_path]} TRANSLATION AND MAY BE INACCURATE OR OFFENSIVE")
+        print("")
+        #update transaltion progress
+        save_translated_files(translated_files_output)
+
     #Any special made function that don't follow standard transaltion flow
     #ceremony_master_special_translation()
 
 '''
 START
 '''
+#Load translation progress
+translated_files = load_translated_files()
+#make sure previous translation progress is preserved
+for file, translation_type in translated_files.items():
+    translated_files_output.append(file+','+translation_type)
 
+#Translate
 translate_all_files(get_files_to_translate(DEST_LANGUAGE))
 
-#save_translated_files(translated_files)
-
-print(load_translated_files())
-print(get_files_to_translate(DEST_LANGUAGE))
 
 
 
