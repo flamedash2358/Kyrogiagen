@@ -157,20 +157,7 @@ def translate(data):
     the word as long as it's not a replacement holder, such as 'm_c'
     '''
     if (type(data) is str):
-        words = data.split(' ')
-        for word_index in range(len(words)):
-            if(
-                words[word_index] != ''
-                and '_' not in words[word_index]
-                and words[word_index][0] not in PLACE_HOLDER_START_LETTER
-                and words[word_index] not in WORDS_TO_NOT_TRANSLATE
-            ):
-                words[word_index] = translator.translate(
-                    words[word_index]
-                    , src=SRC_LANGUAGE,dest=DEST_LANGUAGE
-                ).text
-        data = ' '.join(words)
-        return data
+        return translator.translate(data, src=SRC_LANGUAGE,dest=DEST_LANGUAGE).text
     else:
         return data
 
