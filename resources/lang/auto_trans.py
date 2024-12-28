@@ -99,7 +99,8 @@ KEYS_TO_NOT_TRANSLATE = [
     'stat_trait',
     'dead_cats',
     'stat_skill',
-    'new_cat'
+    'new_cat',
+    'prey'
 ]
 
 SPECIAL_FILES = [
