@@ -9,22 +9,22 @@ translated_files_type = []
 translated_files_output = []
 
 
-DEST_LANGUAGE = 'sv'
-SRC_LANGUAGE = 'en'
+DEST_LANGUAGE = "sv"
+SRC_LANGUAGE = "en"
 
 PLACE_HOLDER_START_LETTER = [
-    '%',
-    '{',
-    '[',
+    "%",
+    "{",
+    "[",
 ]
 
 WORDS_TO_NOT_TRANSLATE = [
-    'm_c',
-    'r_c',
-    'c_n',
-    's_c',
-    'p_l',
-    'o_n_g'
+    "m_c",
+    "r_c",
+    "c_n",
+    "s_c",
+    "p_l",
+    "o_n_g"
 ]
 
 '''
@@ -36,85 +36,85 @@ and minimize the redundatn checks.
 KEYS_TO_NOT_TRANSLATE = [
     "comment",
     #resources\lang\sv\events\death
-    'event_id',
-    'location',
-    'season',
-    'tags',
-    'weight',
-    'not_skill',
-    'relationship_status',
+    "event_id",
+    "location",
+    "season",
+    "tags",
+    "weight",
+    "not_skill",
+    "relationship_status",
     #resources\lang\sv\events\disasters
-    'event',
-    'camp',
-    'season',
-    'priority',
-    'duration',
-    'rarity',
-    'disaster',
-    'triggers_during',
-    'chance',
+    "event",
+    "camp",
+    "season",
+    "priority",
+    "duration",
+    "rarity",
+    "disaster",
+    "triggers_during",
+    "chance",
     #resources\lang\sv\events\injury
-    'event_id',
-    'location',
-    'status',
-    'trait',
-    'age',
-    'Values',
-    'amount',
-    'mutual',
+    "event_id",
+    "location",
+    "status",
+    "trait",
+    "age",
+    "Values",
+    "amount",
+    "mutual",
     #resources\lang\sv\events\leader_den
-    'interaction_type',
-    'rel_change',
-    'player_clan_temper',
-    'other_clan_temper',
-    'skill',
-    'relationships',
+    "interaction_type",
+    "rel_change",
+    "player_clan_temper",
+    "other_clan_temper",
+    "skill",
+    "relationships",
     #resources\lang\sv\events\misc
-    'sub_type',
-    'not_trait',
-    'current_rep',
-    'herbs',
-    'injuries',
-    'scars',
-    'pl_skill_constraint',
+    "sub_type",
+    "not_trait",
+    "current_rep",
+    "herbs",
+    "injuries",
+    "scars",
+    "pl_skill_constraint",
     #resources\lang\sv\events\relationship_events\group_interactions
     "id",
     "cat_amount",
     "intensity",
     "relationship_constraint",
-    'specific_reaction',
-    'trait_constraint',
-    'general_reaction',
-    'status_constraint',
+    "specific_reaction",
+    "trait_constraint",
+    "general_reaction",
+    "status_constraint",
     #resources\lang\sv\events\relationship_events\normal_interactions
-    'reaction_random_cat',
-    'main_status_constraint',
-    'random_status_constraint',
-    'also_influences',
-    'main_trait_constraint',
-    'random_trait_constraint',
+    "reaction_random_cat",
+    "main_status_constraint",
+    "random_status_constraint",
+    "also_influences",
+    "main_trait_constraint",
+    "random_trait_constraint",
     #resources\lang\sv\events
-    'lead_trait',
-    'star_trait',
-    'rank',
+    "lead_trait",
+    "star_trait",
+    "rank",
     #resources\lang\sv\patrols
-    'patrol_id',
-    'biome',
-    'types',
-    'patrol_art',
-    'min_cats',
-    'max_cats',
-    'min_max_status',
-    'chance_of_success',
-    'cats_to',
-    'cats_from',
-    'stat_trait',
-    'dead_cats',
-    'stat_skill',
-    'new_cat',
-    'prey',
+    "patrol_id",
+    "biome",
+    "types",
+    "patrol_art",
+    "min_cats",
+    "max_cats",
+    "min_max_status",
+    "chance_of_success",
+    "cats_to",
+    "cats_from",
+    "stat_trait",
+    "dead_cats",
+    "stat_skill",
+    "new_cat",
+    "prey",
     #resources\lang\sv\thoughts
-    'main_skill_constraint'
+    "main_skill_constraint"
 ]
 
 SPECIAL_FILES = [
@@ -133,7 +133,7 @@ def save_translated_files(files):
     '''
     Save a JSON data structure into a .json-file
     '''
-    file_str = ('\n').join(files)
+    file_str = ("\n").join(files)
     # Open and owerwrite the JSON file
     with open("tranlated_files.txt", "w") as outfile:
         outfile.write(file_str)
@@ -144,9 +144,9 @@ def load_translated_files():
     Save a JSON data structure into a .json-file
     '''
     # Open and owerwrite the JSON file
-    with open("tranlated_files.txt", 'r') as file:
+    with open("tranlated_files.txt", "r") as file:
         for line in file:
-            line_data = line.replace('\n','').split(',')
+            line_data = line.replace("\n","").split(",")
             translated_files[line_data[0]] = line_data[1]
     return translated_files
 
@@ -159,7 +159,7 @@ def get_files_to_translate(base_path:str):
     language_file_paths = [
         y 
         for x in os.walk(f"{base_path}\\") 
-        for y in glob(os.path.join(x[0], '*.json'))
+        for y in glob(os.path.join(x[0], "*.json"))
         if y not in SPECIAL_FILES
     ]
     return language_file_paths
@@ -194,7 +194,7 @@ def load_json_file(file_path: str):
     '''
     Open and return data of a .json-file
     '''
-    with open(file_path, 'r') as file:
+    with open(file_path, "r") as file:
         return json.load(file)
 
 '''
@@ -254,13 +254,13 @@ def ceremony_master_special_translation():
     '''
     print(f"File to translate: {SPECIAL_FILES[1]}")
     data = load_json_file(SPECIAL_FILES[1])
-    if (type(data) is dict and 'translation_type' not in data.keys()):
+    if (type(data) is dict and "translation_type" not in data.keys()):
         for key in data.keys():
             for index in range(len(data[key])):
                 if type(data[key][index]) is str:
                     data[key][index] = translate(data[key][index])
         
-        translate_entry = {'translation_type': 'Google translate'}
+        translate_entry = {"translation_type": "Google translate"}
         translate_entry.update(data)
         data = translate_entry
         save_json(SPECIAL_FILES[1],data)
@@ -289,10 +289,10 @@ def translate_all_files(language_file_paths: list[str]):
         #Skip retranslating files
         if (language_file_path not in translated_files.keys()):
             generic_translte_file(language_file_path)
-            translated_files_output.append(language_file_path + ',GoogleTranslate')
+            translated_files_output.append(language_file_path + ",GoogleTranslate")
         else:
             print(f"{language_file_path} already transalted, skipping file")
-            if translated_files[language_file_path] != 'Human':
+            if translated_files[language_file_path] != "Human":
                 print(f"WARNING: THIS IS A {translated_files[language_file_path]} TRANSLATION AND MAY BE INACCURATE OR OFFENSIVE")
         print("")
         #update transaltion progress
@@ -309,7 +309,7 @@ translated_files = load_translated_files()
 
 #make sure previous translation progress is preserved
 for file, translation_type in translated_files.items():
-    translated_files_output.append(file+','+translation_type)
+    translated_files_output.append(file+","+translation_type)
 
 #Translate
 translate_all_files(get_files_to_translate(DEST_LANGUAGE))
