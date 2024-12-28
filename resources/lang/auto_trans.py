@@ -1,7 +1,7 @@
 import os
 from glob import glob
 import json
-from googletrans import Translator
+from googletrans import Translator #pip install googletrans==3.1.0a0
 
 DEST_LANGUAGE = 'sv'
 SRC_LANGUAGE = 'en'
@@ -30,6 +30,7 @@ KEYS_TO_NOT_TRANSLATE = [
     'tags',
     'weight',
     'not_skill',
+    'relationship_status',
     #resources\lang\sv\events\disasters
     'event',
     'camp',
@@ -59,7 +60,7 @@ KEYS_TO_NOT_TRANSLATE = [
     #resources\lang\sv\events\misc
     'sub_type',
     'not_trait',
-    'current_rep'
+    'current_rep',
     #resources\lang\sv\events\relationship_events\group_interactions
     "id",
     "cat_amount",
@@ -93,12 +94,13 @@ KEYS_TO_NOT_TRANSLATE = [
     'cats_from',
     'stat_trait',
     'dead_cats',
-    'stat_skill'
+    'stat_skill',
+    'new_cat'
 ]
 
-FILES_TO_NOT_TRANSLATE = [
+SPECIAL_FILES = [
     f"{DEST_LANGUAGE}\\config.json",
-    f"\\{DEST_LANGUAGE}\\events\\ceremonies\\ceremony-master.json",
+    f"{DEST_LANGUAGE}\\events\\ceremonies\\ceremony-master.json",
 
 ]
 
@@ -113,7 +115,7 @@ def get_files_to_translate(base_path:str):
         y 
         for x in os.walk(f"{base_path}\\") 
         for y in glob(os.path.join(x[0], '*.json'))
-        if y not in FILES_TO_NOT_TRANSLATE
+        if y not in SPECIAL_FILES
     ]
     return language_file_paths
 
@@ -242,6 +244,22 @@ def translate_all_files(language_file_paths):
                 else:
                     print("File already transalted, skipping file")
 
+def ceremony_master_special_translation():
+    print(f"File to translate: {SPECIAL_FILES[1]}")
+    data = load_json_file(SPECIAL_FILES[1])
+    if (type(data) is dict and 'translation_type' not in data.keys()):
+        for key in data.keys():
+            for index in range(len(data[key])):
+                if type(data[key][index]) is str:
+                    data[key][index] = translate(data[key][index])
+        
+        translate_entry = {'translation_type': 'Google translate'}
+        translate_entry.update(data)
+        data = translate_entry
+        save_json(SPECIAL_FILES[1],data)
+    else:
+        print("File already transalted, skipping file")
+
 translate_all_files(get_files_to_translate(DEST_LANGUAGE))
 
-
+ceremony_master_special_translation()
