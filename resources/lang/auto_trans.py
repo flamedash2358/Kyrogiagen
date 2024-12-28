@@ -3,6 +3,9 @@ from glob import glob
 import json
 from googletrans import Translator #pip install googletrans==3.1.0a0, Python 3.13+ break without this specific version
 
+translated_files = []
+
+
 DEST_LANGUAGE = 'sv'
 SRC_LANGUAGE = 'en'
 
@@ -123,6 +126,27 @@ translator = Translator()
 FILE HANDLING
 '''
 
+def save_translated_files(files):
+    '''
+    Save a JSON data structure into a .json-file
+    '''
+    file_srt = ('\n').join(files)
+    # Open and owerwrite the JSON file
+    with open("tranlated_files.txt", "w") as outfile:
+        outfile.write(file_srt)
+
+
+def load_translated_files():
+    '''
+    Save a JSON data structure into a .json-file
+    '''
+    # Open and owerwrite the JSON file
+    with open("tranlated_files.txt", 'r') as file:
+        for line in file:
+            translated_files.append(line.replace('\n',''))
+    return translated_files
+
+
 
 def get_files_to_translate(base_path:str): 
     '''
@@ -237,6 +261,7 @@ def ceremony_master_special_translation():
         data = translate_entry
         save_json(SPECIAL_FILES[1],data)
     else:
+        translated_files.append(SPECIAL_FILES[1])
         print("File already transalted, skipping file")
 
 def translate_all_files(language_file_paths: list[str]):
@@ -261,29 +286,40 @@ def translate_all_files(language_file_paths: list[str]):
                     or 'translation_type' not in data[0].keys()
                 )
             ):
-                #Translate, and tag as google translated
-                get_translated_list_content(data)
+            #    #Translate, and tag as google translated
+            #    get_translated_list_content(data)
                 update_data = True
-                data = [{'translation_type': 'Google translate'}] + data
+            #    data = [{'translation_type': 'Google translate'}] + data
+                pass
             elif (type(data) is dict and 'translation_type' not in data.keys()):
                 #Translate, and tag as google translated
-                get_translated_dict_content(data)
+            #    get_translated_dict_content(data)
                 update_data = True
-                translate_entry = {'translation_type': 'Google translate'}
-                translate_entry.update(data)
-                data = translate_entry
+            #    translate_entry = {'translation_type': 'Google translate'}
+            #    translate_entry.update(data)
+            #    data = translate_entry
+                pass
             if update_data == True:
-                save_json(language_file_path,data)
+                #save_json(language_file_path,data)
+                pass
             else:
+                translated_files.append(language_file_path)
                 print("File already transalted, skipping file")
         print("\n")
     #Any special made function that don't follow standard transaltion flow
-    ceremony_master_special_translation()
+    #ceremony_master_special_translation()
 
 '''
 START
 '''
 
 translate_all_files(get_files_to_translate(DEST_LANGUAGE))
+
+#save_translated_files(translated_files)
+
+print(load_translated_files())
+print(get_files_to_translate(DEST_LANGUAGE))
+
+
 
 
