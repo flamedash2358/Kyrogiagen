@@ -26,9 +26,6 @@ import time
 from importlib import reload
 from importlib.util import find_spec
 
-if False:
-    pass
-
 if not getattr(sys, "frozen", False):
     requiredModules = [
         "ujson",
