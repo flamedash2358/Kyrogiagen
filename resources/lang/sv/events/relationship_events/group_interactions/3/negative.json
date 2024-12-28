@@ -1,10 +1,13 @@
 [
     {
+        "translation_type": "Human"
+    },
+    {
         "id": "group_3_negative_gossip",
         "cat_amount": 3,
         "intensity": "low",
         "interactions": [
-            "m_c is gossiping with r_c1 about r_c2"
+            "m_c skvallrar med r_c1 om r_c2"
         ],
         "relationship_constraint": {
             "m_c_to_r_c2": [
@@ -38,7 +41,7 @@
         "id": "group_3_negative_argument",
         "cat_amount": 3,
         "interactions": [
-            "m_c started a huge argument between r_c1 and r_c2."
+            "m_c startade ett stor slagsmål mellan r_c1 och r_c2."
         ],
         "trait_constraint": {
             "m_c": [
@@ -53,33 +56,33 @@
         "id": "group_3_leader_neg1",
         "cat_amount": 3,
         "interactions": [
-            "After having r_c2 challenge {PRONOUN\/m_c\/object}, m_c commands r_c1 to help {PRONOUN\/m_c\/object} punish r_c2. Everyone ends up hurt, though m_c feels {PRONOUN\/m_c\/subject} can trust r_c1 more."
+            "Efter att ha blivit utmananad av r_c2, beordrar m_c r_c1 att hj\u00e4lpa {PRONOUN/m_c/object} straffa r_c2. Alla blir s\u00e5rade, \u00e4ven om m_c k\u00e4nner att {PRONOUN/m_c/subject} kan lita p\u00e5 r_c1 mer."
         ],
         "get_injuries": {
             "m_c": {
                 "injury_names": [
                     "claw-wound"
                 ],
-                "scar_text": "m_c got a scar after r_c2 challenged {PRONOUN\/m_c\/object}.",
-                "death_text": "Died after r_c2 challenged {PRONOUN\/m_c\/object}.",
-                "death_leader_text": "{VERB\/m_c\/were\/was} challenged by r_c2"
+                "scar_text": "m_c fick ett \u00e4rr efter att r_c2 utmanade {PRONOUN/m_c/object}.",
+                "death_text": "D\u00f6d efter att r_c2 utmanade {PRONOUN/m_c/object}.",
+                "death_leader_text": "{VERB/m_c/were/was} utmanades av r_c2"
             },
             "r_c1": {
                 "injury_names": [
                     "claw-wound"
                 ],
-                "scar_text": "Got a scar while punishing r_c2 in the name of m_c.",
-                "death_text": "Died after punishing r_c2 in the name of m_c.",
-                "death_leader_text": "{VERB\/r_c1\/were\/was} punishing r_c2"
+                "scar_text": "Fick ett \u00e4rr n\u00e4r de straffade r_c2 i m_c namn.",
+                "death_text": "Dog när de försökte straffa r_c2 i m_c namn.",
+                "death_leader_text": "Straffade r_c2"
             },
             "r_c2": {
                 "injury_names": [
                     "claw-wound",
                     "bite-wound"
                 ],
-                "scar_text": "r_c2 challenged m_c, was punished by r_c1 for this, and got a scar as a reminder of {PRONOUN\/r_c2\/poss} actions.",
-                "death_text": "{PRONOUN\/r_c2\/subject\/CAP} challenged m_c, {VERB\/r_c2\/were\/was} punished by r_c1, and died as a result.",
-                "death_leader_text": "challenged m_c and got punished by r_c1 as a result"
+                "scar_text": "r_c2 utmanade m_c, men straffades av r_c1 och fick ett \u00e4rr som en p\u00e5minnelse om {PRONOUN/r_c2/poss} handlingar.",
+                "death_text": "{PRONOUN/r_c2/subject/CAP} utmanade m_c, men straffades av r_c1 och dog som ett resultat.",
+                "death_leader_text": "utmanade m_c och blev straffad med r_c1 som ett resultat"
             }
         },
         "status_constraint": {
@@ -136,7 +139,7 @@
         "id": "group_3_leader_neg2",
         "cat_amount": 3,
         "interactions": [
-            "m_c and r_c1 discuss where they should be marking the border. r_c2 overhears, and disagrees with their decision, causing m_c and r_c1 to sneer at {PRONOUN\/r_c2\/object} in distaste."
+            "m_c och r_c1 diskuterar var de ska markera revir. r_c2 h\u00f6r och h\u00e5ller inte med om deras beslut, vilket f\u00e5r m_c och r_c1 att h\u00e5na {PRONOUN/r_c2/object}."
         ],
         "status_constraint": {
             "m_c": [
