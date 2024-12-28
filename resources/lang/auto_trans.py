@@ -43,6 +43,11 @@ KEYS_TO_NOT_TRANSLATE = [
     "weight",
     "not_skill",
     "relationship_status",
+    "trigger",
+    "adjust",
+    'backstory',
+    "subtype",
+    "type",
     #resources\lang\sv\events\disasters
     "event",
     "camp",
@@ -113,8 +118,25 @@ KEYS_TO_NOT_TRANSLATE = [
     "stat_skill",
     "new_cat",
     "prey",
+    "can_have_stat",
+    "lost_cats",
+
     #resources\lang\sv\thoughts
-    "main_skill_constraint"
+    "relationship_constraint",
+    "relationship_constraint",
+    "main_age_constraint",
+    "main_backstory_constraint",
+    "main_living_status",
+    "main_outside_status",
+    "main_skill_constraint",
+    "main_status_constraint"
+    "random_age_constraint",
+    "random_backstory_constraint",
+    "random_living_status",
+    "random_outside_status",
+    "random_skill_constraint",
+    "random_status_constraint",
+    
 ]
 
 SPECIAL_FILES = [
@@ -129,11 +151,14 @@ translator = Translator()
 FILE HANDLING
 '''
 
-def save_translated_files(files):
+def save_translated_files():
     '''
     Save a JSON data structure into a .json-file
     '''
-    file_str = ("\n").join(files)
+    file_str = ""
+    for file, tranclation_type in translated_files.items():
+        print(file + "," + tranclation_type + "\n")
+        file_str += file + "," + tranclation_type + "\n"
     # Open and owerwrite the JSON file
     with open("tranlated_files.txt", "w") as outfile:
         outfile.write(file_str)
@@ -287,16 +312,16 @@ def translate_all_files(language_file_paths: list[str]):
     '''
     for language_file_path in language_file_paths:
         #Skip retranslating files
-        if (language_file_path not in translated_files.keys()):
+        if (language_file_path not in translated_files.keys() or translated_files[language_file_path] == "None" ):
             generic_translte_file(language_file_path)
-            translated_files_output.append(language_file_path + ",GoogleTranslate")
+            translated_files[language_file_path] = language_file_path + ",GoogleTranslate"
+            save_translated_files()
         else:
             print(f"{language_file_path} already transalted, skipping file")
             if translated_files[language_file_path] != "Human":
                 print(f"WARNING: THIS IS A {translated_files[language_file_path]} TRANSLATION AND MAY BE INACCURATE OR OFFENSIVE")
         print("")
         #update transaltion progress
-        save_translated_files(translated_files_output)
 
     #Any special made function that don't follow standard transaltion flow
     #ceremony_master_special_translation()
@@ -306,10 +331,6 @@ START
 '''
 #Load translation progress
 translated_files = load_translated_files()
-
-#make sure previous translation progress is preserved
-for file, translation_type in translated_files.items():
-    translated_files_output.append(file+","+translation_type)
 
 #Translate
 translate_all_files(get_files_to_translate(DEST_LANGUAGE))
