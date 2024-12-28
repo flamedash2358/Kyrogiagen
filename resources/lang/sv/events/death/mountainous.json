@@ -1,5 +1,8 @@
 [
     {
+        "translation_type": "Human"
+    },
+    {
         "event_id": "mtn_death_bury_multicamp1",
         "location": [
             "mountainous:camp1"
@@ -13,7 +16,7 @@
             "no_body"
         ],
         "weight": 20,
-        "event_text": "m_c was buried alive when an avalanche hit the camp.",
+        "event_text": "m_c var begravd levande när en lavin träffade lägret.",
         "m_c": {
             "dies": true
         },
@@ -22,8 +25,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c was buried alive in an avalanche.",
-                "lead_death": "{VERB\/m_c\/were\/was} buried alive in an avalanche"
+                "reg_death": "m_c var begravd levande i en lavin.",
+                "lead_death": "begravdes levande i en lavin"
             }
         ]
     },
@@ -40,7 +43,7 @@
             "clan:kitten"
         ],
         "weight": 20,
-        "event_text": "m_c sneaks out of camp but finds {PRONOUN\/m_c\/self} lost in the strange, angular tunnels that lead out into the territory. The Clan searches for {PRONOUN\/m_c\/object} in the morning to no avail. The leftover scent of blood and mountain weasel serves as an intense warning to the other kits.",
+        "event_text": "m_c smyger ut från lägret, men {PRONOUN/m_c/self} går vilse i de snirkeliga tunnlarna som elder ut ur Klanens revir. Klanen bildar en skallgångskedja dagen efter, men finner bara doften av blod och fjäll vessla. En skarp varning för Klanens andra katter.",
         "m_c": {
             "age": [
                 "kitten"
@@ -52,7 +55,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c was eaten by a mountain weasel when {PRONOUN\/m_c\/subject} tried to sneak out of camp."
+                "reg_death": "m_c var uppäten av a fjäll vessla när {PRONOUN/m_c/subject} försökte smyga ut ur lägret."
             }
         ]
     }
