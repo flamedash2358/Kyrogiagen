@@ -268,6 +268,19 @@ def ceremony_master_special_translation():
         translated_files.append(SPECIAL_FILES[1])
         print("File already transalted, skipping file")
 
+def generic_translte_file(language_file_path: str):
+    '''
+    take a json-file path and trasnalte it.
+    returns the file name and that si was translated with GoogleTranslate
+    '''
+    print(f"File to translate: {language_file_path}")
+    data = load_json_file(language_file_path)
+    if ( type(data) is list ):
+        get_translated_list_content(data)
+    elif (type(data) is dict):
+        get_translated_dict_content(data)
+    save_json(language_file_path,data)
+
 def translate_all_files(language_file_paths: list[str]):
     '''
     Google translate any file that has no translation
@@ -275,15 +288,7 @@ def translate_all_files(language_file_paths: list[str]):
     for language_file_path in language_file_paths:
         #Skip retranslating files
         if (language_file_path not in translated_files.keys()):
-            print(f"File to translate: {language_file_path}")
-            data = load_json_file(language_file_path)
-            if ( type(data) is list ):
-                get_translated_list_content(data)
-                pass
-            elif (type(data) is dict):
-                get_translated_dict_content(data)
-                pass
-            save_json(language_file_path,data)
+            generic_translte_file(language_file_path)
             translated_files_output.append(language_file_path + ',GoogleTranslate')
         else:
             print(f"{language_file_path} already transalted, skipping file")
@@ -301,6 +306,7 @@ START
 '''
 #Load translation progress
 translated_files = load_translated_files()
+
 #make sure previous translation progress is preserved
 for file, translation_type in translated_files.items():
     translated_files_output.append(file+','+translation_type)
