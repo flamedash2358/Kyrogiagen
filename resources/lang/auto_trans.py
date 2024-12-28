@@ -61,6 +61,10 @@ KEYS_TO_NOT_TRANSLATE = [
     'sub_type',
     'not_trait',
     'current_rep',
+    'herbs',
+    'injuries',
+    'scars',
+    'pl_skill_constraint',
     #resources\lang\sv\events\relationship_events\group_interactions
     "id",
     "cat_amount",
