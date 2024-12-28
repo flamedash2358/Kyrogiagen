@@ -8,7 +8,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "While batting a shiny skitter-pebble around m_c misjudged a pounce and smashed {PRONOUN/m_c/subject} tiny little snout into it.",
+        "event_text": "While batting a shiny skitter-pebble, around m_c misjudged a pounce and smashed {PRONOUN/m_c/subject} tiny little snout into it.",
         "m_c": {
             "status": [
                 "kitten"
@@ -39,7 +39,7 @@
             "greenleaf", "newleaf", "leaf-fall"
         ],
         "weight": 20,
-        "event_text": "Naive and innocent to the dangers of the sun, m_c falls asleep while sunbathing. Though {PRONOUN/m_c/subject} {VERB/m_c/are/is} retrieved promptly, the young are vulerable to the desert heat.",
+        "event_text": "Naive to the dangers of the sun, m_c falls asleep while sunbathing. Though {PRONOUN/m_c/subject} {VERB/m_c/are/is} retrieved promptly, the young are vulerable to the desert heat.",
         "m_c": {
             "status": [
                 "kitten"
@@ -264,7 +264,7 @@
             "greenleaf"
         ],
         "weight": 20,
-        "event_text": "Greenleaf is a harsh season for childhood. m_c was just outside a little too long.",
+        "event_text": "Greenleaf is a harsh season for childhood. m_c was outside for just a little too long, and when {PRONOUN/m_c/subject} {VERB/m_c/return/returns} to the nursery, {PRONOUN/m_c/poss} little body is dangerously hot.",
         "m_c": {
             "status": [
                 "kitten"
@@ -290,7 +290,7 @@
             "leaf-bare"
         ],
         "weight": 20,
-        "event_text": "With the rains, water isn't the only thing falling. m_c slips over, and though {PRONOUN/m_c/poss} limp has mostly disappeared by the time {PRONOUN/m_c/subject} {VERB/m_c/get/gets} to {PRONOUN/m_c/poss} nest, the smear of mud marrs {PRONOUN/m_c/poss} dignity.",
+        "event_text": "With the ground made slippery by the recent rains, water isn't the only thing falling. m_c slips over, and though {PRONOUN/m_c/poss} limp has mostly disappeared by the time {PRONOUN/m_c/subject} {VERB/m_c/get/gets} to {PRONOUN/m_c/poss} nest, the smear of mud marrs {PRONOUN/m_c/poss} dignity.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -321,7 +321,7 @@
             "leaf-fall", "newleaf"
         ],
         "weight": 20,
-        "event_text": "m_c pushes a little too hard, and gets dehydrated for {PRONOUN/m_c/poss} troubles.",
+        "event_text": "m_c pushes {PRONOUN/m_c/self} a little too hard and ends up dehydrated for {PRONOUN/m_c/poss} troubles.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -351,7 +351,7 @@
             "greenleaf"
         ],
         "weight": 20,
-        "event_text": "Sunstroke stalks c_n in greenleaf, lurking to pounce on anyone unwary or unwise. This moon it takes m_c",
+        "event_text": "Sunstroke stalks c_n in greenleaf, lurking to pounce on anyone unwary or unwise. This moon it strikes m_c",
         "m_c": {
             "age": [
                 "adolescent",
@@ -581,7 +581,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c must've landed wrong in a jump or something - {PRONOUN/m_c/poss} bones are reminding {PRONOUN/m_c/object} of {PRONOUN/m_c/poss} age. Painfully.",
+        "event_text": "m_c must've landed wrong after a jump or something - {PRONOUN/m_c/poss} bones are reminding {PRONOUN/m_c/object} of {PRONOUN/m_c/poss} age. Painfully.",
         "m_c": {
             "age": [
                 "senior adult",
@@ -611,7 +611,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c spreads {PRONOUN/m_c/poss} limbs out in the sun, letting the desert heat bring relief to {PRONOUN/m_c/poss} old aching joints.",
+        "event_text": "m_c spreads {PRONOUN/m_c/poss} limbs out in the sun, letting the desert heat bring relief to {PRONOUN/m_c/poss} old, aching joints.",
         "m_c": {
             "age": [
                 "senior adult",
@@ -677,7 +677,7 @@
             "greenleaf"
         ],
         "weight": 20,
-        "event_text": "The light and heat from the greenleaf sun are dazzling, and m_c comes down with an awful headache.",
+        "event_text": "The greenleaf sun is beating down overhead, searingly hot and bright. m_c comes down with an awful headache after too much time spent outside.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -770,7 +770,7 @@
             "clan:kitten"
         ],
         "weight": 5,
-        "event_text": "Stray Twoleg trash ignites, threatening the nursery. m_c leads the efforts to rescue the kits, and will happily trade {PRONOUN/m_c/poss} singed coat and the acrid smell of burned fur for their safety.",
+        "event_text": "A piece of stray Twoleg trash ignites in the dry heat of the sun, threatening the nursery. m_c leads the efforts to rescue the kits, and will happily trade {PRONOUN/m_c/poss} singed coat and the acrid smell of burned fur for the safety of the young ones.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -825,8 +825,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds taken defending the nursery from fire.",
-                "lead_death": "died from wounds taken defending the nursery from fire"
+                "reg_death": "m_c died from wounds taken while defending the nursery from fire.",
+                "lead_death": "died from wounds taken while defending the nursery from fire"
             }
         ],
         "relationships": [
@@ -856,8 +856,8 @@
         "tags": [
             "clan:kitten"
         ],
-        "weight": 5,
-        "event_text": "Stray Twoleg trash ignites, threatening the nursery. m_c leads the efforts to rescue the kits, and will happily trade {PRONOUN/m_c/poss} singed coat and the acrid smell of burned fur for their safety.",
+        "weight": 20,
+        "event_text": "A piece of stray Twoleg trash ignites in the dry heat of the sun, threatening the nursery. m_c leads the efforts to rescue the kits, and will happily trade {PRONOUN/m_c/poss} singed coat and the acrid smell of burned fur for the safety of the young ones.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -912,8 +912,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds taken defending the nursery from fire.",
-                "lead_death": "died from wounds taken defending the nursery from fire"
+                "reg_death": "m_c died from wounds taken while defending the nursery from fire.",
+                "lead_death": "died from wounds taken while defending the nursery from fire"
             }
         ],
         "relationships": [
@@ -941,7 +941,7 @@
             "newleaf", "greenleaf", "leaf-fall"
         ],
         "weight": 20,
-        "event_text": "The dry season between the last rains and the beginning of the next are always vulerable times for the elderly, but m_c didn't think {PRONOUN/m_c/subject} {VERB/m_c/were/was} <i>that</i> old yet.",
+        "event_text": "The dry season between the last rains and the beginning of the next is always a vulnerable time for the elderly, but m_c didn't think {PRONOUN/m_c/subject} {VERB/m_c/were/was} <i>that</i> old yet.",
         "m_c": {
             "age": [
                 "senior adult",
@@ -971,7 +971,7 @@
             "greenleaf"
         ],
         "weight": 20,
-        "event_text": "m_c has been trying to keep {PRONOUN/m_c/poss} fluids up, but staying healthy in the opressive heat of greenleaf was definitely easier in {PRONOUN/m_c/poss} prime. Sunstroke is the result.",
+        "event_text": "m_c has been trying to keep {PRONOUN/m_c/poss} fluids up, but staying healthy in the oppressive heat of greenleaf was definitely easier in {PRONOUN/m_c/poss} prime. Sunstroke is the result.",
         "m_c": {
             "age": [
                 "senior adult",
@@ -1075,7 +1075,7 @@
             "greenleaf"
         ],
         "weight": 20,
-        "event_text": "On one of the hottest days of the year, r_c spends all {PRONOUN/m_c/poss} energy making sure that the older members of c_n keep drinking. Only m_c gets touched by sunstroke, and only a mild case of dehydration.",
+        "event_text": "On one of the hottest days of the year, r_c spends all {PRONOUN/m_c/poss} energy making sure that the older members of c_n keep drinking. Only m_c gets touched by sunstroke, and it's only a mild case of dehydration.",
         "m_c": {
             "age": [
                 "senior adult",
@@ -1139,7 +1139,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c wakes early one morning, and spots a scorpion crawling up the sleeping r_c's back! {PRONOUN/m_c/subject/CAP} helped r_c escape, but were stung in the process.",
+        "event_text": "m_c wakes early one morning and spots a scorpion crawling up the sleeping r_c's back! {PRONOUN/m_c/subject/CAP} helped r_c escape, but got stung {PRONOUN/m_c/self} in the process.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -1203,7 +1203,7 @@
                 ],
                 "scar": "m_c was scarred saving r_c from a scorpion.",
                 "reg_death": "m_c died from a scorpion's sting.",
-                "lead_death": "from a scorpion's sting"
+                "lead_death": "died from a scorpion's sting"
             }
         ],
         "relationships": [
@@ -1310,14 +1310,14 @@
                     "m_c"
                 ],
                 "reg_death": "m_c died from complications after inhaling dust from a sandstorm.",
-                "lead_death": "inhaling dust from a sandstorm"
+                "lead_death": "died after inhaling dust from a sandstorm"
             },
             {
                 "cats": [
                     "r_c"
                 ],
                 "reg_death": "m_c died from complications after inhaling dust from a sandstorm.",
-                "lead_death": "inhaling dust from a sandstorm"
+                "lead_death": "died after inhaling dust from a sandstorm"
             }
         ],
         "relationships": [
@@ -1350,7 +1350,7 @@
             "war"
         ],
         "weight": 20,
-        "event_text": "A fight over a water source hidden deep within a rocky refuge leaves m_c nursing a large slash across {PRONOUN/m_c/poss} side.",
+        "event_text": "A skirmish with a o_c_n patrol over a water source hidden deep within a rocky refuge leaves m_c nursing a large slash across {PRONOUN/m_c/poss} side.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -1379,7 +1379,7 @@
                 ],
                 "scar": "m_c was scarred in a fight against o_c_n.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a battle with o_c_n.",
-                "lead_death": "{PRONOUN/m_c/poss} wounded after a battle with o_c_n"
+                "lead_death": "died from {PRONOUN/m_c/poss} wounds after a battle with o_c_n"
             }
         ],
         "other_clan": {
@@ -1430,7 +1430,7 @@
                 ],
                 "scar": "m_c was scarred in a fight against o_c_n.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a battle with o_c_n.",
-                "lead_death": "{PRONOUN/m_c/poss} wounded after a battle with o_c_n"
+                "lead_death": "died from {PRONOUN/m_c/poss} wounds after a battle with o_c_n"
             }
         ],
         "other_clan": {
@@ -1521,7 +1521,7 @@
                 ],
                 "scar": "m_c was scarred from starting a fight with o_c_n.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after starting a battle with o_c_n.",
-                "lead_death": "{PRONOUN/m_c/poss} wounded after starting a battle with o_c_n"
+                "lead_death": "died from {PRONOUN/m_c/poss} wounds after starting a battle with o_c_n"
             }
         ],
         "other_clan": {
@@ -1546,7 +1546,7 @@
             "clan:kitten"
         ],
         "weight": 20,
-        "event_text": "m_c is the only cat around when o_c_n launches a surprise kitnapping attempt. {PRONOUN/m_c/subject/CAP} {VERB/m_c/block/blocks} the nursery entrance, and takes a battering for it but holds the o_c_n cats off until help arrives.",
+        "event_text": "m_c is the only cat around when o_c_n launches a surprise kitnapping attempt. {PRONOUN/m_c/subject/CAP} {VERB/m_c/block/blocks} the nursery entrance and {VERB/m_c/take/takes} a battering for it, but {PRONOUN/m_c/subject} {VERB/m_c/hold/holds} the o_c_n cats off until help arrives.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -1618,7 +1618,7 @@
                 ],
                 "scar": "m_c was scarred defending the nursery against o_c_n.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds defending the nursery from o_c_n.",
-                "lead_death": "{PRONOUN/m_c/poss} wounds after defending the nursery from o_c_n"
+                "lead_death": "died from {PRONOUN/m_c/poss} wounds after defending the nursery from o_c_n"
             }
         ],
         "relationships": [
@@ -1673,7 +1673,7 @@
             "leaf-fall", "newleaf", "greenleaf"
         ],
         "weight": 20,
-        "event_text": "m_c snuck out of camp and was found, confused and disoriented in the full noon sun.",
+        "event_text": "m_c sneaked out of camp and was found, confused and disoriented, in the full noon sun.",
         "m_c": {
             "status": [
                 "kitten"
@@ -1700,7 +1700,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c died after {PRONOUN/m_c/subject} snuck out of camp and got sunstroke."
+                "reg_death": "m_c died after {PRONOUN/m_c/subject} sneaked out of camp and got sunstroke."
             }
         ]
     },
@@ -1713,7 +1713,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "The cry of a red-tailed hawk echoes above camp, and m_c freezes in fear. r_c barrels in, yowling and hissing like a demon, and the bird is scared off for now. m_c is crushed under r_c's paws and still injured - but alive.",
+        "event_text": "The cry of a red-tailed hawk echoes above camp, and m_c freezes in fear. r_c barrels in and knocks m_c aside harshly, yowling and hissing like a demon. The bird is scared off for now, and m_c is left winded and injured by r_c's ferocity in protecting {PRONOUN/m_c/object}, but at least {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} alive.",
         "m_c": {
             "status": [
                 "kitten"
@@ -1736,14 +1736,22 @@
                 "injuries": [
                     "dislocated joint"
                 ]
-            }
-        ],
-        "history": [
+            },
             {
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a red-tailed hawk tried to carry {PRONOUN/m_c/object} off."
+                "injuries": [
+                    "scrapes"
+                ]
+            },
+            {
+                "cats": [
+                    "m_c"
+                ],
+                "injuries": [
+                    "bruises"
+                ]
             }
         ],
         "relationships": [
@@ -1786,7 +1794,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "A hawk swoops on m_c, intending on making {PRONOUN/m_c/object} dinner. {PRONOUN/m_c/subject/CAP} {PRONOUN/m_c/show/shows} that cats aren't prey, but the bird gets a nasty bite in.",
+        "event_text": "A hawk swoops down on m_c, intending on making {PRONOUN/m_c/object} dinner. {PRONOUN/m_c/subject/CAP} {PRONOUN/m_c/show/shows} that cats aren't prey, but the bird still gets a nasty bite in.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -1815,8 +1823,8 @@
                     "m_c"
                 ],
                 "scar": "m_c was scarred while persauding a hawk that cats make bad prey.",
-                "reg_death": "The wounds form a hawk attack eventually killed m_c.",
-                "lead_death": "a hawk attack"
+                "reg_death": "The wounds from a hawk attack eventually killed m_c.",
+                "lead_death": "died from {PRONOUN/m_c/poss} wounds after a hawk attack"
             }
         ]
     },
@@ -1859,7 +1867,7 @@
                 ],
                 "scar": "m_c slipped from a high rocky trail during the leaf-bare rains and still carries the marks of that fall on {PRONOUN/m_c/poss} pelt.",
                 "reg_death": "Slipping off a high rocky trail killed m_c.",
-                "lead_death": "a bad fall off a high rocky trail"
+                "lead_death": "had a bad fall off a high rocky trail"
             }
         ]
     },
@@ -1872,7 +1880,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "A huge golden eagle targets m_c while {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} alone. m_c sinks {PRONOUN/m_c/poss} kitten teeth into the raptor's foot, and the eagle drops {PRONOUN/m_c/object} from many fox-lengths above the ground. All the Clan can do is pray for {PRONOUN/m_c/poss} recovery.",
+        "event_text": "A huge golden eagle targets m_c while {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} alone. m_c sinks {PRONOUN/m_c/poss} kitten teeth into the raptor's foot as hard as {PRONOUN/m_c/subject} can, and the eagle drops {PRONOUN/m_c/object} from many fox-lengths above the ground. All the Clan can do is pray for {PRONOUN/m_c/poss} recovery.",
         "m_c": {
             "status": [
                 "kitten"
@@ -1920,9 +1928,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "Not many cats can claim {PRONOUN/m_c/subject} fought an eagle as a kitten, but m_c's scars are proof of it.",
-                "reg_death": "Though {PRONOUN/m_c/subject} escaped an eagle attack, the consequences still took m_c's life.",
-                "lead_death": "the consequences of an eagle attack took m_c's life"
+                "scar": "Not many cats can claim they fought an eagle as a kitten, but m_c's scars are proof of it.",
+                "reg_death": "Though {PRONOUN/m_c/subject} escaped an eagle attack, the consequences still took m_c's life."
             }
         ]
     },
@@ -1961,7 +1968,7 @@
             "leaf-bare"
         ],
         "weight": 20,
-        "event_text": "The rains bounce off baked-hard ground, leaving puddle and slippery mud lying literally everywhere. While the water is welcome, the lack of traction is not, and m_c grumbles as {PRONOUN/m_c/subject} {VERB/m_c/end/ends} up arse over tail from a misstep.",
+        "event_text": "The rains bounce off the hard-baked ground, leaving puddles and slippery mud literally everywhere. While the water is welcome, the lack of traction is not, and m_c grumbles when {PRONOUN/m_c/subject} {VERB/m_c/end/ends} up going arse over tail from a misstep.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -2017,7 +2024,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "Climbing the highest rock in the territory was not, in fact, a good idea, and m_c doesn't know what's worse - that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s}now confined to the medicine den, or that everyone {PRONOUN/m_c/subject} {VERB/m_c/were/was} trying to show off to <i>saw</i> {PRONOUN/m_c/object} fall.",
+        "event_text": "Climbing the highest rock in the territory was not, in fact, a good idea. m_c doesn't know what's worse - that {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} now confined to the medicine den, or that everyone {PRONOUN/m_c/subject} {VERB/m_c/were/was} trying to show off to <i>saw</i> {PRONOUN/m_c/object} fall.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -2059,9 +2066,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c isn't always proud of all {PRONOUN/m_c/poss} scars - one, for example, is from falling of the highest rock in the territory while trying to show off as an apprentice.",
-                "reg_death": "The consequences of showing off took m_c's life when {PRONOUN/m_c/subject} fell from the highest rock in the territory.",
-                "lead_death": "fell from the highest rock in the territory"
+                "scar": "m_c isn't proud of all of {PRONOUN/m_c/poss} scars - one, for example, is from falling off the highest rock in the territory while trying to show off as an apprentice.",
+                "reg_death": "The consequences of showing off took m_c's life when {PRONOUN/m_c/subject} fell from the highest rock in the territory."
             }
         ]
     },
@@ -2187,7 +2193,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "Following barking, m_c finds r_c pinned in a burrow while a dingo digs at the entrance. m_c charges in, distracting the dog for long enough to give r_c the chance to run home, though the dingo gives m_c enough of a run around that all {PRONOUN/m_c/poss} limbs ache by the time {PRONOUN/m_c/subject} {VERB/m_c/collapse/collapses} back in {PRONOUN/m_c/poss} nest at sunset.",
+        "event_text": "Following the sound of barking, m_c finds r_c pinned in a burrow while a dingo digs at the entrance. m_c charges in, distracting the dog for long enough to give r_c the chance to run home, though the dingo gives m_c enough of a run around that all {PRONOUN/m_c/poss} limbs ache by the time {PRONOUN/m_c/subject} {VERB/m_c/collapse/collapses} into {PRONOUN/m_c/poss} nest at sunset.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2262,7 +2268,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "A coyote tries to eat r_c, but m_c is there to score the canine's nose bloody and drive it off, though {PRONOUN/m_c/subject} {VERB/m_c/get/gets} bodily slammed into a rock for {PRONOUN/m_c/poss} troubles.",
+        "event_text": "A coyote tries to eat r_c, but m_c is there to score the canine's nose bloody and drive it off. The direction it chooses to run in isn't ideal though, as it bowls m_c over in its haste to escape, slamming {PRONOUN/m_c/object} bodily into a nearby rock.",
         "m_c": {
             "status": [
                 "warrior",
@@ -2345,7 +2351,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c misjudged the distance of a jump and landed on a thorn. Owch!",
+        "event_text": "m_c misjudged the distance of a jump and landed in a patch of thorns. Ouch!",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2368,7 +2374,7 @@
                     "m_c"
                 ],
                 "injuries": [
-                    "small cut"
+                    "small cut", "torn pelt"
                 ]
             }
         ]
@@ -2382,7 +2388,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c overdid {PRONOUN/m_c/poss} last sparring session and got dehydrated.",
+        "event_text": "m_c overdid it during {PRONOUN/m_c/poss} last sparring session and got dehydrated.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2513,7 +2519,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c tricked a coyote into a strand of cacti, and though {PRONOUN/m_c/subject} {VERB/m_c/got/gots} {PRONOUN/m_c/poss} own pelt torn up something fierce, the coyote was driven off c_n lands.",
+        "event_text": "m_c tricked a coyote into a cluster of cacti, and though {PRONOUN/m_c/subject} got {PRONOUN/m_c/poss} own pelt torn up something fierce, the coyote was driven off of c_n lands.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2605,7 +2611,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "A dingo tries to take r_c for lunch. m_c rushes in to save {PRONOUN/m_c/poss Clanmate, and though both cats take injuries together they're able to drive off the feral canine.",
+        "event_text": "A dingo tries to take r_c for lunch. m_c rushes in to save {PRONOUN/m_c/poss Clanmate, and though both cats come out of it injured, they're able to drive off the feral canine.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2799,7 +2805,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "A red-tailed hawk tries to swoop on r_c, only for m_c to intercept it, taking a claw to the flank.",
+        "event_text": "A red-tailed hawk tries to swoop down on r_c, only for m_c to intercept it, taking a claw to the flank.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -2883,7 +2889,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "Spotting a coyote, r_c charged it with m_c. m_c pays a blood price for driving off the dog, but r_c maintains it was worth it.",
+        "event_text": "After spotting a coyote in the territory, r_c charges it with m_c at {PRONOUN/r_c/poss} side. m_c pays a blood price for driving off the dog, but r_c maintains it was worth it.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -3015,8 +3021,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by o_c_n warriors, after being ordered to go over the border by r_c.",
-                "reg_death": "m_c died from wounds caused by o_c_n warriors, after being ordered to go over the border by r_c."
+                "scar": "m_c was scarred by o_c_n warriors after being ordered to go over the border by r_c.",
+                "reg_death": "m_c died from wounds caused by o_c_n warriors after being ordered to go over the border by r_c."
             }
         ],
         "relationships": [
@@ -3311,7 +3317,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a big dog, while trying to follow r_c's orders.",
+                "scar": "m_c was scarred by a big dog while trying to follow r_c's orders.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after fighting a big dog on r_c's orders."
             }
         ],
@@ -3499,7 +3505,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was injured recklessly fighting a rogue that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+        "event_text": "m_c was injured while recklessly fighting a rogue that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -3550,7 +3556,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred fighting a rogue that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+                "scar": "m_c was scarred while fighting a rogue that {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to attack.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a rogue."
             }
         ],
@@ -3614,7 +3620,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was injured recklessly fighting an enemy warrior that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+        "event_text": "m_c was injured while recklessly fighting an enemy warrior that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -3666,7 +3672,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred fighting an enemy warrior that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+                "scar": "m_c was scarred while fighting an enemy warrior that {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to attack.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight an enemy warrior."
             }
         ],
@@ -3715,7 +3721,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was injured recklessly fighting a dog that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+        "event_text": "m_c was injured while recklessly fighting a dog that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -3767,7 +3773,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred fighting a dog that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+                "scar": "m_c was scarred while fighting a dog that {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to attack.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a dog."
             }
         ],
@@ -3810,7 +3816,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c was injured recklessly fighting a fox that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+        "event_text": "m_c was injured while recklessly fighting a fox that {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to attack.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -3862,7 +3868,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred fighting a fox that {PRONOUN/m_c/poss} mentor, r_c, encouraged {PRONOUN/m_c/object} to attack.",
+                "scar": "m_c was scarred while fighting a fox that {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to attack.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor encouraged {PRONOUN/m_c/object} to fight a fox."
             }
         ],
@@ -3964,7 +3970,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_c's, harsh training.",
+                "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor's harsh training.",
                 "reg_death": "m_c died from wounds caused by {PRONOUN/m_c/poss} mentor's harsh training."
             }
         ],
@@ -4238,7 +4244,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c snuck out at night on a dare, but soon came hobbling back to camp, head lowered in embarrassment. Seems like {PRONOUN/m_c/poss} paw got caught on something in the dark and caused {PRONOUN/m_c/object} to trip!",
+        "event_text": "m_c sneaked out at night on a dare, but soon came hobbling back to camp, head lowered in embarrassment. Seems like {PRONOUN/m_c/poss} paw got caught on something in the dark and caused {PRONOUN/m_c/object} to trip!",
         "m_c": {
             "status": [
                 "apprentice"
@@ -4540,7 +4546,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor, r_c, for accidentally crossing the border.",
+                "scar": "m_c was scarred by {PRONOUN/m_c/poss} mentor for accidentally crossing the border.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after {PRONOUN/m_c/poss} mentor hurt {PRONOUN/m_c/object} for accidentally crossing the border."
             }
         ],
@@ -6698,7 +6704,7 @@
                 ],
                 "scar": "m_c was scarred after pouncing on a Clanmate's tail only to discover it was a bandy-bandy snake.",
                 "reg_death": "m_c died after pouncing on a Clanmate's tail only to discover it was a bandy-bandy snake.",
-                "lead_death": "pouncing on a Clanmate's tail only to discover it was a bandy-bandy snake"
+                "lead_death": "pounced on a Clanmate's tail only to discover it was a bandy-bandy snake"
             }
         ]
     },
@@ -6711,7 +6717,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c steps on a snake. Neither of them are happy about it, but at least shovel-nosed coral snakes aren't dangerous venomous. Still sharp toothed though.",
+        "event_text": "m_c steps on a snake. Neither of them are happy about it, but at least shovel-nosed coral snakes aren't dangerously venomous. Still sharp-toothed, though.",
         "m_c": {
             "age": [
                 "any"
@@ -6737,7 +6743,7 @@
                 ],
                 "scar": "m_c was scarred after stepping on an unfortunate shovel-nosed coral snake.",
                 "reg_death": "m_c died after stepping on an unfortunate shovel-nosed coral snake.",
-                "lead_death": "after stepping on an unfortunate shovel-nosed coral snake"
+                "lead_death": "stepped on an unfortunate shovel-nosed coral snake"
             }
         ]
     },
@@ -6753,7 +6759,7 @@
             "war"
         ],
         "weight": 20,
-        "event_text": "While patrolling the o_c_n borders, m_c is driven into a cacti corral by an o_c_n patrol. {PRONOUN/m_c/subject/CAP} {VERB/m_c/have/has} hundreds of tiny punctures ripped into {PRONOUN/m_c/poss} pelt as {PRONOUN/m_c/subject} {VERB/m_c/rip/rips} {PRONOUN/m_c/self} free.",
+        "event_text": "While patrolling the o_c_n borders, m_c is driven into a cactus corral by an o_c_n patrol. {PRONOUN/m_c/subject/CAP} {VERB/m_c/have/has} hundreds of tiny punctures ripped into {PRONOUN/m_c/poss} pelt as {PRONOUN/m_c/subject} {VERB/m_c/rip/rips} {PRONOUN/m_c/self} free.",
         "m_c": {
             "age": [
                 "any"
@@ -6862,7 +6868,7 @@
             "war"
         ],
         "weight": 20,
-        "event_text": "m_c and r_c make a raid into o_c_n territory - with such huge borders, no desert Clan can watch everything. But on unfamiliar ground and in the heat of the day, the two abitious c_n warriors find only sunstroke.",
+        "event_text": "m_c and r_c make a raid into o_c_n territory - with such huge borders, no desert Clan can watch everything. But on unfamiliar ground and in the heat of the day, the two ambitious c_n warriors find only sunstroke.",
         "m_c": {
             "status": [
                 "apprentice",
@@ -6924,7 +6930,7 @@
                     "m_c"
                 ],
                 "reg_death": "m_c died from sunstroke after raiding in unfamiliar ground.",
-                "lead_death": "sunstroke after raiding in unfamiliar ground"
+                "lead_death": "got sunstroke after raiding in unfamiliar ground"
             }
         ],
         "relationships": [
@@ -6959,7 +6965,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "Oh <i>gross</i>, the full fresh-kill pile has attracted ants! m_c and r_c both get covered in biting indignant soldier ants, trying to rescue as much of c_n's food stores as possible.",
+        "event_text": "Oh, <i>gross</i>, the full fresh-kill pile has attracted ants! m_c and r_c both get covered in indignant, biting soldier ants while trying to rescue as much of c_n's food stores as possible.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -7003,7 +7009,7 @@
                     "m_c",
                     "r_c"
                 ],
-                "scar": "m_c {VERB/m_c/were/was} hurt while defending the fresh-kill pile from ants.",
+                "scar": "m_c was hurt while defending the fresh-kill pile from ants.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after defending the fresh-kill pile from ants.",
                 "lead_death": "{VERB/m_c/were/was} killed by ants while defending the fresh-kill pile"
             }
@@ -7055,7 +7061,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c {VERB/m_c/were/was} hurt while defending the fresh-kill pile from meerkats.",
+                "scar": "m_c was hurt while defending the fresh-kill pile from meerkats.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after defending the fresh-kill pile from meerkats.",
                 "lead_death": "{VERB/m_c/were/was} killed by meerkats while defending the fresh-kill pile"
             }
