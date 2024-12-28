@@ -4,32 +4,32 @@
         "training_kit": "Den här katten har inte startat sitt lärlingskap.",
         "training_app": "Den här katten har inte slutfört sitt lärlingskap än.",
         "training_mentors": {
-            "zero": "Den här katten endera hade ingen mentor, eller {PRONOUN\/m_c\/poss} mentor är okänd.",
-            "one": "{PRONOUN\/m_c\/subject\/CAP} var lärling hos %{mentors}.",
-            "many": "{PRONOUN\/m_c\/subject\/CAP} var lärling hos %{mentors}."
+            "zero": "Den här katten endera hade ingen mentor, eller {PRONOUN/m_c/poss} mentor är okänd.",
+            "one": "{PRONOUN/m_c/subject/CAP} var lärling hos %{mentors}.",
+            "many": "{PRONOUN/m_c/subject/CAP} var lärling hos %{mentors}."
         },
-        "training_mentor_trait_influence": "r_c påverkade {PRONOUN\/m_c\/object} till att bli mer %{influence}.",
-        "training_mentor_skill_influence": "r_c hjälpte {PRONOUN\/m_c\/object} att bli bättre på %{influence}.",
-        "graduation_honor": "När {PRONOUN\/m_c\/subject} tog examen, hedrades {PRONOUN\/m_c\/subject} för {PRONOUN\/m_c\/poss} %{honor}.",
-        "graduation_early": "{PRONOUN\/m_c\/poss\/CAP} träning gick så bra att {PRONOUN\/m_c\/subject} kunde ta sin examen tidigt, %{age} månvarv gammal.",
-        "graduation_normal": "{PRONOUN\/m_c\/subject\/CAP} tog examen som %{age} månvarv gammal.",
-        "graduation_late": "{PRONOUN\/m_c\/subject\/CAP} tog examen sent som %{age} månvarv gammal.",
-        "mentored": "{PRONOUN\/m_c\/subject\/CAP} var mentor till %{apprentices}.",
-        "leader_death_final": "förlorade {PRONOUN\/m_c\/poss} sista liv",
-        "leader_death_all": "förlorade alla {PRONOUN\/m_c\/poss} liv",
-        "leader_death_remaining": "förlorade resterande av {PRONOUN\/m_c\/poss} liv",
+        "training_mentor_trait_influence": "r_c påverkade {PRONOUN/m_c/object} till att bli mer %{influence}.",
+        "training_mentor_skill_influence": "r_c hjälpte {PRONOUN/m_c/object} att bli bättre på %{influence}.",
+        "graduation_honor": "När {PRONOUN/m_c/subject} tog examen, hedrades {PRONOUN/m_c/subject} för {PRONOUN/m_c/poss} %{honor}.",
+        "graduation_early": "{PRONOUN/m_c/poss/CAP} träning gick så bra att {PRONOUN/m_c/subject} kunde ta sin examen tidigt, %{age} månvarv gammal.",
+        "graduation_normal": "{PRONOUN/m_c/subject/CAP} tog examen som %{age} månvarv gammal.",
+        "graduation_late": "{PRONOUN/m_c/subject/CAP} tog examen sent som %{age} månvarv gammal.",
+        "mentored": "{PRONOUN/m_c/subject/CAP} var mentor till %{apprentices}.",
+        "leader_death_final": "förlorade {PRONOUN/m_c/poss} sista liv",
+        "leader_death_all": "förlorade alla {PRONOUN/m_c/poss} liv",
+        "leader_death_remaining": "förlorade resterande av {PRONOUN/m_c/poss} liv",
         "leader_death_cardinal": {
-            "one": "förlorade {PRONOUN\/m_c\/poss} %{cardinal} liv",
-            "many": "förlorade {PRONOUN\/m_c\/poss} %{cardinal} liv"
+            "one": "förlorade {PRONOUN/m_c/poss} %{cardinal} liv",
+            "many": "förlorade {PRONOUN/m_c/poss} %{cardinal} liv"
         },
-        "leader_death_retired": "förlorade {PRONOUN\/m_c\/poss} sista återstående liv",
+        "leader_death_retired": "förlorade {PRONOUN/m_c/poss} sista återstående liv",
         "leader_death_default": "förlorade ett liv",
         "leader_lost_lives": {
             "one": "m_c förlorade ett liv.",
             "many": "m_c förlorade %{count} liv."
         },
         "regular_death": "%{cats} dog.",
-        "death_cause": "%{death} när {PRONOUN\/m_c\/subject} %{text}.",
+        "death_cause": "%{death} när {PRONOUN/m_c/subject} %{text}.",
         "murdered": "%{name} mördade %{victims}.",
         "leader_lives_left_df": {
             "zero": "Ledaren har inga liv kvar och has färdats till Mörkaskogen.",
