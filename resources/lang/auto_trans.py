@@ -182,7 +182,6 @@ def save_translated_files():
     '''
     file_str = ""
     for file, tranclation_type in translated_files.items():
-        print(file + "," + tranclation_type + "\n")
         file_str += file + "," + tranclation_type + "\n"
     # Open and owerwrite the JSON file
     with open("tranlated_files.txt", "w") as outfile:
