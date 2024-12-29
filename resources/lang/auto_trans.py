@@ -184,7 +184,7 @@ def save_translated_files():
     for file, tranclation_type in translated_files.items():
         file_str += file + "," + tranclation_type + "\n"
     # Open and owerwrite the JSON file
-    with open(f"{DEST_LANGUAGE}\\tranlated_files.txt", "w") as outfile:
+    with open(f"{DEST_LANGUAGE}\\translation_progress.txt", "w") as outfile:
         outfile.write(file_str)
 
 
@@ -193,7 +193,7 @@ def load_translated_files():
     Save a JSON data structure into a .json-file
     '''
     # Open and owerwrite the JSON file
-    with open(f"{DEST_LANGUAGE}\\tranlated_files.txt", "r") as file:
+    with open(f"{DEST_LANGUAGE}\\translation_progres.txt", "r") as file:
         for line in file:
             line_data = line.replace("\n","").split(",")
             translated_files[line_data[0]] = line_data[1]
