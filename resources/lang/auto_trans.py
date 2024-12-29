@@ -105,6 +105,8 @@ KEYS_TO_NOT_TRANSLATE = [
     "lead_trait",
     "star_trait",
     "rank",
+    "reaction_main_cat",
+    "new_cat_moons",
     #resources\lang\sv\patrols
     "patrol_id",
     "biome",
