@@ -74,6 +74,7 @@ KEYS_TO_NOT_TRANSLATE = [
     "other_clan_temper",
     "skill",
     "relationships",
+    "reputation",
     #resources\lang\sv\events\misc
     "sub_type",
     "not_trait",
@@ -82,6 +83,8 @@ KEYS_TO_NOT_TRANSLATE = [
     "injuries",
     "scars",
     "pl_skill_constraint",
+    "new_accessory",
+    "new_gender",
     #resources\lang\sv\events\relationship_events\group_interactions
     "id",
     "cat_amount",
@@ -122,20 +125,19 @@ KEYS_TO_NOT_TRANSLATE = [
     "lost_cats",
 
     #resources\lang\sv\thoughts
-    "relationship_constraint",
-    "relationship_constraint",
     "main_age_constraint",
     "main_backstory_constraint",
     "main_living_status",
     "main_outside_status",
     "main_skill_constraint",
-    "main_status_constraint"
+    "main_status_constraint",
     "random_age_constraint",
     "random_backstory_constraint",
     "random_living_status",
     "random_outside_status",
     "random_skill_constraint",
     "random_status_constraint",
+    "m_c"
     
 ]
 
