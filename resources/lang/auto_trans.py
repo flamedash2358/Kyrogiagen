@@ -193,7 +193,7 @@ def load_translated_files():
     Save a JSON data structure into a .json-file
     '''
     # Open and owerwrite the JSON file
-    with open(f"{DEST_LANGUAGE}\\translation_progres.txt", "r") as file:
+    with open(f"{DEST_LANGUAGE}\\translation_progress.txt", "r") as file:
         for line in file:
             line_data = line.replace("\n","").split(",")
             translated_files[line_data[0]] = line_data[1]
@@ -301,21 +301,21 @@ def ceremony_master_special_translation():
     '''
     This is custom made for ceremony_master json.
     '''
-    print(f"File to translate: {SPECIAL_FILES[1]}")
-    data = load_json_file(SPECIAL_FILES[1])
-    if (type(data) is dict and "translation_type" not in data.keys()):
+    if (SPECIAL_FILES[1] not in translated_files.keys() or translated_files[SPECIAL_FILES[1]] == "None" ):
+        print(f"File to translate: {SPECIAL_FILES[1]}")
+        data = load_json_file(SPECIAL_FILES[1])
         for key in data.keys():
             for index in range(len(data[key])):
                 if type(data[key][index]) is str:
                     data[key][index] = translate(data[key][index])
-        
-        translate_entry = {"translation_type": "Google translate"}
-        translate_entry.update(data)
-        data = translate_entry
         save_json(SPECIAL_FILES[1],data)
+        translated_files[SPECIAL_FILES[1]] = "GoogleTranslate"
+        save_translated_files()
     else:
-        translated_files.append(SPECIAL_FILES[1])
         print("File already transalted, skipping file")
+        if translated_files[SPECIAL_FILES[1]] != "Human":
+            print(f"WARNING: THIS IS A {translated_files[SPECIAL_FILES[1]]} TRANSLATION AND MAY BE INACCURATE OR OFFENSIVE")
+    print("")
 
 def generic_translte_file(language_file_path: str):
     '''
@@ -348,7 +348,7 @@ def translate_all_files(language_file_paths: list[str]):
         #update transaltion progress
 
     #Any special made function that don't follow standard transaltion flow
-    #ceremony_master_special_translation()
+    ceremony_master_special_translation()
 
 '''
 START
