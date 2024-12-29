@@ -153,6 +153,26 @@ translator = Translator()
 FILE HANDLING
 '''
 
+def set_files_in_read_order():
+    '''
+    Make the tranlated_files.txt palce files in order of reading
+    '''
+    new_trans = {}
+    files = get_files_to_translate(DEST_LANGUAGE)
+
+    all_translated_files = [
+        file
+        for file in files
+        if file in translated_files.keys()
+    ]
+
+    for file in all_translated_files:
+        new_trans[file] = translated_files[file]
+
+    translated_files = new_trans
+
+    save_translated_files()
+
 def save_translated_files():
     '''
     Save a JSON data structure into a .json-file
@@ -333,6 +353,8 @@ START
 '''
 #Load translation progress
 translated_files = load_translated_files()
+
+
 
 #Translate
 translate_all_files(get_files_to_translate(DEST_LANGUAGE))
