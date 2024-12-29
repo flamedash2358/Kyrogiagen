@@ -16,12 +16,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As the patrol is marking the border lines, a gang of rogues burst from the long grass! An ambush!",
-        "decline_text": "The patrol turns tail and races away! The borders are left open for the rogues to muddy.",
+        "intro_text": "N\u00e4r patrullen markerar gr\u00e4nslinjerna sprack ett g\u00e4ng skurkar ur det l\u00e5nga gr\u00e4set! Ett bakh\u00e5ll!",
+        "decline_text": "Patrullen v\u00e4nder efter och springer iv\u00e4g! Gr\u00e4nserna l\u00e4mnas \u00f6ppna f\u00f6r skurkarna att leriga.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol descends into battle without a second thought, eventually driving the rogues away.",
+                "text": "Patrullen g\u00e5r ner i strid utan en sekund eftertanke och driver s\u00e5 sm\u00e5ningom bort skurkarna.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -42,7 +42,7 @@
                 ]
             },
             {
-                "text": "s_c immediately leaps to protect {PRONOUN\/s_c\/poss} Clanmates. {PRONOUN\/s_c\/poss\/CAP} ferocity in battle terrifies the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
+                "text": "s_c hoppar omedelbart f\u00f6r att skydda {PRONOUN/s_c/poss} klankamrater. {PRONOUN/s_c/poss/CAP} v\u00e5ldsamhet i strid skr\u00e4mmer skurkarna. N\u00e4r de inser att de verkligen har underskattat klankatterna, v\u00e4nder skurkarna om och springer.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -66,7 +66,7 @@
                 ]
             },
             {
-                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN\/s_c\/poss} teeth bared and claws unsheathed. The rogues are quickly driven away by the patrol.",
+                "text": "s_c njuter av striden och hoppar in i striden med {PRONOUN/s_c/poss} t\u00e4nder blottade och klor utan h\u00f6lje. Skurvarna drivs snabbt bort av patrullen.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -94,16 +94,16 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The rogues are terrifyingly coordinated and use the patrol's shock and confusion against them. The patrol cats are picked off one by one, and only a couple manage to escape the slaughter.",
+                "text": "Skurvarna \u00e4r skr\u00e4mmande samordnade och anv\u00e4nder patrullens chock och f\u00f6rvirring mot dem. Patrullkatterna plockas av en efter en, och bara ett par lyckas undkomma slakten.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "multi"
                 ],
                 "history_text": {
-                    "scar": "m_c was badly scarred when rogues ambushed {PRONOUN\/m_c\/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN\/m_c\/poss} patrol.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed in a rogue ambush"
+                    "scar": "m_c var sv\u00e5rt \u00e4rrad n\u00e4r skurkar gick i bakh\u00e5ll f\u00f6r {PRONOUN/m_c/poss} patrull.",
+                    "reg_death": "Den h\u00e4r katten d\u00f6dades n\u00e4r skurkar \u00f6verf\u00f6ll {PRONOUN/m_c/poss} patrull.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades i ett oseri\u00f6st bakh\u00e5ll"
                 },
                 "relationships": [
                     {
@@ -123,7 +123,7 @@
                 ]
             },
             {
-                "text": "Taken by surprise, the patrol scatters and loses cohesion. The rogues are quick to take advantage of the confusion, and eventually the patrol retreats, r_c badly wounded.",
+                "text": "\u00d6verraskad sprids patrullen och tappar sammanh\u00e5llningen. Skurvarna \u00e4r snabba att dra f\u00f6rdel av f\u00f6rvirringen, och s\u00e5 sm\u00e5ningom drar patrullen sig tillbaka, r_c sv\u00e5rt s\u00e5rade.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -140,9 +140,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was badly scarred when rogues ambushed {PRONOUN\/m_c\/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN\/m_c\/poss} patrol.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed in a rogue ambush"
+                    "scar": "m_c var sv\u00e5rt \u00e4rrad n\u00e4r skurkar gick i bakh\u00e5ll f\u00f6r {PRONOUN/m_c/poss} patrull.",
+                    "reg_death": "Den h\u00e4r katten d\u00f6dades n\u00e4r skurkar \u00f6verf\u00f6ll {PRONOUN/m_c/poss} patrull.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades i ett oseri\u00f6st bakh\u00e5ll"
                 },
                 "relationships": [
                     {
@@ -180,17 +180,17 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As the patrol is marking the border lines, a gang of rogues burst from the long grass! An ambush!",
-        "decline_text": "r_c turns tail and races away! The rogues have {PRONOUN\/r_c\/object} far outnumbered; warning the Clan is more important than dying needlessly.",
+        "intro_text": "N\u00e4r patrullen markerar gr\u00e4nslinjerna sprack ett g\u00e4ng skurkar ur det l\u00e5nga gr\u00e4set! Ett bakh\u00e5ll!",
+        "decline_text": "r_c v\u00e4nder svansen och springer iv\u00e4g! Rogues har {PRONOUN/r_c/object} l\u00e5ngt f\u00e4rre \u00e4n; att varna klanen \u00e4r viktigare \u00e4n att d\u00f6 i on\u00f6dan.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "Stunned for a moment, r_c is nearly caught in the teeth of the first rogue, but {PRONOUN\/r_c\/subject} {VERB\/r_c\/manage\/manages} to dodge and weave through the onslaught of attacks, eventually escaping the fray and pelting towards camp with yowls of warning bursting from {PRONOUN\/r_c\/poss} lungs.",
+                "text": "F\u00f6rbluffad f\u00f6r ett \u00f6gonblick \u00e4r r_c n\u00e4stan f\u00e5ngad i t\u00e4nderna p\u00e5 den f\u00f6rsta skurken, men {PRONOUN/r_c/subject} {VERB/r_c/manage/manages} att undvika och v\u00e4va sig igenom attackerna och s\u00e5 sm\u00e5ningom fly striden och kasta sig mot l\u00e4gret med varningsyows spr\u00e4ngande fr\u00e5n {PRONOUN/r_c/poss} lungorna.",
                 "exp": 30,
                 "weight": 20
             },
             {
-                "text": "s_c snarls at the rogues, outnumbered but not cowed. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/throw\/throws} {PRONOUN\/s_c\/self} at the intruders with such ferocity that the rogues are taken aback. Alarmed by the Clan cat's lack of fear and self-preservation, the rogues freeze. s_c sees {PRONOUN\/s_c\/poss} opportunity to run and takes it, racing back to the camp to gather more warriors and return.",
+                "text": "s_c morrar \u00e5t skurkarna, i antal men inte kuvade. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} mot inkr\u00e4ktarna med s\u00e5dan grymhet att skurkarna blir f\u00f6rv\u00e5nade. Skr\u00e4mmade \u00f6ver klankattens brist p\u00e5 r\u00e4dsla och sj\u00e4lvbevarelsedrift fryser skurkarna. s_c ser {PRONOUN/s_c/poss} m\u00f6jligheten att springa och tar den och springer tillbaka till l\u00e4gret f\u00f6r att samla fler krigare och \u00e5terv\u00e4nda.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -200,7 +200,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "s_c snarls at the rogues, outnumbered but not cowed. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/throw\/throws} {PRONOUN\/s_c\/self} at the intruders with such ferocity that the rogues are taken aback. Their shock only lasts a moment before they descend upon the warrior once more. Eventually, s_c has no choice but to escape before {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} killed.",
+                "text": "s_c morrar \u00e5t skurkarna, i antal men inte kuvade. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} mot inkr\u00e4ktarna med s\u00e5dan grymhet att skurkarna blir f\u00f6rv\u00e5nade. Deras chock varar bara ett \u00f6gonblick innan de stiger ner p\u00e5 krigaren igen. S\u00e5 sm\u00e5ningom har s_c inget annat val \u00e4n att fly innan {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} d\u00f6dades.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -210,15 +210,15 @@
                 ]
             },
             {
-                "text": "The rogues greatly outnumber r_c and have no trouble killing the lone cat. {PRONOUN\/r_c\/poss\/CAP} body is discovered the next day, covered in wounds and cold.",
+                "text": "Rogues \u00e4r betydligt fler \u00e4n r_c och har inga problem med att d\u00f6da den ensamma katten. Kroppen {PRONOUN/r_c/poss/CAP} uppt\u00e4cks n\u00e4sta dag, t\u00e4ckt av s\u00e5r och kyla.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "reg_death": "This cat was killed when rogues ambushed {PRONOUN\/m_c\/object} while on a solo patrol.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed in a rogue ambush"
+                    "reg_death": "Den h\u00e4r katten d\u00f6dades n\u00e4r skurkar gick i bakh\u00e5ll mot {PRONOUN/m_c/object} medan de var p\u00e5 en solopatrull.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades i ett oseri\u00f6st bakh\u00e5ll"
                 }
             }
         ]
@@ -240,12 +240,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As the patrol is marking the border lines, a gang of rogues stride out of the long grass to confront the Clan cats!",
-        "decline_text": "The patrol turns tail and races away! The borders are left open for the rogues to muddy.",
+        "intro_text": "N\u00e4r patrullen markerar gr\u00e4nslinjerna kliver ett g\u00e4ng skurkar ut ur det l\u00e5nga gr\u00e4set f\u00f6r att konfrontera klankatterna!",
+        "decline_text": "Patrullen v\u00e4nder efter och springer iv\u00e4g! Gr\u00e4nserna l\u00e4mnas \u00f6ppna f\u00f6r skurkarna att leriga.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The rogues posture and jeer, eventually provoking a battle. The Clan cats are strong, however, and the rogues seem to be weakened by hunger. The patrol easily drives the intruders away.",
+                "text": "Skurvarna h\u00e5ller p\u00e5 och h\u00e5nar, vilket s\u00e5 sm\u00e5ningom provocerar fram en strid. Klankatterna \u00e4r dock starka och skurkarna verkar vara f\u00f6rsvagade av hunger. Patrullen driver l\u00e4tt bort inkr\u00e4ktarna.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -266,7 +266,7 @@
                 ]
             },
             {
-                "text": "The rogues posture and jeer, eventually provoking a battle. The Clan cats are strong, however, and after a short fight, the rogues are forced to retreat.",
+                "text": "Skurvarna h\u00e5ller p\u00e5 och h\u00e5nar, vilket s\u00e5 sm\u00e5ningom provocerar fram en strid. Klankatterna \u00e4r dock starka och efter en kort kamp tvingas skurkarna dra sig tillbaka.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -287,7 +287,7 @@
                 ]
             },
             {
-                "text": "s_c takes the lead, confronting the gang with confidence. Eventually the rogues admit that they've been struggling to find enough prey and were looking to steal richer territory from the Clan. Tensions are eased when s_c informs the rogues of a prey-rich forest outside of c_n territory.",
+                "text": "s_c tar ledningen och konfronterar g\u00e4nget med sj\u00e4lvf\u00f6rtroende. S\u00e5 sm\u00e5ningom erk\u00e4nner skurkarna att de har k\u00e4mpat f\u00f6r att hitta tillr\u00e4ckligt med byte och letade efter att stj\u00e4la rikare territorium fr\u00e5n klanen. Sp\u00e4nningarna l\u00e4ttar n\u00e4r s_c informerar skurkarna om en bytesrik skog utanf\u00f6r c_n territorium.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -311,7 +311,7 @@
                 ]
             },
             {
-                "text": "s_c takes the lead, confronting the gang with confidence. Eventually the rogues admit that they've been struggling to find enough prey and were looking to steal richer territory from the Clan. Tensions are eased when s_c informs the rogues of a prey-rich forest outside of c_n territory.",
+                "text": "s_c tar ledningen och konfronterar g\u00e4nget med sj\u00e4lvf\u00f6rtroende. S\u00e5 sm\u00e5ningom erk\u00e4nner skurkarna att de har k\u00e4mpat f\u00f6r att hitta tillr\u00e4ckligt med byte och letade efter att stj\u00e4la rikare territorium fr\u00e5n klanen. Sp\u00e4nningarna l\u00e4ttar n\u00e4r s_c informerar skurkarna om en bytesrik skog utanf\u00f6r c_n territorium.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -338,20 +338,20 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The rogues are terrifyingly coordinated and use the patrol's momentary surprise to their advantage. The patrol cats are picked off one by one, and only a couple manage to escape the slaughter.",
+                "text": "Skurvarna \u00e4r skr\u00e4mmande samordnade och anv\u00e4nder patrullens tillf\u00e4lliga \u00f6verraskning till sin f\u00f6rdel. Patrullkatterna plockas av en efter en, och bara ett par lyckas undkomma slakten.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "multi"
                 ],
                 "history_text": {
-                    "scar": "m_c was badly scarred when rogues attacked {PRONOUN\/m_c\/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues attacked {PRONOUN\/m_c\/poss} patrol.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed in a rogue attack"
+                    "scar": "m_c var sv\u00e5rt \u00e4rrad n\u00e4r skurkar attackerade {PRONOUN/m_c/poss} patrull.",
+                    "reg_death": "Den h\u00e4r katten d\u00f6dades n\u00e4r skurkar attackerade patrullen {PRONOUN/m_c/poss}.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades i en oseri\u00f6s attack"
                 }
             },
             {
-                "text": "The rogues posture and jeer, eventually provoking a battle. They prove to be strong fighters, and the patrol is forced to retreat, r_c badly injured.",
+                "text": "Skurvarna h\u00e5ller p\u00e5 och h\u00e5nar, vilket s\u00e5 sm\u00e5ningom provocerar fram en strid. De visar sig vara starka k\u00e4mpar, och patrullen tvingas dra sig tillbaka, r_c sv\u00e5rt skadad.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -368,22 +368,22 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was badly scarred when rogues attacked {PRONOUN\/m_c\/poss} patrol.",
-                    "reg_death": "This cat was killed when rogues attacked {PRONOUN\/m_c\/poss} patrol.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed in a rogue attack"
+                    "scar": "m_c var sv\u00e5rt \u00e4rrad n\u00e4r skurkar attackerade {PRONOUN/m_c/poss} patrull.",
+                    "reg_death": "Den h\u00e4r katten d\u00f6dades n\u00e4r skurkar attackerade patrullen {PRONOUN/m_c/poss}.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades i en oseri\u00f6s attack"
                 }
             }
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol descends into battle without a second thought, but the rogues are stronger than expected, and eventually the patrol is forced to retreat.",
+                "text": "Patrullen g\u00e5r ner i strid utan en sekund eftertanke, men skurkarna \u00e4r starkare \u00e4n v\u00e4ntat, och s\u00e5 sm\u00e5ningom tvingas patrullen dra sig tillbaka.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol descends into battle without a second thought, eventually driving the rogues away.",
+                "text": "Patrullen g\u00e5r ner i strid utan en sekund eftertanke och driver s\u00e5 sm\u00e5ningom bort skurkarna.",
                 "exp": 30,
                 "weight": 20
             }
@@ -411,22 +411,22 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the mud by the short grass.",
-        "decline_text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/decide\/decides} not to investigate.",
+        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i leran vid det korta gr\u00e4set.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. r_c quickly hides {PRONOUN\/r_c\/self} in the long grass and sets up an ambush that sends the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. r_c g\u00f6mmer snabbt {PRONOUN/r_c/self} i det l\u00e5nga gr\u00e4set och s\u00e4tter upp ett bakh\u00e5ll som f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN\/s_c\/self} at the rogue, hissing furiously, and drives them off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c kastar {PRONOUN/s_c/self} p\u00e5 skurken, v\u00e4sande rasande och driver dem bort fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -434,7 +434,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, {PRONOUN\/s_c\/subject} {VERB\/s_c\/demand\/demands} the rogue leave c_n territory. Intimidated by {PRONOUN\/s_c\/poss} confidence, the rogue gives in and leaves without a fight.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken l\u00e4mnar c_n territorium. Skr\u00e4mmad av {PRONOUN/s_c/poss} sj\u00e4lvf\u00f6rtroende ger skurken efter och l\u00e4mnar utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -459,12 +459,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment, suddenly grateful {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} alone.",
+                "text": "Det visar sig att de var r_cs egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} ensam.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c tries to set up a trap by using grass to cover an abandoned rabbit burrow, but {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}n't as smart as {PRONOUN\/s_c\/subject} {VERB\/s_c\/think\/thinks} {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}. The trap fails, and the rogue wanders on.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c f\u00f6rs\u00f6ker s\u00e4tta upp en f\u00e4lla genom att anv\u00e4nda gr\u00e4s f\u00f6r att t\u00e4cka en \u00f6vergiven kaninh\u00e5la, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} \u00e4r inte lika smart som {PRONOUN/s_c/subject} {VERB/ s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. F\u00e4llan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -472,20 +472,20 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow that kills {PRONOUN\/r_c\/object}.",
+                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget som d\u00f6dar {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
                 }
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow coming. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/haul\/hauls} {PRONOUN\/r_c\/self} to {PRONOUN\/r_c\/poss} feet, spitting with outrage, but the rogue that did it has already turned and run.",
+                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av uppr\u00f6rdhet, men skurken som gjorde det har redan v\u00e4nt och sprungit .",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -502,9 +502,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
                 }
             }
         ]
@@ -531,22 +531,22 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the mud by the short grass.",
-        "decline_text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/decide\/decides} not to investigate.",
+        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i leran vid det korta gr\u00e4set.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. r_c quickly hides {PRONOUN\/r_c\/self} in the long grass and sets up an ambush that sends the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. r_c g\u00f6mmer snabbt {PRONOUN/r_c/self} i det l\u00e5nga gr\u00e4set och s\u00e4tter upp ett bakh\u00e5ll som f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c sets up a trap by using grass to cover an abandoned rabbit burrow. The startled intruder yowls as they first fall, then flee c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c s\u00e4tter upp en f\u00e4lla genom att anv\u00e4nda gr\u00e4s f\u00f6r att t\u00e4cka en \u00f6vergiven kaninh\u00e5la. Den f\u00f6rskr\u00e4ckta inkr\u00e4ktaren yowler n\u00e4r de f\u00f6rst faller och sedan flyr fr\u00e5n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -554,7 +554,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, {PRONOUN\/s_c\/subject} {VERB\/s_c\/demand\/demands} the rogue leave c_n territory. Intimidated by {PRONOUN\/s_c\/poss} confidence, the rogue gives in and leaves without a fight.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken l\u00e4mnar c_n territorium. Skr\u00e4mmad av {PRONOUN/s_c/poss} sj\u00e4lvf\u00f6rtroende ger skurken efter och l\u00e4mnar utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -579,12 +579,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment, suddenly grateful {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} alone.",
+                "text": "Det visar sig att de var r_cs egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} ensam.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN\/s_c\/self} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN\/s_c\/subject}'d like to think. The rogue escapes {PRONOUN\/s_c\/poss} grasp and runs off further into c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c kastar {PRONOUN/s_c/self} p\u00e5 skurken, v\u00e4sande ursinnigt, men det h\u00e4r \u00e4r en stridsh\u00e4rdad inkr\u00e4ktare, och s_c \u00e4r inte en s\u00e5 bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -592,20 +592,20 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow that kills {PRONOUN\/r_c\/object}.",
+                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget som d\u00f6dar {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
                 }
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow coming. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/haul\/hauls} {PRONOUN\/r_c\/self} to {PRONOUN\/r_c\/poss} feet, spitting with outrage, but the rogue that did it has already turned and run.",
+                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av uppr\u00f6rdhet, men skurken som gjorde det har redan v\u00e4nt och sprungit .",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -622,9 +622,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
                 }
             }
         ]
@@ -651,29 +651,29 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, app1 notices some suspicious pawprints in the mud by the short grass.",
-        "decline_text": "{PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/decide\/decides} not to investigate.",
+        "intro_text": "N\u00e4r app1 \u00e4r p\u00e5 patrull l\u00e4gger den m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i leran vid det korta gr\u00e4set.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte unders\u00f6ka.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. app1 quickly hides {PRONOUN\/app1\/self} in the long grass, and sets up an ambush that lets {PRONOUN\/app1\/object} pretend to be a far bigger and more impressive fighter. app1 sends the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. app1 g\u00f6mmer snabbt {PRONOUN/app1/self} i det l\u00e5nga gr\u00e4set och s\u00e4tter upp ett bakh\u00e5ll som l\u00e5ter {PRONOUN/app1/object} l\u00e5tsas vara en mycket st\u00f6rre och mer imponerande fighter. app1 skickar skurken att fly fr\u00e5n c_n-territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "app1 soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat. In fact... {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} pretty sure this is {PRONOUN\/app1\/poss} mentor's scent. And {PRONOUN\/app1\/poss} mentor has been hinting {PRONOUN\/app1\/subject}'ll have an assessment soon.",
+                "text": "app1 inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot. Faktum \u00e4r att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska s\u00e4ker p\u00e5 att detta \u00e4r {PRONOUN/app1/poss} mentors doft. Och mentorn f\u00f6r {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att f\u00e5 en bed\u00f6mning snart.",
                 "exp": 10,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} alone. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/do\/does}n't want to look dumb in front of other cats.",
+                "text": "Det visade sig att de var app1s egna tassavtryck... app1 huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam {PRONOUN/app1/subject}{VERB/app1/'re/'s} ensam. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inf\u00f6r andra katter.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, {PRONOUN\/s_c\/subject} {VERB\/s_c\/demand\/demands} the rogue leave c_n territory. The rogue is not impressed by this adolescent and ignores {PRONOUN\/s_c\/object} completely.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken l\u00e4mnar c_n territorium. Skurken \u00e4r inte imponerad av denna ton\u00e5ring och ignorerar {PRONOUN/s_c/object} helt.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -699,20 +699,20 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, app1 doesn't see the blow that kills {PRONOUN\/app1\/object}.",
+                "text": "Efter sp\u00e5ret med {PRONOUN/r_c/poss} nos mot marken, ser app1 inte slaget som d\u00f6dar {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
                 }
             },
             {
-                "text": "Following the trail with {PRONOUN\/app1\/poss} nose to the ground, app1 doesn't see the blow coming. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/haul\/hauls} {PRONOUN\/app1\/object} to {PRONOUN\/app1\/poss} feet, squealing with pain, and {VERB\/app1\/run\/runs} for home.",
+                "text": "F\u00f6ljer leden med {PRONOUN/app1/poss} nos mot marken, app1 ser inte slaget komma. {PRONOUN/app1/subject/CAP} {VERB/app1/haul/hauls} {PRONOUN/app1/object} till {PRONOUN/app1/poss} f\u00f6tter, gnisslande av sm\u00e4rta och {VERB/app1/run/runs} f\u00f6r hem.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -729,9 +729,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c died from an injury inflicted by an invading rogue.",
-                    "lead_death": "died from an injury inflicted by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c dog av en skada tillfogad av en invaderande skurk.",
+                    "lead_death": "dog av en skada tillfogad av en invaderande skurk"
                 }
             }
         ]
@@ -758,12 +758,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the mud by the short grass.",
-        "decline_text": "They decide not to investigate.",
+        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i leran vid det korta gr\u00e4set.",
+        "decline_text": "De best\u00e4mmer sig f\u00f6r att inte utreda.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol quickly hides themselves in the long grass and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i det l\u00e5nga gr\u00e4set och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -784,7 +784,7 @@
                 ]
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -805,7 +805,7 @@
                 ]
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. With a furious hiss, s_c throws {PRONOUN\/s_c\/self} at the rogue and, together with r_c, drives them off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Med ett rasande v\u00e4sande kastar s_c {PRONOUN/s_c/self} mot skurken och, tillsammans med r_c, driver dem bort fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -829,7 +829,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, s_c and r_c demand the rogue leave c_n territory. The rogue is intimidated by their confidence and leaves without a fight.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och smygande kr\u00e4ver s_c och r_c att skurken l\u00e4mnar c_n territorium. Skurken skr\u00e4ms av deras sj\u00e4lvf\u00f6rtroende och g\u00e5r d\u00e4rifr\u00e5n utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -870,7 +870,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment, suddenly grateful that {PRONOUN\/r_c\/poss} patrol is so small. Fewer eyes watching that embarrassing moment.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam f\u00f6r att {PRONOUN/r_c/poss} patrull \u00e4r s\u00e5 liten. F\u00e4rre \u00f6gon som ser det pinsamma \u00f6gonblicket.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -891,7 +891,7 @@
                 ]
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c tries to set up a trap by using grass to cover an abandoned rabbit burrow, but {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}n't as smart as {PRONOUN\/s_c\/subject} {VERB\/s_c\/think\/thinks} {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}. The trap fails, and the rogue wanders on.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c f\u00f6rs\u00f6ker s\u00e4tta upp en f\u00e4lla genom att anv\u00e4nda gr\u00e4s f\u00f6r att t\u00e4cka en \u00f6vergiven kaninh\u00e5la, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} \u00e4r inte lika smart som {PRONOUN/s_c/subject} {VERB/ s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. F\u00e4llan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -915,7 +915,7 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow coming. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/haul\/hauls} {PRONOUN\/r_c\/self} to {PRONOUN\/r_c\/poss} feet, spitting with outrage, but the rogue that did it has already turned and run from the patrol.",
+                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av uppr\u00f6rdhet, men skurken som gjorde det har redan v\u00e4nt och sprungit fr\u00e5n patrullen.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -932,9 +932,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c died from an injury inflicted by an invading rogue.",
-                    "lead_death": "died from an injury inflicted by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c dog av en skada tillfogad av en invaderande skurk.",
+                    "lead_death": "dog av en skada tillfogad av en invaderande skurk"
                 },
                 "relationships": [
                     {
@@ -977,12 +977,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the mud by the short grass.",
-        "decline_text": "They decide not to investigate.",
+        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i leran vid det korta gr\u00e4set.",
+        "decline_text": "De best\u00e4mmer sig f\u00f6r att inte utreda.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol quickly hides themselves in the long grass and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i det l\u00e5nga gr\u00e4set och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1003,7 +1003,7 @@
                 ]
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1024,7 +1024,7 @@
                 ]
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c sets up a trap by using grass to cover an abandoned rabbit burrow. The startled intruder yowls as they first fall, then flee c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c s\u00e4tter upp en f\u00e4lla genom att anv\u00e4nda gr\u00e4s f\u00f6r att t\u00e4cka en \u00f6vergiven kaninh\u00e5la. Den f\u00f6rskr\u00e4ckta inkr\u00e4ktaren yowler n\u00e4r de f\u00f6rst faller och sedan flyr fr\u00e5n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1048,7 +1048,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue, and confronts {PRONOUN\/r_c\/object}. Fur puffed up and scowling, s_c and r_c demand the rogue leave c_n territory. Intimidated by their confidence, the rogue gives in and leaves without a fight.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar {PRONOUN/r_c/object}. P\u00e4ls uppbl\u00e5st och smygande kr\u00e4ver s_c och r_c att skurken l\u00e4mnar c_n territorium. Skr\u00e4md av deras sj\u00e4lvf\u00f6rtroende ger skurken efter och l\u00e4mnar utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1089,7 +1089,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment, suddenly grateful that {PRONOUN\/r_c\/poss} patrol is so small. Fewer eyes watching that embarrassing moment.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam f\u00f6r att {PRONOUN/r_c/poss} patrull \u00e4r s\u00e5 liten. F\u00e4rre \u00f6gon som ser det pinsamma \u00f6gonblicket.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1110,7 +1110,7 @@
                 ]
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN\/s_c\/object} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN\/s_c\/subject}'d like to think. The rogue escapes {PRONOUN\/s_c\/poss} grasp and runs off further into c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c kastar {PRONOUN/s_c/object} p\u00e5 skurken, v\u00e4sande rasande, men det h\u00e4r \u00e4r en stridsh\u00e4rdad inkr\u00e4ktare, och s_c \u00e4r inte en s\u00e5 bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -1134,7 +1134,7 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow coming. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/haul\/hauls} {PRONOUN\/r_c\/self} to {PRONOUN\/r_c\/poss} feet, spitting with outrage, but the rogue that did it has already turned and run.",
+                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av uppr\u00f6rdhet, men skurken som gjorde det har redan v\u00e4nt och sprungit .",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1151,9 +1151,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c died from an injury inflicted by an invading rogue.",
-                    "lead_death": "died from an injury inflicted by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c dog av en skada tillfogad av en invaderande skurk.",
+                    "lead_death": "dog av en skada tillfogad av en invaderande skurk"
                 },
                 "relationships": [
                     {
@@ -1196,29 +1196,29 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, app1 notices some suspicious pawprints in the mud by the short grass.",
-        "decline_text": "{PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/decide\/decides} not to investigate.",
+        "intro_text": "N\u00e4r app1 \u00e4r p\u00e5 patrull l\u00e4gger den m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i leran vid det korta gr\u00e4set.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte unders\u00f6ka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol quickly hides themselves in the long grass and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i det l\u00e5nga gr\u00e4set och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "app1 soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat. In fact... {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} pretty sure this is {PRONOUN\/app1\/poss} mentor's scent. And {PRONOUN\/app1\/poss} mentor has been hinting {PRONOUN\/app1\/subject}'ll have an assessment soon.",
+                "text": "app1 inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot. Faktum \u00e4r att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska s\u00e4ker p\u00e5 att detta \u00e4r {PRONOUN/app1/poss} mentors doft. Och mentorn f\u00f6r {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att f\u00e5 en bed\u00f6mning snart.",
                 "exp": 10,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful that {PRONOUN\/app1\/poss} patrol is so small. Fewer eyes watching that embarrassing moment. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/do\/does}n't want to look dumb in front of other cats.",
+                "text": "Det visar sig att de var app1:s egna tassavtryck... app1 huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam f\u00f6r att {PRONOUN/app1/poss} patrull \u00e4r s\u00e5 liten. F\u00e4rre \u00f6gon som ser det pinsamma \u00f6gonblicket. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inf\u00f6r andra katter.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue, and confronts {PRONOUN\/s_c\/object}. Fur puffed up and scowling, {PRONOUN\/s_c\/subject} {VERB\/s_c\/demand\/demands} the rogue leave c_n territory. The rogue is not impressed by the adolescent but reluctantly leaves c_n territory.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar {PRONOUN/s_c/object}. P\u00e4ls uppbl\u00e5st och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken l\u00e4mnar c_n territorium. Skurken \u00e4r inte imponerad av ton\u00e5ringen utan l\u00e4mnar motvilligt c_n territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1244,7 +1244,7 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/app1\/poss} nose to the ground, app1 doesn't see the blow coming. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/haul\/hauls} {PRONOUN\/app1\/object} to {PRONOUN\/app1\/poss} feet, squealing with pain, and {VERB\/app1\/run\/runs} for home.",
+                "text": "F\u00f6ljer leden med {PRONOUN/app1/poss} nos mot marken, app1 ser inte slaget komma. {PRONOUN/app1/subject/CAP} {VERB/app1/haul/hauls} {PRONOUN/app1/object} till {PRONOUN/app1/poss} f\u00f6tter, gnisslande av sm\u00e4rta och {VERB/app1/run/runs} f\u00f6r hem.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1261,9 +1261,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c died from an injury inflicted by an invading rogue.",
-                    "lead_death": "died from an injury inflicted by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c dog av en skada tillfogad av en invaderande skurk.",
+                    "lead_death": "dog av en skada tillfogad av en invaderande skurk"
                 }
             }
         ]
@@ -1285,12 +1285,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the mud by the short grass.",
-        "decline_text": "They decide not to investigate.",
+        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i leran vid det korta gr\u00e4set.",
+        "decline_text": "De best\u00e4mmer sig f\u00f6r att inte utreda.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol quickly hides themselves in the long grass and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i det l\u00e5nga gr\u00e4set och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1311,7 +1311,7 @@
                 ]
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1332,7 +1332,7 @@
                 ]
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. With a furious hiss, s_c throws {PRONOUN\/s_c\/self} at the rogue and, together with r_c, drives them off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Med ett rasande v\u00e4sande kastar s_c {PRONOUN/s_c/self} mot skurken och, tillsammans med r_c, driver dem bort fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1356,7 +1356,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, the patrol demands the rogue leave c_n territory. Intimidated by their confidence and the number of cats, the rogue gives in and leaves without a fight.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, patrullen kr\u00e4ver att skurken l\u00e4mnar c_n territorium. Skr\u00e4md av deras sj\u00e4lvf\u00f6rtroende och antalet katter ger skurken efter och g\u00e5r utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1397,7 +1397,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment and can't meet the eyes of the rest of the patrol.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet och kan inte m\u00f6ta \u00f6gonen p\u00e5 resten av patrullen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1418,7 +1418,7 @@
                 ]
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c tries to set up a trap by using grass to cover an abandoned rabbit burrow, but {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}n't as smart as {PRONOUN\/s_c\/subject} {VERB\/s_c\/think\/thinks} {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}. The trap fails, and the rogue wanders on.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c f\u00f6rs\u00f6ker s\u00e4tta upp en f\u00e4lla genom att anv\u00e4nda gr\u00e4s f\u00f6r att t\u00e4cka en \u00f6vergiven kaninh\u00e5la, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} \u00e4r inte lika smart som {PRONOUN/s_c/subject} {VERB/ s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. F\u00e4llan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -1460,12 +1460,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the mud by the short grass.",
-        "decline_text": "They decide not to investigate.",
+        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i leran vid det korta gr\u00e4set.",
+        "decline_text": "De best\u00e4mmer sig f\u00f6r att inte utreda.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol quickly hides themselves in the long grass and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i det l\u00e5nga gr\u00e4set och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1486,7 +1486,7 @@
                 ]
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1507,7 +1507,7 @@
                 ]
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c sets up a trap by using grass to cover an abandoned rabbit burrow. The startled intruder yowls as they first fall, then flee c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c s\u00e4tter upp en f\u00e4lla genom att anv\u00e4nda gr\u00e4s f\u00f6r att t\u00e4cka en \u00f6vergiven kaninh\u00e5la. Den f\u00f6rskr\u00e4ckta inkr\u00e4ktaren yowler n\u00e4r de f\u00f6rst faller och sedan flyr fr\u00e5n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1531,7 +1531,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, the patrol demands the rogue leave c_n territory. Intimidated by {PRONOUN\/s_c\/poss} confidence and the number of cats, the rogue gives in and leaves without a fight.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, patrullen kr\u00e4ver att skurken l\u00e4mnar c_n territorium. Skr\u00e4md av {PRONOUN/s_c/poss} sj\u00e4lvf\u00f6rtroende och antalet katter ger skurken efter och g\u00e5r utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1572,7 +1572,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment and can't meet the eyes of the rest of the patrol.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet och kan inte m\u00f6ta \u00f6gonen p\u00e5 resten av patrullen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1593,7 +1593,7 @@
                 ]
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN\/s_c\/self} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN\/s_c\/subject}'d like to think. The rogue escapes {PRONOUN\/s_c\/poss} grasp and runs off further into c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c kastar {PRONOUN/s_c/self} p\u00e5 skurken, v\u00e4sande ursinnigt, men det h\u00e4r \u00e4r en stridsh\u00e4rdad inkr\u00e4ktare, och s_c \u00e4r inte en s\u00e5 bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -1640,12 +1640,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, app1 notices some suspicious pawprints in the mud by the short grass.",
-        "decline_text": "{PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/decide\/decides} not to investigate.",
+        "intro_text": "N\u00e4r app1 \u00e4r p\u00e5 patrull l\u00e4gger den m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i leran vid det korta gr\u00e4set.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte unders\u00f6ka.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol quickly hides themselves in the long grass and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i det l\u00e5nga gr\u00e4set och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1666,7 +1666,7 @@
                 ]
             },
             {
-                "text": "app1 soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat. In fact... {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} pretty sure this is {PRONOUN\/app1\/poss} mentor's scent. And {PRONOUN\/app1\/poss} mentor has been hinting {PRONOUN\/app1\/subject}'ll have an assessment soon.",
+                "text": "app1 inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot. Faktum \u00e4r att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska s\u00e4ker p\u00e5 att detta \u00e4r {PRONOUN/app1/poss} mentors doft. Och mentorn f\u00f6r {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att f\u00e5 en bed\u00f6mning snart.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1689,7 +1689,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment and can't meet the eyes of the rest of the patrol. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/do\/does}n't want to look dumb in front of other cats.",
+                "text": "Det visar sig att de var app1:s egna tassavtryck... app1 huffar av f\u00f6rl\u00e4genhet och kan inte m\u00f6ta \u00f6gonen p\u00e5 resten av patrullen. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inf\u00f6r andra katter.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1710,7 +1710,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, {PRONOUN\/s_c\/subject} {VERB\/s_c\/demand\/demands} the rogue leave c_n territory. The rogue is not impressed by the adolescent, but with the full patrol backing {PRONOUN\/s_c\/object} up, the rogue leaves c_n territory.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken l\u00e4mnar c_n territorium. Skurken \u00e4r inte imponerad av ton\u00e5ringen, men med full patrull som backar upp {PRONOUN/s_c/object} l\u00e4mnar skurken c_n territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1770,12 +1770,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "On {PRONOUN\/r_c\/poss} way to mark the far corners of {PRONOUN\/r_c\/poss} plains, r_c starts telling a story of {PRONOUN\/r_c\/poss} ancestors to keep every cat entertained.",
-        "decline_text": "r_c nearly trips into a rabbit burrow and decides to watch where {PRONOUN\/r_c\/poss} paws are going instead.",
+        "intro_text": "P\u00e5 {PRONOUN/r_c/poss} s\u00e4tt att markera de bortre h\u00f6rnen av {PRONOUN/r_c/poss} sl\u00e4tter, b\u00f6rjar r_c ber\u00e4tta en historia om {PRONOUN/r_c/poss} f\u00f6rf\u00e4der f\u00f6r att underh\u00e5lla varje katt.",
+        "decline_text": "r_c snubblar n\u00e4stan in i en kaninh\u00e5la och best\u00e4mmer sig f\u00f6r att titta p\u00e5 vart {PRONOUN/r_c/poss} tassar \u00e4r p\u00e5 v\u00e4g ist\u00e4llet.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "It keeps the cats' minds off the distance they have to cover. The patrol goes quickly and easily.",
+                "text": "Det h\u00e5ller katternas sinnen borta fr\u00e5n det avst\u00e5nd de m\u00e5ste tillryggal\u00e4gga. Patrullen g\u00e5r snabbt och enkelt.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1799,7 +1799,7 @@
                 ]
             },
             {
-                "text": "s_c spins a vivid, engaging tale of a massive war their ancestors fought over the border the patrol is headed to mark. Not only does it keep every cat entertained, but it also emphasizes the importance of the patrol and motivates everyone.",
+                "text": "s_c spinner en levande, engagerande ber\u00e4ttelse om ett massivt krig som deras f\u00f6rf\u00e4der utk\u00e4mpade \u00f6ver gr\u00e4nsen som patrullen \u00e4r p\u00e5 v\u00e4g att markera. Det underh\u00e5ller inte bara varje katt, det understryker ocks\u00e5 patrullens betydelse och motiverar alla.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1826,7 +1826,7 @@
                 ]
             },
             {
-                "text": "It's a fantastic idea, making the patrol fly by as cats chat and laugh with their Clanmates, and everyone ends the day feeling much closer to each other.",
+                "text": "Det \u00e4r en fantastisk id\u00e9, som f\u00e5r patrullen att flyga f\u00f6rbi medan katter chattar och skratta med sina klankamrater, och alla avslutar dagen med att k\u00e4nna sig mycket n\u00e4rmare varandra.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1858,7 +1858,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/try\/tries}, but {PRONOUN\/r_c\/poss} Clanmates seem unenthused, so r_c stops.",
+                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/try/tries}, men {PRONOUN/r_c/poss} klankamrater verkar inte entusiastiska, s\u00e5 r_c slutar.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1882,7 +1882,7 @@
                 ]
             },
             {
-                "text": "s_c takes r_c aside and reminds {PRONOUN\/r_c\/object} coldly to focus on {PRONOUN\/r_c\/poss} duties.",
+                "text": "s_c tar r_c \u00e5t sidan och p\u00e5minner {PRONOUN/r_c/object} kallt att fokusera p\u00e5 {PRONOUN/r_c/poss} uppgifter.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1950,18 +1950,18 @@
         "chance_of_success": 50,
         "relationship_constraint": [],
         "pl_skill_constraint": [],
-        "intro_text": "This is just weird - what's made the grass here grow to such a uniform low height? Why is it so green? Why has it grown in such a neat circle?",
-        "decline_text": "Look, app1 knows grass, and this is too weird to want to spend time in. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/head\/heads} home without ever seeing the Fresno Nightcrawler.",
+        "intro_text": "Det h\u00e4r \u00e4r bara konstigt - vad har f\u00e5tt gr\u00e4set h\u00e4r att v\u00e4xa till en s\u00e5 j\u00e4mn l\u00e5g h\u00f6jd? Varf\u00f6r \u00e4r det s\u00e5 gr\u00f6nt? Varf\u00f6r har den vuxit i en s\u00e5 fin cirkel?",
+        "decline_text": "Titta, app1 kan gr\u00e4s, och det h\u00e4r \u00e4r f\u00f6r konstigt f\u00f6r att vilja spendera tid i. {PRONOUN/app1/subject/CAP} {VERB/app1/head/heads} hem utan att n\u00e5gonsin se Fresno Nightcrawler.",
         "success_outcomes": [
             {
-                "text": "Okay, app1 knows that Twolegs have, well, two legs, but that is just <i>excessive<\/i>, the Twoleg that owns this weird green circle is almost nothing but leg! Friendly though, and they don't try to invade app1's space.",
+                "text": "Okej, app1 vet att Twolegs har, ja, tv\u00e5 ben, men det \u00e4r bara <i>\u00f6verdrivet</i>, Twoleg som \u00e4ger den h\u00e4r konstiga gr\u00f6na cirkeln \u00e4r n\u00e4stan ingenting annat \u00e4n ben! V\u00e4nliga dock, och de f\u00f6rs\u00f6ker inte invadera app1:s utrymme.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "fail_outcomes": [
             {
-                "text": "AH! app1 gets run over by an <i>enormously<\/i> tall Twoleg running in random circles around the green grass.",
+                "text": "AH! app1 blir \u00f6verk\u00f6rd av en <i>enormt</i> l\u00e5ng tv\u00e5ben som springer i slumpm\u00e4ssiga cirklar runt det gr\u00f6na gr\u00e4set.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -2001,11 +2001,11 @@
         "chance_of_success": 50,
         "relationship_constraint": [],
         "pl_skill_constraint": [],
-        "intro_text": "As the patrol moves through the grass just after sunset, two moons rise in the sky...",
-        "decline_text": "One of those moons has the same metal as a monster, the same glowing eyes that glare from the creatures that kill on the Thunderpaths. The cats hide from its sight, trembling.",
+        "intro_text": "N\u00e4r patrullen r\u00f6r sig genom gr\u00e4set strax efter solnedg\u00e5ngen stiger tv\u00e5 m\u00e5nar upp p\u00e5 himlen...",
+        "decline_text": "En av dessa m\u00e5nar har samma metall som ett monster, samma gl\u00f6dande \u00f6gon som bl\u00e4ndar fr\u00e5n varelserna som d\u00f6dar p\u00e5 Thunderpaths. Katterna g\u00f6mmer sig f\u00f6r dess syn, darrande.",
         "success_outcomes": [
             {
-                "text": "Two whole moons! That's got to be lucky, the cats decide, sitting on a little rock still warm from the sun to stargaze.",
+                "text": "Tv\u00e5 hela m\u00e5nar! Det m\u00e5ste vara tur, best\u00e4mmer katterna och sitter p\u00e5 en liten sten som fortfarande \u00e4r varm fr\u00e5n solen f\u00f6r att titta p\u00e5 stj\u00e4rnan.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2028,7 +2028,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "One of those moons is getting awfully... close... r_c gets caught in a strange wind that picks {PRONOUN\/r_c\/object} up, claws scrabbling wildly, sucked towards the frightening foreign moon as it takes {PRONOUN\/r_c\/object} away from c_n.",
+                "text": "En av de d\u00e4r m\u00e5narna b\u00f6rjar n\u00e4rma sig fruktansv\u00e4rt... n\u00e4ra... r_c fastnar i en konstig vind som plockar upp {PRONOUN/r_c/object}, klor klorrar vilt, sugs mot den skr\u00e4mmande fr\u00e4mmande m\u00e5nen n\u00e4r den tar {PRONOUN/r_c/ objekt} bort fr\u00e5n c_n.",
                 "exp": 0,
                 "weight": 20,
                 "lost_cats": [
@@ -2058,11 +2058,11 @@
         "pl_skill_constraint": [
             "STORY,1"
         ],
-        "intro_text": "As the cats remark the border, p_l asks if they remember the tale of the beautiful molly and the monstrous tom. Once upon a time, the mighty tom of the plains found a beautiful molly on the border of his lands, skinny and trembling...",
-        "decline_text": "This... really isn't the time to stop for a story.",
+        "intro_text": "N\u00e4r katterna anm\u00e4rker p\u00e5 gr\u00e4nsen, fr\u00e5gar p_l om de minns sagan om den vackra molly och den monstru\u00f6sa tomen. En g\u00e5ng i tiden fann sl\u00e4ttens m\u00e4ktiga tom en vacker molly p\u00e5 gr\u00e4nsen till hans land, mager och darrande...",
+        "decline_text": "Det h\u00e4r... \u00e4r verkligen inte l\u00e4ge att stanna upp f\u00f6r en ber\u00e4ttelse.",
         "success_outcomes": [
             {
-                "text": "Outraged, the tom drew his claws - only for the molly to disappear in a burst of starlight, StarClan judging the tom for his monstrous heart. His scent grew foul, his whiskers fell off, his claws blunted, and so the first coyote was born, howling his anger and loss.",
+                "text": "Uppr\u00f6rd drog tom sina klor - bara f\u00f6r att mollyn skulle f\u00f6rsvinna i en skur av stj\u00e4rnljus, StarClan d\u00f6mde tom f\u00f6r hans monstru\u00f6sa hj\u00e4rta. Hans doft blev ful, morrh\u00e5ren f\u00f6ll av, klorna trubbade, och s\u00e5 f\u00f6ddes den f\u00f6rsta pr\u00e4rievargen, som ylade sin ilska och saknad.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_ghost",
@@ -2097,7 +2097,7 @@
                 ]
             },
             {
-                "text": "With a terrifying anger, the tom unsheathed his claws... but luckily for the molly, she was a StarClan cat in disguise, and with a burst of starlight, StarClan judged him, and turned him into a horrifying monster... a <i>coyote<\/i>.",
+                "text": "Med en skr\u00e4ckinjagande ilska sl\u00e4ppte tomen sina klor... men som tur var f\u00f6r molly var hon en StarClan-katt i f\u00f6rkl\u00e4dnad, och med ett utbrott av stj\u00e4rnljus d\u00f6mde StarClan honom och f\u00f6rvandlade honom till ett skr\u00e4mmande monster... a < i>pr\u00e4rievarg</i>.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_ghost",
@@ -2140,7 +2140,7 @@
                 ]
             },
             {
-                "text": "The powerful tom went to chase her off, but StarClan judged him a monster, and cursed him to become a coyote. It is a lesson all can take note of - the stars will judge you for your actions.",
+                "text": "Den m\u00e4ktiga tom gick f\u00f6r att jaga bort henne, men StarClan bed\u00f6mde honom som ett monster och f\u00f6rbannade honom att bli en pr\u00e4rievarg. Det \u00e4r en l\u00e4xa som alla kan ta del av - stj\u00e4rnorna kommer att d\u00f6ma dig f\u00f6r dina handlingar.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_ghost",
@@ -2183,7 +2183,7 @@
                 ]
             },
             {
-                "text": "The tom drove the molly off and was cursed by StarClan for his cruelty. And good thing too, s_c pipes up! Evil like that should always be punished!",
+                "text": "Tommen k\u00f6rde iv\u00e4g mollyen och blev f\u00f6rbannad av StarClan f\u00f6r sin grymhet. Och bra ocks\u00e5, s_c piper upp! S\u00e5dan ondska ska alltid straffas!",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_ghost",
@@ -2242,7 +2242,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol isn't interested in hearing p_l's fable as they work. A pity - one should always remember the lessons of c_n's myths.",
+                "text": "Patrullen \u00e4r inte intresserad av att h\u00f6ra p_ls fabel n\u00e4r de arbetar. Synd - man ska alltid komma ih\u00e5g l\u00e4rdomarna av c_ns myter.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [

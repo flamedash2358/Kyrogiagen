@@ -29,11 +29,11 @@
         "pl_skill_constraint": [
             "STORY,1"
         ],
-        "intro_text": "A winter gale howls outside camp - today's apprentice lesson will occur in the shelter of the den. p_l gathers {PRONOUN\/p_l\/poss} audience close. On the longest night of leaf-bare, if a cat is unlucky, they might spot great white islands appearing out of the sea-mist.",
-        "decline_text": "app1 shivers, and goes to close a breach in the den walls before the warmth is driven out. Myths will have to wait.",
+        "intro_text": "En vinterkuling ylar utanf\u00f6r l\u00e4gret - dagens l\u00e4rlingslektion kommer att ske i l\u00e4 av lyan. p_l samlar {PRONOUN/p_l/poss} publik n\u00e4ra. Om en katt har otur, den l\u00e4ngsta natten av l\u00f6vbar, kan de uppt\u00e4cka stora vita \u00f6ar som dyker upp ur havsdimman.",
+        "decline_text": "app1 ryser och g\u00e5r f\u00f6r att st\u00e4nga en spr\u00e4ngning i h\u00e5lans v\u00e4ggar innan v\u00e4rmen drivs ut. Myter f\u00e5r v\u00e4nta.",
         "success_outcomes": [
             {
-                "text": "Those who see it are called, like a riptide sucking them out of reach, p_l whispers. None who step foot on the white mist islands are ever seen again... The group shivers with pleasant fear in the warmth of their sheltered nests.",
+                "text": "De som ser det kallas, som en riptide som suger dem utom r\u00e4ckh\u00e5ll, p_l viskar. Ingen som trampar sin fot p\u00e5 de vita dim\u00f6arna ses n\u00e5gonsin igen... Gruppen ryser av behaglig r\u00e4dsla i v\u00e4rmen fr\u00e5n sina skyddade bon.",
                 "exp": 40,
                 "weight": 20,
                 "relationships": [
@@ -95,7 +95,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The winds of the gale drown out p_l's voice. Instead, the cats give up on storytelling and cuddle together into a ball, watertight against the world.",
+                "text": "Kulingens vindar dr\u00e4nker p_ls r\u00f6st. Ist\u00e4llet ger katterna upp ber\u00e4ttandet och myser ihop till en boll, vattent\u00e4t mot v\u00e4rlden.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -144,11 +144,11 @@
             "STORY,1",
             "LORE,1"
         ],
-        "intro_text": "The waves crash outside camp, an ever present noise brought into sharp focus by their unusual power and ferocity. The wind is blocked by camp walls, but p_l's Clanmates have their fur puffed out regardless. Now isn't a good time to leave shelter.",
-        "decline_text": "The patrol stays in their nests instead of training.",
+        "intro_text": "V\u00e5gorna sl\u00e5r in utanf\u00f6r l\u00e4gret, ett st\u00e4ndigt n\u00e4rvarande ljud som bringas i skarpt fokus av sin ovanliga kraft och grymhet. Vinden \u00e4r blockerad av l\u00e4gerv\u00e4ggar, men p_l:s klankamrater har p\u00e4lsen utbl\u00e5st oavsett. Nu \u00e4r inte en bra tid att l\u00e4mna skydd.",
+        "decline_text": "Patrullen stannar i sina bon ist\u00e4llet f\u00f6r att tr\u00e4na.",
         "success_outcomes": [
             {
-                "text": "Let us speak of the nursery tales, s_c begins. Of Clans founded amid driftwood and loss, of the moon giving her blessing to warriors who swim under her gaze, of the magic of the sea, currently awful, but just as much awe inspiring. Outside it rages - but here in camp, c_n is safe.",
+                "text": "L\u00e5t oss tala om barnkammarens ber\u00e4ttelser, b\u00f6rjar s_c. Av klaner som grundats bland drivved och f\u00f6rlust, av m\u00e5nen som ger sin v\u00e4lsignelse till krigare som simmar under hennes blick, av havets magi, f\u00f6r n\u00e4rvarande hemskt, men lika mycket respektingivande. Utanf\u00f6r rasar det \u2013 men h\u00e4r i l\u00e4gret \u00e4r c_n s\u00e4ker.",
                 "exp": 40,
                 "weight": 20,
                 "art": "bch_train_stormwaves",
@@ -202,7 +202,7 @@
                 ]
             },
             {
-                "text": "This day will be a day of heroes, s_c whispers, capturing {PRONOUN\/s_c\/poss} Clanmates' attention. Heroes born, or made, or found - such things always appear in c_n's history, a stranger arriving soaked from a storm, a new life brought into the world as winds howl outside, a warrior rising to need. The storms mark it.",
+                "text": "Den h\u00e4r dagen kommer att vara en dag av hj\u00e4ltar, s_c viskningar, som f\u00e5ngar {PRONOUN/s_c/poss} klankamraters uppm\u00e4rksamhet. Hj\u00e4ltar f\u00f6dda, skapade eller hittade - s\u00e5dana saker dyker alltid upp i c_ns historia, en fr\u00e4mling som anl\u00e4nder genombl\u00f6t fr\u00e5n en storm, ett nytt liv f\u00f6rt till v\u00e4rlden n\u00e4r vindarna ylar utanf\u00f6r, en krigare som stiger till n\u00f6d. Stormarna markerar det.",
                 "exp": 40,
                 "weight": 20,
                 "art": "bch_train_stormwaves",
@@ -258,7 +258,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Thunder cracks and the wind shifts, throwing ocean spray from the waves on the gathered cats. Time to retreat to drier locations.",
+                "text": "\u00c5skan spricker och vinden skiftar och kastar havspray fr\u00e5n v\u00e5gorna p\u00e5 de samlade katterna. Dags att dra sig tillbaka till torrare platser.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_train_soggykitty_mad_warrior"

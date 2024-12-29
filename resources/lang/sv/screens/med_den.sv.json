@@ -1,41 +1,41 @@
 {
     "sv": {
-        "help_tooltip": "c_n's medicine cats will gather herbs over each timeskip and during any patrols they are sent on. You can see what was gathered in the Log below! The medicine cats will give these to any hurt or sick cats that need them, helping those cats to heal quicker.<br><br>Hover your mouse over the medicine den image to see what herbs your Clan has!",
-        "hurt_sick_title": "Hurt & Sick Cats",
-        "hurt_sick_label": " Cats",
-        "log_title": "Medicine Den Log",
-        "log_label": " Log",
+        "help_tooltip": "c_ns medicinkatter kommer att samla örter över varje timeskip och under eventuella patruller de skickas vidare. Du kan se vad som samlades i loggen nedan! Medicinkatterna kommer att ge dessa till alla skadade eller sjuka katter som behöver dem, vilket hjälper dessa katter att läka snabbare.<br><br>För musen över medicinhålan för att se vilka örter din klan har!",
+        "hurt_sick_title": "Sårade & sjuka katter",
+        "hurt_sick_label": "Katter",
+        "log_title": "Medicin Den Log",
+        "log_label": "Logga",
         "meds_cover": {
-            "zero": "c_n has no medicine cats who are able to work. It will be at a higher risk of death and disease.",
-            "one": "med_name can care for a Clan of up to %{clansize} members, including {PRONOUN\/med_name\/self}.",
-            "many": "c_n's medicine cats can care for a Clan of up to %{clansize} members, including themselves."
+            "zero": "c_n har inga medicinkatter som kan arbeta. Det kommer att ha en högre risk för död och sjukdom.",
+            "one": "med_name kan ta hand om en klan med upp till %{clansize} medlemmar, inklusive {PRONOUN/med_name/self}.",
+            "many": "c_ns medicinkatter kan ta hand om en klan med upp till %{clansize} medlemmar, inklusive dem själva."
         },
-        "in_den": "in den",
-        "out_den": "out of den",
-        "minor": "minor",
+        "in_den": "i den",
+        "out_den": "ut ur hålan",
+        "minor": "mindre",
         "herb_amount_zero": {
-            "one": "The herb stores are empty and bare, this does not bode well.",
-            "many": "The herb stores are empty and bare, this does not bode well."
+            "one": "Örtförråden är tomma och kala, det bådar inte gott.",
+            "many": "Örtförråden är tomma och kala, det bådar inte gott."
         },
         "herb_amount_very_low": {
-            "one": "med_name worries over the herb stores, {PRONOUN\/med_name\/subject} {VERB\/med_name\/doesn't\/don't} have nearly enough for the Clan.",
-            "many": "The medicine cats worry over the herb stores, they don't have nearly enough for the Clan."
+            "one": "med_name oroar sig över örtbutikerna, {PRONOUN/med_name/subject} {VERB/med_name/doesn't/don't} har nästan tillräckligt för klanen.",
+            "many": "Medicinkatterna oroar sig över örtförråden, de har inte alls tillräckligt för klanen."
         },
         "herb_amount_low": {
-            "one": "The herb stores are small, but it's enough for now.",
-            "many": "The herb stores are small, but it's enough for now."
+            "one": "Örtbutikerna är små, men det räcker nu.",
+            "many": "Örtbutikerna är små, men det räcker nu."
         },
         "herb_amount_average": {
-            "one": "med_name is content with how many herbs {PRONOUN\/med_name\/subject} {VERB\/med_name\/has\/have} stocked up.",
-            "many": "The medicine cats are content with how many herbs they have stocked up."
+            "one": "med_name nöjer sig med hur många örter {PRONOUN/med_name/subject} {VERB/med_name/has/have} i lager.",
+            "many": "Medicinkatterna nöjer sig med hur många örter de har fyllt på."
         },
         "herb_amount_high": {
-            "one": "The herb stores are overflowing and med_name has little worry.",
-            "many": "The herb stores are overflowing and the medicine cats have little worry."
+            "one": "Örtbutikerna är överfulla och med_name oroar sig lite.",
+            "many": "Örtförråden svämmar över och medicinkatterna är lite oroliga."
         },
         "herb_amount_very_high": {
-            "one": "StarClan has blessed them with plentiful herbs - med_name sends {PRONOUN\/med_name\/poss} thanks to Silverpelt.",
-            "many": "StarClan has blessed them with plentiful herbs - the medicine cats send their thanks to Silverpelt."
+            "one": "StarClan har välsignat dem med rikliga örter - med_name skickar {PRONOUN/med_name/poss} tack till Silverpelt.",
+            "many": "StarClan har välsignat dem med rikliga örter - medicinkatterna skickar sitt tack till Silverpelt."
         }
     }
 }

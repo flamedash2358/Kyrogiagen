@@ -2,16 +2,16 @@
     {
         "id": "gen_newborn",
         "thoughts": [
-            "Mewls pitifully for milk",
-            "Tries to figure out all of the smells around {PRONOUN\/m_c\/object}",
-            "Snoozes peacefully",
-            "Tries to open {PRONOUN\/m_c\/poss} eyes, but it's all blurry",
-            "Head empty",
-            "Almost rolled out of the nest",
-            "Tried suckling on a piece of bedding",
-            "Is squealing loudly",
-            "Mewls at someone nudging {PRONOUN\/m_c\/object}",
-            "Hisses at all the strange new smells"
+            "Mewlar ynkligt efter mj\u00f6lk",
+            "F\u00f6rs\u00f6ker ta reda p\u00e5 alla dofter runt {PRONOUN/m_c/object}",
+            "Snoozar lugnt",
+            "F\u00f6rs\u00f6ker \u00f6ppna \u00f6gonen f\u00f6r {PRONOUN/m_c/poss}, men allt \u00e4r suddigt",
+            "Huvudet tomt",
+            "N\u00e4stan rullade ut ur boet",
+            "Provade att suga p\u00e5 en bit s\u00e4ngkl\u00e4der",
+            "skriker h\u00f6gt",
+            "Mewlar \u00e5t n\u00e5gon som knuffar {PRONOUN/m_c/object}",
+            "V\u00e4ser \u00e5t alla konstiga nya dofter"
         ],
         "main_age_constraint": [
             "newborn"
@@ -20,18 +20,18 @@
     {
         "id": "gen_newborn_to_parent",
         "thoughts": [
-            "Snuggles closer to r_c",
-            "Smells r_c and immediately perks up",
-            "Mews at r_c as {PRONOUN\/r_c\/subject} {VERB\/r_c\/shift\/shifts} in the nest",
-            "Squeaks pitifully as r_c checks on {PRONOUN\/m_c\/object}",
-            "Nuzzles up to r_c with a purr",
-            "Squeaks pitifully as r_c grooms {PRONOUN\/m_c\/object}"
+            "Smyger sig n\u00e4rmare r_c",
+            "Luktar r_c och piggar upp direkt",
+            "Mews vid r_c som {PRONOUN/r_c/subject} {VERB/r_c/shift/shifts} i boet",
+            "Piper ynkligt n\u00e4r r_c kollar p\u00e5 {PRONOUN/m_c/object}",
+            "Nusar upp till r_c med ett spinnande",
+            "Piper ynkligt n\u00e4r r_c brudgummar {PRONOUN/m_c/object}"
         ],
         "main_age_constraint": [
             "newborn"
         ],
         "relationship_constraint": [
-            "child\/parent"
+            "child/parent"
         ],
         "random_living_status": [
             "living"
@@ -40,9 +40,9 @@
     {
         "id": "gen_newborn_to_sibling",
         "thoughts": [
-            "Tried suckling on r_c's tail",
-            "Is being buried under r_c",
-            "Was almost shoved out of the nest by r_c"
+            "F\u00f6rs\u00f6kte suga p\u00e5 r_c:s svans",
+            "H\u00e5ller p\u00e5 att begravas under r_c",
+            "Blev n\u00e4stan utskjuten ur boet av r_c"
         ],
         "main_age_constraint": [
             "newborn"

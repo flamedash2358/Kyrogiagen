@@ -2,23 +2,23 @@
     {
         "id": "gen_deputy",
         "thoughts": [
-            "Is assigning cats to a border patrol",
-            "Is assigning cats to a hunting patrol",
-            "Is wondering what it would be like to be a leader",
-            "Is stressed about organizing patrols",
-            "Wonders who will give {PRONOUN\/m_c\/object} {PRONOUN\/m_c\/poss} nine lives",
-            "Feels overworked",
-            "Is hoping for a break",
-            "Is assigning cats to the dawn patrol",
-            "Can't believe {PRONOUN\/m_c\/subject} overslept today",
-            "Is unsure of what the rest of the Clan thinks of {PRONOUN\/m_c\/object} as deputy"
+            "Tilldelar katter till en gr\u00e4nspatrull",
+            "Tilldelar katter till en jaktpatrull",
+            "Undrar hur det skulle vara att vara ledare",
+            "\u00c4r stressad \u00f6ver att organisera patruller",
+            "Undrar vem som ska ge {PRONOUN/m_c/object} {PRONOUN/m_c/poss} nio liv",
+            "K\u00e4nns \u00f6verarbetat",
+            "Hoppas p\u00e5 en paus",
+            "Tilldelar katter till gryningspatrullen",
+            "Kan inte fatta att {PRONOUN/m_c/subject} f\u00f6rsov sig idag",
+            "\u00c4r os\u00e4ker p\u00e5 vad resten av klanen tycker om {PRONOUN/m_c/object} som st\u00e4llf\u00f6retr\u00e4dare"
         ]
     },
     {
         "id": "deputy_alive_leader",
         "thoughts": [
-            "Is doing {PRONOUN\/m_c\/poss} best to honor {PRONOUN\/m_c\/poss} Clan and {PRONOUN\/m_c\/poss} leader",
-            "Must speak with the leader soon about something {PRONOUN\/m_c\/subject} found while out on patrol"
+            "G\u00f6r {PRONOUN/m_c/poss} b\u00e4st f\u00f6r att hedra {PRONOUN/m_c/poss} klan och {PRONOUN/m_c/poss} ledare",
+            "M\u00e5ste prata med ledaren snart om n\u00e5got som {PRONOUN/m_c/subject} hittade n\u00e4r han var ute p\u00e5 patrull"
         ],
         "random_status_constraint": [
             "leader"
@@ -30,7 +30,7 @@
     {
         "id": "deputy_to_alive_apprentice",
         "thoughts": [
-            "Is assessing the apprentices"
+            "H\u00e5ller p\u00e5 att bed\u00f6ma l\u00e4rlingarna"
         ],
         "random_status_constraint": [
             "apprentice"
@@ -42,9 +42,9 @@
     {
         "id": "ambitious_deputy",
         "thoughts": [
-            "Is imagining the respect {PRONOUN\/m_c\/subject}'d command as the leader of the Clan",
-            "Is considering innovative strategies to earn more recognition",
-            "Feels a burning desire to prove {PRONOUN\/m_c\/self} worthy of leadership"
+            "F\u00f6rest\u00e4ller sig den respekt som {PRONOUN/m_c/subject} befaller som ledare f\u00f6r klanen",
+            "\u00d6verv\u00e4ger innovativa strategier f\u00f6r att f\u00e5 mer erk\u00e4nnande",
+            "K\u00e4nner en brinnande \u00f6nskan att visa att {PRONOUN/m_c/self} \u00e4r v\u00e4rdigt ledarskap"
         ],
         "main_trait_constraint": [
             "ambitious"
@@ -53,7 +53,7 @@
     {
         "id": "ambitious_teacher_deputy_to_leader",
         "thoughts": [
-            "Is planning a new training curriculum to impress the leader"
+            "Planerar en ny utbildningsplan f\u00f6r att imponera p\u00e5 ledaren"
         ],
         "random_status_constraint": [
             "leader"
@@ -71,9 +71,9 @@
     {
         "id": "bloodthirsty_deputy_to_gen",
         "thoughts": [
-            "Is fantasizing about leading the Clan into a victorious battle",
-            "Feels a thrill imagining the chaos of a large-scale battle",
-            "Tells the border patrol not to let any intruders go free without a scar to remember them by"
+            "Fantiserar om att leda klanen in i en segerrik strid",
+            "K\u00e4nns en sp\u00e4nning att f\u00f6rest\u00e4lla sig kaoset i en storskalig strid",
+            "S\u00e4ger till gr\u00e4nspatrullen att inte l\u00e5ta n\u00e5gra inkr\u00e4ktare g\u00e5 fria utan ett \u00e4rr att minnas dem efter"
         ],
         "main_trait_constraint": [
             "bloodthirsty"
@@ -82,8 +82,8 @@
     {
         "id": "bloodthirsty_deputy_to_leader",
         "thoughts": [
-            "Thinks about killing the leader and staging it as an accident",
-            "Encourages the leader to start a war"
+            "Funderar p\u00e5 att d\u00f6da ledaren och iscens\u00e4tta det som en olycka",
+            "Uppmuntrar ledaren att starta ett krig"
         ],
         "main_trait_constraint": [
             "bloodthirsty"
@@ -98,9 +98,9 @@
     {
         "id": "fierce_deputy",
         "thoughts": [
-            "Is sternly instructing a patrol about the importance of strength in defending the Clan",
-            "Feels a rush of adrenaline at the thought of an upcoming battle",
-            "Impressed {PRONOUN\/m_c\/poss} Clanmates by scaring off an intruder"
+            "Instruerar str\u00e4ngt en patrull om vikten av styrka f\u00f6r att f\u00f6rsvara klanen",
+            "K\u00e4nner en str\u00f6m av adrenalin vid tanken p\u00e5 en kommande strid",
+            "Imponerade p\u00e5 {PRONOUN/m_c/poss} klankamrater genom att skr\u00e4mma bort en inkr\u00e4ktare"
         ],
         "main_trait_constraint": [
             "fierce"
@@ -109,11 +109,11 @@
     {
         "id": "insecure_deputy",
         "thoughts": [
-            "Hopes {PRONOUN\/m_c\/subject}'ll make a decent leader someday",
-            "Wonders how {PRONOUN\/m_c\/subject} became deputy in the first place",
-            "Feels a pang of self-doubt when a patrol returns late",
-            "Questions whether {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} respected or just tolerated by the Clan",
-            "Worries that {PRONOUN\/m_c\/poss} mistakes will lead to the Clan's downfall"
+            "Hoppas att {PRONOUN/m_c/subject} kommer att bli en anst\u00e4ndig ledare en dag",
+            "Undrar hur {PRONOUN/m_c/subject} blev suppleant i f\u00f6rsta hand",
+            "K\u00e4nner en k\u00e4nsla av sj\u00e4lvtvivel n\u00e4r en patrull kommer tillbaka sent",
+            "Fr\u00e5gor om {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} respekteras eller bara tolereras av klanen",
+            "Oro f\u00f6r att {PRONOUN/m_c/poss} misstag kommer att leda till klanens fall"
         ],
         "main_trait_constraint": [
             "insecure"
@@ -122,7 +122,7 @@
     {
         "id": "insecure_deputy_to_leader",
         "thoughts": [
-            "Keeps confirming with the leader that the patrols {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} organizing sound right"
+            "Forts\u00e4tter bekr\u00e4fta med ledaren att patrullerna {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} organiserar ljudet r\u00e4tt"
         ],
         "main_trait_constraint": [
             "insecure"
@@ -137,9 +137,9 @@
     {
         "id": "nervous_deputy",
         "thoughts": [
-            "Is fretting over a recent increase in fox sightings near the camp",
-            "Feels a twinge of worry about an approaching storm",
-            "Is overthinking a recent encounter with a rival Clan"
+            "\u00c4r orolig \u00f6ver den senaste tidens \u00f6kning av r\u00e4vobservationer n\u00e4ra l\u00e4gret",
+            "K\u00e4nner ett sting av oro \u00f6ver en annalkande storm",
+            "\u00d6vert\u00e4nker ett nyligen m\u00f6te med en rivaliserande klan"
         ],
         "main_trait_constraint": [
             "nervous"
@@ -148,8 +148,8 @@
     {
         "id": "playful_deputy",
         "thoughts": [
-            "Is inventing a fun game to make patrol assignments more engaging",
-            "Finds joy in the simple tasks of a deputy's duty"
+            "Uppfinner ett roligt spel f\u00f6r att g\u00f6ra patrulluppdrag mer engagerande",
+            "Finner gl\u00e4dje i de enkla uppgifterna i en st\u00e4llf\u00f6retr\u00e4dares plikt"
         ],
         "main_trait_constraint": [
             "playful"
@@ -158,7 +158,7 @@
     {
         "id": "playful_deputy_to_younger",
         "thoughts": [
-            "Is amused by the antics of the younger cats"
+            "\u00c4r road av de yngre katternas uppt\u00e5g"
         ],
         "random_age_constraint": [
             "kitten",
@@ -171,7 +171,7 @@
     {
         "id": "rebellious_deputy",
         "thoughts": [
-            "Is questioning the necessity of an outdated tradition"
+            "Ifr\u00e5gas\u00e4tter n\u00f6dv\u00e4ndigheten av en f\u00f6rlegad tradition"
         ],
         "main_trait_constraint": [
             "rebellious"
@@ -180,8 +180,8 @@
     {
         "id": "rebellious_deputy_to_leader",
         "thoughts": [
-            "Feels an urge to challenge the leader's decision for the betterment of the Clan",
-            "Decides to change patrol routes on {PRONOUN\/m_c\/poss} own, hoping the leader will see the benefits"
+            "K\u00e4nner ett behov att utmana ledarens beslut f\u00f6r att f\u00f6rb\u00e4ttra klanen",
+            "Beslutar att byta patrullv\u00e4gar p\u00e5 egen hand, i hopp om att ledaren ser f\u00f6rdelarna"
         ],
         "main_trait_constraint": [
             "rebellious"
@@ -196,11 +196,11 @@
     {
         "id": "strange_deputy",
         "thoughts": [
-            "Accidentally assigns the same cat to three patrols",
-            "Insists a hunting patrol needs to only bring back mice",
-            "Goes missing and comes back smelling like garlic",
-            "Is making odd noises",
-            "Giggles at the thought of a bird trying to swim"
+            "Tilldelar av misstag samma katt till tre patruller",
+            "Insisterar p\u00e5 att en jaktpatrull bara beh\u00f6ver ta tillbaka m\u00f6ss",
+            "F\u00f6rsvinner och kommer tillbaka luktande vitl\u00f6k",
+            "Ger konstiga ljud",
+            "Fnissar vid tanken p\u00e5 en f\u00e5gel som f\u00f6rs\u00f6ker simma"
         ],
         "main_trait_constraint": [
             "strange"
@@ -209,9 +209,9 @@
     {
         "id": "wise_deputy",
         "thoughts": [
-            "Is reflecting on a past lesson to make a crucial decision",
-            "Ponders how {PRONOUN\/m_c\/poss} decisions will impact the Clan in the long term",
-            "Feels a sense of understanding after meditating on an issue"
+            "Reflekterar \u00f6ver en tidigare lektion f\u00f6r att fatta ett avg\u00f6rande beslut",
+            "Funderar \u00f6ver hur {PRONOUN/m_c/poss} beslut kommer att p\u00e5verka klanen p\u00e5 l\u00e5ng sikt",
+            "K\u00e4nner en k\u00e4nsla av f\u00f6rst\u00e5else efter att ha mediterat \u00f6ver en fr\u00e5ga"
         ],
         "main_trait_constraint": [
             "wise"
@@ -220,7 +220,7 @@
     {
         "id": "wise_deputy_to_apprentice",
         "thoughts": [
-            "Is sharing words of wisdom with a confused apprentice"
+            "Delar visdomsord med en f\u00f6rvirrad l\u00e4rling"
         ],
         "main_trait_constraint": [
             "wise"
@@ -235,9 +235,9 @@
     {
         "id": "clever_deputy",
         "thoughts": [
-            "Is solving a complex problem that has been troubling the Clan",
-            "Feels intrigued by a recent challenge and is strategizing solutions",
-            "Is considering a unique approach to organizing the patrols"
+            "L\u00f6ser ett komplext problem som har oroat klanen",
+            "K\u00e4nner sig fascinerad av en utmaning nyligen och planerar l\u00f6sningar",
+            "Funderar p\u00e5 ett unikt tillv\u00e4gag\u00e5ngss\u00e4tt f\u00f6r att organisera patrullerna"
         ],
         "main_skill_constraint": [
             "CLEVER,1"
@@ -246,10 +246,10 @@
     {
         "id": "fighter_deputy",
         "thoughts": [
-            "Is instructing a group of warriors in advanced combat techniques",
-            "Feels a sense of protectiveness towards the Clan, ready to defend them at any moment",
-            "Is assessing the Clan's physical strength and readiness for potential threats",
-            "Organizes a mock battle to keep the Clan's skills sharp"
+            "Instruerar en grupp krigare i avancerade stridstekniker",
+            "K\u00e4nner en k\u00e4nsla av skydd mot klanen, redo att f\u00f6rsvara dem n\u00e4r som helst",
+            "Bed\u00f6mer klanens fysiska styrka och beredskap f\u00f6r potentiella hot",
+            "Organiserar en skenstrid f\u00f6r att h\u00e5lla klanens f\u00e4rdigheter skarpa"
         ],
         "main_skill_constraint": [
             "FIGHTER,1"
@@ -258,9 +258,9 @@
     {
         "id": "healer_deputy",
         "thoughts": [
-            "Helps a Clanmate get a thorn out of their paw while out on patrol",
-            "Feels empathy for a sick Clanmate and is thinking of ways to help",
-            "Is sharing knowledge about basic herbs with the Clan"
+            "Hj\u00e4lper en klankamrat att f\u00e5 en tagg ur sin tass n\u00e4r han \u00e4r ute p\u00e5 patrull",
+            "K\u00e4nner empati f\u00f6r en sjuk klankamrat och funderar p\u00e5 s\u00e4tt att hj\u00e4lpa",
+            "Delar kunskap om grundl\u00e4ggande \u00f6rter med klanen"
         ],
         "main_skill_constraint": [
             "HEALER,1"
@@ -269,7 +269,7 @@
     {
         "id": "healer_deputy_to_medcat",
         "thoughts": [
-            "Takes a patrol out to gather herbs for the medicine cat den"
+            "Tar ut en patrull f\u00f6r att samla \u00f6rter till medicinkatten"
         ],
         "main_skill_constraint": [
             "HEALER,1"
@@ -284,9 +284,9 @@
     {
         "id": "hunter_deputy",
         "thoughts": [
-            "Makes sure no area of the territory is overhunted",
-            "Feels a rush of anticipation at the prospect of a successful hunt",
-            "Is out surveying the territory for the best hunting spots to send patrols tomorrow"
+            "Ser till att inget omr\u00e5de av territoriet \u00f6verjagas",
+            "K\u00e4nner ett sus av f\u00f6rv\u00e4ntan inf\u00f6r utsikten till en framg\u00e5ngsrik jakt",
+            "\u00c4r ute och kartl\u00e4gger reviret efter de b\u00e4sta jaktplatserna f\u00f6r att skicka patruller imorgon"
         ],
         "main_skill_constraint": [
             "HUNTER,1"
@@ -295,9 +295,9 @@
     {
         "id": "story_deputy",
         "thoughts": [
-            "Is recalling an old story that might inspire the Clan in tough times",
-            "Feels inspired to craft a new legend based on recent events",
-            "Uses the stories of old to help guide {PRONOUN\/m_c\/self} decisions"
+            "P\u00e5minner om en gammal historia som kan inspirera klanen i tuffa tider",
+            "K\u00e4nns inspirerad att skapa en ny legend baserat p\u00e5 senaste h\u00e4ndelser",
+            "Anv\u00e4nder gamla ber\u00e4ttelser f\u00f6r att v\u00e4gleda {PRONOUN/m_c/self} beslut"
         ],
         "main_skill_constraint": [
             "STORY,1"
@@ -306,7 +306,7 @@
     {
         "id": "story_deputy_to_apprentice",
         "thoughts": [
-            "Is sharing tales of the Clan's legacy with wide-eyed apprentices"
+            "Delar ber\u00e4ttelser om klanens arv med stor\u00f6gda l\u00e4rlingar"
         ],
         "main_skill_constraint": [
             "STORY,1"
@@ -321,8 +321,8 @@
     {
         "id": "teacher_deputy",
         "thoughts": [
-            "Is devising an effective teaching strategy for new skills",
-            "Encourages the older cats to share their skills and techniques with the younger generations"
+            "Utarbetar en effektiv undervisningsstrategi f\u00f6r nya f\u00e4rdigheter",
+            "Uppmuntrar de \u00e4ldre katterna att dela sina f\u00e4rdigheter och tekniker med de yngre generationerna"
         ],
         "main_skill_constraint": [
             "TEACHER,1"
@@ -331,8 +331,8 @@
     {
         "id": "teacher_deputy_to_apprentice",
         "thoughts": [
-            "Feels satisfaction watching an apprentice master a lesson",
-            "Guides an apprentice through {PRONOUN\/m_c\/poss} hunting assessment"
+            "K\u00e4nner tillfredsst\u00e4llelse att se en l\u00e4rling bem\u00e4stra en lektion",
+            "Guider en l\u00e4rling genom {PRONOUN/m_c/poss} jaktbed\u00f6mning"
         ],
         "main_skill_constraint": [
             "TEACHER,1"
@@ -347,7 +347,7 @@
     {
         "id": "deputy_dead_deputy",
         "thoughts": [
-            "Wishes {PRONOUN\/m_c\/subject} could speak to r_c to learn how to assign patrols better"
+            "\u00d6nskar att {PRONOUN/m_c/subject} kunde prata med r_c f\u00f6r att l\u00e4ra sig hur man tilldelar patruller b\u00e4ttre"
         ],
         "random_status_constraint": [
             "deputy"

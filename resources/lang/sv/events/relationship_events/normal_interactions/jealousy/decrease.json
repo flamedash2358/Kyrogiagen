@@ -3,38 +3,38 @@
         "id": "jel_de_low1",
         "intensity": "low",
         "interactions": [
-            "m_c thinks r_c is very helpful!",
-            "m_c notices r_c doing something generous.",
-            "r_c gives m_c a big piece of fresh-kill.",
-            "r_c says {PRONOUN\/r_c\/subject} {VERB\/r_c\/hope\/hopes} m_c has a nice day.",
-            "m_c sees r_c be kind to one of m_c's friends.",
-            "m_c thinks r_c is very polite.",
-            "m_c hears r_c laugh at a Clanmate's joke even though it was lame.",
-            "r_c gets a bug off of m_c's pelt and takes it out of camp.",
-            "m_c thinks r_c is a very good listener."
+            "m_c tycker att r_c är till stor hjälp!",
+            "m_c märker att r_c gör något generöst.",
+            "r_c ger m_c en stor bit av fresh-kill.",
+            "r_c säger {PRONOUN/r_c/subject} {VERB/r_c/hope/hopes} m_c har en trevlig dag.",
+            "m_c ser r_c vara snäll mot en av m_cs vänner.",
+            "m_c tycker r_c är väldigt artig.",
+            "m_c hör r_c skratta åt en klankamrats skämt även om det var halt.",
+            "r_c får en bugg av m_c:s päls och tar ut den från lägret.",
+            "m_c tycker r_c är en mycket bra lyssnare."
         ]
     },
     {
         "id": "jel_de_med1",
         "interactions": [
-            "r_c surprises m_c with something nice.",
-            "r_c goes out of {PRONOUN\/r_c\/poss} way to help m_c with something without being asked.",
-            "r_c brings m_c herbs from the medicine den for a headache.",
-            "r_c tells a Clanmate that m_c did a great job today.",
-            "m_c is grateful for something r_c did."
+            "r_c överraskar m_c med något trevligt.",
+            "r_c går ut ur {PRONOUN/r_c/poss} sättet att hjälpa m_c med något utan att bli tillfrågad.",
+            "r_c tar med m_c örter från medicinhålan mot huvudvärk.",
+            "r_c berättar för en klankamrat att m_c gjorde ett bra jobb idag.",
+            "m_c är tacksam för något r_c gjorde."
         ]
     },
     {
         "id": "jel_de_med2",
         "interactions": [
-            "m_c swaps favorite prey with r_c.",
-            "m_c and r_c bring each other prey.",
-            "m_c shares nest material with r_c.",
-            "m_c and r_c take turns in a small patch of sunlight.",
-            "m_c shares a bit of shelter from the rain with r_c.",
-            "m_c helps r_c figure out how to word something.",
-            "m_c can't remember a word for the life of {PRONOUN\/m_c\/object}, but r_c helps {PRONOUN\/m_c\/object} remember it.",
-            "m_c tells a story to r_c and r_c suggests how to make it even better."
+            "m_c byter favoritbyte med r_c.",
+            "m_c och r_c föra varandra byte.",
+            "m_c delar bomaterial med r_c.",
+            "m_c och r_c turas om i en liten fläck av solljus.",
+            "m_c delar lite lä från regnet med r_c.",
+            "m_c hjälper r_c att räkna ut hur man uttrycker något.",
+            "m_c kan inte komma ihåg ett ord för livet av {PRONOUN/m_c/object}, men r_c hjälper {PRONOUN/m_c/object} att komma ihåg det.",
+            "m_c berättar en historia för r_c och r_c föreslår hur man kan göra den ännu bättre."
         ],
         "reaction_random_cat": {
             "jealousy": "decrease"
@@ -43,12 +43,12 @@
     {
         "id": "jel_de_med3",
         "interactions": [
-            "m_c always thought r_c had it all figured out, so {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} surprised when r_c asks for help.",
-            "r_c is embarrassed about something that m_c finds really cool!",
-            "m_c is flattered when r_c asks for {PRONOUN\/m_c\/object} advice.",
-            "r_c tells m_c that {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} talented for {PRONOUN\/m_c\/poss} age.",
-            "r_c tells m_c that {PRONOUN\/m_c\/subject} {VERB\/m_c\/remind\/reminds} {PRONOUN\/r_c\/object} of when {PRONOUN\/r_c\/subject} {VERB\/r_c\/were\/was} young.",
-            "r_c compliments m_c on something {PRONOUN\/m_c\/subject} had worked very hard on."
+            "m_c trodde alltid att r_c hade räknat ut allt, så {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} blev förvånad när r_c ber om hjälp.",
+            "r_c skäms över något som m_c tycker är riktigt coolt!",
+            "m_c blir smickrad när r_c ber om {PRONOUN/m_c/object} råd.",
+            "r_c berättar för m_c att {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} är begåvade för {PRONOUN/m_c/poss} ålder.",
+            "r_c berättar för m_c att {PRONOUN/m_c/subject} {VERB/m_c/remind/reminds} {PRONOUN/r_c/object} om när {PRONOUN/r_c/subject} {VERB/r_c/were/was} ung.",
+            "r_c komplimangerar m_c för något {PRONOUN/m_c/subject} hade arbetat mycket hårt med."
         ],
         "main_status_constraint": [
             "kitten",
@@ -68,12 +68,12 @@
     {
         "id": "jealousy_app_de_med1",
         "interactions": [
-            "m_c has been listening to r_c talk about how hard training has been.",
-            "m_c comforts r_c after a hard day's training.",
-            "m_c and r_c exchange stories about their mentors.",
-            "After going on a patrol together, m_c and r_c excitedly gush about how cool it is to be an apprentice.",
-            "r_c messes something up during training, so m_c reassures {PRONOUN\/r_c\/object} that it's okay to make mistakes.",
-            "m_c and r_c have a long conversation about what they want their warrior names to be."
+            "m_c har lyssnat på r_c prata om hur jobbig träning har varit.",
+            "m_c tröstar r_c efter en hård dags träning.",
+            "m_c och r_c utbyter berättelser om sina mentorer.",
+            "Efter att ha åkt på en patrull tillsammans susar m_c och r_c upphetsat över hur coolt det är att vara lärling.",
+            "r_c stökar till något under träningen, så m_c försäkrar {PRONOUN/r_c/object} att det är okej att göra misstag.",
+            "m_c och r_c har ett långt samtal om vad de vill att deras krigarnamn ska vara."
         ],
         "main_status_constraint": [
             "apprentice",
@@ -96,12 +96,12 @@
     {
         "id": "jealousy_app_de_med2",
         "interactions": [
-            "m_c has been listening to r_c talk about how difficult herb memorization is.",
-            "m_c helps r_c wash mouse bile off of {PRONOUN\/r_c\/poss} paws.",
-            "m_c carries bad-tasting herbs for r_c.",
-            "m_c comforts r_c's anxieties about being a good healer.",
-            "m_c lets r_c practice healing techniques on {PRONOUN\/m_c\/subject}.",
-            "m_c quizzes r_c on herb knowledge in preparation for a test."
+            "m_c har lyssnat på r_c prata om hur svårt det är att memorera örter.",
+            "m_c hjälper r_c att tvätta bort musgalla från {PRONOUN/r_c/poss} tassar.",
+            "m_c bär illasmakande örter för r_c.",
+            "m_c tröstar r_cs oro över att vara en bra healer.",
+            "m_c låter r_c träna healingtekniker på {PRONOUN/m_c/subject}.",
+            "m_c frågesport r_c om örtkunskap som förberedelse för ett prov."
         ],
         "main_status_constraint": [
             "apprentice",
@@ -122,27 +122,27 @@
         "id": "jel_de_high1",
         "intensity": "high",
         "interactions": [
-            "m_c is really surprised that r_c's life isn't as easy as {PRONOUN\/m_c\/subject} thought it was.",
-            "m_c realizes that {PRONOUN\/m_c\/subject} and r_c have had a lot of the same hardships.",
-            "m_c learns about r_c's struggles and is surprised how well {PRONOUN\/r_c\/subject} {VERB\/r_c\/carry\/carries} {PRONOUN\/r_c\/self}.",
-            "m_c notices that r_c is never congratulated for {PRONOUN\/r_c\/poss} accomplishments as much as everyone else.",
-            "m_c hears r_c crying over something everyone downplayed the severity of.",
-            "m_c realizes that r_c would put {PRONOUN\/r_c\/poss} life on the line for a Clanmate.",
-            "m_c learns how much effort r_c put into learning something.",
-            "m_c can hear the truth in r_c's words when {PRONOUN\/r_c\/subject} {VERB\/r_c\/talk\/talks} about protecting others."
+            "m_c är verkligen förvånad över att r_cs liv inte är så lätt som {PRONOUN/m_c/subject} trodde det var.",
+            "m_c inser att {PRONOUN/m_c/subject} och r_c har haft många av samma svårigheter.",
+            "m_c lär sig om r_c:s kamp och är förvånad över hur väl {PRONOUN/r_c/subject} {VERB/r_c/carry/carries} {PRONOUN/r_c/self}.",
+            "m_c märker att r_c aldrig gratuleras för prestationer i {PRONOUN/r_c/poss} lika mycket som alla andra.",
+            "m_c hör r_c gråta över något som alla tonade ned allvaret av.",
+            "m_c inser att r_c skulle sätta {PRONOUN/r_c/poss} liv på spel för en klankamrat.",
+            "m_c lär sig hur mycket ansträngning r_c lägger på att lära sig något.",
+            "m_c kan höra sanningen i r_cs ord när {PRONOUN/r_c/subject} {VERB/r_c/talk/talks} om att skydda andra."
         ]
     },
     {
         "id": "jel_de_high2",
         "intensity": "high",
         "interactions": [
-            "m_c sees that r_c's piece of prey looks tastier and asks if {PRONOUN\/r_c\/subject}'d like to swap. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/agree\/agrees} happily, saying {PRONOUN\/r_c\/subject} {VERB\/r_c\/like\/likes} that one better.",
-            "m_c and r_c find out they're both bringing flowers to the same Clanmate's grave.",
-            "m_c and r_c share stories of a Clanmate they didn't realize they both miss.",
-            "Both m_c and r_c enthusiastically congratulate another Clanmate on something.",
-            "When m_c and r_c realize they've been grooming their pelts the same way, they laugh about it.",
-            "m_c and r_c learn a skill from each other that they've been envious about.",
-            "m_c learns some pelt-grooming techniques from r_c, and tells r_c some of {PRONOUN\/m_c\/poss} own."
+            "m_c ser att r_cs bytesbit ser godare ut och frågar om {PRONOUN/r_c/subject} vill byta. {PRONOUN/r_c/subject/CAP} {VERB/r_c/agree/agrees} säger glatt {PRONOUN/r_c/subject} {VERB/r_c/like/likes} den där bättre.",
+            "m_c och r_c får reda på att de båda tar med sig blommor till samma klankamrats grav.",
+            "m_c och r_c delar berättelser om en klankamrat som de inte insåg att de båda saknar.",
+            "Både m_c och r_c gratulerar entusiastiskt en annan klankamrat till något.",
+            "När m_c och r_c inser att de har skött sina skinn på samma sätt, skrattar de åt det.",
+            "m_c och r_c lär sig en färdighet av varandra som de har varit avundsjuka på.",
+            "m_c lär sig några pälsvårdstekniker från r_c, och berättar för r_c några av {PRONOUN/m_c/poss} egna."
         ],
         "reaction_random_cat": {
             "jealousy": "decrease"

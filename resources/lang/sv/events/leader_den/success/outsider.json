@@ -1,7 +1,7 @@
 [
     {
         "interaction_type": "hunt",
-        "event_text": "After a long search, m_c is found and killed where {PRONOUN\/m_c\/subject} {VERB\/m_c\/stand\/stands}.",
+        "event_text": "Efter en lång sökning hittas m_c och dödas där {PRONOUN/m_c/subject} {VERB/m_c/stand/stands}.",
         "reputation": [
             "any"
         ],
@@ -14,13 +14,13 @@
                 "exiled",
                 "lost"
             ],
-            "new_thought": "Is shocked that {PRONOUN\/m_c\/subject} {VERB\/m_c\/were\/was} killed",
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "new_thought": "Är chockad över att {PRONOUN/m_c/subject} {VERB/m_c/were/was} dödades",
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "m_c was found near c_n territory and driven far out of the surrounding lands.",
+        "event_text": "m_c hittades nära c_n territorium och fördrevs långt ut ur de omgivande markerna.",
         "reputation": [
             "any"
         ],
@@ -33,12 +33,12 @@
                 "exiled",
                 "lost"
             ],
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "m_c was found and invited into the Clan.",
+        "event_text": "m_c hittades och bjöds in i klanen.",
         "reputation": [
             "any"
         ],
@@ -49,8 +49,8 @@
                 "rogue",
                 "kittypet"
             ],
-            "new_thought": "Is curious about the Clan that sought {PRONOUN\/m_c\/object} out",
-            "kit_thought": "Is curious about the new place {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} in",
+            "new_thought": "Är nyfiken på klanen som sökte upp {PRONOUN/m_c/object}",
+            "kit_thought": "Är nyfiken på det nya stället {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} i",
             "relationships": [
                 {
                     "cats_from": [
@@ -83,7 +83,7 @@
     },
     {
         "interaction_type": "invite",
-        "event_text": "m_c was found and invited back into the Clan.",
+        "event_text": "m_c hittades och bjöds tillbaka till klanen.",
         "reputation": [
             "any"
         ],
@@ -92,8 +92,8 @@
             "status": [
                 "exiled"
             ],
-            "new_thought": "Is curious why the Clan has allowed {PRONOUN\/m_c\/object} back",
-            "kit_thought": "Is curious why {PRONOUN\/m_c\/subject}{VERB\/m_c\/'ve\/'s} been brought here",
+            "new_thought": "Är nyfiken på varför klanen har tillåtit {PRONOUN/m_c/object} tillbaka",
+            "kit_thought": "Är nyfiken på varför {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} togs hit",
             "relationships": [
                 {
                     "cats_from": [
@@ -126,7 +126,7 @@
     },
     {
         "interaction_type": "search",
-        "event_text": "m_c was found and brought back to the safety of the Clan",
+        "event_text": "m_c hittades och fördes tillbaka till klanens säkerhet",
         "reputation": [
             "any"
         ],
@@ -135,8 +135,8 @@
             "status": [
                 "lost"
             ],
-            "new_thought": "Is glad to have returned",
-            "kit_thought": "Is curious about the new place {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} in",
+            "new_thought": "Är glad över att ha kommit tillbaka",
+            "kit_thought": "Är nyfiken på det nya stället {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} i",
             "relationships": [
                 {
                     "cats_from": [
@@ -169,7 +169,7 @@
     },
     {
         "interaction_type": "invite",
-        "event_text": "There's one specific cat, m_c, that keeps regularly upstaging c_n's hunting patrols. However, instead of trying to drive {PRONOUN\/m_c\/object} out, c_n welcomes m_c with open paws.",
+        "event_text": "Det finns en specifik katt, m_c, som regelbundet ställer upp c_ns jaktpatruller. Men istället för att försöka driva ut {PRONOUN/m_c/object}, välkomnar c_n m_c med öppna tassar.",
         "reputation": [
             "any"
         ],
@@ -189,8 +189,8 @@
             "skill": [
                 "HUNTER,3"
             ],
-            "new_thought": "Can't wait to help provide for {PRONOUN\/m_c\/poss} new Clan",
-            "kit_thought": "Is curious about the new place {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} in",
+            "new_thought": "Kan inte vänta med att hjälpa till att försörja {PRONOUN/m_c/poss} nya klan",
+            "kit_thought": "Är nyfiken på det nya stället {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} i",
             "relationships": [
                 {
                     "cats_from": [
@@ -236,7 +236,7 @@
     },
     {
         "interaction_type": "drive",
-        "event_text": "m_c keeps regularly upstaging c_n's hunting patrols. Obviously, c_n doesn't take too kindly to some outsider stealing what they consider to be <b><i>their<\/i><\/b> prey... especially when said outsider is doing it as successfully as m_c is. The yowls that chase m_c to the c_n border and beyond are a clear warning: do not return.",
+        "event_text": "m_c fortsätter regelbundet att uppsätta c_ns jaktpatruller. Uppenbarligen tar c_n inte alltför snällt mot att någon utomstående stjäl vad de anser vara <b><i>sitt</i></b> byte... speciellt när nämnda utomstående gör det lika framgångsrikt som m_c är. Yowlsna som jagar m_c till c_n-gränsen och bortom är en tydlig varning: återvänd inte.",
         "reputation": [
             "any"
         ],
@@ -256,12 +256,12 @@
             "skill": [
                 "HUNTER,3"
             ],
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "m_c has been poaching some of c_n's prey - all the more infuriating given m_c has kittypet food waiting at home. c_n retaliates by chasing {PRONOUN\/m_c\/object} out and making sure {PRONOUN\/m_c\/subject} never {VERB\/m_c\/return\/returns}.",
+        "event_text": "m_c har tjuvjat any av c_ns byten - desto mer irriterande eftersom m_c har kattmat som väntar hemma. c_n hämnar genom att jaga ut {PRONOUN/m_c/object} och se till att {PRONOUN/m_c/subject} aldrig {VERB/m_c/return/returns}.",
         "reputation": [
             "any"
         ],
@@ -279,12 +279,12 @@
             "skill": [
                 "HUNTER,1"
             ],
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "Despite m_c's best efforts and natural instincts, {PRONOUN\/m_c\/subject} can't stay hidden forever. c_n tracks down {PRONOUN\/m_c\/poss} nest and launches a moonhigh ambush, driving m_c beyond the border.",
+        "event_text": "Trots m_cs bästa ansträngningar och naturliga instinkter kan {PRONOUN/m_c/subject} inte förbli dold för alltid. c_n spårar {PRONOUN/m_c/poss} bo och skjuter upp ett månhögt bakhåll och kör m_c bortom gränsen.",
         "reputation": [
             "any"
         ],
@@ -306,12 +306,12 @@
                 "cunning",
                 "careful"
             ],
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "hunt",
-        "event_text": "When c_n finds {PRONOUN\/m_c\/object}, m_c tries to reason with them. The c_n patrol makes it clear that the time for talking has ended. m_c is left cold on the ground.",
+        "event_text": "När c_n hittar {PRONOUN/m_c/object}, försöker m_c resonera med dem. C_n-patrullen gör klart att samtalstiden är slut. m_c lämnas kall på marken.",
         "reputation": [
             "any"
         ],
@@ -333,13 +333,13 @@
             "skill": [
                 "MEDIATOR,1"
             ],
-            "new_thought": "Wishes the Clan cats had listened to {PRONOUN\/m_c\/object}",
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "new_thought": "Önskar att klankatterna hade lyssnat på {PRONOUN/m_c/object}",
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "Some of c_n's best hunters challenge m_c to a hunt-off. The stakes are simple: if c_n wins, m_c leaves the territory; if m_c wins, then {PRONOUN\/m_c\/subject} will be allowed to hunt within the Clan's borders undisturbed. m_c wins by a landslide but, in a surprising twist, requests that {PRONOUN\/m_c\/poss} prize be the chance to join c_n.",
+        "event_text": "Några av c_ns bästa jägare utmanar m_c till en jaktstart. Insatserna är enkla: om c_n vinner, lämnar m_c territoriet; om m_c vinner, kommer {PRONOUN/m_c/subject} att få jaga inom klanens gränser ostört. m_c vinner med ett jordskred men begär i en överraskande twist att priset {PRONOUN/m_c/poss} är chansen att gå med i c_n.",
         "reputation": [
             "any"
         ],
@@ -359,8 +359,8 @@
             "skill": [
                 "HUNTER,3"
             ],
-            "new_thought": "Can't wait to help provide for {PRONOUN\/m_c\/poss} new Clan",
-            "kit_thought": "Is curious about the new place {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} in",
+            "new_thought": "Kan inte vänta med att hjälpa till att försörja {PRONOUN/m_c/poss} nya klan",
+            "kit_thought": "Är nyfiken på det nya stället {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} i",
             "relationships": [
                 {
                     "cats_from": [
@@ -393,7 +393,7 @@
     },
     {
         "interaction_type": "hunt",
-        "event_text": "m_c keeps upstaging c_n's hunting patrols. Obviously, c_n doesn't take too kindly to some outsider stealing what they consider to be <b><i>their<\/i><\/b> prey, so they decide to... get rid of the issue. It may be brutal, but c_n needs to put c_n first.",
+        "event_text": "m_c fortsätter att sätta upp c_ns jaktpatruller. Uppenbarligen tar c_n inte alltför snällt mot att någon utomstående stjäl vad de anser vara <b><i>deras</i></b> byte, så de bestämmer sig för att... bli av med problemet. Det kan vara brutalt, men c_n måste sätta c_n först.",
         "reputation": [
             "any"
         ],
@@ -413,13 +413,13 @@
             "skill": [
                 "HUNTER,3"
             ],
-            "new_thought": "Is shocked that {PRONOUN\/m_c\/subject} {VERB\/m_c\/were\/was} killed",
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "new_thought": "Är chockad över att {PRONOUN/m_c/subject} {VERB/m_c/were/was} dödades",
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "c_n finds m_c and invites {PRONOUN\/m_c\/object} in, but m_c replies c_n would only slow m_c down. A challenge is set: if m_c can outhunt a full patrol of c_n warriors by sundown, then c_n will acknowledge {PRONOUN\/m_c\/poss} superiority. By moonhigh, m_c is c_n's newest Clanmate.",
+        "event_text": "c_n hittar m_c och bjuder in {PRONOUN/m_c/object}, men m_c svarar c_n skulle bara sakta ner m_c. En utmaning är satt: om m_c kan jaga ut en hel patrull av c_n krigare vid solnedgången, då kommer c_n att erkänna {PRONOUN/m_c/poss} överlägsenhet. Av moonhigh är m_c c_ns senaste Clanmate.",
         "reputation": [
             "any"
         ],
@@ -441,13 +441,13 @@
                 "competitive",
                 "lonesome"
             ],
-            "new_thought": "Grudgingly admits other cats can be useful sometimes",
-            "kit_thought": "Wonders about this new place"
+            "new_thought": "Erkänner motvilligt att andra katter kan vara användbara ibland",
+            "kit_thought": "Undrar över denna nya plats"
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "While {PRONOUN\/m_c\/subject} may have been cast out for a reason, there's no denying that m_c is a skilled hunter. The Clan could definitely learn a thing or two from {PRONOUN\/m_c\/object} so, after much deliberation, a decision is made to welcome m_c back to c_n.",
+        "event_text": "Även om {PRONOUN/m_c/subject} kan ha kastats ut av en anledning, går det inte att förneka att m_c är en skicklig jägare. Klanen skulle definitivt kunna lära sig en sak eller två av {PRONOUN/m_c/object} så efter mycket övervägande fattas ett beslut att välkomna m_c tillbaka till c_n.",
         "reputation": [
             "any"
         ],
@@ -465,8 +465,8 @@
             "skill": [
                 "HUNTER,3"
             ],
-            "new_thought": "Is happy to be back with c_n",
-            "kit_thought": "Is curious why {PRONOUN\/m_c\/subject}{VERB\/m_c\/'ve\/'s} been brought here",
+            "new_thought": "Är glad över att vara tillbaka med c_n",
+            "kit_thought": "Är nyfiken på varför {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} togs hit",
             "relationships": [
                 {
                     "cats_from": [
@@ -512,7 +512,7 @@
     },
     {
         "interaction_type": "drive",
-        "event_text": "Some of c_n's best hunters challenge m_c to a hunt-off. The stakes are simple: if c_n wins, m_c leaves the territory; if m_c wins, then {PRONOUN\/m_c\/subject} will be allowed to hunt within the Clan's borders undisturbed. It's a close contest but, in the end, the Clan cats claim victory, and m_c has no choice but to find somewhere else to call home.",
+        "event_text": "Några av c_ns bästa jägare utmanar m_c till en jaktstart. Insatserna är enkla: om c_n vinner, lämnar m_c territoriet; om m_c vinner, kommer {PRONOUN/m_c/subject} att få jaga inom klanens gränser ostört. Det är en tät tävling men i slutändan hävdar klankatterna seger, och m_c har inget annat val än att hitta någon annanstans att kalla hem.",
         "reputation": [
             "any"
         ],
@@ -532,12 +532,12 @@
             "skill": [
                 "HUNTER,3"
             ],
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "hunt",
-        "event_text": "m_c may have been exiled from c_n, but that hasn't stopped {PRONOUN\/m_c\/object} from sneaking back into the territory to hunt. However, m_c's luck runs out when {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} caught by a patrol, {PRONOUN\/m_c\/poss} former Clanmates not even giving {PRONOUN\/m_c\/object} a chance to run.",
+        "event_text": "m_c kan ha förvisats från c_n, men det har inte hindrat {PRONOUN/m_c/object} från att smyga tillbaka in i territoriet för att jaga. Men m_cs tur tar slut när {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} fångas av en patrull, {PRONOUN/m_c/poss} tidigare klankamrater som inte ens ger {PRONOUN/m_c/object} ett chans att springa.",
         "reputation": [
             "any"
         ],
@@ -555,13 +555,13 @@
             "skill": [
                 "HUNTER,3"
             ],
-            "new_thought": "Just wanted some fresh-kill",
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "new_thought": "Ville bara ha lite nydöd",
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "hunt",
-        "event_text": "When m_c sees c_n coming, {PRONOUN\/m_c\/subject} {VERB\/m_c\/bolt\/bolts}, using {PRONOUN\/m_c\/poss} long legs to outpace the pursuer. But c_n knows m_c's tricks and has set up another patrol further along to cut m_c off - and cut {PRONOUN\/m_c\/poss} life short.",
+        "event_text": "När m_c ser c_n komma, {PRONOUN/m_c/subject} {VERB/m_c/bolt/bolts}, med {PRONOUN/m_c/poss} långa ben för att överträffa förföljaren. Men c_n kan m_c:s knep och har satt upp ytterligare en patrull längre fram för att skära av m_c - och förkorta {PRONOUN/m_c/poss} livet.",
         "reputation": [
             "any"
         ],
@@ -583,13 +583,13 @@
             "skill": [
                 "RUNNER,1"
             ],
-            "new_thought": "Is stunned {PRONOUN\/m_c\/subject} {VERB\/m_c\/were\/was}n't able to outrun the enemy this time",
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "new_thought": "Är chockad {PRONOUN/m_c/subject} {VERB/m_c/were/was}kan inte springa undan fienden den här gången",
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "m_c may have been exiled from c_n, but that hasn't stopped {PRONOUN\/m_c\/object} from sneaking back into the territory to hunt. However, m_c's luck runs out when {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} caught by a patrol, with {PRONOUN\/m_c\/poss} former Clanmates chasing {PRONOUN\/m_c\/object} right back over the border.",
+        "event_text": "m_c kan ha förvisats från c_n, men det har inte hindrat {PRONOUN/m_c/object} från att smyga tillbaka in i territoriet för att jaga. Men m_cs tur tar slut när {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} fångas av en patrull, med {PRONOUN/m_c/poss} tidigare klankamrater som jagar {PRONOUN/m_c/object} direkt bakåt över gränsen.",
         "reputation": [
             "any"
         ],
@@ -607,12 +607,12 @@
             "skill": [
                 "HUNTER,3"
             ],
-            "kit_thought": "Is unsure why {PRONOUN\/m_c\/poss} parent hasn't come back."
+            "kit_thought": "Är osäker på varför {PRONOUN/m_c/poss} förälder inte har kommit tillbaka."
         }
     },
     {
         "interaction_type": "search",
-        "event_text": "Patrol after patrol has been sent out in search of m_c, always returning without their lost Clanmate. Then, just as the Clan is about to give up all hope, m_c manages to track them down, resulting in a joyful reunion.",
+        "event_text": "Patrull efter patrull har skickats ut på jakt efter m_c, alltid återvändande utan sin förlorade klankamrat. Sedan, precis när klanen är på väg att ge upp allt hopp, lyckas m_c spåra upp dem, vilket resulterar i en glad återförening.",
         "reputation": [
             "any"
         ],
@@ -631,8 +631,8 @@
             "skill": [
                 "SENSE,1"
             ],
-            "new_thought": "Is glad to have returned",
-            "kit_thought": "Is curious about the new place {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} in",
+            "new_thought": "Är glad över att ha kommit tillbaka",
+            "kit_thought": "Är nyfiken på det nya stället {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} i",
             "relationships": [
                 {
                     "cats_from": [
@@ -665,7 +665,7 @@
     },
     {
         "interaction_type": "hunt",
-        "event_text": "Now that m_c has been lost, c_n takes their chance to be rid of {PRONOUN\/m_c\/object} for good.",
+        "event_text": "Nu när m_c har förlorats tar c_n sin chans att bli av med {PRONOUN/m_c/object} för gott.",
         "reputation": [
             "any"
         ],
@@ -675,8 +675,8 @@
                 "lost"
             ],
             "skill": [],
-            "new_thought": "Doesn't understand why {PRONOUN\/m_c\/subject} {VERB\/m_c\/were\/was} killed",
-            "kit_thought": "Wonders what happened to m_c",
+            "new_thought": "Förstår inte varför {PRONOUN/m_c/subject} {VERB/m_c/were/was} dödades",
+            "kit_thought": "Undrar vad som hände med m_c",
             "relationships": [
                 {
                     "cats_from": [
@@ -696,7 +696,7 @@
     },
     {
         "interaction_type": "drive",
-        "event_text": "Now that m_c has been lost, c_n takes their chance to make it clear {PRONOUN\/m_c\/subject} {VERB\/m_c\/are\/is} not welcome to ever return.",
+        "event_text": "Nu när m_c har förlorats tar c_n chansen att göra det klart att {PRONOUN/m_c/subject} {VERB/m_c/are/is} inte är välkomna att någonsin återvända.",
         "reputation": [
             "any"
         ],
@@ -706,12 +706,12 @@
                 "lost"
             ],
             "skill": [],
-            "kit_thought": "Wonders where m_c has gone"
+            "kit_thought": "Undrar vart m_c har tagit vägen"
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "c_n finds m_c lounging on {PRONOUN\/m_c\/poss} Twolegs' fence. The c_n patrol descends on {PRONOUN\/m_c\/object}, snarling and spitting. m_c yowls for help from {PRONOUN\/m_c\/poss} housefolk, but c_n drives {PRONOUN\/m_c\/object} off.",
+        "event_text": "c_n hittar m_c slappa på {PRONOUN/m_c/poss} Twolegs' staket. C_n-patrullen går ner på {PRONOUN/m_c/object}, morrande och spottande. m_c skriker efter hjälp från {PRONOUN/m_c/poss} husfolk, men c_n driver bort {PRONOUN/m_c/object}.",
         "reputation": [
             "any"
         ],
@@ -721,12 +721,12 @@
                 "kittypet"
             ],
             "skill": [],
-            "kit_thought": "Wonders where m_c has gone"
+            "kit_thought": "Undrar vart m_c har tagit vägen"
         }
     },
     {
         "interaction_type": "hunt",
-        "event_text": "c_n finds m_c lounging on {PRONOUN\/m_c\/poss} Twolegs' fence. The c_n patrol descends on {PRONOUN\/m_c\/object}, teeth bared and claws unsheathed. m_c yowls for help from {PRONOUN\/m_c\/poss} housefolk, but {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} no match for warrior training.",
+        "event_text": "c_n hittar m_c slappa på {PRONOUN/m_c/poss} Twolegs' staket. C_n-patrullen går ner på {PRONOUN/m_c/object}, tänder blottade och klor oskadade. m_c skriker efter hjälp från {PRONOUN/m_c/poss} husfolk, men {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} matchar inte krigarträning.",
         "reputation": [
             "any"
         ],
@@ -736,13 +736,13 @@
                 "kittypet"
             ],
             "skill": [],
-            "new_thought": "Prays {PRONOUN\/m_c\/poss} housefolk won't miss {PRONOUN\/m_c\/object} too much",
-            "kit_thought": "Wonders where m_c has gone"
+            "new_thought": "Ber att {PRONOUN/m_c/poss} husfolk inte missar {PRONOUN/m_c/object} för mycket",
+            "kit_thought": "Undrar vart m_c har tagit vägen"
         }
     },
     {
         "interaction_type": "hunt",
-        "event_text": "When c_n finds m_c, {PRONOUN\/m_c\/poss} fur bushes up and eyes widen at the sight of so many cats. In fact, it'll be the last sight {PRONOUN\/m_c\/subject} ever {VERB\/m_c\/see\/sees}.",
+        "event_text": "När c_n hittar m_c, {PRONOUN/m_c/poss} päls buskar upp och ögonen vidgas vid åsynen av så många katter. Faktum är att det blir den sista synen {PRONOUN/m_c/subject} någonsin {VERB/m_c/see/seees}.",
         "reputation": [
             "any"
         ],
@@ -752,13 +752,13 @@
                 "loner"
             ],
             "skill": [],
-            "new_thought": "Wonders how {PRONOUN\/m_c\/subject} wronged those cats",
-            "kit_thought": "Wonders where m_c has gone"
+            "new_thought": "Undrar hur {PRONOUN/m_c/subject} gjorde de katterna illa",
+            "kit_thought": "Undrar vart m_c har tagit vägen"
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "When c_n finds m_c, {PRONOUN\/m_c\/poss} fur bushes up and eyes widen at the sight of so many cats. It doesn't take much to drive {PRONOUN\/m_c\/object} out; {PRONOUN\/m_c\/subject} {VERB\/m_c\/turn\/turns} tail and {VERB\/m_c\/flee\/flees}.",
+        "event_text": "När c_n hittar m_c, {PRONOUN/m_c/poss} päls buskar upp och ögonen vidgas vid åsynen av så många katter. Det krävs inte mycket för att köra ut {PRONOUN/m_c/object}; {PRONOUN/m_c/subject} {VERB/m_c/turn/turns} svans och {VERB/m_c/flee/flees}.",
         "reputation": [
             "any"
         ],
@@ -768,12 +768,12 @@
                 "loner"
             ],
             "skill": [],
-            "kit_thought": "Wonders where m_c has gone"
+            "kit_thought": "Undrar vart m_c har tagit vägen"
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "A patrol succeeds in driving off m_c, but a raging thunderstorm rolls in moments later. Some greater power considered m_c important to c_n's destiny and is displeased to see {PRONOUN\/m_c\/object} go.",
+        "event_text": "En patrull lyckas köra iväg m_c, men ett rasande åskväder rullar in any ögonblick senare. Någon större makt ansåg att m_c är viktigt för c_ns öde och är missnöjd med att se {PRONOUN/m_c/object} gå.",
         "reputation": [
             "any"
         ],
@@ -788,12 +788,12 @@
                 "DARK,3",
                 "STAR,3"
             ],
-            "kit_thought": "Shivers in the rain"
+            "kit_thought": "Ryser i regnet"
         }
     },
     {
         "interaction_type": "hunt",
-        "event_text": "c_n is prepared for a fight when they find m_c, but m_c quickly realizes the odds are not in {PRONOUN\/m_c\/poss} favor and flees - just not fast enough.",
+        "event_text": "c_n är förberedd på en kamp när de hittar m_c, men m_c inser snabbt att oddsen inte är i {PRONOUN/m_c/poss} favör och flyr - bara inte tillräckligt snabbt.",
         "reputation": [
             "any"
         ],
@@ -808,13 +808,13 @@
                 "senior adult"
             ],
             "skill": [],
-            "new_thought": "Wonders how {PRONOUN\/m_c\/subject} wronged those cats",
-            "kit_thought": "Wonders where m_c has gone"
+            "new_thought": "Undrar hur {PRONOUN/m_c/subject} gjorde de katterna illa",
+            "kit_thought": "Undrar vart m_c har tagit vägen"
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "c_n is prepared for a fight when they find m_c. m_c quickly realizes the odds are not in {PRONOUN\/m_c\/poss} favor and flees. The c_n cats snarl threats at {PRONOUN\/m_c\/poss} back.",
+        "event_text": "c_n är beredd på ett slagsmål när de hittar m_c. m_c inser snabbt att oddsen inte är till {PRONOUN/m_c/poss} fördel och flyr. C_n-katterna morrar hot mot {PRONOUN/m_c/poss} tillbaka.",
         "reputation": [
             "any"
         ],
@@ -828,12 +828,12 @@
                 "adult",
                 "senior adult"
             ],
-            "kit_thought": "Wonders where m_c has gone"
+            "kit_thought": "Undrar vart m_c har tagit vägen"
         }
     },
     {
         "interaction_type": "hunt",
-        "event_text": "m_c has no chance against this number of c_n's trained fighters. {PRONOUN\/m_c\/subject\/CAP} {VERB\/m_c\/beg\/begs} for mercy, but the pleas fall on deaf ears.",
+        "event_text": "m_c har ingen chans mot detta antal c_n:s tränade fighters. {PRONOUN/m_c/subject/CAP} {VERB/m_c/beg/begs} om nåd, men bönen faller på döva öron.",
         "reputation": [
             "any"
         ],
@@ -847,12 +847,12 @@
                 "kitten",
                 "adolescent"
             ],
-            "new_thought": "Bitterly wonders how {PRONOUN\/m_c\/subject} could have escaped"
+            "new_thought": "Undrar bittert hur {PRONOUN/m_c/subject} kunde ha undkommit"
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "m_c has no chance against this number of c_n's trained fighters. {PRONOUN\/m_c\/subject\/CAP} {VERB\/m_c\/beg\/begs} for mercy, and c_n orders {PRONOUN\/m_c\/object} to leave and never return.",
+        "event_text": "m_c har ingen chans mot detta antal c_n:s tränade fighters. {PRONOUN/m_c/subject/CAP} {VERB/m_c/beg/begs} om nåd, och c_n beordrar {PRONOUN/m_c/object} att lämna och aldrig återvända.",
         "reputation": [
             "any"
         ],
@@ -870,7 +870,7 @@
     },
     {
         "interaction_type": "hunt",
-        "event_text": "c_n knows that there is no territory far enough to drive m_c out to - {PRONOUN\/m_c\/subject} must be driven out of this life. {PRONOUN\/m_c\/subject\/CAP} {VERB\/m_c\/see\/sees} {PRONOUN\/m_c\/poss} old Clanmates coming, but {PRONOUN\/m_c\/subject} {VERB\/m_c\/do\/does}'nt have time to run.",
+        "event_text": "c_n vet att det inte finns något territorium tillräckligt långt för att driva ut m_c till - {PRONOUN/m_c/subject} måste drivas ut ur det här livet. {PRONOUN/m_c/subject/CAP} {VERB/m_c/see/sees} {PRONOUN/m_c/poss} gamla klankamrater kommer, men {PRONOUN/m_c/subject} {VERB/m_c/do/does} har inte tid att springa.",
         "reputation": [
             "any"
         ],
@@ -879,13 +879,13 @@
             "status": [
                 "exiled"
             ],
-            "new_thought": "Curses {PRONOUN\/m_c\/poss} old Clanmates",
-            "kit_thought": "Wonders what happened to m_c"
+            "new_thought": "Förbannar {PRONOUN/m_c/poss} gamla klankamrater",
+            "kit_thought": "Undrar vad som hände med m_c"
         }
     },
     {
         "interaction_type": "hunt",
-        "event_text": "c_n tracks down m_c and corners {PRONOUN\/m_c\/object}. Despite being outnumbered and backed into a corner, m_c fights 'til the end.",
+        "event_text": "c_n spårar m_c och hörn {PRONOUN/m_c/object}. Trots att han är i underläge och backas in i ett hörn, kämpar m_c till slutet.",
         "reputation": [
             "any"
         ],
@@ -908,13 +908,13 @@
                 "bold",
                 "shameless"
             ],
-            "new_thought": "Curses c_n",
-            "kit_thought": "Wonders what happened to m_c"
+            "new_thought": "Förbannelser c_n",
+            "kit_thought": "Undrar vad som hände med m_c"
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "Exiling m_c wasn't enough - {PRONOUN\/m_c\/subject} must be driven far out of the surrounding territory. m_c only stands {PRONOUN\/m_c\/poss} ground for a heartbeat when {PRONOUN\/m_c\/poss} old Clanmates find {PRONOUN\/m_c\/object}. {PRONOUN\/m_c\/subject\/CAP} {VERB\/m_c\/know\/knows} {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} outnumbered, and {PRONOUN\/m_c\/subject} {VERB\/m_c\/flee\/flees}.",
+        "event_text": "Att exil m_c var inte tillräckligt - {PRONOUN/m_c/subject} måste drivas långt ut från det omgivande territoriet. m_c står bara för {PRONOUN/m_c/poss} för ett hjärtslag när {PRONOUN/m_c/poss} gamla klankamrater hittar {PRONOUN/m_c/object}. {PRONOUN/m_c/subject/CAP} {PRONOUN/m_c/know/knows} {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} är i mindre antal och {PRONOUN/m_c/subject} {VERB/m_c /fly/fly}.",
         "reputation": [
             "any"
         ],
@@ -923,12 +923,12 @@
             "status": [
                 "exiled"
             ],
-            "kit_thought": "Wonders what happened to m_c"
+            "kit_thought": "Undrar vad som hände med m_c"
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "c_n finds m_c just outside {PRONOUN\/m_c\/poss} Twoleg nest and makes {PRONOUN\/m_c\/object} an offer. Though m_c asks a few questions about leaf-bare, sickness, and injury, {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} persuaded that Clan life is worth it.",
+        "event_text": "c_n hittar m_c strax utanför {PRONOUN/m_c/poss} Twoleg nest och ger {PRONOUN/m_c/object} ett erbjudande. även om m_c ställer any frågor om löv, sjukdom och skada, övertygade {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} att klanlivet är värt det.",
         "reputation": [
             "any"
         ],
@@ -937,13 +937,13 @@
             "status": [
                 "kittypet"
             ],
-            "new_thought": "Hopes {PRONOUN\/m_c\/subject} made the right choice",
-            "kit_thought": "Takes in the new surroundings with wide eyes"
+            "new_thought": "Hoppas att {PRONOUN/m_c/subject} gjorde rätt val",
+            "kit_thought": "Tar in den nya omgivningen med stora ögon"
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "c_n manages to track down m_c, despite how untraceable m_c attempts to be. Impressed, m_c agrees to join c_n and learn from them.",
+        "event_text": "c_n lyckas spåra m_c, trots hur ospårbar m_c försöker vara. Imponerad, m_c går med på att gå med i c_n och lära av dem.",
         "reputation": [
             "any"
         ],
@@ -960,13 +960,13 @@
                 "sneaky",
                 "careful"
             ],
-            "new_thought": "Is impressed c_n managed to find {PRONOUN\/m_c\/object}",
-            "kit_thought": "Takes in the new surroundings with wide eyes"
+            "new_thought": "Är imponerad c_n lyckades hitta {PRONOUN/m_c/object}",
+            "kit_thought": "Tar in den nya omgivningen med stora ögon"
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "c_n approaches m_c warily, reassuring {PRONOUN\/m_c\/object} that the rumors about c_n's relationship with outsiders aren't true. m_c is baffled; {PRONOUN\/m_c\/subject} {VERB\/m_c\/has\/have}n't heard any rumors! {PRONOUN\/m_c\/subject\/CAP} {VERB\/m_c\/agree\/agrees} to join.",
+        "event_text": "c_n närmar sig m_c försiktigt och försäkrar {PRONOUN/m_c/object} att ryktena om c_ns förhållande till utomstående inte är sanna. m_c är förbryllad; {PRONOUN/m_c/subject} {VERB/m_c/has/have}inte hört any rykten! {PRONOUN/m_c/subject/CAP} {VERB/m_c/agree/agrees} för att gå med.",
         "reputation": [
             "hostile"
         ],
@@ -981,13 +981,13 @@
             "trait": [
                 "oblivious"
             ],
-            "new_thought": "Feels very comfortable with {PRONOUN\/m_c\/poss} choice to join c_n",
-            "kit_thought": "Takes in the new surroundings with wide eyes"
+            "new_thought": "Känns väldigt bekvämt med {PRONOUN/m_c/poss} val att gå med i c_n",
+            "kit_thought": "Tar in den nya omgivningen med stora ögon"
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "When c_n finds m_c, {PRONOUN\/m_c\/subject} {VERB\/m_c\/look\/looks} wary of so many sleek, muscled cats surrounding {PRONOUN\/m_c\/object}. Still, m_c listens carefully as c_n explains that all this strength could help protect {PRONOUN\/m_c\/object}. {PRONOUN\/m_c\/subject\/CAP} would no longer be alone against the world. m_c tentatively agrees.",
+        "event_text": "När c_n hittar m_c är {PRONOUN/m_c/subject} {VERB/m_c/look/looks} försiktig med så många slanka, muskulösa katter som omger {PRONOUN/m_c/object}. ändå lyssnar m_c noga när c_n förklarar att all denna styrka kan hjälpa till att skydda {PRONOUN/m_c/object}. {PRONOUN/m_c/subject/CAP} skulle inte längre vara ensam mot världen. m_c håller preliminärt med.",
         "reputation": [
             "any"
         ],
@@ -996,13 +996,13 @@
             "status": [
                 "loner"
             ],
-            "new_thought": "Has met more new cats today than {PRONOUN\/m_c\/subject} ever {VERB\/m_c\/have\/has} before",
-            "kit_thought": "Stares at all the new cats"
+            "new_thought": "Har träffat fler nya katter idag än {PRONOUN/m_c/subject} någonsin {VERB/m_c/have/has} tidigare",
+            "kit_thought": "Stirrar på alla nya katter"
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "m_c is surprised to have been sought out specifically by c_n. {PRONOUN\/m_c\/subject\/CAP}{VERB\/m_c\/'re\/'s} no stranger to living in groups, but all this code business sounds awfully complicated... Eventually, m_c comes round and accompanies the c_n cats back to camp.",
+        "event_text": "m_c är förvånad över att ha blivit uppsökt specifikt av c_n. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} är inte främmande för att leva i grupper, men all denna kodaffär låter fruktansvärt komplicerad... Så småningom kommer m_c runt och följer med c_n-katterna tillbaka till läger.",
         "reputation": [
             "any"
         ],
@@ -1011,13 +1011,13 @@
             "status": [
                 "rogue"
             ],
-            "new_thought": "Tries to remember all the names of {PRONOUN\/m_c\/poss} new 'Clanmates'",
-            "kit_thought": "Explores their new home"
+            "new_thought": "Försöker komma ihåg alla namn på {PRONOUN/m_c/poss} nya \"Klankamrater\"",
+            "kit_thought": "Utforskar sitt nya hem"
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "When c_n finds {PRONOUN\/m_c\/object}, m_c is highly skeptical of {PRONOUN\/m_c\/poss} old Clanmates' offer to return... The Clanmates that drove {PRONOUN\/m_c\/object} from {PRONOUN\/m_c\/poss} nest, from {PRONOUN\/m_c\/poss} home, now want {PRONOUN\/m_c\/object} to return? Warily, m_c allows {PRONOUN\/m_c\/self} to be led back to camp.",
+        "event_text": "När c_n hittar {PRONOUN/m_c/object} är m_c mycket skeptisk till {PRONOUN/m_c/poss} gamla klankamraters erbjudande att återvända... Klankamraterna som körde {PRONOUN/m_c/object} från {PRONOUN/m_c/poss } bo, från {PRONOUN/m_c/poss} hem, vill nu ha {PRONOUN/m_c/object} till återvända? Varsamt låter m_c {PRONOUN/m_c/self} ledas tillbaka till lägret.",
         "reputation": [
             "any"
         ],
@@ -1026,13 +1026,13 @@
             "status": [
                 "exiled"
             ],
-            "new_thought": "Tentatively reconnects with {PRONOUN\/m_c\/poss} old Clanmates",
-            "kit_thought": "Is learning the truth behind all the stories"
+            "new_thought": "Återansluter preliminärt till {PRONOUN/m_c/poss} gamla klankamrater",
+            "kit_thought": "Lär dig sanningen bakom alla historier"
         }
     },
     {
         "interaction_type": "invite",
-        "event_text": "c_n finds m_c and offers {PRONOUN\/m_c\/object} a position in c_n. m_c admits {PRONOUN\/m_c\/subject} {VERB\/m_c\/have\/has} missed Clan life and agrees to join.",
+        "event_text": "c_n hittar m_c och erbjuder {PRONOUN/m_c/object} en position i c_n. m_c medger att {PRONOUN/m_c/subject} {VERB/m_c/have/has} missat klanlivet och går med på att gå med.",
         "reputation": [
             "any"
         ],
@@ -1041,13 +1041,13 @@
             "status": [
                 "former Clancat"
             ],
-            "new_thought": "Readjusts to Clan life",
-            "kit_thought": "Is learning the truth behind all the stories"
+            "new_thought": "Anpassar sig till klanlivet",
+            "kit_thought": "Lär dig sanningen bakom alla historier"
         }
     },
     {
         "interaction_type": "drive",
-        "event_text": "c_n finds m_c and drives {PRONOUN\/m_c\/object} far beyond c_n's borders. For all m_c's training, {PRONOUN\/m_c\/subject} {VERB\/m_c\/do\/does}n't stand a chance against a whole patrol.",
+        "event_text": "c_n hittar m_c och kör {PRONOUN/m_c/object} långt utanför c_ns gränser. För all m_c:s träning har {PRONOUN/m_c/subject} {VERB/m_c/do/does} inte en chans mot en hel patrull.",
         "reputation": [
             "any"
         ],
@@ -1056,12 +1056,12 @@
             "status": [
                 "former Clancat"
             ],
-            "kit_thought": "Wonders where m_c has gone"
+            "kit_thought": "Undrar vart m_c har tagit vägen"
         }
     },
     {
         "interaction_type": "hunt",
-        "event_text": "c_n finds m_c and leaps on {PRONOUN\/m_c\/object}. m_c puts up a good fight, drawing on all {PRONOUN\/m_c\/poss} training, but {PRONOUN\/m_c\/subject} {VERB\/m_c\/do\/does}n't stand a chance against a whole patrol.",
+        "event_text": "c_n hittar m_c och hoppar på {PRONOUN/m_c/object}. m_c kämpar bra och drar på all {PRONOUN/m_c/poss}-träning, men {PRONOUN/m_c/subject} {VERB/m_c/do/does}har ingen chans mot en hel patrull.",
         "reputation": [
             "any"
         ],
@@ -1070,13 +1070,13 @@
             "status": [
                 "former Clancat"
             ],
-            "new_thought": "Thinks bitterly of {PRONOUN\/m_c\/poss} old Clan, wishing it had protected {PRONOUN\/m_c\/object}",
-            "kit_thought": "Wonders where m_c has gone"
+            "new_thought": "Tänker bittert på {PRONOUN/m_c/poss} gamla klan och önskar att den hade skyddat {PRONOUN/m_c/object}",
+            "kit_thought": "Undrar vart m_c har tagit vägen"
         }
     },
     {
         "interaction_type": "search",
-        "event_text": "c_n turns the world upside down searching for their lost Clanmate. They cannot rest until m_c is safely home - and they don't. When they come upon {PRONOUN\/m_c\/object} at last, c_n is overjoyed to bring {PRONOUN\/m_c\/object} back to camp where {PRONOUN\/m_c\/subject} {VERB\/m_c\/belong\/belongs}.",
+        "event_text": "c_n vänder upp och ner på världen och letar efter sin förlorade klankamrat. De kan inte vila förrän m_c är säkert hemma - och det gör de inte. När de äntligen kommer på {PRONOUN/m_c/object} är c_n överlycklig över att få med sig {PRONOUN/m_c/object} tillbaka till lägret där {PRONOUN/m_c/subject} {VERB/m_c/belong/belongs}.",
         "reputation": [
             "any"
         ],
@@ -1085,13 +1085,13 @@
             "status": [
                 "lost"
             ],
-            "new_thought": "Never lost hope in {PRONOUN\/m_c\/poss} Clanmates finding {PRONOUN\/m_c\/object}",
-            "kit_thought": "Is learning the truth behind all the stories"
+            "new_thought": "Har aldrig tappat hoppet om att {PRONOUN/m_c/poss} klankamrater hittar {PRONOUN/m_c/object}",
+            "kit_thought": "Lär dig sanningen bakom alla historier"
         }
     },
     {
         "interaction_type": "search",
-        "event_text": "c_n scours the outside territory for m_c, and eventually, their old Clanmate turns up. m_c joyfully reunites with the Clan, swearing that {PRONOUN\/m_c\/poss} faith in {PRONOUN\/m_c\/poss} Clanmates never wavered.",
+        "event_text": "c_n letar igenom det yttre territoriet efter m_c, och så småningom dyker deras gamla klankamrat upp. m_c återförenas med glädje med klanen och svär att {PRONOUN/m_c/poss} tron på {PRONOUN/m_c/poss} klankamrater aldrig vacklade.",
         "reputation": [
             "any"
         ],
@@ -1107,8 +1107,8 @@
                 "faithful",
                 "righteous"
             ],
-            "new_thought": "Swears {PRONOUN\/m_c\/poss} loyalty to all the Clanmates that helped bring {PRONOUN\/m_c\/object} home",
-            "kit_thought": "Is learning the truth behind all the stories"
+            "new_thought": "Svär {PRONOUN/m_c/poss} lojalitet till alla klankamrater som hjälpte till att ta hem {PRONOUN/m_c/object}",
+            "kit_thought": "Lär dig sanningen bakom alla historier"
         }
     }
 ]

@@ -53,22 +53,22 @@
         "id": "group_3_leader_neg1",
         "cat_amount": 3,
         "interactions": [
-            "Efter att ha blivit utmananad av r_c2, beordrar m_c r_c1 att hj\u00e4lpa {PRONOUN/m_c/object} straffa r_c2. Alla blir s\u00e5rade, \u00e4ven om m_c k\u00e4nner att {PRONOUN/m_c/subject} kan lita p\u00e5 r_c1 mer."
+            "Efter att ha blivit utmananad av r_c2, beordrar m_c r_c1 att hjälpa {PRONOUN/m_c/object} straffa r_c2. Alla blir sårade, även om m_c känner att {PRONOUN/m_c/subject} kan lita på r_c1 mer."
         ],
         "get_injuries": {
             "m_c": {
                 "injury_names": [
                     "claw-wound"
                 ],
-                "scar_text": "m_c fick ett \u00e4rr efter att r_c2 utmanade {PRONOUN/m_c/object}.",
-                "death_text": "D\u00f6d efter att r_c2 utmanade {PRONOUN/m_c/object}.",
+                "scar_text": "m_c fick ett ärr efter att r_c2 utmanade {PRONOUN/m_c/object}.",
+                "death_text": "Död efter att r_c2 utmanade {PRONOUN/m_c/object}.",
                 "death_leader_text": "{VERB/m_c/were/was} utmanades av r_c2"
             },
             "r_c1": {
                 "injury_names": [
                     "claw-wound"
                 ],
-                "scar_text": "Fick ett \u00e4rr n\u00e4r de straffade r_c2 i m_c namn.",
+                "scar_text": "Fick ett ärr när de straffade r_c2 i m_c namn.",
                 "death_text": "Dog när de försökte straffa r_c2 i m_c namn.",
                 "death_leader_text": "Straffade r_c2"
             },
@@ -77,7 +77,7 @@
                     "claw-wound",
                     "bite-wound"
                 ],
-                "scar_text": "r_c2 utmanade m_c, men straffades av r_c1 och fick ett \u00e4rr som en p\u00e5minnelse om {PRONOUN/r_c2/poss} handlingar.",
+                "scar_text": "r_c2 utmanade m_c, men straffades av r_c1 och fick ett ärr som en påminnelse om {PRONOUN/r_c2/poss} handlingar.",
                 "death_text": "{PRONOUN/r_c2/subject/CAP} utmanade m_c, men straffades av r_c1 och dog som ett resultat.",
                 "death_leader_text": "utmanade m_c och blev straffad med r_c1 som ett resultat"
             }
@@ -136,7 +136,7 @@
         "id": "group_3_leader_neg2",
         "cat_amount": 3,
         "interactions": [
-            "m_c och r_c1 diskuterar var de ska markera revir. r_c2 h\u00f6r och h\u00e5ller inte med om deras beslut, vilket f\u00e5r m_c och r_c1 att h\u00e5na {PRONOUN/r_c2/object}."
+            "m_c och r_c1 diskuterar var de ska markera revir. r_c2 hör och håller inte med om deras beslut, vilket får m_c och r_c1 att håna {PRONOUN/r_c2/object}."
         ],
         "status_constraint": {
             "m_c": [

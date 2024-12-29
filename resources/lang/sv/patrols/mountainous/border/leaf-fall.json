@@ -16,11 +16,11 @@
         "max_cats": 6,
         "weight": 15,
         "chance_of_success": 70,
-        "intro_text": "The patrol hears a strange thwacking sound the other side of a boulder. After initial confusion, the patrol realizes that it is courting season for the goats that live on the mountain. The sound must be two buck goats engaged in a fight. It must be quite the spectacle...",
-        "decline_text": "Fun as it may be to watch... it could also end in disaster. The patrol decides it's not worth the risk and continues on its way.",
+        "intro_text": "Patrullen h\u00f6r ett konstigt sm\u00e4llande ljud p\u00e5 andra sidan av ett stenblock. Efter initial f\u00f6rvirring inser patrullen att det \u00e4r uppvaktningss\u00e4song f\u00f6r getterna som bor p\u00e5 berget. Ljudet m\u00e5ste vara tv\u00e5 bockgetter som \u00e4r engagerade i slagsm\u00e5l. Det m\u00e5ste vara ett riktigt spektakel...",
+        "decline_text": "Hur kul det \u00e4n \u00e4r att se... det kan ocks\u00e5 sluta i katastrof. Patrullen beslutar att det inte \u00e4r v\u00e4rt risken och forts\u00e4tter sin v\u00e4g.",
         "success_outcomes": [
             {
-                "text": "Quite the spectacle indeed! The patrol watches in awe from the top of the boulder as the two bucks viciously butt heads. It turns into a fun game for the patrol as they playfully argue over which buck they expect to win.",
+                "text": "Riktigt spektakel faktiskt! Patrullen ser i v\u00f6rdnad fr\u00e5n toppen av stenblocket n\u00e4r de tv\u00e5 bockarna illvilligt st\u00f6ter huvudena. Det blir ett roligt spel f\u00f6r patrullen n\u00e4r de lekfullt br\u00e5kar om vilken slant de f\u00f6rv\u00e4ntar sig att vinna.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -40,7 +40,7 @@
                 ]
             },
             {
-                "text": "While the rest of the patrol is hesitant, r_c leaps to the top of the boulder to watch the show. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/watch\/watches} with wonder as the two bucks fight. At the urging of r_c, the rest of the patrol joins {PRONOUN\/r_c\/object} in gawking at the battle.",
+                "text": "Medan resten av patrullen \u00e4r tveksamma, hoppar r_c till toppen av stenblocket f\u00f6r att se showen. {PRONOUN/r_c/subject/CAP} {VERB/r_c/watch/watches} med f\u00f6rundran n\u00e4r de tv\u00e5 bockarna sl\u00e5ss. P\u00e5 uppmaning av r_c g\u00e5r resten av patrullen med {PRONOUN/r_c/object} och stirrar p\u00e5 striden.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -60,7 +60,7 @@
                 ]
             },
             {
-                "text": "How is it even possible for the bucks to fight like that without getting massive head-damage or breaking their horns? The patrol watches until one of the bucks gives up and retreats. As the patrol walks back to camp, they all playfully headbutt each other, thankfully not as hard as the two buck goats did.",
+                "text": "Hur \u00e4r det ens m\u00f6jligt f\u00f6r bockarna att sl\u00e5ss s\u00e5 utan att f\u00e5 massiva huvudskador eller bryta sina horn? Patrullen tittar p\u00e5 tills en av bockarna ger upp och drar sig tillbaka. N\u00e4r patrullen g\u00e5r tillbaka till l\u00e4gret sl\u00e5r de alla lekfullt mot varandra, tack och lov inte lika h\u00e5rt som de tv\u00e5 bockgetterna gjorde.",
                 "exp": 20,
                 "weight": 15,
                 "relationships": [
@@ -82,12 +82,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c creeps closer, wanting to watch the show. Unfortunately, {PRONOUN\/r_c\/subject} accidentally {VERB\/r_c\/step\/steps} on a dead leaf, and the crunch alerts the two bucks. The patrol watches in disappointment as the two bucks bleat and run from sight. All that bravado, and they were scared off by a leaf?",
+                "text": "r_c kryper n\u00e4rmare och vill se programmet. Tyv\u00e4rr {PRONOUN/r_c/subject} av misstag {VERB/r_c/step/steps} p\u00e5 ett d\u00f6tt l\u00f6v, och crunchen varnar de tv\u00e5 dollarn. Patrullen ser besviket p\u00e5 n\u00e4r de tv\u00e5 bockarna br\u00e4tar och springer fr\u00e5n sikte. Allt det d\u00e4r bravader, och de skr\u00e4mdes av ett l\u00f6v?",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The patrol watches with glee, too distracted by the show to realize that the fighting bucks are getting dangerously close. It's too late to react before the two goats are upon them, pushing their fight right into the group of cats. The patrol tries to scramble back, but not everyone gets away unharmed.",
+                "text": "Patrullen tittar med gl\u00e4dje, f\u00f6r distraherad av showen f\u00f6r att inse att de k\u00e4mpande bockarna kommer farligt n\u00e4ra. Det \u00e4r f\u00f6r sent att reagera innan de tv\u00e5 getterna \u00e4r p\u00e5 dem och driver deras kamp rakt in i gruppen katter. Patrullen f\u00f6rs\u00f6ker krypa tillbaka, men alla kommer inte d\u00e4rifr\u00e5n oskadda.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [

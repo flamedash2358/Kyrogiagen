@@ -26,12 +26,12 @@
             "STORY,1",
             "HEALER,1"
         ],
-        "intro_text": "Sniffing for daisies, p_l begins a story. Once, eons ago, during the Long Dawn after the Great Moonrise, cats staggered through the cold wide world, searching for a new home.",
-        "decline_text": "Today isn't the time to linger on old history.",
+        "intro_text": "Sniffar efter prästkragar, p_l börjar en historia. En gång, för evigheter sedan, under den långa gryningen efter den stora månuppgången, vacklade katter genom den kalla vida världen och letade efter ett nytt hem.",
+        "decline_text": "Idag är det inte läge att dröja vid gammal historia.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Their success was owed to many things - StarClan, the mysterious sun-drown-place, other Clans who helped them on their way. But the humble daisy saved many lives, keeping their strength up for long enough to travel to new territories.",
+                "text": "Deras framgång berodde på många saker - StarClan, den mystiska soldränkningsplatsen, andra klaner som hjälpte dem på vägen. Men den ödmjuka tusenskönan räddade många liv och höll sin styrka uppe tillräckligt länge för att resa till nya territorier.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -83,7 +83,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l gets so distracted telling the old histories that {PRONOUN\/p_l\/poss} daisy gathering mission is forgotten.",
+                "text": "p_l blir så distraherad av att berätta de gamla historierna att {PRONOUN/p_l/poss} tusenskönas insamlingsuppdrag glöms bort.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -131,12 +131,12 @@
             "STORY,1",
             "HEALER,1"
         ],
-        "intro_text": "p_l ponders one of life's little ironies with a small smile.",
-        "decline_text": "The joke remains a private one.",
+        "intro_text": "p_l begrundar en av livets små ironier med ett litet leende.",
+        "decline_text": "Skämtet förblir privat.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It's at least a little funny, how elder leaves are so suited for easing the pains of the Clan's elders. The tree isn't named for that - there's an old myth about a medicine cat asking an ancient tree for advice - but sometimes the coincidence amuses p_l.",
+                "text": "Det är åtminstone lite lustigt, hur fläderblad är så lämpade för att lindra smärtorna hos klanens äldste. Trädet är inte uppkallat efter det - det finns en gammal myt om en medicinkatt som frågar ett gammalt träd om råd - men ibland roar slumpen p_l.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -190,7 +190,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c feels like p_l is finding amusement in {PRONOUN\/r_c\/poss} scrambling attempts to get elder leaves, and {PRONOUN\/r_c\/subject}'d really rather p_l <i>didn't<\/i>.",
+                "text": "r_c känns som att p_l finner nöjen i {PRONOUN/r_c/poss} försök att få äldre löv, och {PRONOUN/r_c/subject} skulle verkligen hellre p_l <i>inte</i>.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -224,7 +224,7 @@
                 ]
             },
             {
-                "text": "s_c hears p_l chuckling, and can't help but lash {PRONOUN\/s_c\/poss} tail. Why is p_l laughing at {PRONOUN\/s_c\/object} when {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} just trying to help get the herbs?",
+                "text": "s_c hör p_l skratta och kan inte låta bli att piska {PRONOUN/s_c/poss} svansen. Varför skrattar p_l åt {PRONOUN/s_c/object} när {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} bara försöker hjälpa till med örterna?",
                 "exp": 0,
                 "weight": 20,
                 "can_have_stat": [
@@ -310,12 +310,12 @@
             "STORY,1",
             "HEALER,1"
         ],
-        "intro_text": "As the patrol sets out, p_l remembers an old saying about searching for juniper.",
-        "decline_text": "The patrol doesn't stop to listen.",
+        "intro_text": "När patrullen ger sig iväg, minns p_l ett gammalt talesätt om att söka efter enbär.",
+        "decline_text": "Patrullen stannar inte för att lyssna.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "If finding juniper is quite a fight, be sensible and look for a height. See - juniper trees grow in dry soil, typically in higher places.",
+                "text": "Om det är ganska svårt att hitta enbär, var förnuftig och leta efter en höjd. Se - enbär växer i torr jord, vanligtvis på högre ställen.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -367,7 +367,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There's no time for silly sayings! They're supposed to come back to camp with herbs, not stories!",
+                "text": "Det finns ingen tid för dumma ordspråk! De ska komma tillbaka till lägret med örter, inte historier!",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -416,12 +416,12 @@
             "STORY,1",
             "HEALER,1"
         ],
-        "intro_text": "Keeping a supply of lungwort is serious business, p_l instructs.",
-        "decline_text": "Yes, the cats all know that, that's why they're here looking for the stuff.",
+        "intro_text": "Att ha tillgång till lungört är en seriös sak, instruerar p_l.",
+        "decline_text": "Ja, det vet alla katterna, det är därför de är här och letar efter grejerna.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Lungwort doesn't help with many ailments. But it is the <b>only<\/b> cure for yellowcough, and Clans have wasted away and died out for want of it, plague sweeping through their ranks, breath rasping in failing lungs till none remained to witness. c_n <i>needs<\/i> a steady supply of lungwort.",
+                "text": "Lungört hjälper inte mot många åkommor. Men det är det <b>enda</b> botemedlet mot gulhosta, och klaner har slösat bort och dött ut i brist på det, pesten sveper genom deras led, andedräkten rasar i sviktande lungor tills ingen återstår att bevittna. c_n <i>behöver</i> en jämn tillförsel av lungört.",
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_bord_story",
@@ -474,7 +474,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Just thinking of the histories, the Clans lost to plagues that only lungwort can cure - it makes r_c distracted, {PRONOUN\/r_c\/poss} tail lashing agitatedly, and {PRONOUN\/r_c\/subject} {VERB\/r_c\/seem\/seems} to mistake <i>everything<\/i> as lungwort... Once r_c suggests that deathberries are lungwort, p_l decides to call the patrol to a halt.",
+                "text": "Bara med tanke på historien förlorade klanerna till plågor som bara lungört kan bota - det gör r_c distraherad, {PRONOUN/r_c/poss} svansen surrar upprört och {PRONOUN/r_c/subject} {VERB/r_c/seem/seems} att missta <i>allt</i> som lungört... När r_c antyder att dödsbär är lungört, p_l bestämmer sig för att kalla patrullen till stopp.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -536,12 +536,12 @@
             "STORY,1",
             "HEALER,1"
         ],
-        "intro_text": "As they lift their muzzles to try and catch mallow's sweet scent on the wind, p_l asks the patrol if they know how the herb got its name.",
-        "decline_text": "Before p_l can continue, a messenger arrives from camp - p_l's presence is needed there.",
+        "intro_text": "När de lyfter på nospartiet för att försöka fånga malvas söta doft på vinden, frågar p_l patrullen om de vet hur örten fick sitt namn.",
+        "decline_text": "Innan p_l kan fortsätta kommer en budbärare från lägret - p_ls närvaro behövs där.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Mallow has a very literal name - it mellows things out, helping calm both the gut and the respiratory system. Perhaps it's not the most powerful herb in their arsenal, but it's excellent at helping in combination with others.",
+                "text": "Malva har ett väldigt bokstavligt namn - det mjukar upp saker och ting och hjälper till att lugna både tarmen och andningsorganen. Det kanske inte är den mest kraftfulla örten i deras arsenal, men den är utmärkt på att hjälpa i kombination med andra.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -580,12 +580,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Try as they might, no one can sniff out any mallow, and the cats return to camp empty-pawed.",
+                "text": "Hur de än försöker, ingen kan nosa upp någon malva, och katterna återvänder till lägret tomtassade.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "They find mallow... but r_c ends up eating it instead of carrying it back, resulting in the herbs being ruined.",
+                "text": "De hittar malva... men det slutar med att r_c äter den istället för att bära tillbaka den, vilket resulterar i att örterna förstörs.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -647,12 +647,12 @@
             "STORY,1",
             "HEALER,1"
         ],
-        "intro_text": "Heads crane about, looking for marigold. As they work, p_l offers a story.",
-        "decline_text": "Herb gathering isn't always compatible with conversation, and p_l trails off before {PRONOUN\/p_l\/subject} truly {VERB\/p_l\/start\/starts}.",
+        "intro_text": "Huvuden går omkring och letar efter ringblomma. När de fungerar erbjuder p_l en historia.",
+        "decline_text": "Insamling av örter är inte alltid kompatibelt med konversation, och p_l slutar innan {PRONOUN/p_l/subject} verkligen {VERB/p_l/start/starts}.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Once upon a time there was a plant that, unusually, loved not the midday sun's strength, but the sunset's quiet beauty. When it came time to bloom itself, it chose those colors, keeping a hint of the sunset's warmth for itself. When a medicine cat uses marigold to treat stiff joints, that warmth is gifted to their patients.",
+                "text": "Det var en gång en växt som, ovanligt, inte älskade middagssolens styrka, utan solnedgångens stilla skönhet. När det var dags att blomma själv valde den de färgerna och behöll en antydan om solnedgångens värme för sig själv. När en medicinkatt använder ringblomma för att behandla stela leder, ges den värmen till sina patienter.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -704,7 +704,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's always difficult enough to try and identify marigold without its signature bloom, and though p_l doesn't mean to, {PRONOUN\/p_l\/poss} story distracts from the patrol's efforts.",
+                "text": "Det är alltid svårt nog att försöka identifiera ringblomman utan dess signaturblomning, och även om p_l inte menar det, distraherar historien om {PRONOUN/p_l/poss} från patrullens ansträngningar.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -752,12 +752,12 @@
             "STORY,1",
             "HEALER,1"
         ],
-        "intro_text": "Looking up at a powerful old oak tree reminds p_l of an old tale.",
-        "decline_text": "Now's not the time to get distracted.",
+        "intro_text": "Att titta upp på en kraftfull gammal ek påminner p_l om en gammal berättelse.",
+        "decline_text": "Nu är det inte läge att bli distraherad.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "It's said that when oak leaves are chewed or mixed into a poultice, their power to prevent infection is the result of the strength of ancient trees being given to the cats using them. The older the tree, the better its leaves are as herbs.",
+                "text": "Det sägs att när eklöv tuggas eller blandas i ett grötomslag, är deras förmåga att förhindra infektion resultatet av styrkan hos gamla träd som ges till katterna som använder dem. Ju äldre trädet är, desto bättre är bladen som örter.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -809,7 +809,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Whatever tale p_l was reminded of, it does nothing to help {PRONOUN\/p_l\/object} climb the damn tree and fetch the leaves. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/misjudge\/misjudges} a step and {VERB\/p_l\/are\/is} left clinging, claws out and eyes wide. Let's return to the ground. Now.",
+                "text": "Vilken berättelse p_l än påmindes om, hjälper den inte {PRONOUN/p_l/object} att klättra i det jäkla trädet och hämta löven. {PRONOUN/p_l/subject/CAP} {VERB/p_l/misjudge/misjudges} ett steg och {VERB/p_l/are/is} vänster klamrar sig fast, klor ut och ögonen breda. Låt oss återvända till marken. Nu.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -861,12 +861,12 @@
             "STORY,1",
             "HEALER,1"
         ],
-        "intro_text": "app1 is probably not <i>trying<\/i> to be annoying - but {PRONOUN\/app1\/poss} complaints about the taste of ragwort help no one, and it's just slowing the entire patrol down.",
-        "decline_text": "Toughen up, honestly.",
+        "intro_text": "app1 <i>försöker</i> förmodligen inte vara irriterande - men klagomål från {PRONOUN/app1/poss} om smaken av ragwort hjälper ingen, och det saktar bara ner hela patrullen.",
+        "decline_text": "Hårda dig, ärligt talat.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l sighs, holding {PRONOUN\/p_l\/poss} temper. Listen, the strength that ragwort imparts is what gives it such a foul taste. If app1's found a particularly disgusting bunch of leaves, that's success, not failure.",
+                "text": "p_l suckar och håller {PRONOUN/p_l/poss} humör. Lyssna, styrkan som ragwort ger är det som ger den en så ful smak. Om app1 har hittat ett särskilt äckligt gäng löv, är det framgång, inte misslyckande.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -919,7 +919,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l calls off the patrol and makes a note to talk to app1's mentor about {PRONOUN\/app1\/poss} behavior.",
+                "text": "p_l ringer av patrullen och gör en anteckning för att prata med app1s mentor om {PRONOUN/app1/poss} beteende.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -952,7 +952,7 @@
                 ]
             },
             {
-                "text": "p_l snaps at app1 for complaining so much when {PRONOUN\/app1\/subject} {VERB\/app1\/are\/is} supposed to be helping {PRONOUN\/p_l\/object} gather herbs.",
+                "text": "p_l tittar på app1 för att han klagar så mycket när {PRONOUN/app1/subject} {VERB/app1/are/is} ska hjälpa {PRONOUN/p_l/object} att samla örter.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1017,12 +1017,12 @@
             "STORY,1",
             "HEALER,1"
         ],
-        "intro_text": "It's said that the first queen who lost her life in kitting left a blessing to save those who came after her.",
-        "decline_text": "A rainshower disrupts the story, and the herb gathering is called off.",
+        "intro_text": "Det sägs att den första drottningen som förlorade sitt liv i kitting lämnade en välsignelse för att rädda de som kom efter henne.",
+        "decline_text": "En regnskur stör historien och örtinsamlingen avbryts.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The jagged edges of the raspberry leaves mark them as a gift from the stars. Their pain relief and ability to reduce bloodloss have saved countless lives, and brought kittens safely into the world.",
+                "text": "De taggiga kanterna på hallonbladen markerar dem som en gåva från stjärnorna. Deras smärtlindring och förmåga att minska blodförluster har räddat otaliga liv och fört kattungar säkert till världen.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -1061,7 +1061,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Raspberries aren't a blessing, they're a health hazard, r_c grumbles, disentangling {PRONOUN\/r_c\/poss} pelt from the brambles' thorns.",
+                "text": "Hallon är inte en välsignelse, de är en hälsorisk, r_c muttrar och löser ut {PRONOUN/r_c/poss} skinn från tjurens törnen.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -1078,9 +1078,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred from bramble thorns on a herb gathering patrol.",
-                    "reg_death": "Bramble thorns scratched up m_c, and the wounds eventually festered and killed {PRONOUN\/m_c\/object}.",
-                    "lead_death": "bramble thorns scratched up m_c and the wounds eventually festered and killed {PRONOUN\/m_c\/object}."
+                    "scar": "m_c fick ärr efter törnen på en örtuppsamlingspatrull.",
+                    "reg_death": "Bramble törnen repade upp m_c, och såren blev så småningom och dödade {PRONOUN/m_c/object}.",
+                    "lead_death": "bramble taggar repade upp m_c och såren så småningom varnade och dödade {PRONOUN/m_c/object}."
                 },
                 "relationships": [
                     {
@@ -1126,12 +1126,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 shovels tansy into {PRONOUN\/app1\/poss} mouth without a care in the world. p_l stops {PRONOUN\/app1\/object}, and tells {PRONOUN\/app1\/object} {PRONOUN\/app1\/subject} really <i>should<\/i> have a care.",
-        "decline_text": "p_l takes {PRONOUN\/app1\/object} down to a stream to clean out {PRONOUN\/app1\/poss} mouth.",
+        "intro_text": "app1 skyfflar renfana i munnen på {PRONOUN/app1/poss} utan att bry sig i världen. p_l stoppar {PRONOUN/app1/object} och säger till {PRONOUN/app1/object} att {PRONOUN/app1/subject} verkligen <i>borde</i> bry sig.",
+        "decline_text": "p_l tar {PRONOUN/app1/object} ner till en bäck för att rensa ut {PRONOUN/app1/poss} mun.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Tansy isn't mallow or dandelion, to be played with by kits. In high concentrations or potency, it can kill the elderly, pregnant, or compromised, and it will <i>definitely<\/i> make app1 sick if {PRONOUN\/app1\/subject} {VERB\/app1\/do\/does}n't respect it.",
+                "text": "Tansy är inte malva eller maskros, att leka med av kit. I höga koncentrationer eller styrka kan det döda äldre, gravida eller komprometterade, och det kommer <i>definitivt</i> att göra app1 sjuk om {PRONOUN/app1/subject} {VERB/app1/do/does}n' inte respektera det.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -1170,7 +1170,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l spends so much time lecturing app1 on the dangers of tansy that {PRONOUN\/p_l\/subject} {VERB\/p_l\/end\/ends} up failing to collect any of the stars-damned stuff.",
+                "text": "p_l ägnar så mycket tid åt att föreläsa app1 om farorna med renfana att {PRONOUN/p_l/subject} {VERB/p_l/end/ends} misslyckas med att samla på sig någon av de stjärnförbannade sakerna.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1204,7 +1204,7 @@
                 ]
             },
             {
-                "text": "p_l wanders off to do {PRONOUN\/p_l\/poss} own collecting. However, leaving the apprentice alone is a mistake. It takes a <i>lot<\/i> of tansy to poison a cat, but app1 was trying <i>very<\/i> hard to collect as much as possible.",
+                "text": "p_l vandrar iväg för att göra {PRONOUN/p_l/poss} egen insamling. Men att lämna lärlingen ensam är ett misstag. Det krävs <i>mycket</i> renfana för att förgifta en katt, men app1 försökte <i>mycket</i> hårt för att samla in så mycket som möjligt.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -1219,8 +1219,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c poisoned {PRONOUN\/m_c\/self} collecting excessive amounts of tansy as an apprentice.",
-                    "lead_death": "after collecting excessive amounts of tansy as an apprentice"
+                    "reg_death": "m_c förgiftad {PRONOUN/m_c/self} samlar överdrivna mängder renfana som lärling.",
+                    "lead_death": "efter att ha samlat in alltför stora mängder renfana som lärling"
                 },
                 "relationships": [
                     {
@@ -1240,7 +1240,7 @@
                 ]
             },
             {
-                "text": "app1 ignores p_l as p_l launches into a story about the dangers of tansy. That's the wrong move though, because by the time {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} back at camp, nausea has well and truly set in.",
+                "text": "app1 ignorerar p_l när p_l börjar med en berättelse om farorna med renfana. Det är dock fel drag, för när {PRONOUN/app1/subject}{VERB/app1/'re/'s} är tillbaka på lägret har illamåendet verkligen börjat.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -1264,8 +1264,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c poisoned {PRONOUN\/m_c\/self} collecting excessive amounts of tansy as an apprentice.",
-                    "lead_death": "after collecting excessive amounts of tansy as an apprentice"
+                    "reg_death": "m_c förgiftad {PRONOUN/m_c/self} samlar överdrivna mängder renfana som lärling.",
+                    "lead_death": "efter att ha samlat in alltför stora mängder renfana som lärling"
                 },
                 "relationships": [
                     {
@@ -1320,12 +1320,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Listen to the wisdom of the sages, p_l meows. app1 doesn't just need to learn to set bones and clean wounds; being a medicine cat is so much more than blood and bodies.",
-        "decline_text": "They're interrupted by a Clanmate who needs them. It halts the lesson, but also reinforces p_l's point.",
+        "intro_text": "Lyssna på visdomarnas visdom, p_l jamar. app1 behöver inte bara lära sig att sätta ben och rengöra sår; att vara en medicinkatt är så mycket mer än blod och kroppar.",
+        "decline_text": "De avbryts av en klankamrat som behöver dem. Det stoppar lektionen, men förstärker också p_ls poäng.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Some sicknesses aren't physical, but live in the mind instead, p_l instructs. That's very normal, and just as a Clanmate with a twisted leg is just as loved and valued as one who can run without pain, an illness that is mental is just as valid of a struggle. Those cats are just as loved and supported in their needs.",
+                "text": "Vissa sjukdomar är inte fysiska, utan lever i sinnet istället, instruerar p_l. Det är väldigt normalt, och precis som en klankamrat med ett vridet ben är lika älskad och uppskattad som en som kan springa utan smärta, är en sjukdom som är psykisk lika giltig för en kamp. Dessa katter är lika älskade och stöttade i sina behov.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -1364,7 +1364,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 feels overwhelmed with the responsibility of supporting Clanmates going through mental struggles - physical fights are so much simpler to support them with. p_l halts the lesson to comfort {PRONOUN\/app1\/object}.",
+                "text": "app1 känner sig överväldigad av ansvaret att stödja klankamrater som går igenom mentala kamper - fysiska slagsmål är så mycket enklare att stödja dem med. p_l stoppar lektionen för att trösta {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1424,12 +1424,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l and app1 head out for lungwort, and p_l starts a lesson on the value of this rare herb for treating yellowcough.",
-        "decline_text": "A cat grabs p_l's attention before {PRONOUN\/p_l\/subject} can leave. Sighing, the expedition is delayed for another time.",
+        "intro_text": "p_l och app1 beger sig ut för lungört, och p_l startar en lektion om värdet av denna sällsynta ört för behandling av gulhosta.",
+        "decline_text": "En katt fångar p_ls uppmärksamhet innan {PRONOUN/p_l/subject} kan lämna. Suckande, expeditionen försenas ytterligare en gång.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It takes them all day, but finally, p_l spots the speckled leaves they've been looking for, so crucial to harvest while the growing season is upon them. For just a second, {PRONOUN\/p_l\/subject} {VERB\/p_l\/feel\/feels} the weight of {PRONOUN\/p_l\/poss} responsibilities lift, and {PRONOUN\/p_l\/subject} {VERB\/p_l\/let\/lets} out a whoop and {VERB\/p_l\/stop\/stops} to play with app1.",
+                "text": "Det tar dem hela dagen, men till slut upptäcker p_l de spräckliga bladen de har letat efter, så avgörande att skörda medan växtsäsongen är över dem. För bara en sekund lyfter {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} vikten av {PRONOUN/p_l/poss} ansvar och {PRONOUN/p_l/subject} {VERB/p_l/let/lets } ut ett hopp och {VERB/p_l/stop/stops} för att spela med app1.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1464,7 +1464,7 @@
                 ]
             },
             {
-                "text": "app1 listens intently as the hours drift slowly by in their intense search, and then finally spots a bush with leaves sprinkled with white. It's lungwort! p_l showers them with praise, app1 feeling like they could burst with accomplishment.",
+                "text": "app1 lyssnar uppmärksamt när timmarna sakta glider förbi i sitt intensiva sökande, och ser till slut en buske med löv beströdda med vitt. Det är lungört! p_l överöser dem med beröm, app1 känner att de kan sprängas av prestation.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1499,7 +1499,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cats visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "Det krävs all s_c:s avsevärda talang för sådana saker att jaga lungörten inom deras gränser, medicinkatterna besöker varje troligt skrymsle och vrår i ett noggrant planerat sökmönster tills de där avslöjade spräckliga löven till slut hittas.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1538,7 +1538,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - lungwort is the only reliable cure for yellowcough, they can't let c_n go without. Exhausted but determined, the medicine cats persist patiently until they find those precious speckled leaves.",
+                "text": "Natten faller, och fortfarande insisterar s_c på att de fortsätter - lungört är det enda pålitliga botemedlet mot gulhosta, de kan inte låta c_n gå utan. Utmattade men beslutsamma, fortsätter medicinkatterna tålmodigt tills de hittar dessa dyrbara spräckliga löv.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1582,7 +1582,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Not only do they not find anything, but app1 seems to take in absolutely nothing of what p_l is teaching them, and by the time they're back at camp p_l wants to scream.",
+                "text": "Inte nog med att de inte hittar något, utan app1 verkar ta till sig absolut ingenting av vad p_l lär dem, och när de är tillbaka på lägret vill p_l skrika.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1648,12 +1648,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l is on a mission to find lungwort now that greenleaf is here. As the only reliable cure for yellowcough, {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} determined that c_n stock up on it.",
-        "decline_text": "A cat grabs p_l's attention before {PRONOUN\/p_l\/subject} can leave camp.",
+        "intro_text": "p_l är på uppdrag att hitta lungört nu när grönblad är här. Som det enda pålitliga botemedlet mot gulhosta, bestämde {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} att c_n fylla på med det.",
+        "decline_text": "En katt fångar p_ls uppmärksamhet innan {PRONOUN/p_l/subject} kan lämna lägret.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It takes them all day, but finally, p_l spots the speckled leaves they've been looking for, so crucial to harvest while the growing season is upon them. For just a moment, {PRONOUN\/p_l\/subject} {VERB\/p_l\/feel\/feels} the weight of {PRONOUN\/p_l\/poss} responsibilities lift, the strength of that relief catching {PRONOUN\/p_l\/object} off guard.",
+                "text": "Det tar dem hela dagen, men till slut upptäcker p_l de spräckliga bladen de har letat efter, så avgörande att skörda medan växtsäsongen är över dem. För bara ett ögonblick lyfter {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} tyngden av {PRONOUN/p_l/poss} ansvarsområden, styrkan i den lättnaden fångar {PRONOUN/p_l/object} av sig.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1673,7 +1673,7 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. Frustratingly, p_l doesn't have the capacity to cart everything back to camp, but they stick the location in their mind as a place to return to.",
+                "text": "Inte bara är lungörten intakt och växer fint, utan det finns också en fin fläck med groblad som växer precis i närheten. Frustrerande nog har p_l inte kapacitet att köra allt tillbaka till lägret, men de håller platsen i tankarna som en plats att återvända till.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1693,7 +1693,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "Det krävs all s_c:s avsevärda talang för sådana saker att jaga lungörten inom deras gränser, medicinkatten besöker varje troligt skrymsle och vrår i ett noggrant planerat sökmönster tills de där avslöjade spräckliga löven till slut hittas.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1717,7 +1717,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Natten faller, och fortfarande insisterar s_c på att de fortsätter - de kan bara inte låta c_n gå utan. Utmattad men beslutsam håller medicinkatten ut tålmodigt tills de hittar de där dyrbara spräckliga löven.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1746,7 +1746,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l searches until {PRONOUN\/p_l\/poss} pawpads are sore and {PRONOUN\/p_l\/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN\/p_l\/subject\/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l söker tills {PRONOUN/p_l/poss} tassdynor är ömma och {PRONOUN/p_l/poss} muskler utmattade, men hittar inte lungört någonstans. {PRONOUN/p_l/subject/CAP} återvänder till lägret besviken, men fast besluten att försöka igen. Det är helt enkelt för viktigt för att inte ha en bra tillgång på.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1808,12 +1808,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l is on a mission to find lungwort now that greenleaf is here. As the only reliable cure for yellowcough, {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} determined that c_n won't run out of it. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/take\/takes} along a warrior escort to help.",
-        "decline_text": "A cat grabs p_l's attention before {PRONOUN\/p_l\/subject} can leave.",
+        "intro_text": "p_l är på uppdrag att hitta lungört nu när grönblad är här. Som det enda pålitliga botemedlet mot gulhosta, bestämde {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} att c_n inte kommer att ta slut. {PRONOUN/p_l/subject/CAP} {VERB/p_l/take/takes} tillsammans med en krigareskort för att hjälpa till.",
+        "decline_text": "En katt fångar p_ls uppmärksamhet innan {PRONOUN/p_l/subject} kan lämna.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It takes them all day, but finally, p_l spots the speckled leaves they've been looking for, so crucial to harvest while the growing season is upon them. For just a moment, {PRONOUN\/p_l\/subject} {VERB\/p_l\/feel\/feels} the weight of {PRONOUN\/p_l\/poss} responsibilities lift, the strength of that relief catching {PRONOUN\/p_l\/object} off guard.",
+                "text": "Det tar dem hela dagen, men till slut upptäcker p_l de spräckliga bladen de har letat efter, så avgörande att skörda medan växtsäsongen är över dem. För bara ett ögonblick lyfter {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} tyngden av {PRONOUN/p_l/poss} ansvarsområden, styrkan i den lättnaden fångar {PRONOUN/p_l/object} av sig.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -1836,7 +1836,7 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. p_l loads up {PRONOUN\/p_l\/poss} mostly-obliging escort and carries the extensive harvest home, tail waving jovially with their good mood.",
+                "text": "Inte bara är lungörten intakt och växer fint, utan det finns också en fin fläck med groblad som växer precis i närheten. p_l laddar upp {PRONOUN/p_l/poss} mestadels förpliktande eskort och bär den omfattande skörden hem, svansen viftar jovialt med sitt goda humör.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -1861,7 +1861,7 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the medicine cat visiting each likely nook and cranny in a carefully planned search pattern until finally those telltale speckled leaves are found.",
+                "text": "Det krävs all s_c:s avsevärda talang för sådana saker att jaga lungörten inom deras gränser, medicinkatten besöker varje troligt skrymsle och vrår i ett noggrant planerat sökmönster tills de där avslöjade spräckliga löven till slut hittas.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -1889,7 +1889,7 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going - they just can't let c_n go without. Exhausted but determined, the medicine cat persists patiently until they find those precious speckled leaves.",
+                "text": "Natten faller, och fortfarande insisterar s_c på att de fortsätter - de kan bara inte låta c_n gå utan. Utmattad men beslutsam håller medicinkatten ut tålmodigt tills de hittar de där dyrbara spräckliga löven.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -1922,7 +1922,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "By the time they give up and return to camp, p_l is approaching explosion point with r_c. They've gotten in the way, questioned the use of the gathering mission, and in general been utterly obnoxious today.",
+                "text": "När de ger upp och återvänder till lägret närmar sig p_l explosionspunkten med r_c. De har stått i vägen, ifrågasatt användningen av insamlingsuppdraget och i allmänhet varit ytterst motbjudande idag.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1946,7 +1946,7 @@
                 ]
             },
             {
-                "text": "p_l searches until {PRONOUN\/p_l\/poss} pawpads are sore and {PRONOUN\/p_l\/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN\/p_l\/subject\/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l söker tills {PRONOUN/p_l/poss} tassdynor är ömma och {PRONOUN/p_l/poss} muskler utmattade, men hittar inte lungört någonstans. {PRONOUN/p_l/subject/CAP} återvänder till lägret besviken, men fast besluten att försöka igen. Det är helt enkelt för viktigt för att inte ha en bra tillgång på.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2010,12 +2010,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l goes out with a warrior escort, both for safety as they look to take advantage of the greenleaf growing season, and for carrying capacity should they find anything.",
-        "decline_text": "{PRONOUN\/p_l\/poss\/CAP} escort is called away on a different mission, and p_l decides to reorganize the herb store instead.",
+        "intro_text": "p_l går ut med en krigareskort, både för säkerhets skull när de ser ut för att dra nytta av grönbladsväxtsäsongen, och för att bära kapacitet om de skulle hitta något.",
+        "decline_text": "{PRONOUN/p_l/poss/CAP} eskort kallas iväg på ett annat uppdrag, och p_l bestämmer sig för att omorganisera örtbutiken istället.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Surprisingly, r_c actually starts up a conversation with {PRONOUN\/p_l\/object} about the herbs they're looking for. p_l launches into the usual spiel, and to {PRONOUN\/p_l\/poss} astonishment, r_c is actually interested, and it makes {PRONOUN\/p_l\/poss} heart feel lighter getting to share {PRONOUN\/p_l\/poss} knowledge and skills with someone who respects {PRONOUN\/p_l\/object}.",
+                "text": "Överraskande nog börjar r_c faktiskt en konversation med {PRONOUN/p_l/object} om de örter de letar efter. p_l börjar med det vanliga spelet, och till {PRONOUN/p_l/poss} förvåning är r_c faktiskt intresserad, och det gör att {PRONOUN/p_l/poss} hjärtat känns lättare att få dela {PRONOUN/p_l/poss} kunskaper och färdigheter med någon som respekterar {PRONOUN/p_l/object}.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -2037,7 +2037,7 @@
                 ]
             },
             {
-                "text": "s_c has always been good at talking, but chatting with r_c they feel like they don't have to be. It's just an herb gathering patrol, but s_c feels more relaxed than they've felt in moons when they come back to camp, smiling softly.",
+                "text": "s_c har alltid varit bra på att prata, men att chatta med r_c känns det som att de inte behöver vara det. Det är bara en örtsamlande patrull, men s_c känns mer avslappnad än de har känt i månar när de kommer tillbaka till lägret och ler mjukt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2064,7 +2064,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common and the other cat bluntly refuses to talk about boring herbs.",
+                "text": "Det är en ansträngande dag. p_l börjar chatta med r_c för att fördriva tiden, men de har inget gemensamt och den andra katten vägrar rent ut att prata om tråkiga örter.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2086,7 +2086,7 @@
                 ]
             },
             {
-                "text": "Not only do they not find anything, but p_l is <i>this<\/i> close to murdering s_c. They're obnoxious and troublesome and childish, and simply not someone p_l enjoys interacting with.",
+                "text": "Inte nog med att de inte hittar något, men p_l är <i>detta</i> nära att mörda s_c. De är obehagliga och besvärliga och barnsliga, och helt enkelt inte någon p_l tycker om att interagera med.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2149,12 +2149,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l heads out, leading a patrol of medicine cats to go find some of the bounty of greenleaf.",
-        "decline_text": ". . .And they're called back almost immediately, as one of the elders starts hacking up something.",
+        "intro_text": "p_l beger sig ut och leder en patrull av medicinkatter för att leta efter en del av greenleafs överskott.",
+        "decline_text": ". . .Och de blir uppringda nästan omedelbart, eftersom en av de äldste börjar hacka upp något.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "The ground is dusty and slippery, and when p_l falls, r_c catches {PRONOUN\/p_l\/object}. It's a nice reminder that the responsibility of looking after the Clan is a shared one, and the rescue also makes p_l shiver pleasantly.",
+                "text": "Marken är dammig och halt, och när p_l faller fångar r_c {PRONOUN/p_l/object}. Det är en trevlig påminnelse om att ansvaret att ta hand om klanen är ett delat ansvar, och räddningen får också p_l att rysa behagligt.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -2176,7 +2176,7 @@
                 ]
             },
             {
-                "text": "s_c has always been good at talking, but chatting with r_c they feel like they don't have to be. It's just an herb gathering patrol, but s_c feels more relaxed than they've felt in moons when they come back to camp, smiling softly.",
+                "text": "s_c har alltid varit bra på att prata, men att chatta med r_c känns det som att de inte behöver vara det. Det är bara en örtsamlande patrull, men s_c känns mer avslappnad än de har känt i månar när de kommer tillbaka till lägret och ler mjukt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2203,7 +2203,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's an exhausting day. p_l starts chatting with r_c to pass the time, but they have nothing in common.",
+                "text": "Det är en ansträngande dag. p_l börjar chatta med r_c för att fördriva tiden, men de har inget gemensamt.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2225,7 +2225,7 @@
                 ]
             },
             {
-                "text": "Not only do they not find anything, but p_l is <i>this<\/i> close to murdering s_c. They're obnoxious and troublesome and childish, and simply not someone p_l enjoys interacting with.",
+                "text": "Inte nog med att de inte hittar något, men p_l är <i>detta</i> nära att mörda s_c. De är obehagliga och besvärliga och barnsliga, och helt enkelt inte någon p_l tycker om att interagera med.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [

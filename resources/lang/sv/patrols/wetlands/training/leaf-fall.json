@@ -25,11 +25,11 @@
         "pl_skill_constraint": [
             "STORY,1"
         ],
-        "intro_text": "Gather round, gather round. p_l sits in the center of the group and drops {PRONOUN\/p_l\/poss} voice down low as a hush falls. Today, {PRONOUN\/p_l\/subject}'ll tell the story of StarClan's Great Anger.",
-        "decline_text": "A leaf-fall rain shower chooses that moment to break - thematic, perhaps, but wet. The cats decide to pick up the story some other time.",
+        "intro_text": "Samla runt, samla runt. p_l sitter i mitten av gruppen och sänker {PRONOUN/p_l/poss} rösten lågt när tystnaden faller. Idag kommer {PRONOUN/p_l/subject} att berätta historien om StarClan's Great Anger.",
+        "decline_text": "En lövfallsregnskur väljer det ögonblicket att bryta - tematiskt kanske, men blött. Katterna bestämmer sig för att ta upp historien någon annan gång.",
         "success_outcomes": [
             {
-                "text": "At first, few but the medicine cats noticed how harsh this leaf-fall was: the snows early, the prey scarce. But all cats noticed on the day StarClan hissed - the great sun itself went dark under their anger. All paid heed to the omens then, and the Clans turned back to StarClan, begging for life and sun to return. They learned a lesson not soon forgotten.",
+                "text": "Till en början var det få utom medicinkatterna som märkte hur hårt detta lövfall var: snön tidigt, bytet knappt. Men alla katter märkte den dagen StarClan väste - själva den stora solen blev mörk under deras ilska. Alla tog då hänsyn till omenen, och klanerna vände tillbaka till StarClan och bad om liv och sol att komma tillbaka. De lärde sig en läxa man inte snart glömmer.",
                 "exp": 40,
                 "weight": 20,
                 "relationships": [
@@ -52,7 +52,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c refuses to believe their ancestors ever blotted out the sun - not that they couldn't, but that they wouldn't ever hurt the Clans, their own beloved descendants.",
+                "text": "r_c vägrar att tro att deras förfäder någonsin utplånade solen - inte för att de inte kunde, men att de aldrig skulle skada klanerna, deras egna älskade ättlingar.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -73,7 +73,7 @@
                 ]
             },
             {
-                "text": "If StarClan hissed at them, they should've hissed back, s_c argues. Their ancestors are nothing without them!",
+                "text": "Om StarClan väste åt dem, borde de ha väste tillbaka, hävdar s_c. Deras förfäder är ingenting utan dem!",
                 "exp": 0,
                 "weight": 20,
                 "can_have_stat": [

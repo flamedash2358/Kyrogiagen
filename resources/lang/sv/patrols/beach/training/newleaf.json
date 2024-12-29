@@ -29,12 +29,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "As the sun creeps over the horizon, p_l leads the patrol carefully towards a familiar beach, stopping the cats on the clifftop. Below them, the sand is hidden under a mass of boulders, as long as twenty cats and as wide as ten.",
-        "decline_text": "They return to camp to report the new beach layout.",
+        "intro_text": "N\u00e4r solen smyger sig \u00f6ver horisonten leder p_l patrullen f\u00f6rsiktigt mot en v\u00e4lbekant strand och stoppar katterna p\u00e5 klippans topp. Under dem \u00e4r sanden g\u00f6md under en massa stenblock, s\u00e5 l\u00e5nga som tjugo katter och s\u00e5 breda som tio.",
+        "decline_text": "De \u00e5terv\u00e4nder till l\u00e4gret f\u00f6r att rapportera om den nya strandlayouten.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "As the cats watch, the silence is broken when one of the massive boulders rears up and snorts. app1's fur stands on end and app2 looks seconds away from fleeing, but p_l flicks {PRONOUN\/p_l\/poss} tail encouragingly. These are nosy-seals, {PRONOUN\/p_l\/subject} {VERB\/p_l\/explain\/explains}, and the beach full of 'boulders' suddenly seems far more intimidating, but less disturbing.",
+                "text": "N\u00e4r katterna tittar p\u00e5 bryts tystnaden n\u00e4r ett av de massiva stenblocken reser sig och fnyser. app1:s p\u00e4ls reser sig och app2 ser sekunder bort fr\u00e5n att fly, men p_l sn\u00e4rtar {PRONOUN/p_l/poss} uppmuntrande. Dessa \u00e4r nyfikna s\u00e4lar, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}, och stranden full av \"stenblock\" verkar pl\u00f6tsligt mycket mer skr\u00e4mmande, men mindre st\u00f6rande.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -56,7 +56,7 @@
                 ]
             },
             {
-                "text": "app1 and app2's jaws drop in disbelief when p_l explains these are animals, not a rockslide. They stare as a nosy-seal wakes from his slumber and bellows a challenge to his neighbor, flinching as the monolithic animals crash towards each other. Each drips enough blood to fill the veins of an entire cat, crashing and careening off each other.",
+                "text": "app1 och app2s k\u00e4kar faller av misstro n\u00e4r p_l f\u00f6rklarar att det h\u00e4r \u00e4r djur, inte ett stenskred. De stirrar n\u00e4r en nyfiken s\u00e4l vaknar ur sin dvala och b\u00e4lgar en utmaning till sin granne och rycker till n\u00e4r de monolitiska djuren kraschar mot varandra. Var och en droppar tillr\u00e4ckligt med blod f\u00f6r att fylla venerna p\u00e5 en hel katt, kraschar och bryr sig om varandra.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -78,7 +78,7 @@
                 ]
             },
             {
-                "text": "As the 'rocks' wake and reveal themselves to be the most massive animals app1 and app2 have ever seen, s_c reassures them - they may never have seen these frightening seals before, but c_n has. s_c spends the morning quizzing the apprentices until each is able to identify a male nosy-seal with his trunk versus the comparatively smaller females.",
+                "text": "N\u00e4r \"stenarna\" vaknar och visar sig vara de mest massiva djur app1 och app2 n\u00e5gonsin har sett, f\u00f6rs\u00e4krar s_c dem - de kanske aldrig har sett dessa skr\u00e4mmande s\u00e4lar f\u00f6rut, men c_n har. s_c tillbringar morgonen med att fr\u00e5ga l\u00e4rlingarna tills var och en kan identifiera en n\u00e4sselhane med sin snabel j\u00e4mf\u00f6rt med de j\u00e4mf\u00f6relsevis mindre honorna.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -106,7 +106,7 @@
                 ]
             },
             {
-                "text": "As the sun hits them and the massive boulders wake with grumbling snorts, app1 and app2 both look about to run. s_c quickly calms them, explaining that these massive yearly visitors to c_n are nosy-seals and that if the cats don't bother them, they won't bother the cats.",
+                "text": "N\u00e4r solen tr\u00e4ffar dem och de massiva stenblocken vaknar med knorrande fnyser, ser b\u00e5da app1 och app2 ut att springa. s_c lugnar dem snabbt och f\u00f6rklarar att dessa enorma \u00e5rliga bes\u00f6kare p\u00e5 c_n \u00e4r nyfikna s\u00e4lar och att om katterna inte st\u00f6r dem kommer de inte att st\u00f6ra katterna.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -141,7 +141,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "When one of the boulders abruptly starts roaring, app1 shrieks and bolts. It takes the rest of the patrol to find {PRONOUN\/app1\/object}, and the teaching moment is forgotten as the cats gather to comfort {PRONOUN\/app1\/object}.",
+                "text": "N\u00e4r ett av stenblocken pl\u00f6tsligt b\u00f6rjar brusa, skriker app1 och bultar. Det tar resten av patrullen att hitta {PRONOUN/app1/object}, och undervisnings\u00f6gonblicket gl\u00f6ms bort n\u00e4r katterna samlas f\u00f6r att tr\u00f6sta {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 20
             }
@@ -175,12 +175,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l suggests to r_c that the weather's perfect for a swim in the ocean together.",
-        "decline_text": "r_c isn't convinced and suggests they should probably focus on the patrol instead.",
+        "intro_text": "p_l f\u00f6resl\u00e5r r_c att v\u00e4dret \u00e4r perfekt f\u00f6r ett dopp i havet tillsammans.",
+        "decline_text": "r_c \u00e4r inte \u00f6vertygad och f\u00f6resl\u00e5r att de f\u00f6rmodligen borde fokusera p\u00e5 patrullen ist\u00e4llet.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l flashes r_c a playful look and leaps smoothly into the water. When p_l emerges from the water, {PRONOUN\/p_l\/poss} slicked fur clinging to {PRONOUN\/p_l\/poss} muscles, r_c can't help but admire p_l for {PRONOUN\/p_l\/poss} strength. With the way r_c's heart is fluttering, it may not just be p_l's strength {PRONOUN\/r_c\/subject} {VERB\/r_c\/admire\/admires}. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/brush\/brushes} it aside and {VERB\/r_c\/plunge\/plunges} in after {PRONOUN\/p_l\/object}.",
+                "text": "p_l blinkar r_c en lekfull blick och hoppar mjukt i vattnet. N\u00e4r p_l dyker upp ur vattnet, {PRONOUN/p_l/poss} slickad p\u00e4ls som klamrar sig fast vid {PRONOUN/p_l/poss} muskler, kan r_c inte l\u00e5ta bli att beundra p_l f\u00f6r {PRONOUN/p_l/poss} styrka. Med hur r_c:s hj\u00e4rta fladdrar, \u00e4r det kanske inte bara p_ls styrka {PRONOUN/r_c/subject} {VERB/r_c/admire/admires}. {PRONOUN/r_c/subject/CAP} {VERB/r_c/brush/brushes} \u00e5t sidan och {VERB/r_c/plunge/plunges} efter {PRONOUN/p_l/object}.",
                 "exp": 5,
                 "weight": 20,
                 "relationships": [
@@ -200,7 +200,7 @@
                 ]
             },
             {
-                "text": "Silence meets {PRONOUN\/p_l\/poss} question, and just as p_l is about to turn and ask again, r_c shoves {PRONOUN\/p_l\/object} into the water. Spluttering from the cold saltwater, p_l can't keep a scowl on {PRONOUN\/p_l\/poss} face, captivated by the sound of r_c's joyous laughter and the sunlight catching on {PRONOUN\/r_c\/poss} pelt in just the right way.",
+                "text": "Tystnad m\u00f6ter fr\u00e5gan om {PRONOUN/p_l/poss}, och precis n\u00e4r p_l \u00e4r p\u00e5 v\u00e4g att v\u00e4nda sig och fr\u00e5ga igen, trycker r_c {PRONOUN/p_l/object} i vattnet. St\u00f6ttande fr\u00e5n det kalla saltvattnet, p_l kan inte h\u00e5lla en blick p\u00e5 {PRONOUN/p_l/poss} ansiktet, f\u00e4ngslad av ljudet av r_cs glada skratt och solljuset som f\u00e5ngar {PRONOUN/r_c/poss} p\u00e4ls p\u00e5 precis r\u00e4tt s\u00e4tt.",
                 "exp": 5,
                 "weight": 5,
                 "relationships": [
@@ -222,7 +222,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c dips one paw in the water and hisses, announcing that it's much too cold and urging p_l to come back to camp with {PRONOUN\/r_c\/object} instead.",
+                "text": "r_c doppar en tass i vattnet och v\u00e4ser, meddelar att det \u00e4r alldeles f\u00f6r kallt och uppmanar p_l att komma tillbaka till l\u00e4gret med {PRONOUN/r_c/object} ist\u00e4llet.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -242,7 +242,7 @@
                 ]
             },
             {
-                "text": "s_c tries to show off {PRONOUN\/s_c\/poss} swimming skills, but {PRONOUN\/s_c\/poss} companion just isn't paying attention, too focused on {PRONOUN\/r_c\/poss} own swimming to notice. s_c gives up, discouraged.",
+                "text": "s_c f\u00f6rs\u00f6ker visa upp {PRONOUN/s_c/poss} simkunskaper, men {PRONOUN/s_c/poss} f\u00f6ljeslagare \u00e4r helt enkelt inte uppm\u00e4rksam, f\u00f6r fokuserad p\u00e5 {PRONOUN/r_c/poss} egen simning f\u00f6r att l\u00e4gga m\u00e4rke till det. s_c ger upp, avskr\u00e4ckt.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -302,11 +302,11 @@
             "SWIMMER,1",
             "RUNNER,1"
         ],
-        "intro_text": "app1 doesn't understand what 'footing' training is supposed to mean. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/know\/knows} how to <i>walk<\/i>. What're they <i>really<\/i> here to train?",
-        "decline_text": "Unable to convince app1 of the importance of training to keep {PRONOUN\/app1\/poss} footing, p_l gives up and takes the patrol home.",
+        "intro_text": "app1 f\u00f6rst\u00e5r inte vad \"foting\"-tr\u00e4ning \u00e4r t\u00e4nkt att betyda. {PRONOUN/app1/subject/CAP} {VERB/app1/know/knows} hur man <i>g\u00e5r</i>. Vad \u00e4r de <i>egentligen</i> h\u00e4r f\u00f6r att tr\u00e4na?",
+        "decline_text": "Det g\u00e5r inte att \u00f6vertyga app1 om vikten av att tr\u00e4na f\u00f6r att h\u00e5lla {PRONOUN/app1/poss} fotf\u00e4ste, p_l ger upp och tar patrullen hem.",
         "success_outcomes": [
             {
-                "text": "s_c rolls {PRONOUN\/s_c\/poss} eyes. Yes, they <i>are<\/i> really here to walk and run and jump around the rockpools. It rained last night, and the rock is slippery, so these are perfect conditions. s_c tells the tale of a kit once saved by a warrior sprinting along the rocks in a storm, as app1 falls over and skids harmlessly into a pool.",
+                "text": "s_c rullar {PRONOUN/s_c/poss} \u00f6gon. Ja, de <i>\u00e4r</i> verkligen h\u00e4r f\u00f6r att g\u00e5 och springa och hoppa runt klipppoolerna. Det regnade i natt, och klippan \u00e4r halt, s\u00e5 det \u00e4r perfekta f\u00f6rh\u00e5llanden. s_c ber\u00e4ttar historien om ett kit som en g\u00e5ng r\u00e4ddades av en krigare som spurtade l\u00e4ngs klipporna i en storm, n\u00e4r app1 ramlar omkull och glider ofarligt ner i en pool.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_soggykitty_happy_app",
@@ -358,7 +358,7 @@
                 ]
             },
             {
-                "text": "s_c chides app1 for {PRONOUN\/app1\/poss} skepticism. Rock scrambling is its own art form, in c_n's territory. What if app1 needs to cross an exposed area during a storm, or if a battle between Clans occured in the tide pools? app1 concedes and pays attention as s_c teaches, gaining sure-footed confidence that will serve {PRONOUN\/app1\/object} well.",
+                "text": "s_c chides app1 f\u00f6r {PRONOUN/app1/poss} skepsis. Rock scrambling \u00e4r sin egen konstform, p\u00e5 c_n:s territorium. Vad h\u00e4nder om app1 beh\u00f6ver korsa ett utsatt omr\u00e5de under en storm, eller om en strid mellan klaner intr\u00e4ffade i tidvattenpoolerna? app1 medger och uppm\u00e4rksammar som s_c l\u00e4r, f\u00e5r ett sj\u00e4lvf\u00f6rtroende som kommer att tj\u00e4na {PRONOUN/app1/object} v\u00e4l.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_soggykitty_happy_app",
@@ -399,7 +399,7 @@
                 ]
             },
             {
-                "text": "s_c laughs. No, they're here for something way cooler - literally. Wetter, too. Here the rock pools are of deceptively different depths, so s_c's going to teach app1 how to judge which ones are deep enough to dive into and which ones won't even get {PRONOUN\/app1\/poss} belly fur wet.",
+                "text": "s_c skrattar. Nej, de \u00e4r h\u00e4r f\u00f6r n\u00e5got mycket coolare - bokstavligen. Vatten ocks\u00e5. H\u00e4r \u00e4r klippbass\u00e4ngerna av bedr\u00e4gligt olika djup, s\u00e5 s_c kommer att l\u00e4ra app1 hur man bed\u00f6mer vilka som \u00e4r tillr\u00e4ckligt djupa f\u00f6r att dyka ner i och vilka som inte ens kommer att bli bl\u00f6t i magen.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_soggykitty_happy_app",
@@ -440,7 +440,7 @@
                 ]
             },
             {
-                "text": "If app1 thinks {PRONOUN\/app1\/subject} {VERB\/app1\/know\/knows} how to walk on the rocks, {PRONOUN\/app1\/subject}'ll have to prove it - and catch s_c. app1 scrambles after {PRONOUN\/s_c\/object}, around and around the slick rocks. But s_c is always a fox-length away, taunting and encouraging by turns, and app1 is left panting, exhausted, and admiring.",
+                "text": "Om app1 tror att {PRONOUN/app1/subject} {VERB/app1/know/knows} hur man g\u00e5r p\u00e5 klipporna, m\u00e5ste {PRONOUN/app1/subject} bevisa det - och f\u00e5nga s_c. app1 kl\u00e4ttrar efter {PRONOUN/s_c/object}, runt och runt de glatta stenarna. Men s_c \u00e4r alltid en r\u00e4vl\u00e4ngd bort, h\u00e5nande och uppmuntrande i sv\u00e4ngar, och app1 l\u00e4mnas fl\u00e4mtande, utmattad och beundrande.",
                 "exp": 30,
                 "weight": 20,
                 "art": "fst_hunt_fun1",
@@ -484,7 +484,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "In {PRONOUN\/app1\/poss} haste to prove {PRONOUN\/app1\/subject} {VERB\/app1\/need\/needs} no lessons on rock scrambling, app1... miscalculates. p_l hauls {PRONOUN\/app1\/object} from the rockpool by the scruff, hoping the fall will make the lesson stick when {PRONOUN\/p_l\/poss} teaching couldn't.",
+                "text": "I {PRONOUN/app1/poss} skynda sig att bevisa att {PRONOUN/app1/subject} {VERB/app1/need/needs} inga lektioner om rockscrabling, app1... r\u00e4knar fel. p_l drar {PRONOUN/app1/object} fr\u00e5n rockpoolen vid klippan, i hopp om att h\u00f6sten kommer att f\u00e5 lektionen att fastna n\u00e4r undervisningen i {PRONOUN/p_l/poss} inte kunde.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_train_soggykitty_mad_app",
@@ -549,7 +549,7 @@
                 ]
             },
             {
-                "text": "In {PRONOUN\/app1\/poss} haste to prove {PRONOUN\/app1\/subject} {VERB\/app1\/need\/needs} no lessons on rock scrambling, app1... miscalculates. The water in newleaf isn't leaf-bare chill, but the cold makes {PRONOUN\/app1\/poss} mouth open in surprise, and by the time p_l hauls {PRONOUN\/app1\/object} out {PRONOUN\/app1\/subject}{VERB\/app1\/'ve\/'s} inhaled sea water.",
+                "text": "I {PRONOUN/app1/poss} skynda sig att bevisa att {PRONOUN/app1/subject} {VERB/app1/need/needs} inga lektioner om rockscrabling, app1... r\u00e4knar fel. Vattnet i newleaf \u00e4r inte l\u00f6vbart kyligt, men kylan g\u00f6r att {PRONOUN/app1/poss} mun \u00f6ppnas av f\u00f6rv\u00e5ning, och n\u00e4r p_l drar ut {PRONOUN/app1/object} {PRONOUN/app1/subject}{ VERB/app1/'ve/'s} inhalerade havsvatten.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_train_soggykitty_mad_app",
@@ -592,8 +592,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c died from complications caused by inhaling water after falling into a rock pool.",
-                    "lead_death": "complications caused by inhaling water after falling into a rock pool"
+                    "reg_death": "m_c dog av komplikationer orsakade av inandning av vatten efter att ha fallit i en stenpool.",
+                    "lead_death": "komplikationer orsakade av inandning av vatten efter att ha fallit i en stenpool"
                 },
                 "relationships": [
                     {

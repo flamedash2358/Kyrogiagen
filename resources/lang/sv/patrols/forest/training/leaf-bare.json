@@ -23,8 +23,8 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l thinks r_c is, well, really, just - uh, just swell, and {PRONOUN\/p_l\/subject} {VERB\/p_l\/think\/thinks} r_c might like {PRONOUN\/p_l\/object} too. {PRONOUN\/p_l\/subject\/CAP}{VERB\/p_l\/'ve\/'s} been building up {PRONOUN\/p_l\/poss} confidence, and {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} going to ask r_c to spend some time together, just the two of them, this afternoon!",
-        "decline_text": "Unfortunately, r_c is sent on an afternoon border patrol before p_l can say anything.",
+        "intro_text": "p_l tror att r_c \u00e4r, ja, egentligen, bara - eh, bara sv\u00e4ller, och {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} r_c kanske gillar {PRONOUN/p_l/object} ocks\u00e5. {PRONOUN/p_l/subject/CAP}{VERB/p_l/'ve/'s} har byggt upp {PRONOUN/p_l/poss} f\u00f6rtroende och {PRONOUN/p_l/subject}{VERB/p_l/'re/s } ska be r_c att spendera lite tid tillsammans, bara de tv\u00e5, i eftermiddag!",
+        "decline_text": "Tyv\u00e4rr skickas r_c p\u00e5 eftermiddagens gr\u00e4nsbevakning innan p_l kan s\u00e4ga n\u00e5got.",
         "chance_of_success": 60,
         "relationship_constraint": [
             "romantic_20",
@@ -32,7 +32,7 @@
         ],
         "success_outcomes": [
             {
-                "text": "r_c agrees to the walk, tail-tip twitching with excitement. It's a feeling p_l openly mirrors, ears forward, pelt prickling with anxiety in the best way as they pad through the forest together. The mildest of leaf-bare frosts is an excuse to huddle close for warmth.",
+                "text": "r_c g\u00e5r med p\u00e5 promenaden och rycker i svansen av sp\u00e4nning. Det \u00e4r en k\u00e4nsla p_l \u00f6ppet speglar, \u00f6ronen fram\u00e5t, p\u00e4lsen stickandes av \u00e5ngest p\u00e5 b\u00e4sta s\u00e4tt n\u00e4r de paddar genom skogen tillsammans. Den mildaste av l\u00f6vkala frosten \u00e4r en urs\u00e4kt f\u00f6r att krypa n\u00e4ra f\u00f6r v\u00e4rme.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -68,7 +68,7 @@
                 ]
             },
             {
-                "text": "All of p_l's bravery is rewarded when r_c says yes! The pair head out for their romantic stroll, paws and tails leaving sweeping tracks in the frosted forest floor, an artwork irrelevant to two cats much more absorbed in each other than the world around them.",
+                "text": "All p_ls tapperhet bel\u00f6nas n\u00e4r r_c s\u00e4ger ja! Paret ger sig ut p\u00e5 sin romantiska promenad, tassar och svansar l\u00e4mnar svepande sp\u00e5r i den frostade skogsbotten, ett konstverk som \u00e4r irrelevant f\u00f6r tv\u00e5 katter som \u00e4r mycket mer absorberade av varandra \u00e4n v\u00e4rlden omkring dem.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -104,7 +104,7 @@
                 ]
             },
             {
-                "text": "s_c has always had a skilled tongue, but it's rarely ever felt this important to choose {PRONOUN\/s_c\/poss} words carefully. It's all worth it to hear r_c's 'yes.' Their stroll together is awkward with the new tension of acknowledged romance, but neither cat would change it for the world.",
+                "text": "s_c har alltid haft en skicklig tunga, men det har s\u00e4llan n\u00e5gonsin k\u00e4nts s\u00e5 viktigt att v\u00e4lja {PRONOUN/s_c/poss} ord noggrant. Det \u00e4r allt v\u00e4rt det att h\u00f6ra r_c:s \"ja\". Deras promenad tillsammans \u00e4r besv\u00e4rlig med den nya sp\u00e4nningen av erk\u00e4nd romantik, men ingen av katterna skulle f\u00f6r\u00e4ndra det f\u00f6r v\u00e4rlden.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -147,7 +147,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l awkwardly stutters {PRONOUN\/p_l\/poss} way through asking r_c out - and {PRONOUN\/r_c\/subject} {VERB\/r_c\/say\/says} no. It's gentle, but it's a no. Tail tucked, p_l slinks off to be alone.",
+                "text": "p_l stammar obekv\u00e4mt {PRONOUN/p_l/poss} genom att fr\u00e5ga r_c ut - och {PRONOUN/r_c/subject} {VERB/r_c/say/says} nej. Det \u00e4r skonsamt, men det \u00e4r ett nej. Svansen tucked, p_l slinker av f\u00f6r att vara ensam.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -214,11 +214,11 @@
         "pl_skill_constraint": [
             "STORY,1"
         ],
-        "intro_text": "Snow swirls around c_n's camp, piling up in unusually deep snowdrifts. p_l gathers some apprentices to {PRONOUN\/p_l\/object} for a story.",
-        "decline_text": "Trying to get apprentices to do anything is like - well, herding cats.",
+        "intro_text": "Sn\u00f6 virvlar runt c_ns l\u00e4ger och hopar sig i ovanligt djupa sn\u00f6drivor. p_l samlar n\u00e5gra l\u00e4rlingar till {PRONOUN/p_l/object} f\u00f6r en ber\u00e4ttelse.",
+        "decline_text": "Att f\u00f6rs\u00f6ka f\u00e5 l\u00e4rlingar att g\u00f6ra vad som helst \u00e4r som att - ja, valla katter.",
         "success_outcomes": [
             {
-                "text": "See those bright, pure white drifts? That's stardust, swept down from StarClan as they clean out their nests in deep leaf-bare.",
+                "text": "Ser du de ljusa, rena vita drivorna? Det \u00e4r stj\u00e4rndamm, som svepte ner fr\u00e5n StarClan n\u00e4r de st\u00e4dar ut sina bon i djupt l\u00f6vbart.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -253,7 +253,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "One of the apprentices starts a snowball fight instead, and p_l becomes a soaked, shivering casualty of the conflict.",
+                "text": "En av l\u00e4rlingarna startar ett sn\u00f6bollskrig ist\u00e4llet, och p_l blir en genombl\u00f6t, huttrande offer f\u00f6r konflikten.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -267,9 +267,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was soaked in leaf-bare, and it progressed to scarring frostbite.",
-                    "reg_death": "m_c was soaked in leaf-bare, eventually killing {PRONOUN\/m_c\/object}.",
-                    "lead_death": "soaked in leaf-bare, eventually killing {PRONOUN\/m_c\/object}"
+                    "scar": "m_c var bl\u00f6t i blad-bar, och det utvecklades till \u00e4rrbildande f\u00f6rfrysning.",
+                    "reg_death": "m_c bl\u00f6ts ned i l\u00f6v, vilket till slut d\u00f6dade {PRONOUN/m_c/objekt}.",
+                    "lead_death": "indr\u00e4nkt i l\u00f6v, s\u00e5 sm\u00e5ningom d\u00f6dar {PRONOUN/m_c/object}"
                 },
                 "relationships": [
                     {
@@ -314,7 +314,7 @@
                 ]
             },
             {
-                "text": "s_c, wary of any more work, stalks off before p_l can assign {PRONOUN\/s_c\/object} more chores - and misses out on p_l's excellent storytelling as a result.",
+                "text": "s_c, f\u00f6rsiktig med allt mer arbete, avg\u00e5r innan p_l kan tilldela {PRONOUN/s_c/object} fler sysslor - och g\u00e5r miste om p_ls utm\u00e4rkta ber\u00e4ttande som ett resultat.",
                 "exp": 0,
                 "weight": 20,
                 "can_have_stat": [
@@ -376,11 +376,11 @@
         "pl_skill_constraint": [
             "STORY,1"
         ],
-        "intro_text": "The wind blows across the lake, almost sounding like the moans of a hungry cat. p_l has a gleam in {PRONOUN\/p_l\/poss} eye that tells app1 {PRONOUN\/p_l\/subject} {VERB\/p_l\/have\/has} a story to tell...",
-        "decline_text": "app1 is too hungry and cold to stop for a story now! {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/pad\/pads} away in search of food.",
+        "intro_text": "Vinden bl\u00e5ser \u00f6ver sj\u00f6n och l\u00e5ter n\u00e4stan som st\u00f6nen fr\u00e5n en hungrig katt. p_l har en glimt i \u00f6gat {PRONOUN/p_l/poss} som ber\u00e4ttar app1 {PRONOUN/p_l/subject} {VERB/p_l/har/har} en historia att ber\u00e4tta...",
+        "decline_text": "app1 \u00e4r f\u00f6r hungrig och kall f\u00f6r att sluta f\u00f6r en ber\u00e4ttelse nu! {PRONOUN/app1/subject/CAP} {VERB/app1/pad/pads} iv\u00e4g p\u00e5 jakt efter mat.",
         "success_outcomes": [
             {
-                "text": "p_l tells a tale of a great cat who lives under the ice and controls the lake. Long ago, a trickster thought himself smarter than the lake cat and padded out onto the ice covering the lake to tease her. She broke the ice and drowned him in revenge, flooding the entire forest in newleaf. That's why it's always important to respect the ice in leaf-bare.",
+                "text": "p_l ber\u00e4ttar en ber\u00e4ttelse om en fantastisk katt som bor under isen och kontrollerar sj\u00f6n. F\u00f6r l\u00e4nge sedan trodde en trickster att han var smartare \u00e4n sj\u00f6katten och gick ut p\u00e5 isen som t\u00e4ckte sj\u00f6n f\u00f6r att reta henne. Hon br\u00f6t isen och dr\u00e4nkte honom som h\u00e4mnd, och \u00f6versv\u00e4mmade hela skogen i nyl\u00f6v. D\u00e4rf\u00f6r \u00e4r det alltid viktigt att respektera isen i l\u00f6vbar.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -415,7 +415,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Hearing p_l describe the Underwater Panther, how she's always waiting, just out of reach, ready to pull cats down - app1 starts shivering, and p_l calls the whole thing off to go get {PRONOUN\/app1\/object} warmed up.",
+                "text": "Att h\u00f6ra p_l beskriva Underwater Panther, hur hon alltid v\u00e4ntar, precis utom r\u00e4ckh\u00e5ll, redo att dra ner katter - app1 b\u00f6rjar huttra och p_l ropar av det hela f\u00f6r att g\u00e5 och v\u00e4rma upp {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -429,9 +429,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was soaked in leaf-bare, and it progressed to scarring frostbite.",
-                    "reg_death": "m_c was soaked in leaf-bare, eventually killing {PRONOUN\/m_c\/object}.",
-                    "lead_death": "soaked in leaf-bare, eventually killing {PRONOUN\/m_c\/object}"
+                    "scar": "m_c var bl\u00f6t i blad-bar, och det utvecklades till \u00e4rrbildande f\u00f6rfrysning.",
+                    "reg_death": "m_c bl\u00f6ts ned i l\u00f6v, vilket till slut d\u00f6dade {PRONOUN/m_c/objekt}.",
+                    "lead_death": "indr\u00e4nkt i l\u00f6v, s\u00e5 sm\u00e5ningom d\u00f6dar {PRONOUN/m_c/object}"
                 },
                 "relationships": [
                     {
@@ -477,11 +477,11 @@
         "pl_skill_constraint": [
             "LORE,1"
         ],
-        "intro_text": "Many seasons ago, p_l begins, a powerful, gifted apprentice walked the land, their skills coveted by the Clans around them. Pulled in many directions, they could not keep the peace, as all demanded their time and energy.",
-        "decline_text": "r_c doesn't have time to listen to p_l's story - {PRONOUN\/r_c\/subject} {VERB\/r_c\/apologize\/apologizes}, but {PRONOUN\/r_c\/subject} rather {VERB\/r_c\/feel\/feels} like that long dead overworked apprentice {PRONOUN\/r_c\/self}, right now!",
+        "intro_text": "F\u00f6r m\u00e5nga s\u00e4songer sedan, p_l b\u00f6rjar, vandrade en kraftfull, beg\u00e5vad l\u00e4rling i landet, deras f\u00e4rdigheter eftertraktade av klanerna runt dem. De drogs \u00e5t m\u00e5nga h\u00e5ll och kunde inte h\u00e5lla freden, eftersom alla kr\u00e4vde sin tid och energi.",
+        "decline_text": "r_c har inte tid att lyssna p\u00e5 p_ls ber\u00e4ttelse - {PRONOUN/r_c/subject} {VERB/r_c/apologize/apologizes}, men {PRONOUN/r_c/subject} snarare {VERB/r_c/feel/feels} s\u00e5 l\u00e5ng d\u00f6d \u00f6veranstr\u00e4ngd l\u00e4rling {PRONOUN/r_c/self}, just nu!",
         "success_outcomes": [
             {
-                "text": "After moons of having their Clan attacked and targeted, the apprentice raged, calling on their hidden power. They summoned a powerful snowstorm and created leaf-bare in their anger before fleeing the Clans, never to return and never to walk the stars, their life and talents wasted by cruel, petty fighting.",
+                "text": "Efter m\u00e5nar av att ha haft sin klan attackerad och m\u00e5ltavla, rasade l\u00e4rlingen och p\u00e5kallade sin dolda kraft. De framkallade en kraftfull sn\u00f6storm och skapade l\u00f6vblomma i sin ilska innan de flydde fr\u00e5n klanerna, f\u00f6r att aldrig \u00e5terv\u00e4nda och aldrig g\u00e5 p\u00e5 stj\u00e4rnorna, deras liv och talanger sl\u00f6sas bort av grymma, sm\u00e5stridiga strider.",
                 "exp": 30,
                 "weight": 20,
                 "art": "scaryghost_INTRO",
@@ -533,7 +533,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Rudely, r_c leaves in the middle of p_l's tale, ruining its suspense. p_l trails off, embarrassed.",
+                "text": "Fr\u00e4ckt l\u00e4mnar r_c mitt i p_ls ber\u00e4ttelse och f\u00f6rst\u00f6r dess sp\u00e4nning. p_l sp\u00e5rar av, generad.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -581,7 +581,7 @@
                 ]
             },
             {
-                "text": "s_c is so concerned with the health of the long-dead apprentice it actually derails p_l's story, and {PRONOUN\/p_l\/subject} {VERB\/p_l\/have\/has} to gently remind {PRONOUN\/s_c\/object} that this apprentice is long beyond helping.",
+                "text": "s_c \u00e4r s\u00e5 bekymrad \u00f6ver h\u00e4lsan hos den sedan l\u00e4nge d\u00f6da l\u00e4rlingen att det faktiskt sp\u00e5rar ur p_ls historia, och {PRONOUN/p_l/subject} {VERB/p_l/have/has} f\u00f6r att f\u00f6rsiktigt p\u00e5minna {PRONOUN/s_c/object} att denna l\u00e4rling \u00e4r l\u00e5ngt bortom att hj\u00e4lpa.",
                 "exp": 0,
                 "weight": 20,
                 "art": "scaryghost_INTRO",

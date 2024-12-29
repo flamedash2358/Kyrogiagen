@@ -3,20 +3,20 @@
         "id": "rom_dec_high1",
         "intensity": "high",
         "interactions": [
-            "m_c gave a gift to r_c, but {PRONOUN\/r_c\/subject} turned up {PRONOUN\/r_c\/poss} nose at the offering.",
-            "m_c heard r_c express an ideal {PRONOUN\/m_c\/subject} cannot agree with.",
-            "m_c heard r_c talking badly about {PRONOUN\/m_c\/object}.",
-            "m_c catches r_c staring at another cat."
+            "m_c gav en gåva till r_c, men {PRONOUN/r_c/subject} drog upp näsan för {PRONOUN/r_c/poss} vid erbjudandet.",
+            "m_c hörde r_c uttrycka ett ideal {PRONOUN/m_c/subject} kan inte hålla med.",
+            "m_c hörde r_c prata illa om {PRONOUN/m_c/object}.",
+            "m_c fångar r_c som stirrar på en annan katt."
         ]
     },
     {
         "id": "rom_dec_medium1",
         "intensity": "medium",
         "interactions": [
-            "m_c feels like r_c hasn't been paying much attention to {PRONOUN\/m_c\/object} lately.",
-            "m_c is upset that r_c tried to give {PRONOUN\/m_c\/object} {PRONOUN\/m_c\/poss} least favorite prey - surely {PRONOUN\/r_c\/subject} {VERB\/r_c\/know\/knows} what {PRONOUN\/m_c\/subject} {VERB\/m_c\/like\/likes}!",
-            "m_c wishes r_c would stop giving {PRONOUN\/m_c\/object} gifts, as {PRONOUN\/m_c\/poss} nest is getting too full.",
-            "m_c hates the gift r_c gave {PRONOUN\/m_c\/object}."
+            "m_c känns som att r_c inte har ägnat så mycket uppmärksamhet åt {PRONOUN/m_c/object} på sistone.",
+            "m_c är upprörd över att r_c försökte ge {PRONOUN/m_c/object} {PRONOUN/m_c/poss} minst favoritbyte - säkert {PRONOUN/r_c/subject} {VERB/r_c/know/knows} what {PRONOUN/m_c/subject } {VERB/m_c/gilla/gillar}!",
+            "m_c önskar att r_c skulle sluta ge {PRONOUN/m_c/object} presenter, eftersom {PRONOUN/m_c/poss} boet blir för fullt.",
+            "m_c hatar gåvan r_c gav {PRONOUN/m_c/object}."
         ],
         "relationship_constraint": [
             "romantic_40"
@@ -26,10 +26,10 @@
         "id": "rom_dec_medium2",
         "intensity": "medium",
         "interactions": [
-            "m_c told r_c to stop padding after {PRONOUN\/m_c\/object} like a lost kit.",
-            "m_c worries that r_c isn't being honest with their relationship.",
-            "m_c can't stand listening to r_c's snoring in {PRONOUN\/r_c\/poss} nest.",
-            "m_c tried flirting with r_c but {PRONOUN\/r_c\/subject} didn't have time for it and brushed m_c aside."
+            "m_c sa till r_c att sluta fylla efter {PRONOUN/m_c/object} som ett förlorat kit.",
+            "m_c oroar sig för att r_c inte är ärlig med deras förhållande.",
+            "m_c tål inte att lyssna på r_cs snarkning i {PRONOUN/r_c/poss} bo.",
+            "m_c försökte flirta med r_c men {PRONOUN/r_c/subject} hade inte tid med det och strök m_c åt sidan."
         ],
         "relationship_constraint": [
             "romantic_40",
@@ -40,32 +40,32 @@
         "id": "rom_dec_medium3",
         "intensity": "medium",
         "interactions": [
-            "m_c is starting to have doubts about {PRONOUN\/m_c\/poss} feelings for r_c.",
-            "m_c heard a rumor that r_c likes someone else.",
-            "m_c worries that r_c will never feel the same way {PRONOUN\/m_c\/subject} {VERB\/m_c\/do\/does}.",
-            "m_c noticed r_c flirting with someone else.",
-            "m_c heard r_c discussing potential mates but {PRONOUN\/m_c\/poss} name never came up.",
-            "m_c thinks {PRONOUN\/m_c\/poss} dreams might not come true with r_c.",
-            "r_c was seen tossing out a gift m_c gave {PRONOUN\/r_c\/object}."
+            "m_c börjar tvivla på {PRONOUN/m_c/poss} känslor för r_c.",
+            "m_c hörde ett rykte om att r_c gillar någon annan.",
+            "m_c oroar sig för att r_c aldrig kommer att känna på samma sätt {PRONOUN/m_c/subject} {VERB/m_c/do/does}.",
+            "m_c märkte r_c flirta med någon annan.",
+            "m_c hörde r_c diskutera potentiella kompisar men namnet {PRONOUN/m_c/poss} kom aldrig upp.",
+            "m_c tror att {PRONOUN/m_c/poss} drömmar kanske inte går i uppfyllelse med r_c.",
+            "r_c sågs kasta ut en gåva m_c gav {PRONOUN/r_c/object}."
         ]
     },
     {
         "id": "rom_dec_low3",
         "intensity": "low",
         "interactions": [
-            "m_c feels ignored by r_c.",
-            "m_c didn't get the joke r_c was telling.",
-            "m_c and r_c had a conversation where they realized they didn't have much in common.",
-            "m_c didn't realize r_c was flirting with {PRONOUN\/m_c\/object}."
+            "m_c känns ignorerad av r_c.",
+            "m_c fattade inte skämtet r_c berättade.",
+            "m_c och r_c hade ett samtal där de insåg att de inte hade mycket gemensamt.",
+            "m_c insåg inte att r_c flirtade med {PRONOUN/m_c/object}."
         ]
     },
     {
         "id": "rom_dec_medium4",
         "intensity": "medium",
         "interactions": [
-            "m_c had a disagreement with r_c over kits.",
-            "m_c and r_c had a disagreement on how to raise kits.",
-            "m_c and r_c had a fight over if they would take a new mate if one of them died or went missing."
+            "m_c hade en oenighet med r_c om kit.",
+            "m_c och r_c var oense om hur man ska höja kit.",
+            "m_c och r_c bråkade om de skulle ta en ny kompis om en av dem dog eller försvann."
         ],
         "relationship_constraint": [
             "mates"

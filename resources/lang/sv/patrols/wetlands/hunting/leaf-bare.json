@@ -25,15 +25,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The two siblings head out together, declaring a friendly competition to stock the fresh-kill pile. The wetlands might be as full of life as ever, but the extra motivation is really worth it to get over the unpleasantly cold water one has to stick one's paws into.",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "De två syskonen ger sig ut tillsammans och utlyser en vänskaplig tävling för att fylla på med nydödshögen. Våtmarkerna kan vara lika fulla av liv som alltid, men den extra motivationen är verkligen värd det att komma över det obehagligt kalla vattnet man måste sticka tassarna i.",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 misses a w_tp_a_s, and app2 startles a pair of w_tp_a_p. They don't let it get them down, instead capturing a plump rabbit with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
+                "text": "app1 missar en w_tp_a_s och app2 skrämmer ett par w_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar med den tillbaka till lägret försöker app1 ta ensam åt sig äran för bytet, och istället för familjär talang, är det familjär oenighet som visas, när lärlingarna hamnar i ett massivt argument mitt i lägret.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -57,7 +57,7 @@
                 ]
             },
             {
-                "text": "s_c catches a great w_mp_a_s, and two w_tp_a_p! But {PRONOUN\/s_c\/poss} sibling comes up empty-pawed. s_c offers to let {PRONOUN\/r_c\/object} claim the smaller prey as {PRONOUN\/r_c\/poss} own, but the insulting suggestion just causes a massive argument.",
+                "text": "s_c fångar en fantastisk w_mp_a_s, och två w_tp_a_p! Men {PRONOUN/s_c/poss} syskon kommer upp tomtassade. s_c erbjuder sig att låta {PRONOUN/r_c/object} göra anspråk på det mindre bytet som {PRONOUN/r_c/poss} äger, men det förolämpande förslaget orsakar bara ett massivt argument.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -90,7 +90,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The littermates end up dirty, exhausted, and without much more than a w_tp_a_s to show for it. Fox-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
+                "text": "Kullkamraterna hamnar smutsiga, utmattade och utan mycket mer än en w_tp_a_s att visa för det. Rävdynga! Men åtminstone här ute, även om de inte fick mycket byte, kan de klaga på hur dumt jobbigt jakten är för en sympatisk publik.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -114,7 +114,7 @@
                 ]
             },
             {
-                "text": "app1 takes a hard fall while swiping at a w_mp_a_s from a precarious perch, and the afternoon's hunt is called off as {PRONOUN\/app1\/poss} sibling helps {PRONOUN\/app1\/object} back to camp, chatting reassuringly about how hard their hunting lessons are.",
+                "text": "app1 faller hårt medan den sveper mot en w_mp_a_s från en otrygg abborre, och eftermiddagens jakt avbryts eftersom {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt deras jakt är lektioner är.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -176,15 +176,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "It's nice to get the chance to go out hunting with app2. app1 knows they're still in the apprentices' den together, but their different mentors and focuses and skills - it's not the same as it was back in the nursery as littermates. Even the cold of the leaf-bare winds whipping through the trees just makes today a new and exciting adventure!",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "Det är trevligt att få chansen att gå ut och jaga med app2. app1 vet att de fortfarande är i lärlingarnas håla tillsammans, men deras olika mentorer och fokus och färdigheter - det är inte samma sak som det var tillbaka i barnkammaren som kullkamrater. Till och med kylan från de lövkaka vindarna som piskar genom träden gör idag till ett nytt och spännande äventyr!",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Yeah, it's a relatively okay hunt, with a couple w_tp_a_p and a dirty w_tp_dl_s. But what app1 is actually going to remember about today is that app2 thinks that {PRONOUN\/app2\/poss} mentor and app1's would make a cute couple!",
+                "text": "Ja, det är en relativt okej jakt, med ett par w_tp_a_p och en smutsig w_tp_dl_s. Men vad app1 faktiskt kommer att komma ihåg om idag är att app2 tror att {PRONOUN/app2/poss} mentor och app1:s skulle bli ett gulligt par!",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -208,7 +208,7 @@
                 ]
             },
             {
-                "text": "It turns out s_c has really been listening to {PRONOUN\/s_c\/poss} mentor's tips for hunting - and {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} willing to pass it on!",
+                "text": "Det visar sig att s_c verkligen har lyssnat på {PRONOUN/s_c/poss} mentors tips för jakt - och {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} är villiga att föra det vidare!",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -234,7 +234,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Together they manage a grand haul of one w_tp_dl_s, and not even a very big w_tp_dl_s at that. They have a lot more to learn before they'll all be ready to take on the responsibility of providing for c_n.",
+                "text": "Tillsammans klarar de ett stort drag av en w_tp_dl_s, och inte ens en mycket stor w_tp_dl_s då. De har mycket mer att lära sig innan de alla är redo att ta på sig ansvaret att försörja c_n.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -269,15 +269,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The clouds hog the sky, weakly trying to threaten snow the way they've done constantly the last few days. And just like the clouds, app1 and {PRONOUN\/app1\/poss} littermate are everywhere today, sticking their heads into every unexplored corner of the territory. All in the name of hunting, of course!",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "Molnen sveper mot himlen och försöker svagt hota snö som de ständigt har gjort de senaste dagarna. Och precis som molnen finns app1 och {PRONOUN/app1/poss} kullkompis överallt idag och sticker in sina huvuden i varje outforskat hörn av territoriet. Allt i jaktens namn, förstås!",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 thinks app2's w_tp_a_s looks infinitely more delicious than {PRONOUN\/app1\/poss} own contributions of two w_tp_dl_p, while app2 insists that {PRONOUN\/app2\/subject}'d much rather bring back w_tp_dl_p.",
+                "text": "app1 tycker att app2:s w_tp_a_s ser oändligt mycket godare ut än {PRONOUN/app1/poss} egna bidrag på två w_tp_dl_p, medan app2 insisterar på att {PRONOUN/app2/subject} mycket hellre skulle ta tillbaka w_tp_dl_p.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -301,7 +301,7 @@
                 ]
             },
             {
-                "text": "s_c spends half the patrol flashing in and out of the water, zipping from one riverbank to another, both impressing and frustrating the sibling trying to keep up with {PRONOUN\/s_c\/object}. Plus, s_c has to dry off and warm up afterwards.",
+                "text": "s_c tillbringar halva patrullen med att blinka in och ut ur vattnet, zippa från en flodstrand till en annan, vilket både imponerar och frustrerar syskonen som försöker hänga med i {PRONOUN/s_c/object}. Dessutom måste s_c torka av och värma upp efteråt.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -327,7 +327,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Well, they have a lot of fun exploring, even if it's not that productive of a hunting patrol.",
+                "text": "Tja, de har mycket roligt att utforska, även om det inte är så produktivt av en jaktpatrull.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -362,15 +362,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The three siblings head out together, declaring a friendly competition to stock the fresh-kill pile. The wetlands might be as full of life as ever, but the extra motivation is really worth it to get over the unpleasantly cold water one has to stick one's paws into.",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "De tre syskonen ger sig ut tillsammans och utlyser en vänskaplig tävling för att fylla på med nydödshögen. Våtmarkerna kan vara lika fulla av liv som alltid, men den extra motivationen är verkligen värd det att komma över det obehagligt kalla vattnet man måste sticka tassarna i.",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 misses a w_tp_a_s, and app2 and app3 startle a pair of w_tp_a_p. They don't let it get them down, instead capturing a plump rabbit with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
+                "text": "app1 missar en w_tp_a_s, och app2 och app3 skrämmer ett par w_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar med den tillbaka till lägret försöker app1 ta ensam åt sig äran för bytet, och istället för familjär talang, är det familjär oenighet som visas, när lärlingarna hamnar i ett massivt argument mitt i lägret.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -394,7 +394,7 @@
                 ]
             },
             {
-                "text": "s_c catches a great w_mp_a_s, and two w_tp_a_p! But their siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
+                "text": "s_c fångar en fantastisk w_mp_a_s, och två w_tp_a_p! Men deras syskon kommer upp tomtassade. s_c erbjuder sig att låta dem göra anspråk på det mindre bytet som sitt eget, men det förolämpande förslaget orsakar bara ett massivt argument.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -420,7 +420,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The littermates end up dirty, exhausted, and without much more than a w_tp_a_s to show for it. Fox-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
+                "text": "Kullkamraterna hamnar smutsiga, utmattade och utan mycket mer än en w_tp_a_s att visa för det. Rävdynga! Men åtminstone här ute, även om de inte fick mycket byte, kan de klaga på hur dumt jobbigt jakten är för en sympatisk publik.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -444,7 +444,7 @@
                 ]
             },
             {
-                "text": "app1 takes a hard fall while swiping at a w_mp_a_s from a precarious perch, and the afternoon's hunt is called off as {PRONOUN\/app1\/poss} siblings help {PRONOUN\/app1\/object} back to camp, chatting reassuringly about how hard their hunting lessons are.",
+                "text": "app1 faller hårt medan den sveper mot en w_mp_a_s från en otrygg abborre, och eftermiddagens jakt avbryts då {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt deras jakt är lektioner är.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -506,15 +506,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "It's nice to get the chance to go out hunting together. app1 knows they're all still in the apprentices' den together, but their different mentors and focuses and skills - it's not the same as it was back in the nursery with {PRONOUN\/app1\/poss} littermates. Even the cold of the leaf-bare winds whipping through the trees just makes today a new and exciting adventure!",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "Det är skönt att få chansen att gå ut och jaga tillsammans. app1 vet att de alla fortfarande är i lärlingshålan tillsammans, men deras olika mentorer och fokus och färdigheter - det är inte samma sak som det var tillbaka i barnkammaren med {PRONOUN/app1/poss} kullkamrater. Till och med kylan från de lövkaka vindarna som piskar genom träden gör idag till ett nytt och spännande äventyr!",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Yeah, it's a relatively okay hunt, with a couple w_tp_a_p and a dirty w_tp_dl_s. But what app1 is actually going to remember about today is that app2 thinks that {PRONOUN\/app2\/poss} mentor and app3's would make a cute couple!",
+                "text": "Ja, det är en relativt okej jakt, med ett par w_tp_a_p och en smutsig w_tp_dl_s. Men vad app1 faktiskt kommer att komma ihåg om idag är att app2 tror att {PRONOUN/app2/poss} mentor och app3:s skulle bli ett gulligt par!",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -538,7 +538,7 @@
                 ]
             },
             {
-                "text": "It turns out s_c has really been listening to {PRONOUN\/s_c\/poss} mentor's tips for hunting - and {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} willing to pass it on!",
+                "text": "Det visar sig att s_c verkligen har lyssnat på {PRONOUN/s_c/poss} mentors tips för jakt - och {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} är villiga att föra det vidare!",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -564,7 +564,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Together they manage a grand haul of one w_tp_dl_s, and not even a very big w_tp_dl_s at that. They have a lot more to learn before they'll all be ready to take on the responsibility of providing for c_n.",
+                "text": "Tillsammans klarar de ett stort drag av en w_tp_dl_s, och inte ens en mycket stor w_tp_dl_s då. De har mycket mer att lära sig innan de alla är redo att ta på sig ansvaret att försörja c_n.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -599,15 +599,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The clouds hog the sky, weakly trying to threaten snow the way they've done constantly the last few days. And just like the clouds, app1 and {PRONOUN\/app1\/poss} littermates are everywhere today, sticking their heads into every unexplored corner of the territory. All in the name of hunting, of course!",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "Molnen sveper mot himlen och försöker svagt hota snö som de ständigt har gjort de senaste dagarna. Och precis som molnen, app1 och {PRONOUN/app1/poss} kullkamrater finns överallt idag och sticker in sina huvuden i varje outforskat hörn av territoriet. Allt i jaktens namn, förstås!",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 thinks app2's w_tp_a_s looks infinitely more delicious than {PRONOUN\/app1\/poss} own contributions of two w_tp_dl_p, while app3 insists that {PRONOUN\/app3\/subject}'d much rather bring back w_tp_dl_p than the w_mp_dl_s {PRONOUN\/app3\/subject} caught.",
+                "text": "app1 tycker att app2s w_tp_a_s ser oändligt mycket läckrare ut än {PRONOUN/app1/poss} egna bidrag på två w_tp_dl_p, medan app3 insisterar på att {PRONOUN/app3/subject} mycket hellre skulle ta tillbaka w_tp_dl_p än w_mp_ject}_s {PRONOUN/app3/subject} fångad.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -631,7 +631,7 @@
                 ]
             },
             {
-                "text": "s_c spends half the patrol flashing in and out of the water, zipping from one riverbank to another, both impressing and frustrating the siblings trying to keep up with {PRONOUN\/s_c\/object}. Plus, everyone has to dry s_c off and warm {PRONOUN\/s_c\/object} up afterwards.",
+                "text": "s_c tillbringar halva patrullen med att blinka in och ut ur vattnet, zippa från en flodstrand till en annan, både imponerande och frustrerande på syskonen som försöker hänga med i {PRONOUN/s_c/object}. Dessutom måste alla torka av s_c och värma upp {PRONOUN/s_c/object} efteråt.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -657,7 +657,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Well, they have a lot of fun exploring, even if it's not that productive of a hunting patrol.",
+                "text": "Tja, de har mycket roligt att utforska, även om det inte är så produktivt av en jaktpatrull.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -692,15 +692,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The four siblings head out together, declaring a friendly competition to stock the fresh-kill pile. The wetlands might be as full of life as ever, but the extra motivation is really worth it to get over the unpleasantly cold water one has to stick one's paws into.",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "De fyra syskonen ger sig ut tillsammans och utlyser en vänskaplig tävling för att fylla på med nydödshögen. Våtmarkerna kan vara lika fulla av liv som alltid, men den extra motivationen är verkligen värd det att komma över det obehagligt kalla vattnet man måste sticka tassarna i.",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 misses a w_tp_a_s, and app2 and app3 startle a pair of w_tp_a_p. They don't let it get them down, instead capturing a plump rabbit with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
+                "text": "app1 missar en w_tp_a_s, och app2 och app3 skrämmer ett par w_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar med den tillbaka till lägret försöker app1 ta ensam åt sig äran för bytet, och istället för familjär talang, är det familjär oenighet som visas, när lärlingarna hamnar i ett massivt argument mitt i lägret.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -724,7 +724,7 @@
                 ]
             },
             {
-                "text": "s_c catches a great w_mp_a_s, and two w_tp_a_p! But their siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
+                "text": "s_c fångar en fantastisk w_mp_a_s, och två w_tp_a_p! Men deras syskon kommer upp tomtassade. s_c erbjuder sig att låta dem göra anspråk på det mindre bytet som sitt eget, men det förolämpande förslaget orsakar bara ett massivt argument.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -750,7 +750,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The littermates end up dirty, exhausted, and without much more than a w_tp_a_s to show for it. Fox-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
+                "text": "Kullkamraterna hamnar smutsiga, utmattade och utan mycket mer än en w_tp_a_s att visa för det. Rävdynga! Men åtminstone här ute, även om de inte fick mycket byte, kan de klaga på hur dumt jobbigt jakten är för en sympatisk publik.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -774,7 +774,7 @@
                 ]
             },
             {
-                "text": "app1 takes a hard fall while swiping at a w_mp_a_s from a precarious perch, and the afternoon's hunt is called off as {PRONOUN\/app1\/poss} siblings help {PRONOUN\/app1\/object} back to camp, chatting reassuringly about how hard their hunting lessons are.",
+                "text": "app1 faller hårt medan den sveper mot en w_mp_a_s från en otrygg abborre, och eftermiddagens jakt avbryts då {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt deras jakt är lektioner är.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -836,15 +836,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "It's nice to get the chance to go out hunting together. app1 knows they're all still in the apprentices' den together, but their different mentors and focuses and skills - it's not the same as it was back in the nursery with {PRONOUN\/app1\/poss} littermates. Even the cold of the leaf-bare winds whipping through the trees just makes today a new and exciting adventure!",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "Det är skönt att få chansen att gå ut och jaga tillsammans. app1 vet att de alla fortfarande är i lärlingshålan tillsammans, men deras olika mentorer och fokus och färdigheter - det är inte samma sak som det var tillbaka i barnkammaren med {PRONOUN/app1/poss} kullkamrater. Till och med kylan från de lövkaka vindarna som piskar genom träden gör idag till ett nytt och spännande äventyr!",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Yeah, it's a relatively okay hunt, with a couple w_tp_a_p and a dirty w_tp_dl_s. But what app1 is actually going to remember about today is that app2 thinks that {PRONOUN\/app2\/poss} mentor and app3's would make a cute couple!",
+                "text": "Ja, det är en relativt okej jakt, med ett par w_tp_a_p och en smutsig w_tp_dl_s. Men vad app1 faktiskt kommer att komma ihåg om idag är att app2 tror att {PRONOUN/app2/poss} mentor och app3:s skulle bli ett gulligt par!",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -868,7 +868,7 @@
                 ]
             },
             {
-                "text": "It turns out s_c has really been listening to {PRONOUN\/s_c\/poss} mentor's tips for hunting - and {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} willing to pass it on!",
+                "text": "Det visar sig att s_c verkligen har lyssnat på {PRONOUN/s_c/poss} mentors tips för jakt - och {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} är villiga att föra det vidare!",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -894,7 +894,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Together they manage a grand haul of one w_tp_dl_s, and not even a very big w_tp_dl_s at that. They have a lot more to learn before they'll all be ready to take on the responsibility of providing for c_n.",
+                "text": "Tillsammans klarar de ett stort drag av en w_tp_dl_s, och inte ens en mycket stor w_tp_dl_s då. De har mycket mer att lära sig innan de alla är redo att ta på sig ansvaret att försörja c_n.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -929,15 +929,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The clouds hog the sky, weakly trying to threaten snow the way they've done constantly the last few days. And just like the clouds, app1 and {PRONOUN\/app1\/poss} littermates are everywhere today, sticking their heads into every unexplored corner of the territory. All in the name of hunting, of course!",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "Molnen sveper mot himlen och försöker svagt hota snö som de ständigt har gjort de senaste dagarna. Och precis som molnen, app1 och {PRONOUN/app1/poss} kullkamrater finns överallt idag och sticker in sina huvuden i varje outforskat hörn av territoriet. Allt i jaktens namn, förstås!",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 thinks app2's w_tp_a_s looks infinitely more delicious than {PRONOUN\/app1\/poss} own contributions of two w_tp_dl_p, while app3 insists that {PRONOUN\/app3\/subject}'d much rather bring back w_tp_dl_p than the w_mp_dl_s {PRONOUN\/app3\/subject} caught.",
+                "text": "app1 tycker att app2s w_tp_a_s ser oändligt mycket läckrare ut än {PRONOUN/app1/poss} egna bidrag på två w_tp_dl_p, medan app3 insisterar på att {PRONOUN/app3/subject} mycket hellre skulle ta tillbaka w_tp_dl_p än w_mp_ject}_s {PRONOUN/app3/subject} fångad.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -961,7 +961,7 @@
                 ]
             },
             {
-                "text": "s_c spends half the patrol flashing in and out of the water, zipping from one riverbank to another, both impressing and frustrating the siblings trying to keep up with {PRONOUN\/s_c\/object}. Plus, everyone has to dry s_c off and warm {PRONOUN\/s_c\/object} up afterwards.",
+                "text": "s_c tillbringar halva patrullen med att blinka in och ut ur vattnet, zippa från en flodstrand till en annan, både imponerande och frustrerande på syskonen som försöker hänga med i {PRONOUN/s_c/object}. Dessutom måste alla torka av s_c och värma upp {PRONOUN/s_c/object} efteråt.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -987,7 +987,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Well, they have a lot of fun exploring, even if it's not that productive of a hunting patrol.",
+                "text": "Tja, de har mycket roligt att utforska, även om det inte är så produktivt av en jaktpatrull.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -1022,15 +1022,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The five siblings head out together, declaring a friendly competition to stock the fresh-kill pile. The wetlands might be as full of life as ever, but the extra motivation is really worth it to get over the unpleasantly cold water one has to stick one's paws into.",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "De fem syskonen ger sig ut tillsammans och utlyser en vänskaplig tävling för att fylla på med nydödshögen. Våtmarkerna kan vara lika fulla av liv som alltid, men den extra motivationen är verkligen värd det att komma över det obehagligt kalla vattnet man måste sticka tassarna i.",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 misses a w_tp_a_s, and app2 and app3 startle a pair of w_tp_a_p. They don't let it get them down, instead capturing a plump rabbit with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
+                "text": "app1 missar en w_tp_a_s, och app2 och app3 skrämmer ett par w_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar med den tillbaka till lägret försöker app1 ta ensam åt sig äran för bytet, och istället för familjär talang, är det familjär oenighet som visas, när lärlingarna hamnar i ett massivt argument mitt i lägret.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -1054,7 +1054,7 @@
                 ]
             },
             {
-                "text": "s_c catches a great w_mp_a_s, and two w_tp_a_p! But their siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
+                "text": "s_c fångar en fantastisk w_mp_a_s, och två w_tp_a_p! Men deras syskon kommer upp tomtassade. s_c erbjuder sig att låta dem göra anspråk på det mindre bytet som sitt eget, men det förolämpande förslaget orsakar bara ett massivt argument.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -1080,7 +1080,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The littermates end up dirty, exhausted, and without much more than a w_tp_a_s to show for it. Fox-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
+                "text": "Kullkamraterna hamnar smutsiga, utmattade och utan mycket mer än en w_tp_a_s att visa för det. Rävdynga! Men åtminstone här ute, även om de inte fick mycket byte, kan de klaga på hur dumt jobbigt jakten är för en sympatisk publik.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1104,7 +1104,7 @@
                 ]
             },
             {
-                "text": "app1 takes a hard fall while swiping at a w_mp_a_s from a precarious perch, and the afternoon's hunt is called off as {PRONOUN\/app1\/poss} siblings help {PRONOUN\/app1\/object} back to camp, chatting reassuringly about how hard their hunting lessons are.",
+                "text": "app1 faller hårt medan den sveper mot en w_mp_a_s från en otrygg abborre, och eftermiddagens jakt avbryts då {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt deras jakt är lektioner är.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1166,15 +1166,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "It's nice to get the chance to go out hunting together. app1 knows they're all still in the apprentices' den together, but their different mentors and focuses and skills - it's not the same as it was back in the nursery with {PRONOUN\/app1\/poss} littermates. Even the cold of the leaf-bare winds whipping through the trees just makes today a new and exciting adventure!",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "Det är skönt att få chansen att gå ut och jaga tillsammans. app1 vet att de alla fortfarande är i lärlingshålan tillsammans, men deras olika mentorer och fokus och färdigheter - det är inte samma sak som det var tillbaka i barnkammaren med {PRONOUN/app1/poss} kullkamrater. Till och med kylan från de lövkaka vindarna som piskar genom träden gör idag till ett nytt och spännande äventyr!",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Yeah, it's a relatively okay hunt, with a couple w_tp_a_p and a dirty w_tp_dl_s. But what app1 is actually going to remember about today is that app2 thinks that {PRONOUN\/app2\/poss} mentor and app3's would make a cute couple!",
+                "text": "Ja, det är en relativt okej jakt, med ett par w_tp_a_p och en smutsig w_tp_dl_s. Men vad app1 faktiskt kommer att komma ihåg om idag är att app2 tror att {PRONOUN/app2/poss} mentor och app3:s skulle bli ett gulligt par!",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -1198,7 +1198,7 @@
                 ]
             },
             {
-                "text": "It turns out s_c has really been listening to {PRONOUN\/s_c\/poss} mentor's tips for hunting - and {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} willing to pass it on!",
+                "text": "Det visar sig att s_c verkligen har lyssnat på {PRONOUN/s_c/poss} mentors tips för jakt - och {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} är villiga att föra det vidare!",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -1224,7 +1224,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Together they manage a grand haul of one w_tp_dl_s, and not even a very big w_tp_dl_s at that. They have a lot more to learn before they'll all be ready to take on the responsibility of providing for c_n.",
+                "text": "Tillsammans klarar de ett stort drag av en w_tp_dl_s, och inte ens en mycket stor w_tp_dl_s då. De har mycket mer att lära sig innan de alla är redo att ta på sig ansvaret att försörja c_n.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -1259,15 +1259,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The clouds hog the sky, weakly trying to threaten snow the way they've done constantly the last few days. And just like the clouds, app1 and {PRONOUN\/app1\/poss} littermates are everywhere today, sticking their heads into every unexplored corner of the territory. All in the name of hunting, of course!",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "Molnen sveper mot himlen och försöker svagt hota snö som de ständigt har gjort de senaste dagarna. Och precis som molnen, app1 och {PRONOUN/app1/poss} kullkamrater finns överallt idag och sticker in sina huvuden i varje outforskat hörn av territoriet. Allt i jaktens namn, förstås!",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 thinks app2's w_tp_a_s looks infinitely more delicious than {PRONOUN\/app1\/poss} own contributions of two w_tp_dl_p, while app3 insists that {PRONOUN\/app3\/subject}'d much rather bring back w_tp_dl_p than the w_mp_dl_s {PRONOUN\/app3\/subject} caught.",
+                "text": "app1 tycker att app2s w_tp_a_s ser oändligt mycket läckrare ut än {PRONOUN/app1/poss} egna bidrag på två w_tp_dl_p, medan app3 insisterar på att {PRONOUN/app3/subject} mycket hellre skulle ta tillbaka w_tp_dl_p än w_mp_ject}_s {PRONOUN/app3/subject} fångad.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -1291,7 +1291,7 @@
                 ]
             },
             {
-                "text": "s_c spends half the patrol flashing in and out of the water, zipping from one riverbank to another, both impressing and frustrating the siblings trying to keep up with {PRONOUN\/s_c\/object}. Plus, everyone has to dry s_c off and warm {PRONOUN\/s_c\/object} up afterwards.",
+                "text": "s_c tillbringar halva patrullen med att blinka in och ut ur vattnet, zippa från en flodstrand till en annan, både imponerande och frustrerande på syskonen som försöker hänga med i {PRONOUN/s_c/object}. Dessutom måste alla torka av s_c och värma upp {PRONOUN/s_c/object} efteråt.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -1317,7 +1317,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Well, they have a lot of fun exploring, even if it's not that productive of a hunting patrol.",
+                "text": "Tja, de har mycket roligt att utforska, även om det inte är så produktivt av en jaktpatrull.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -1348,15 +1348,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The six siblings head out together, declaring a friendly competition to stock the fresh-kill pile. The wetlands might be as full of life as ever, but the extra motivation is really worth it to get over the unpleasantly cold water one has to stick one's paws into.",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "De sex syskonen ger sig ut tillsammans och utlyser en vänskaplig tävling för att fylla på med nydödshögen. Våtmarkerna kan vara lika fulla av liv som alltid, men den extra motivationen är verkligen värd det att komma över det obehagligt kalla vattnet man måste sticka tassarna i.",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 misses a w_tp_a_s, and app2 and app3 startle a pair of w_tp_a_p. They don't let it get them down, instead capturing a plump rabbit with a beautiful team ambush! But when they bring it back to camp, app1 tries to take sole credit for the prey, and instead of familial talent, it's familial discord that's displayed, as the apprentices get into a massive argument in the middle of camp.",
+                "text": "app1 missar en w_tp_a_s, och app2 och app3 skrämmer ett par w_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar med den tillbaka till lägret försöker app1 ta ensam åt sig äran för bytet, och istället för familjär talang, är det familjär oenighet som visas, när lärlingarna hamnar i ett massivt argument mitt i lägret.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -1380,7 +1380,7 @@
                 ]
             },
             {
-                "text": "s_c catches a great w_mp_a_s, and two w_tp_a_p! But their siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
+                "text": "s_c fångar en fantastisk w_mp_a_s, och två w_tp_a_p! Men deras syskon kommer upp tomtassade. s_c erbjuder sig att låta dem göra anspråk på det mindre bytet som sitt eget, men det förolämpande förslaget orsakar bara ett massivt argument.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -1406,7 +1406,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The littermates end up dirty, exhausted, and without much more than a w_tp_a_s to show for it. Fox-dung! But at least out here, even if they didn't get much prey, they can complain about how stupidly hard hunting is to a sympathetic audience.",
+                "text": "Kullkamraterna hamnar smutsiga, utmattade och utan mycket mer än en w_tp_a_s att visa för det. Rävdynga! Men åtminstone här ute, även om de inte fick mycket byte, kan de klaga på hur dumt jobbigt jakten är för en sympatisk publik.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1430,7 +1430,7 @@
                 ]
             },
             {
-                "text": "app1 takes a hard fall while swiping at a w_mp_a_s from a precarious perch, and the afternoon's hunt is called off as {PRONOUN\/app1\/poss} siblings help {PRONOUN\/app1\/object} back to camp, chatting reassuringly about how hard their hunting lessons are.",
+                "text": "app1 faller hårt medan den sveper mot en w_mp_a_s från en otrygg abborre, och eftermiddagens jakt avbryts då {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt deras jakt är lektioner är.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1488,15 +1488,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "It's nice to get the chance to go out hunting together. app1 knows they're all still in the apprentices' den together, but their different mentors and focuses and skills - it's not the same as it was back in the nursery with {PRONOUN\/app1\/poss} littermates. Even the cold of the leaf-bare winds whipping through the trees just makes today a new and exciting adventure!",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "Det är skönt att få chansen att gå ut och jaga tillsammans. app1 vet att de alla fortfarande är i lärlingshålan tillsammans, men deras olika mentorer och fokus och färdigheter - det är inte samma sak som det var tillbaka i barnkammaren med {PRONOUN/app1/poss} kullkamrater. Till och med kylan från de lövkaka vindarna som piskar genom träden gör idag till ett nytt och spännande äventyr!",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Yeah, it's a relatively okay hunt, with a couple w_tp_a_p and a dirty w_tp_dl_s. But what app1 is actually going to remember about today is that app2 thinks that {PRONOUN\/app2\/poss} mentor and app3's would make a cute couple!",
+                "text": "Ja, det är en relativt okej jakt, med ett par w_tp_a_p och en smutsig w_tp_dl_s. Men vad app1 faktiskt kommer att komma ihåg om idag är att app2 tror att {PRONOUN/app2/poss} mentor och app3:s skulle bli ett gulligt par!",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -1520,7 +1520,7 @@
                 ]
             },
             {
-                "text": "It turns out s_c has really been listening to {PRONOUN\/s_c\/poss} mentor's tips for hunting - and {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} willing to pass it on!",
+                "text": "Det visar sig att s_c verkligen har lyssnat på {PRONOUN/s_c/poss} mentors tips för jakt - och {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} är villiga att föra det vidare!",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -1546,7 +1546,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Together they manage a grand haul of one w_tp_dl_s, and not even a very big w_tp_dl_s at that. They have a lot more to learn before they'll all be ready to take on the responsibility of providing for c_n.",
+                "text": "Tillsammans klarar de ett stort drag av en w_tp_dl_s, och inte ens en mycket stor w_tp_dl_s då. De har mycket mer att lära sig innan de alla är redo att ta på sig ansvaret att försörja c_n.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -1577,15 +1577,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The clouds hog the sky, weakly trying to threaten snow the way they've done constantly the last few days. And just like the clouds, app1 and {PRONOUN\/app1\/poss} littermates are everywhere today, sticking their heads into every unexplored corner of the territory. All in the name of hunting, of course!",
-        "decline_text": "Their mentors hold them back with a gentle word - the warriors have other plans for the apprentices today.",
+        "intro_text": "Molnen sveper mot himlen och försöker svagt hota snö som de ständigt har gjort de senaste dagarna. Och precis som molnen, app1 och {PRONOUN/app1/poss} kullkamrater finns överallt idag och sticker in sina huvuden i varje outforskat hörn av territoriet. Allt i jaktens namn, förstås!",
+        "decline_text": "Deras mentorer håller dem tillbaka med ett mildt ord - krigarna har andra planer för lärlingarna idag.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 thinks app2's w_tp_a_s looks infinitely more delicious than {PRONOUN\/app1\/poss} own contributions of two w_tp_dl_p, while app3 insists that {PRONOUN\/app3\/subject}'d much rather bring back w_tp_dl_p than the w_mp_dl_s {PRONOUN\/app3\/subject} caught.",
+                "text": "app1 tycker att app2s w_tp_a_s ser oändligt mycket läckrare ut än {PRONOUN/app1/poss} egna bidrag på två w_tp_dl_p, medan app3 insisterar på att {PRONOUN/app3/subject} mycket hellre skulle ta tillbaka w_tp_dl_p än w_mp_ject}_s {PRONOUN/app3/subject} fångad.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -1609,7 +1609,7 @@
                 ]
             },
             {
-                "text": "s_c spends half the patrol flashing in and out of the water, zipping from one riverbank to another, both impressing and frustrating the siblings trying to keep up with {PRONOUN\/s_c\/object}. Plus, everyone has to dry s_c off and warm {PRONOUN\/s_c\/object} up afterwards.",
+                "text": "s_c tillbringar halva patrullen med att blinka in och ut ur vattnet, zippa från en flodstrand till en annan, både imponerande och frustrerande på syskonen som försöker hänga med i {PRONOUN/s_c/object}. Dessutom måste alla torka av s_c och värma upp {PRONOUN/s_c/object} efteråt.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -1635,7 +1635,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Well, they have a lot of fun exploring, even if it's not that productive of a hunting patrol.",
+                "text": "Tja, de har mycket roligt att utforska, även om det inte är så produktivt av en jaktpatrull.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -1674,15 +1674,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 suppresses a yawn, trying not to make a weird expression in front of p_l as {PRONOUN\/app1\/subject} {VERB\/app1\/do\/does}. p_l suggested this as sibling bonding time, but did they <i>really<\/i> have to get up at dawn? Leaf-bare is already too cold, no one needs to make it worse with dawn patrols.",
-        "decline_text": "Actually, {PRONOUN\/app1\/subject}'d really rather be back in {PRONOUN\/app1\/poss} nest.",
+        "intro_text": "app1 undertrycker en gäspning och försöker att inte göra ett konstigt uttryck framför p_l som {PRONOUN/app1/subject} {VERB/app1/do/does}. p_l föreslog detta som syskonbindningstid, men var de <i>verkligen</i> tvungna att gå upp i gryningen? Lövbart är redan för kallt, ingen behöver göra det värre med gryningspatruller.",
+        "decline_text": "Faktiskt skulle {PRONOUN/app1/subject} verkligen hellre vara tillbaka i {PRONOUN/app1/poss} boet.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 collects two w_tp_dl_p, and watches p_l take down a w_mp_a_s in an astonishing pounce. {PRONOUN\/app1\/subject\/CAP}{VERB\/app1\/'re\/'s} about to trot up to p_l to express admiration over the kill when p_l turns around and compliments app1's w_tp_dl_p, making app1 grimace at what's got to be fake praise.",
+                "text": "app1 samlar in två w_tp_dl_p och ser p_l ta ner en w_mp_a_s i ett häpnadsväckande slag. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} på väg att trava upp till p_l för att uttrycka beundran över dödandet när p_l vänder sig om och komplimanger app1:s w_tp_dl_p, gör app1 grimaserande över vad som måste vara falskt beröm.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -1706,7 +1706,7 @@
                 ]
             },
             {
-                "text": "Watching s_c's displays of atheticism makes app1 feel small - surely {PRONOUN\/app1\/subject}'ll never be able to do that?",
+                "text": "Att titta på s_c:s uppvisningar av ateticism gör att app1 känns liten - säkert kommer {PRONOUN/app1/subject} aldrig att kunna göra det?",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1741,7 +1741,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 yawns {PRONOUN\/app1\/poss} way through the not overly successful hunting patrol.",
+                "text": "app1 gäspar {PRONOUN/app1/poss} långt genom den inte alltför framgångsrika jaktpatrullen.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -1780,15 +1780,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "As they wander among the bushes of the wetlands, sheltered from the cold beneath trees so thickly woven the frosts can only scorch their tips, p_l awkwardly asks app1 how {PRONOUN\/app1\/subject} {VERB\/app1\/think\/thinks} {PRONOUN\/app1\/poss} training is going.",
-        "decline_text": "app1 carefully talks around the subject, telling p_l nothing of importance.",
+        "intro_text": "När de vandrar bland våtmarkernas buskar, skyddade från kylan under träd som är så tjockt vävda att frosten bara kan svida deras spetsar, frågar p_l obekvämt app1 hur {PRONOUN/app1/subject} {VERB/app1/tänker/tänker} {PRONOUN /app1/poss} utbildning pågår.",
+        "decline_text": "app1 pratar noggrant kring ämnet och säger ingenting av betydelse.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Giving in and accepting that {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} just going to look stupid in front of {PRONOUN\/app1\/poss} cool older sibling, app1 tells p_l about the trouble {PRONOUN\/app1\/subject}{VERB\/app1\/'ve\/'s} been having with {PRONOUN\/app1\/poss} pounce. It's such a simple thing - {PRONOUN\/app1\/subject} should have it by now! But p_l is actually super helpful and reassuring about it - it's nice.",
+                "text": "Ge efter och acceptera att {PRONOUN/app1/subject}{VERB/app1/'re/'s} bara kommer att se dum ut inför {PRONOUN/app1/poss} coola äldre syskon, app1 berättar för p_l om problemet {PRONOUN /app1/subject}{VERB/app1/'ve/'s} har råkat ut för {PRONOUN/app1/poss}. Det är en så enkel sak - {PRONOUN/app1/subject} borde ha det nu! Men p_l är faktiskt super hjälpsam och lugnande med det - det är trevligt.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -1812,7 +1812,7 @@
                 ]
             },
             {
-                "text": "If app1 ever wanted help - s_c knows they're not littermates, but they're still siblings, and s_c is totally here for {PRONOUN\/app1\/object} if app1 ever wants extra training. It's still an awkward offer. But it's nice.",
+                "text": "Om app1 någonsin velat ha hjälp - s_c vet att de inte är kullkamrater, men de är fortfarande syskon, och s_c är helt här för {PRONOUN/app1/object} om app1 någonsin vill ha extra träning. Det är fortfarande ett obekvämt erbjudande. Men det är trevligt.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1847,7 +1847,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 doesn't want to talk about it. Like. At all. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/stalk\/stalks} off in a huff.",
+                "text": "app1 vill inte prata om det. Som. Alls. {PRONOUN/app1/subject/CAP} {VERB/app1/stalk/stalks} av i ett huff.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1902,15 +1902,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 bounds out of camp, determined to show off to p_l!",
-        "decline_text": "And both are immediately recalled - the camp needs new nesting materials, not more prey.",
+        "intro_text": "app1 går utanför lägret, fast besluten att visa upp sig för p_l!",
+        "decline_text": "Och båda återkallas omedelbart - lägret behöver nya bomaterial, inte fler byten.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Taking down a w_mp_a_s all by {PRONOUN\/app1\/self}, app1 feels twice {PRONOUN\/app1\/poss} actual size showing it to p_l.",
+                "text": "Om du tar ner en w_mp_a_s helt med {PRONOUN/app1/self} känns app1 två gånger {PRONOUN/app1/poss} i verklig storlek och visar den till p_l.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -1934,7 +1934,7 @@
                 ]
             },
             {
-                "text": "s_c, so physically strong and impressive, shows app1 exactly how to pull off one of {PRONOUN\/s_c\/poss} moves, and app1 trots back to camp with a w_mp_a_s to prove it!",
+                "text": "s_c, så fysiskt stark och imponerande, visar app1 exakt hur man gör ett av {PRONOUN/s_c/poss}-dragen, och app1 travar tillbaka till lägret med en w_mp_a_s för att bevisa det!",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1969,7 +1969,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 knows {PRONOUN\/app1\/poss} patrol is still bringing back a little prey for the fresh-kill pile, but... it's so disappointing. {PRONOUN\/app1\/subject\/CAP} really wanted to prove how much {PRONOUN\/app1\/subject}{VERB\/app1\/'ve\/'s} grown to p_l.",
+                "text": "app1 vet att patrullen {PRONOUN/app1/poss} fortfarande tar tillbaka ett litet byte för den nydödade högen, men... det är så nedslående. {PRONOUN/app1/subject/CAP} ville verkligen bevisa hur mycket {PRONOUN/app1/subject}{VERB/app1/'ve/'s} vuxit till p_l.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2024,15 +2024,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 suppresses a yawn, trying not to make a weird expression in front of p_l as {PRONOUN\/app1\/subject} {VERB\/app1\/do\/does}. p_l suggested this as sibling bonding time, but did they <i>really<\/i> have to get up at dawn? Leaf-bare is already too cold, no one needs to make it worse with dawn patrols.",
-        "decline_text": "Actually, {PRONOUN\/app1\/subject}'d really rather be back in {PRONOUN\/app1\/poss} nest.",
+        "intro_text": "app1 undertrycker en gäspning och försöker att inte göra ett konstigt uttryck framför p_l som {PRONOUN/app1/subject} {VERB/app1/do/does}. p_l föreslog detta som syskonbindningstid, men var de <i>verkligen</i> tvungna att gå upp i gryningen? Lövbart är redan för kallt, ingen behöver göra det värre med gryningspatruller.",
+        "decline_text": "Faktiskt skulle {PRONOUN/app1/subject} verkligen hellre vara tillbaka i {PRONOUN/app1/poss} boet.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "app1 collects two w_tp_dl_p, and watches p_l take down a w_mp_a_s in an astonishing pounce and the rest of {PRONOUN\/app1\/poss} older siblings bring down two w_mp_a_p. {PRONOUN\/app1\/subject\/CAP}{VERB\/app1\/'re\/'s} about to trot up to p_l to express admiration over the kill when p_l turns around and compliments app1's w_tp_dl_p, making app1 grimace at what's got to be fake praise.",
+                "text": "app1 samlar två w_tp_dl_p och ser p_l ta ner en w_mp_a_s i ett häpnadsväckande slag och resten av {PRONOUN/app1/poss} äldre syskon få ner två w_mp_a_p. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} på väg att trava upp till p_l för att uttrycka beundran över dödandet när p_l vänder sig om och komplimanger app1:s w_tp_dl_p, gör app1 grimaserande över vad som måste vara falskt beröm.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -2056,7 +2056,7 @@
                 ]
             },
             {
-                "text": "Watching s_c's displays of atheticism makes app1 feel small - surely {PRONOUN\/app1\/subject}'ll never be able to do that?",
+                "text": "Att titta på s_c:s uppvisningar av ateticism gör att app1 känns liten - säkert kommer {PRONOUN/app1/subject} aldrig att kunna göra det?",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -2091,7 +2091,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 yawns {PRONOUN\/app1\/poss} way through the not overly successful hunting patrol.",
+                "text": "app1 gäspar {PRONOUN/app1/poss} långt genom den inte alltför framgångsrika jaktpatrullen.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -2130,15 +2130,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 bounds out of camp, determined to show off to {PRONOUN\/app1\/poss} older siblings!",
-        "decline_text": "And everyone is immediately recalled - the camp needs new nesting materials, not more prey.",
+        "intro_text": "app1 åker utanför lägret, fast besluten att visa upp sig för {PRONOUN/app1/poss} äldre syskon!",
+        "decline_text": "Och alla återkallas omedelbart - lägret behöver nya bomaterial, inte fler byten.",
         "chance_of_success": 30,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Taking down a w_mp_a_s all by {PRONOUN\/app1\/self}, app1 feels twice {PRONOUN\/app1\/poss} actual size showing it to {PRONOUN\/app1\/poss} older, fully-named warrior siblings.",
+                "text": "Om du tar ner en w_mp_a_s helt med {PRONOUN/app1/self}, känns app1 dubbelt {PRONOUN/app1/poss} i verklig storlek och visar den för {PRONOUN/app1/poss} äldre, fullt namngivna krigarsyskon.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -2162,7 +2162,7 @@
                 ]
             },
             {
-                "text": "s_c, so physically strong and impressive, shows app1 exactly how to pull off one of {PRONOUN\/s_c\/poss} moves, and app1 trots back to camp with a w_mp_a_s to prove it!",
+                "text": "s_c, så fysiskt stark och imponerande, visar app1 exakt hur man gör ett av {PRONOUN/s_c/poss}-dragen, och app1 travar tillbaka till lägret med en w_mp_a_s för att bevisa det!",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -2197,7 +2197,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 knows {PRONOUN\/app1\/poss} patrol is still bringing back a little prey for the fresh-kill pile, but... it's so disappointing. {PRONOUN\/app1\/subject\/CAP} really wanted to prove how much {PRONOUN\/app1\/subject}{VERB\/app1\/'ve\/'s} grown to {PRONOUN\/app1\/poss} family.",
+                "text": "app1 vet att patrullen {PRONOUN/app1/poss} fortfarande tar tillbaka ett litet byte för den nydödade högen, men... det är så nedslående. {PRONOUN/app1/subject/CAP} ville verkligen bevisa hur mycket {PRONOUN/app1/subject}{VERB/app1/'ve/'s} vuxit till familjen {PRONOUN/app1/poss}.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2244,15 +2244,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "As ice creeps over stagnant pools and the wetlands drip with frost, little of the background chatter of life still present, p_l is out on a hunting patrol with r_c.",
-        "decline_text": "Actually, {PRONOUN\/p_l\/subject}'d rather try a land hunt. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/wave\/waves} {PRONOUN\/p_l\/poss} sibling off with a flick of {PRONOUN\/p_l\/poss} tail and {VERB\/p_l\/disappear\/disappears} into the inland undergrowth.",
+        "intro_text": "När is kryper över stillastående pölar och våtmarkerna droppar av frost, lite av livets prat i bakgrunden fortfarande närvarande, är p_l ute på jaktpatrull med r_c.",
+        "decline_text": "Egentligen skulle {PRONOUN/p_l/subject} hellre prova en landjakt. {PRONOUN/p_l/subject/CAP} {VERB/p_l/wave/waves} {PRONOUN/p_l/poss} syskon av med en snärt av {PRONOUN/p_l/poss} svans och {VERB/p_l/disappear/disappears} in i inlandets undervegetation.",
         "chance_of_success": 50,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Three w_tp_dl_p are nothing to sniff at in leaf-bare as a hunting success, but stars above, being alone with r_c makes p_l feel like a kitten again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "Tre w_tp_dl_p är inget att nosa på i lövbart som en jaktframgång, men stjärnorna ovan, att vara ensam med r_c får p_l att känna sig som en kattunge igen. Och inte på det gulliga sättet heller; i att tugga på svansar, gnälligt, småaktigt, omoget sätt. Usch.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -2275,7 +2275,7 @@
                 ]
             },
             {
-                "text": "The hunting patrol isn't very successful, yet it matters not a whit to either of the warriors, because p_l makes a joke that {PRONOUN\/p_l\/subject} {VERB\/p_l\/think\/thinks} is funny but that's always gotten on r_c's nerves and suddenly they're both acting like apprentices again, snippy, immature, and irritable.",
+                "text": "Jaktpatrullen är inte särskilt framgångsrik, men det spelar ingen roll för någon av krigarna, för p_l gör ett skämt om att {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} är roligt men det har alltid kommit på r_c:s nerver och plötsligt beter sig de båda som lärlingar igen, snirkliga, omogna och irriterade.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -2298,7 +2298,7 @@
                 ]
             },
             {
-                "text": "s_c nets them a healthy w_mp_a_s to take back to camp, but it only irritates {PRONOUN\/s_c\/poss} sibling. r_c never even got the chance to even try for a pounce - {VERB\/r_c\/are\/is} {PRONOUN\/r_c\/subject} only there to carry around s_c's prey?",
+                "text": "s_c ger dem en frisk w_mp_a_s att ta tillbaka till lägret, men det irriterar bara {PRONOUN/s_c/poss} syskon. r_c fick aldrig ens chansen att ens försöka ta ett kast - {VERB/r_c/are/is} {PRONOUN/r_c/subject} bara där för att bära runt s_c:s byte?",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -2329,7 +2329,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It isn't a very successful hunt - they'll have to head out again for more soon.",
+                "text": "Det är ingen särskilt lyckad jakt - de måste snart bege sig ut igen för mer.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -2337,7 +2337,7 @@
                 ]
             },
             {
-                "text": "Perhaps hunting from the overhanging branches of a frost-swept tree wasn't their best moment, r_c concedes. The patrol has to hurry back to camp to warm {PRONOUN\/r_c\/object} up.",
+                "text": "Att jaga från de överhängande grenarna på ett frostsvept träd kanske inte var deras bästa ögonblick, medger r_c. Patrullen måste skynda tillbaka till lägret för att värma upp {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2355,9 +2355,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c still shows where cold sunk its fangs into {PRONOUN\/m_c\/subject} after an unplanned leaf-bare swim.",
-                    "reg_death": "m_c was killed by cold water - not that the swim was planned.",
-                    "lead_death": "were taken by an unexpected cold-water dunking"
+                    "scar": "m_c visar fortfarande var kylan sänkte sina huggtänder i {PRONOUN/m_c/subject} efter ett oplanerat lövbart dopp.",
+                    "reg_death": "m_c dödades av kallt vatten - inte för att simningen var planerad.",
+                    "lead_death": "togs av en oväntad kallvattendunkning"
                 },
                 "prey": [
                     "very_small"
@@ -2387,15 +2387,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Sometimes, it's just nice to hang out with {PRONOUN\/r_c\/poss} sibling. Especially when the weather has kept them in camp too often recently!",
-        "decline_text": "But sometimes, you get called back to camp instead. Ah well, another time!",
+        "intro_text": "Ibland är det bara trevligt att umgås med {PRONOUN/r_c/poss} syskon. Speciellt när vädret har hållit dem i lägret för ofta den senaste tiden!",
+        "decline_text": "Men ibland blir man kallad tillbaka till lägret istället. Aja, en annan gång!",
         "chance_of_success": 50,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "A scrubby w_tp_dl_s, a bundle of w_tp_a_p, and a patrol spent retreading all their favorite in-jokes... It's a good day.",
+                "text": "En skuren w_tp_dl_s, en bunt w_tp_a_p och en patrull ägnade åt att regummera alla sina favoritskämt... Det är en bra dag.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -2432,7 +2432,7 @@
                 ]
             },
             {
-                "text": "There's just something nice about hanging out with another warrior who'll always be there for {PRONOUN\/r_c\/object}, regardless of their similarities and differences. And they also bring back a good-sized w_mp_dl_s with some w_tp_a_p on the side for the fresh-kill pile.",
+                "text": "Det är bara något trevligt med att umgås med en annan krigare som alltid kommer att finnas där för {PRONOUN/r_c/object}, oavsett deras likheter och olikheter. Och de tar också tillbaka en bra storlek w_mp_dl_s med lite w_tp_a_p på sidan för den färska dödshögen.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -2469,7 +2469,7 @@
                 ]
             },
             {
-                "text": "It's easy to be proud of s_c, watching {PRONOUN\/s_c\/object} dive without a splash from the bank, popping up with prey in {PRONOUN\/s_c\/poss} jaws. Though sharing tongues afterwards is a necessity to warm up again.",
+                "text": "Det är lätt att vara stolt över s_c, se {PRONOUN/s_c/object} dyka utan ett stänk från stranden, dyka upp med bytesdjur i {PRONOUN/s_c/poss} käkar. Fast att dela tungor efteråt är en nödvändighet för att värma upp igen.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -2512,7 +2512,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "They don't manage anything like the number of catches they were both expecting to get - a bit disappointing, even if they're not entirely empty-pawed.",
+                "text": "De klarar inte av något liknande antalet fångster som de båda förväntade sig att få - lite tråkigt, även om de inte är helt tomma tassar.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -2543,15 +2543,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Sun's out, weakly shining, and r_c has been assigned a moderately tolerable hunting partner - {PRONOUN\/r_c\/poss} sibling!",
-        "decline_text": "Cancel that - a border patrol needs backup.",
+        "intro_text": "Solen är ute, skiner svagt och r_c har tilldelats en måttligt tolerabel jaktpartner - {PRONOUN/r_c/poss} syskon!",
+        "decline_text": "Avbryt det - en gränspatrull behöver backup.",
         "chance_of_success": 50,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a w_mp_a_s, p_l smiles. Does r_c remember the time {PRONOUN\/r_c\/subject} tried to do that as a kitten, and stood on {PRONOUN\/r_c\/poss} own tail? The siblings laugh about it as they move on to the next hunting ground.",
+                "text": "Att se r_c utföra ett fantastiskt språng för att få ner en w_mp_a_s, ler p_l. Kommer r_c ihåg när {PRONOUN/r_c/subject} försökte göra det som kattunge och stod på {PRONOUN/r_c/poss} egen svans? Syskonen skrattar åt det när de går vidare till nästa jaktmark.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -2575,7 +2575,7 @@
                 ]
             },
             {
-                "text": "It's been a while since they've been on a patrol alone together, and after they catch two w_mp_dl_p for the fresh-kill pile r_c spends a bit just chasing p_l along the shoreline, batting at each other in a moment of silliness.",
+                "text": "Det var ett tag sedan de var på patrull ensamma tillsammans, och efter att de fångat två w_mp_dl_p för den nydödade högen tillbringar r_c lite bara att jaga p_l längs strandlinjen och slå mot varandra i ett ögonblick av enfald.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -2599,7 +2599,7 @@
                 ]
             },
             {
-                "text": "r_c jokes that {PRONOUN\/r_c\/subject} can't possibly be related to s_c - clearly s_c was born from eels, not cats, with the way {PRONOUN\/s_c\/subject} {VERB\/s_c\/glide\/glides} through the water.",
+                "text": "r_c skämtar om att {PRONOUN/r_c/subject} omöjligen kan relateras till s_c - uppenbarligen föddes s_c från ål, inte katter, på samma sätt som {PRONOUN/s_c/subject} {VERB/s_c/glide/glides} genom vatten.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -2628,7 +2628,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Sometimes, the prey just doesn't run, and today is one of those times.",
+                "text": "Ibland springer bytet helt enkelt inte, och idag är en av de gångerna.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -2636,7 +2636,7 @@
                 ]
             },
             {
-                "text": "r_c sees a fish {PRONOUN\/r_c\/subject}'d like for the fresh-kill pile, but while perched on a rock setting up a good pounce, {PRONOUN\/r_c\/subject} {VERB\/r_c\/slip\/slips} - {PRONOUN\/r_c\/subject} {VERB\/r_c\/bob\/bobs} to the surface and splutter {PRONOUN\/r_c\/poss} way to shore, but {PRONOUN\/r_c\/poss} breath comes short and wheezing after the freezing dunking. Fleas and ticks!",
+                "text": "r_c ser en fisk som {PRONOUN/r_c/subject} skulle vilja ha till den nydödade högen, men när han sitter uppe på en sten och sätter igång ett bra kast, {PRONOUN/r_c/subject} {VERB/r_c/slip/slips} - {PRONOUN/r_c/subject} {VERB/r_c/bob/bobs} till ytan och sprutar {PRONOUN/r_c/poss} väg till stranden, men {PRONOUN/r_c/poss} andetag blir kort och väsande efter den iskalla dunkningen. Loppor och fästingar!",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2654,9 +2654,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c bears the scars from an unexpected cold dunking on a hunting patrol.",
-                    "reg_death": "m_c was killed by the cold dunking they got from a fall into the water in leaf-bare.",
-                    "lead_death": "were taken by an unexpected cold-water dunking"
+                    "scar": "m_c bär ärren från en oväntad kall dunking på en jaktpatrull.",
+                    "reg_death": "m_c dödades av den kalla dunkningen de fick av ett fall i vattnet i lövbart.",
+                    "lead_death": "togs av en oväntad kallvattendunkning"
                 },
                 "prey": [
                     "very_small"
@@ -2686,15 +2686,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The hunting patrol heads out early, coats fluffed up against the cold.",
-        "decline_text": "They encounter a dawn patrol on their way back to camp and join up with them instead.",
+        "intro_text": "Jaktpatrullen ger sig ut tidigt, rockar fluffade mot kylan.",
+        "decline_text": "De stöter på en gryningspatrull på väg tillbaka till lägret och går ihop med dem istället.",
         "chance_of_success": 50,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "p_l grabs a salt-scented w_mp_a_s that {PRONOUN\/p_l\/subject} can barely carry, and r_c congratulates {PRONOUN\/p_l\/object}, secretly wondering if {PRONOUN\/r_c\/subject}'ll ever manage to surpass {PRONOUN\/r_c\/poss} sibling's achievements.",
+                "text": "p_l tar ett saltdoftande w_mp_a_s som {PRONOUN/p_l/subject} knappt kan bära, och r_c gratulerar {PRONOUN/p_l/object} och undrar i hemlighet om {PRONOUN/r_c/subject} någonsin kommer att lyckas överträffa {PRONOUN/r_c /poss} syskons prestationer.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -2717,7 +2717,7 @@
                 ]
             },
             {
-                "text": "r_c always feels like {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} padding in p_l's footsteps, especially today, watching {PRONOUN\/p_l\/object} haul back a good catch of prey for the Clan, a contribution that just about makes up for r_c's meager offerings.",
+                "text": "r_c känns alltid som att {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} ligger i p_ls fotspår, speciellt i dag när man ser {PRONOUN/p_l/object} dra tillbaka en bra fångst av bytesdjur för klanen, en bidrag som nästan kompenserar för r_cs magra utbud.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -2742,7 +2742,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Sometimes, the prey just doesn't run, and today is one of those times.",
+                "text": "Ibland springer bytet helt enkelt inte, och idag är en av de gångerna.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2765,7 +2765,7 @@
                 ]
             },
             {
-                "text": "r_c comes down with a debilitating headache, making {PRONOUN\/r_c\/object} stagger, dizzy and weak, as {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} helped back to camp.",
+                "text": "r_c får en försvagande huvudvärk, vilket får {PRONOUN/r_c/object} att vackla, yr och svag, när {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} hjälpte tillbaka till lägret.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2822,15 +2822,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The siblings head out to one of the further hunting grounds among the swamps, a place dotted with tiny islands of higher ground, seeking dry land under their paws instead of half-frozen mud.",
-        "decline_text": "They decide to bask for a bit instead of making the long walk.",
+        "intro_text": "Syskonen beger sig ut till en av de ytterligare jaktmarkerna bland träskmarkerna, en plats översållad med små öar av högre mark, och söker torrt land under tassarna istället för halvfrusen lera.",
+        "decline_text": "De bestämmer sig för att sola sig lite istället för att ta den långa promenaden.",
         "chance_of_success": 50,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Together, they collect a couple w_tp_dl_p and an old w_mp_dl_s. It should be a great patrol, returning with reasonable prey in the harsh season - but r_c is acting obnoxious and {PRONOUN\/r_c\/poss} sibling has little time or patience for it.",
+                "text": "Tillsammans samlar de ett par w_tp_dl_p och en gammal w_mp_dl_s. Det borde vara en fantastisk patrull som återvänder med rimliga byten under den hårda årstiden - men r_c uppträder motbjudande och syskonen {PRONOUN/r_c/poss} har lite tid eller tålamod för det.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -2853,7 +2853,7 @@
                 ]
             },
             {
-                "text": "r_c makes a dumb comment that accidentally cuts deep. {PRONOUN\/r_c\/poss\/CAP} sibling works with {PRONOUN\/r_c\/object} long enough to bring back sufficient prey - but no longer.",
+                "text": "r_c gör en dum kommentar som av misstag skär djupt. {PRONOUN/r_c/poss/CAP} syskon fungerar med {PRONOUN/r_c/object} tillräckligt länge för att få tillbaka tillräckligt med byte - men inte längre.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -2878,7 +2878,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Today is just not their day.",
+                "text": "Idag är bara inte deras dag.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -2886,7 +2886,7 @@
                 ]
             },
             {
-                "text": "The patrol tries to hunt, but r_c keeps stopping to duck behind bushes, until it's obvious that something is actually wrong. Eww.",
+                "text": "Patrullen försöker jaga, men r_c stannar hela tiden för att ducka bakom buskar, tills det är uppenbart att något faktiskt är fel. Eww.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2928,15 +2928,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "As ice creeps over stagnant pools and the wetlands drip with frost, little of the background chatter of life still present, p_l is out on a hunting patrol with {PRONOUN\/p_l\/poss} siblings.",
-        "decline_text": "Actually, {PRONOUN\/p_l\/subject}'d rather try a land hunt. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/wave\/waves} {PRONOUN\/p_l\/poss} siblings off with a flick of {PRONOUN\/p_l\/poss} tail and {VERB\/p_l\/disappear\/disappears} into the inland undergrowth.",
+        "intro_text": "När is kryper över stillastående pölar och våtmarkerna droppar av frost, lite av livets prat i bakgrunden fortfarande närvarande, är p_l ute på jaktpatrull med {PRONOUN/p_l/poss} syskon.",
+        "decline_text": "Egentligen skulle {PRONOUN/p_l/subject} hellre prova en landjakt. {PRONOUN/p_l/subject/CAP} {VERB/p_l/wave/waves} {PRONOUN/p_l/poss} syskon av med en snärt av {PRONOUN/p_l/poss} svans och {VERB/p_l/disappear/disappears} in i inlandets undervegetation.",
         "chance_of_success": 50,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "A w_mp_dl_s and three w_tp_dl_p is nothing to sniff at in leaf-bare as a hunting success, but stars above, being alone with {PRONOUN\/p_l\/poss} siblings makes p_l feel like a kitten again. And not in the cute way either; in the chewing on tails, whiny, petty, immature way. Ugh.",
+                "text": "En w_mp_dl_s och tre w_tp_dl_p är inget att nosa på i lövbart som en jaktframgång, men stjärnorna ovan, att vara ensam med {PRONOUN/p_l/poss} syskon gör att p_l känner sig som en kattunge igen. Och inte på det gulliga sättet heller; i att tugga på svansar, gnälligt, småaktigt, omoget sätt. Usch.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -2959,7 +2959,7 @@
                 ]
             },
             {
-                "text": "The hunting patrol isn't very successful, yet matters not a whit to any of the warriors, because p_l makes a joke that {PRONOUN\/p_l\/subject} {VERB\/p_l\/think\/thinks} is funny but that's always gotten on r_c's nerves and suddenly everyone's acting like apprentices again, snippy, immature, and irritable.",
+                "text": "Jaktpatrullen är inte särskilt framgångsrik, men spelar ändå ingen roll för någon av krigarna, eftersom p_l gör ett skämt om att {PRONOUN/p_l/subject} {VERB/p_l/think/thinks} är roligt men det har alltid kommit på r_c:s nerver och plötsligt beter sig alla som lärlingar igen, snirkliga, omogna och irriterade.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -2982,7 +2982,7 @@
                 ]
             },
             {
-                "text": "s_c nets them two healthy w_mp_a_p to take back to camp, but it only irritates {PRONOUN\/s_c\/poss} siblings. r_c never even got the chance to even try for a pounce - {VERB\/r_c\/are\/is} {PRONOUN\/r_c\/subject} only there to carry around s_c's prey?",
+                "text": "s_c ger dem två friska w_mp_a_p att ta tillbaka till lägret, men det irriterar bara {PRONOUN/s_c/poss} syskon. r_c fick aldrig ens chansen att ens försöka ta ett kast - {VERB/r_c/are/is} {PRONOUN/r_c/subject} bara där för att bära runt s_c:s byte?",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -3013,7 +3013,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It isn't a very successful hunt - they'll have to head out again for more soon.",
+                "text": "Det är ingen särskilt lyckad jakt - de måste snart bege sig ut igen för mer.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -3021,7 +3021,7 @@
                 ]
             },
             {
-                "text": "Perhaps hunting from the overhanging branches of a frost-swept tree wasn't their best moment, r_c concedes. The patrol has to hurry back to camp to warm {PRONOUN\/r_c\/object} up.",
+                "text": "Att jaga från de överhängande grenarna på ett frostsvept träd kanske inte var deras bästa ögonblick, medger r_c. Patrullen måste skynda tillbaka till lägret för att värma upp {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3039,9 +3039,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c still shows where cold sunk its fangs into {PRONOUN\/m_c\/subject} after an unplanned leaf-bare swim.",
-                    "reg_death": "m_c was killed by cold water - not that the swim was planned.",
-                    "lead_death": "were taken by an unexpected cold-water dunking"
+                    "scar": "m_c visar fortfarande var kylan sänkte sina huggtänder i {PRONOUN/m_c/subject} efter ett oplanerat lövbart dopp.",
+                    "reg_death": "m_c dödades av kallt vatten - inte för att simningen var planerad.",
+                    "lead_death": "togs av en oväntad kallvattendunkning"
                 },
                 "prey": [
                     "very_small"
@@ -3071,15 +3071,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Sometimes, it's just nice to hang out with {PRONOUN\/r_c\/poss} siblings. Especially when the weather has kept them in camp too often recently!",
-        "decline_text": "But sometimes, you get called back to camp instead. Ah well, another time!",
+        "intro_text": "Ibland är det bara trevligt att umgås med {PRONOUN/r_c/poss} syskon. Speciellt när vädret har hållit dem i lägret för ofta den senaste tiden!",
+        "decline_text": "Men ibland blir man kallad tillbaka till lägret istället. Aja, en annan gång!",
         "chance_of_success": 50,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "A scrubby w_tp_dl_s, a bundle of w_tp_a_p, and a patrol spent retreading all their favorite in-jokes... It's a good day.",
+                "text": "En skuren w_tp_dl_s, en bunt w_tp_a_p och en patrull ägnade åt att regummera alla sina favoritskämt... Det är en bra dag.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -3116,7 +3116,7 @@
                 ]
             },
             {
-                "text": "There's just something nice about hanging out with other warriors who'll always be there for {PRONOUN\/r_c\/object}, regardless of their similarities and differences. And they also bring back a good-sized w_mp_dl_s with some w_tp_a_p on the side for the fresh-kill pile.",
+                "text": "Det är bara något trevligt med att umgås med andra krigare som alltid kommer att finnas där för {PRONOUN/r_c/object}, oavsett deras likheter och olikheter. Och de tar också tillbaka en bra storlek w_mp_dl_s med lite w_tp_a_p på sidan för den färska dödshögen.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -3153,7 +3153,7 @@
                 ]
             },
             {
-                "text": "The siblings are proud of s_c, watching {PRONOUN\/s_c\/object} dive without a splash from the bank, popping up with prey in {PRONOUN\/s_c\/poss} jaws. Though sharing tongues afterwards is a necessity to warm up again.",
+                "text": "Syskonen är stolta över s_c, titta på {PRONOUN/s_c/object} dyka utan ett stänk från stranden, dyka upp med bytesdjur i {PRONOUN/s_c/poss} käkar. Fast att dela tungor efteråt är en nödvändighet för att värma upp igen.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -3196,7 +3196,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "They don't manage anything like the number of catches they were all expecting to get - a bit disappointing, even if they're not entirely empty-pawed.",
+                "text": "De klarar inte av något liknande antalet fångster som de alla förväntade sig att få - lite nedslående, även om de inte är helt tomma tassar.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -3227,15 +3227,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Sun's out, weakly shining, and r_c has been assigned a moderately tolerable hunting patrol - {PRONOUN\/r_c\/poss} siblings!",
-        "decline_text": "Cancel that - a border patrol needs backup.",
+        "intro_text": "Solen är ute, skiner svagt och r_c har tilldelats en måttligt tolerabel jaktpatrull - {PRONOUN/r_c/poss} syskon!",
+        "decline_text": "Avbryt det - en gränspatrull behöver backup.",
         "chance_of_success": 50,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Watching r_c execute a fantastic leap to bring down a w_mp_a_s, p_l smiles. Does r_c remember the time {PRONOUN\/r_c\/subject} tried to do that as a kitten, and stood on {PRONOUN\/r_c\/poss} own tail? The siblings laugh about it together as they move on to the next hunting ground.",
+                "text": "Att se r_c utföra ett fantastiskt språng för att få ner en w_mp_a_s, ler p_l. Kommer r_c ihåg när {PRONOUN/r_c/subject} försökte göra det som kattunge och stod på {PRONOUN/r_c/poss} egen svans? Syskonen skrattar åt det tillsammans när de går vidare till nästa jaktmark.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -3259,7 +3259,7 @@
                 ]
             },
             {
-                "text": "It's been a while since they've been on a patrol alone together, and after they catch two w_mp_dl_p and a w_tp_dl_s for the fresh-kill pile, r_c spends a bit just chasing {PRONOUN\/r_c\/poss} siblings along the shoreline, batting at each other in a moment of silliness.",
+                "text": "Det var ett tag sedan de har varit på patrull ensamma tillsammans, och efter att de fångat två w_mp_dl_p och en w_tp_dl_s för den nydödade högen, spenderar r_c lite med att jaga {PRONOUN/r_c/poss} syskon längs strandlinjen och slå på varandra i en stund av enfald.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -3283,7 +3283,7 @@
                 ]
             },
             {
-                "text": "r_c jokes that {PRONOUN\/r_c\/subject} can't possibly be related to s_c - clearly s_c was born from eels, not cats, with the way {PRONOUN\/s_c\/subject} {VERB\/s_c\/glide\/glides} through the water.",
+                "text": "r_c skämtar om att {PRONOUN/r_c/subject} omöjligen kan relateras till s_c - uppenbarligen föddes s_c från ål, inte katter, på samma sätt som {PRONOUN/s_c/subject} {VERB/s_c/glide/glides} genom vatten.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -3312,7 +3312,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Sometimes, the prey just doesn't run, and today is one of those times.",
+                "text": "Ibland springer bytet helt enkelt inte, och idag är en av de gångerna.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -3320,7 +3320,7 @@
                 ]
             },
             {
-                "text": "r_c sees a fish {PRONOUN\/r_c\/subject}'d like for the fresh-kill pile, but while perched on a rock setting up a good pounce, {PRONOUN\/r_c\/subject} {VERB\/r_c\/slip\/slips} - {PRONOUN\/r_c\/subject} {VERB\/r_c\/bob\/bobs} to the surface and splutter {PRONOUN\/r_c\/poss} way to shore, but {PRONOUN\/r_c\/poss} breath comes short and wheezing after the freezing dunking. Fleas and ticks!",
+                "text": "r_c ser en fisk som {PRONOUN/r_c/subject} skulle vilja ha till den nydödade högen, men när han sitter uppe på en sten och sätter igång ett bra kast, {PRONOUN/r_c/subject} {VERB/r_c/slip/slips} - {PRONOUN/r_c/subject} {VERB/r_c/bob/bobs} till ytan och sprutar {PRONOUN/r_c/poss} väg till stranden, men {PRONOUN/r_c/poss} andetag blir kort och väsande efter den iskalla dunkningen. Loppor och fästingar!",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3338,9 +3338,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c bears the scars from an unexpected cold dunking on a hunting patrol.",
-                    "reg_death": "m_c was killed by the cold dunking they got from a fall into the water in leaf-bare.",
-                    "lead_death": "were taken by an unexpected cold-water dunking"
+                    "scar": "m_c bär ärren från en oväntad kall dunking på en jaktpatrull.",
+                    "reg_death": "m_c dödades av den kalla dunkningen de fick av ett fall i vattnet i lövbart.",
+                    "lead_death": "togs av en oväntad kallvattendunkning"
                 },
                 "prey": [
                     "very_small"
@@ -3370,15 +3370,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The hunting patrol heads out early, coats fluffed up against the cold.",
-        "decline_text": "They encounter a dawn patrol on their way back to camp and join up with them instead.",
+        "intro_text": "Jaktpatrullen ger sig ut tidigt, rockar fluffade mot kylan.",
+        "decline_text": "De stöter på en gryningspatrull på väg tillbaka till lägret och går ihop med dem istället.",
         "chance_of_success": 50,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "p_l grabs a salt-scented w_mp_a_s that {PRONOUN\/p_l\/subject} can barely carry, and r_c congratulates {PRONOUN\/p_l\/object}, secretly wondering if {PRONOUN\/r_c\/subject}'ll ever manage to surpass {PRONOUN\/r_c\/poss} sibling's achievements.",
+                "text": "p_l tar ett saltdoftande w_mp_a_s som {PRONOUN/p_l/subject} knappt kan bära, och r_c gratulerar {PRONOUN/p_l/object} och undrar i hemlighet om {PRONOUN/r_c/subject} någonsin kommer att lyckas överträffa {PRONOUN/r_c /poss} syskons prestationer.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -3401,7 +3401,7 @@
                 ]
             },
             {
-                "text": "r_c always feels like {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} padding in p_l's footsteps, especially today, watching {PRONOUN\/p_l\/object} haul back a good catch of prey for the Clan, a contribution that just about makes up for r_c's meager offerings.",
+                "text": "r_c känns alltid som att {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} ligger i p_ls fotspår, speciellt i dag när man ser {PRONOUN/p_l/object} dra tillbaka en bra fångst av bytesdjur för klanen, en bidrag som nästan kompenserar för r_cs magra utbud.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -3426,7 +3426,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Sometimes, the prey just doesn't run, and today is one of those times.",
+                "text": "Ibland springer bytet helt enkelt inte, och idag är en av de gångerna.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3449,7 +3449,7 @@
                 ]
             },
             {
-                "text": "r_c comes down with a debilitating headache, making {PRONOUN\/r_c\/object} stagger, dizzy and weak, as {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} helped back to camp.",
+                "text": "r_c får en försvagande huvudvärk, vilket får {PRONOUN/r_c/object} att vackla, yr och svag, när {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} hjälpte tillbaka till lägret.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3506,15 +3506,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The siblings head out to one of the further hunting grounds among the swamps, a place dotted with tiny islands of higher ground, seeking dry land under their paws instead of half-frozen mud.",
-        "decline_text": "They decide to bask for a bit instead of making the long walk.",
+        "intro_text": "Syskonen beger sig ut till en av de ytterligare jaktmarkerna bland träskmarkerna, en plats översållad med små öar av högre mark, och söker torrt land under tassarna istället för halvfrusen lera.",
+        "decline_text": "De bestämmer sig för att sola sig lite istället för att ta den långa promenaden.",
         "chance_of_success": 50,
         "relationship_constraint": [
             "siblings"
         ],
         "success_outcomes": [
             {
-                "text": "Together, they collect a couple w_tp_dl_p and an old w_mp_dl_s. It should be a great patrol, returning with reasonable prey in the harsh season - but r_c is acting obnoxious and {PRONOUN\/r_c\/poss} siblings have little time or patience for it.",
+                "text": "Tillsammans samlar de ett par w_tp_dl_p och en gammal w_mp_dl_s. Det borde vara en fantastisk patrull som återvänder med rimliga byten under den hårda årstiden - men r_c uppträder motbjudande och {PRONOUN/r_c/poss} syskon har lite tid eller tålamod för det.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -3537,7 +3537,7 @@
                 ]
             },
             {
-                "text": "r_c makes a dumb comment that accidentally cuts deep. {PRONOUN\/r_c\/poss\/CAP} siblings work with {PRONOUN\/r_c\/object} long enough to bring back sufficient prey - but no longer.",
+                "text": "r_c gör en dum kommentar som av misstag skär djupt. {PRONOUN/r_c/poss/CAP} syskon arbetar med {PRONOUN/r_c/object} tillräckligt länge för att få tillbaka tillräckligt med byte - men inte längre.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -3562,7 +3562,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Today is just not their day.",
+                "text": "Idag är bara inte deras dag.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -3570,7 +3570,7 @@
                 ]
             },
             {
-                "text": "The patrol tries to hunt, but r_c keeps stopping to duck behind bushes, until it's obvious that something is actually wrong. Eww.",
+                "text": "Patrullen försöker jaga, men r_c stannar hela tiden för att ducka bakom buskar, tills det är uppenbart att något faktiskt är fel. Eww.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3607,12 +3607,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "It starts snowing soon after the patrol sets out, trying to bring back something nice for the fresh-kill pile.",
-        "decline_text": "They decide to turn back and wait until the snow dies down.",
+        "intro_text": "Det börjar snöa strax efter att patrullen ger sig ut för att försöka få tillbaka något fint till nydödshögen.",
+        "decline_text": "De bestämmer sig för att vända tillbaka och vänta tills snön lagt sig.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "Despite the snow, the patrol manages to hunt successfully, finding the swamp still busy with birds oblivious to leaf-bare. With the wetlands to provide there's more than enough to bring a good haul back to c_n, and as p_l leads them home there's a sense of security and competence driving them onwards.",
+                "text": "Trots snön lyckas patrullen jaga framgångsrikt och finner att träsket fortfarande är upptaget av fåglar som inte är lövbarna. Med våtmarkerna att tillhandahålla finns det mer än tillräckligt för att få ett bra drag tillbaka till c_n, och när p_l leder dem hem finns det en känsla av säkerhet och kompetens som driver dem vidare.",
                 "exp": 10,
                 "weight": 20,
                 "prey": [
@@ -3638,7 +3638,7 @@
                 ]
             },
             {
-                "text": "Everyone looks admiringly at s_c by the end of the afternoon. Every cat carries something home, but nearly all of it was caught by s_c.",
+                "text": "Alla tittar beundrande på s_c i slutet av eftermiddagen. Varje katt har med sig något hem, men nästan allt fångades av s_c.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -3667,7 +3667,7 @@
                 ]
             },
             {
-                "text": "s_c really keeps the patrol on task and motivated through the sharp cold of the leaf-bare morning, not through authority or commands, but with a gentle voice and compassionate understanding that encourages every cat to do their best for c_n.",
+                "text": "s_c håller verkligen patrullen på uppdrag och motiverad genom den skarpa kylan från den lövblå morgonen, inte genom auktoritet eller kommandon, utan med en mild röst och medkännande förståelse som uppmuntrar varje katt att göra sitt bästa för c_n.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -3700,7 +3700,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The prey must be hiding; the patrol catches nothing. As a snowstorm descends and visibility drops, the patrol retreats to a chump of tangled trees, their pelts and tails and legs all tightly wrapped into one indistinguishable kitty cat ball while they wait for the storm to blow over.",
+                "text": "Bytet måste gömma sig; patrullen fångar ingenting. När en snöstorm faller och sikten sjunker, drar sig patrullen tillbaka till en klumpa trassliga träd, med deras skinn, svansar och ben tätt inlindade i en oskiljbar kattboll medan de väntar på att stormen ska blåsa över.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3741,12 +3741,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "It starts snowing soon after the patrol sets out, trying to bring back something nice for the fresh-kill pile.",
-        "decline_text": "They decide to turn back and wait until the snow dies down.",
+        "intro_text": "Det börjar snöa strax efter att patrullen ger sig ut för att försöka få tillbaka något fint till nydödshögen.",
+        "decline_text": "De bestämmer sig för att vända tillbaka och vänta tills snön lagt sig.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Despite the snow, r_c manages to hunt successfully, finding the normal birds still out fishing the swamps.",
+                "text": "Trots snön lyckas r_c jaga framgångsrikt och hittar de normala fåglarna som fortfarande är ute och fiskar i träskarna.",
                 "exp": 10,
                 "weight": 20,
                 "prey": [
@@ -3754,7 +3754,7 @@
                 ]
             },
             {
-                "text": "s_c really shows {PRONOUN\/s_c\/poss} talent, bringing a nice eel back to camp for the fresh-kill pile.",
+                "text": "s_c visar verkligen talang för {PRONOUN/s_c/poss}, och tar med sig en fin ål tillbaka till lägret för att avliva högen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -3791,12 +3791,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "It starts snowing soon after the patrol sets out, trying to bring back something nice for the fresh-kill pile.",
-        "decline_text": "They decide to turn back and wait until the snow dies down.",
+        "intro_text": "Det börjar snöa strax efter att patrullen ger sig ut för att försöka få tillbaka något fint till nydödshögen.",
+        "decline_text": "De bestämmer sig för att vända tillbaka och vänta tills snön lagt sig.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. The cats retreat into a grove of trees and cuddle together, sharing what little warmth they have. Each cat takes a turn on the most exposed side of the huddle, selflessly risking themselves.",
+                "text": "En storm faller ned, plötsligt och våldsam, och sätter stopp för alla andra tankar än överlevnad. Katterna drar sig tillbaka i en träddunge och myser tillsammans och delar den lilla värme de har. Varje katt tar en sväng på den mest utsatta sidan av kramningen och riskerar sig själv.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -3818,7 +3818,7 @@
                 ]
             },
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. s_c keeps everyone's spirits up as the patrol hides in an abandoned Twolegs water-monster where the wind can't get them, until everyone is talking, shaky and unhappy, but determined not to lose hope.",
+                "text": "En storm faller ned, plötsligt och våldsam, och sätter stopp för alla andra tankar än överlevnad. s_c håller alla humör uppe när patrullen gömmer sig i ett övergivet Twolegs-vattenmonster där vinden inte kan få dem, tills alla pratar, skakiga och olyckliga, men fast beslutna att inte tappa hoppet.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -3843,7 +3843,7 @@
                 ]
             },
             {
-                "text": "A storm descends, sudden and violent, putting an end to any other thoughts but survival. As the cats hide from the wind, s_c keeps an eye out for everyone. It's a long couple of hours, but with gentle understanding and compassion the cats make it through safely, closer than ever afterwards.",
+                "text": "En storm faller ned, plötsligt och våldsam, och sätter stopp för alla andra tankar än överlevnad. När katterna gömmer sig för vinden håller s_c utkik efter alla. Det är ett par långa timmar, men med mild förståelse och medkänsla tar sig katterna igenom säkert, närmare än någonsin efteråt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -3889,12 +3889,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches the scent of a fox. Tracking it, they find a swift fox feeding on a fish about as big as it is. The cat-sized predator definitely didn't kill this.",
-        "decline_text": "The patrol decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
+        "intro_text": "Patrullen fångar doften av en räv. När de spårar den hittar de en snabb räv som livnär sig på en fisk som är ungefär lika stor som den är. Rovdjuret i kattstorlek dödade definitivt inte detta.",
+        "decline_text": "Patrullen bestämmer sig för att inte bråka med räven. Det finns gott om fisk i floden för alla, och det är bäst att fokusera på att mata klanen istället för att bråka.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "As the patrol approaches, the swift fox spots them and backs off from the carcass with a whine. Your cats bring it home, no fuss, no worries.",
+                "text": "När patrullen närmar sig upptäcker den snabba räven dem och backar från kadavret med ett gnäll. Dina katter tar med den hem, inget krångel, inga bekymmer.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -3918,7 +3918,7 @@
                 ]
             },
             {
-                "text": "The patrol takes over the carcass without a fight, the small swift fox giving way without trouble. Still, it's hardly worth the effort, and s_c can think of better things they should be doing.",
+                "text": "Patrullen tar över kadavret utan kamp, den lilla snabba räven ger vika utan problem. ändå är det knappast värt ansträngningen, och s_c kan komma på bättre saker de borde göra.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -3945,7 +3945,7 @@
                 ]
             },
             {
-                "text": "Responsibly, s_c keeps the patrol moving once they take the fish from the unfortunate-but-unable-to-complain swift fox. They don't find anything, but with the stolen fish the afternoon hasn't been a completely wasted hunting trip.",
+                "text": "Ansvarsfullt håller s_c patrullen i rörelse när de tar fisken från den olyckliga-men-oförmögna-att-klaga sig snabba räven. De hittar ingenting, men med den stulna fisken har eftermiddagen inte varit en helt bortkastad jakttur.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -3981,7 +3981,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The swift fox gives way easily to the bigger carnivores, but the fish carcass is rotten, too rotten for the Clan cats to want to touch.",
+                "text": "Den snabba räven ger lätt vika för de större köttätarna, men fiskkadavret är ruttet, för ruttet för att klankatterna ska vilja röra vid.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -4005,7 +4005,7 @@
                 ]
             },
             {
-                "text": "The swift fox gives up the kill, but s_c pursues it anyway, until the fox turns and threatens with snapping teeth. s_c calls the rest of the patrol for backup and no one is injured, but by the time they get back to the kill a different predator has absconded with the fish.",
+                "text": "Den snabba räven ger upp dödandet, men s_c förföljer det ändå, tills räven vänder sig och hotar med knäppande tänder. s_c kallar resten av patrullen för säkerhetskopiering och ingen är skadad, men när de kommer tillbaka till döden har ett annat rovdjur avvikit med fisken.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -4055,12 +4055,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c catches the scent of a fox. Tracking it, {PRONOUN\/r_c\/subject} {VERB\/r_c\/find\/finds} a swift fox feeding on a fish about as big as it is. Roughly equal in size to r_c, the swift fox definitely didn't bring down this feast themselves.",
-        "decline_text": "r_c decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
+        "intro_text": "r_c fångar doften av en räv. Spårar den, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} en snabb räv som matar en fisk ungefär lika stor som den är. Ungefär lika stor som r_c, den snabba räven slog definitivt inte ner denna fest själv.",
+        "decline_text": "r_c bestämmer sig för att inte bråka med räven. Det finns gott om fisk i floden för alla, och det är bäst att fokusera på att mata klanen istället för att bråka.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c smaller, alone, and half its weight, but the fox has a prize {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} willing to fight for. With a prayer to StarClan, {PRONOUN\/r_c\/subject} {VERB\/r_c\/throw\/throws} {PRONOUN\/r_c\/self} into battle. The fox, already on the lookout for other predators and unwilling to lose blood over it, leaves the kill with a grumble.",
+                "text": "r_c mindre, ensam och hälften av sin vikt, men räven har ett pris {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} villig att kämpa för. Med en bön till StarClan, {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} {PRONOUN/r_c/self} i strid. Räven, som redan letar efter andra rovdjur och ovillig att tappa blod över det, lämnar dödandet med ett gnäll.",
                 "exp": 10,
                 "weight": 20,
                 "prey": [
@@ -4068,7 +4068,7 @@
                 ]
             },
             {
-                "text": "s_c uses every trick in {PRONOUN\/s_c\/poss} fighting skillset to attack the fox with no one to watch {PRONOUN\/s_c\/poss} flank, biding {PRONOUN\/s_c\/poss} time until the perfect opportunity opens up and {PRONOUN\/s_c\/subject} pounce onto the fox's back, digging in {PRONOUN\/s_c\/poss} claws. It's a wild ride through the swamp until the fox bucks {PRONOUN\/s_c\/object} off, but it wins {PRONOUN\/s_c\/subject} the fish carcass.",
+                "text": "s_c använder alla trick i {PRONOUN/s_c/poss} stridsfärdigheter för att attackera räven utan att någon kan titta på {PRONOUN/s_c/poss} flanken, bjuder {PRONOUN/s_c/poss} tid tills den perfekta möjligheten öppnar sig och {PRONOUN /s_c/subject} kastar sig på rävens rygg och gräver i {PRONOUN/s_c/poss} klor. Det är en vild åktur genom träsket tills räven tar av sig {PRONOUN/s_c/object}, men den vinner {PRONOUN/s_c/subject} fiskkroppen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -4079,7 +4079,7 @@
                 ]
             },
             {
-                "text": "In an act of daring bravery, s_c darts low to the ground, gets under its snout, and sinks {PRONOUN\/s_c\/poss} teeth into the fox's throat. But then {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} stuck, unwilling to let go and risk being bitten. {PRONOUN\/s_c\/subject\/CAP}{VERB\/s_c\/'re\/'s} dragged through the swamp, over rocks and through bushes, until the fox finally collapses and the battered s_c goes back to proudly claim the fish.",
+                "text": "I en handling av vågad tapperhet pilar s_c lågt till marken, kommer under nosen och sjunker {PRONOUN/s_c/poss} tänder i rävens hals. Men sedan fastnade {PRONOUN/s_c/subject}{VERB/s_c/'re/'s}, ovillig att släppa taget och riskera att bli biten. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} släpades genom träsket, över stenar och genom buskar, tills räven slutligen kollapsar och den misshandlade s_c går tillbaka för att stolt göra anspråk på fisken.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -4099,12 +4099,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c muscles in as the swift fox gives way to the bigger predator, but the carcass is rotten and worthless.",
+                "text": "r_c muskler i när den snabba räven ger vika för det större rovdjuret, men kadavret är ruttet och värdelöst.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The swift fox gives up the kill, but s_c pursues it anyway, until the fox turns and threatens with snapping teeth. s_c dances out of the way, but when they return, another predator has already snapped up the abandoned fish.",
+                "text": "Den snabba räven ger upp dödandet, men s_c förföljer det ändå, tills räven vänder sig och hotar med knäppande tänder. s_c dansar ur vägen, men när de kommer tillbaka har ett annat rovdjur redan snappat upp den övergivna fisken.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -4117,7 +4117,7 @@
                 ]
             },
             {
-                "text": "r_c starts arguing with the fox over the fish. Neither sees the alligator coming.",
+                "text": "r_c börjar bråka med räven om fisken. Inte heller ser alligatorn komma.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
@@ -4125,13 +4125,13 @@
                     "all_lives"
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from fighting with a swift fox.",
-                    "reg_death": "While scavenging alone, m_c was killed by a predator {PRONOUN\/m_c\/subject} didn't see.",
-                    "lead_death": "taken by an alligator"
+                    "scar": "m_c bär på ett ärr från att slåss med en snabb räv.",
+                    "reg_death": "Medan han rensade ensam dödades m_c av ett rovdjur som {PRONOUN/m_c/subject} inte såg.",
+                    "lead_death": "tagen av en alligator"
                 }
             },
             {
-                "text": "Puffed up, r_c approaches the swift fox. But there's only one of {PRONOUN\/r_c\/object}, and the fox is {PRONOUN\/r_c\/poss} equal in size and weight. Instead of running or giving it, it snarls and attacks. r_c gives just as good as {PRONOUN\/r_c\/subject} {VERB\/r_c\/get\/gets}, and both animals end up limping away from the kill.",
+                "text": "Uppblåst närmar sig r_c den snabba räven. Men det finns bara ett av {PRONOUN/r_c/object}, och räven är {PRONOUN/r_c/poss} lika i storlek och vikt. Istället för att springa eller ge den, gnyr och attackerar den. r_c ger lika bra som {PRONOUN/r_c/subject} {VERB/r_c/get/gets}, och båda djuren haltar bort från dödandet.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -4148,13 +4148,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from fighting with a swift fox.",
-                    "reg_death": "While scavenging alone, m_c was killed by a predator {PRONOUN\/m_c\/subject} didn't see.",
-                    "lead_death": "taken by an alligator"
+                    "scar": "m_c bär på ett ärr från att slåss med en snabb räv.",
+                    "reg_death": "Medan han rensade ensam dödades m_c av ett rovdjur som {PRONOUN/m_c/subject} inte såg.",
+                    "lead_death": "tagen av en alligator"
                 }
             },
             {
-                "text": "The swift fox gives up the kill, but s_c pursues it anyway, until the fox turns and threatens with snapping teeth, sinking them into s_c and giving s_c a bigger concern than scavenging a fish carcass.",
+                "text": "Den snabba räven ger upp dödandet, men s_c fullföljer det ändå, tills räven vänder sig och hotar med att knäppa tänder, sänker ner dem i s_c och ger s_c en större oro än att röja en fiskkadaver.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -4179,9 +4179,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from fighting with a swift fox.",
-                    "reg_death": "While scavenging alone, m_c was killed by a predator {PRONOUN\/m_c\/subject} didn't see.",
-                    "lead_death": "taken by an alligator"
+                    "scar": "m_c bär på ett ärr från att slåss med en snabb räv.",
+                    "reg_death": "Medan han rensade ensam dödades m_c av ett rovdjur som {PRONOUN/m_c/subject} inte såg.",
+                    "lead_death": "tagen av en alligator"
                 }
             }
         ]
@@ -4203,12 +4203,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches the scent of a fox. Tracking it, they find a kit fox fishing on a branch overlooking the shallows.",
-        "decline_text": "The patrol decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
+        "intro_text": "Patrullen fångar doften av en räv. När de spårar den hittar de en räv som fiskar på en gren med utsikt över grunden.",
+        "decline_text": "Patrullen bestämmer sig för att inte bråka med räven. Det finns gott om fisk i floden för alla, och det är bäst att fokusera på att mata klanen istället för att bråka.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The cats freeze, and carefully creep back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
+                "text": "Katterna fryser och kryper försiktigt tillbaka i skyddet. En kiträv är liten nog att oundvikligen skrämma och springa från dem, men om de spelar det här rätt... väntar de tills den lilla räven faller ner på en salamander innan de dyker upp ur buskarna. De skrämmer inte bara bort en potentiell konkurrent, de får också den extra belöningen av ett litet mellanmål.",
                 "exp": 10,
                 "weight": 20,
                 "prey": [
@@ -4232,7 +4232,7 @@
                 ]
             },
             {
-                "text": "It's a truly ridiculous power disparity, with even a single member of the patrol outweighing the little fox. The cats drive it out of c_n's swamps no trouble, but it's hardly worth the little fishy morsel they win for their efforts.",
+                "text": "Det är en verkligt löjlig maktskillnad, med till och med en enda medlem av patrullen som uppväger den lilla räven. Katterna driver ut den ur c_ns träsk inga problem, men det är knappast värt den lilla fiskbiten de vinner för sina ansträngningar.",
                 "exp": 10,
                 "weight": 5,
                 "prey": [
@@ -4256,7 +4256,7 @@
                 ]
             },
             {
-                "text": "A simple display of just how badly the kit fox is outmatched convinces it to run, and s_c carefully seeks out the little food cache the kit fox was working on, taking the minnows for the camp's fresh-kill pile.",
+                "text": "En enkel visning av hur dåligt kiträven är överträffad övertygar den om att springa, och s_c letar noggrant upp den lilla matcache som kiträven arbetade med, och tar med elritsa för lägrets nydödade hög.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -4283,7 +4283,7 @@
                 ]
             },
             {
-                "text": "It's frustrating that it only wins them a single minnow, but the patrol drives out the kit fox, and s_c reminds them that's what matters - that now the fox won't keep poaching from c_n's hunting grounds in the future.",
+                "text": "Det är frustrerande att det bara vinner dem en enda elritsa, men patrullen kör ut kiträven, och s_c påminner dem om att det är det som gäller - att nu kommer räven inte att fortsätta tjuvjakt från c_ns jaktmarker i framtiden.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -4319,7 +4319,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The cats freeze, and carefully creep back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... but not, the kit fox has spotted them, and flees from the cats. At least that's one less competitor in c_n's hunting grounds?",
+                "text": "Katterna fryser och kryper försiktigt tillbaka i skyddet. En kitträv är tillräckligt liten för att oundvikligen skrämma och fly från dem, men om de spelar detta rätt... men inte, har kiträven upptäckt dem och flyr från katterna. Det är åtminstone en konkurrent mindre på c_n:s jaktmarker?",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -4361,12 +4361,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c catches the scent of a fox. Tracking it, {PRONOUN\/r_c\/subject} {VERB\/r_c\/find\/finds} a kit fox fishing on a branch overlooking the shallows.",
-        "decline_text": "r_c decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
+        "intro_text": "r_c fångar doften av en räv. Spårar den, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} en räv som fiskar på en gren med utsikt över grunden.",
+        "decline_text": "r_c bestämmer sig för att inte bråka med räven. Det finns gott om fisk i floden för alla, och det är bäst att fokusera på att mata klanen istället för att bråka.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "r_c freezes, and carefully creeps back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
+                "text": "r_c fryser och kryper försiktigt tillbaka i skyddet. En kiträv är liten nog att oundvikligen skrämma och springa från dem, men om de spelar det här rätt... väntar de tills den lilla räven faller ner på en salamander innan de dyker upp ur buskarna. De skrämmer inte bara bort en potentiell konkurrent, de får också den extra belöningen av ett litet mellanmål.",
                 "exp": 10,
                 "weight": 20,
                 "prey": [
@@ -4374,7 +4374,7 @@
                 ]
             },
             {
-                "text": "r_c throws their weight around as the bigger predator, stealing the kit fox's lunch and driving it away from the river.",
+                "text": "r_c kastar sin vikt runt som det större rovdjuret, stjäl kiträvens lunch och driver bort den från floden.",
                 "exp": 10,
                 "weight": 5,
                 "prey": [
@@ -4382,7 +4382,7 @@
                 ]
             },
             {
-                "text": "s_c uses every trick in {PRONOUN\/s_c\/poss} fighting skillset to attack the fox with no one to watch {PRONOUN\/s_c\/poss} flank, biding {PRONOUN\/s_c\/poss} time until the perfect opportunity opens up and {PRONOUN\/s_c\/subject} pounce onto the fox's back, digging in {PRONOUN\/s_c\/poss} claws. It's a wild ride through the swamp until the fox bucks {PRONOUN\/s_c\/object} off, but it wins {PRONOUN\/s_c\/subject} the fish carcass.",
+                "text": "s_c använder alla trick i {PRONOUN/s_c/poss} stridsfärdigheter för att attackera räven utan att någon kan titta på {PRONOUN/s_c/poss} flanken, bjuder {PRONOUN/s_c/poss} tid tills den perfekta möjligheten öppnar sig och {PRONOUN /s_c/subject} kastar sig på rävens rygg och gräver i {PRONOUN/s_c/poss} klor. Det är en vild åktur genom träsket tills räven tar av sig {PRONOUN/s_c/object}, men den vinner {PRONOUN/s_c/subject} fiskkroppen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -4393,7 +4393,7 @@
                 ]
             },
             {
-                "text": "In an act of daring bravery, s_c darts low to the ground, gets under its snout, and sinks {PRONOUN\/s_c\/poss} teeth into the fox's throat. But then {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} stuck, unwilling to let go and risk being bitten. {PRONOUN\/s_c\/subject\/CAP}{VERB\/s_c\/'re\/'s} dragged through the swamp, over rocks and through bushes, until the fox finally collapses and the battered s_c goes back to proudly claim the fish.",
+                "text": "I en handling av vågad tapperhet pilar s_c lågt till marken, kommer under nosen och sjunker {PRONOUN/s_c/poss} tänder i rävens hals. Men sedan fastnade {PRONOUN/s_c/subject}{VERB/s_c/'re/'s}, ovillig att släppa taget och riskera att bli biten. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} släpades genom träsket, över stenar och genom buskar, tills räven slutligen kollapsar och den misshandlade s_c går tillbaka för att stolt göra anspråk på fisken.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -4413,7 +4413,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c freezes, and carefully creeps back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... but not, the kit fox has spotted them, and flees from the cat. At least that's one less competitor in c_n's hunting grounds?",
+                "text": "r_c fryser och kryper försiktigt tillbaka i skyddet. En kitträv är tillräckligt liten för att oundvikligen skrämma och springa från dem, men om de spelar rätt... men inte, har kiträven upptäckt dem och flyr från katten. Det är åtminstone en konkurrent mindre på c_n:s jaktmarker?",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -4439,12 +4439,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches the scent of a fox. Tracking it, they find a swift fox feeding on a fish about as big as it is. The cat-sized predator definitely didn't kill this.",
-        "decline_text": "The patrol decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
+        "intro_text": "Patrullen fångar doften av en räv. När de spårar den hittar de en snabb räv som livnär sig på en fisk som är ungefär lika stor som den är. Rovdjuret i kattstorlek dödade definitivt inte detta.",
+        "decline_text": "Patrullen bestämmer sig för att inte bråka med räven. Det finns gott om fisk i floden för alla, och det är bäst att fokusera på att mata klanen istället för att bråka.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "As the patrol approaches, the swift fox spots them and backs off from the carcass with a whine. Your cats bring it home, no fuss, no worries.",
+                "text": "När patrullen närmar sig upptäcker den snabba räven dem och backar från kadavret med ett gnäll. Dina katter tar med den hem, inget krångel, inga bekymmer.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -4468,7 +4468,7 @@
                 ]
             },
             {
-                "text": "The patrol takes over the carcass without a fight, the small swift fox giving way without trouble. Still, it's hardly worth the effort, and s_c can think of better things they should be doing.",
+                "text": "Patrullen tar över kadavret utan kamp, den lilla snabba räven ger vika utan problem. ändå är det knappast värt ansträngningen, och s_c kan komma på bättre saker de borde göra.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -4495,7 +4495,7 @@
                 ]
             },
             {
-                "text": "Responsibly, s_c keeps the patrol moving once they take the fish from the unfortunate-but-unable-to-complain swift fox. They don't find anything, but with the stolen fish the afternoon hasn't been a completely wasted hunting trip.",
+                "text": "Ansvarsfullt håller s_c patrullen i rörelse när de tar fisken från den olyckliga-men-oförmögna-att-klaga sig snabba räven. De hittar ingenting, men med den stulna fisken har eftermiddagen inte varit en helt bortkastad jakttur.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -4531,7 +4531,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The swift fox gives way easily to the bigger carnivores, but the fish carcass is rotten, too rotten for the Clan cats to want to touch.",
+                "text": "Den snabba räven ger lätt vika för de större köttätarna, men fiskkadavret är ruttet, för ruttet för att klankatterna ska vilja röra vid.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -4555,7 +4555,7 @@
                 ]
             },
             {
-                "text": "The swift fox gives up the kill, but s_c pursues it anyway, until the fox turns and threatens with snapping teeth. s_c calls the rest of the patrol for backup and no one is injured, but by the time they get back to the kill a different predator has absconded with the fish.",
+                "text": "Den snabba räven ger upp dödandet, men s_c förföljer det ändå, tills räven vänder sig och hotar med knäppande tänder. s_c kallar resten av patrullen för säkerhetskopiering och ingen är skadad, men när de kommer tillbaka till döden har ett annat rovdjur avvikit med fisken.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -4605,12 +4605,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c catches the scent of a fox. Tracking it, {PRONOUN\/r_c\/subject} {VERB\/r_c\/find\/finds} a swift fox feeding on a fish about as big as it is. Roughly equal in size to r_c, the swift fox definitely didn't bring down this feast themselves.",
-        "decline_text": "r_c decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
+        "intro_text": "r_c fångar doften av en räv. Spårar den, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} en snabb räv som matar en fisk ungefär lika stor som den är. Ungefär lika stor som r_c, den snabba räven slog definitivt inte ner denna fest själv.",
+        "decline_text": "r_c bestämmer sig för att inte bråka med räven. Det finns gott om fisk i floden för alla, och det är bäst att fokusera på att mata klanen istället för att bråka.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c smaller, alone, and half its weight, but the fox has a prize {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} willing to fight for. With a prayer to StarClan, {PRONOUN\/r_c\/subject} {VERB\/r_c\/throw\/throws} {PRONOUN\/r_c\/self} into battle. The fox, already on the lookout for other predators and unwilling to lose blood over it, leaves the kill with a grumble.",
+                "text": "r_c mindre, ensam och hälften av sin vikt, men räven har ett pris {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} villig att kämpa för. Med en bön till StarClan, {PRONOUN/r_c/subject} {VERB/r_c/throw/throws} {PRONOUN/r_c/self} i strid. Räven, som redan letar efter andra rovdjur och ovillig att tappa blod över det, lämnar dödandet med ett gnäll.",
                 "exp": 10,
                 "weight": 20,
                 "prey": [
@@ -4618,7 +4618,7 @@
                 ]
             },
             {
-                "text": "s_c uses every trick in {PRONOUN\/s_c\/poss} fighting skillset to attack the fox with no one to watch {PRONOUN\/s_c\/poss} flank, biding {PRONOUN\/s_c\/poss} time until the perfect opportunity opens up and {PRONOUN\/s_c\/subject} pounce onto the fox's back, digging in {PRONOUN\/s_c\/poss} claws. It's a wild ride through the swamp until the fox bucks {PRONOUN\/s_c\/object} off, but it wins {PRONOUN\/s_c\/subject} the fish carcass.",
+                "text": "s_c använder alla trick i {PRONOUN/s_c/poss} stridsfärdigheter för att attackera räven utan att någon kan titta på {PRONOUN/s_c/poss} flanken, bjuder {PRONOUN/s_c/poss} tid tills den perfekta möjligheten öppnar sig och {PRONOUN /s_c/subject} kastar sig på rävens rygg och gräver i {PRONOUN/s_c/poss} klor. Det är en vild åktur genom träsket tills räven tar av sig {PRONOUN/s_c/object}, men den vinner {PRONOUN/s_c/subject} fiskkroppen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -4629,7 +4629,7 @@
                 ]
             },
             {
-                "text": "In an act of daring bravery, s_c darts low to the ground, gets under its snout, and sinks {PRONOUN\/s_c\/poss} teeth into the fox's throat. But then {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} stuck, unwilling to let go and risk being bitten. {PRONOUN\/s_c\/subject\/CAP}{VERB\/s_c\/'re\/'s} dragged through the swamp, over rocks and through bushes, until the fox finally collapses and the battered s_c goes back to proudly claim the fish.",
+                "text": "I en handling av vågad tapperhet pilar s_c lågt till marken, kommer under nosen och sjunker {PRONOUN/s_c/poss} tänder i rävens hals. Men sedan fastnade {PRONOUN/s_c/subject}{VERB/s_c/'re/'s}, ovillig att släppa taget och riskera att bli biten. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} släpades genom träsket, över stenar och genom buskar, tills räven slutligen kollapsar och den misshandlade s_c går tillbaka för att stolt göra anspråk på fisken.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -4649,12 +4649,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c muscles in as the swift fox gives way to the bigger predator, but the carcass is rotten and worthless.",
+                "text": "r_c muskler i när den snabba räven ger vika för det större rovdjuret, men kadavret är ruttet och värdelöst.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The swift fox gives up the kill, but s_c pursues it anyway, until the fox turns and threatens with snapping teeth. s_c dances out of the way, but when they return, another predator has already snapped up the abandoned fish.",
+                "text": "Den snabba räven ger upp dödandet, men s_c förföljer det ändå, tills räven vänder sig och hotar med knäppande tänder. s_c dansar ur vägen, men när de kommer tillbaka har ett annat rovdjur redan snappat upp den övergivna fisken.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -4667,7 +4667,7 @@
                 ]
             },
             {
-                "text": "r_c starts arguing with the fox over the fish. Neither sees the alligator coming.",
+                "text": "r_c börjar bråka med räven om fisken. Inte heller ser alligatorn komma.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
@@ -4675,13 +4675,13 @@
                     "all_lives"
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from fighting with a swift fox.",
-                    "reg_death": "While scavenging alone, m_c was killed by a predator {PRONOUN\/m_c\/subject} didn't see.",
-                    "lead_death": "taken by an alligator"
+                    "scar": "m_c bär på ett ärr från att slåss med en snabb räv.",
+                    "reg_death": "Medan han rensade ensam dödades m_c av ett rovdjur som {PRONOUN/m_c/subject} inte såg.",
+                    "lead_death": "tagen av en alligator"
                 }
             },
             {
-                "text": "Puffed up, r_c approaches the swift fox. But there's only one of {PRONOUN\/r_c\/object}, and the fox is {PRONOUN\/r_c\/poss} equal in size and weight. Instead of running or giving it, it snarls and attacks. r_c gives just as good as {PRONOUN\/r_c\/subject} {VERB\/r_c\/get\/gets}, and both animals end up limping away from the kill.",
+                "text": "Uppblåst närmar sig r_c den snabba räven. Men det finns bara ett av {PRONOUN/r_c/object}, och räven är {PRONOUN/r_c/poss} lika i storlek och vikt. Istället för att springa eller ge den, gnyr och attackerar den. r_c ger lika bra som {PRONOUN/r_c/subject} {VERB/r_c/get/gets}, och båda djuren haltar bort från dödandet.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -4698,13 +4698,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from fighting with a swift fox.",
-                    "reg_death": "While scavenging alone, m_c was killed by a predator {PRONOUN\/m_c\/subject} didn't see.",
-                    "lead_death": "taken by an alligator"
+                    "scar": "m_c bär på ett ärr från att slåss med en snabb räv.",
+                    "reg_death": "Medan han rensade ensam dödades m_c av ett rovdjur som {PRONOUN/m_c/subject} inte såg.",
+                    "lead_death": "tagen av en alligator"
                 }
             },
             {
-                "text": "The swift fox gives up the kill, but s_c pursues it anyway, until the fox turns and threatens with snapping teeth, sinking them into s_c and giving s_c a bigger concern than scavenging a fish carcass.",
+                "text": "Den snabba räven ger upp dödandet, men s_c fullföljer det ändå, tills räven vänder sig och hotar med att knäppa tänder, sänker ner dem i s_c och ger s_c en större oro än att röja en fiskkadaver.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -4729,9 +4729,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c carries a scar from fighting with a swift fox.",
-                    "reg_death": "While scavenging alone, m_c was killed by a predator {PRONOUN\/m_c\/subject} didn't see.",
-                    "lead_death": "taken by an alligator"
+                    "scar": "m_c bär på ett ärr från att slåss med en snabb räv.",
+                    "reg_death": "Medan han rensade ensam dödades m_c av ett rovdjur som {PRONOUN/m_c/subject} inte såg.",
+                    "lead_death": "tagen av en alligator"
                 }
             }
         ]
@@ -4753,12 +4753,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches the scent of a fox. Tracking it, they find a kit fox fishing on a branch overlooking the shallows.",
-        "decline_text": "The patrol decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
+        "intro_text": "Patrullen fångar doften av en räv. När de spårar den hittar de en räv som fiskar på en gren med utsikt över grunden.",
+        "decline_text": "Patrullen bestämmer sig för att inte bråka med räven. Det finns gott om fisk i floden för alla, och det är bäst att fokusera på att mata klanen istället för att bråka.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The cats freeze, and carefully creep back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
+                "text": "Katterna fryser och kryper försiktigt tillbaka i skyddet. En kiträv är liten nog att oundvikligen skrämma och springa från dem, men om de spelar det här rätt... väntar de tills den lilla räven faller ner på en salamander innan de dyker upp ur buskarna. De skrämmer inte bara bort en potentiell konkurrent, de får också den extra belöningen av ett litet mellanmål.",
                 "exp": 10,
                 "weight": 20,
                 "prey": [
@@ -4782,7 +4782,7 @@
                 ]
             },
             {
-                "text": "It's a truly ridiculous power disparity, with even a single member of the patrol outweighing the little fox. The cats drive it out of c_n's swamps no trouble, but it's hardly worth the little fishy morsel they win for their efforts.",
+                "text": "Det är en verkligt löjlig maktskillnad, med till och med en enda medlem av patrullen som uppväger den lilla räven. Katterna driver ut den ur c_ns träsk inga problem, men det är knappast värt den lilla fiskbiten de vinner för sina ansträngningar.",
                 "exp": 10,
                 "weight": 5,
                 "prey": [
@@ -4806,7 +4806,7 @@
                 ]
             },
             {
-                "text": "A simple display of just how badly the kit fox is outmatched convinces it to run, and s_c carefully seeks out the little food cache the kit fox was working on, taking the minnows for the camp's fresh-kill pile.",
+                "text": "En enkel visning av hur dåligt kiträven är överträffad övertygar den om att springa, och s_c letar noggrant upp den lilla matcache som kiträven arbetade med, och tar med elritsa för lägrets nydödade hög.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -4833,7 +4833,7 @@
                 ]
             },
             {
-                "text": "It's frustrating that it only wins them a single minnow, but the patrol drives out the kit fox, and s_c reminds them that's what matters - that now the fox won't keep poaching from c_n's hunting grounds in the future.",
+                "text": "Det är frustrerande att det bara vinner dem en enda elritsa, men patrullen kör ut kiträven, och s_c påminner dem om att det är det som gäller - att nu kommer räven inte att fortsätta tjuvjakt från c_ns jaktmarker i framtiden.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -4869,7 +4869,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The cats freeze, and carefully creep back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... but not, the kit fox has spotted them, and flees from the cats. At least that's one less competitor in c_n's hunting grounds?",
+                "text": "Katterna fryser och kryper försiktigt tillbaka i skyddet. En kitträv är tillräckligt liten för att oundvikligen skrämma och fly från dem, men om de spelar detta rätt... men inte, har kiträven upptäckt dem och flyr från katterna. Det är åtminstone en konkurrent mindre på c_n:s jaktmarker?",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -4911,12 +4911,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c catches the scent of a fox. Tracking it, {PRONOUN\/r_c\/subject} {VERB\/r_c\/find\/finds} a kit fox fishing on a branch overlooking the shallows.",
-        "decline_text": "r_c decides not to quarrel with the fox. There're plenty of fish in the river for everyone, and it's best to focus on feeding the Clan rather than quarreling.",
+        "intro_text": "r_c fångar doften av en räv. Spårar den, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} en räv som fiskar på en gren med utsikt över grunden.",
+        "decline_text": "r_c bestämmer sig för att inte bråka med räven. Det finns gott om fisk i floden för alla, och det är bäst att fokusera på att mata klanen istället för att bråka.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "r_c freezes, and carefully creeps back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... they wait until the tiny fox drops down onto a salamander before they pop out of the bushes. Not only do they scare off a potential competitor, they also get the added reward of a little snack.",
+                "text": "r_c fryser och kryper försiktigt tillbaka i skyddet. En kiträv är liten nog att oundvikligen skrämma och springa från dem, men om de spelar det här rätt... väntar de tills den lilla räven faller ner på en salamander innan de dyker upp ur buskarna. De skrämmer inte bara bort en potentiell konkurrent, de får också den extra belöningen av ett litet mellanmål.",
                 "exp": 10,
                 "weight": 20,
                 "prey": [
@@ -4924,7 +4924,7 @@
                 ]
             },
             {
-                "text": "r_c throws their weight around as the bigger predator, stealing the kit fox's lunch and driving it away from the river.",
+                "text": "r_c kastar sin vikt runt som det större rovdjuret, stjäl kiträvens lunch och driver bort den från floden.",
                 "exp": 10,
                 "weight": 5,
                 "prey": [
@@ -4932,7 +4932,7 @@
                 ]
             },
             {
-                "text": "s_c uses every trick in {PRONOUN\/s_c\/poss} fighting skillset to attack the fox with no one to watch {PRONOUN\/s_c\/poss} flank, biding {PRONOUN\/s_c\/poss} time until the perfect opportunity opens up and {PRONOUN\/s_c\/subject} pounce onto the fox's back, digging in {PRONOUN\/s_c\/poss} claws. It's a wild ride through the swamp until the fox bucks {PRONOUN\/s_c\/object} off, but it wins {PRONOUN\/s_c\/subject} the fish carcass.",
+                "text": "s_c använder alla trick i {PRONOUN/s_c/poss} stridsfärdigheter för att attackera räven utan att någon kan titta på {PRONOUN/s_c/poss} flanken, bjuder {PRONOUN/s_c/poss} tid tills den perfekta möjligheten öppnar sig och {PRONOUN /s_c/subject} kastar sig på rävens rygg och gräver i {PRONOUN/s_c/poss} klor. Det är en vild åktur genom träsket tills räven tar av sig {PRONOUN/s_c/object}, men den vinner {PRONOUN/s_c/subject} fiskkroppen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -4943,7 +4943,7 @@
                 ]
             },
             {
-                "text": "In an act of daring bravery, s_c darts low to the ground, gets under its snout, and sinks {PRONOUN\/s_c\/poss} teeth into the fox's throat. But then {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} stuck, unwilling to let go and risk being bitten. {PRONOUN\/s_c\/subject\/CAP}{VERB\/s_c\/'re\/'s} dragged through the swamp, over rocks and through bushes, until the fox finally collapses and the battered s_c goes back to proudly claim the fish.",
+                "text": "I en handling av vågad tapperhet pilar s_c lågt till marken, kommer under nosen och sjunker {PRONOUN/s_c/poss} tänder i rävens hals. Men sedan fastnade {PRONOUN/s_c/subject}{VERB/s_c/'re/'s}, ovillig att släppa taget och riskera att bli biten. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} släpades genom träsket, över stenar och genom buskar, tills räven slutligen kollapsar och den misshandlade s_c går tillbaka för att stolt göra anspråk på fisken.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -4963,7 +4963,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c freezes, and carefully creeps back into cover. A kit fox is small enough to inevitably startle and run from them, but if they play this right... but not, the kit fox has spotted them, and flees from the cat. At least that's one less competitor in c_n's hunting grounds?",
+                "text": "r_c fryser och kryper försiktigt tillbaka i skyddet. En kitträv är tillräckligt liten för att oundvikligen skrämma och springa från dem, men om de spelar rätt... men inte, har kiträven upptäckt dem och flyr från katten. Det är åtminstone en konkurrent mindre på c_n:s jaktmarker?",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -5006,11 +5006,11 @@
             "CLIMBER,2",
             "TEACHER,1"
         ],
-        "intro_text": "Amid the drab leaf-bare shaded world, a flash of brillint color above a big stream catches app1's attention.",
-        "decline_text": "It's out of the ordinary... and might be dangerous. app1 ignores it.",
+        "intro_text": "Mitt i den mörka, lövbara skuggade världen fångar en blixt av lysande färg över en stor bäck app1:s uppmärksamhet.",
+        "decline_text": "Det är utöver det vanliga... och kan vara farligt. app1 ignorerar det.",
         "success_outcomes": [
             {
-                "text": "s_c explodes from the bushes, just as much of a blur as the bird as it tries to escape, but {PRONOUN\/s_c\/poss} pounce is too high, {PRONOUN\/s_c\/poss} claws too quick. app1 tries not to look too impressed (gotta keep it cool), but that's exactly the kind of warrior {PRONOUN\/app1\/subject} {VERB\/app1\/want\/wants} to be, an astonishing hunter.",
+                "text": "s_c exploderar från buskarna, precis lika mycket oskärpa som fågeln när den försöker fly, men {PRONOUN/s_c/poss} kast är för högt, {PRONOUN/s_c/poss} klor för snabbt. app1 försöker att inte se alltför imponerad ut (måste hålla det kallt), men det är precis den typen av krigare {PRONOUN/app1/subject} {VERB/app1/want/wants} att vara, en häpnadsväckande jägare.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_sneakprey",
@@ -5055,7 +5055,7 @@
                 ]
             },
             {
-                "text": "It's only because app1 was already looking that {PRONOUN\/app1\/subject} {VERB\/app1\/spot\/spots} s_c, high on the tree above the bright bird, edging forward carefully and steathily. app1 freezes, watching. s_c descends on the kingfisher from the one direction it wasn't watching, behind and above it, letting momentum do the work of killing as the apprentice watches with shining eyes.",
+                "text": "Det är bara för att app1 redan tittade på det där {PRONOUN/app1/subject} {VERB/app1/spot/spots} s_c, högt på trädet ovanför den ljusa fågeln, som försiktigt och steathily kantar sig framåt. app1 fryser, tittar. s_c går ner på kungsfiskaren från det håll den inte tittade på, bakom och ovanför den, och låter farten göra jobbet att döda när lärlingen tittar på med lysande ögon.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_sneakprey",
@@ -5100,7 +5100,7 @@
                 ]
             },
             {
-                "text": "A kingfisher, p_l whispers from app1's side. They'll take it down together, next time it dives for something in the stream. It's a good plan, and though they have to quickly warm up afterwards, sharing tongues to get cold water off pelts, they win a nice prize for the fresh-kill pile.",
+                "text": "En kungsfiskare, p_l viskar från app1:s sida. De tar ner den tillsammans nästa gång den dyker efter något i bäcken. Det är en bra plan, och även om de snabbt måste värma upp efteråt och dela tungor för att få bort kallt vatten från skinn, vinner de ett fint pris för den nydödade högen.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_sunny6",
@@ -5145,7 +5145,7 @@
                 ]
             },
             {
-                "text": "The patrol brings down the kingfisher in a flurry of feathers, and as app1 regains {PRONOUN\/app1\/poss} breath, s_c smiles, putting a paw on the bird. For a half-moon each year around the shortest day, the storms will not come, and that is when the kingfishers lay their eggs, in the halcyon days.",
+                "text": "Patrullen fäller kungsfiskaren i ett virvel av fjädrar, och när app1 återfår {PRONOUN/app1/poss} andedräkt, ler s_c och sätter en tass på fågeln. För en halvmåne varje år runt den kortaste dagen kommer inte stormarna, och det är då kungsfiskarna lägger sina ägg, i halcyon-dagarna.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_sneakprey",
@@ -5190,7 +5190,7 @@
                 ]
             },
             {
-                "text": "The patrol brings down the kingfisher in a flurry of feathers. As app1 regains {PRONOUN\/app1\/poss} breath, p_l scoffs. Don't let anyone tell you foolish myths of halcyon days, app1. Kingfishers nest not in the dead of leaf-bare, but in newleaf, like most birds.",
+                "text": "Patrullen fäller kungsfiskaren i ett virvel av fjädrar. När app1 återfår {PRONOUN/app1/poss} andetag, hånar p_l. Låt ingen berätta dumma myter om halcyon dagar, app1. Kungsfiskare häckar inte i döda blad, utan i nybladiga, som de flesta fåglar.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_sneakprey",
@@ -5235,7 +5235,7 @@
                 ]
             },
             {
-                "text": "It's a kingfisher, p_l whispers. Go on, give it a shot. app1 creeps closer, easily tracking the bright bird in the foliage, but the kingfisher has its own hunt. It dips into the frosty stream, and comes up with a small frog held in its beak. A twig snaps under app1's paw, and the bird flees - but it leaves the frog behind for app1 to take!",
+                "text": "Det är en kungsfiskare, viskar p_l. Fortsätt, ge det ett försök. app1 kryper närmare och spårar lätt den ljusa fågeln i lövverket, men kungsfiskaren har sin egen jakt. Den faller ner i den frostiga bäcken och kommer upp med en liten groda som hålls i näbben. En kvist knäpper under app1s tass och fågeln flyr - men den lämnar grodan bakom sig för app1 att ta!",
                 "exp": 30,
                 "weight": 1,
                 "art": "gen_train_sneakprey",
@@ -5262,7 +5262,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 tilts {PRONOUN\/app1\/poss} head, confused at the sudden splash of color in a cold world. The kingfisher sees the movement, and flies off. Drat.",
+                "text": "app1 lutar huvudet på {PRONOUN/app1/poss}, förvirrad över det plötsliga färgstänket i en kall värld. Kungsfiskaren ser rörelsen och flyger iväg. Drat.",
                 "exp": 0,
                 "weight": 10,
                 "relationships": [
@@ -5282,7 +5282,7 @@
                 ]
             },
             {
-                "text": "Trying to catch the kingfisher, app1 misjudges {PRONOUN\/app1\/poss} pounce and has to be hauled out of the freezing stream by {PRONOUN\/app1\/poss} scruff. It's neither dignified nor comfortable.",
+                "text": "I ett försök att fånga kungsfiskaren missbedömer app1 {PRONOUN/app1/poss} kast och måste dras ut ur den iskalla strömmen av {PRONOUN/app1/poss} scruff. Det är varken värdigt eller bekvämt.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -5297,9 +5297,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred from the bite of the cold stream {PRONOUN\/m_c\/subject} fell into as an apprentice.",
-                    "reg_death": "Falling into a cold stream gave m_c problems that eventually resulted in {PRONOUN\/m_c\/poss} death.",
-                    "lead_death": "falling into a cold stream gave m_c problems that eventually resulted in {PRONOUN\/m_c\/poss} death"
+                    "scar": "m_c fick ärr efter bettet från den kalla strömmen {PRONOUN/m_c/subject} föll i som lärling.",
+                    "reg_death": "Att falla i en kall ström gav m_c-problem som till slut resulterade i {PRONOUN/m_c/poss} död.",
+                    "lead_death": "fall i en kall ström gav m_c problem som till slut resulterade i {PRONOUN/m_c/poss} död"
                 }
             }
         ]

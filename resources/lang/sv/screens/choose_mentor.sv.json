@@ -1,28 +1,28 @@
 {
     "sv": {
-        "heading": "Choose a new mentor for m_c",
-        "info": "If an apprentice is 6 moons old and their mentor is changed, they will not be listed as a former apprentice on their old mentor's profile. Apprentices without a mentor will have one automatically assigned next moon. An apprentice's mentor can have an influence on their trait and skill later in life.\nChoose your mentors wisely.",
+        "heading": "Välj en ny mentor för m_c",
+        "info": "Om en lärling är 6 månader gammal och deras mentor byts, kommer de inte att listas som en före detta lärling på sin gamla mentors profil. Lärlingar utan mentor kommer att få en automatiskt tilldelad nästa måne. En lärlings mentor kan ha inflytande på deras egenskaper och skicklighet senare i livet.\nVälj dina mentorer klokt.",
         "current_mentor": {
-            "zero": "m_c does not have a mentor",
-            "one": "m_c's current mentor is r_c"
+            "zero": "m_c har ingen mentor",
+            "one": "m_cs nuvarande mentor är r_c"
         },
-        "set_mentor": "Confirm Mentor",
-        "unset_mentor": "Remove Mentor",
-        "current_mentor_warning": "Current mentor selected",
-        "no_mentor_warning": "<font color=#FF0000>No mentor selected<\/font>",
-        "no_current_apprentices": "No current apprentices",
-        "no_current_apprentices_tooltip": "Only show mentors with no current apprentices",
-        "no_former_apprentices": "No former apprentices",
-        "no_former_apprentices_tooltip": "Only show mentors who have not had an apprentice",
+        "set_mentor": "Bekräfta mentor",
+        "unset_mentor": "Ta bort Mentor",
+        "current_mentor_warning": "Nuvarande mentor vald",
+        "no_mentor_warning": "<font color=#FF0000>Ingen mentor har valts</font>",
+        "no_current_apprentices": "Inga nuvarande lärlingar",
+        "no_current_apprentices_tooltip": "Visa endast mentorer utan nuvarande lärlingar",
+        "no_former_apprentices": "Inga tidigare lärlingar",
+        "no_former_apprentices_tooltip": "Visa endast mentorer som inte har haft en lärling",
         "former_apps": {
             "zero": "",
-            "one": "\n%{count} former app",
-            "many": "\n%{count} former apps"
+            "one": "%{count} tidigare app",
+            "many": "%{count} tidigare appar"
         },
         "current_apps": {
             "zero": "",
-            "one": "\n%{count} current app",
-            "many": "\n%{count} current apps"
+            "one": "%{count} aktuell app",
+            "many": "%{count} aktuella appar"
         }
     }
 }

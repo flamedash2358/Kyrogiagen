@@ -8,7 +8,7 @@
             "any"
         ],
         "weight": 30,
-        "event_text": "m_c was running around excitedly on patrol when {PRONOUN\/m_c\/poss} paw landed right in a rabbit hole, twisting uncomfortably. {PRONOUN\/m_c\/subject\/CAP} limped the whole way home.",
+        "event_text": "m_c sprang runt upprymt på patrull när {PRONOUN/m_c/poss} tass landade precis i ett kaninhål och vred sig obehagligt. {PRONOUN/m_c/subject/CAP} haltade hela vägen hem.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -41,7 +41,7 @@
             "any"
         ],
         "weight": 30,
-        "event_text": "m_c was practicing {PRONOUN\/m_c\/poss} tree climbing skills when {PRONOUN\/m_c\/subject} slipped from a branch! Thankfully {PRONOUN\/m_c\/subject} survived, though badly injured.",
+        "event_text": "m_c tränade på {PRONOUN/m_c/poss} trädklättringsfärdigheter när {PRONOUN/m_c/subject} gled från en gren! Tack och lov överlevde {PRONOUN/m_c/subject}, även om de var svårt skadade.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -65,8 +65,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred after falling from a tree.",
-                "reg_death": "m_c died from {PRONOUN\/m_c\/poss} wounds after falling from a tree."
+                "scar": "m_c var ärrad efter att ha fallit från ett träd.",
+                "reg_death": "m_c dog av {PRONOUN/m_c/poss} sår efter att ha fallit från ett träd."
             }
         ]
     },
@@ -80,7 +80,7 @@
         ],
         "tags": [],
         "weight": 30,
-        "event_text": "m_c was hunting on a night patrol and nearly got carried off by an owl! {PRONOUN\/m_c\/subject\/CAP}{VERB\/m_c\/'re\/'s} alive, but with many a scratch as proof of {PRONOUN\/m_c\/poss} adventure.",
+        "event_text": "m_c jagade på en nattpatrull och blev nästan buren av en uggla! {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} vid liv, men med många repor som bevis på äventyret {PRONOUN/m_c/poss}.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -104,8 +104,8 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred after an owl tried to carry {PRONOUN\/m_c\/object} off.",
-                "reg_death": "m_c died from {PRONOUN\/m_c\/poss} wounds after an owl tried to carry {PRONOUN\/m_c\/object} off."
+                "scar": "m_c var ärrad efter att en uggla försökte bära av sig {PRONOUN/m_c/object}.",
+                "reg_death": "m_c dog av {PRONOUN/m_c/poss} sår efter att en uggla försökte bära bort {PRONOUN/m_c/object}."
             }
         ]
     },
@@ -118,7 +118,7 @@
             "any"
         ],
         "weight": 30,
-        "event_text": "r_c dares m_c to climb one of the tallest trees in the territory. m_c gets pretty high, but a branch breaks and it's a long way to the ground. r_c goes sprinting for camp to get help.",
+        "event_text": "r_c vågar m_c klättra i ett av de högsta träden i territoriet. m_c blir ganska hög, men en gren går sönder och det är långt till marken. r_c springer till lägret för att få hjälp.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -150,7 +150,7 @@
                 "cats": [
                     "m_c"
                 ],
-                "reg_death": "m_c died from {PRONOUN\/m_c\/poss} wounds after falling from a tall tree and breaking {PRONOUN\/m_c\/poss} back."
+                "reg_death": "m_c dog av {PRONOUN/m_c/poss} sår efter att ha fallit från ett högt träd och brutit {PRONOUN/m_c/poss} ryggen."
             }
         ],
         "relationships": [
@@ -191,7 +191,7 @@
             "any"
         ],
         "weight": 30,
-        "event_text": "m_c was pushing through some dense shrubs and felt the branches tear painfully at {PRONOUN\/m_c\/poss} pelt.",
+        "event_text": "m_c trängde igenom några täta buskar och kände hur grenarna rivas smärtsamt vid {PRONOUN/m_c/poss} päls.",
         "m_c": {
             "age": [
                 "any"
@@ -222,7 +222,7 @@
             "any"
         ],
         "weight": 30,
-        "event_text": "m_c's tail was badly injured by a falling tree.",
+        "event_text": "m_c:s svans skadades svårt av ett fallande träd.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -250,9 +250,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c was scarred by a falling tree.",
-                "reg_death": "m_c died from {PRONOUN\/m_c\/poss} wounds after a tree fell on {PRONOUN\/m_c\/object}.",
-                "lead_death": "died from {PRONOUN\/m_c\/poss} wounds after a tree fell on {PRONOUN\/m_c\/object}"
+                "scar": "m_c fick ärr av ett fallande träd.",
+                "reg_death": "m_c dog av {PRONOUN/m_c/poss} sår efter att ett träd föll på {PRONOUN/m_c/object}.",
+                "lead_death": "dog av {PRONOUN/m_c/poss} sår efter att ett träd föll på {PRONOUN/m_c/object}"
             }
         ]
     },
@@ -265,7 +265,7 @@
             "greenleaf"
         ],
         "weight": 30,
-        "event_text": "A fire rages through the forest. m_c manages to escape, though not unscathed by the experience.",
+        "event_text": "En eld rasar genom skogen. m_c lyckas fly, men inte oskadd av upplevelsen.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -294,9 +294,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c's pelt was burned by a forest fire.",
-                "reg_death": "m_c died from {PRONOUN\/m_c\/poss} burns after a forest fire.",
-                "lead_death": "died from {PRONOUN\/m_c\/poss} burns after a forest fire"
+                "scar": "m_c:s skinn brändes av en skogsbrand.",
+                "reg_death": "m_c dog av {PRONOUN/m_c/poss} brännskador efter en skogsbrand.",
+                "lead_death": "dog av {PRONOUN/m_c/poss} brännskador efter en skogsbrand"
             }
         ]
     },
@@ -309,7 +309,7 @@
             "greenleaf"
         ],
         "weight": 30,
-        "event_text": "The dry greenleaf weather leads to a fire bursting to life in camp, dangerously close to the nursery. There's still one kit inside! m_c dives into the den and makes it out, burnt, but with r_c safely swinging in {PRONOUN\/m_c\/poss} grasp.",
+        "event_text": "Det torra gröna lövvädret leder till att en eld sprängs till liv i lägret, farligt nära plantskolan. Det finns fortfarande ett kit inuti! m_c dyker ner i hålan och tar sig ut, bränd, men med r_c säkert svängande i {PRONOUN/m_c/poss} grepp.",
         "m_c": {
             "age": [
                 "adolescent",
@@ -353,9 +353,9 @@
                 "cats": [
                     "m_c"
                 ],
-                "scar": "m_c's pelt was burned by a forest fire.",
-                "reg_death": "m_c died from {PRONOUN\/m_c\/poss} burns after a forest fire.",
-                "lead_death": "died from {PRONOUN\/m_c\/poss} burns after a forest fire"
+                "scar": "m_c:s skinn brändes av en skogsbrand.",
+                "reg_death": "m_c dog av {PRONOUN/m_c/poss} brännskador efter en skogsbrand.",
+                "lead_death": "dog av {PRONOUN/m_c/poss} brännskador efter en skogsbrand"
             }
         ],
         "relationships": [
@@ -398,7 +398,7 @@
             "leaf-bare"
         ],
         "weight": 30,
-        "event_text": "m_c and r_c talked each other into walking onto the ice of the frozen pond that lay not far from camp. It was a dare at first, but when m_c didn't immediately fall in, r_c joined {PRONOUN\/m_c\/object}. The two cats playfully slipped around for a bit before the minute cracks reached their ears. r_c fell in first, and, without thinking, m_c leaped in after {PRONOUN\/r_c\/object}. m_c was able to drag r_c out of the water and the two leaned on each other on the way back to camp.",
+        "event_text": "m_c och r_c övertalade varandra att gå ut på isen i den frusna dammen som låg inte långt från lägret. Det var en våga först, men när m_c inte direkt föll in, gick r_c med i {PRONOUN/m_c/object}. De två katterna gled lekfullt runt en stund innan minutriskorna nådde deras öron. r_c föll in först, och utan att tänka, hoppade m_c in efter {PRONOUN/r_c/object}. m_c kunde släpa upp r_c ur vattnet och de två lutade sig mot varandra på vägen tillbaka till lägret.",
         "m_c": {
             "status": [
                 "apprentice"
@@ -447,8 +447,8 @@
                     "m_c",
                     "r_c"
                 ],
-                "scar": "m_c got frostbitten after falling into a frozen pond.",
-                "reg_death": "m_c died from the cold after falling into a frozen pond."
+                "scar": "m_c blev frostbiten efter att ha fallit i en frusen damm.",
+                "reg_death": "m_c dog av kylan efter att ha fallit i en frusen damm."
             }
         ],
         "relationships": [
@@ -479,7 +479,7 @@
             "any"
         ],
         "weight": 30,
-        "event_text": "Chasing a mouse through a dense area, m_c accidentally collides with a low-hanging branch, leaving {PRONOUN\/m_c\/object} to return to camp empty-pawed and with splitting head pain.",
+        "event_text": "När m_c jagar en mus genom ett tätt område, kolliderar m_c av misstag med en lågt hängande gren, vilket lämnar {PRONOUN/m_c/object} för att återvända till lägret tomtassad och med smärta i huvudet.",
         "m_c": {
             "status": [
                 "apprentice",

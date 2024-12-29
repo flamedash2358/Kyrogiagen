@@ -21,22 +21,22 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 crouches low behind some grass, searching for the ideal prey to fall to {PRONOUN\/app1\/poss} deadly claws. In front of the mighty hunter, a brightly colored beetle alights on a rock.",
-        "decline_text": "A beetle is beneath {PRONOUN\/app1\/poss} attention.",
+        "intro_text": "app1 hukar l\u00e5gt bakom lite gr\u00e4s och letar efter det perfekta bytet att falla f\u00f6r {PRONOUN/app1/poss} d\u00f6dliga klor. Inf\u00f6r den m\u00e4ktiga j\u00e4garen stiger en f\u00e4rgglad skalbagge p\u00e5 en sten.",
+        "decline_text": "En skalbagge \u00e4r under {PRONOUN/app1/poss} uppm\u00e4rksamhet.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Ha! app1 pounces, the pathetic bug crunching underneath {PRONOUN\/app1\/poss} mighty blow, splattering and - ewwwww. Ew, ew ew ew, there's bug juice all over {PRONOUN\/app1\/poss} paws, between {PRONOUN\/app1\/poss} toes, EWWWWW!",
+                "text": "ha! app1 sl\u00e5r till, den patetiska buggen knasar under {PRONOUN/app1/poss} ett m\u00e4ktigt slag, st\u00e4nker och - ewwwww. Ew, ew ew ew, det \u00e4r insektsjuice \u00f6ver hela {PRONOUN/app1/poss} tassar, mellan {PRONOUN/app1/poss} t\u00e5rna, EWWWWW!",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "Ha! app1 leaps, tail lashing furiously as the beetle buzzes under {PRONOUN\/app1\/poss} forepaws, claws sheathed. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/bat\/bats} the bug off the rock and onto the ground, pouncing after it, jumping and twisting as {PRONOUN\/app1\/poss} colorful prey flits around {PRONOUN\/app1\/poss} head in confused, concussed beetle-behavior, unused to being an apprentice's new favorite toy.",
+                "text": "ha! app1 hoppar, svansen surrar ursinnigt n\u00e4r skalbaggen surrar under {PRONOUN/app1/poss} framtassar, klor mantlade. {PRONOUN/app1/subject/CAP} {VERB/app1/bat/fladderm\u00f6ss} buggen fr\u00e5n klippan och ner p\u00e5 marken, hoppar efter den, hoppar och vrider sig medan {PRONOUN/app1/poss} f\u00e4rgglada byten flyger runt {PRONOUN/ app1/poss} huvud i f\u00f6rvirrat, hj\u00e4rnskakat skalbaggebeteende, ovant att vara en l\u00e4rlings nya favoritleksak.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c pounces, flipping the beetle with soft paws and flopping over onto {PRONOUN\/app1\/poss} back, watching the insect scurry from one paw to the other, so completely entranced by its color and tiny, perfect legs that {PRONOUN\/app1\/subject} {VERB\/app1\/do\/does}n't notice {PRONOUN\/app1\/poss} own skill catching and keeping the bug.",
+                "text": "s_c kastar sig, v\u00e4nder skalbaggen med mjuka tassar och floppar \u00f6ver p\u00e5 {PRONOUN/app1/poss} ryggen, ser insekten springa fr\u00e5n en tass till den andra, s\u00e5 helt h\u00e4nf\u00f6rd av dess f\u00e4rg och sm\u00e5, perfekta ben att {PRONOUN/app1/ \u00e4mne} {VERB/app1/do/does}m\u00e4rker inte {PRONOUN/app1/poss} egen skicklighet f\u00e5nga och h\u00e5lla felet.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -46,12 +46,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "While app1 is wiggling {PRONOUN\/app1\/poss} butt into the perfect pouncing position, the beetle flies off. Awwwww.",
+                "text": "Medan app1 vickar med {PRONOUN/app1/poss} rumpa till den perfekta punchpositionen, flyger skalbaggen iv\u00e4g. Awwwww.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the medicine cat den later, when {PRONOUN\/app1\/poss} stomach reminds {PRONOUN\/app1\/object} why cats don't eat random bugs.",
+                "text": "Slemmigt, men \u00e4nd\u00e5 tillfredsst\u00e4llande! Nyfikenheten avslutad, app1 vandrar iv\u00e4g - men m\u00e5ste rapportera till medicinkattens h\u00e5la senare, n\u00e4r {PRONOUN/app1/poss} magen p\u00e5minner {PRONOUN/app1/object} varf\u00f6r katter inte \u00e4ter slumpm\u00e4ssiga insekter.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [

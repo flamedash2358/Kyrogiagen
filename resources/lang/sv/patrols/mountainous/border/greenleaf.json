@@ -16,22 +16,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something has left scent marks on the wrong side of the border.",
-        "decline_text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/decide\/decides} not to investigate.",
+        "intro_text": "Medan han \u00e4r p\u00e5 patrull m\u00e4rker r_c en obekant doft. N\u00e5got har l\u00e4mnat doftm\u00e4rken p\u00e5 fel sida av b\u00e5rden.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The scent leads to a trespassing rogue. r_c runs down the scree slope to see what's up with them, but the rogue turns and flees c_n territory.",
+                "text": "Doften leder till en intr\u00e5ng skurk. r_c springer nerf\u00f6r skr\u00e5backen f\u00f6r att se vad som h\u00e4nder med dem, men skurken v\u00e4nder sig och flyr fr\u00e5n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c follows the scent to a set of pawprints in a muddy gully near the border. It looks like a fox cub must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c f\u00f6ljer doften till en upps\u00e4ttning tassavtryck i en lerig r\u00e4nna n\u00e4ra gr\u00e4nsen. Det ser ut som att en r\u00e4vunge m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c sets up a trap, using an unstable slope above the cat to start a rockslide. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/yowl\/yowls} a warning and the rogue scrambles out of the way - {PRONOUN\/s_c\/subject} {VERB\/s_c\/want\/wants} to scare them, not kill them. The trespasser heeds the warning and leaves the mountains.",
+                "text": "Doften leder till en intr\u00e5ng skurk. s_c s\u00e4tter upp en f\u00e4lla och anv\u00e4nder en instabil sluttning ovanf\u00f6r katten f\u00f6r att starta ett stenskred. {PRONOUN/s_c/subject/CAP} {VERB/s_c/yowl/yowls} en varning och skurken kryper ur v\u00e4gen - {PRONOUN/s_c/subject} {VERB/s_c/want/wants} f\u00f6r att skr\u00e4mma dem, inte d\u00f6da dem. Inkr\u00e4ktaren lyssnar p\u00e5 varningen och l\u00e4mnar bergen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -39,7 +39,7 @@
                 ]
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c leaps off a rocky outcrop onto the rogue and easily overwhelms the lone cat. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/accept\/accepts} the rogue's surrender graciously and {VERB\/s_c\/escort\/escorts} them out of c_n territory.",
+                "text": "Doften leder till en intr\u00e5ng skurk. s_c hoppar fr\u00e5n en stenig klippa p\u00e5 skurken och \u00f6verv\u00e4ldigar l\u00e4tt den ensamma katten. {PRONOUN/s_c/subject/CAP} {VERB/s_c/accept/accepts} skurkens \u00f6verl\u00e4mnande n\u00e5digt och {VERB/s_c/escort/escorts} dem ut ur c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -47,7 +47,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the scent to a trespassing rogue and confronts them, pointing out the clearly-marked border which the rogue has crossed. From {PRONOUN\/s_c\/poss} perch on a high rock above the rogue, {PRONOUN\/s_c\/subject} {VERB\/s_c\/listen\/listens} to the rogue stutter out an explanation and a quick apology, unimpressed and confident in {PRONOUN\/s_c\/poss} own strength.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c doften till en inkr\u00e4ktande skurk och konfronterar dem och pekar ut den tydligt markerade gr\u00e4nsen som skurken har passerat. Fr\u00e5n {PRONOUN/s_c/poss} sitta p\u00e5 en h\u00f6g sten ovanf\u00f6r skurkarna, {PRONOUN/s_c/subject} {VERB/s_c/listen/listens} till skurken stammar ut en f\u00f6rklaring och en snabb urs\u00e4kt, oimponerad och s\u00e4ker p\u00e5 { PRONOUN/s_c/poss} egen styrka.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -69,12 +69,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The strange scent leads to a stinky dogwood tree, newly in bloom... r_c huffs with embarrassment, suddenly grateful {PRONOUN\/r_c\/subject} {VERB\/r_c\/are\/is} alone.",
+                "text": "Den m\u00e4rkliga doften leder till ett illaluktande korneltr\u00e4d, nyligen i blom... r_c huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam {PRONOMEN/r_c/subject} {VERB/r_c/are/is} ensam.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c tries to set up a trap by starting a rockslide, but {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}n't as smart as {PRONOUN\/s_c\/subject} {VERB\/s_c\/think\/thinks} {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}. The trap fails, and the rogue wanders on.",
+                "text": "Doften leder till en intr\u00e5ng skurk. s_c f\u00f6rs\u00f6ker s\u00e4tta upp en f\u00e4lla genom att starta ett stenskred, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} \u00e4r inte lika smart som {PRONOUN/s_c/subject} {VERB/s_c/think/thinks } {PRONOUN/s_c/subject} {VERB/s_c/are/is}. F\u00e4llan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -82,20 +82,20 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow that kills {PRONOUN\/r_c\/object}.",
+                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget som d\u00f6dar {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
                 }
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow coming. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/haul\/hauls} {PRONOUN\/r_c\/self} to {PRONOUN\/r_c\/poss} feet, spitting with outrage, but the rogue that did it has already turned and run.",
+                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av uppr\u00f6rdhet, men skurken som gjorde det har redan v\u00e4nt och sprungit .",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -112,13 +112,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
                 }
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN\/s_c\/self} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN\/s_c\/subject} would like to think. The rogue escapes {PRONOUN\/s_c\/poss} grasp and runs off further into c_n territory.",
+                "text": "Doften leder till en intr\u00e5ng skurk. s_c kastar {PRONOUN/s_c/self} mot skurken, v\u00e4sande rasande, men det h\u00e4r \u00e4r en stridsh\u00e4rdad inkr\u00e4ktare, och s_c \u00e4r inte en s\u00e5 bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -149,17 +149,17 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, app1 notices an unfamiliar scent. Something has left scent marks on the wrong side of the border.",
-        "decline_text": "{PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/decide\/decides} not to investigate.",
+        "intro_text": "Under patrullering m\u00e4rker app1 en obekant doft. N\u00e5got har l\u00e4mnat doftm\u00e4rken p\u00e5 fel sida av b\u00e5rden.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte unders\u00f6ka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The scent leads to a trespassing rogue. app1 runs down the scree slope to see what's up with them, but the rogue turns and flees c_n territory. Well, they probably weren't super friendly then, app1 assumes.",
+                "text": "Doften leder till en intr\u00e5ng skurk. app1 springer nerf\u00f6r bergssluttningen f\u00f6r att se vad som h\u00e4nder med dem, men skurken v\u00e4nder sig och flyr fr\u00e5n territoriet. Nja, de var nog inte superv\u00e4nliga d\u00e5, antar app1.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "Boldly, s_c follows the scent to a trespassing rogue and confronts them. Fur puffed but ears pricked forward curiously, {PRONOUN\/s_c\/subject} {VERB\/s_c\/ask\/asks} what the rogue is doing in c_n territory. It seems to embarrass the other cat, who walks off in a huff back over the border.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c doften till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4lsen \u00e4r uppbl\u00e5st men \u00f6ronen spetsade nyfiket fram\u00e5t, {PRONOUN/s_c/subject} {VERB/s_c/ask/asks} vad skurken g\u00f6r i c_n territorium. Det verkar sk\u00e4mma ut den andra katten, som g\u00e5r iv\u00e4g i huff tillbaka \u00f6ver gr\u00e4nsen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -185,32 +185,32 @@
                 ]
             },
             {
-                "text": "app1 soon realizes that underneath the strange scent, there are pawprints smell of c_n. Someone must have wandered through this section of the border recently. In fact... {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} pretty sure this is {PRONOUN\/app1\/poss} mentor's scent. And {PRONOUN\/app1\/poss} mentor has been hinting {PRONOUN\/app1\/subject}'ll have an assessment soon.",
+                "text": "app1 inser snart att under den m\u00e4rkliga doften finns det tassavtryck som luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen. Faktum \u00e4r att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska s\u00e4ker p\u00e5 att detta \u00e4r {PRONOUN/app1/poss} mentors doft. Och mentorn f\u00f6r {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att f\u00e5 en bed\u00f6mning snart.",
                 "exp": 10,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "The strange scent leads to a stinky dogwood tree, newly in bloom... app1 huffs with embarrassment, suddenly grateful {PRONOUN\/app1\/subject} {VERB\/app1\/are\/is} alone. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/do\/does}n't want to look dumb in front of other cats.",
+                "text": "Den m\u00e4rkliga doften leder till ett illaluktande korneltr\u00e4d, nyligen i blom... app1 huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam {PRONOMEN/app1/\u00e4mne} {VERB/app1/are/\u00e4r} ensam. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inf\u00f6r andra katter.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, app1 doesn't see the blow that kills {PRONOUN\/app1\/object}.",
+                "text": "Efter sp\u00e5ret med {PRONOUN/r_c/poss} nos mot marken, ser app1 inte slaget som d\u00f6dar {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
                 }
             },
             {
-                "text": "Following the trail with {PRONOUN\/app1\/poss} nose to the ground, app1 doesn't see the blow coming. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/haul\/hauls} {PRONOUN\/app1\/self} to {PRONOUN\/app1\/poss} feet, squealing with pain, and {VERB\/app1\/run\/runs} for home.",
+                "text": "F\u00f6ljer leden med {PRONOUN/app1/poss} nos mot marken, app1 ser inte slaget komma. {PRONOUN/app1/subject/CAP} {VERB/app1/haul/hauls} {PRONOUN/app1/self} till {PRONOUN/app1/poss} f\u00f6tter, gnisslande av sm\u00e4rta och {VERB/app1/run/runs} f\u00f6r hem.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -227,9 +227,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue.",
-                    "lead_death": "{VERB\/m_c\/were\/was} killed by an invading rogue"
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
                 }
             }
         ]
@@ -256,22 +256,22 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something has left scent marks on the wrong side of the border.",
-        "decline_text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/decide\/decides} not to investigate.",
+        "intro_text": "Medan han \u00e4r p\u00e5 patrull m\u00e4rker r_c en obekant doft. N\u00e5got har l\u00e4mnat doftm\u00e4rken p\u00e5 fel sida av b\u00e5rden.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The scent leads to a trespassing rogue. The patrol runs down the scree slope to see what's up with them, but the rogue turns and flees c_n territory.",
+                "text": "Doften leder till en intr\u00e5ng skurk. Patrullen springer nerf\u00f6r branten f\u00f6r att se vad som h\u00e4nder med dem, men skurken v\u00e4nder och flyr fr\u00e5n territoriet.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c follows the scent to a set of pawprints in a muddy gully near the border. It looks like a fox cub must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c f\u00f6ljer doften till en upps\u00e4ttning tassavtryck i en lerig r\u00e4nna n\u00e4ra gr\u00e4nsen. Det ser ut som att en r\u00e4vunge m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c sets up a trap, using an unstable slope above the cat to start a rockslide. {PRONOUN\/s_c\/subject\/CAP} a warning and the rogue scrambles out of the way - {PRONOUN\/s_c\/subject} {VERB\/s_c\/want\/wants} to scare them, not kill them. The trespasser heeds the warning and leaves the mountains.",
+                "text": "Doften leder till en intr\u00e5ng skurk. s_c s\u00e4tter upp en f\u00e4lla och anv\u00e4nder en instabil sluttning ovanf\u00f6r katten f\u00f6r att starta ett stenskred. {PRONOUN/s_c/subject/CAP} en varning och skurken kryper ur v\u00e4gen - {PRONOUN/s_c/subject} {VERB/s_c/want/wants} f\u00f6r att skr\u00e4mma dem, inte d\u00f6da dem. Inkr\u00e4ktaren lyssnar p\u00e5 varningen och l\u00e4mnar bergen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -296,7 +296,7 @@
                 ]
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c leaps off a rocky outcrop onto the rogue and easily overwhelms the lone cat. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/accept\/accepts} the rogue's surrender graciously and {VERB\/s_c\/escort\/escorts} them out of c_n territory.",
+                "text": "Doften leder till en intr\u00e5ng skurk. s_c hoppar fr\u00e5n en stenig klippa p\u00e5 skurken och \u00f6verv\u00e4ldigar l\u00e4tt den ensamma katten. {PRONOUN/s_c/subject/CAP} {VERB/s_c/accept/accepts} skurkens \u00f6verl\u00e4mnande n\u00e5digt och {VERB/s_c/escort/escorts} dem ut ur c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -304,7 +304,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the scent to a trespassing rogue and confronts them, pointing out the clearly-marked border which the rogue has crossed. From {PRONOUN\/s_c\/poss} perch on a high rock above the rogue, {PRONOUN\/s_c\/subject} {VERB\/s_c\/listen\/listens} to the rogue stutter out an explanation and a quick apology, unimpressed and confident in {PRONOUN\/s_c\/poss} own strength.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c doften till en inkr\u00e4ktande skurk och konfronterar dem och pekar ut den tydligt markerade gr\u00e4nsen som skurken har passerat. Fr\u00e5n {PRONOUN/s_c/poss} sitta p\u00e5 en h\u00f6g sten ovanf\u00f6r skurkarna, {PRONOUN/s_c/subject} {VERB/s_c/listen/listens} till skurken stammar ut en f\u00f6rklaring och en snabb urs\u00e4kt, oimponerad och s\u00e4ker p\u00e5 { PRONOUN/s_c/poss} egen styrka.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -326,12 +326,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The strange scent leads to a stinky dogwood tree, newly in bloom... r_c huffs with embarrassment, suddenly grateful that {PRONOUN\/r_c\/poss} patrol is so small. Fewer eyes watching that embarrassing moment.",
+                "text": "Den m\u00e4rkliga doften leder till ett illaluktande korneltr\u00e4d, nyligen i blom... r_c huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam \u00f6ver att {PRONOUN/r_c/poss} patrull \u00e4r s\u00e5 liten. F\u00e4rre \u00f6gon som ser det pinsamma \u00f6gonblicket.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c tries to set up a trap by starting a rockslide, but {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}n't as smart as {PRONOUN\/s_c\/subject} {VERB\/s_c\/think\/thinks} {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}. The trap fails, and the rogue wanders on.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c f\u00f6rs\u00f6ker s\u00e4tta upp en f\u00e4lla genom att starta ett stenskred, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} \u00e4r inte lika smart som {PRONOUN/s_c/subject} {VERB/s_c/think/thinks } {PRONOUN/s_c/subject} {VERB/s_c/are/is}. F\u00e4llan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -339,7 +339,7 @@
                 ]
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN\/s_c\/self} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN\/s_c\/subject} would like to think. The rogue escapes {PRONOUN\/s_c\/poss} grasp and runs off further into c_n territory.",
+                "text": "Doften leder till en intr\u00e5ng skurk. s_c kastar {PRONOUN/s_c/self} mot skurken, v\u00e4sande rasande, men det h\u00e4r \u00e4r en stridsh\u00e4rdad inkr\u00e4ktare, och s_c \u00e4r inte en s\u00e5 bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -364,7 +364,7 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow coming. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/haul\/hauls} {PRONOUN\/r_c\/self} to {PRONOUN\/r_c\/poss} feet, spitting with outrage, but the rogue that did it has already turned and run from the patrol.",
+                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av uppr\u00f6rdhet, men skurken som gjorde det har redan v\u00e4nt och sprungit fr\u00e5n patrullen.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -381,7 +381,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue."
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk."
                 }
             }
         ]
@@ -408,12 +408,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, app1 notices an unfamiliar scent. Something has left scent marks on the wrong side of the border.",
-        "decline_text": "{PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/decide\/decides} not to investigate.",
+        "intro_text": "Under patrullering m\u00e4rker app1 en obekant doft. N\u00e5got har l\u00e4mnat doftm\u00e4rken p\u00e5 fel sida av b\u00e5rden.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte unders\u00f6ka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The scent leads to a trespassing rogue. The patrol runs down the scree slope to see what's up with them, but the rogue turns and flees c_n territory.",
+                "text": "Doften leder till en intr\u00e5ng skurk. Patrullen springer nerf\u00f6r branten f\u00f6r att se vad som h\u00e4nder med dem, men skurken v\u00e4nder och flyr fr\u00e5n territoriet.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -435,7 +435,7 @@
                 ]
             },
             {
-                "text": "app1 soon realizes that underneath the strange scent, there are pawprints smell of c_n. Someone must have wandered through this section of the border recently. In fact... {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} pretty sure this is {PRONOUN\/app1\/poss} mentor's scent. And {PRONOUN\/app1\/poss} mentor has been hinting {PRONOUN\/app1\/subject}'ll have an assessment soon.",
+                "text": "app1 inser snart att under den m\u00e4rkliga doften finns det tassavtryck som luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen. Faktum \u00e4r att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska s\u00e4ker p\u00e5 att detta \u00e4r {PRONOUN/app1/poss} mentors doft. Och mentorn f\u00f6r {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att f\u00e5 en bed\u00f6mning snart.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -459,7 +459,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The strange scent leads to a stinky dogwood tree, newly in bloom... app1 huffs with embarrassment, suddenly grateful that {PRONOUN\/app1\/poss} patrol is so small. Fewer eyes watching that embarrassing moment. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/do\/does}n't don't want to look dumb in front of other cats.",
+                "text": "Den m\u00e4rkliga doften leder till ett illaluktande korneltr\u00e4d, nyligen i blom... app1 huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam \u00f6ver att {PRONOUN/app1/poss} patrull \u00e4r s\u00e5 liten. F\u00e4rre \u00f6gon som ser det pinsamma \u00f6gonblicket. {PRONOUN/app1/subject/CAP} {VERB/app1/do/does} jag vill inte se dum ut inf\u00f6r andra katter.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -481,7 +481,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the scent to a trespassing rogue and confronts them. Fur puffed but ears pricked forward curiously, {PRONOUN\/s_c\/subject} {VERB\/s_c\/ask\/asks} what the rogue is doing in c_n territory. It seems to embarrass the other cat, who walks off in a huff back over the border.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c doften till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4lsen \u00e4r uppbl\u00e5st men \u00f6ronen spetsade nyfiket fram\u00e5t, {PRONOUN/s_c/subject} {VERB/s_c/ask/asks} vad skurken g\u00f6r i c_n territorium. Det verkar sk\u00e4mma ut den andra katten, som g\u00e5r iv\u00e4g i huff tillbaka \u00f6ver gr\u00e4nsen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -524,7 +524,7 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/app1\/poss} nose to the ground, app1 doesn't see the blow coming. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/haul\/hauls} {PRONOUN\/app1\/self} to {PRONOUN\/app1\/poss} feet, squealing with pain, and {VERB\/app1\/run\/runs} for home.",
+                "text": "F\u00f6ljer leden med {PRONOUN/app1/poss} nos mot marken, app1 ser inte slaget komma. {PRONOUN/app1/subject/CAP} {VERB/app1/haul/hauls} {PRONOUN/app1/self} till {PRONOUN/app1/poss} f\u00f6tter, gnisslande av sm\u00e4rta och {VERB/app1/run/runs} f\u00f6r hem.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -541,7 +541,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue."
+                    "scar": "m_c var \u00e4rrad av en invaderande skurk."
                 },
                 "relationships": [
                     {
@@ -580,22 +580,22 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something has left scent marks on the wrong side of the border.",
-        "decline_text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/decide\/decides} decide not to investigate.",
+        "intro_text": "Medan han \u00e4r p\u00e5 patrull m\u00e4rker r_c en obekant doft. N\u00e5got har l\u00e4mnat doftm\u00e4rken p\u00e5 fel sida av b\u00e5rden.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} best\u00e4mmer sig f\u00f6r att inte unders\u00f6ka.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "The scent leads to a trespassing rogue. The patrol runs down the scree slope to see what's up with them, but the rogue turns and flees c_n territory.",
+                "text": "Doften leder till en intr\u00e5ng skurk. Patrullen springer nerf\u00f6r branten f\u00f6r att se vad som h\u00e4nder med dem, men skurken v\u00e4nder och flyr fr\u00e5n territoriet.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c follows the scent to a set of pawprints in a muddy gully near the border. It looks like a fox cub must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c f\u00f6ljer doften till en upps\u00e4ttning tassavtryck i en lerig r\u00e4nna n\u00e4ra gr\u00e4nsen. Det ser ut som att en r\u00e4vunge m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c leaps off a rocky outcrop onto the rogue and easily overwhelms the lone cat. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/accept\/accepts} the rogue's surrender graciously and {VERB\/s_c\/escort\/escorts} them out of c_n territory.",
+                "text": "Doften leder till en intr\u00e5ng skurk. s_c hoppar fr\u00e5n en stenig klippa p\u00e5 skurken och \u00f6verv\u00e4ldigar l\u00e4tt den ensamma katten. {PRONOUN/s_c/subject/CAP} {VERB/s_c/accept/accepts} skurkens \u00f6verl\u00e4mnande n\u00e5digt och {VERB/s_c/escort/escorts} dem ut ur c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -603,7 +603,7 @@
                 ]
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c sets up a trap, using an unstable slope above the cat to start a rockslide. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/yowl\/yowls} a warning and the rogue scrambles out of the way - {PRONOUN\/s_c\/subject} {VERB\/s_c\/want\/wants} to scare them, not kill them. The intruder leaves the mountains, and s_c's patrol is impressed by {PRONOUN\/s_c\/poss} cunning.",
+                "text": "Doften leder till en intr\u00e5ng skurk. s_c s\u00e4tter upp en f\u00e4lla och anv\u00e4nder en instabil sluttning ovanf\u00f6r katten f\u00f6r att starta ett stenskred. {PRONOUN/s_c/subject/CAP} {VERB/s_c/yowl/yowls} en varning och skurken kryper ur v\u00e4gen - {PRONOUN/s_c/subject} {VERB/s_c/want/wants} f\u00f6r att skr\u00e4mma dem, inte d\u00f6da dem. Inkr\u00e4ktaren l\u00e4mnar bergen och s_c:s patrull \u00e4r imponerad av {PRONOUN/s_c/poss} list.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -628,7 +628,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the scent to a trespassing rogue and confronts them, pointing out the clearly-marked border which the rogue has crossed. From {PRONOUN\/s_c\/poss} perch on a high rock above the rogue, {PRONOUN\/s_c\/subject} listen to the rogue stutter out an explanation and a quick apology, unimpressed and confident in {PRONOUN\/s_c\/poss} own strength.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c doften till en inkr\u00e4ktande skurk och konfronterar dem och pekar ut den tydligt markerade gr\u00e4nsen som skurken har passerat. Fr\u00e5n {PRONOUN/s_c/poss} sitta p\u00e5 en h\u00f6g klippa ovanf\u00f6r skurkarna, {PRONOUN/s_c/subject} lyssna p\u00e5 skurken stammar ut en f\u00f6rklaring och en snabb urs\u00e4kt, oimponerad och s\u00e4ker p\u00e5 {PRONOUN/s_c/poss} egen styrka .",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -650,12 +650,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The strange scent leads to a stinky dogwood tree, newly in bloom... r_c huffs with embarrassment and can't meet the eyes of the rest of the patrol.",
+                "text": "Den m\u00e4rkliga doften leder till ett illaluktande korneltr\u00e4d, nyligen i blom... r_c huffar av f\u00f6rl\u00e4genhet och kan inte m\u00f6ta \u00f6gonen p\u00e5 resten av patrullen.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The scent leads to a trespassing rogue. s_c throws {PRONOUN\/s_c\/self} at the rogue before p_l gives the signal, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN\/s_c\/subject} would like to think. The rogue escapes {PRONOUN\/s_c\/poss} grasp and runs off further into c_n territory. s_c scrambles to {PRONOUN\/s_c\/poss} paws, the judgmental stares of the patrol clinging to {PRONOUN\/s_c\/poss} pelt.",
+                "text": "Doften leder till en intr\u00e5ng skurk. s_c kastar {PRONOUN/s_c/self} p\u00e5 skurken innan p_l ger signalen, v\u00e4sande rasande, men det h\u00e4r \u00e4r en stridsh\u00e4rdad inkr\u00e4ktare, och s_c \u00e4r inte en s\u00e5 bra fighter som {PRONOUN/s_c/subject} skulle vilja att t\u00e4nka. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium. s_c kl\u00e4ttrar till {PRONOUN/s_c/poss} tassar, patrullens d\u00f6mande blickar klamrar sig fast vid {PRONOUN/s_c/poss} p\u00e4ls.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -680,7 +680,7 @@
                 ]
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c tries to set up a trap by starting a rockslide, but {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}n't as smart as {PRONOUN\/s_c\/subject} {VERB\/s_c\/think\/thinks} {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}. The trap fails, and the rogue wanders on.",
+                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c f\u00f6rs\u00f6ker s\u00e4tta upp en f\u00e4lla genom att starta ett stenskred, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} \u00e4r inte lika smart som {PRONOUN/s_c/subject} {VERB/s_c/think/thinks } {PRONOUN/s_c/subject} {VERB/s_c/are/is}. F\u00e4llan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -711,12 +711,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices an unfamiliar scent. Something has left scent marks on the wrong side of the border.",
-        "decline_text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/decide\/decides} not to investigate.",
+        "intro_text": "Medan han \u00e4r p\u00e5 patrull m\u00e4rker r_c en obekant doft. N\u00e5got har l\u00e4mnat doftm\u00e4rken p\u00e5 fel sida av b\u00e5rden.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "The scent leads to a trespassing rogue. The patrol runs down the scree slope to see what's up with them, but the rogue turns and flees c_n territory.",
+                "text": "Doften leder till en intr\u00e5ng skurk. Patrullen springer nerf\u00f6r branten f\u00f6r att se vad som h\u00e4nder med dem, men skurken v\u00e4nder och flyr fr\u00e5n territoriet.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -738,7 +738,7 @@
                 ]
             },
             {
-                "text": "app1 soon realizes that underneath the strange scent, there are pawprints smell of c_n. Someone must have wandered through this section of the border recently. In fact... {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} pretty sure this is {PRONOUN\/app1\/poss} mentor's scent. And {PRONOUN\/app1\/poss} mentor has been hinting {PRONOUN\/app1\/subject}'ll have an assessment soon.",
+                "text": "app1 inser snart att under den m\u00e4rkliga doften finns det tassavtryck som luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen. Faktum \u00e4r att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska s\u00e4ker p\u00e5 att detta \u00e4r {PRONOUN/app1/poss} mentors doft. Och mentorn f\u00f6r {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att f\u00e5 en bed\u00f6mning snart.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -762,7 +762,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The strange scent leads to a stinky dogwood tree, newly in bloom... app1 huffs with embarrassment and can't meet the eyes of the rest of the patrol. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/do\/does}n't want to look dumb in front of other cats.",
+                "text": "Den m\u00e4rkliga doften leder till ett illaluktande korneltr\u00e4d, nyligen i blom... app1 huffar av f\u00f6rl\u00e4genhet och kan inte m\u00f6ta \u00f6gonen p\u00e5 resten av patrullen. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inf\u00f6r andra katter.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -784,7 +784,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the scent to a trespassing rogue and confronts them. Fur puffed but ears pricked forward curiously, {PRONOUN\/s_c\/subject} {VERB\/s_c\/ask\/asks} what the rogue is doing in c_n territory. It seems to embarrass the other cat, who walks off in a huff back over the border.",
+                "text": "Dj\u00e4rvt f\u00f6ljer s_c doften till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4lsen \u00e4r uppbl\u00e5st men \u00f6ronen spetsade nyfiket fram\u00e5t, {PRONOUN/s_c/subject} {VERB/s_c/ask/asks} vad skurken g\u00f6r i c_n territorium. Det verkar sk\u00e4mma ut den andra katten, som g\u00e5r iv\u00e4g i huff tillbaka \u00f6ver gr\u00e4nsen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -845,17 +845,17 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c looks at the small stream {PRONOUN\/r_c\/subject} {VERB\/r_c\/have\/has} to cross to continue on to mark the border and {VERB\/r_c\/debate\/debates} if {PRONOUN\/r_c\/subject} should stop for a quick swim to cool off.",
-        "decline_text": "r_c decides to continue with the patrol instead.",
+        "intro_text": "r_c tittar p\u00e5 den lilla b\u00e4cken {PRONOUN/r_c/subject} {VERB/r_c/have/has} att korsa f\u00f6r att forts\u00e4tta f\u00f6r att markera gr\u00e4nsen och {VERB/r_c/debate/debates} om {PRONOUN/r_c/subject} ska stanna f\u00f6r ett snabbt dopp f\u00f6r att svalka dig.",
+        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att forts\u00e4tta med patrullen ist\u00e4llet.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/stop\/stops} to swim for a few moments and {VERB\/r_c\/feel\/feels} rejuvenated, cooled, and ready to continue.",
+                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/stop/stops} f\u00f6r att simma en stund och {VERB/r_c/feel/feels} f\u00f6ryngrad, kyld och redo att forts\u00e4tta.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/stick\/sticks} to {PRONOUN\/r_c\/poss} task, although instead of leaping the little stream, r_c wades through it. The water cools {PRONOUN\/r_c\/poss} paws pleasantly.",
+                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/stick/sticks} till uppgiften {PRONOUN/r_c/poss}, men ist\u00e4llet f\u00f6r att hoppa \u00f6ver den lilla b\u00e4cken, vadar r_c genom den. Vattnet kyler {PRONOUN/r_c/poss} tassar behagligt.",
                 "exp": 5,
                 "weight": 20,
                 "stat_trait": [
@@ -870,7 +870,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/get\/gets} distracted while splashing in the water. r_c swears {PRONOUN\/r_c\/subject} saw a fish, but it derails {PRONOUN\/r_c\/poss} border patrol completely, and {PRONOUN\/r_c\/subject} {VERB\/r_c\/get\/gets} nothing done.",
+                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/get/gets} distraherad n\u00e4r du plaskar i vattnet. r_c sv\u00e4r att {PRONOUN/r_c/subject} s\u00e5g en fisk, men den sp\u00e5rar ur {PRONOUN/r_c/poss} gr\u00e4nspatrull helt, och {PRONOUN/r_c/subject} {VERB/r_c/get/gets} ingenting gjort.",
                 "exp": 0,
                 "weight": 20
             }

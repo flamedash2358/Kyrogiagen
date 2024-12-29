@@ -2,28 +2,28 @@
     {
         "id": "gen_dead_newborn",
         "thoughts": [
-            "Mewls pitifully for milk",
-            "Wobbles around the Dark Forest",
-            "Is crying for milk to no avail",
-            "Attempts to snarl but can only manage a tiny mewl",
-            "Is crying for {PRONOUN\/m_c\/poss} parents, but no one comforts {PRONOUN\/m_c\/object}",
-            "Doesn't know why it's suddenly so cold",
-            "Wishes to feel warmth at least once",
-            "Hears menacing whispers around {PRONOUN\/m_c\/object}",
-            "Is clouded in confusion and fear",
-            "Feels trapped in the sticky mud",
-            "Is feeling incredibly lonely"
+            "Mewlar ynkligt efter mjölk",
+            "Vacklar runt den mörka skogen",
+            "Gråter efter mjölk till ingen nytta",
+            "Försöker att morra men kan bara klara av en liten mjal",
+            "Gråter för {PRONOUN/m_c/poss} föräldrar, men ingen tröstar {PRONOUN/m_c/object}",
+            "Vet inte varför det plötsligt är så kallt",
+            "Önskar att känna värme minst en gång",
+            "Hör hotfulla viskningar runt {PRONOUN/m_c/object}",
+            "är grumlig i förvirring och rädsla",
+            "Känner sig instängd i den klibbiga leran",
+            "Känner mig otroligt ensam"
         ]
     },
     {
         "id": "gen_dead_newborn_to_alive_parent",
         "thoughts": [
-            "Desperately misses r_c",
-            "Misses the fleeting feeling of warmth at r_c's belly",
-            "Wishes that r_c could bathe {PRONOUN\/m_c\/object} again"
+            "Saknar r_c desperat",
+            "Saknar den flyktiga känslan av värme i r_c:s mage",
+            "Önskar att r_c kunde bada {PRONOUN/m_c/object} igen"
         ],
         "relationship_constraint": [
-            "child\/parent"
+            "child/parent"
         ],
         "random_living_status": [
             "living"

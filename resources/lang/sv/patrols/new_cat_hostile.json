@@ -18,12 +18,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol scents a loner on the territory. They confront the cat, who quickly surrenders and begs for shelter.",
-        "decline_text": "The patrol decides the loner isn't worth their time.",
+        "intro_text": "Patrullen doftar en enst\u00f6ring p\u00e5 territoriet. De konfronterar katten, som snabbt kapitulerar och ber om skydd.",
+        "decline_text": "Patrullen beslutar att ensamvargen inte \u00e4r v\u00e4rd sin tid.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol relents and the loner is allowed to join the Clan.",
+                "text": "Patrullen ger efter och ensamvargen f\u00e5r g\u00e5 med i klanen.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -51,7 +51,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The patrol relents and the loner is allowed to join the Clan, bringing along {PRONOUN\/n_c:0\/poss} litter of hungry kits.",
+                "text": "Patrullen ger efter och ensamvargen f\u00e5r g\u00e5 med i klanen och tar med sig {PRONOUN/n_c:0/poss} sl\u00e4ng av hungriga kit.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -87,7 +87,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The loner seems to have second thoughts. {PRONOUN\/n_c:0\/subject\/CAP} quickly {VERB\/n_c:0\/turn\/turns} tail and {VERB\/n_c:0\/take\/takes} off. Good riddance then.",
+                "text": "Ensamvargen verkar ha andra tankar. {PRONOUN/n_c:0/subject/CAP} snabbt {VERB/n_c:0/turn/turns} svans och {VERB/n_c:0/take/takes}. Bra ridning d\u00e5.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -116,7 +116,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol advances threateningly towards the loner, who retaliates with a quick swipe to p_l's muzzle. While p_l is stunned, {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/make\/makes} {PRONOUN\/n_c:0\/poss} getaway.",
+                "text": "Patrullen avancerar hotfullt mot enst\u00f6ringen, som h\u00e4mnas med ett snabbt svep mot p_ls nosparti. Medan p_l \u00e4r chockad, {PRONOUN/n_c:0/subject} {VERB/n_c:0/make/makes} {PRONOUN/n_c:0/poss} tillflyktsort.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -145,7 +145,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol tells the cat to leave or feel their claws. The loner seems to choose life and quickly takes off.",
+                "text": "Patrullen s\u00e4ger \u00e5t katten att l\u00e4mna eller k\u00e4nna p\u00e5 klorna. Ensamvargen verkar v\u00e4lja livet och tar snabbt fart.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -192,12 +192,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l scents a loner on the territory. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/confront\/confronts} the cat, who quickly surrenders and begs for shelter.",
-        "decline_text": "p_l {VERB\/p_l\/decide\/decides} the loner isn't worth {PRONOUN\/p_l\/poss} time.",
+        "intro_text": "p_l doftar en enst\u00f6ring p\u00e5 territoriet. {PRONOUN/p_l/subject/CAP} {VERB/p_l/confront/confrontes} katten, som snabbt ger sig och ber om skydd.",
+        "decline_text": "p_l {VERB/p_l/decide/decides} ensamvargen \u00e4r inte v\u00e4rd {PRONOUN/p_l/poss} tid.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l relents and the loner is allowed to join the Clan.",
+                "text": "p_l ger upp och ensamvargen f\u00e5r g\u00e5 med i klanen.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -225,7 +225,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l relents and the loner is allowed to join the Clan, bringing along {PRONOUN\/n_c:0\/poss} litter of hungry kits.",
+                "text": "p_l ger upp och ensamvargen f\u00e5r g\u00e5 med i klanen och tar med sig {PRONOUN/n_c:0/poss} kull hungriga kit.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -261,7 +261,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The loner seems to have second thoughts. {PRONOUN\/n_c:0\/subject\/CAP} quickly {VERB\/n_c:0\/turn\/turns} tail and {VERB\/n_c:0\/take\/takes} off. Good riddance then.",
+                "text": "Ensamvargen verkar ha andra tankar. {PRONOUN/n_c:0/subject/CAP} snabbt {VERB/n_c:0/turn/turns} svans och {VERB/n_c:0/take/takes}. Bra ridning d\u00e5.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -275,7 +275,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l advances threateningly towards the loner, who retaliates with a quick swipe to {PRONOUN\/p_l\/poss} muzzle. While p_l is stunned, {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/make\/makes} {PRONOUN\/n_c:0\/poss} getaway.",
+                "text": "p_l avancerar hotfullt mot ensamvargen, som svarar med ett snabbt svep mot {PRONOUN/p_l/poss} munkorg. Medan p_l \u00e4r chockad, {PRONOUN/n_c:0/subject} {VERB/n_c:0/make/makes} {PRONOUN/n_c:0/poss} tillflyktsort.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -304,7 +304,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l tells the cat to leave or feel {PRONOUN\/p_l\/poss} claws. The loner seems to choose life and quickly takes off.",
+                "text": "p_l s\u00e4ger \u00e5t katten att l\u00e4mna eller k\u00e4nna p\u00e5 {PRONOUN/p_l/poss} klor. Ensamvargen verkar v\u00e4lja livet och tar snabbt fart.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -351,12 +351,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol scents a kittypet on the territory. They confront the cat, who quickly surrenders and begs for shelter.",
-        "decline_text": "The patrol decides the kittypet isn't worth their time.",
+        "intro_text": "Patrullen doftar en kattunge p\u00e5 territoriet. De konfronterar katten, som snabbt kapitulerar och ber om skydd.",
+        "decline_text": "Patrullen beslutar att kittypen inte \u00e4r v\u00e4rd sin tid.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol relents and the kittypet is allowed to join the Clan.",
+                "text": "Patrullen ger efter och kittypen f\u00e5r g\u00e5 med i klanen.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -384,7 +384,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The patrol relents and the kittypet is allowed to join the Clan, bringing along {PRONOUN\/n_c:0\/poss} litter of hungry kits.",
+                "text": "Patrullen ger efter och kittypen f\u00e5r g\u00e5 med i klanen och tar med sig {PRONOUN/n_c:0/poss} kull hungriga kit.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -420,7 +420,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The kittypet gradually becomes more and more frightened at the patrol's descriptions of Clan life. {PRONOUN\/n_c:0\/subject\/CAP} {VERB\/n_c:0\/decide\/decides} to turn tail and run.",
+                "text": "Kittypen blir gradvis mer och mer r\u00e4dd f\u00f6r patrullens beskrivningar av klanlivet. {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/decide/decides} att v\u00e4nda svansen och springa.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -434,7 +434,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol advances threateningly towards the kittypet, who retaliates with a quick swipe to p_l's muzzle. While p_l is stunned, they make their getaway.",
+                "text": "Patrullen avancerar hotfullt mot kittypen, som h\u00e4mnas med ett snabbt svep mot p_ls nosparti. Medan p_l \u00e4r chockad, g\u00f6r de sin flykt.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -442,7 +442,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol tells the cat to leave or feel their claws. The kittypet seems to choose life and quickly takes off.",
+                "text": "Patrullen s\u00e4ger \u00e5t katten att l\u00e4mna eller k\u00e4nna p\u00e5 klorna. Kittypen verkar v\u00e4lja livet och tar snabbt fart.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -468,12 +468,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l scents a kittypet on the territory. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/confront\/confronts} the cat, who quickly surrenders and begs for shelter.",
-        "decline_text": "p_l {VERB\/p_l\/decide\/decides} the kittypet isn't worth {PRONOUN\/p_l\/poss} time.",
+        "intro_text": "p_l doftar en kattunge p\u00e5 territoriet. {PRONOUN/p_l/subject/CAP} {VERB/p_l/confront/confrontes} katten, som snabbt ger sig och ber om skydd.",
+        "decline_text": "p_l {VERB/p_l/decide/decides} kittypen \u00e4r inte v\u00e4rd {PRONOUN/p_l/poss} tid.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l relents and the kittypet is allowed to join the Clan.",
+                "text": "p_l ger efter och kittypet f\u00e5r g\u00e5 med i klanen.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -501,7 +501,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l relents and the kittypet is allowed to join the Clan, bringing along {PRONOUN\/n_c:0\/poss} litter of hungry kits.",
+                "text": "p_l ger efter och kittypen f\u00e5r g\u00e5 med i klanen och tar med sig {PRONOUN/n_c:0/poss} kull hungriga kit.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -536,7 +536,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The kittypet gradually becomes more and more frightened at p_l's descriptions of Clan life. They decide to turn tail and run.",
+                "text": "Kittypen blir gradvis mer och mer r\u00e4dd f\u00f6r p_ls beskrivningar av klanlivet. De best\u00e4mmer sig f\u00f6r att v\u00e4nda svansen och springa.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -550,7 +550,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l advances threateningly towards the kittypet, who retaliates with a quick swipe to {PRONOUN\/p_l\/poss} muzzle. While p_l is stunned, {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/make\/makes} {PRONOUN\/n_c:0\/poss} getaway.",
+                "text": "p_l avancerar hotfullt mot kittypen, som h\u00e4mnas med ett snabbt svep mot {PRONOUN/p_l/poss} munkorg. Medan p_l \u00e4r chockad, {PRONOUN/n_c:0/subject} {VERB/n_c:0/make/makes} {PRONOUN/n_c:0/poss} tillflyktsort.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -564,7 +564,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l tells the cat to leave or feel {PRONOUN\/p_l\/poss} claws. The kittypet seems to choose life and quickly takes off.",
+                "text": "p_l s\u00e4ger \u00e5t katten att l\u00e4mna eller k\u00e4nna p\u00e5 {PRONOUN/p_l/poss} klor. Kittypen verkar v\u00e4lja livet och tar snabbt fart.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -590,12 +590,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c finds a wounded cat near the Thunderpath.",
-        "decline_text": "They leave the wounded cat alone.",
+        "intro_text": "r_c hittar en skadad katt n\u00e4ra Thunderpath.",
+        "decline_text": "De l\u00e4mnar den skadade katten ifred.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol approaches the cat and sees some signs of life. The patrol, after some hesitation, decides to bring the cat back to camp so that they can be treated by the medicine cat. The cat thanks them profusely and promises to repay them by joining the Clan and being the best warrior {PRONOUN\/n_c:0\/subject} can.",
+                "text": "Patrullen g\u00e5r fram till katten och ser n\u00e5gra livstecken. Patrullen best\u00e4mmer sig efter viss tvekan f\u00f6r att ta tillbaka katten till l\u00e4gret s\u00e5 att den kan behandlas av medicinkatten. Katten tackar dem mycket och lovar att betala tillbaka dem genom att g\u00e5 med i klanen och vara den b\u00e4sta krigare {PRONOUN/n_c:0/subject} kan.",
                 "exp": 10,
                 "weight": 20,
                 "injury": [
@@ -613,7 +613,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "As r_c inspects the cat, {PRONOUN\/r_c\/subject} {VERB\/r_c\/find\/finds} that {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/are\/is} already hunting with {PRONOUN\/n_c:0\/poss} ancestors.",
+                "text": "N\u00e4r r_c inspekterar katten, {PRONOUN/r_c/subject} {VERB/r_c/find/finder} att {PRONOUN/n_c:0/subject} {VERB/n_c:0/are/\u00e4r} redan jagar med {PRONOUN/n_c :0/poss} f\u00f6rf\u00e4der.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -625,7 +625,7 @@
                 ]
             },
             {
-                "text": "The cats attempt to carry the cat back to camp, but the cat passes on the way. They stop to bury the cat before continuing home.",
+                "text": "Katterna f\u00f6rs\u00f6ker b\u00e4ra katten tillbaka till l\u00e4gret, men katten passerar p\u00e5 v\u00e4gen. De stannar f\u00f6r att begrava katten innan de forts\u00e4tter hem.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -633,7 +633,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol tries to drive the cat away, but {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/trip\/trips} and {VERB\/n_c:0\/stumble\/stumbles} over a loose twig. {PRONOUN\/n_c:0\/subject\/CAP} {VERB\/n_c:0\/lie\/lies} on the ground and {VERB\/n_c:0\/don't\/doesn't} get back up. The patrol takes a bit of time to bury {PRONOUN\/n_c:0\/object} - just to keep the scavengers away.",
+                "text": "Patrullen f\u00f6rs\u00f6ker driva bort katten, men {PRONOUN/n_c:0/subject} {VERB/n_c:0/trip/trips} och {VERB/n_c:0/snubblar/snubblar} \u00f6ver en l\u00f6s kvist. {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/lie/lies} p\u00e5 marken och {VERB/n_c:0/don't/doesn't} reser sig upp igen. Patrullen tar lite tid att begrava {PRONOUN/n_c:0/object} - bara f\u00f6r att h\u00e5lla as\u00e4tarna borta.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -647,7 +647,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol drives the cat from the territory. It's not c_n's problem.",
+                "text": "Patrullen driver bort katten fr\u00e5n reviret. Det \u00e4r inte c_ns problem.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -673,12 +673,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l finds a wounded cat near the Thunderpath.",
-        "decline_text": "p_l leaves the wounded cat alone.",
+        "intro_text": "p_l hittar en skadad katt n\u00e4ra Thunderpath.",
+        "decline_text": "p_l l\u00e4mnar den s\u00e5rade katten ifred.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l approaches the cat and sees some signs of life. After some hesitation, {PRONOUN\/p_l\/subject} {VERB\/p_l\/decide\/decides} to bring the cat back to camp so that they can be treated by the medicine cat. The cat thanks {PRONOUN\/p_l\/object} profusely and promises to repay {PRONOUN\/p_l\/object} by joining the Clan and being the best warrior {PRONOUN\/n_c:0\/subject} can.",
+                "text": "p_l g\u00e5r fram till katten och ser n\u00e5gra livstecken. Efter lite tvekan {PRONOUN/p_l/subject} {VERB/p_l/decide/decides} att ta tillbaka katten till l\u00e4gret s\u00e5 att den kan behandlas av medicinkatten. Katten tackar {PRONOUN/p_l/object} ymnigt och lovar att betala tillbaka {PRONOUN/p_l/object} genom att g\u00e5 med i klanen och vara den b\u00e4sta krigare som {PRONOUN/n_c:0/subject} kan.",
                 "exp": 10,
                 "weight": 20,
                 "injury": [
@@ -696,7 +696,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "As p_l inspects the cat, {PRONOUN\/p_l\/subject} {VERB\/r_c\/find\/finds} that {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/are\/is} already hunting with {PRONOUN\/n_c:0\/poss} ancestors.",
+                "text": "N\u00e4r p_l inspekterar katten, {PRONOUN/p_l/subject} {VERB/r_c/find/finder} att {PRONOUN/n_c:0/subject} {VERB/n_c:0/are/\u00e4r} redan jagar med {PRONOUN/n_c :0/poss} f\u00f6rf\u00e4der.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -708,7 +708,7 @@
                 ]
             },
             {
-                "text": "p_l attempts to carry the cat back to camp, but the cat passes on the way. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/stop\/stops} to bury the cat before continuing home.",
+                "text": "p_l f\u00f6rs\u00f6ker b\u00e4ra katten tillbaka till l\u00e4gret, men katten passerar p\u00e5 v\u00e4gen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/stop/stops} f\u00f6r att begrava katten innan du forts\u00e4tter hem.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -716,7 +716,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l tries to drive the cat away, but {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/trip\/trips} and {VERB\/n_c:0\/stumble\/stumbles} over a loose twig. {PRONOUN\/n_c:0\/subject\/CAP} {VERB\/n_c:0\/lie\/lies} on the ground and {VERB\/n_c:0\/don't\/doesn't} get back up. p_l takes a bit of time to bury {PRONOUN\/n_c:0\/object} - just to keep the scavengers away.",
+                "text": "p_l f\u00f6rs\u00f6ker driva bort katten, men {PRONOUN/n_c:0/subject} {VERB/n_c:0/trip/trips} och {VERB/n_c:0/snubblar/snubblar} \u00f6ver en l\u00f6s kvist. {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/lie/lies} p\u00e5 marken och {VERB/n_c:0/don't/doesn't} reser sig upp igen. p_l tar lite tid att begrava {PRONOUN/n_c:0/object} - bara f\u00f6r att h\u00e5lla as\u00e4tarna borta.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -730,7 +730,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l drives the cat from the territory. It's not c_n's problem.",
+                "text": "p_l driver katten fr\u00e5n reviret. Det \u00e4r inte c_ns problem.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -761,12 +761,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "In the middle of remarking the border, p_l finds a distinct scent trail has crossed it.",
-        "decline_text": "p_l makes a note of it, but it'll have to wait till {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} done with this and back at camp.",
+        "intro_text": "Mitt under att anm\u00e4rka gr\u00e4nsen finner p_l att ett tydligt doftsp\u00e5r har korsat den.",
+        "decline_text": "p_l g\u00f6r en anteckning om det, men det f\u00e5r v\u00e4nta tills {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} \u00e4r klar med detta och tillbaka till l\u00e4gret.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN\/n_c:0\/poss} Twoleg's name. Begrudgingly, p_l orders the patrol to drag {PRONOUN\/n_c:0\/object} back to camp - this cat needs medicinal attention.",
+                "text": "Patrullen stoppar omedelbart sin gr\u00e4nsmarkering och g\u00e5r \u00f6ver till att sp\u00e5ra inkr\u00e4ktarens doft ist\u00e4llet. I slutet av stigen hittar de en gammal kattunge som v\u00e4sande {PRONOUN/n_c:0/poss} Twolegs namn. Motvilligt beordrar p_l patrullen att dra {PRONOUN/n_c:0/object} tillbaka till l\u00e4gret - den h\u00e4r katten beh\u00f6ver medicinsk hj\u00e4lp.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -806,7 +806,7 @@
                 ]
             },
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN\/n_c:0\/poss} Twoleg's name. s_c gets between the patrol (furious at the intrusion) and the hapless intruder - in Tigger's name, this cat deserves their help.",
+                "text": "Patrullen stoppar omedelbart sin gr\u00e4nsmarkering och g\u00e5r \u00f6ver till att sp\u00e5ra inkr\u00e4ktarens doft ist\u00e4llet. I slutet av stigen hittar de en gammal kattunge som v\u00e4sande {PRONOUN/n_c:0/poss} Twolegs namn. s_c hamnar mellan patrullen (rasande p\u00e5 intr\u00e5nget) och den olyckliga inkr\u00e4ktaren - i Tiggers namn f\u00f6rtj\u00e4nar denna katt deras hj\u00e4lp.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -853,7 +853,7 @@
                 ]
             },
             {
-                "text": "Swerving to follow the scent trail, the patrol almost falls over a hissing queen. Reeling with surprise, no one hears exactly what she spits out about never letting herself be taken - but she grabs something and flees. It's only as the patrol regroups that they hear the distressed calls of her other kittens.",
+                "text": "N\u00e4r patrullen v\u00e4jer f\u00f6r att f\u00f6lja doftsp\u00e5ret faller den n\u00e4stan \u00f6ver en v\u00e4sande drottning. Uppr\u00f6rd av f\u00f6rv\u00e5ning h\u00f6r ingen exakt vad hon spottar ut om att hon aldrig l\u00e5ter sig bli tagen - men hon greppar n\u00e5got och flyr. Det \u00e4r f\u00f6rst n\u00e4r patrullen samlas som de h\u00f6r de bedr\u00f6vade ropen fr\u00e5n hennes andra kattungar.",
                 "exp": 20,
                 "weight": 5,
                 "new_cat": [
@@ -908,7 +908,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c tells p_l {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} as good as scent-blind, and the patrol ignores the scent.",
+                "text": "r_c ber\u00e4ttar f\u00f6r p_l {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} s\u00e5 gott som doftblind, och patrullen ignorerar doften.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -930,7 +930,7 @@
                 ]
             },
             {
-                "text": "Try as they might, the patrol can't identify who left this scent trail or where it leads. It doesn't smell like a Clancat, but that's little reassurance as the cats head back to report this to the rest of c_n.",
+                "text": "Hur de \u00e4n f\u00f6rs\u00f6ker, patrullen kan inte identifiera vem som l\u00e4mnat detta doftsp\u00e5r eller vart det leder. Det luktar inte som en Clancat, men det \u00e4r en liten trygghet eftersom katterna g\u00e5r tillbaka f\u00f6r att rapportera detta till resten av c_n.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -938,7 +938,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN\/n_c:0\/poss} Twoleg's name. They try to drive the kittypet off - but {PRONOUN\/n_c:0\/poss} too weak, and the warriors too practiced at strong battle.",
+                "text": "Patrullen stoppar omedelbart sin gr\u00e4nsmarkering och g\u00e5r \u00f6ver till att sp\u00e5ra inkr\u00e4ktarens doft ist\u00e4llet. I slutet av stigen hittar de en gammal kattunge som v\u00e4sande {PRONOUN/n_c:0/poss} Twolegs namn. De f\u00f6rs\u00f6ker driva bort kittypen - men {PRONOUN/n_c:0/poss} f\u00f6r svag, och krigarna tr\u00e4nade ocks\u00e5 i starka strider.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -4,
@@ -955,7 +955,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN\/n_c:0\/poss} Twoleg's name. They drive the struggling kittypet off c_n territory, protecting the Clan from a source of sickness - no mercy for intruders.",
+                "text": "Patrullen stoppar omedelbart sin gr\u00e4nsmarkering och g\u00e5r \u00f6ver till att sp\u00e5ra inkr\u00e4ktarens doft ist\u00e4llet. I slutet av stigen hittar de en gammal kattunge som v\u00e4sande {PRONOUN/n_c:0/poss} Twolegs namn. De driver bort den k\u00e4mpande kattunge fr\u00e5n c_n territorium och skyddar klanen fr\u00e5n en k\u00e4lla till sjukdom - ingen n\u00e5d f\u00f6r inkr\u00e4ktare.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -995,12 +995,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Padding along the border, p_l checks once - twice - three times... and crosses over c_n's markers, venturing beyond into unclaimed land.",
-        "decline_text": "p_l thinks better of {PRONOUN\/p_l\/poss} risky adventure and retreats back to known territory.",
+        "intro_text": "Utfyllnad l\u00e4ngs gr\u00e4nsen, p_l checkar en - tv\u00e5 g\u00e5nger - tre g\u00e5nger... och korsar \u00f6ver c_n:s mark\u00f6rer och v\u00e5gar sig bortom in i outtaget land.",
+        "decline_text": "p_l t\u00e4nker b\u00e4ttre p\u00e5 {PRONOUN/p_l/poss} riskfyllda \u00e4ventyr och drar sig tillbaka till k\u00e4nt territorium.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "There's no guarentee that {PRONOUN\/n_c:0\/subject}{VERB\/n_c:0\/'re\/'s} still in the area - so p_l's ears perk up to pick up {PRONOUN\/n_c:0\/poss} scent. n_c:0 is basking on some Twoleg rubbish, but when {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/spot\/spots} p_l, {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/jump\/jumps} down, trotting over with tail up, happily touching noses with p_l.",
+                "text": "Det finns ingen garanti f\u00f6r att {PRONOUN/n_c:0/subject}{VERB/n_c:0/'re/'s} fortfarande finns i omr\u00e5det - s\u00e5 p_ls \u00f6ron piggar upp sig f\u00f6r att f\u00e5 upp {PRONOUN/n_c:0/poss}-doften. n_c:0 solar sig p\u00e5 lite tv\u00e5bensskr\u00e4p, men n\u00e4r {PRONOUN/n_c:0/subject} {VERB/n_c:0/spot/spots} p_l, {PRONOUN/n_c:0/subject} {VERB/n_c:0/ hoppa/hoppar} ner, travar \u00f6ver med svansen upp\u00e5t, r\u00f6r g\u00e4rna n\u00e4sor med p_l.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1030,7 +1030,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "Since n_c:0 stumbled into {PRONOUN\/p_l\/poss} life, everything's changed. {PRONOUN\/p_l\/subject\/CAP}'d never trade the flutter in {PRONOUN\/p_l\/poss} whiskers, the thrill in {PRONOUN\/p_l\/poss} heart at these stolen moments. But c_n would never approve.",
+                "text": "Sedan n_c:0 snubblade in i livet med {PRONOUN/p_l/poss} har allt f\u00f6r\u00e4ndrats. {PRONOUN/p_l/subject/CAP} skulle aldrig byta fladder i {PRONOUN/p_l/poss} morrh\u00e5r, sp\u00e4nningen i {PRONOUN/p_l/poss} hj\u00e4rta vid dessa stulna \u00f6gonblick. Men c_n skulle aldrig godk\u00e4nna.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1074,7 +1074,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "Every heartbeat {PRONOUN\/p_l\/subject}{VERB\/p_l\/'ve\/'s} spent with n_c:0 has been uncertain, new, exciting, and as temporary as a flower's bloom. {PRONOUN\/n_c:0\/subject\/CAP} {VERB\/n_c:0\/aren't\/isn't} coming home with p_l, p_l's accepted that. But they can still see each other, for as long as n_c:0 lingers near c_n's borders.",
+                "text": "Varje hj\u00e4rtslag {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} som spenderats med n_c:0 har varit os\u00e4kert, nytt, sp\u00e4nnande och lika tillf\u00e4lligt som en blomma. {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/aren't/isn't} kommer hem med p_l, p_l har accepterat det. Men de kan fortfarande se varandra, s\u00e5 l\u00e4nge som n_c:0 dr\u00f6jer sig n\u00e4ra c_ns gr\u00e4nser.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1118,7 +1118,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "n_c:0 - p_l's heart leaps and drops with every single visit, each time a gamble on if {PRONOUN\/p_l\/poss} hidden love will still be there for the next stolen moment. p_l will fight for them, please, <i>please<\/i> n_c:0, come back to c_n. Stay.",
+                "text": "n_c:0 - p_ls hj\u00e4rta hoppar och sjunker med varje bes\u00f6k, varje g\u00e5ng en chansning p\u00e5 om {PRONOUN/p_l/poss} dold k\u00e4rlek fortfarande kommer att finnas d\u00e4r till n\u00e4sta stulna \u00f6gonblick. p_l kommer att k\u00e4mpa f\u00f6r dem, sn\u00e4lla, <i>sn\u00e4lla</i> n_c:0, kom tillbaka till c_n. Vistelse.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1177,7 +1177,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The sweetest times last the least long. Every heartbeat spent with n_c:0 is uncertain, new, exciting, and as temporary as a flower's bloom. {PRONOUN\/n_c:0\/subject\/CAP} {VERB\/n_c:0\/aren't\/isn't} coming home with p_l, p_l's accepted that. But the thing is - p_l can go with {PRONOUN\/n_c:0\/object}.",
+                "text": "De s\u00f6taste tiderna varar minst l\u00e4nge. Varje hj\u00e4rtslag som spenderas med n_c:0 \u00e4r os\u00e4kert, nytt, sp\u00e4nnande och lika tillf\u00e4lligt som en blomma. {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/aren't/isn't} kommer hem med p_l, p_l har accepterat det. Men saken \u00e4r - p_l kan g\u00e5 med {PRONOUN/n_c:0/object}.",
                 "exp": 0,
                 "weight": 20,
                 "new_cat": [
@@ -1224,7 +1224,7 @@
                 "outsider_rep": 0
             },
             {
-                "text": "Come back to c_n, p_l urges when {PRONOUN\/p_l\/subject} {VERB\/p_l\/find\/finds} n_c:0, resuming the argument they've been having. Come back, join c_n, be p_l's mate for real. But n_c:0 shakes {PRONOUN\/n_c:0\/poss} head. c_n will never accept an outsider. <br>Then leave. Leave, and if p_l ever sees n_c:0 again, well, p_l will <i>not<\/i> forgive this.",
+                "text": "Kom tillbaka till c_n, p_l uppmanar n\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/find/finds} n_c:0, \u00e5teruppta argumentet de har haft. Kom tillbaka, g\u00e5 med i c_n, bli p_ls kompis p\u00e5 riktigt. Men n_c:0 skakar {PRONOUN/n_c:0/poss} p\u00e5 huvudet. c_n kommer aldrig att acceptera en utomst\u00e5ende. <br>G\u00e5 d\u00e5. L\u00e4mna, och om p_l n\u00e5gonsin ser n_c:0 igen, ja, p_l kommer <i>inte</i> att f\u00f6rl\u00e5ta detta.",
                 "exp": 0,
                 "weight": 20,
                 "new_cat": [
@@ -1270,7 +1270,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Come back to c_n, p_l urges when {PRONOUN\/p_l\/subject} {VERB\/p_l\/find\/finds} n_c:0, resuming the argument they've been having. It's useless. In response to p_l urging {PRONOUN\/n_c:0\/object}, hounding {PRONOUN\/n_c:0\/object}, demanding things n_c:0 isn't prepared to give, the loner simply turns {PRONOUN\/n_c:0\/poss} back, walking away for the last time.",
+                "text": "Kom tillbaka till c_n, p_l uppmanar n\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/find/finds} n_c:0, \u00e5teruppta argumentet de har haft. Det \u00e4r v\u00e4rdel\u00f6st. Som svar p\u00e5 att p_l uppmanar {PRONOUN/n_c:0/object}, jagar {PRONOUN/n_c:0/object}, kr\u00e4ver saker som n_c:0 inte \u00e4r beredd att ge, ensamvargen blir helt enkelt {PRONOUN/n_c:0/poss } tillbaka och g\u00e5r d\u00e4rifr\u00e5n f\u00f6r sista g\u00e5ngen.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1316,7 +1316,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Come back to c_n, p_l urges when {PRONOUN\/p_l\/subject} {VERB\/p_l\/find\/finds} n_c:0, resuming the argument they've been having. Come back, join c_n, be p_l's mate for real. But n_c:0 shakes {PRONOUN\/n_c:0\/poss} head. c_n will never accept an outsider. <br>Then leave. Leave, and if p_l ever sees n_c:0 again, well, p_l will <i>not<\/i> forgive this.",
+                "text": "Kom tillbaka till c_n, p_l uppmanar n\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/find/finds} n_c:0, \u00e5teruppta argumentet de har haft. Kom tillbaka, g\u00e5 med i c_n, bli p_ls kompis p\u00e5 riktigt. Men n_c:0 skakar {PRONOUN/n_c:0/poss} p\u00e5 huvudet. c_n kommer aldrig att acceptera en utomst\u00e5ende. <br>G\u00e5 d\u00e5. L\u00e4mna, och om p_l n\u00e5gonsin ser n_c:0 igen, ja, p_l kommer <i>inte</i> att f\u00f6rl\u00e5ta detta.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1380,12 +1380,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c finds an abandoned kit whose parents are nowhere to be found.",
-        "decline_text": "They decide to leave the kit alone.",
+        "intro_text": "r_c hittar ett \u00f6vergivet kit vars f\u00f6r\u00e4ldrar inte finns n\u00e5gonstans.",
+        "decline_text": "De best\u00e4mmer sig f\u00f6r att l\u00e4mna kitet ifred.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The kit is taken back to camp and nursed back to health.",
+                "text": "Satsen tas tillbaka till l\u00e4gret och v\u00e5rdas tillbaka till h\u00e4lsan.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1415,13 +1415,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The kit is taken back to camp, but grows weak and dies a few days later.",
+                "text": "Satsen tas tillbaka till l\u00e4gret, men blir svag och d\u00f6r n\u00e5gra dagar senare.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "The patrol approaches the kit, only to realize that it's already gone. They swiftly bury it and move on.",
+                "text": "Patrullen n\u00e4rmar sig satsen, bara f\u00f6r att inse att den redan \u00e4r borta. De begraver det snabbt och g\u00e5r vidare.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1429,7 +1429,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The kit smells of Twolegs, the patrol has no interest in what will surely grow to be a weak cat.",
+                "text": "Satsen luktar Twolegs, patrullen har inget intresse av vad som s\u00e4kert kommer att v\u00e4xa till en svag katt.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1437,7 +1437,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol moves the kit away from the territory, they have no interest in strange kits.",
+                "text": "Patrullen flyttar satsen bort fr\u00e5n territoriet, de har inget intresse av konstiga satser.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -1463,12 +1463,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c finds an abandoned kit whose parents are nowhere to be found.",
-        "decline_text": "p_l decides to leave the kit alone.",
+        "intro_text": "r_c hittar ett \u00f6vergivet kit vars f\u00f6r\u00e4ldrar inte finns n\u00e5gonstans.",
+        "decline_text": "p_l best\u00e4mmer sig f\u00f6r att l\u00e4mna kitet ifred.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The kit is taken back to camp and nursed back to health.",
+                "text": "Satsen tas tillbaka till l\u00e4gret och v\u00e5rdas tillbaka till h\u00e4lsan.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1498,13 +1498,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The kit is taken back to camp, but grows weak and dies a few days later.",
+                "text": "Satsen tas tillbaka till l\u00e4gret, men blir svag och d\u00f6r n\u00e5gra dagar senare.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
             },
             {
-                "text": "p_l approaches the kit, only to realize that it's already gone. {PRONOUN\/p_l\/subject\/CAP} swiftly {VERB\/p_l\/bury\/buries} it and {VERB\/p_l\/move\/moves} on.",
+                "text": "p_l n\u00e4rmar sig kitet, bara f\u00f6r att inse att det redan \u00e4r borta. {PRONOUN/p_l/subject/CAP} {VERB/p_l/bury/begraver} snabbt och {VERB/p_l/move/moves} vidare.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -1512,7 +1512,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The kit smells of Twolegs, p_l has no interest in what will surely grow to be a weak cat.",
+                "text": "Satsen luktar Twolegs, p_l har inget intresse av vad som s\u00e4kert kommer att v\u00e4xa till en svag katt.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -1520,7 +1520,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l moves the kit away from the territory, {PRONOUN\/p_l\/subject} {VERB\/p_l\/have\/has} no interest in strange kits.",
+                "text": "p_l flyttar kitet bort fr\u00e5n territoriet, {PRONOUN/p_l/subject} {VERB/p_l/have/har} inget intresse av konstiga kit.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -1546,12 +1546,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol scents a loner on the territory. r_c finds the loner, who offers their healing skills in exchange for shelter.",
-        "decline_text": "The patrol declines their offer and sends them off.",
+        "intro_text": "Patrullen doftar en enst\u00f6ring p\u00e5 territoriet. r_c hittar ensamvargen, som erbjuder sina helande f\u00e4rdigheter i utbyte mot skydd.",
+        "decline_text": "Patrullen tackar nej till deras erbjudande och skickar iv\u00e4g dem.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The new medicine cat is welcomed into the Clan.",
+                "text": "Den nya medicinkatten v\u00e4lkomnas in i klanen.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1579,7 +1579,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The new medicine cat is welcomed into the Clan along with {PRONOUN\/n_c:0\/poss} litter of kits.",
+                "text": "Den nya medicinkatten v\u00e4lkomnas in i klanen tillsammans med {PRONOUN/n_c:0/poss} kull med kit.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1616,7 +1616,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "After hearing more about your Clan, the loner decides not to join, quickly turning and taking off.",
+                "text": "Efter att ha h\u00f6rt mer om din klan, best\u00e4mmer sig ensamvargen f\u00f6r att inte g\u00e5 med, v\u00e4nder och lyfter snabbt.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -1630,7 +1630,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol advances threateningly towards the loner, who retaliates with a quick swipe to p_l's muzzle. While p_l is stunned, they make their getaway.",
+                "text": "Patrullen avancerar hotfullt mot enst\u00f6ringen, som h\u00e4mnas med ett snabbt svep mot p_ls nosparti. Medan p_l \u00e4r chockad, g\u00f6r de sin flykt.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -1659,7 +1659,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Healer or not, the patrol tells the cat to leave or feel their claws. The loner seems to choose life and quickly takes off.",
+                "text": "Healer eller inte, patrullen s\u00e4ger \u00e5t katten att l\u00e4mna eller k\u00e4nna p\u00e5 sina klor. Ensamvargen verkar v\u00e4lja livet och tar snabbt fart.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -1706,12 +1706,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l scents a loner on the territory. When {PRONOUN\/p_l\/subject} {VERB\/p_l\/find\/finds} the loner, they offer their healing skills in exchange for shelter.",
-        "decline_text": "p_l declines their offer and sends them off.",
+        "intro_text": "p_l doftar en enst\u00f6ring p\u00e5 territoriet. N\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/find/finder} ensamvargen erbjuder de sina helande f\u00e4rdigheter i utbyte mot skydd.",
+        "decline_text": "p_l tackar nej till deras erbjudande och skickar iv\u00e4g dem.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The new medicine cat is welcomed into the Clan.",
+                "text": "Den nya medicinkatten v\u00e4lkomnas in i klanen.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1739,7 +1739,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The new medicine cat is welcomed into the Clan along with {PRONOUN\/n_c:0\/poss} litter of kits.",
+                "text": "Den nya medicinkatten v\u00e4lkomnas in i klanen tillsammans med {PRONOUN/n_c:0/poss} kull med kit.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -1776,7 +1776,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "After hearing more about your Clan, the loner decides not to join, quickly turning and taking off.",
+                "text": "Efter att ha h\u00f6rt mer om din klan, best\u00e4mmer sig ensamvargen f\u00f6r att inte g\u00e5 med, v\u00e4nder och lyfter snabbt.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -1790,7 +1790,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l advances threateningly towards the loner, who retaliates with a quick swipe to {PRONOUN\/p_l\/poss} muzzle. While p_l is stunned, they make their getaway.",
+                "text": "p_l avancerar hotfullt mot ensamvargen, som svarar med ett snabbt svep mot {PRONOUN/p_l/poss} munkorg. Medan p_l \u00e4r chockad, g\u00f6r de sin flykt.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -1819,7 +1819,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Healer or not, p_l tells the cat to leave or feel {PRONOUN\/p_l\/poss} claws. The loner seems to choose life and quickly takes off.",
+                "text": "Healer eller inte, p_l s\u00e4ger \u00e5t katten att l\u00e4mna eller k\u00e4nna {PRONOUN/p_l/poss} klor. Ensamvargen verkar v\u00e4lja livet och tar snabbt fart.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -1866,12 +1866,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol cautiously moves towards the sound of barking. Near the border, they spot a dog chasing something. Oh no, it's a cat!",
-        "decline_text": "The patrol decides not to interfere. Surely the cat can handle itself, the dog isn't even that big.",
+        "intro_text": "Patrullen r\u00f6r sig f\u00f6rsiktigt mot ljudet av sk\u00e4llande. N\u00e4ra gr\u00e4nsen ser de en hund som jagar n\u00e5got. \u00c5h nej, det \u00e4r en katt!",
+        "decline_text": "Patrullen beslutar sig f\u00f6r att inte ingripa. Visst klarar katten sig sj\u00e4lv, hunden \u00e4r inte ens s\u00e5 stor.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol swiftly jumps into action. They capture the dog's attention and draw it away from the cat. r_c stays hidden and goes to the cat while the rest of the patrol lures the dog away. They're unharmed, and this display of bravery makes them want to join the Clan!",
+                "text": "Patrullen g\u00e5r snabbt till handling. De f\u00e5ngar hundens uppm\u00e4rksamhet och drar bort den fr\u00e5n katten. r_c h\u00e5ller sig g\u00f6md och g\u00e5r till katten medan resten av patrullen lockar bort hunden. De \u00e4r oskadda, och denna uppvisning av tapperhet f\u00e5r dem att vilja g\u00e5 med i klanen!",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -1909,7 +1909,7 @@
                 ]
             },
             {
-                "text": "s_c leaps into action, pelting towards the dog with a yowl rising in {PRONOUN\/s_c\/poss} throat. The dog looks alarmed by this newcomer and abandons the chase as s_c swipes at it. The loner, ruffled but unharmed, is amazed by this display. After some chatting, they decide to join the Clan.",
+                "text": "s_c hoppar till handling och kastar mot hunden med en yowl som stiger upp i {PRONOUN/s_c/poss} halsen. Hunden ser orolig ut av den h\u00e4r nykomlingen och \u00f6verger jakten n\u00e4r s_c sveper mot den. Ensamvargen, rufsig men oskadd, \u00e4r f\u00f6rv\u00e5nad \u00f6ver denna display. Efter lite chatt best\u00e4mmer de sig f\u00f6r att g\u00e5 med i klanen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1952,7 +1952,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol swiftly jumps into action. They capture the dog's attention and draw it away from the cat. r_c stayed hidden while the rest of the patrol lured the dog away, but when {PRONOUN\/r_c\/subject} {VERB\/r_c\/go\/goes} to find the cat, {PRONOUN\/r_c\/subject} {VERB\/r_c\/see\/sees} that it's still running! Oh well, at least they're alright.",
+                "text": "Patrullen g\u00e5r snabbt till handling. De f\u00e5ngar hundens uppm\u00e4rksamhet och drar bort den fr\u00e5n katten. r_c h\u00f6ll sig g\u00f6md medan resten av patrullen lockade bort hunden, men n\u00e4r {PRONOUN/r_c/subject} {VERB/r_c/go/goes} f\u00f6r att hitta katten, {PRONOUN/r_c/subject} {VERB/r_c/se /ser} att den fortfarande \u00e4r ig\u00e5ng! N\u00e5ja, de \u00e4r \u00e5tminstone okej.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0,
@@ -1966,7 +1966,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The loner escapes the dog by climbing a tree and scowls at the patrol, who stood by watching. The patrol leers back in return. c_n doesn't owe loners anything.",
+                "text": "Enst\u00f6ringen flyr hunden genom att kl\u00e4ttra i ett tr\u00e4d och stirrar p\u00e5 patrullen som stod bredvid och tittade p\u00e5. Patrullen ropar tillbaka. c_n \u00e4r inte skyldig ensamst\u00e5ende n\u00e5got.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -1995,7 +1995,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol watches as the loner climbs up a spindly tree to escape the dog, and then promptly proceed to chase the dog out of the territory and viciously spit at the loner not to cross the border.",
+                "text": "Patrullen tittar p\u00e5 n\u00e4r ensamvargen kl\u00e4ttrar upp i ett spinkigt tr\u00e4d f\u00f6r att fly hunden, och forts\u00e4tter sedan omedelbart att jaga hunden ut ur territoriet och spotta illvilligt p\u00e5 ensamvargen f\u00f6r att inte g\u00e5 \u00f6ver gr\u00e4nsen.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -2040,22 +2040,22 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As the patrol is checking the border lines, they hear an odd sound coming from a nearby bush.",
-        "decline_text": "It's probably nothing. The patrol leaves the noise alone and continues on their way.",
+        "intro_text": "N\u00e4r patrullen kontrollerar gr\u00e4nslinjerna h\u00f6r de ett konstigt ljud fr\u00e5n en n\u00e4rliggande buske.",
+        "decline_text": "Det \u00e4r nog ingenting. Patrullen l\u00e4mnar bullret ifred och forts\u00e4tter sin v\u00e4g.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l goes to check the bush and finds a kittypet cowering inside. The pathetic thing looks terrified and after a quick hiss from p_l it goes scrambling back out of the territory.",
+                "text": "p_l g\u00e5r f\u00f6r att kolla busken och hittar en kittype som kryper inuti. Det patetiska ser f\u00f6rskr\u00e4ckt ut och efter ett snabbt v\u00e4sande fr\u00e5n p_l g\u00e5r det och kl\u00e4ttrar tillbaka ut ur territoriet.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "p_l pads towards the bush to check on the noise when a rabbit bursts out! None of the cats are quick enough to catch it, but at least the noise was nothing dangerous.",
+                "text": "p_l padder mot busken f\u00f6r att kolla p\u00e5 ljudet n\u00e4r en kanin bryter ut! Ingen av katterna \u00e4r snabb nog att f\u00e5nga den, men ljudet var \u00e5tminstone inget farligt.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "s_c takes the lead in checking the noise, and it's a good thing {PRONOUN\/s_c\/subject} did, because the moment {PRONOUN\/s_c\/subject} step closer to the bush a rogue comes springing out! s_c is quick to bat them away, hissing and spitting, before promptly chasing the rogue out of the territory. It was hardly a fight, really. ",
+                "text": "s_c tar ledningen n\u00e4r det g\u00e4ller att kontrollera ljudet, och det \u00e4r bra att {PRONOUN/s_c/subject} gjorde det, f\u00f6r i samma \u00f6gonblick som {PRONOUN/s_c/subject} kliver n\u00e4rmare busken kommer en skurk att springa ut! s_c \u00e4r snabb att sl\u00e5 bort dem, v\u00e4sande och spottande, innan han omedelbart jagar skurken ut ur territoriet. Det var knappast en kamp, \u200b\u200begentligen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2086,12 +2086,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l pads closer to the bush, intent on finding the source of the noise, only to come face-to-face with a skunk! The poor cat ends up stinking for days after the unfortunate incident.",
+                "text": "p_l padder n\u00e4rmare busken, inriktad p\u00e5 att hitta k\u00e4llan till bruset, bara f\u00f6r att st\u00e5 \u00f6ga mot \u00f6ga med en skunk! Det slutar med att den stackars katten stinker i dagar efter den olyckliga h\u00e4ndelsen.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "s_c doesn't even hesitate before splitting from the patrol to check on the source of the noise. {PRONOUN\/s_c\/subject\/CAP} quickly {VERB\/s_c\/regret\/regrets} {PRONOUN\/s_c\/poss} impulsivity, however, when an angry raccoon bursts from the bush!  s_c gets quite the scare, but thankfully the raccoon only wanted to get away from {PRONOUN\/s_c\/object} and quickly runs off back into the undergrowth.",
+                "text": "s_c tvekar inte ens innan han delar sig fr\u00e5n patrullen f\u00f6r att kontrollera k\u00e4llan till bruset. {PRONOUN/s_c/subject/CAP} snabbt {VERB/s_c/regret/regrets} {PRONOUN/s_c/poss} impulsivitet, dock n\u00e4r en arg tv\u00e4ttbj\u00f6rn spricker ur busken!  s_c blir ganska r\u00e4dd, men tack och lov ville tv\u00e4ttbj\u00f6rnen bara komma bort fr\u00e5n {PRONOUN/s_c/object} och springer snabbt tillbaka in i undervegetationen.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2101,7 +2101,7 @@
                 ]
             },
             {
-                "text": "p_l takes the lead in checking the source of the noise and comes face-to-face with a rogue hiding in the bush! The rogue takes a swipe at p_l but doesn't get much damage in before p_l retaliates and chases the intruder out of c_n territory.",
+                "text": "p_l tar ledningen n\u00e4r det g\u00e4ller att kontrollera k\u00e4llan till bruset och kommer \u00f6ga mot \u00f6ga med en skurk som g\u00f6mmer sig i bushen! Skurken tar ett svep p\u00e5 p_l men f\u00e5r inte mycket skada innan p_l reagerar och jagar inkr\u00e4ktaren ut ur c_n territorium.",
                 "exp": 0,
                 "weight": 10,
                 "new_cat": [
@@ -2139,13 +2139,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c gained a scar after tussling with a rogue.",
-                    "reg_death": "m_c died from injuries sustained in a fight with a rogue.",
-                    "lead_death": "died from injuries sustained in a fight with a rogue"
+                    "scar": "m_c fick ett \u00e4rr efter att ha tjatat med en skurk.",
+                    "reg_death": "m_c dog av skador som \u00e5dragits i ett slagsm\u00e5l med en skurk.",
+                    "lead_death": "dog av skador som \u00e5dragits i ett slagsm\u00e5l med en skurk"
                 }
             },
             {
-                "text": "p_l starts to pad towards the bush. Before {PRONOUN\/p_l\/subject} can even reach it, however, a gang of rogues burst out of hiding! A fight ensues and though the rogues are eventually driven off, r_c is killed in the process.",
+                "text": "p_l b\u00f6rjar paddla mot busken. Innan {PRONOUN/p_l/subject} ens kan n\u00e5 det, spricker dock ett g\u00e4ng skurkar ut ur g\u00f6mmorna! Ett slagsm\u00e5l uppst\u00e5r och \u00e4ven om skurkarna s\u00e5 sm\u00e5ningom drivs bort, d\u00f6das r_c i processen.",
                 "exp": 0,
                 "weight": 10,
                 "new_cat": [
@@ -2193,15 +2193,15 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c gained a scar after tussling with a rogue.",
-                    "reg_death": "m_c was died from injuries sustained in a fight with a rogue.",
-                    "lead_death": "died from injuries sustained in a fight with a rogue"
+                    "scar": "m_c fick ett \u00e4rr efter att ha tjatat med en skurk.",
+                    "reg_death": "m_c dog av skador som \u00e5dragits i ett slagsm\u00e5l med en skurk.",
+                    "lead_death": "dog av skador som \u00e5dragits i ett slagsm\u00e5l med en skurk"
                 }
             }
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l finds a gang of rogues in the bush! p_l turns tail and runs, the sound of gloating the last thing in p_l's ears, hearing how little the rogues think of c_n.",
+                "text": "p_l hittar ett g\u00e4ng skurkar i bushen! p_l v\u00e4nder p\u00e5 svansen och springer, ljudet av gl\u00e4dje det sista i p_ls \u00f6ron, h\u00f6r hur lite skurkarna t\u00e4nker p\u00e5 c_n.",
                 "exp": 0,
                 "weight": 20,
                 "new_cat": [
@@ -2239,7 +2239,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l checks the bush and finds a kittypet cowering inside. p_l scratches its ears off and sends it on its way.",
+                "text": "p_l kollar busken och hittar en kittype som kryper inuti. p_l kliar av sig \u00f6ronen och skickar den iv\u00e4g.",
                 "exp": 10,
                 "weight": 20
             }
@@ -2264,15 +2264,15 @@
         "max_cats": 2,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol approaches a Twoleg nest in the woods while hunting.",
-        "decline_text": "The patrol decides to hunt elsewhere.",
+        "intro_text": "Patrullen n\u00e4rmar sig ett tv\u00e5bensbo i skogen under jakt.",
+        "decline_text": "Patrullen best\u00e4mmer sig f\u00f6r att jaga n\u00e5gon annanstans.",
         "chance_of_success": 40,
         "relationship_constraint": [
             "mates"
         ],
         "success_outcomes": [
             {
-                "text": "p_l hears r_c softly calling {PRONOUN\/p_l\/object} through the bushes. p_l drops the idea of following mouse scent, hurrying to {PRONOUN\/p_l\/poss} mate's side. r_c, head poking into the nest's garden through a gap in the fence, murmurs something about Twoleg kits. Twoleg kits? No, r_c corrects, the <i>Twolegs' kits<\/i>, the Twolegs <i>have kittens<\/i> wandering through the nest's garden. Uneasily, the patrol leaves, but both cats' minds return to the young cats in the days that follow.",
+                "text": "p_l h\u00f6r r_c sakta ropa {PRONOUN/p_l/objekt} genom buskarna. p_l sl\u00e4pper tanken p\u00e5 att f\u00f6lja musdoften och skyndar till {PRONOUN/p_l/poss} kompisens sida. r_c, huvudet sticker in i boets tr\u00e4dg\u00e5rd genom en lucka i staketet, mumlar n\u00e5got om Twoleg-kit. Tv\u00e5benssatser? Nej, r_c korrigerar, <i>Twolegs kit</i>, Twolegs <i>har kattungar</i> som vandrar genom boets tr\u00e4dg\u00e5rd. Oroligt g\u00e5r patrullen, men b\u00e5da katternas sinnen \u00e5terv\u00e4nder till de unga katterna under dagarna som f\u00f6ljer.",
                 "exp": 30,
                 "weight": 20,
                 "new_cat": [
@@ -2308,7 +2308,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "Near the Twoleg den, p_l suddenly hears furious growls. Tiny, adorable, furious growls. A kitten tries to pounce on p_l, barely coming up to {PRONOUN\/p_l\/poss} elbows. Before little teeth can do any damage, p_l gently flips the tiny cat over and places a gentle paw on their back, completely pinning them as they struggle with all their might. r_c, called over by the mighty fight, asks the little warrior what on earth they're doing. Why, they're defending their territory of course! It might not be the done thing in c_n, but p_l is enchanted by the tiny warrior's bravery, and is willing to vouch for them.",
+                "text": "N\u00e4ra Twoleg-h\u00e5lan h\u00f6r p_l pl\u00f6tsligt rasande morrar. Sm\u00e5, bed\u00e5rande, rasande morrar. En kattunge f\u00f6rs\u00f6ker kasta sig p\u00e5 p_l och kommer knappt upp till {PRONOUN/p_l/poss} armb\u00e5gar. Innan sm\u00e5 t\u00e4nder kan g\u00f6ra n\u00e5gon skada, v\u00e4nder p_l f\u00f6rsiktigt p\u00e5 den lilla katten och placerar en f\u00f6rsiktig tass p\u00e5 deras rygg, helt kl\u00e4mmer fast dem medan de k\u00e4mpar med all sin kraft. r_c, kallad \u00f6ver av den m\u00e4ktiga kampen, fr\u00e5gar den lilla krigaren vad i hela friden de h\u00e5ller p\u00e5 med. Jas\u00e5, de f\u00f6rsvarar sitt territorium s\u00e5klart! Det kanske inte \u00e4r det som \u00e4r gjort i c_n, men p_l \u00e4r f\u00f6rtrollad av den lilla krigarens tapperhet och \u00e4r villig att g\u00e5 i god f\u00f6r dem.",
                 "exp": 30,
                 "weight": 5,
                 "new_cat": [
@@ -2344,7 +2344,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "Furious, high-pitched yowls greet the patrol as a tiny kittypet kitten comes roaring out of the Twoleg nest to try and fight them. Terrifying. s_c tips the little fighter over and carefully scruffs the tiny warrior, wondering what to do with them - s_c doesn't particularly want to hurt them, even if they aren't a Clancat. The kitten insists that they're a big cat and they're <b>fine<\/b>, but after a couple minutes, does reveal their mother is dead. Twolegs have kept them alive somehow, but c_n will do better, and such a fierce heart shouldn't be left to wither in a soft kittypet life.",
+                "text": "Rasande, h\u00f6gljudda yowls h\u00e4lsar patrullen n\u00e4r en liten kattunge kommer vr\u00e5lande ut ur Twoleg-boet f\u00f6r att f\u00f6rs\u00f6ka bek\u00e4mpa dem. Skr\u00e4mmande. s_c tippar den lilla fightern \u00f6ver och sl\u00e4nger f\u00f6rsiktigt den lilla krigaren och undrar vad han ska g\u00f6ra med dem - s_c vill inte s\u00e4rskilt skada dem, \u00e4ven om de inte \u00e4r en Clancat. Kattungen insisterar p\u00e5 att de \u00e4r en stor katt och att de m\u00e5r <b>bra</b>, men efter ett par minuter avsl\u00f6jar de att deras mamma \u00e4r d\u00f6d. Twolegs har h\u00e5llit dem vid liv p\u00e5 n\u00e5got s\u00e4tt, men c_n kommer att klara sig b\u00e4ttre, och ett s\u00e5dant h\u00e4ftigt hj\u00e4rta ska inte l\u00e4mnas att vissna i ett mjukt kittypliv.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -2386,7 +2386,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Twoleg kits scare the patrol away.",
+                "text": "Tv\u00e5benssatser skr\u00e4mmer iv\u00e4g patrullen.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -2394,7 +2394,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The kittypet kittens trying furiously to defend their territory ruin all the hunting to be had. The patrol returns home, irritated but impressed by the kittens' bravery.",
+                "text": "Kattungarna som rasande f\u00f6rs\u00f6ker f\u00f6rsvara sitt territorium f\u00f6rst\u00f6r all jakt som finns. Patrullen \u00e5terv\u00e4nder hem, irriterad men imponerad av kattungarnas tapperhet.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -2402,7 +2402,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "A kittypet kitten approaches the patrol, yowling furiously. p_l bats it aside as the warriors continue hunting, unruffled.",
+                "text": "En kattunge n\u00e4rmar sig patrullen och skriker ursinnigt. p_l sl\u00e5r det \u00e5t sidan n\u00e4r krigarna forts\u00e4tter att jaga, ober\u00f6rd.",
                 "exp": 30,
                 "weight": 20,
                 "outsider_rep": -2
@@ -2441,12 +2441,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While searching for some specific herbs, p_l is startled by weird sounds and whispers on the wind.",
-        "decline_text": "Unnerved and unable to discern if it is a sign from StarClan or nothing, {PRONOUN\/p_l\/subject} {VERB\/p_l\/go\/goes} back to c_n to ask for help and guidance.",
+        "intro_text": "N\u00e4r han letar efter n\u00e5gra specifika \u00f6rter, skr\u00e4ms p_l av konstiga ljud och viskningar p\u00e5 vinden.",
+        "decline_text": "Uppr\u00f6rd och of\u00f6rm\u00f6gen att urskilja om det \u00e4r ett tecken fr\u00e5n StarClan eller ingenting, {PRONOUN/p_l/subject} {VERB/p_l/go/goes} tillbaka till c_n f\u00f6r att be om hj\u00e4lp och v\u00e4gledning.",
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN\/p_l\/self} nose to nose with a panting, bleeding queen, one desperately trying to keep {PRONOUN\/n_c:0\/poss} newborn litter quiet. p_l brings the queen back to camp where the Clan, suspicious but obedient to the code, takes them in.",
+                "text": "Ljuden d\u00f6r bort och startar sedan upp igen med konstiga, of\u00f6ruts\u00e4gbara intervaller. P_l unders\u00f6ker pl\u00f6tsligt {PRONOUN/p_l/self} n\u00e4sa mot n\u00e4sa med en fl\u00e4mtande, bl\u00f6dande drottning, en som desperat f\u00f6rs\u00f6ker h\u00e5lla {PRONOUN/n_c:0/poss} nyf\u00f6dd kull tyst. p_l tar drottningen tillbaka till l\u00e4gret d\u00e4r klanen, misst\u00e4nksam men lydig mot koden, tar in dem.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -2481,7 +2481,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l sees a worn and weary queen protecting {PRONOUN\/n_c:0\/poss} mewling litter. Not happy but unwilling and unable to go against {PRONOUN\/p_l\/poss} beloved code, {PRONOUN\/p_l\/subject} {VERB\/p_l\/take\/takes} them all back to camp, refusing to let r_c say a word against it.",
+                "text": "p_l ser en sliten och tr\u00f6tt drottning som skyddar {PRONOUN/n_c:0/poss} jamlande kull. Inte glad men ovillig och of\u00f6rm\u00f6gen att g\u00e5 emot {PRONOUN/p_l/poss} \u00e4lskade kod, {PRONOUN/p_l/subject} {VERB/p_l/take/tar} dem alla tillbaka till l\u00e4gret, v\u00e4grar l\u00e5ta r_c s\u00e4ga ett ord emot det .",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -2517,7 +2517,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sees the body of an unknown queen with their kits beside them, slowly cooling in the morning breeze. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/are\/is} filled with an unexpected sense of grief. p_l and the rest of the patrol take the time to carry and bury them outside their borders.",
+                "text": "p_l ser kroppen av en ok\u00e4nd drottning med sina kit bredvid sig, sakta svalna i morgonbrisen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} fylld av en ov\u00e4ntad k\u00e4nsla av sorg. p_l och resten av patrullen tar sig tid att b\u00e4ra och begrava dem utanf\u00f6r deras gr\u00e4nser.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -2525,7 +2525,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN\/p_l\/subject} {VERB\/p_l\/return\/returns} home, {PRONOUN\/p_l\/poss} mind clouded.",
+                "text": "p_l f\u00f6ljer motvilligt ljudet, bara f\u00f6r att hitta kropparna av en ok\u00e4nd drottning och deras kit bredvid dem. Om p_l hade varit snabbare... Hur som helst, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} hem, {PRONOUN/p_l/poss} sinnet grumlade.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -2533,7 +2533,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l v\u00e4ser p\u00e5 StarClan efter tecknet och v\u00e4grar att f\u00f6lja det till dess k\u00e4lla, och vad som kan ha varit.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -2572,12 +2572,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While searching for some specific herbs, p_l is startled by weird sounds and whispers on the wind.",
-        "decline_text": "Unnerved and unable to discern if it is a sign from StarClan or nothing, {PRONOUN\/p_l\/subject} {VERB\/p_l\/go\/goes} back to c_n to ask for help and guidance.",
+        "intro_text": "N\u00e4r han letar efter n\u00e5gra specifika \u00f6rter, skr\u00e4ms p_l av konstiga ljud och viskningar p\u00e5 vinden.",
+        "decline_text": "Uppr\u00f6rd och of\u00f6rm\u00f6gen att urskilja om det \u00e4r ett tecken fr\u00e5n StarClan eller ingenting, {PRONOUN/p_l/subject} {VERB/p_l/go/goes} tillbaka till c_n f\u00f6r att be om hj\u00e4lp och v\u00e4gledning.",
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "Sure that it is a sign from StarClan, p_l follows the faint wailing. Instead, {PRONOUN\/p_l\/subject} {VERB\/p_l\/find\/finds} a queen who lost {PRONOUN\/n_c:0\/poss} life in a harsh kitting, {PRONOUN\/n_c:0\/poss} newborn kits clinging to a body that will never move again. p_l hesitates, but wraps {PRONOUN\/p_l\/self} around the kits and orders r_c back to the camp to fetch help. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/are\/is} going to have to argue to keep them.",
+                "text": "Visst att det \u00e4r ett tecken fr\u00e5n StarClan, p_l f\u00f6ljer det svaga klagan. Ist\u00e4llet {PRONOUN/p_l/subject} {VERB/p_l/find/finds} en drottning som f\u00f6rlorade {PRONOUN/n_c:0/poss} livet i en h\u00e5rd kitting, {PRONOUN/n_c:0/poss} nyf\u00f6dda kit som kl\u00e4nger sig fast vid en kropp som aldrig kommer att r\u00f6ra sig igen. p_l tvekar, men lindar {PRONOUN/p_l/self} runt kiten och beordrar r_c tillbaka till l\u00e4gret f\u00f6r att h\u00e4mta hj\u00e4lp. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} kommer att beh\u00f6va argumentera f\u00f6r att beh\u00e5lla dem.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -2613,7 +2613,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l and {PRONOUN\/p_l\/poss} patrol come across a litter of frantically mewling kits desperately trying to wake up their dead parent. Unsure but not willing for them to die they bring the kits back to the Clan to be raised as one of them.",
+                "text": "p_l och {PRONOUN/p_l/poss} patrull st\u00f6ter p\u00e5 en kull frenetiskt jamlande kit som desperat f\u00f6rs\u00f6ker v\u00e4cka sin d\u00f6da f\u00f6r\u00e4lder. Os\u00e4kra men inte villiga att de ska d\u00f6 tar de med sig kiten till klanen f\u00f6r att bli uppfostrad som en av dem.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -2651,7 +2651,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sees the body of an unknown queen with their kits beside them, slowly cooling in the morning breeze. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/are\/is} filled with an unexpected sense of grief. p_l and the rest of the patrol take the time to carry and bury them outside their borders.",
+                "text": "p_l ser kroppen av en ok\u00e4nd drottning med sina kit bredvid sig, sakta svalna i morgonbrisen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} fylld av en ov\u00e4ntad k\u00e4nsla av sorg. p_l och resten av patrullen tar sig tid att b\u00e4ra och begrava dem utanf\u00f6r deras gr\u00e4nser.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -2659,7 +2659,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN\/p_l\/subject} {VERB\/p_l\/return\/returns} home, {PRONOUN\/p_l\/poss} mind clouded.",
+                "text": "p_l f\u00f6ljer motvilligt ljudet, bara f\u00f6r att hitta kropparna av en ok\u00e4nd drottning och deras kit bredvid dem. Om p_l hade varit snabbare... Hur som helst, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} hem, {PRONOUN/p_l/poss} sinnet grumlade.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -2667,7 +2667,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l v\u00e4ser p\u00e5 StarClan efter tecknet och v\u00e4grar att f\u00f6lja det till dess k\u00e4lla, och vad som kan ha varit.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -2714,12 +2714,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While searching for some specific herbs, p_l is startled by weird sounds and whispers on the wind.",
-        "decline_text": "Unnerved and unable to discern if it is a sign from StarClan or nothing, {PRONOUN\/p_l\/subject} {VERB\/p_l\/go\/goes} back to c_n to ask for help and guidance.",
+        "intro_text": "N\u00e4r han letar efter n\u00e5gra specifika \u00f6rter, skr\u00e4ms p_l av konstiga ljud och viskningar p\u00e5 vinden.",
+        "decline_text": "Uppr\u00f6rd och of\u00f6rm\u00f6gen att urskilja om det \u00e4r ett tecken fr\u00e5n StarClan eller ingenting, {PRONOUN/p_l/subject} {VERB/p_l/go/goes} tillbaka till c_n f\u00f6r att be om hj\u00e4lp och v\u00e4gledning.",
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN\/p_l\/self} nose to nose with a panting, bleeding queen, one desperately trying to keep {PRONOUN\/n_c:0\/poss} newborn litter quiet. p_l brings the queen back to camp where the Clan, suspicious but obedient to the code, takes them in.",
+                "text": "Ljuden d\u00f6r bort och startar sedan upp igen med konstiga, of\u00f6ruts\u00e4gbara intervaller. P_l unders\u00f6ker pl\u00f6tsligt {PRONOUN/p_l/self} n\u00e4sa mot n\u00e4sa med en fl\u00e4mtande, bl\u00f6dande drottning, en som desperat f\u00f6rs\u00f6ker h\u00e5lla {PRONOUN/n_c:0/poss} nyf\u00f6dd kull tyst. p_l tar drottningen tillbaka till l\u00e4gret d\u00e4r klanen, misst\u00e4nksam men lydig mot koden, tar in dem.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -2753,7 +2753,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l sees a worn and weary queen protecting {PRONOUN\/n_c:0\/poss} mewling litter. Not happy but unwilling and unable to go against {PRONOUN\/p_l\/poss} beloved code, {PRONOUN\/p_l\/subject} {VERB\/p_l\/take\/takes} them all back to camp.",
+                "text": "p_l ser en sliten och tr\u00f6tt drottning som skyddar {PRONOUN/n_c:0/poss} jamlande kull. Inte glad men ovillig och of\u00f6rm\u00f6gen att g\u00e5 emot {PRONOUN/p_l/poss} \u00e4lskade kod, {PRONOUN/p_l/subject} {VERB/p_l/take/tar} dem alla tillbaka till l\u00e4gret.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -2789,7 +2789,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sees the body of an unknown queen with their kits beside them, slowly cooling in the morning breeze. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/are\/is} filled with an unexpected sense of grief. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/take\/takes} to carry and bury them outside their borders.",
+                "text": "p_l ser kroppen av en ok\u00e4nd drottning med sina kit bredvid sig, sakta svalna i morgonbrisen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} fylld av en ov\u00e4ntad k\u00e4nsla av sorg. {PRONOUN/p_l/subject/CAP} {VERB/p_l/take/takes} att b\u00e4ra och begrava dem utanf\u00f6r deras gr\u00e4nser.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -2797,7 +2797,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN\/p_l\/subject} {VERB\/p_l\/return\/returns} home, {PRONOUN\/p_l\/poss} mind clouded.",
+                "text": "p_l f\u00f6ljer motvilligt ljudet, bara f\u00f6r att hitta kropparna av en ok\u00e4nd drottning och deras kit bredvid dem. Om p_l hade varit snabbare... Hur som helst, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} hem, {PRONOUN/p_l/poss} sinnet grumlade.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -2805,7 +2805,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l v\u00e4ser p\u00e5 StarClan efter tecknet och v\u00e4grar att f\u00f6lja det till dess k\u00e4lla, och vad som kan ha varit.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -2852,12 +2852,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While searching for some specific herbs, p_l is startled by weird sounds and whispers on the wind.",
-        "decline_text": "Unnerved and unable to discern if it is a sign from StarClan or nothing, {PRONOUN\/p_l\/subject} {VERB\/p_l\/go\/goes} back to c_n to ask for help and guidance.",
+        "intro_text": "N\u00e4r han letar efter n\u00e5gra specifika \u00f6rter, skr\u00e4ms p_l av konstiga ljud och viskningar p\u00e5 vinden.",
+        "decline_text": "Uppr\u00f6rd och of\u00f6rm\u00f6gen att urskilja om det \u00e4r ett tecken fr\u00e5n StarClan eller ingenting, {PRONOUN/p_l/subject} {VERB/p_l/go/goes} tillbaka till c_n f\u00f6r att be om hj\u00e4lp och v\u00e4gledning.",
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "Sure that it is a sign from StarClan, p_l follows the faint wailing. Instead, {PRONOUN\/p_l\/subject} {VERB\/p_l\/find\/finds} a queen who lost {PRONOUN\/n_c:0\/poss} life in a harsh kitting, {PRONOUN\/n_c:0\/poss} newborn kits clinging to a body that will never move again. p_l hesitates, but wraps {PRONOUN\/p_l\/self} around the kits. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/are\/is} going to have to argue to keep them.",
+                "text": "Visst att det \u00e4r ett tecken fr\u00e5n StarClan, p_l f\u00f6ljer det svaga klagan. Ist\u00e4llet {PRONOUN/p_l/subject} {VERB/p_l/find/finds} en drottning som f\u00f6rlorade {PRONOUN/n_c:0/poss} livet i en h\u00e5rd kitting, {PRONOUN/n_c:0/poss} nyf\u00f6dda kit som kl\u00e4nger sig fast vid en kropp som aldrig kommer att r\u00f6ra sig igen. p_l tvekar, men lindar {PRONOUN/p_l/self} runt kiten. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} kommer att beh\u00f6va argumentera f\u00f6r att beh\u00e5lla dem.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -2893,7 +2893,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l comes across a litter of frantically mewling kits desperately trying to wake up their dead parent. Unsure but not willing for them to die {PRONOUN\/p_l\/subject} {VERB\/p_l\/bring\/brings} the kits back to the Clan to be raised as one of them.",
+                "text": "p_l st\u00f6ter p\u00e5 en kull frenetiskt mjallande kit som desperat f\u00f6rs\u00f6ker v\u00e4cka sin d\u00f6da f\u00f6r\u00e4lder. Os\u00e4ker men inte villig att de ska d\u00f6 {PRONOUN/p_l/subject} {VERB/p_l/bring/brings} kiten tillbaka till klanen f\u00f6r att uppfostras som en av dem.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -2931,7 +2931,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sees the body of an unknown queen with their kits beside them, slowly cooling in the morning breeze. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/are\/is} filled with an unexpected sense of grief. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/take\/takes} to carry and bury them outside their borders.",
+                "text": "p_l ser kroppen av en ok\u00e4nd drottning med sina kit bredvid sig, sakta svalna i morgonbrisen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} fylld av en ov\u00e4ntad k\u00e4nsla av sorg. {PRONOUN/p_l/subject/CAP} {VERB/p_l/take/takes} att b\u00e4ra och begrava dem utanf\u00f6r deras gr\u00e4nser.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -2939,7 +2939,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN\/p_l\/subject} {VERB\/p_l\/return\/returns} home, {PRONOUN\/p_l\/poss} mind clouded.",
+                "text": "p_l f\u00f6ljer motvilligt ljudet, bara f\u00f6r att hitta kropparna av en ok\u00e4nd drottning och deras kit bredvid dem. Om p_l hade varit snabbare... Hur som helst, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} hem, {PRONOUN/p_l/poss} sinnet grumlade.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -2947,7 +2947,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l v\u00e4ser p\u00e5 StarClan efter tecknet och v\u00e4grar att f\u00f6lja det till dess k\u00e4lla, och vad som kan ha varit.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -2990,12 +2990,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While searching for some specific herbs, p_l is startled by weird sounds and whispers on the wind.",
-        "decline_text": "Unnerved and unable to discern if it is a sign from StarClan or nothing, {PRONOUN\/p_l\/subject} {VERB\/p_l\/go\/goes} back to c_n to ask for help and guidance.",
+        "intro_text": "N\u00e4r han letar efter n\u00e5gra specifika \u00f6rter, skr\u00e4ms p_l av konstiga ljud och viskningar p\u00e5 vinden.",
+        "decline_text": "Uppr\u00f6rd och of\u00f6rm\u00f6gen att urskilja om det \u00e4r ett tecken fr\u00e5n StarClan eller ingenting, {PRONOUN/p_l/subject} {VERB/p_l/go/goes} tillbaka till c_n f\u00f6r att be om hj\u00e4lp och v\u00e4gledning.",
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds {PRONOUN\/p_l\/self} nose to nose with a panting, bleeding queen, one desperately trying to keep {PRONOUN\/n_c:0\/poss} newborn litter quiet. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/watch\/watches} uncertainly, but when the queen begs for help {PRONOUN\/p_l\/subject} can't refuse.",
+                "text": "Ljuden d\u00f6r bort och startar sedan upp igen med konstiga, of\u00f6ruts\u00e4gbara intervaller. P_l unders\u00f6ker pl\u00f6tsligt {PRONOUN/p_l/self} n\u00e4sa mot n\u00e4sa med en fl\u00e4mtande, bl\u00f6dande drottning, en som desperat f\u00f6rs\u00f6ker h\u00e5lla {PRONOUN/n_c:0/poss} nyf\u00f6dd kull tyst. {PRONOUN/p_l/subject/CAP} {VERB/p_l/watch/watches} os\u00e4kert, men n\u00e4r drottningen ber om hj\u00e4lp kan inte {PRONOUN/p_l/subject} v\u00e4gra.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -3029,7 +3029,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "p_l follows the strange sounds on the wind and finds a struggling queen with {PRONOUN\/n_c:0\/poss} newborn kits clinging to {PRONOUN\/n_c:0\/object}. Panicking, {PRONOUN\/p_l\/subject} {VERB\/p_l\/run\/runs} for home. It alerts c_n to the problem, and begrudgingly they take the queen and kits in.",
+                "text": "p_l f\u00f6ljer de konstiga ljuden p\u00e5 vinden och hittar en k\u00e4mpande drottning med {PRONOUN/n_c:0/poss} nyf\u00f6dda kit som klamrar sig fast vid {PRONOUN/n_c:0/object}. Panik, {PRONOUN/p_l/subject} {VERB/p_l/run/runs} f\u00f6r hemmet. Det uppm\u00e4rksammar c_n p\u00e5 problemet, och motvilligt tar de in drottningen och utrustningarna.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -3065,7 +3065,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sees the body of an unknown queen with their kits beside them, slowly cooling in the morning breeze. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/are\/is} filled with an unexpected sense of grief. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/take\/takes} to carry and bury them outside their borders.",
+                "text": "p_l ser kroppen av en ok\u00e4nd drottning med sina kit bredvid sig, sakta svalna i morgonbrisen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} fylld av en ov\u00e4ntad k\u00e4nsla av sorg. {PRONOUN/p_l/subject/CAP} {VERB/p_l/take/takes} att b\u00e4ra och begrava dem utanf\u00f6r deras gr\u00e4nser.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -3073,7 +3073,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN\/p_l\/subject} {VERB\/p_l\/return\/returns} home, {PRONOUN\/p_l\/poss} mind clouded.",
+                "text": "p_l f\u00f6ljer motvilligt ljudet, bara f\u00f6r att hitta kropparna av en ok\u00e4nd drottning och deras kit bredvid dem. Om p_l hade varit snabbare... Hur som helst, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} hem, {PRONOUN/p_l/poss} sinnet grumlade.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -3081,7 +3081,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l v\u00e4ser p\u00e5 StarClan efter tecknet och v\u00e4grar att f\u00f6lja det till dess k\u00e4lla, och vad som kan ha varit.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -3124,12 +3124,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While searching for some specific herbs, p_l is startled by weird sounds and whispers on the wind.",
-        "decline_text": "Unnerved and unable to discern if it is a sign from StarClan or nothing, {PRONOUN\/p_l\/subject} {VERB\/p_l\/go\/goes} back to c_n to ask for help and guidance.",
+        "intro_text": "N\u00e4r han letar efter n\u00e5gra specifika \u00f6rter, skr\u00e4ms p_l av konstiga ljud och viskningar p\u00e5 vinden.",
+        "decline_text": "Uppr\u00f6rd och of\u00f6rm\u00f6gen att urskilja om det \u00e4r ett tecken fr\u00e5n StarClan eller ingenting, {PRONOUN/p_l/subject} {VERB/p_l/go/goes} tillbaka till c_n f\u00f6r att be om hj\u00e4lp och v\u00e4gledning.",
         "chance_of_success": 45,
         "success_outcomes": [
             {
-                "text": "p_l comes across a litter of frantically mewling kits desperately trying to wake up their dead parent. Unsure but not willing for them to die {PRONOUN\/p_l\/subject} {VERB\/p_l\/bring\/brings} the kits back to the Clan to be raised as one of them.",
+                "text": "p_l st\u00f6ter p\u00e5 en kull frenetiskt mjallande kit som desperat f\u00f6rs\u00f6ker v\u00e4cka sin d\u00f6da f\u00f6r\u00e4lder. Os\u00e4ker men inte villig att de ska d\u00f6 {PRONOUN/p_l/subject} {VERB/p_l/bring/brings} kiten tillbaka till klanen f\u00f6r att uppfostras som en av dem.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -3165,7 +3165,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "It takes ages for p_l to pinpoint the sounds. Eventually {PRONOUN\/p_l\/subject} {VERB\/p_l\/uncover\/uncovers} the hidden birthing nest of a dead, cold queen, {PRONOUN\/n_c:0\/poss} newborn kits by {PRONOUN\/n_c:0\/poss} side. It's against everything p_l has been told about outsiders, but {PRONOUN\/p_l\/subject} can't leave the kittens to die.",
+                "text": "Det tar evigheter f\u00f6r p_l att lokalisera ljuden. S\u00e5 sm\u00e5ningom {PRONOUN/p_l/subject} {VERB/p_l/avsl\u00f6ja/avt\u00e4cker} det dolda f\u00f6delseboet f\u00f6r en d\u00f6d, kall drottning, {PRONOUN/n_c:0/poss} nyf\u00f6dda kit vid {PRONOUN/n_c:0/poss} sida . Det \u00e4r emot allt p_l har ber\u00e4ttats om utomst\u00e5ende, men {PRONOUN/p_l/subject} kan inte l\u00e4mna kattungarna att d\u00f6.",
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
@@ -3203,7 +3203,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l sees the body of an unknown queen with their kits beside them, slowly cooling in the morning breeze. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/are\/is} filled with an unexpected sense of grief. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/take\/takes} to carry and bury them outside their borders.",
+                "text": "p_l ser kroppen av en ok\u00e4nd drottning med sina kit bredvid sig, sakta svalna i morgonbrisen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/are/is} fylld av en ov\u00e4ntad k\u00e4nsla av sorg. {PRONOUN/p_l/subject/CAP} {VERB/p_l/take/takes} att b\u00e4ra och begrava dem utanf\u00f6r deras gr\u00e4nser.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -3211,7 +3211,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "p_l begrudgingly follows the sound, only to find the bodies of an unknown queen and their kits beside them. If p_l had been quicker... Whatever the case, {PRONOUN\/p_l\/subject} {VERB\/p_l\/return\/returns} home, {PRONOUN\/p_l\/poss} mind clouded.",
+                "text": "p_l f\u00f6ljer motvilligt ljudet, bara f\u00f6r att hitta kropparna av en ok\u00e4nd drottning och deras kit bredvid dem. Om p_l hade varit snabbare... Hur som helst, {PRONOUN/p_l/subject} {VERB/p_l/return/returns} hem, {PRONOUN/p_l/poss} sinnet grumlade.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -3219,7 +3219,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l hisses at StarClan for the sign, refusing to follow it to its source, and what might have been.",
+                "text": "p_l v\u00e4ser p\u00e5 StarClan efter tecknet och v\u00e4grar att f\u00f6lja det till dess k\u00e4lla, och vad som kan ha varit.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2
@@ -3250,12 +3250,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "It's a cold day in c_n's territory, and app1 is the only cat stepping out. {PRONOUN\/app1\/subject\/CAP}{VERB\/app1\/'re\/'s} by {PRONOUN\/app1\/self} when {PRONOUN\/app1\/subject} {VERB\/app1\/hear\/hears} a cat screaming for help.",
-        "decline_text": "Nope, not today, there's no way app1 is running after ghost cats, no thank you.",
+        "intro_text": "Det \u00e4r en kall dag p\u00e5 c_ns territorium och app1 \u00e4r den enda katten som kliver ut. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} av {PRONOUN/app1/self} n\u00e4r {PRONOUN/app1/subject} {VERB/app1/h\u00f6r/h\u00f6r} en katt som skriker efter hj\u00e4lp .",
+        "decline_text": "Nej, inte idag, det finns inget s\u00e4tt att app1 springer efter sp\u00f6kkatter, nej tack.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "It's probably dangerous. But curiosity leads app1 on, where {PRONOUN\/app1\/subject} carefully {VERB\/app1\/peek\/peeks} over a ridge as the source of the cries. A pampered helpless kittypet runs back and forth over the Thunderpath, pleading fearfully for Twolegs, again and again and again. It isn't until their voice has gone hoarse and scratchy that app1 leaps out to surprise them - those Twolegs aren't coming back, and the kittypet can either follow app1, or freeze.",
+                "text": "Det \u00e4r f\u00f6rmodligen farligt. Men nyfikenhet leder app1 vidare, d\u00e4r {PRONOUN/app1/subject} f\u00f6rsiktigt {VERB/app1/peek/peeks} \u00f6ver en \u00e5s som k\u00e4llan till ropen. En bortsk\u00e4md hj\u00e4lpl\u00f6s kattunge springer fram och tillbaka \u00f6ver Thunderpath och v\u00e4djar r\u00e4dd om Twolegs, igen och igen och igen. Det \u00e4r inte f\u00f6rr\u00e4n deras r\u00f6st har blivit hes och repig som app1 hoppar ut f\u00f6r att \u00f6verraska dem - de d\u00e4r tv\u00e5benen kommer inte tillbaka, och kittypen kan antingen f\u00f6lja app1 eller frysa.",
                 "exp": 20,
                 "weight": 20,
                 "new_cat": [
@@ -3293,7 +3293,7 @@
                 ]
             },
             {
-                "text": "StarClan, but the cat {PRONOUN\/app1\/subject} {VERB\/app1\/find\/finds} is weird, {PRONOUN\/n_c:0\/poss} fur soft and thin, {PRONOUN\/n_c:0\/poss} cries desperate as {PRONOUN\/n_c:0\/subject} call in confusion. app1 watches until {PRONOUN\/app1\/poss} paws are cold and uncomfortable, crouched behind cover, but the dumb outsider doesn't even try to steal prey. {PRONOUN\/n_c:0\/subject\/CAP} just {VERB\/n_c:0\/wail\/wails} for help, quieter and quieter as {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/begin\/begins} to lose {PRONOUN\/n_c:0\/poss} voice. Finally, app1 can't take it anyone - striding out, {PRONOUN\/app1\/subject} {VERB\/app1\/tell\/tells} the cat to follow {PRONOUN\/app1\/object}, the Leader will know what to do with this.",
+                "text": "StarClan, men katten {PRONOUN/app1/subject} {VERB/app1/find/finds} \u00e4r konstig, {PRONOUN/n_c:0/poss} p\u00e4ls mjuk och tunn, {PRONOUN/n_c:0/poss} gr\u00e5ter desperat som {PRONOUN/n_c:0/subject} samtal i f\u00f6rvirring. app1 tittar tills {PRONOUN/app1/poss} tassar \u00e4r kalla och obekv\u00e4ma, hukade bakom skydd, men den dumme utomst\u00e5ende f\u00f6rs\u00f6ker inte ens stj\u00e4la byten. {PRONOUN/n_c:0/subject/CAP} bara {VERB/n_c:0/wail/wails} f\u00f6r hj\u00e4lp, tystare och tystare som {PRONOUN/n_c:0/subject} {VERB/n_c:0/begin/begins} f\u00f6r att tappa {PRONOUN/n_c:0/poss} r\u00f6st. Slutligen, app1 kan inte ta det av vem som helst - n\u00e4r du g\u00e5r ut, {PRONOUN/app1/subject} {VERB/app1/tell/tells} f\u00f6r katten att f\u00f6lja {PRONOUN/app1/object}, kommer ledaren att veta vad den ska g\u00f6ra med detta .",
                 "exp": 20,
                 "weight": 5,
                 "new_cat": [
@@ -3331,7 +3331,7 @@
                 ]
             },
             {
-                "text": "app1 follows the sad cries to find a kittypet, lost and alone and cold. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/watch\/watches} from under a rock overhang, but no, actually the kittypet is <i>that stupid<\/i> and it really seems likely they'll freeze to death if app1 doesn't do something. Ugh. Fine, well app1 can bring them back to camp, and then it's the Leader's problem to deal with, not app1's.",
+                "text": "app1 f\u00f6ljer de sorgliga ropen f\u00f6r att hitta en kattunge, vilsen och ensam och kall. {PRONOUN/app1/subject/CAP} {VERB/app1/watch/watches} fr\u00e5n ett sten\u00f6verh\u00e4ng, men nej, faktiskt \u00e4r kittypen <i>s\u00e5 dum</i> och det verkar sannolikt att de kommer att frysa till d\u00f6d om app1 inte g\u00f6r n\u00e5got. Usch. Okej, app1 kan ta dem tillbaka till l\u00e4gret, och d\u00e5 \u00e4r det ledarens problem att ta itu med, inte app1:s.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -3378,13 +3378,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The cat seems to be moving all over the place, and finally, app1 gives up and goes home, too tired to catch more than a mouthful.",
+                "text": "Katten verkar r\u00f6ra sig \u00f6verallt, och till slut ger app1 upp och g\u00e5r hem, f\u00f6r tr\u00f6tt f\u00f6r att f\u00e5nga mer \u00e4n en munsbit.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
             },
             {
-                "text": "s_c calls out to the cat, only to be met with raucous cawing. {VERB\/s_c\/Are\/Is} {PRONOUN\/s_c\/subject} being laughed at? {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/decide\/decides} to slink off, leaving it be.",
+                "text": "s_c ropar till katten, bara f\u00f6r att m\u00f6tas av ett skr\u00e4llande gr\u00e4t. {VERB/s_c/Are/Blir} {PRONOUN/s_c/subject} skrattade \u00e5t? {PRONOUN/s_c/subject/CAP} {VERB/s_c/decide/decides} att slinka av och l\u00e5ta det vara.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -3398,7 +3398,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "app1 charges after the sound to attack the cat, only for a kittypet to bowl {PRONOUN\/app1\/object} right over as the terrified Twoleg pet, fully grown and fat, runs app1 over in their haste to get away.",
+                "text": "app1 laddar efter ljudet f\u00f6r att attackera katten, bara f\u00f6r en kattunge att kasta {PRONOUN/app1/object} rakt \u00f6ver n\u00e4r det skr\u00e4ckslagna Twoleg-djuret, fullvuxet och tjockt, springer \u00f6ver app1 i sin br\u00e5dska att komma undan.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -3406,7 +3406,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "app1 screams that this is c_n's territory and there's no help for anyone else. A kittypet runs from {PRONOUN\/app1\/object}, terrified of the echoing voice.",
+                "text": "app1 skriker att detta \u00e4r c_ns territorium och att det inte finns n\u00e5gon hj\u00e4lp f\u00f6r n\u00e5gon annan. En kittypet springer fr\u00e5n {PRONOUN/app1/object}, livr\u00e4dd f\u00f6r den ekande r\u00f6sten.",
                 "exp": 20,
                 "weight": 20,
                 "outsider_rep": -2

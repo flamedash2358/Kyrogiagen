@@ -21,22 +21,22 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 crouches low behind some grass, searching for the ideal prey to fall to {PRONOUN\/app1\/poss} deadly claws. In front of the mighty hunter, a brightly colored beetle alights on a rock.",
-        "decline_text": "A beetle is beneath {PRONOUN\/app1\/poss} attention.",
+        "intro_text": "app1 hukar l\u00e5gt bakom lite gr\u00e4s och letar efter det perfekta bytet att falla f\u00f6r {PRONOUN/app1/poss} d\u00f6dliga klor. Inf\u00f6r den m\u00e4ktiga j\u00e4garen stiger en f\u00e4rgglad skalbagge p\u00e5 en sten.",
+        "decline_text": "En skalbagge \u00e4r under {PRONOUN/app1/poss} uppm\u00e4rksamhet.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Ha! app1 pounces, the pathetic bug crunching underneath {PRONOUN\/app1\/poss} mighty blow, splattering and - ewwwww. Ew, ew ew ew, there's bug juice all over {PRONOUN\/app1\/poss} paws, between {PRONOUN\/app1\/poss} toes, EWWWWW!",
+                "text": "ha! app1 sl\u00e5r till, den patetiska buggen knasar under {PRONOUN/app1/poss} ett m\u00e4ktigt slag, st\u00e4nker och - ewwwww. Ew, ew ew ew, det \u00e4r insektsjuice \u00f6ver hela {PRONOUN/app1/poss} tassar, mellan {PRONOUN/app1/poss} t\u00e5rna, EWWWWW!",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "Ha! app1 leaps, tail lashing furiously as the beetle buzzes under {PRONOUN\/app1\/poss} forepaws, claws sheathed. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/bat\/bats} the bug off the rock and onto the ground, pouncing after it, jumping and twisting as {PRONOUN\/app1\/poss} colorful prey flits around {PRONOUN\/app1\/poss} head in confused, concussed beetle-behavior, unused to being an apprentice's new favorite toy.",
+                "text": "ha! app1 hoppar, svansen surrar ursinnigt n\u00e4r skalbaggen surrar under {PRONOUN/app1/poss} framtassar, klor mantlade. {PRONOUN/app1/subject/CAP} {VERB/app1/bat/fladderm\u00f6ss} buggen fr\u00e5n klippan och ner p\u00e5 marken, hoppar efter den, hoppar och vrider sig medan {PRONOUN/app1/poss} f\u00e4rgglada byten flyger runt {PRONOUN/ app1/poss} huvud i f\u00f6rvirrat, hj\u00e4rnskakat skalbaggebeteende, ovant att vara en l\u00e4rlings nya favoritleksak.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c pounces, flipping the beetle with soft paws and flopping over onto {PRONOUN\/s_c\/poss} back, watching the insect scurry from one paw to the other, so completely entranced by its color and tiny, perfect legs that {PRONOUN\/s_c\/subject} {VERB\/s_c\/don't\/doesn't} notice {PRONOUN\/s_c\/poss} own skill catching and keeping the bug.",
+                "text": "s_c kastar sig, v\u00e4nder skalbaggen med mjuka tassar och floppar \u00f6ver p\u00e5 {PRONOUN/s_c/poss} ryggen, ser insekten springa fr\u00e5n en tass till den andra, s\u00e5 fullst\u00e4ndigt h\u00e4nf\u00f6rd av dess f\u00e4rg och sm\u00e5, perfekta ben att {PRONOUN/s_c/ \u00e4mne} {VERB/s_c/inte/g\u00f6r inte} m\u00e4rker {PRONOUN/s_c/poss} egen skicklighet att f\u00e5nga och h\u00e5lla felet.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -46,12 +46,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "While app1 is wiggling {PRONOUN\/app1\/poss} butt into the perfect pouncing position, the beetle flies off. Awwwww.",
+                "text": "Medan app1 vickar med {PRONOUN/app1/poss} rumpa till den perfekta punchpositionen, flyger skalbaggen iv\u00e4g. Awwwww.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the medicine cat den later, when {PRONOUN\/app1\/poss} stomach reminds {PRONOUN\/app1\/object} why cats don't eat random bugs.",
+                "text": "Slemmigt, men \u00e4nd\u00e5 tillfredsst\u00e4llande! Nyfikenheten avslutad, app1 vandrar iv\u00e4g - men m\u00e5ste rapportera till medicinkattens h\u00e5la senare, n\u00e4r {PRONOUN/app1/poss} magen p\u00e5minner {PRONOUN/app1/object} varf\u00f6r katter inte \u00e4ter slumpm\u00e4ssiga insekter.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -92,15 +92,15 @@
             ]
         },
         "weight": 60,
-        "intro_text": "p_l sees {PRONOUN\/p_l\/poss} mates exchanging curious glances as they all pad through the grass towards p_l's promised surprise. {PRONOUN\/p_l\/poss\/CAP} tail waves like a jaunty reed, twitching a little in {PRONOUN\/p_l\/poss} excitement and scattering dewdrops whenever it hits the grass.",
-        "decline_text": "The warriors get intercepted by a hunting patrol who need extra paws, and the possibility of a romantic afternoon evaporates.",
+        "intro_text": "p_l ser {PRONOUN/p_l/poss} kompisar utbyta nyfikna blickar n\u00e4r de alla paddar genom gr\u00e4set mot p_ls utlovade \u00f6verraskning. {PRONOUN/p_l/poss/CAP} svansen b\u00f6ljar som ett gulligt vass, rycker lite i {PRONOUN/p_l/poss} sp\u00e4nning och sprider daggdroppar n\u00e4r den tr\u00e4ffar gr\u00e4set.",
+        "decline_text": "Krigarna f\u00e5ngas upp av en jaktpatrull som beh\u00f6ver extra tassar, och m\u00f6jligheten till en romantisk eftermiddag f\u00f6rsvinner.",
         "chance_of_success": 60,
         "relationship_constraint": [
             "mates_with_pl"
         ],
         "success_outcomes": [
             {
-                "text": "As they emerge into the vast clover fields, p_l gathers both of {PRONOUN\/p_l\/poss} mates close, putting weight into every meow. Holding a four-leaf clover out between {PRONOUN\/p_l\/poss} toe beans, p_l declares that for {PRONOUN\/p_l\/object}, these cats, this bond - they are both p_l's luck. And p_l's heart is theirs.",
+                "text": "N\u00e4r de dyker upp i de vidstr\u00e4ckta kl\u00f6verf\u00e4lten samlar p_l b\u00e5da {PRONOUN/p_l/poss} kompisarna n\u00e4ra och l\u00e4gger vikt p\u00e5 varje mjau. H\u00e5ller en fyrkl\u00f6ver ut mellan {PRONOUN/p_l/poss} t\u00e5b\u00f6nor, p_l f\u00f6rklarar att f\u00f6r {PRONOUN/p_l/object}, dessa katter, detta band - de \u00e4r b\u00e5da p_l:s tur. Och p_ls hj\u00e4rta \u00e4r deras.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -134,7 +134,7 @@
                 ]
             },
             {
-                "text": "Standing in the middle of the field of clovers {PRONOUN\/p_l\/subject}{VERB\/p_l\/'ve\/'s} brought them to, p_l bunts up softly against both of {PRONOUN\/p_l\/poss} mates. The bond they all share is the greatest luck p_l has or will ever have, {PRONOUN\/p_l\/subject} {VERB\/p_l\/purr\/purrs}, and {PRONOUN\/p_l\/subject} wanted to declare that here, where the four-leaf clover grows.",
+                "text": "St\u00e5ende i mitten av kl\u00f6verf\u00e4ltet {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} f\u00f6rde dem till, p_l bultar upp mjukt mot b\u00e5da {PRONOUN/p_l/poss} kompisarna. Bandet som de alla delar \u00e4r den st\u00f6rsta tur p_l har eller n\u00e5gonsin kommer att ha, {PRONOUN/p_l/subject} {VERB/p_l/purr/purrs} och {PRONOUN/p_l/subject} ville f\u00f6rklara att h\u00e4r, d\u00e4r de fyra -bladkl\u00f6ver v\u00e4xer.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -168,7 +168,7 @@
                 ]
             },
             {
-                "text": "They emerge into the vast clover fields, a known romantic spot, and p_l bounces with anticipation. {PRONOUN\/p_l\/subject\/CAP} just {VERB\/p_l\/love\/loves} {PRONOUN\/p_l\/poss} mates so much - {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} so <i>ducky<\/i> to have them! No, no, wait, let {PRONOUN\/p_l\/object} try that again - {PRONOUN\/p_l\/subject} hope {PRONOUN\/p_l\/poss} mates never <i>leaf<\/i> {PRONOUN\/p_l\/object}!",
+                "text": "De dyker upp i de vidstr\u00e4ckta kl\u00f6verf\u00e4lten, en k\u00e4nd romantisk plats, och p_l studsar av f\u00f6rv\u00e4ntan. {PRONOUN/p_l/subject/CAP} bara {VERB/p_l/love/loves} {PRONOUN/p_l/poss} parar sig s\u00e5 mycket - {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} s\u00e5 < i>ucky</i> att ha dem! Nej, nej, v\u00e4nta, l\u00e5t {PRONOUN/p_l/object} f\u00f6rs\u00f6ka igen - {PRONOUN/p_l/subject} hoppas att {PRONOUN/p_l/poss} kompisar aldrig <i>l\u00f6v</i> {PRONOUN/p_l/object} !",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -211,12 +211,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Stuttering, p_l leads {PRONOUN\/p_l\/poss} mates out into the clover fields - but {PRONOUN\/p_l\/subject} can't properly piece together the romantic declaration {PRONOUN\/p_l\/subject} spent so long crafting. It's okay, r_c murmurs, bunting {PRONOUN\/p_l\/object}. It's all okay; they're all still here together in the sunshine.",
+                "text": "Stamning leder p_l {PRONOUN/p_l/poss} kompisar ut i kl\u00f6verf\u00e4lten - men {PRONOUN/p_l/subject} kan inte riktigt s\u00e4tta ihop den romantiska deklarationen {PRONOUN/p_l/subject} som \u00e4gnat s\u00e5 l\u00e5ng tid \u00e5t att skapa. Det \u00e4r okej, mumlar r_c, bunting {PRONOUN/p_l/object}. Allt \u00e4r okej; de \u00e4r alla fortfarande h\u00e4r tillsammans i solskenet.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "p_l leads {PRONOUN\/p_l\/poss} mates into a field of clover. This is... nice? r_c looks about in confusion, apparently waiting for more. What, did p_l miss a step?",
+                "text": "p_l leder {PRONOUN/p_l/poss} kompisar in i ett kl\u00f6verf\u00e4lt. Det h\u00e4r \u00e4r... trevligt? r_c ser sig f\u00f6rvirrad omkring och v\u00e4ntar tydligen p\u00e5 mer. Vad\u00e5, missade jag ett steg?",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -246,17 +246,17 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 10,
-        "intro_text": "While helping gathering herbs, r_c stumbles upon a bush of red berries.",
-        "decline_text": "r_c decides not to touch the berries.",
+        "intro_text": "Medan r_c hj\u00e4lper till att samla \u00f6rter, snubblar han \u00f6ver en buske med r\u00f6da b\u00e4r.",
+        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att inte r\u00f6ra b\u00e4ren.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Unsure but remembering the kitten-tales of red deathberries, r_c avoids them, and gives the rest of the patrol a head's up about the potentially dangerous bush.",
+                "text": "Os\u00e4ker men kommer ih\u00e5g kattungens ber\u00e4ttelser om r\u00f6da d\u00f6dsb\u00e4r, r_c undviker dem och ger resten av patrullen en uppfattning om den potentiellt farliga busken.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "After careful consideration, r_c recognizes them as raspberries and brings the rare berries back to the medicine cat's den.",
+                "text": "Efter noggrant \u00f6verv\u00e4gande k\u00e4nner r_c igen dem som hallon och tar de s\u00e4llsynta b\u00e4ren tillbaka till medicinkattens h\u00e5la.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -264,7 +264,7 @@
                 ]
             },
             {
-                "text": "Astutely, s_c recognizes the cranberries, and carefully chews off a branch laden with them to bring back to camp - the herb stocks can use this odd fruit.",
+                "text": "Sk\u00f6nt k\u00e4nner s_c igen tranb\u00e4ren och tuggar f\u00f6rsiktigt av en gren laddad med dem f\u00f6r att ta med sig tillbaka till l\u00e4gret - \u00f6rtbest\u00e5nden kan anv\u00e4nda denna udda frukt.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -274,12 +274,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Confidently gathering them and prancing back to camp with the patrol, r_c is then informed that redcurrants aren't a useful medicinal herb.",
+                "text": "N\u00e4r han sj\u00e4lvs\u00e4kert samlar ihop dem och springer tillbaka till l\u00e4gret med patrullen f\u00e5r r_c besked om att r\u00f6da vinb\u00e4r inte \u00e4r en anv\u00e4ndbar medicinsk \u00f6rt.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "While plucking them from the bush, r_c finds them tasty, and eats a few, only for p_l to notice what {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} eating. {PRONOUN\/r_c\/subject\/CAP}{VERB\/r_c\/'re\/'s} rushed back to camp, where the medicine cat might have a chance at saving {PRONOUN\/r_c\/object} from deathberry poisoning.",
+                "text": "Medan han plockar dem fr\u00e5n busken tycker r_c att de \u00e4r l\u00e4ckra och \u00e4ter n\u00e5gra, bara f\u00f6r att p_l ska l\u00e4gga m\u00e4rke till vad {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} \u00e4ter. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} rusade tillbaka till l\u00e4gret, d\u00e4r medicinkatten kan ha en chans att r\u00e4dda {PRONOUN/r_c/object} fr\u00e5n d\u00f6dsb\u00e4rsf\u00f6rgiftning.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -294,8 +294,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c mistook deathberries for something edible.",
-                    "lead_death": "after eating deathberries"
+                    "reg_death": "m_c misstog d\u00f6dsb\u00e4r f\u00f6r n\u00e5got \u00e4tbart.",
+                    "lead_death": "efter att ha \u00e4tit d\u00f6dsb\u00e4r"
                 }
             }
         ]
@@ -322,17 +322,17 @@
             ]
         },
         "weight": 10,
-        "intro_text": "While helping gathering herbs, app1 stumbles upon a bush of red berries.",
-        "decline_text": "r_c decides not to touch the berries.",
+        "intro_text": "Medan app1 hj\u00e4lper till att samla \u00f6rter, snubblar app1 p\u00e5 en buske med r\u00f6da b\u00e4r.",
+        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att inte r\u00f6ra b\u00e4ren.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Unsure but remembering the kitten-tales of red deathberries, app1 avoids them and alerts the patrol, who, extremely worried, confirm that this a deathberry bush.",
+                "text": "Os\u00e4ker men kommer ih\u00e5g kattungens ber\u00e4ttelser om r\u00f6da d\u00f6dsb\u00e4r, app1 undviker dem och varnar patrullen, som ytterst orolig bekr\u00e4ftar att detta \u00e4r en d\u00f6dsb\u00e4rsbuske.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the berries and brings them back to camp, where it turns out they're called raspberries.",
+                "text": "Vad som helst. Att identifiera dem \u00e4r ett problem med medicinkatt. app1 plockar b\u00e4ren och tar med dem tillbaka till l\u00e4gret, d\u00e4r det visar sig att de kallas hallon.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -342,24 +342,24 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Confidently gathering them and prancing back to camp, app1 is then informed that redcurrants aren't a useful medicinal herb.",
+                "text": "App1 samlar dem med tillf\u00f6rsikt och springer tillbaka till l\u00e4gret och informeras sedan om att r\u00f6da vinb\u00e4r inte \u00e4r en anv\u00e4ndbar medicinsk \u00f6rt.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the berries, surprised at the pleasant taste, and swallows a few. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/collapse\/collapses} on the way back to camp, and there's nothing any cat can do for {PRONOUN\/r_c\/object}, having not identified deathberries before eating them.",
+                "text": "Vad som helst. Att identifiera dem \u00e4r ett problem med medicinkatt. app1 plockar b\u00e4ren, f\u00f6rv\u00e5nad \u00f6ver den behagliga smaken och sv\u00e4ljer n\u00e5gra. {PRONOUN/app1/subject/CAP} {VERB/app1/collapse/collapses} p\u00e5 v\u00e4g tillbaka till l\u00e4gret, och det finns inget n\u00e5gon katt kan g\u00f6ra f\u00f6r {PRONOUN/r_c/object}, efter att inte ha identifierat d\u00f6dsb\u00e4r innan de \u00e4tit dem.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "app1"
                 ],
                 "history_text": {
-                    "reg_death": "m_c mistook deathberries for something edible.",
-                    "lead_death": "after eating deathberries"
+                    "reg_death": "m_c misstog d\u00f6dsb\u00e4r f\u00f6r n\u00e5got \u00e4tbart.",
+                    "lead_death": "efter att ha \u00e4tit d\u00f6dsb\u00e4r"
                 }
             },
             {
-                "text": "Whatever. Identifying them is a medicine cat problem. app1 plucks the tasty berries, swallowing a few, and takes the rest back to camp where the medicine cat immediately starts work trying to save {PRONOUN\/app1\/object} from deathberry poisoning.",
+                "text": "Vad som helst. Att identifiera dem \u00e4r ett problem med medicinkatt. app1 plockar de goda b\u00e4ren, sv\u00e4ljer n\u00e5gra och tar resten tillbaka till l\u00e4gret d\u00e4r medicinkatten omedelbart b\u00f6rjar arbeta med att f\u00f6rs\u00f6ka r\u00e4dda {PRONOUN/app1/objekt} fr\u00e5n d\u00f6dsb\u00e4rsf\u00f6rgiftning.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -374,8 +374,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c mistook deathberries for something edible.",
-                    "lead_death": "after eating deathberries"
+                    "reg_death": "m_c misstog d\u00f6dsb\u00e4r f\u00f6r n\u00e5got \u00e4tbart.",
+                    "lead_death": "efter att ha \u00e4tit d\u00f6dsb\u00e4r"
                 }
             }
         ]
@@ -405,11 +405,11 @@
             "LORE,1",
             "STORY,1"
         ],
-        "intro_text": "r_c bats an insect aside as the patrol ambles along. p_l hums - does r_c know there's an insect who can blot out the sun?",
-        "decline_text": "The cats decide training is more important than a story today.",
+        "intro_text": "r_c sl\u00e5r en insekt \u00e5t sidan n\u00e4r patrullen vandrar fram. p_l hums - vet r_c att det finns en insekt som kan utpl\u00e5na solen?",
+        "decline_text": "Katterna best\u00e4mmer att tr\u00e4ning \u00e4r viktigare \u00e4n en ber\u00e4ttelse idag.",
         "success_outcomes": [
             {
-                "text": "It was generations ago, far before s_c's time. But there was once a great flock of insects that swarmed across c_n's land, so thick in the air they shaded out the sun. They ate damn near every grass seed on the plains, and the prairie was left battered for seasons afterward.",
+                "text": "Det var generationer sedan, l\u00e5ngt f\u00f6re s_c:s tid. Men det var en g\u00e5ng en stor flock insekter som sv\u00e4rmade \u00f6ver c_ns land, s\u00e5 tjockt i luften att de skuggade solen. De \u00e5t j\u00e4vligt n\u00e4ra varje gr\u00e4sfr\u00f6 p\u00e5 sl\u00e4tten, och pr\u00e4rien l\u00e4mnades misshandlad i s\u00e4songer efter\u00e5t.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_ghost",
@@ -449,7 +449,7 @@
                 ]
             },
             {
-                "text": "Khepri the scarab rolls the sun into hiding for leaf-bare, s_c tells the patrol. Each winter, the moon journeys to rescue her sibling from below the horizon, fighting to take the sun from Khepri's grasp and bring warmth back to the land and renew the grass.",
+                "text": "Scaraben Khepri rullar solen i g\u00f6mma f\u00f6r l\u00f6vbar, s\u00e4ger s_c till patrullen. Varje vinter reser m\u00e5nen f\u00f6r att r\u00e4dda hennes syskon under horisonten, k\u00e4mpar f\u00f6r att ta solen ur Khepris grepp och f\u00f6ra tillbaka v\u00e4rmen till landet och f\u00f6rnya gr\u00e4set.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_ghost",
@@ -491,7 +491,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The bug r_c batted flies up to {PRONOUN\/r_c\/poss} face and buzzes, and p_l completely loses track of the story {PRONOUN\/p_l\/subject} {VERB\/p_l\/were\/was} about to tell as {PRONOUN\/p_l\/subject} {VERB\/p_l\/help\/helps} r_c out with the irritated insect.",
+                "text": "Buggen r_c batted flyger upp till {PRONOUN/r_c/poss} ansikte och surrar, och p_l tappar helt koll p\u00e5 historien {PRONOUN/p_l/subject} {VERB/p_l/were/was} p\u00e5 v\u00e4g att ber\u00e4tta som {PRONOUN/p_l /subject} {VERB/p_l/help/helps} r_c ut med den irriterade insekten.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_warrior_crouching_perplexed",

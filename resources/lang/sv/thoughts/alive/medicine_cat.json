@@ -2,34 +2,34 @@
     {
         "id": "med_cat_gen",
         "thoughts": [
-            "Is looking for herbs",
-            "Is organizing the herb stores",
-            "Is drying some herbs",
-            "Is interpreting an omen",
-            "Is interpreting a prophecy",
-            "Hopes for a message from StarClan soon",
-            "Is feeling stressed taking care of the Clan",
-            "Is tending some growing herbs",
-            "Is making new nests",
-            "Wishes {PRONOUN\/m_c\/subject} had an extra set of paws",
-            "Is reciting the names of herbs aloud",
-            "Was startled awake in the wee hours by a vivid dream",
-            "Is running low on mouse bile",
-            "Plans to go out gathering herbs today",
-            "Is looking forward to the half-moon meeting",
-            "Is struggling to remember all of the names of herbs",
-            "Made a mess of the herbs and is panicking",
-            "Has been hearing the voices of StarClan cats...",
-            "Has the foul taste of bitter herbs in {PRONOUN\/m_c\/poss} mouth",
-            "Wonders if {PRONOUN\/m_c\/subject} could borrow some catmint from the other Clans",
-            "Is happy that {PRONOUN\/m_c\/subject} chose life as a medicine cat",
-            "Is proud of {PRONOUN\/m_c\/poss} ability to care for {PRONOUN\/m_c\/poss} Clanmates"
+            "Letar efter \u00f6rter",
+            "H\u00e5ller p\u00e5 att organisera \u00f6rtbutikerna",
+            "H\u00e5ller p\u00e5 att torka lite \u00f6rter",
+            "Tycker ett omen",
+            "Tolkar en profetia",
+            "Hoppas p\u00e5 ett meddelande fr\u00e5n StarClan snart",
+            "K\u00e4nner mig stressad n\u00e4r jag tar hand om klanen",
+            "Sk\u00f6ter lite v\u00e4xande \u00f6rter",
+            "h\u00e5ller p\u00e5 att g\u00f6ra nya bon",
+            "\u00d6nskar att {PRONOUN/m_c/subject} hade en extra upps\u00e4ttning tassar",
+            "Reciterar namnen p\u00e5 \u00f6rter h\u00f6gt",
+            "Blev vaken p\u00e5 sm\u00e5timmarna av en livlig dr\u00f6m",
+            "Har slut p\u00e5 musgalla",
+            "Planerar att g\u00e5 ut och plocka \u00f6rter idag",
+            "Ser fram emot halvm\u00e5nem\u00f6tet",
+            "Har sv\u00e5rt att komma ih\u00e5g alla namn p\u00e5 \u00f6rter",
+            "Gjorde en r\u00f6ra av \u00f6rterna och f\u00e5r panik",
+            "Har h\u00f6rt r\u00f6sterna fr\u00e5n StarClan-katter...",
+            "Har den fula smaken av bittra \u00f6rter i {PRONOUN/m_c/poss} mun",
+            "Undrar om {PRONOUN/m_c/subject} kunde l\u00e5na lite kattmynta fr\u00e5n de andra klanerna",
+            "\u00c4r glad att {PRONOUN/m_c/subject} valde livet som medicinkatt",
+            "\u00c4r stolt \u00f6ver {PRONOUN/m_c/poss} f\u00f6rm\u00e5ga att ta hand om {PRONOUN/m_c/poss} klankamrater"
         ]
     },
     {
         "id": "med_cat_alive_young",
         "thoughts": [
-            "Is thinking about taking on a new apprentice"
+            "Funderar p\u00e5 att ta en ny l\u00e4rling"
         ],
         "random_status_constraint": [
             "apprentice",
@@ -39,12 +39,12 @@
     {
         "id": "adventurous_medicine_cat",
         "thoughts": [
-            "Heads out of Clan territory to look for new herbs",
-            "Purposefully plants herbs in hard-to-reach areas",
-            "Is exploring unclaimed lands while searching for herbs",
-            "Climbs a tree to gather alder bark instead of clawing the trunk",
-            "Thinks about visiting StarClan just to explore their hunting grounds",
-            "Uses extra herbs just to go gather more"
+            "Beger sig ut fr\u00e5n klanens territorium f\u00f6r att leta efter nya \u00f6rter",
+            "Planterar m\u00e5lmedvetet \u00f6rter i sv\u00e5r\u00e5tkomliga omr\u00e5den",
+            "Utforskar outtagna marker samtidigt som de letar efter \u00f6rter",
+            "Kl\u00e4ttrar i ett tr\u00e4d f\u00f6r att samla albark ist\u00e4llet f\u00f6r att kl\u00f6sa stammen",
+            "Funderar p\u00e5 att bes\u00f6ka StarClan bara f\u00f6r att utforska deras jaktmarker",
+            "Anv\u00e4nder extra \u00f6rter bara f\u00f6r att g\u00e5 och samla mer"
         ],
         "main_trait_constraint": [
             "adventurous"
@@ -53,8 +53,8 @@
     {
         "id": "adventurous_medicine_cat_to_lead",
         "thoughts": [
-            "Helps the leader with {PRONOUN\/r_c\/poss} duties",
-            "Begs the leader to give {PRONOUN\/m_c\/object} the bounciest kit as {PRONOUN\/m_c\/poss} apprentice"
+            "Hj\u00e4lper ledaren med {PRONOUN/r_c/poss} uppgifter",
+            "Ber ledaren att ge {PRONOUN/m_c/object} det studsigaste kitet som {PRONOUN/m_c/poss}-l\u00e4rling"
         ],
         "main_trait_constraint": [
             "adventurous"
@@ -66,8 +66,8 @@
     {
         "id": "adventurous_medicine_cat_kit",
         "thoughts": [
-            "Is showing the kits herbs by taking them on adventures in the territory",
-            "Offers to help the queens with badger rides for the kits"
+            "Visar satserna \u00f6rter genom att ta med dem p\u00e5 \u00e4ventyr i territoriet",
+            "Erbjuder sig att hj\u00e4lpa drottningarna med gr\u00e4vlingsturer till kiten"
         ],
         "main_trait_constraint": [
             "adventurous"
@@ -79,7 +79,7 @@
     {
         "id": "adventurous_medicine_cat_to_deputy",
         "thoughts": [
-            "Asks the deputy to go on patrol"
+            "Ber st\u00e4llf\u00f6retr\u00e4daren att \u00e5ka p\u00e5 patrull"
         ],
         "main_trait_constraint": [
             "adventurous"
@@ -91,10 +91,10 @@
     {
         "id": "ambitious_medicine_cat",
         "thoughts": [
-            "Insists on taking on more tasks",
-            "Spends all day gathering herbs",
-            "Can't wait until StarClan sends an omen",
-            "Wants to find a new cure for a disease"
+            "Insisterar p\u00e5 att ta p\u00e5 sig fler uppgifter",
+            "Tillbringar hela dagen med att samla \u00f6rter",
+            "Kan inte v\u00e4nta tills StarClan skickar ett omen",
+            "Vill hitta ett nytt botemedel mot en sjukdom"
         ],
         "main_trait_constraint": [
             "ambitious"
@@ -103,23 +103,23 @@
     {
         "id": "bloodthirsty_medicine_cat",
         "thoughts": [
-            "Is gathering deathberries",
-            "Has been disappearing a lot lately",
-            "Insists only on treating cats who need it",
-            "Is ripping some leaves to shreds",
-            "Debates becoming a warrior",
-            "Gives the wrong herbs to a warrior on purpose",
-            "Wishes {PRONOUN\/m_c\/subject} {VERB\/m_c\/weren't\/wasn't} confined to this life",
-            "Is stocking up on deathberries",
-            "Is stocking up on yew berries",
-            "Is stocking up on nightshade",
-            "Is stocking up on watermint",
-            "Put herbs in prey to give cats stomachaches",
-            "Refused to treat anyone today",
-            "Is upset that {PRONOUN\/m_c\/subject} can't fight alongside the warriors",
-            "Wishes to fight alongside the warriors",
-            "Thinks {PRONOUN\/m_c\/subject}'d be an amazing leader",
-            "Ignores the low herb stocks and practices battle moves instead"
+            "Plockar d\u00f6dsb\u00e4r",
+            "Har f\u00f6rsvunnit mycket p\u00e5 sistone",
+            "Insisterar bara p\u00e5 att behandla katter som beh\u00f6ver det",
+            "H\u00e5ller p\u00e5 att riva n\u00e5gra l\u00f6v i strimlor",
+            "Debatter om att bli en krigare",
+            "Ger fel \u00f6rter till en krigare med flit",
+            "\u00d6nskar {PRONOUN/m_c/subject} {VERB/m_c/weren't/wasn't} begr\u00e4nsad till det h\u00e4r livet",
+            "H\u00e5ller p\u00e5 med d\u00f6dsb\u00e4r",
+            "H\u00e5ller p\u00e5 med idegransb\u00e4r",
+            "H\u00e5ller p\u00e5 med nattskuggor",
+            "H\u00e5ller p\u00e5 med vattenmint",
+            "L\u00e4gg \u00f6rter i byte f\u00f6r att ge katter magont",
+            "V\u00e4grade att behandla n\u00e5gon idag",
+            "\u00c4r uppr\u00f6rd \u00f6ver att {PRONOUN/m_c/subject} inte kan sl\u00e5ss tillsammans med krigarna",
+            "\u00d6nskar att sl\u00e5ss tillsammans med krigarna",
+            "Tror att {PRONOUN/m_c/subject} skulle vara en fantastisk ledare",
+            "Ignorerar de l\u00e5ga \u00f6rtbest\u00e5nden och \u00f6var p\u00e5 stridsdrag ist\u00e4llet"
         ],
         "main_trait_constraint": [
             "bloodthirsty"
@@ -128,7 +128,7 @@
     {
         "id": "bloodthirsty_medicine_cat_to_lead",
         "thoughts": [
-            "Talks to the leader about war"
+            "Pratar med ledaren om krig"
         ],
         "main_trait_constraint": [
             "bloodthirsty"
@@ -140,7 +140,7 @@
     {
         "id": "bold_medicine_cat",
         "thoughts": [
-            "Decides to try a new herb as treatment for an injury"
+            "Best\u00e4mmer sig f\u00f6r att prova en ny \u00f6rt som behandling f\u00f6r en skada"
         ],
         "main_trait_constraint": [
             "bold"
@@ -149,7 +149,7 @@
     {
         "id": "calm_medicine_cat",
         "thoughts": [
-            "Stays composed when treating a severe injury"
+            "H\u00e5ller sig lugn vid behandling av en allvarlig skada"
         ],
         "main_trait_constraint": [
             "calm"
@@ -158,7 +158,7 @@
     {
         "id": "calm_medicine_cat_apprentice",
         "thoughts": [
-            "Calms down an apprentice who is panicking over {PRONOUN\/r_c\/poss} minor injury"
+            "Lugnar ner en l\u00e4rling som har panik \u00f6ver {PRONOUN/r_c/poss} mindre skada"
         ],
         "main_trait_constraint": [
             "calm"
@@ -170,8 +170,8 @@
     {
         "id": "careful_medicine_cat",
         "thoughts": [
-            "Counts and re-counts the poppy seeds",
-            "Makes sure none of the herbs get mixed up"
+            "R\u00e4knar och r\u00e4knar om vallmofr\u00f6n",
+            "Se till att ingen av \u00f6rterna blandas ihop"
         ],
         "main_trait_constraint": [
             "careful"
@@ -180,8 +180,8 @@
     {
         "id": "charismatic_medicine_cat",
         "thoughts": [
-            "Is doing {PRONOUN\/m_c\/poss} daily checkup on the elders",
-            "Is thinking of just the right way to ask another Clan's medicine cat for herbs"
+            "G\u00f6r {PRONOUN/m_c/poss} daglig kontroll av de \u00e4ldre",
+            "Funderar p\u00e5 precis r\u00e4tt s\u00e4tt att be en annan klans medicinkatt om \u00f6rter"
         ],
         "main_trait_constraint": [
             "charismatic"
@@ -190,8 +190,8 @@
     {
         "id": "childish_medicine_cat",
         "thoughts": [
-            "Bounces excitedly at the half-moon meeting",
-            "Plays with some wind-swept catmint"
+            "Studsar upphetsat p\u00e5 halvm\u00e5nem\u00f6tet",
+            "Leker med lite vindpinad kattmynta"
         ],
         "main_trait_constraint": [
             "childish"
@@ -200,8 +200,8 @@
     {
         "id": "cold_medicine_cat",
         "thoughts": [
-            "Grumbles when a warrior asks for herbs for a simple bellyache",
-            "Has better things to do than pull splinters out of paws"
+            "Knurrar n\u00e4r en krigare ber om \u00f6rter f\u00f6r en enkel magv\u00e4rk",
+            "Har b\u00e4ttre saker att g\u00f6ra \u00e4n att dra splitter ur tassarna"
         ],
         "main_trait_constraint": [
             "cold"
@@ -210,9 +210,9 @@
     {
         "id": "compassionate_medicine_cat",
         "thoughts": [
-            "Works long into the night taking care of the Clan",
-            "Helps a warrior regain their strength",
-            "Declines to eat when prey is low"
+            "Jobbar l\u00e5ngt in p\u00e5 natten med att ta hand om klanen",
+            "Hj\u00e4lper en krigare att \u00e5terf\u00e5 sin styrka",
+            "Avb\u00f6jer att \u00e4ta n\u00e4r bytet \u00e4r l\u00e5gt"
         ],
         "main_trait_constraint": [
             "compassionate"
@@ -221,7 +221,7 @@
     {
         "id": "compassionate_medicine_cat_to_apprentice",
         "thoughts": [
-            "Listens to the apprentices complain about their training"
+            "Lyssnar p\u00e5 hur l\u00e4rlingarna klagar p\u00e5 sin utbildning"
         ],
         "main_trait_constraint": [
             "compassionate"
@@ -235,8 +235,8 @@
     {
         "id": "confident_medicine_cat",
         "thoughts": [
-            "Is proud of {PRONOUN\/m_c\/poss} ability to care for {PRONOUN\/m_c\/poss} Clanmates",
-            "Does not doubt {PRONOUN\/m_c\/self} while treating a cat"
+            "\u00c4r stolt \u00f6ver {PRONOUN/m_c/poss} f\u00f6rm\u00e5ga att ta hand om {PRONOUN/m_c/poss} klankamrater",
+            "Tvivlar inte p\u00e5 {PRONOUN/m_c/self} n\u00e4r du behandlar en katt"
         ],
         "main_trait_constraint": [
             "confident"
@@ -245,7 +245,7 @@
     {
         "id": "daring_medicine_cat",
         "thoughts": [
-            "Steals catmint from a Twoleg garden"
+            "Stj\u00e4l kattmynta fr\u00e5n en Twoleg tr\u00e4dg\u00e5rd"
         ],
         "main_trait_constraint": [
             "daring"
@@ -254,7 +254,7 @@
     {
         "id": "faithful_medicine_cat",
         "thoughts": [
-            "Has been hearing the voices of StarClan cats..."
+            "Har h\u00f6rt r\u00f6sterna fr\u00e5n StarClan-katter..."
         ],
         "main_trait_constraint": [
             "faithful"
@@ -263,7 +263,7 @@
     {
         "id": "fierce_medicine_cat",
         "thoughts": [
-            "Insists on joining battle training once a moon"
+            "Insisterar p\u00e5 att g\u00e5 med i stridstr\u00e4ning en g\u00e5ng per m\u00e5ne"
         ],
         "main_trait_constraint": [
             "fierce"
@@ -272,7 +272,7 @@
     {
         "id": "insecure_medicine_cat",
         "thoughts": [
-            "Thinks that {PRONOUN\/m_c\/subject} {VERB\/m_c\/don't\/doesn't} deserve {PRONOUN\/m_c\/poss} full name"
+            "Tycker att {PRONOUN/m_c/subject} {VERB/m_c/don't/doesn't} f\u00f6rtj\u00e4nar {PRONOUN/m_c/poss} fullst\u00e4ndiga namn"
         ],
         "main_trait_constraint": [
             "insecure"
@@ -281,13 +281,13 @@
     {
         "id": "lonesome_medicine_cat",
         "thoughts": [
-            "Wishes {PRONOUN\/m_c\/poss} Clanmates could understand {PRONOUN\/m_c\/poss} struggles",
-            "Wishes there were more medicine cats in the Clan",
-            "Wonders why the warriors won't share prey with {PRONOUN\/m_c\/object}",
-            "Wishes {PRONOUN\/m_c\/subject} could make friends with someone",
-            "Wishes the warriors shared an interest in herbs",
-            "Wishes for an apprentice, as {PRONOUN\/m_c\/subject}{VERB\/m_c\/'re\/'s} a bit lonely",
-            "Hasn't talked to any warriors for a few days"
+            "\u00d6nskar att {PRONOUN/m_c/poss} klankamrater kunde f\u00f6rst\u00e5 kampen mot {PRONOUN/m_c/poss}",
+            "\u00d6nskar att det fanns fler medicinkatter i klanen",
+            "Undrar varf\u00f6r krigarna inte delar byte med {PRONOUN/m_c/object}",
+            "\u00d6nskar att {PRONOUN/m_c/subject} kunde bli v\u00e4n med n\u00e5gon",
+            "\u00d6nskar att krigarna delade intresset f\u00f6r \u00f6rter",
+            "\u00d6nskar en l\u00e4rling, eftersom {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} lite ensam",
+            "Har inte pratat med n\u00e5gra krigare p\u00e5 n\u00e5gra dagar"
         ],
         "main_trait_constraint": [
             "lonesome"
@@ -296,7 +296,7 @@
     {
         "id": "lonesome_medicine_cat_to_lead",
         "thoughts": [
-            "Wants to talk to the leader about having a new apprentice"
+            "Vill prata med ledaren om att ha en ny l\u00e4rling"
         ],
         "main_trait_constraint": [
             "lonesome"
@@ -308,7 +308,7 @@
     {
         "id": "loving_medicine_cat",
         "thoughts": [
-            "Watches over some newborn kits"
+            "Vakar \u00f6ver n\u00e5gra nyf\u00f6dda kit"
         ],
         "main_trait_constraint": [
             "loving"
@@ -320,8 +320,8 @@
     {
         "id": "loyal_medicine_cat",
         "thoughts": [
-            "Refuses to share gossip at the half-moon meeting",
-            "Refuses to give another Clan's medicine cat some herbs"
+            "V\u00e4grar dela med sig av skvaller p\u00e5 halvm\u00e5nem\u00f6tet",
+            "V\u00e4grar ge en annan klans medicinkatt lite \u00f6rter"
         ],
         "main_trait_constraint": [
             "loyal"
@@ -330,7 +330,7 @@
     {
         "id": "nervous_medicine_cat",
         "thoughts": [
-            "Re-counts the amount of catmint in {PRONOUN\/m_c\/poss} stores"
+            "R\u00e4knar om m\u00e4ngden kattmynta i butiker med {PRONOUN/m_c/poss}"
         ],
         "main_trait_constraint": [
             "nervous"
@@ -339,7 +339,7 @@
     {
         "id": "playful_medicine_cat",
         "thoughts": [
-            "Keeps {PRONOUN\/m_c\/poss} patients distracted with silly games while {PRONOUN\/m_c\/subject} {VERB\/m_c\/treat\/treats} them"
+            "H\u00e5ller {PRONOUN/m_c/poss} patienter distraherade med f\u00e5niga spel medan {PRONOUN/m_c/subject} {VERB/m_c/treat/treats} dem"
         ],
         "main_trait_constraint": [
             "playful"
@@ -348,8 +348,8 @@
     {
         "id": "playful_medicine_cat_to_kits",
         "thoughts": [
-            "Excitedly teaches the kits about basic herbs",
-            "Indulges the kits as they play hide and seek around the medicine cat den."
+            "L\u00e4r upphetsat kiten om grundl\u00e4ggande \u00f6rter",
+            "Sk\u00e4mmer bort kiten n\u00e4r de leker kurrag\u00f6mma runt medicinkatten."
         ],
         "main_trait_constraint": [
             "playful"
@@ -361,8 +361,8 @@
     {
         "id": "responsible_medicine_cat",
         "thoughts": [
-            "Ensures that all of {PRONOUN\/m_c\/poss} duties are taken care of",
-            "Ignores the rumbling in {PRONOUN\/m_c\/poss} stomach in favor of treating cats"
+            "S\u00e4kerst\u00e4ller att alla {PRONOUN/m_c/poss} uppgifter sk\u00f6ts",
+            "Ignorerar mullret i {PRONOUN/m_c/poss} magen till f\u00f6rm\u00e5n f\u00f6r att behandla katter"
         ],
         "main_trait_constraint": [
             "responsible"
@@ -371,7 +371,7 @@
     {
         "id": "righteous_medicine_cat",
         "thoughts": [
-            "Gives herbs to an injured loner"
+            "Ger \u00f6rter till en skadad ensamvarg"
         ],
         "main_trait_constraint": [
             "righteous"
@@ -380,7 +380,7 @@
     {
         "id": "shameless_medicine_cat",
         "thoughts": [
-            "Refuses to groom {PRONOUN\/m_c\/self}"
+            "V\u00e4grar att ansa {PRONOUN/m_c/self}"
         ],
         "main_trait_constraint": [
             "shameless"
@@ -389,7 +389,7 @@
     {
         "id": "sneaky_medicine_cat",
         "thoughts": [
-            "Seems to be hiding something in the medicine {PRONOUN\/m_c\/subject} {VERB\/m_c\/give\/gives} to the leader"
+            "Verkar g\u00f6mma n\u00e5got i medicinen {PRONOUN/m_c/subject} {VERB/m_c/give/gives} till ledaren"
         ],
         "main_trait_constraint": [
             "sneaky"
@@ -398,10 +398,10 @@
     {
         "id": "strange_medicine_cat",
         "thoughts": [
-            "Insists everyone eat chamomile leaves at moonhigh",
-            "Sleeps in the middle of the clearing",
-            "Looks dazed",
-            "Watches the sky all night without acknowledging any other cat"
+            "Insisterar p\u00e5 att alla \u00e4ter kamomillblad vid moonhigh",
+            "Sover mitt i hyggen",
+            "Ser omtumlad ut",
+            "Tittar p\u00e5 himlen hela natten utan att erk\u00e4nna n\u00e5gon annan katt"
         ],
         "main_trait_constraint": [
             "strange"
@@ -410,7 +410,7 @@
     {
         "id": "strange_medicine_cat_to_kit",
         "thoughts": [
-            "Hisses at the kits randomly"
+            "V\u00e4ser p\u00e5 satserna slumpm\u00e4ssigt"
         ],
         "main_trait_constraint": [
             "strange"
@@ -423,7 +423,7 @@
     {
         "id": "strict_medicine_cat",
         "thoughts": [
-            "Forbids anyone from disturbing {PRONOUN\/m_c\/object} when working"
+            "F\u00f6rbjuder n\u00e5gon att st\u00f6ra {PRONOUN/m_c/object} n\u00e4r de arbetar"
         ],
         "main_trait_constraint": [
             "strict"
@@ -432,7 +432,7 @@
     {
         "id": "thoughtful_medicine_cat",
         "thoughts": [
-            "Realizes what an omen might mean"
+            "Inser vad ett omen kan betyda"
         ],
         "main_trait_constraint": [
             "thoughtful"
@@ -441,7 +441,7 @@
     {
         "id": "troublesome_medicine_cat",
         "thoughts": [
-            "Mixes up herbs"
+            "Blandar ihop \u00f6rter"
         ],
         "main_trait_constraint": [
             "troublesome"
@@ -450,7 +450,7 @@
     {
         "id": "vengeful_medicine_cat",
         "thoughts": [
-            "Refuses to treat a cat that once bullied {PRONOUN\/m_c\/object}"
+            "V\u00e4grar att behandla en katt som en g\u00e5ng mobbade {PRONOUN/m_c/object}"
         ],
         "main_trait_constraint": [
             "vengeful"
@@ -459,7 +459,7 @@
     {
         "id": "wise_medicine_cat",
         "thoughts": [
-            "Tells an ancient tale about StarClan"
+            "Ber\u00e4ttar en gammal ber\u00e4ttelse om StarClan"
         ],
         "main_trait_constraint": [
             "wise"
@@ -468,16 +468,16 @@
     {
         "id": "med_cat_dead_SC_gen",
         "thoughts": [
-            "Wishes {PRONOUN\/m_c\/subject} could visit r_c in StarClan",
-            "Was given a prophecy by r_c",
-            "Was sent an omen by r_c",
-            "Is dreaming about r_c who gives {PRONOUN\/m_c\/object} a message",
-            "Is visited by r_c",
-            "Senses r_c is nearby",
-            "Saw r_c in a dream, warning {PRONOUN\/m_c\/object} about... something",
-            "Is asking for guidance from r_c",
-            "Is wondering desperately why r_c wasn't there when {PRONOUN\/m_c\/subject} needed {PRONOUN\/r_c\/object}",
-            "Is sure that {PRONOUN\/m_c\/subject} saw r_c appear in the forest today... why?"
+            "\u00d6nskar att {PRONOUN/m_c/subject} kunde bes\u00f6ka r_c i StarClan",
+            "Fick en profetia av r_c",
+            "Fick ett omen av r_c",
+            "Dr\u00f6mmer om r_c som ger {PRONOUN/m_c/object} ett meddelande",
+            "Bes\u00f6ks av r_c",
+            "Senses r_c \u00e4r i n\u00e4rheten",
+            "S\u00e5g r_c i en dr\u00f6m och varnade {PRONOUN/m_c/object} om... n\u00e5got",
+            "Ber om v\u00e4gledning fr\u00e5n r_c",
+            "Undrar desperat varf\u00f6r r_c inte var d\u00e4r n\u00e4r {PRONOUN/m_c/subject} beh\u00f6vde {PRONOUN/r_c/object}",
+            "\u00c4r s\u00e4ker p\u00e5 att {PRONOUN/m_c/subject} s\u00e5g r_c dyka upp i skogen idag... varf\u00f6r?"
         ],
         "main_status_constraint": [
             "medicine cat",
@@ -490,12 +490,12 @@
     {
         "id": "med_cat_dead_DF_gen",
         "thoughts": [
-            "Is visited by r_c",
-            "Senses r_c is nearby",
-            "Thought {PRONOUN\/m_c\/subject} heard a low rumbling behind {PRONOUN\/m_c\/object}, but nothing was there",
-            "Received an ominous and dark message from r_c",
-            "Has been hearing the voices of Dark Forest cats...",
-            "Debates whether or not to ask r_c for guidance, knowing where {PRONOUN\/r_c\/subject} {VERB\/r_c\/are\/is}"
+            "Bes\u00f6ks av r_c",
+            "Senses r_c \u00e4r i n\u00e4rheten",
+            "T\u00e4nkte att {PRONOUN/m_c/subject} h\u00f6rde ett l\u00e5gt mullrande bakom {PRONOUN/m_c/object}, men ingenting fanns d\u00e4r",
+            "Fick ett illavarslande och m\u00f6rkt meddelande fr\u00e5n r_c",
+            "Har h\u00f6rt r\u00f6sterna fr\u00e5n m\u00f6rka skogskatter...",
+            "Diskuterar om man ska be r_c om v\u00e4gledning eller inte, med vetskap om var {PRONOUN/r_c/subject} {VERB/r_c/are/is}"
         ],
         "random_living_status": [
             "darkforest"

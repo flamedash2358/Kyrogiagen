@@ -21,24 +21,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c re-marks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c markerar det igen och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border holding prey. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/see\/sees} the young cat off with a furious yowl and {VERB\/r_c\/bring\/brings} the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen som håller byte. {PRONOUN/r_c/subject/CAP} {VERB/r_c/see/sees} den unga katten iväg med en rasande yowl och {VERB/r_c/bring/brings} bytet tillbaka till c_n lägret för att rapportera händelsen till ställföreträdaren.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN\/s_c\/object}. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/turn\/turns} to follow the same marking path as them. They strike up a friendly conversation, and while s_c doesn't give anything away about c_n, {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} able to pick up on a lot of gossip about o_c_n through careful conversation.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/turn/turns} för att följa samma markeringsbana som dem. De inleder en vänlig konversation, och även om s_c inte ger ifrån sig något om c_n, kan {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} ta upp mycket skvaller om o_c_n genom försiktighet konversation.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -47,7 +47,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n cat! s_c plays along, acting very impressed with the hardworking apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en o_c_n gränspatrull. Det inkluderar till och med en ung lärling, vars ögon går runt och pälsen fluffar upp när han möter en riktig c_n-katt! s_c spelar med, agerar mycket imponerad av den hårt arbetande lärlingen, och lärlingens mentor spinnar tacksamt.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -63,13 +63,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c marks a little, but reaches a section where the border is muddled and has to give up and go home.",
+                "text": "r_c markerar lite, men når ett avsnitt där gränsen är rörig och måste ge upp och gå hem.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/stare\/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged, it's very tense.",
+                "text": "s_c markerar längs territoriet när {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en patrull från o_c_n, ute på ett liknande uppdrag. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} på den andra klanens patrull utmanande och följer deras varje rörelse tills den delade gränsen tar slut, och även om inga ord växlas, är det väldigt spänt.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -108,24 +108,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c re-marks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c markerar det igen och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border holding prey. Furious, {PRONOUN\/r_c\/subject} {VERB\/r_c\/snarl\/snarls} {PRONOUN\/r_c\/poss} anger. The apprentice turns tail and flees with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor, the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen som håller byte. Rasande, {PRONOUN/r_c/subject} {VERB/r_c/snarl/snarls} {PRONOUN/r_c/poss} ilska. Lärlingen vänder på svansen och flyr med r_c hett på spåren, och när lärlingen korsar gränsen för att gömma sig bakom sin mentor, blir o_c_n krigarens ansikte slappt av fasa för att se c_ns ställföreträdare.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN\/s_c\/object}. They strike up a friendly conversation, and while s_c doesn't give anything away about c_n, {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} able to pick up on a lot of gossip about o_c_n through careful conversation. It's always worth keeping an eye on their neighbors.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som {PRONOUN/s_c/object}. De inleder en vänlig konversation, och även om s_c inte ger ifrån sig något om c_n, kan {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} ta upp mycket skvaller om o_c_n genom försiktighet konversation. Det är alltid värt att hålla ett öga på sina grannar.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -134,7 +134,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hardworking apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en o_c_n gränspatrull, som inkluderar en ung lärling. Deras ögon går runt och de stoppar ihop sina tassar prydligt och sitter vackra för inspektion. s_c spelar med, agerar mycket imponerad av den hårt arbetande lärlingen, och lärlingens mentor spinnar tacksamt över c_n-ställföreträdarens vänlighet.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -150,13 +150,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c marks a little, but {PRONOUN\/r_c\/subject} {VERB\/r_c\/reach\/reaches} a section where the border is muddled and {VERB\/r_c\/have\/has} to give up and go home.",
+                "text": "r_c markerar lite, men {PRONOUN/r_c/subject} {VERB/r_c/reach/reaches} ett avsnitt där gränsen är rörig och {VERB/r_c/have/has} att ge upp och gå hem.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/stare\/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged, it's very tense.",
+                "text": "s_c markerar längs territoriet när {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en patrull från o_c_n, ute på ett liknande uppdrag. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} på den andra klanens patrull utmanande och följer deras varje rörelse tills den delade gränsen tar slut, och även om inga ord växlas, är det väldigt spänt.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -172,15 +172,15 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c encounters a patrol from o_c_n on the border and greets them politely, but there's something different here. Something dangerous. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/do\/does}'t make it back to camp.",
+                "text": "r_c stöter på en patrull från o_c_n på gränsen och hälsar artigt på dem, men det är något annat här. Något farligt. {PRONOUN/r_c/subject/CAP} {VERB/r_c/do/does} kommer inte tillbaka till lägret.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost their life in an ambush on the border."
+                    "scar": "m_c blev skadad när han patrullerade på gränsen.",
+                    "reg_death": "m_c miste livet i ett bakhåll på gränsen."
                 },
                 "other_clan_rep": -1
             }
@@ -208,24 +208,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border and holding prey. Furious, {PRONOUN\/r_c\/subject} {VERB\/r_c\/snarl\/snarls} {PRONOUN\/r_c\/poss} anger. The apprentice turns tail and flees with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor, the o_c_n warrior's tail tucks at the sight of c_n's outraged leader.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen och håller byte. Rasande, {PRONOUN/r_c/subject} {VERB/r_c/snarl/snarls} {PRONOUN/r_c/poss} ilska. Lärlingen vänder på svansen och flyr med r_c hett på spåren, och när lärlingen korsar gränsen för att gömma sig bakom sin mentor, tuckar o_c_n-krigarens svans vid åsynen av c_ns upprörda ledare.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them. They strike up a friendly conversation, and while s_c doesn't give anything away about c_n, {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} able to pick up on a lot of gossip about o_c_n through careful conversation. It's always worth keeping an eye on their neighbors. Trust, but verify.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som dem. De inleder en vänlig konversation, och även om s_c inte ger ifrån sig något om c_n, kan {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} ta upp mycket skvaller om o_c_n genom försiktighet konversation. Det är alltid värt att hålla ett öga på sina grannar. Lita på, men verifiera.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -234,7 +234,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en o_c_n gränspatrull, som inkluderar en ung lärling. Deras ögon går runt och de gömmer sig bakom sin mentor, men s_c lyckas locka ut dem och berömmer den lilla lärlingen till sin mentor, som spinner tacksamt över c_n-ledarens vänlighet.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -250,13 +250,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c marks a little, but {PRONOUN\/r_c\/subject} {VERB\/r_c\/reach\/reaches} a section where the border is muddled and {VERB\/r_c\/have\/has} to give up and go home.",
+                "text": "r_c markerar lite, men {PRONOUN/r_c/subject} {VERB/r_c/reach/reaches} ett avsnitt där gränsen är rörig och {VERB/r_c/have/has} att ge upp och gå hem.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/stare\/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged, it's very tense.",
+                "text": "s_c markerar längs territoriet när de stöter på en patrull från o_c_n, ute på ett liknande uppdrag. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} på den andra klanens patrull utmanande och följer deras varje rörelse tills den delade gränsen tar slut, och även om inga ord växlas, är det väldigt spänt.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -272,15 +272,15 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c encounters a patrol from o_c_n on the border and greets them politely, but there's something different here. Something dangerous. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/return\/returns} to camp, blood soaked through {PRONOUN\/r_c\/poss} fur and a new hardness in {PRONOUN\/r_c\/poss} heart.",
+                "text": "r_c stöter på en patrull från o_c_n på gränsen och hälsar artigt på dem, men det är något annat här. Något farligt. {PRONOUN/r_c/subject/CAP} {VERB/r_c/return/returns} till lägret, blod blött genom {PRONOUN/r_c/poss} päls och en ny hårdhet i {PRONOUN/r_c/poss} hjärta.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "lost a life in an ambush on the border"
+                    "scar": "m_c blev skadad när han patrullerade på gränsen.",
+                    "reg_death": "miste livet i ett bakhåll på gränsen"
                 },
                 "other_clan_rep": -1
             }
@@ -308,24 +308,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the deputy of o_c_n out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue and walk away with a greater respect for one another.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och stöter på ställföreträdaren för o_c_n ut som gör samma sak. De är förlåtande över inkompetensen hos lärlingarna på båda sidor som orsakade problemet och går därifrån med en större respekt för varandra.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into the perfect chance to casually but purposefully keep each other informed on an ongoing problem in the tar pits.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som dem, ledd av deras ställföreträdare. De inleder en vänlig konversation och så småningom glider o_c_n krigarna iväg. Det oväntade tillfället förvandlas till den perfekta chansen att slentrianmässigt men målmedvetet hålla varandra informerade om ett pågående problem i tjärgroparna.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -334,7 +334,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} o_c_n vikarien ut med sin nya lärling. Deras ställföreträdare uppmuntrar sin lärling att testa s_c, och s_c berömmer dem båda för hur den unga kattens träning fortskrider.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -350,7 +350,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the deputy of o_c_n out doing the same thing. Both deputies find a point where they can't agree on the right border path and return to their respective camps to discuss with their leaders.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och stöter på ställföreträdaren för o_c_n ut som gör samma sak. Båda deputerade hittar en punkt där de inte kan komma överens om rätt gränsväg och återvänder till sina respektive läger för att diskutera med sina ledare.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -379,24 +379,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the leader of o_c_n out doing the same thing. They commiserate over the incompetence of the apprentices on both sides that caused the issue and walk away with a greater respect for one another.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och möter ledaren för o_c_n ut som gör samma sak. De är förlåtande över inkompetensen hos lärlingarna på båda sidor som orsakade problemet och går därifrån med en större respekt för varandra.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to s_c with their leader. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into the perfect chance to casually but purposefully keep each other informed on an ongoing problem in the tar pits.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som s_c med sin ledare. De inleder en vänlig konversation och så småningom glider o_c_n krigarna iväg. Det oväntade tillfället förvandlas till den perfekta chansen att slentrianmässigt men målmedvetet hålla varandra informerade om ett pågående problem i tjärgroparna.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -405,7 +405,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} o_c_n-ledaren ut med sin nya lärling. Deras medledare uppmuntrar sin lärling att testa s_c och s_c komplimanger dem båda för hur den unga kattens träning utvecklas.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -421,7 +421,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the leader of o_c_n out doing the same thing. Both leaders find a point where they can't agree on the right border path and agree to raise it at the next Gathering instead.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och möter ledaren för o_c_n ut som gör samma sak. Båda ledarna hittar en punkt där de inte kan komma överens om den rätta gränsvägen och kommer överens om att ta upp den vid nästa samling istället.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -450,24 +450,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border and holding prey. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/see\/sees} the young cat off with a stern warning and then {VERB\/r_c\/bring\/brings} the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen och håller byte. {PRONOUN/r_c/subject/CAP} {VERB/r_c/see/sees} den unga katten av med en sträng varning och sedan {VERB/r_c/bring/brings} bytet tillbaka till c_n camp för att rapportera händelsen till ställföreträdaren .",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, and turns to follow the same marking path as them, keen to catch up on what their ally has been up to.",
+                "text": "s_c stöter på en patrull från o_c_n, som är ute på ett liknande uppdrag som dem, och vänder sig för att följa samma markeringsväg som dem, angelägna om att hinna med vad deras allierade har hållit på med.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -476,7 +476,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a o_c_n border patrol. It even includes a young apprentice, whose eyes go round and fur fluffs up at encountering a real c_n cat! s_c plays along, acting very impressed with the hardworking apprentice, and the apprentice's mentor purrs gratefully.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en o_c_n gränspatrull. Det inkluderar till och med en ung lärling, vars ögon går runt och pälsen fluffar upp när han möter en riktig c_n-katt! s_c spelar med, agerar mycket imponerad av den hårt arbetande lärlingen, och lärlingens mentor spinnar tacksamt.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -492,13 +492,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c marks a little, but {PRONOUN\/r_c\/subject} {VERB\/r_c\/reach\/reaches} a section where the border is muddled and {VERB\/r_c\/have\/has} to give up and go home.",
+                "text": "r_c markerar lite, men {PRONOUN/r_c/subject} {VERB/r_c/reach/reaches} ett avsnitt där gränsen är rörig och {VERB/r_c/have/has} att ge upp och gå hem.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c is having trouble focusing today and puts a mark in the wrong place - at the worst possible moment, because a o_c_n patrol sees them doing it! {PRONOUN\/r_c\/subject\/CAP} immediately {VERB\/r_c\/apologize\/apologizes} to the o_c_n patrol for the diplomatic incident {PRONOUN\/r_c\/subject}{VERB\/r_c\/'ve\/'s} inadvertently caused.",
+                "text": "r_c har problem med att fokusera idag och sätter en markering på fel ställe - i värsta möjliga ögonblick, för en o_c_n patrull ser dem göra det! {PRONOUN/r_c/subject/CAP} omedelbart {VERB/r_c/apologize/apologizes} till o_c_n-patrullen för den diplomatiska incidenten {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} som oavsiktligt orsakades.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -537,24 +537,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border and holding prey. Unimpressed, r_c brings them back to their border as the apprentice tries to melt into the ground in shame, returning them to a mentor whose face goes slack with horror to see c_n's deputy.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen och håller byte. Oimponerad tar r_c dem tillbaka till gränsen när lärlingen försöker smälta ner i jorden i skam, och återför dem till en mentor vars ansikte blir slappt av fasa för att se c_ns ställföreträdare.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN\/s_c\/object}. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/strike\/strikes} up a friendly conversation, keen to catch up on what their ally has been up to. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/send\/sends} the patrol off with several friendly messages to pass on from different c_n cats and an update from c_n's leader.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/strike/strikes} upp en vänlig konversation, gärna ikapp vad deras allierade har hållit på med. {PRONOUN/s_c/subject/CAP} {VERB/s_c/send/sends} patrullen iväg med flera vänliga meddelanden att förmedla från olika c_n-katter och en uppdatering från c_ns ledare.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -563,7 +563,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they tuck their paws together neatly, sitting pretty for inspection. s_c plays along, acting very impressed with the hardworking apprentice, and the apprentice's mentor purrs gratefully at the c_n deputy's kindness.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en o_c_n gränspatrull, som inkluderar en ung lärling. Deras ögon går runt och de stoppar ihop sina tassar prydligt och sitter vackra för inspektion. s_c spelar med, agerar mycket imponerad av den hårt arbetande lärlingen, och lärlingens mentor spinnar tacksamt över c_n-ställföreträdarens vänlighet.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -579,13 +579,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c marks a little, but {PRONOUN\/r_c\/subject} {VERB\/r_c\/reach\/reaches} a section where the border is muddled and {VERB\/r_c\/have\/has} to give up and go home.",
+                "text": "r_c markerar lite, men {PRONOUN/r_c/subject} {VERB/r_c/reach/reaches} ett avsnitt där gränsen är rörig och {VERB/r_c/have/has} att ge upp och gå hem.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c is having trouble focusing today and puts a mark in the wrong place - at the worst possible moment, because a o_c_n patrol sees {PRONOUN\/r_c\/object} doing it! The diplomatic incident spirals. Though both allies are able to keep it merely tense and not violent, there'll be consequences for this.",
+                "text": "r_c har problem med att fokusera idag och sätter ett märke på fel ställe - i värsta möjliga ögonblick, eftersom en o_c_n patrull ser {PRONOUN/r_c/object} göra det! Den diplomatiska incidenten går i spiral. även om båda allierade kan hålla det bara spänt och inte våldsamt, kommer det att få konsekvenser för detta.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -624,24 +624,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border and holding prey. Unimpressed, r_c brings them back to their border as the apprentice tries to melt into the ground in shame, returning them to a mentor who tucks their tail and apologizes profusely.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen och håller byte. Oimponerad tar r_c dem tillbaka till gränsen när lärlingen försöker smälta ner i marken i skam, och återför dem till en mentor som stoppar svansen och ber rikligt om ursäkt.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to {PRONOUN\/s_c\/object}. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/strike\/strikes} up a friendly conversation, keen to catch up on what their ally has been up to. The cats leave with several messages to pass on from both sides and a renewed sense of goodwill and trust between them.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/strike/strikes} upp en vänlig konversation, gärna ikapp vad deras allierade har hållit på med. Katterna går därifrån med flera budskap att förmedla från båda sidor och en förnyad känsla av välvilja och förtroende dem emellan.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -650,7 +650,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a o_c_n border patrol, which includes a young apprentice. Their eyes go round and they hide behind their mentor, but s_c manages to coax them out, praising the little apprentice to their mentor, who purrs gratefully at the c_n leader's kindness.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en o_c_n gränspatrull, som inkluderar en ung lärling. Deras ögon går runt och de gömmer sig bakom sin mentor, men s_c lyckas locka ut dem och berömmer den lilla lärlingen till sin mentor, som spinner tacksamt över c_n-ledarens vänlighet.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -666,13 +666,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c marks a little, but {PRONOUN\/r_c\/subject} {VERB\/r_c\/reach\/reaches} a section where the border is muddled and {VERB\/r_c\/have\/has} to give up and go home.",
+                "text": "r_c markerar lite, men {PRONOUN/r_c/subject} {VERB/r_c/reach/reaches} ett avsnitt där gränsen är rörig och {VERB/r_c/have/has} att ge upp och gå hem.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c is having trouble focusing today and puts a mark in the wrong place - at the worst possible moment, because a o_c_n patrol sees {PRONOUN\/r_c\/object} doing it! The diplomatic incident spirals. Though both allies are able to keep it merely tense and not violent, there'll be consequences for this.",
+                "text": "r_c har problem med att fokusera idag och sätter ett märke på fel ställe - i värsta möjliga ögonblick, eftersom en o_c_n patrull ser {PRONOUN/r_c/object} göra det! Den diplomatiska incidenten går i spiral. även om båda allierade kan hålla det bara spänt och inte våldsamt, kommer det att få konsekvenser för detta.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -711,24 +711,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the deputy of o_c_n out doing the same thing. They commiserate and exchange news with each other, neither ally blaming the other for the innocent mistakes of apprentices.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och stöter på ställföreträdaren för o_c_n ut som gör samma sak. De är förlåtande och utbyter nyheter med varandra, utan att någon av dem skyller på den andra för lärlingarnas oskyldiga misstag.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into a venting session, both deputies finally getting the chance to lift stress from their shoulders and talk to an equal.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som dem, ledd av deras ställföreträdare. De inleder en vänlig konversation och så småningom glider o_c_n krigarna iväg. Det oväntade tillfället förvandlas till en utluftningssession, båda suppleanterna får äntligen chansen att lyfta stressen från sina axlar och prata med en jämställd.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -737,7 +737,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} the o_c_n deputy out with their new apprentice. Their fellow deputy encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} o_c_n vikarien ut med sin nya lärling. Deras ställföreträdare uppmuntrar sin lärling att testa s_c, och s_c berömmer dem båda för hur den unga kattens träning fortskrider.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -753,13 +753,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the deputy of o_c_n out doing the same thing. Both deputies find a point where they can't agree on the right border path and return to their respective camps to discuss with their leaders.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och stöter på ställföreträdaren för o_c_n ut som gör samma sak. Båda deputerade hittar en punkt där de inte kan komma överens om rätt gränsväg och återvänder till sina respektive läger för att diskutera med sina ledare.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c is having trouble focusing today and puts a mark in the wrong place - at the worst possible moment, because a o_c_n patrol sees {PRONOUN\/r_c\/object} doing it! The diplomatic incident spirals. Though both allies are able to keep it merely tense and not violent, there'll be consequences for this.",
+                "text": "r_c har problem med att fokusera idag och sätter ett märke på fel ställe - i värsta möjliga ögonblick, eftersom en o_c_n patrull ser {PRONOUN/r_c/object} göra det! Den diplomatiska incidenten går i spiral. även om båda allierade kan hålla det bara spänt och inte våldsamt, kommer det att få konsekvenser för detta.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -788,24 +788,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the leader of o_c_n out doing the same thing. They commiserate and exchange news with each other, neither ally blaming the other for the innocent mistakes of apprentices.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och möter ledaren för o_c_n ut som gör samma sak. De är förlåtande och utbyter nyheter med varandra, utan att någon av dem skyller på den andra för lärlingarnas oskyldiga misstag.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to s_c with their leader. They strike up a friendly conversation, and eventually the o_c_n warriors drift away. The unexpected opportunity turns into a venting session, both leaders finally getting the chance to lift stress from their shoulders and talk to an equal.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som s_c med sin ledare. De inleder en vänlig konversation och så småningom glider o_c_n krigarna iväg. Det oväntade tillfället förvandlas till en utluftningssession, båda ledarna får äntligen chansen att lyfta stressen från sina axlar och prata med en jämställd.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -814,7 +814,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} the o_c_n leader out with their new apprentice. Their fellow leader encourages their apprentice to quiz s_c, and s_c compliments them both on how the young cat's training is progressing.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} o_c_n-ledaren ut med sin nya lärling. Deras medledare uppmuntrar sin lärling att testa s_c och s_c komplimanger dem båda för hur den unga kattens träning utvecklas.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -830,13 +830,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the leader of o_c_n out doing the same thing. Both leaders find a point where they can't agree on the right border path and agree to bring the subject up at next Gathering instead.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och möter ledaren för o_c_n ut som gör samma sak. Båda ledarna hittar en punkt där de inte kan komma överens om rätt gränsväg och kommer överens om att ta upp ämnet vid nästa samling istället.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c is having trouble focusing today and puts a mark in the wrong place - at the worst possible moment, because a o_c_n patrol sees {PRONOUN\/r_c\/object} doing it! The diplomatic incident spirals. Though both allies are able to keep it merely tense and not violent, there'll be consequences for this.",
+                "text": "r_c har problem med att fokusera idag och sätter ett märke på fel ställe - i värsta möjliga ögonblick, eftersom en o_c_n patrull ser {PRONOUN/r_c/object} göra det! Den diplomatiska incidenten går i spiral. även om båda allierade kan hålla det bara spänt och inte våldsamt, kommer det att få konsekvenser för detta.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
@@ -869,24 +869,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border and holding prey. The youngster is terrified and protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who are formal but genuinely grateful.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen och håller byte. Ynglingen är livrädd och protesterar att de inte visste! r_c ger dem fördelen av tvivel och för dem tillbaka till den frenetiska patrull som letar efter dem på andra sidan gränsen, som är formella men genuint tacksamma.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/stare\/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c markerar längs territoriet när {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en patrull från o_c_n, ute på ett liknande uppdrag. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} på den andra klanens patrull utmanande och följer deras varje rörelse tills den delade gränsen tar slut. Men enligt normerna för o_c_n - c_n relationer är det ett fredligt möte.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -895,7 +895,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a o_c_n border patrol. It even includes a young apprentice, who fluffs up their pelt and insults {PRONOUN\/s_c\/object}. s_c sternly growls back to the apprentice that border fights are no joke, and surprisingly, their mentor joins s_c in lecturing the apprentice.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en o_c_n gränspatrull. Det inkluderar till och med en ung lärling, som fluffar upp sin päls och förolämpar {PRONOUN/s_c/object}. s_c morrar strängt tillbaka till lärlingen att gränsstrider inte är ett skämt, och överraskande nog följer deras mentor med s_c och föreläser lärlingen.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -911,13 +911,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border and holding prey. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/see\/sees} the young cat off with a furious swipe of {PRONOUN\/r_c\/poss} claws and then {VERB\/r_c\/bring\/brings} the prey back to c_n camp to report the incident to the deputy.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen och håller byte. {PRONOUN/r_c/subject/CAP} {VERB/r_c/see/sees} den unga katten av med ett rasande svep av {PRONOUN/r_c/poss} klor och sedan {VERB/r_c/bring/brings} bytet tillbaka till c_n läger för att rapportera händelsen till ställföreträdaren.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/stare\/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. The patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c markerar längs territoriet när {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en patrull från o_c_n, ute på ett liknande uppdrag. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} på den andra klanens patrull utmanande och följer deras varje rörelse tills den delade gränsen tar slut. Patrullen är kantad av muttrade förolämpningar och fräsande hot från båda sidor.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -933,7 +933,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c finds a o_c_n patrol out marking the same border and can't contain {PRONOUN\/s_c\/poss} hostility. Eventually the other patrol snaps - s_c doesn't make it back to camp. {PRONOUN\/s_c\/poss\/CAP} body is found along the border, and o_c_n boasts about it at the next Gathering.",
+                "text": "s_c hittar en o_c_n patrull som markerar samma gräns och kan inte innehålla {PRONOUN/s_c/poss} fientlighet. Så småningom snappar den andra patrullen - s_c når inte tillbaka till lägret. Kroppen {PRONOUN/s_c/poss/CAP} hittas längs gränsen, och o_c_n skryter med den vid nästa sammankomst.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -950,8 +950,8 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan."
+                    "scar": "m_c blev skadad när han patrullerade på gränsen.",
+                    "reg_death": "m_c dödades av en fientlig klan."
                 },
                 "other_clan_rep": -1
             }
@@ -979,24 +979,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border and holding prey. The youngster is terrified and protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who bow their heads to c_n's deputy in gratitude.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen och håller byte. Ynglingen är livrädd och protesterar att de inte visste! r_c ger dem fördelen av tvivel och för dem tillbaka till den frenetiska patrull som letar efter dem på andra sidan gränsen, som böjer sina huvuden för c_ns ställföreträdare i tacksamhet.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/stare\/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c markerar längs territoriet när {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en patrull från o_c_n, ute på ett liknande uppdrag. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} på den andra klanens patrull utmanande och följer deras varje rörelse tills den delade gränsen tar slut. Men enligt normerna för o_c_n - c_n relationer är det ett fredligt möte.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1005,7 +1005,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a o_c_n border patrol. It even includes a young apprentice, who fluffs up their pelt and insults {PRONOUN\/s_c\/object}. s_c sternly growls back to the apprentice that border fights are no joke, and surprisingly, their mentor joins s_c, both warrior and deputy lecturing the apprentice.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en o_c_n gränspatrull. Det inkluderar till och med en ung lärling, som fluffar upp sin päls och förolämpar {PRONOUN/s_c/object}. s_c morrar strängt tillbaka till lärlingen att gränsstrider inte är något skämt, och överraskande nog går deras mentor med s_c, både krigare och ställföreläsare för lärlingen.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1021,13 +1021,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border and holding prey. Furious, {PRONOUN\/r_c\/subject} {VERB\/r_c\/snarl\/snarls} {PRONOUN\/r_c\/poss} anger. The apprentice turns tail and flees with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor, the o_c_n warrior's face goes slack with horror to see c_n's deputy.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen och håller byte. Rasande, {PRONOUN/r_c/subject} {VERB/r_c/snarl/snarls} {PRONOUN/r_c/poss} ilska. Lärlingen vänder på svansen och flyr med r_c hett på spåren, och när lärlingen korsar gränsen för att gömma sig bakom sin mentor, blir o_c_n krigarens ansikte slappt av fasa för att se c_ns ställföreträdare.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/stare\/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. The patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c markerar längs territoriet när {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en patrull från o_c_n, ute på ett liknande uppdrag. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} på den andra klanens patrull utmanande och följer deras varje rörelse tills den delade gränsen tar slut. Patrullen är kantad av muttrade förolämpningar och fräsande hot från båda sidor.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1043,20 +1043,20 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c encounters a patrol from o_c_n on the border and greets them coldly, but there's something different here. Something dangerous. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/do\/does}n't make it back to camp.",
+                "text": "r_c stöter på en patrull från o_c_n på gränsen och hälsar dem kallt, men det är något annat här. Något farligt. {PRONOUN/r_c/subject/CAP} {VERB/r_c/do/does}når inte tillbaka till lägret.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan."
+                    "scar": "m_c blev skadad när han patrullerade på gränsen.",
+                    "reg_death": "m_c dödades av en fientlig klan."
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c finds a o_c_n patrol out marking the same border and can't contain {PRONOUN\/s_c\/poss} hostility. Eventually the other patrol snaps, and s_c doesn't make it back to camp. {PRONOUN\/s_c\/poss\/CAP} body is found along the border, and o_c_n boasts about it at the next Gathering.",
+                "text": "s_c hittar en o_c_n patrull som markerar samma gräns och kan inte innehålla {PRONOUN/s_c/poss} fientlighet. Så småningom snappar den andra patrullen och s_c når inte tillbaka till lägret. Kroppen {PRONOUN/s_c/poss/CAP} hittas längs gränsen, och o_c_n skryter med den vid nästa sammankomst.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1073,8 +1073,8 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan."
+                    "scar": "m_c blev skadad när han patrullerade på gränsen.",
+                    "reg_death": "m_c dödades av en fientlig klan."
                 },
                 "other_clan_rep": -1
             }
@@ -1102,24 +1102,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border and holding prey. The youngster is terrified and protests that they didn't know! r_c gives them the benefit of the doubt and brings them back to the frantic patrol looking for them on the other side of the border, who crouch to the ground and thank r_c profusely.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen och håller byte. Ynglingen är livrädd och protesterar att de inte visste! r_c ger dem fördelen av tvivel och för dem tillbaka till den frenetiska patrullen som letar efter dem på andra sidan gränsen, som hukar till marken och tackar r_c ymnigt.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/stare\/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c markerar längs territoriet när {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en patrull från o_c_n, ute på ett liknande uppdrag. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} på den andra klanens patrull utmanande och följer deras varje rörelse tills den delade gränsen tar slut. Men enligt normerna för o_c_n - c_n relationer är det ett fredligt möte.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1128,7 +1128,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a o_c_n border patrol. It even includes a young apprentice, who fluffs up their pelt and insults {PRONOUN\/s_c\/object}. s_c sternly growls back to the apprentice that border fights are no joke, and surprisingly, their mentor joins s_c, both warrior and leader lecturing the apprentice.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en o_c_n gränspatrull. Det inkluderar till och med en ung lärling, som fluffar upp sin päls och förolämpar {PRONOUN/s_c/object}. s_c morrar strängt tillbaka till lärlingen att gränsstrider inte är något skämt, och överraskande nog ansluter sig deras mentor till s_c, både krigare och ledare som föreläser lärlingen.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1144,13 +1144,13 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c comes across a o_c_n apprentice on the wrong side of the border and holding prey. Furious, {PRONOUN\/r_c\/subject} {VERB\/r_c\/snarl\/snarls} {PRONOUN\/r_c\/poss} anger. The apprentice turns tail and flees with r_c hot on their trail, and when the apprentice crosses the border to hide behind their mentor, the o_c_n warrior's face goes slack with horror to see c_n's leader.",
+                "text": "r_c stöter på en o_c_n lärling på fel sida av gränsen och håller byte. Rasande, {PRONOUN/r_c/subject} {VERB/r_c/snarl/snarls} {PRONOUN/r_c/poss} ilska. Lärlingen vänder på svansen och flyr med r_c hett på spåren, och när lärlingen korsar gränsen för att gömma sig bakom sin mentor, blir o_c_n-krigarens ansikte slappt av fasa för att se c_ns ledare.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/stare\/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. The patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c markerar längs territoriet när {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} en patrull från o_c_n, ute på ett liknande uppdrag. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} på den andra klanens patrull utmanande och följer deras varje rörelse tills den delade gränsen tar slut. Patrullen är kantad av muttrade förolämpningar och fräsande hot från båda sidor.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1166,20 +1166,20 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c encounters a patrol from o_c_n on the border and greets them politely, but there's something different here. Something dangerous. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/return\/returns} to camp, blood soaked through {PRONOUN\/r_c\/poss} fur and a new hardness in {PRONOUN\/r_c\/poss} heart.",
+                "text": "r_c stöter på en patrull från o_c_n på gränsen och hälsar artigt på dem, men det är något annat här. Något farligt. {PRONOUN/r_c/subject/CAP} {VERB/r_c/return/returns} till lägret, blod blött genom {PRONOUN/r_c/poss} päls och en ny hårdhet i {PRONOUN/r_c/poss} hjärta.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan."
+                    "scar": "m_c blev skadad när han patrullerade på gränsen.",
+                    "reg_death": "m_c förlorade ett liv mot en fientlig klan."
                 },
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c finds a o_c_n patrol out marking the same border and can't contain {PRONOUN\/s_c\/poss} hostility. Eventually the other patrol snaps and s_c loses a life in a vicious fight. o_c_n boasts about it at the next Gathering.",
+                "text": "s_c hittar en o_c_n patrull som markerar samma gräns och kan inte innehålla {PRONOUN/s_c/poss} fientlighet. Så småningom snappar den andra patrullen och s_c förlorar ett liv i en hätsk kamp. o_c_n skryter om det vid nästa sammankomst.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1196,8 +1196,8 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan."
+                    "scar": "m_c blev skadad när han patrullerade på gränsen.",
+                    "reg_death": "m_c förlorade ett liv mot en fientlig klan."
                 },
                 "other_clan_rep": -1
             }
@@ -1225,24 +1225,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the deputy of o_c_n out doing the same thing. They're carefully frosty with each other but manage to work together to find a solution. Maybe o_c_n isn't as bad as r_c thought.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och stöter på ställföreträdaren för o_c_n ut som gör samma sak. De är försiktigt frostiga med varandra men lyckas samarbeta för att hitta en lösning. Kanske är o_c_n inte så illa som r_c trodde.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their deputy. One of the patrol members yowls an insult and s_c squares up, coldly sneering at the warrior that thinks they can take {PRONOUN\/s_c\/object}. The other deputy calls their warrior back, begrudgingly impressed.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som dem, ledd av deras ställföreträdare. En av patrullmedlemmarna skriker en förolämpning och ställer upp, kallt hånande mot krigaren som tror att de kan ta {PRONOUN/s_c/object}. Den andra ställföreträdaren kallar tillbaka sin krigare, motvilligt imponerad.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1251,7 +1251,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} the o_c_n deputy out with their new apprentice. s_c passes on a message from c_n's leader and politely wishes the young apprentice well. The other deputy is begrudgingly impressed.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} o_c_n vikarien ut med sin nya lärling. s_c förmedlar ett meddelande från c_ns ledare och önskar artigt den unge lärlingen lycka till. Den andra ställföreträdaren är motvilligt imponerad.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1267,21 +1267,21 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the deputy of o_c_n out doing the same thing. Both deputies find a point where they can't agree on the right border path, and it nearly comes to a fight.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och stöter på ställföreträdaren för o_c_n ut som gör samma sak. Båda deputerade hittar en punkt där de inte kan komma överens om den rätta gränsvägen, och det blir nästan bråk.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c finds a o_c_n patrol out marking the same border and can't contain {PRONOUN\/r_c\/poss} hostility. Eventually the other patrol snaps, and r_c doesn't make it back to camp. {PRONOUN\/r_c\/poss\/CAP} body is found along the border, and o_c_n boasts about it at the next Gathering.",
+                "text": "r_c hittar en o_c_n patrull som markerar samma gräns och kan inte innehålla {PRONOUN/r_c/poss} fientlighet. Så småningom snappar den andra patrullen och r_c hinner inte tillbaka till lägret. Kroppen {PRONOUN/r_c/poss/CAP} hittas längs gränsen, och o_c_n skryter med den vid nästa sammankomst.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan."
+                    "scar": "m_c blev skadad när han patrullerade på gränsen.",
+                    "reg_death": "m_c dödades av en fientlig klan."
                 },
                 "other_clan_rep": -1
             }
@@ -1309,24 +1309,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c heads out into the wetlands alone, wanting to make a quick check on the border.",
-        "decline_text": "r_c turns back to camp, deciding that {PRONOUN\/r_c\/poss} other duties have to come first.",
+        "intro_text": "r_c beger sig ut i våtmarkerna ensam och vill göra en snabb koll på gränsen.",
+        "decline_text": "r_c vänder tillbaka till lägret och bestämmer att {PRONOUN/r_c/poss} andra plikter måste komma först.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "A section of their border with o_c_n has flooded under some recent rains, wiping the border markings off the map. r_c remarks it and heads home, a simple but necessary mission completed.",
+                "text": "En del av deras gräns mot o_c_n har svämmat över under några nyligen inträffade regn och torkat bort gränsmarkeringarna från kartan. r_c anmärker det och beger sig hem, ett enkelt men nödvändigt uppdrag slutfört.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2
             },
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the leader of o_c_n out doing the same thing. They're carefully frosty with each other but manage to work together to find a solution. Maybe o_c_n isn't as bad as r_c thought.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och möter ledaren för o_c_n ut som gör samma sak. De är försiktigt frostiga med varandra men lyckas samarbeta för att hitta en lösning. Kanske är o_c_n inte så illa som r_c trodde.",
                 "exp": 20,
                 "weight": 5,
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their Clan leader. One of the patrol members yowls an insult and s_c squares up, coldly sneering at the warrior that thinks they can take {PRONOUN\/s_c\/object}. The other leader calls their warrior back, begrudgingly impressed.",
+                "text": "s_c stöter på en patrull från o_c_n, ute på ett liknande uppdrag som dem, ledd av deras klanledare. En av patrullmedlemmarna skriker en förolämpning och ställer upp, kallt hånande mot krigaren som tror att de kan ta {PRONOUN/s_c/object}. Den andra ledaren kallar tillbaka sin krigare, motvilligt imponerad.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1335,7 +1335,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "As s_c marks the border, {PRONOUN\/s_c\/subject} {VERB\/s_c\/encounter\/encounters} the o_c_n leader out with their new apprentice. s_c passes on some important information affecting both their Clans and politely wishes the young apprentice well. The other leader is begrudgingly impressed.",
+                "text": "Eftersom s_c markerar gränsen, {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} o_c_n-ledaren ut med sin nya lärling. s_c förmedlar viktig information som påverkar båda deras klaner och önskar artigt den unga lärlingen lycka till. Den andra ledaren är motvilligt imponerad.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1351,21 +1351,21 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c heads out to clarify a portion of the border that there's been confusion over recently and encounters the leader of o_c_n out doing the same thing. Both leaders find a point where they can't agree on the right border path and storm off in a huff.",
+                "text": "r_c ger sig ut för att klargöra en del av gränsen som det har varit förvirring över nyligen och möter ledaren för o_c_n ut som gör samma sak. Båda ledarna hittar en punkt där de inte kan komma överens om den rätta gränsvägen och stormar iväg i ett huff.",
                 "exp": 0,
                 "weight": 20,
                 "other_clan_rep": -1
             },
             {
-                "text": "r_c finds a o_c_n patrol out marking the same border and can't contain {PRONOUN\/r_c\/poss} hostility. Eventually the other patrol snaps, and r_c loses a life in a vicious fight. o_c_n boasts about it at the next Gathering.",
+                "text": "r_c hittar en o_c_n patrull som markerar samma gräns och kan inte innehålla {PRONOUN/r_c/poss} fientlighet. Så småningom snappar den andra patrullen och r_c förlorar ett liv i en hätsk kamp. o_c_n skryter om det vid nästa sammankomst.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan."
+                    "scar": "m_c blev skadad när han patrullerade på gränsen.",
+                    "reg_death": "m_c dödades av en fientlig klan."
                 },
                 "other_clan_rep": -1
             }
@@ -1391,17 +1391,17 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol hears some odd noises coming from an abandoned Twoleg nest out in the swamp.",
-        "decline_text": "The patrol decides not to investigate.",
+        "intro_text": "Patrullen hör några konstiga ljud som kommer från ett övergivet Twoleg-bo ute i träsket.",
+        "decline_text": "Patrullen beslutar att inte utreda.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "It's just an odd loner singing to themself. The patrol greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility.",
+                "text": "Det är bara en udda enstöring som sjunger för sig själva. Patrullen hälsar dem välkomna, och eftersom ensamvargen inte är inom c_n territorium, är det en artig interaktion utan någon fientlighet.",
                 "exp": 30,
                 "weight": 20
             },
             {
-                "text": "It's just an odd loner singing to {PRONOUN\/n_c:0\/self}. When {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/see\/sees} p_l, {PRONOUN\/n_c:0\/subject} {VERB\/n_c:0\/invite\/invites} {PRONOUN\/p_l\/object} to sing along. Instead, p_l offers the strange, battered-looking cat an introduction to c_n. It's got to be far less lonely than {PRONOUN\/n_c:0\/poss} current life.",
+                "text": "Det är bara en udda enstöring som sjunger till {PRONOUN/n_c:0/self}. När {PRONOUN/n_c:0/subject} {VERB/n_c:0/see/seees} p_l, {PRONOUN/n_c:0/subject} {VERB/n_c:0/invite/invites} {PRONOUN/p_l/object} att sjunga med. Istället erbjuder p_l den märkliga, misshandlade katten en introduktion till c_n. Det måste vara mycket mindre ensamt än {PRONOUN/n_c:0/poss} nuvarande liv.",
                 "exp": 30,
                 "weight": 5,
                 "new_cat": [
@@ -1430,7 +1430,7 @@
                 "outsider_rep": 1
             },
             {
-                "text": "The patrol walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c is there, fighting with the courage of LionClan, the strength of TigerClan, and the dexterity of LeopardClan. Shaken but no more than bruised, the patrol manages to retreat to safety.",
+                "text": "Patrullen går in i ett bakhåll av en grupp skurkar. Det är bara genom StarClans nåd som s_c är där, kämpar med LionClans mod, TigerClans styrka och LeopardClans skicklighet. Skakad men inte mer än blåslagen lyckas patrullen dra sig tillbaka i säkerhet.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -1438,7 +1438,7 @@
                 ]
             },
             {
-                "text": "s_c signals for the patrol to stop. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/explain\/explains} {PRONOUN\/s_c\/poss} concerns about the unknown situation in a murmur. Maybe {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} being too cautious - but then p_l picks up on the scent of strange cats around the Twoleg den. Forewarned, the patrol retreats to safety.",
+                "text": "s_c signalerar att patrullen ska stanna. {PRONOUN/s_c/subject/CAP} {VERB/s_c/explain/explains} {PRONOUN/s_c/poss} oro över den okända situationen i ett sorl. Kanske är {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} för försiktiga - men sedan får p_l upp doften av konstiga katter runt Twoleg den. Förvarnad drar sig patrullen i säkerhet.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -1450,14 +1450,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol walks into an ambush by a group of rogues. Everyone is slaughtered.",
+                "text": "Patrullen går in i ett bakhåll av en grupp skurkar. Alla slaktas.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "patrol"
                 ],
                 "history_text": {
-                    "reg_death": "This cat died from being ambushed by rogues."
+                    "reg_death": "Den här katten dog av att ha blivit överfallen av skurkar."
                 },
                 "outsider_rep": -1
             }
@@ -1483,22 +1483,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c hears some odd noises coming from an abandoned Twoleg nest out in the swamp.",
-        "decline_text": "The patrol decides not to investigate.",
+        "intro_text": "r_c hör några konstiga ljud som kommer från ett övergivet Twoleg-bo ute i träsket.",
+        "decline_text": "Patrullen beslutar att inte utreda.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "It's just an odd loner singing to themself. r_c greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility.",
+                "text": "Det är bara en udda enstöring som sjunger för sig själva. r_c hälsar dem välkomna, och eftersom ensamvargen inte är inom c_n territorium, är det en artig interaktion utan någon fientlighet.",
                 "exp": 30,
                 "weight": 20
             },
             {
-                "text": "It's just an odd loner singing to themself. When they see r_c, they invite {PRONOUN\/r_c\/object} to sing too. Instead, r_c offers the somewhat battered-looking and strange cat an introduction to c_n. It's got to be far less lonely than their current life.",
+                "text": "Det är bara en udda enstöring som sjunger för sig själva. När de ser r_c bjuder de in {PRONOUN/r_c/object} att sjunga också. Istället erbjuder r_c den något misshandlade och konstiga katten en introduktion till c_n. Det måste vara mycket mindre ensamt än deras nuvarande liv.",
                 "exp": 30,
                 "weight": 5
             },
             {
-                "text": "s_c walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, running for {PRONOUN\/s_c\/poss} life.",
+                "text": "s_c går in i ett bakhåll av en grupp skurkar. Det är bara genom StarClans nåd som s_c har stridsskickligheten och självförtroendet att fly och springer för livet för {PRONOUN/s_c/poss}.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -1506,7 +1506,7 @@
                 ]
             },
             {
-                "text": "s_c has a bad feeling about this. And maybe {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} being too cautious - but then {PRONOUN\/s_c\/subject} {VERB\/s_c\/pick\/picks} up on the scent of strange cats around the Twoleg den. Forewarned, s_c retreats to safety.",
+                "text": "s_c har en dålig känsla för detta. Och kanske är {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} för försiktiga - men då upptar {PRONOUN/s_c/subject} {VERB/s_c/pick/picks} på doften av konstiga katter runt omkring tvåbenshålan. Varnat, s_c drar sig tillbaka i säkerhet.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -1518,14 +1518,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol walks into an ambush by a group of rogues. Everyone is slaughtered.",
+                "text": "Patrullen går in i ett bakhåll av en grupp skurkar. Alla slaktas.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "patrol"
                 ],
                 "history_text": {
-                    "reg_death": "This cat died from being ambushed by rogues while on a solo patrol."
+                    "reg_death": "Den här katten dog av att ha blivit överfallen av skurkar när han var på en solopatrull."
                 },
                 "outsider_rep": -1
             }
@@ -1548,12 +1548,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon, and p_l wonders if they should continue.",
-        "decline_text": "The patrol decides to head back early.",
+        "intro_text": "Det är mörka moln vid horisonten, och p_l undrar om de ska fortsätta.",
+        "decline_text": "Patrullen bestämmer sig för att gå tillbaka tidigt.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "även om det är ganska grått där uppe, kommer det utlovade regnet aldrig.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1574,7 +1574,7 @@
                 ]
             },
             {
-                "text": "The cats get wet in the rain, but the patrol is otherwise successful.",
+                "text": "Katterna blir blöta i regnet, men patrullen lyckas i övrigt.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1595,7 +1595,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgment, and the patrol keeps going. They stick to solid ground, sometimes routing themselves through the trees as the rain begins to pour around them.",
+                "text": "s_c gör en noggrann bedömning, och patrullen fortsätter. De håller sig till fast mark, ibland tar de sig genom träden när regnet börjar ösa runt dem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1619,7 +1619,7 @@
                 ]
             },
             {
-                "text": "It's not worth the risk - s_c convinces the patrol to head for home.",
+                "text": "Det är inte värt risken - s_c övertygar patrullen att bege sig hem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1647,14 +1647,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour, and a sudden flood from the overflowing river in the swamp sweeps all of the cats in the patrol away. Some manage to ride the waves, paddling for their lives, but many are lost forever.",
+                "text": "Det regnar och en plötslig översvämning från den överfulla floden i träsket sveper bort alla katterna i patrullen. Vissa lyckas rida på vågorna och paddla för sina liv, men många är förlorade för alltid.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "multi"
                 ],
                 "history_text": {
-                    "reg_death": "This cat was drowned by floodwaters."
+                    "reg_death": "Den här katten dränktes i översvämningsvatten."
                 },
                 "relationships": [
                     {
@@ -1692,12 +1692,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon, and p_l wonders if they should continue.",
-        "decline_text": "The patrol decides to head back early.",
+        "intro_text": "Det är mörka moln vid horisonten, och p_l undrar om de ska fortsätta.",
+        "decline_text": "Patrullen bestämmer sig för att gå tillbaka tidigt.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "även om det är ganska grått där uppe, kommer det utlovade regnet aldrig.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -1718,7 +1718,7 @@
                 ]
             },
             {
-                "text": "The cats get wet in the rain, but the patrol is otherwise successful.",
+                "text": "Katterna blir blöta i regnet, men patrullen lyckas i övrigt.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -1739,7 +1739,7 @@
                 ]
             },
             {
-                "text": "s_c makes a careful judgment, and the patrol keeps going. They stick to solid ground, sometimes routing themselves through the trees as the rain begins to pour around them.",
+                "text": "s_c gör en noggrann bedömning, och patrullen fortsätter. De håller sig till fast mark, ibland tar de sig genom träden när regnet börjar ösa runt dem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1763,7 +1763,7 @@
                 ]
             },
             {
-                "text": "It's not worth the risk - s_c convinces the patrol to head for home.",
+                "text": "Det är inte värt risken - s_c övertygar patrullen att bege sig hem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1791,14 +1791,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour, and a sudden flood from the overflowing river in the swamp sweeps all of the cats in the patrol away. p_l yowls out a warning, and most of the patrol react fast and strike out strongly for passing pieces of driftwood, but r_c doesn't make it, sinking beneath the water.",
+                "text": "Det regnar och en plötslig översvämning från den överfulla floden i träsket sveper bort alla katterna i patrullen. p_l skriker ut en varning, och de flesta av patrullerna reagerar snabbt och slår ut kraftigt för att passera bitar av drivved, men r_c hinner inte med, sjunker under vattnet.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "reg_death": "m_c was drowned by floodwaters."
+                    "reg_death": "m_c dränktes av översvämningsvatten."
                 },
                 "relationships": [
                     {
@@ -1836,22 +1836,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "There are dark clouds on the horizon, and r_c wonders if {PRONOUN\/r_c\/subject} should continue.",
-        "decline_text": "r_c decides to head back early.",
+        "intro_text": "Det finns mörka moln vid horisonten, och r_c undrar om {PRONOUN/r_c/subject} ska fortsätta.",
+        "decline_text": "r_c bestämmer sig för att gå tillbaka tidigt.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's pretty gray up there, the promised rain never comes.",
+                "text": "även om det är ganska grått där uppe, kommer det utlovade regnet aldrig.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c gets wet in the rain, but the patrol is otherwise successful.",
+                "text": "r_c blir blöt i regnet, men patrullen lyckas annars.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c makes a careful judgment and keeps going. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/stick\/sticks} to solid ground, sometimes routing {PRONOUN\/s_c\/self} through the trees as the rain begins to pour around {PRONOUN\/s_c\/object}.",
+                "text": "s_c gör en noggrann bedömning och fortsätter. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stick/sticks} till fast mark, ibland leder {PRONOUN/s_c/self} genom träden när regnet börjar ösa runt {PRONOUN/s_c/object}.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1859,7 +1859,7 @@
                 ]
             },
             {
-                "text": "It's not worth the risk - s_c heads for home.",
+                "text": "Det är inte värt risken - s_c beger sig hem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1871,14 +1871,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There is a downpour, and a sudden flood from the overflowing river in the swamp sweeps r_c away.",
+                "text": "Det kommer ett skyfall och en plötslig översvämning från den överfulla floden i träsket sveper bort r_c.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "reg_death": "m_c was drowned by floodwaters."
+                    "reg_death": "m_c dränktes av översvämningsvatten."
                 }
             }
         ]
@@ -1900,12 +1900,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "As a shivering r_c crosses a muddy bog, {PRONOUN\/r_c\/subject} {VERB\/r_c\/hear\/hears} a creaking, rushing sound, like a wave - but the swamp shouldn't have any waves.",
-        "decline_text": "r_c decides to head back early.",
+        "intro_text": "När en huttrande r_c korsar en lerig myr, {PRONOUN/r_c/subject} {VERB/r_c/hör/hör} ett knarrande, rusande ljud, som en våg - men träsket ska inte ha några vågor.",
+        "decline_text": "r_c bestämmer sig för att gå tillbaka tidigt.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "r_c leaps forward, dashing to the other side of the bog and up into the trees. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/make\/makes} it in time to watch the swamp get lost under a tide of water from inland.",
+                "text": "r_c hoppar fram, rusar till andra sidan myren och upp i träden. {PRONOUN/r_c/subject/CAP} {VERB/r_c/make/makes} det i tid för att se träsket gå vilse under en våg av vatten från inlandet.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -1913,7 +1913,7 @@
                 ]
             },
             {
-                "text": "s_c scrambles back the way {PRONOUN\/s_c\/subject} came and watches the swamp disappear under a flood of water. It leaves behind a changed landscape, tons of debris - and a large dead sheep. s_c pounces on the opportunity to scavenge.",
+                "text": "s_c rusar tillbaka vägen {PRONOUN/s_c/subject} kom och ser hur träsket försvinner under en flod av vatten. Den lämnar efter sig ett förändrat landskap, massor av skräp - och ett stort dött får. s_c kastar sig ut på möjligheten att rensa.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1924,7 +1924,7 @@
                 ]
             },
             {
-                "text": "s_c shrieks at the strange sound, paws digging into the mud as {PRONOUN\/s_c\/subject} {VERB\/s_c\/turn\/turns} and {VERB\/s_c\/run\/runs} for home. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/are\/is} proven right when the swamp disappears under a flood of water from inland. {PRONOUN\/s_c\/poss\/CAP} caution saved {PRONOUN\/s_c\/poss} life.",
+                "text": "s_c skriker åt det konstiga ljudet, tassarna gräver i leran som {PRONOUN/s_c/subject} {VERB/s_c/turn/turns} och {VERB/s_c/run/runs} för hem. {PRONOUN/s_c/subject/CAP} {VERB/s_c/are/is} har visat sig ha rätt när träsket försvinner under en flod av vatten från inlandet. {PRONOUN/s_c/poss/CAP} försiktighet räddade livet på {PRONOUN/s_c/poss}.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1939,14 +1939,14 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c is in the middle of the bog when the flood hits {PRONOUN\/r_c\/object}. Freezing water rushes past and sweeps {PRONOUN\/r_c\/object} straight out into the churning river, under its ice.",
+                "text": "r_c är mitt i myren när översvämningen träffar {PRONOUN/r_c/object}. Iskallt vatten forsar förbi och sveper med {PRONOUN/r_c/object} rakt ut i den kurrande floden, under dess is.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "reg_death": "m_c was killed by a flood."
+                    "reg_death": "m_c dödades av en översvämning."
                 }
             }
         ]
@@ -1968,22 +1968,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the swamp mud.",
-        "decline_text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/decide\/decides} not to investigate.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i träskleran.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte undersöka.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. r_c slips into the swamp and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. r_c glider in i träsket och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c throws themselves at the rogue, hissing furiously, and drives them off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c kastar sig på skurken, väsande ursinnigt, och driver dem bort från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1991,7 +1991,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, {PRONOUN\/s_c\/subject} {VERB\/s_c\/demand\/demands} the rogue leave c_n territory. Intimidated by {PRONOUN\/s_c\/poss} confidence, the rogue gives in and leaves without a fight.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken lämnar c_n territorium. Skrämmad av {PRONOUN/s_c/poss} självförtroende ger skurken efter och lämnar utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2016,12 +2016,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment, suddenly grateful {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} alone.",
+                "text": "Det visar sig att de var r_cs egna tassavtryck... r_c huffar av förlägenhet, plötsligt tacksam {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} ensam.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c tries to set up a trap by using the marshy terrain to cut off the rogue's escape path, but {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}n't as smart as {PRONOUN\/s_c\/subject} {VERB\/s_c\/think\/thinks} {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}. The trap fails, and the rogue wanders on.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c försöker sätta upp en fälla genom att använda den sumpiga terrängen för att skära av skurkarnas flyktväg, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} är inte lika smart som {PRONOUN/s_c/subject} {VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. Fällan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -2029,15 +2029,15 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow that kills {PRONOUN\/r_c\/object}.",
+                "text": "Följer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget som dödar {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue."
+                    "scar": "m_c var ärrad av en invaderande skurk.",
+                    "reg_death": "m_c dödades av en invaderande skurk."
                 }
             }
         ]
@@ -2059,22 +2059,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the swamp mud.",
-        "decline_text": "{PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/decide\/decides} not to investigate.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i träskleran.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte undersöka.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. r_c slips into the swamp and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. r_c glider in i träsket och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c sets up a trap by using the marshy terrain to cut off the rogue's escape path. It makes the startled intruder cower to realize they've been caught and trapped by c_n, and they're escorted to the border with the lesson firmly learned.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c sätter upp en fälla genom att använda den sumpiga terrängen för att skära av skurkarnas flyktväg. Det får den förskräckta inkräktaren att krypa ihop för att inse att de har blivit fångad och instängd av c_n, och de eskorteras till gränsen med lärdomen ordentligt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2082,7 +2082,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, {PRONOUN\/s_c\/subject} {VERB\/s_c\/demand\/demands} the rogue leave c_n territory. Intimidated by {PRONOUN\/s_c\/poss} confidence, the rogue gives in and leaves without a fight.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken lämnar c_n territorium. Skrämmad av {PRONOUN/s_c/poss} självförtroende ger skurken efter och lämnar utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2107,12 +2107,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment, suddenly grateful {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} alone.",
+                "text": "Det visar sig att de var r_cs egna tassavtryck... r_c huffar av förlägenhet, plötsligt tacksam {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} ensam.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN\/s_c\/self} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN\/s_c\/subject}'d like to think. The rogue escapes {PRONOUN\/s_c\/poss} grasp and runs off further into c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c kastar {PRONOUN/s_c/self} på skurken, väsande ursinnigt, men det här är en stridshärdad inkräktare, och s_c är inte en så bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -2120,15 +2120,15 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/r_c\/poss} nose to the ground, r_c doesn't see the blow that kills {PRONOUN\/r_c\/object}.",
+                "text": "Följer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget som dödar {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue."
+                    "scar": "m_c var ärrad av en invaderande skurk.",
+                    "reg_death": "m_c dödades av en invaderande skurk."
                 }
             }
         ]
@@ -2155,29 +2155,29 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, app1 notices some suspicious pawprints in the swamp mud.",
-        "decline_text": "{PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/decide\/decides} not to investigate.",
+        "intro_text": "Under patrullering upptäcker app1 några misstänkta tassavtryck i träskleran.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte undersöka.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. app1 slips into the swamp and sets up an ambush that lets {PRONOUN\/app1\/object} pretend to be a far bigger and more impressive fighter. app1 sends the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. app1 glider in i träsket och sätter upp ett bakhåll som låter {PRONOUN/app1/object} låtsas vara en mycket större och mer imponerande fighter. app1 skickar skurken att fly från c_n-territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "app1 soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat. In fact... {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} pretty sure this is {PRONOUN\/app1\/poss} mentor's scent. And {PRONOUN\/app1\/poss} mentor has been hinting {PRONOUN\/app1\/subject}'ll have an assessment soon.",
+                "text": "app1 inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot. Faktum är att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska säker på att detta är {PRONOUN/app1/poss} mentors doft. Och mentorn för {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att få en bedömning snart.",
                 "exp": 10,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} alone. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/do\/does}n't want to look dumb in front of other cats.",
+                "text": "Det visade sig att de var app1s egna tassavtryck... app1 huffar av förlägenhet, plötsligt tacksam {PRONOUN/app1/subject}{VERB/app1/'re/'s} ensam. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inför andra katter.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, {PRONOUN\/s_c\/subject} {VERB\/s_c\/demand\/demands} the rogue leave c_n territory. The rogue is not impressed by this adolescent and ignores {PRONOUN\/s_c\/object} completely.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken lämnar c_n territorium. Skurken är inte imponerad av denna tonåring och ignorerar {PRONOUN/s_c/object} helt.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2203,15 +2203,15 @@
                 ]
             },
             {
-                "text": "Following the trail with {PRONOUN\/app1\/poss} nose to the ground, app1 doesn't see the blow that kills {PRONOUN\/app1\/object}.",
+                "text": "När du följer spåret med {PRONOUN/app1/poss} nos mot marken ser app1 inte slaget som dödar {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred by an invading rogue.",
-                    "reg_death": "m_c was killed by an invading rogue."
+                    "scar": "m_c var ärrad av en invaderande skurk.",
+                    "reg_death": "m_c dödades av en invaderande skurk."
                 }
             }
         ]
@@ -2233,22 +2233,22 @@
         "max_cats": 2,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the swamp mud.",
-        "decline_text": "They decide not to investigate.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i träskleran.",
+        "decline_text": "De bestämmer sig för att inte utreda.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol slips into the swamp and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen glider in i träsket och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. With a furious hiss, s_c throws themselves at the rogue and, together with r_c, drives them off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Med ett rasande väsande kastar sig s_c över skurken och driver dem tillsammans med r_c bort från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2256,7 +2256,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, s_c and r_c demand the rogue leave c_n territory. The rogue is intimidated by their confidence and leaves without a fight.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och smygande kräver s_c och r_c att skurken lämnar c_n territorium. Skurken skräms av deras självförtroende och går därifrån utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2281,12 +2281,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment, suddenly grateful that their patrol is so small. Fewer eyes watching that embarrassing moment.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av förlägenhet, plötsligt tacksam över att deras patrull är så liten. Färre ögon som ser det pinsamma ögonblicket.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c tries to set up a trap by using the marshy terrain to cut off the rogue's escape path, but {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}n't as smart as {PRONOUN\/s_c\/subject} {VERB\/s_c\/think\/thinks} {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}. The trap fails, and the rogue wanders on.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c försöker sätta upp en fälla genom att använda den sumpiga terrängen för att skära av skurkarnas flyktväg, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} är inte lika smart som {PRONOUN/s_c/subject} {VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. Fällan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -2312,22 +2312,22 @@
         "max_cats": 2,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the swamp mud.",
-        "decline_text": "They decide not to investigate.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i träskleran.",
+        "decline_text": "De bestämmer sig för att inte utreda.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol slips into the swamp and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen glider in i träsket och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c sets up a trap by using the marshy terrain to cut off the rogue's escape path. It makes the startled intruder cower to realize they've been caught and trapped by c_n, and they're escorted to the border with the lesson firmly learned.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c sätter upp en fälla genom att använda den sumpiga terrängen för att skära av skurkarnas flyktväg. Det får den förskräckta inkräktaren att krypa ihop för att inse att de har blivit fångad och instängd av c_n, och de eskorteras till gränsen med lärdomen ordentligt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2335,7 +2335,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, s_c and r_c demand the rogue leave c_n territory. The rogue is intimidated by their confidence and leaves without a fight.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och smygande kräver s_c och r_c att skurken lämnar c_n territorium. Skurken skräms av deras självförtroende och går därifrån utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2360,12 +2360,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment, suddenly grateful that their patrol is so small. Fewer eyes watching that embarrassing moment.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av förlägenhet, plötsligt tacksam över att deras patrull är så liten. Färre ögon som ser det pinsamma ögonblicket.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN\/s_c\/self} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN\/s_c\/subject}'d like to think. The rogue escapes {PRONOUN\/s_c\/poss} grasp and runs off further into c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c kastar {PRONOUN/s_c/self} på skurken, väsande ursinnigt, men det här är en stridshärdad inkräktare, och s_c är inte en så bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -2396,29 +2396,29 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, app1 notices some suspicious pawprints in the swamp mud.",
-        "decline_text": "{PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/decide\/decides} not to investigate.",
+        "intro_text": "Under patrullering upptäcker app1 några misstänkta tassavtryck i träskleran.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte undersöka.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol slips into the swamp and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen glider in i träsket och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "app1 soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat. In fact... {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} pretty sure this is {PRONOUN\/app1\/poss} mentor's scent. And {PRONOUN\/app1\/poss} mentor has been hinting {PRONOUN\/app1\/subject}'ll have an assessment soon.",
+                "text": "app1 inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot. Faktum är att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska säker på att detta är {PRONOUN/app1/poss} mentors doft. Och mentorn för {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att få en bedömning snart.",
                 "exp": 10,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment, suddenly grateful that their patrol is so small. Fewer eyes watching that embarrassing moment. They don't want to look dumb in front of other cats.",
+                "text": "Det visar sig att de var app1:s egna tassavtryck... app1 huffar av förlägenhet, plötsligt tacksam över att deras patrull är så liten. Färre ögon som ser det pinsamma ögonblicket. De vill inte se dumma ut inför andra katter.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, {PRONOUN\/s_c\/subject} {VERB\/s_c\/demand\/demands} the rogue leave c_n territory. The rogue is not impressed by the adolescent but reluctantly leaves c_n territory.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken lämnar c_n territorium. Skurken är inte imponerad av tonåringen utan lämnar motvilligt c_n territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2462,22 +2462,22 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the swamp mud.",
-        "decline_text": "They decide not to investigate.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i träskleran.",
+        "decline_text": "De bestämmer sig för att inte utreda.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol slips into the swamp and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen glider in i träsket och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. With a furious hiss, s_c throws themselves at the rogue and, together with r_c, drives them off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Med ett rasande väsande kastar sig s_c över skurken och driver dem tillsammans med r_c bort från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2485,7 +2485,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, the patrol demands the rogue leave c_n territory. Intimidated by their confidence and the number of cats, the rogue gives in and leaves without a fight.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, patrullen kräver att skurken lämnar c_n territorium. Skrämd av deras självförtroende och antalet katter ger skurken efter och går utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2510,12 +2510,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment and can't meet the eyes of the rest of the patrol.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av förlägenhet och kan inte möta ögonen på resten av patrullen.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c tries to set up a trap by using the marshy terrain to cut off the rogue's escape path, but {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}n't as smart as {PRONOUN\/s_c\/subject} {VERB\/s_c\/think\/thinks} {PRONOUN\/s_c\/subject} {VERB\/s_c\/are\/is}. The trap fails, and the rogue wanders on.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c försöker sätta upp en fälla genom att använda den sumpiga terrängen för att skära av skurkarnas flyktväg, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} är inte lika smart som {PRONOUN/s_c/subject} {VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. Fällan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -2541,22 +2541,22 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While on patrol, r_c notices some suspicious pawprints in the swamp mud.",
-        "decline_text": "They decide not to investigate.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i träskleran.",
+        "decline_text": "De bestämmer sig för att inte utreda.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol slips into the swamp and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen glider in i träsket och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c sets up a trap by using the marshy terrain to cut off the rogue's escape path. It makes the startled intruder cower to realize they've been caught and trapped by c_n, and they're escorted to the border with the lesson firmly learned.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c sätter upp en fälla genom att använda den sumpiga terrängen för att skära av skurkarnas flyktväg. Det får den förskräckta inkräktaren att krypa ihop för att inse att de har blivit fångad och instängd av c_n, och de eskorteras till gränsen med lärdomen ordentligt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2564,7 +2564,7 @@
                 ]
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, the patrol demands the rogue leave c_n territory. Intimidated by their confidence and the number of cats, the rogue gives in and leaves without a fight.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, patrullen kräver att skurken lämnar c_n territorium. Skrämd av deras självförtroende och antalet katter ger skurken efter och går utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2589,12 +2589,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were r_c's own pawprints... r_c huffs with embarrassment and can't meet the eyes of the rest of the patrol.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av förlägenhet och kan inte möta ögonen på resten av patrullen.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The pawprints lead to a trespassing rogue. s_c throws {PRONOUN\/s_c\/self} at the rogue, hissing furiously, but this is one battle-hardened trespasser, and s_c isn't as good of a fighter as {PRONOUN\/s_c\/subject}'d like to think. The rogue escapes {PRONOUN\/s_c\/poss} grasp and runs off further into c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c kastar {PRONOUN/s_c/self} på skurken, väsande ursinnigt, men det här är en stridshärdad inkräktare, och s_c är inte en så bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -2625,29 +2625,29 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on patrol, app1 notices some suspicious pawprints in the swamp mud.",
-        "decline_text": "{PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/decide\/decides} not to investigate.",
+        "intro_text": "Under patrullering upptäcker app1 några misstänkta tassavtryck i träskleran.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte undersöka.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The pawprints lead to a trespassing rogue. The patrol slips into the swamp and sets up an ambush, sending the rogue fleeing off c_n territory.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen glider in i träsket och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "app1 soon realizes that the pawprints smell of c_n. Someone must have wandered through this section of the border recently, but it's not a threat. In fact... {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} pretty sure this is {PRONOUN\/app1\/poss} mentor's scent. And {PRONOUN\/app1\/poss} mentor has been hinting {PRONOUN\/app1\/subject}'ll have an assessment soon.",
+                "text": "app1 inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot. Faktum är att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska säker på att detta är {PRONOUN/app1/poss} mentors doft. Och mentorn för {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att få en bedömning snart.",
                 "exp": 10,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "It turns out they were app1's own pawprints... app1 huffs with embarrassment and can't meet the eyes of the rest of the patrol. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/do\/does}n't want to look dumb in front of other cats.",
+                "text": "Det visar sig att de var app1:s egna tassavtryck... app1 huffar av förlägenhet och kan inte möta ögonen på resten av patrullen. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inför andra katter.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Boldly, s_c follows the pawprints to a trespassing rogue and confronts them. Fur puffed up and scowling, {PRONOUN\/s_c\/subject} {VERB\/s_c\/demand\/demands} the rogue leave c_n territory. The rogue is not impressed by the adolescent, but with the full patrol backing {PRONOUN\/s_c\/object} up, the rogue leaves c_n territory.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken lämnar c_n territorium. Skurken är inte imponerad av tonåringen, men med full patrull som backar upp {PRONOUN/s_c/object} lämnar skurken c_n territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2691,12 +2691,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "On their way to mark the far corners of their swamps, r_c starts telling a story of their ancestors to keep every cat entertained.",
-        "decline_text": "The patrol seems uninterested, so r_c drops the idea. ",
+        "intro_text": "På väg att markera de bortre hörnen av deras träsk börjar r_c berätta en historia om sina förfäder för att underhålla varje katt.",
+        "decline_text": "Patrullen verkar ointresserad, så r_c lägger ner idén.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "It keeps the cats' minds off their damp paws and the muddy path. The patrol goes quickly and easily.",
+                "text": "Det håller katternas sinnen borta från deras fuktiga tassar och den leriga stigen. Patrullen går snabbt och enkelt.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -2720,7 +2720,7 @@
                 ]
             },
             {
-                "text": "s_c spins a vivid, engaging tale of a massive war their ancestors fought over the border the patrol is headed to mark. Not only does it keep every cat entertained, but it also emphasizes the importance of the patrol and motivates everyone.",
+                "text": "s_c spinner en levande, engagerande berättelse om ett massivt krig som deras förfäder utkämpade över gränsen som patrullen är på väg att markera. Det underhåller inte bara varje katt, det understryker också patrullens betydelse och motiverar alla.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -2747,7 +2747,7 @@
                 ]
             },
             {
-                "text": "It's a fantastic idea, making the patrol fly by as cats chat and laugh with their Clanmates, and everyone ends the day feeling much closer to each other.",
+                "text": "Det är en fantastisk idé, som får patrullen att flyga förbi medan katter chattar och skratta med sina klankamrater, och alla avslutar dagen med att känna sig mycket närmare varandra.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -2779,7 +2779,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c skids on mud as {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} getting to an exciting part and has to stop the story to pay attention to the path. ",
+                "text": "r_c sladdar på lera när {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kommer till en spännande del och måste stoppa historien för att uppmärksamma vägen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2803,7 +2803,7 @@
                 ]
             },
             {
-                "text": "s_c takes r_c aside and reminds {PRONOUN\/r_c\/object} coldly to focus on {PRONOUN\/r_c\/poss} duties.",
+                "text": "s_c tar r_c åt sidan och påminner {PRONOUN/r_c/object} kallt att fokusera på {PRONOUN/r_c/poss} uppgifter.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [

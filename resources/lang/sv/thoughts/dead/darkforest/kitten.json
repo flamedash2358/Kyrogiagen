@@ -2,22 +2,22 @@
     {
         "id": "gen_dead_kitten",
         "thoughts": [
-            "Isn't used to the cold",
-            "Wonders why it's so dark",
-            "Wants someone to play with",
-            "Wonders why all the cats around {PRONOUN\/m_c\/object} are so angry",
-            "Feels hopeless, not understanding what {PRONOUN\/m_c\/subject} did wrong",
-            "Closes {PRONOUN\/m_c\/poss} eyes, hoping to see the stars once they're opened",
-            "Is terrified of the shadows surrounding {PRONOUN\/m_c\/object}",
-            "Feels as if {PRONOUN\/m_c\/subject} {VERB\/m_c\/have\/has} been abandoned"
+            "är inte van vid kylan",
+            "Undrar varför det är så mörkt",
+            "Vill ha någon att leka med",
+            "Undrar varför alla katter runt {PRONOUN/m_c/object} är så arga",
+            "Känns hopplöst, att inte förstå vad {PRONOUN/m_c/subject} gjorde fel",
+            "Blundar {PRONOUN/m_c/poss} ögon i hopp om att se stjärnorna när de öppnas",
+            "är livrädd för skuggorna som omger {PRONOUN/m_c/object}",
+            "Känns som om {PRONOUN/m_c/subject} {VERB/m_c/have/har} blivit övergiven"
         ]
     },
     {
         "id": "dead_kit_to_dead_other_kit",
         "thoughts": [
-            "Huddled up close to r_c",
-            "Is comforting r_c despite {PRONOUN\/m_c\/poss} own fear",
-            "Is being comforted by r_c"
+            "Hoppade nära r_c",
+            "Tröstar r_c trots {PRONOUN/m_c/poss} egen rädsla",
+            "Tröstas av r_c"
         ],
         "random_living_status": [
             "darkforest"
@@ -29,11 +29,11 @@
     {
         "id": "dead_kit_to_dead_parent",
         "thoughts": [
-            "Is upset with r_c for leaving {PRONOUN\/m_c\/object} to the dark",
-            "Wonders why stars shine in r_c's fur and not {PRONOUN\/m_c\/inposs}"
+            "är upprörd över r_c för att lämna {PRONOUN/m_c/object} till mörkret",
+            "Undrar varför stjärnor lyser i r_c:s päls och inte {PRONOUN/m_c/inposs}"
         ],
         "relationship_constraint": [
-            "child\/parent"
+            "child/parent"
         ],
         "random_living_status": [
             "starclan"

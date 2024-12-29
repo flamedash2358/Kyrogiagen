@@ -2,26 +2,26 @@
     {
         "id": "gen_dead_newborn",
         "thoughts": [
-            "Mewls pitifully for milk",
-            "Snoozes peacefully",
-            "Wobbles around StarClan happily",
-            "Is drinking milk from a StarClan queen",
-            "Tries opening {PRONOUN\/m_c\/poss} eyes to see the 'stars' everyone is talking about",
-            "Tries to practice walking to play with the other cats",
-            "Attempts to snarl but can only manage a tiny mewl",
-            "Rolls through the starry grass"
+            "Mewlar ynkligt efter mjölk",
+            "Snoozar lugnt",
+            "Vacklar glatt runt StarClan",
+            "Dricker mjölk från en StarClan-drottning",
+            "Försöker öppna {PRONOUN/m_c/poss} ögon för att se \"stjärnorna\" alla pratar om",
+            "Försöker träna på att gå för att leka med de andra katterna",
+            "Försöker att morra men kan bara klara av en liten mjal",
+            "Rullar genom det stjärnklara gräset"
         ]
     },
     {
         "id": "gen_dead_newborn_to_alive_parent",
         "thoughts": [
-            "Thinks {PRONOUN\/m_c\/subject} heard r_c's voice",
-            "Is mewling for r_c",
-            "Searches for r_c's scent",
-            "Blindly reaches out for r_c"
+            "Tycker att {PRONOUN/m_c/subject} hörde r_c:s röst",
+            "Jämtar efter r_c",
+            "Söker efter r_c:s doft",
+            "Sträcker sig blint efter r_c"
         ],
         "relationship_constraint": [
-            "child\/parent"
+            "child/parent"
         ],
         "random_living_status": [
             "living"
@@ -30,10 +30,10 @@
     {
         "id": "gen_dead_newborn_to_dead_other",
         "thoughts": [
-            "Is being watched by r_c",
-            "Is being bathed by r_c",
-            "Is tucked under r_c's belly",
-            "Blindly swipes at r_c's tail"
+            "Bevakas av r_c",
+            "Badas av r_c",
+            "är instoppad under r_c:s mage",
+            "Svep blint på r_c:s svans"
         ],
         "random_living_status": [
             "starclan"

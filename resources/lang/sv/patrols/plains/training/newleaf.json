@@ -21,22 +21,22 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 crouches low behind some grass, searching for the ideal prey to fall to {PRONOUN\/app1\/poss} deadly claws. In front of the mighty hunter, a brightly colored beetle alights on a rock.",
-        "decline_text": "A beetle is beneath {PRONOUN\/app1\/poss} attention.",
+        "intro_text": "app1 hukar l\u00e5gt bakom lite gr\u00e4s och letar efter det perfekta bytet att falla f\u00f6r {PRONOUN/app1/poss} d\u00f6dliga klor. Inf\u00f6r den m\u00e4ktiga j\u00e4garen stiger en f\u00e4rgglad skalbagge p\u00e5 en sten.",
+        "decline_text": "En skalbagge \u00e4r under {PRONOUN/app1/poss} uppm\u00e4rksamhet.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Ha! app1 pounces, the pathetic bug crunching underneath {PRONOUN\/app1\/poss} mighty blow, splattering and - ewwwww. Ew, ew ew ew, there's bug juice all over {PRONOUN\/app1\/poss} paws, between {PRONOUN\/app1\/poss} toes, EWWWWW!",
+                "text": "ha! app1 sl\u00e5r till, den patetiska buggen knasar under {PRONOUN/app1/poss} ett m\u00e4ktigt slag, st\u00e4nker och - ewwwww. Ew, ew ew ew, det \u00e4r insektsjuice \u00f6ver hela {PRONOUN/app1/poss} tassar, mellan {PRONOUN/app1/poss} t\u00e5rna, EWWWWW!",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "Ha! app1 leaps, tail lashing furiously as the beetle buzzes under {PRONOUN\/app1\/poss} forepaws, claws sheathed. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/bat\/bats} the bug off the rock and onto the ground, pouncing after it, jumping and twisting as {PRONOUN\/app1\/poss} colorful prey flits around {PRONOUN\/app1\/poss} head in confused, concussed beetle-behavior, unused to being an apprentice's new favorite toy.",
+                "text": "ha! app1 hoppar, svansen surrar ursinnigt n\u00e4r skalbaggen surrar under {PRONOUN/app1/poss} framtassar, klor mantlade. {PRONOUN/app1/subject/CAP} {VERB/app1/bat/fladderm\u00f6ss} buggen fr\u00e5n klippan och ner p\u00e5 marken, hoppar efter den, hoppar och vrider sig medan {PRONOUN/app1/poss} f\u00e4rgglada byten flyger runt {PRONOUN/ app1/poss} huvud i f\u00f6rvirrat, hj\u00e4rnskakat skalbaggebeteende, ovant att vara en l\u00e4rlings nya favoritleksak.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c pounces, flipping the beetle with soft paws and flopping over onto {PRONOUN\/app1\/poss} back, watching the insect scurry from one paw to the other, so completely entranced by its color and tiny, perfect legs that {PRONOUN\/app1\/subject} {VERB\/app1\/do\/does}n't notice {PRONOUN\/app1\/poss} own skill catching and keeping the bug.",
+                "text": "s_c kastar sig, v\u00e4nder skalbaggen med mjuka tassar och floppar \u00f6ver p\u00e5 {PRONOUN/app1/poss} ryggen, ser insekten springa fr\u00e5n en tass till den andra, s\u00e5 helt h\u00e4nf\u00f6rd av dess f\u00e4rg och sm\u00e5, perfekta ben att {PRONOUN/app1/ \u00e4mne} {VERB/app1/do/does}m\u00e4rker inte {PRONOUN/app1/poss} egen skicklighet f\u00e5nga och h\u00e5lla felet.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -46,12 +46,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "While app1 is wiggling {PRONOUN\/app1\/poss} butt into the perfect pouncing position, the beetle flies off. Awwwww.",
+                "text": "Medan app1 vickar med {PRONOUN/app1/poss} rumpa till den perfekta punchpositionen, flyger skalbaggen iv\u00e4g. Awwwww.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Slimy, yet satisfying! Curiosity completed, app1 wanders off - but has to report to the medicine cat den later, when {PRONOUN\/app1\/poss} stomach reminds {PRONOUN\/app1\/object} why cats don't eat random bugs.",
+                "text": "Slemmigt, men \u00e4nd\u00e5 tillfredsst\u00e4llande! Nyfikenheten avslutad, app1 vandrar iv\u00e4g - men m\u00e5ste rapportera till medicinkattens h\u00e5la senare, n\u00e4r {PRONOUN/app1/poss} magen p\u00e5minner {PRONOUN/app1/object} varf\u00f6r katter inte \u00e4ter slumpm\u00e4ssiga insekter.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -92,15 +92,15 @@
             ]
         },
         "weight": 60,
-        "intro_text": "p_l sees {PRONOUN\/p_l\/poss} mates exchanging curious glances as they all pad through the grass towards p_l's promised surprise. {PRONOUN\/p_l\/poss\/CAP} own tail waves like a jaunty reed, twitching a little in {PRONOUN\/p_l\/poss} excitement and scattering dewdrops whenever it hits the grass.",
-        "decline_text": "The warriors get intercepted by a hunting patrol who need extra paws, and the possibility of a romantic afternoon evaporates.",
+        "intro_text": "p_l ser {PRONOUN/p_l/poss} kompisar utbyta nyfikna blickar n\u00e4r de alla paddar genom gr\u00e4set mot p_ls utlovade \u00f6verraskning. {PRONOUN/p_l/poss/CAP} sin egen svans v\u00e5gor som en gullig vass, rycker lite i {PRONOUN/p_l/poss} sp\u00e4nning och sprider daggdroppar n\u00e4r den tr\u00e4ffar gr\u00e4set.",
+        "decline_text": "Krigarna f\u00e5ngas upp av en jaktpatrull som beh\u00f6ver extra tassar, och m\u00f6jligheten till en romantisk eftermiddag f\u00f6rsvinner.",
         "chance_of_success": 60,
         "relationship_constraint": [
             "mates_with_pl"
         ],
         "success_outcomes": [
             {
-                "text": "As they emerge into the vast clover fields, p_l gathers both of {PRONOUN\/p_l\/poss} mates close, putting weight into every meow. Holding a four-leaf clover out between {PRONOUN\/p_l\/poss} toe beans, p_l declares that for {PRONOUN\/p_l\/object}, these cats, this bond - they are both p_l's luck. And p_l's heart is theirs.",
+                "text": "N\u00e4r de dyker upp i de vidstr\u00e4ckta kl\u00f6verf\u00e4lten samlar p_l b\u00e5da {PRONOUN/p_l/poss} kompisarna n\u00e4ra och l\u00e4gger vikt p\u00e5 varje mjau. H\u00e5ller en fyrkl\u00f6ver ut mellan {PRONOUN/p_l/poss} t\u00e5b\u00f6nor, p_l f\u00f6rklarar att f\u00f6r {PRONOUN/p_l/object}, dessa katter, detta band - de \u00e4r b\u00e5da p_l:s tur. Och p_ls hj\u00e4rta \u00e4r deras.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -134,7 +134,7 @@
                 ]
             },
             {
-                "text": "Standing in the middle of the field of clovers {PRONOUN\/p_l\/subject}{VERB\/p_l\/'ve\/'s} brought them to, p_l bunts up softly against both of {PRONOUN\/p_l\/subject} mates. The bond they all share is the greatest luck p_l has or will ever have, {PRONOUN\/p_l\/subject} {VERB\/p_l\/purr\/purrs}, and {PRONOUN\/p_l\/subject} wanted to declare that here, where the four-leaf clover grows.",
+                "text": "St\u00e5ende i mitten av kl\u00f6verf\u00e4ltet {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} f\u00f6rde dem till, p_l bultar upp mjukt mot b\u00e5da {PRONOUN/p_l/subject}-kompisarna. Bandet som de alla delar \u00e4r den st\u00f6rsta tur p_l har eller n\u00e5gonsin kommer att ha, {PRONOUN/p_l/subject} {VERB/p_l/purr/purrs} och {PRONOUN/p_l/subject} ville f\u00f6rklara att h\u00e4r, d\u00e4r de fyra -bladkl\u00f6ver v\u00e4xer.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -168,7 +168,7 @@
                 ]
             },
             {
-                "text": "They emerge into the vast clover fields, a known romantic spot, and p_l bounces with anticipation. {PRONOUN\/p_l\/subject\/CAP} just {VERB\/p_l\/love\/loves} {PRONOUN\/p_l\/poss} mates so much - {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} so <i>ducky<\/i> to have them! No, no, wait, let {PRONOUN\/p_l\/object} try that again - {PRONOUN\/p_l\/subject} hope {PRONOUN\/p_l\/poss} mates never <i>leaf<\/i> {PRONOUN\/p_l\/object}!",
+                "text": "De dyker upp i de vidstr\u00e4ckta kl\u00f6verf\u00e4lten, en k\u00e4nd romantisk plats, och p_l studsar av f\u00f6rv\u00e4ntan. {PRONOUN/p_l/subject/CAP} bara {VERB/p_l/love/loves} {PRONOUN/p_l/poss} parar sig s\u00e5 mycket - {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} s\u00e5 < i>ucky</i> att ha dem! Nej, nej, v\u00e4nta, l\u00e5t {PRONOUN/p_l/object} f\u00f6rs\u00f6ka igen - {PRONOUN/p_l/subject} hoppas att {PRONOUN/p_l/poss} kompisar aldrig <i>l\u00f6v</i> {PRONOUN/p_l/object} !",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -211,12 +211,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Stuttering, p_l leads {PRONOUN\/p_l\/poss} mates out into the clover fields - but {PRONOUN\/p_l\/subject} can't properly piece together the romantic declaration {PRONOUN\/p_l\/subject} spent so long crafting. It's okay, r_c murmurs, bunting {PRONOUN\/p_l\/object}. It's all okay; they're all still here together in the sunshine.",
+                "text": "Stamning leder p_l {PRONOUN/p_l/poss} kompisar ut i kl\u00f6verf\u00e4lten - men {PRONOUN/p_l/subject} kan inte riktigt s\u00e4tta ihop den romantiska deklarationen {PRONOUN/p_l/subject} som \u00e4gnat s\u00e5 l\u00e5ng tid \u00e5t att skapa. Det \u00e4r okej, mumlar r_c, bunting {PRONOUN/p_l/object}. Allt \u00e4r okej; de \u00e4r alla fortfarande h\u00e4r tillsammans i solskenet.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "p_l leads {PRONOUN\/p_l\/poss} mates into a field of clover. This is... nice? r_c looks about in confusion, apparently waiting for more. What, did p_l miss a step?",
+                "text": "p_l leder {PRONOUN/p_l/poss} kompisar in i ett kl\u00f6verf\u00e4lt. Det h\u00e4r \u00e4r... trevligt? r_c ser sig f\u00f6rvirrad omkring och v\u00e4ntar tydligen p\u00e5 mer. Vad\u00e5, missade jag ett steg?",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -256,11 +256,11 @@
             "LORE,1",
             "STORY,1"
         ],
-        "intro_text": "As the training patrol pads out, p_l gives in to the impulse to dig {PRONOUN\/p_l\/poss} claws into the soil, feeling the sprouting grass tearing under {PRONOUN\/p_l\/poss} pads. There's something special about this time of year.",
-        "decline_text": "Still, that's no excuse to goof off. Time to focus on {PRONOUN\/p_l\/poss} work.",
+        "intro_text": "N\u00e4r tr\u00e4ningspatrullen paddar ut ger p_l efter f\u00f6r impulsen att gr\u00e4va ner {PRONOUN/p_l/poss} klor i jorden, och k\u00e4nner hur gr\u00e4set spirar under {PRONOUN/p_l/poss} dynor. Det \u00e4r n\u00e5got speciellt med den h\u00e4r tiden p\u00e5 \u00e5ret.",
+        "decline_text": "\u00c4nd\u00e5 \u00e4r det ingen urs\u00e4kt att gn\u00e4lla. Dags att fokusera p\u00e5 {PRONOUN/p_l/poss} arbete.",
         "success_outcomes": [
             {
-                "text": "This is the cycle, the fundemental truth underlying c_n. The grass sprouts in newleaf as the snows retreat, grows heavy and flush with life in greenleaf, droops with seeds in leaf-fall, and is buried and withered in leaf-bare. The very foundation of their lives relies on it.",
+                "text": "Detta \u00e4r cykeln, den grundl\u00e4ggande sanningen som ligger bakom c_n. Gr\u00e4set spirar i nyblad n\u00e4r sn\u00f6n drar sig tillbaka, blir tungt och j\u00e4mnt av liv i gr\u00f6nblad, sjunker med fr\u00f6n i l\u00f6vfall och begravs och vissnar i l\u00f6vbart. Sj\u00e4lva grunden f\u00f6r deras liv \u00e4r beroende av det.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_bord_story",
@@ -300,7 +300,7 @@
                 ]
             },
             {
-                "text": "Everything the patrol sees exists together in a delicate balance, s_c explains. A warrior must respect all life, from the crawling ant to the leaping rabbit. Yes, even though warriors hunt and eat them. One day, as each member of c_n dies, their bodies will become the dirt, and the dirt will feed the grass, and the rabbits eat the grass. Every creature is connected in the great cycle.",
+                "text": "Allt patrullen ser finns tillsammans i en h\u00e5rfin balans, f\u00f6rklarar s_c. En krigare m\u00e5ste respektera allt liv, fr\u00e5n den krypande myran till den hoppande kaninen. Ja, \u00e4ven om krigare jagar och \u00e4ter dem. En dag, n\u00e4r varje medlem av c_n d\u00f6r, kommer deras kroppar att bli smuts, och smutsen kommer att mata gr\u00e4set, och kaninerna \u00e4ter gr\u00e4set. Varje varelse \u00e4r ansluten i den stora cykeln.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_bord_story",
@@ -342,7 +342,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l spends too long admiring the scenery and gets left behind by the rest of the patrol. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/catch\/catches} up, huffing and puffing, and no cat is too pleased with {PRONOUN\/p_l\/poss} lack of attention.",
+                "text": "p_l tillbringar f\u00f6r l\u00e5ng tid med att beundra landskapet och blir l\u00e4mnad bakom av resten av patrullen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/catch/catches} upp, huffar och puffar, och ingen katt \u00e4r alltf\u00f6r n\u00f6jd med {PRONOUN/p_l/poss} brist p\u00e5 uppm\u00e4rksamhet.",
                 "exp": 0,
                 "weight": 20,
                 "art": "running_warrior2",

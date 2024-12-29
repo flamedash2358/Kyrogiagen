@@ -29,15 +29,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While gathering fresh water, p_l sees strange ripples on the surface of a puddle.",
-        "decline_text": "p_l is in too much of a hurry, not sparing the rippling water a second glance.",
+        "intro_text": "Medan han samlar f\u00e4rskt vatten, ser p_l konstiga krusningar p\u00e5 ytan av en p\u00f6l.",
+        "decline_text": "p_l har f\u00f6r br\u00e5ttom och skonar inte det porlande vattnet en andra blick.",
         "chance_of_success": 45,
         "pl_skill_constraint": [
             "PROPHET,1"
         ],
         "success_outcomes": [
             {
-                "text": "As p_l looks into the puddle, {PRONOUN\/p_l\/subject}{VERB\/r_c\/'re\/'s} greeted by an intense vision. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/drop\/drops} what {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} doing and {VERB\/p_l\/race\/races} back to the camp to consult with the leader - water can wait, this is far too important.",
+                "text": "N\u00e4r p_l tittar in i p\u00f6len, m\u00f6ts {PRONOUN/p_l/subject}{VERB/r_c/'re/'s} av en intensiv syn. {PRONOUN/p_l/subject/CAP} {VERB/p_l/drop/drops} vad {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} g\u00f6r och {VERB/p_l/race/races} tillbaka till l\u00e4gret f\u00f6r att r\u00e5dg\u00f6ra med ledaren - vatten kan v\u00e4nta, detta \u00e4r alldeles f\u00f6r viktigt.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -59,7 +59,7 @@
                 ]
             },
             {
-                "text": "p_l is greeted with the vision of a cat {PRONOUN\/p_l\/subject} had failed to save, content and happy in StarClan. The cat gives {PRONOUN\/p_l\/object} a gentle smile, softly telling p_l that {PRONOUN\/p_l\/subject} {VERB\/p_l\/were\/was} never at fault for their death. p_l feels {PRONOUN\/p_l\/poss} shoulders sag with the weight of {PRONOUN\/p_l\/poss} relief, feeling the burden of the death lift from over {PRONOUN\/p_l\/poss} head.",
+                "text": "p_l h\u00e4lsas med visionen om en katt {PRONOUN/p_l/subject} hade misslyckats med att spara, n\u00f6jd och glad i StarClan. Katten ger {PRONOUN/p_l/object} ett milt leende och s\u00e4ger mjukt till p_l att {PRONOUN/p_l/subject} {VERB/p_l/were/was} aldrig skyldig till sin d\u00f6d. p_l k\u00e4nner att {PRONOUN/p_l/poss} axlar h\u00e4nger med tyngden av {PRONOUN/p_l/poss} l\u00e4ttnad, och k\u00e4nner hur b\u00f6rdan av d\u00f6den lyfter fr\u00e5n \u00f6ver {PRONOUN/p_l/poss} huvudet.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -83,7 +83,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "{PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/gaze\/gazes} eagerly into the puddle, only to see the weird ripples were caused by a small frog. p_l sighs in disappointment - {PRONOUN\/p_l\/subject} really could have used some guidance from StarClan.",
+                "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/gaze/gazes} ivrigt in i p\u00f6len, bara f\u00f6r att se de konstiga krusningarna orsakades av en liten groda. p_l suckar i besvikelse - {PRONOUN/p_l/subject} kunde verkligen ha anv\u00e4nt lite v\u00e4gledning fr\u00e5n StarClan.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -128,15 +128,15 @@
             ]
         },
         "weight": 20,
-        "intro_text": "While on a trip to gather herbs, p_l slows to a stop. The random clearing {PRONOUN\/p_l\/subject} {VERB\/p_l\/linger\/lingers} in doesn't look important, but {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} suddenly overcome by an otherworldly feeling of clair_list_emotional\/p_l. What could this mean?",
-        "decline_text": "p_l is in too much of a hurry, {PRONOUN\/p_l\/subject} {VERB\/p_l\/shake\/shakes} the feeling off and {VERB\/p_l\/resolve\/resolves} to forget the disconcerting experience.",
+        "intro_text": "P\u00e5 en resa f\u00f6r att samla \u00f6rter, saktar p_l upp. Den slumpm\u00e4ssiga rensningen av {PRONOUN/p_l/subject} {VERB/p_l/linger/lingers} i ser inte viktig ut, men {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} pl\u00f6tsligt \u00f6vervunnen av en utomjordisk k\u00e4nsla av clair_list_emotional/p_l. Vad kan detta betyda?",
+        "decline_text": "p_l har f\u00f6r br\u00e5ttom, {PRONOUN/p_l/subject} {VERB/p_l/shake/shakes} k\u00e4nslan av och {VERB/p_l/resolve/resolves} f\u00f6r att gl\u00f6mma den oroande upplevelsen.",
         "chance_of_success": 45,
         "pl_skill_constraint": [
             "CLAIRVOYANT,1"
         ],
         "success_outcomes": [
             {
-                "text": "{PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/stop\/stops} and {VERB\/p_l\/consider\/considers} the feeling for a moment, allowing {PRONOUN\/p_l\/self} to linger. This might be important for the future, or it could simply be the left-over feelings of an event long past... Either way, p_l doesn't stay too long before returning to herb collecting.",
+                "text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/stop/stops} och {VERB/p_l/consider/considers} k\u00e4nslan ett \u00f6gonblick, vilket l\u00e5ter {PRONOUN/p_l/self} dr\u00f6ja kvar. Det h\u00e4r kan vara viktigt f\u00f6r framtiden, eller s\u00e5 kan det helt enkelt vara de \u00f6verblivna k\u00e4nslorna av en h\u00e4ndelse som har g\u00e5tt sedan l\u00e4nge... Hur som helst, p_l stannar inte f\u00f6r l\u00e4nge innan han \u00e5terg\u00e5r till \u00f6rtinsamling.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -144,7 +144,7 @@
                 ]
             },
             {
-                "text": "These feelings could prove important, they have in the past, at least. p_l makes {PRONOUN\/p_l\/self} comfortable in the clearing, letting the feelings wash over {PRONOUN\/p_l\/object} and carry {PRONOUN\/p_l\/object} away. Eventually {PRONOUN\/p_l\/subject} {VERB\/p_l\/return\/returns} to herb collecting, content in the new knowledge and understanding {PRONOUN\/p_l\/subject}{VERB\/p_l\/'ve\/'s} gained.",
+                "text": "Dessa k\u00e4nslor kan visa sig vara viktiga, de har \u00e5tminstone tidigare gjort det. p_l g\u00f6r {PRONOUN/p_l/self} bekv\u00e4mt i gl\u00e4ntan och l\u00e5ter k\u00e4nslorna sk\u00f6lja \u00f6ver {PRONOUN/p_l/object} och b\u00e4ra bort {PRONOUN/p_l/object}. S\u00e5 sm\u00e5ningom {PRONOUN/p_l/subject} {VERB/p_l/return/returns} till \u00f6rtinsamling, inneh\u00e5ll i den nya kunskapen och f\u00f6rst\u00e5elsen {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} fick.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -154,7 +154,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "This is nothing short of disconcerting. p_l does {PRONOUN\/p_l\/poss} best to shake off the feeling and hurry away from the area. Even so, {PRONOUN\/p_l\/subject} {VERB\/p_l\/find\/finds} {PRONOUN\/p_l\/poss} mind occupied with the memory and can't manage to concentrate on herb gathering.",
+                "text": "Detta \u00e4r inget annat \u00e4n oroande. p_l g\u00f6r {PRONOUN/p_l/poss} b\u00e4st f\u00f6r att skaka av sig k\u00e4nslan och skynda bort fr\u00e5n omr\u00e5det. \u00c4nd\u00e5 \u00e4r {PRONOUN/p_l/subject} {VERB/p_l/find/finds} {PRONOUN/p_l/poss} sinnet upptaget av minnet och kan inte koncentrera sig p\u00e5 \u00f6rtinsamling.",
                 "exp": 0,
                 "weight": 20
             }
@@ -198,12 +198,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l looks at the calm, cloudless sky, and decides it's a good opportunity to show app1 where some of the most commonly needed herbs are located in their territory.",
-        "decline_text": "As {PRONOUN\/p_l\/subject} {VERB\/p_l\/look\/looks} at app1's absent-minded gaze, {PRONOUN\/p_l\/subject} {VERB\/p_l\/hesitate\/hesitates} and {VERB\/p_l\/change\/changes} {PRONOUN\/p_l\/poss} mind. Maybe another day would be best, when app1 is more focused.",
+        "intro_text": "p_l tittar p\u00e5 den lugna, molnfria himlen och best\u00e4mmer sig f\u00f6r att det \u00e4r ett bra tillf\u00e4lle att visa app1 var n\u00e5gra av de vanligaste \u00f6rterna finns i deras territorium.",
+        "decline_text": "Som {PRONOUN/p_l/subject} {VERB/p_l/look/looks} p\u00e5 app1:s fr\u00e5nvarande blick, {PRONOUN/p_l/subject} {VERB/p_l/hesitate/hesitates} och {VERB/p_l/change/changes} {PRONOUN/p_l/poss} sinne. Kanske en annan dag vore b\u00e4st, n\u00e4r app1 \u00e4r mer fokuserad.",
         "chance_of_success": 65,
         "success_outcomes": [
             {
-                "text": "app1 is focused and attentive, giving p_l confidence that next time there is an emergency, app1 will be able to find the herbs {PRONOUN\/app1\/subject} {VERB\/app1\/need\/needs} without {PRONOUN\/p_l\/object} if needed.",
+                "text": "app1 \u00e4r fokuserad och uppm\u00e4rksam, vilket ger p_l f\u00f6rtroende f\u00f6r att n\u00e4sta g\u00e5ng det \u00e4r en n\u00f6dsituation kommer app1 att kunna hitta \u00f6rterna {PRONOUN/app1/subject} {VERB/app1/need/needs} utan {PRONOUN/p_l/object} om beh\u00f6vs.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -227,7 +227,7 @@
                 ]
             },
             {
-                "text": "As p_l is explaining why and where the herbs are growing, app1 lets out a shout and bolts ahead. To p_l's surprise, {PRONOUN\/app1\/subject} {VERB\/app1\/have\/has} found a previously unknown patch of an uncommon herb! Stunned, but filled with pride that {PRONOUN\/app1\/subject} found and recognized the herb, p_l promises {PRONOUN\/app1\/object} the first pick of fresh-kill as soon as they return to camp.",
+                "text": "N\u00e4r p_l f\u00f6rklarar varf\u00f6r och var \u00f6rterna v\u00e4xer, sl\u00e4pper app1 ett rop och g\u00e5r fram\u00e5t. Till p_ls f\u00f6rv\u00e5ning hittade {PRONOUN/app1/subject} {VERB/app1/have/has} ett tidigare ok\u00e4nt fl\u00e4ck av en ovanlig \u00f6rt! F\u00f6rbluffad, men fylld av stolthet \u00f6ver att {PRONOUN/app1/subject} hittade och k\u00e4nde igen \u00f6rten, lovar p_l {PRONOUN/app1/object} det f\u00f6rsta valet av fresh-kill s\u00e5 snart de \u00e5terv\u00e4nder till l\u00e4gret.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -253,7 +253,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 is constantly distracted, running ahead at every little noise or interesting sight, much to the frustration of p_l. Evidently, no new knowledge will be gained that day.",
+                "text": "app1 \u00e4r st\u00e4ndigt distraherad och springer fram vid varje litet ljud eller intressant syn, till stor frustration f\u00f6r p_l. Uppenbarligen kommer ingen ny kunskap att vinnas den dagen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -309,12 +309,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l has been sent out into the forest to try to find specific herbs alone.",
-        "decline_text": "Nervous and scared of everything that even slightly moves, {PRONOUN\/p_l\/subject} {VERB\/p_l\/decide\/decides} to go back to camp and try again another day. {PRONOUN\/p_l\/poss\/CAP} mentor won't be very pleased, but {PRONOUN\/p_l\/subject} {VERB\/p_l\/rationalize\/rationalizes} that it's better to go with confidence than nerves.",
+        "intro_text": "p_l har skickats ut i skogen f\u00f6r att enbart f\u00f6rs\u00f6ka hitta specifika \u00f6rter.",
+        "decline_text": "Nerv\u00f6s och r\u00e4dd f\u00f6r allt som r\u00f6r sig lite, {PRONOUN/p_l/subject} {VERB/p_l/decide/decides} att g\u00e5 tillbaka till l\u00e4gret och f\u00f6rs\u00f6ka igen en annan dag. {PRONOUN/p_l/poss/CAP} mentor kommer inte att vara s\u00e4rskilt n\u00f6jd, men {PRONOUN/p_l/subject} {VERB/p_l/rationalize/rationalizes} att det \u00e4r b\u00e4ttre att g\u00e5 med sj\u00e4lvf\u00f6rtroende \u00e4n nerver.",
         "chance_of_success": 65,
         "success_outcomes": [
             {
-                "text": "p_l is focused and determined to prove {PRONOUN\/p_l\/poss} independence. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/find\/finds} the herbs easily, and {VERB\/p_l\/bring\/brings} them back to the camp with {PRONOUN\/p_l\/poss} head held high, no sweat, no stress, no fuss.",
+                "text": "p_l \u00e4r fokuserad och fast besluten att bevisa {PRONOUN/p_l/poss} oberoende. {PRONOUN/p_l/subject/CAP} {VERB/p_l/find/finder} \u00f6rterna l\u00e4tt, och {VERB/p_l/bring/tar} dem tillbaka till l\u00e4gret med {PRONOUN/p_l/poss} huvudet h\u00f6gt, nej svett, ingen stress, inget kr\u00e5ngel.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -322,7 +322,7 @@
                 ]
             },
             {
-                "text": "p_l goes to a known herb patch - but the plant has died! {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/don't\/doesn't} give up, hunting around in the area until {PRONOUN\/p_l\/subject} {VERB\/p_l\/find\/finds} a smaller overlooked bush that still has leaves on it.",
+                "text": "p_l g\u00e5r till en k\u00e4nd \u00f6rtlapp - men plantan har d\u00f6tt! {PRONOUN/p_l/subject/CAP} {VERB/p_l/don't/doesn't} ger upp, jagar runt i omr\u00e5det tills {PRONOUN/p_l/subject} {VERB/p_l/find/finds} en mindre f\u00f6rbisedd buske som fortfarande har l\u00f6v p\u00e5 sig.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -332,7 +332,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l goes to a known herb patch - but the plant has died! {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/give\/gives} up and {VERB\/p_l\/return\/returns} to camp, {PRONOUN\/p_l\/poss} tail dragging miserably along the ground.",
+                "text": "p_l g\u00e5r till en k\u00e4nd \u00f6rtlapp - men plantan har d\u00f6tt! {PRONOUN/p_l/subject/CAP} {VERB/p_l/give/gives} upp och {VERB/p_l/return/returns} till l\u00e4gret, {PRONOUN/p_l/poss} sl\u00e4par el\u00e4ndigt l\u00e4ngs marken.",
                 "exp": 0,
                 "weight": 20
             }
@@ -364,12 +364,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l pads out of camp, ready to gather some herbs for the Clan. The wind gently rustles through the trees as {PRONOUN\/p_l\/subject} {VERB\/p_l\/pad\/pads} along.",
-        "decline_text": "Before {PRONOUN\/p_l\/subject} {VERB\/p_l\/get\/gets} more than a few pawsteps away, {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} called back to camp. Apparently, something more pressing has come up.",
+        "intro_text": "p_l pads ut ur l\u00e4gret, redo att samla lite \u00f6rter till klanen. Vinden rasslar f\u00f6rsiktigt genom tr\u00e4den medan {PRONOUN/p_l/subject} {VERB/p_l/pad/pads} l\u00e4ngs med.",
+        "decline_text": "Innan {PRONOUN/p_l/subject} {VERB/p_l/get/gets} mer \u00e4n n\u00e5gra f\u00e5 steg bort, ringde {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} tillbaka till l\u00e4gret. Tydligen har n\u00e5got mer pressande kommit upp.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l is plucking some blackberry leaves when {PRONOUN\/p_l\/poss} attention is suddenly grabbed by omen_list_sight\/p_l. The fur on {PRONOUN\/p_l\/poss} back begins to prickle slightly, the sound of {PRONOUN\/p_l\/poss} heartbeat like thunder in {PRONOUN\/p_l\/poss} ears. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/turn\/turns} and {VERB\/p_l\/hare\/hares} back to camp, herbs forgotten. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/need\/needs} to tell someone about this as soon as possible!",
+                "text": "p_l plockar n\u00e5gra bj\u00f6rnb\u00e4rsblad n\u00e4r {PRONOUN/p_l/poss} uppm\u00e4rksamhet pl\u00f6tsligt f\u00e5ngas av omen_list_sight/p_l. P\u00e4lsen p\u00e5 {PRONOUN/p_l/poss} ryggen b\u00f6rjar sticka n\u00e5got, ljudet av {PRONOUN/p_l/poss} hj\u00e4rtslag som \u00e5ska i {PRONOUN/p_l/poss} \u00f6ron. {PRONOUN/p_l/subject/CAP} {VERB/p_l/turn/turns} och {VERB/p_l/hare/hares} tillbaka till l\u00e4gret, \u00f6rter gl\u00f6mda. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} f\u00f6r att ber\u00e4tta f\u00f6r n\u00e5gon om detta s\u00e5 snart som m\u00f6jligt!",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -379,7 +379,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l feels a pit of dread beginning to form in {PRONOUN\/p_l\/poss} belly - {PRONOUN\/p_l\/subject}{VERB\/p_l\/'ve\/'s} forgotten where to find the herb {PRONOUN\/p_l\/subject} needed. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/taste\/tastes} the air, hoping desperately for some hint of its tell-tale scent, but it's a useless effort. {PRONOUN\/p_l\/subject\/CAP}'ll have to swallow {PRONOUN\/p_l\/poss} pride and return to ask for directions.",
+                "text": "p_l k\u00e4nner en grop av skr\u00e4ck som b\u00f6rjar bildas i {PRONOUN/p_l/poss} magen - {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} har gl\u00f6mt var man kan hitta \u00f6rten {PRONOUN/p_l/subject} beh\u00f6vs. {PRONOUN/p_l/subject/CAP} {VERB/p_l/taste/tastes} luften och hoppas desperat p\u00e5 en antydan till dess avsl\u00f6jande doft, men det \u00e4r en v\u00e4rdel\u00f6s anstr\u00e4ngning. {PRONOUN/p_l/subject/CAP} m\u00e5ste sv\u00e4lja {PRONOUN/p_l/poss} stolthet och \u00e5terv\u00e4nda f\u00f6r att be om v\u00e4gbeskrivning.",
                 "exp": 0,
                 "weight": 20
             }
@@ -411,12 +411,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l leads a patrol out to explore c_n's territory and bring back any herbs they can spot. {PRONOUN\/p_l\/poss\/CAP} whiskers want to twitch with every raindrop that hits {PRONOUN\/p_l\/object}, but the Clan doesn't have the luxury to sit inside away from the weather.",
-        "decline_text": "Someone calls p_l back, and the patrol is forgotten as {PRONOUN\/p_l\/subject} {VERB\/p_l\/help\/helps} a Clanmate.",
+        "intro_text": "p_l leder en patrull ut f\u00f6r att utforska c_ns territorium och ta tillbaka alla \u00f6rter de kan uppt\u00e4cka. {PRONOUN/p_l/poss/CAP} morrh\u00e5r vill rycka f\u00f6r varje regndroppe som tr\u00e4ffar {PRONOUN/p_l/object}, men klanen har inte lyxen att sitta inne borta fr\u00e5n v\u00e4dret.",
+        "decline_text": "N\u00e5gon ringer tillbaka p_l och patrullen gl\u00f6ms bort som {PRONOUN/p_l/subject} {VERB/p_l/help/helps} en klankamrat.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "It's absolutely miserable weather to be gathering herbs in, and p_l wishes {PRONOUN\/p_l\/subject} didn't have to. Despite r_c nearly slipping and falling over multiple times during the patrol and them all getting drenched to the bone, they do, miraculously, still manage to bring back herbs.",
+                "text": "Det \u00e4r absolut el\u00e4ndigt v\u00e4der att samla \u00f6rter i, och p_l \u00f6nskar att {PRONOUN/p_l/subject} inte beh\u00f6vde. Trots att r_c n\u00e4stan halkade och ramlade omkull flera g\u00e5nger under patrullen och att de alla blivit genomv\u00e5ta \u00e4nda till benet, lyckas de, mirakul\u00f6st nog, fortfarande f\u00e5 tillbaka \u00f6rter.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -452,7 +452,7 @@
                 ]
             },
             {
-                "text": "The entire patrol mutely agrees to grit their teeth and bear it, but that doesn't stop the relief everyone feels when they settle into their nests to dry off, a rather motley assortment of herbs refreshing the medicine cat den's stocks.",
+                "text": "Hela patrullen g\u00e5r stumt med p\u00e5 att bita ihop t\u00e4nderna och b\u00e4ra det, men det stoppar inte den l\u00e4ttnad alla k\u00e4nner n\u00e4r de sl\u00e5r sig ner i sina bon f\u00f6r att torka av, ett ganska brokigt sortiment av \u00f6rter som fr\u00e4schar upp medicinkattens best\u00e5nd.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -488,7 +488,7 @@
                 ]
             },
             {
-                "text": "The keen-eyed s_c spots herbs quickly, and the cats harvest them and retreat back to the camp where it's nice and dry. No point in lingering for a second more than they need to with the weather like this!",
+                "text": "Den skarp\u00f6gda s_c uppt\u00e4cker \u00f6rter snabbt, och katterna sk\u00f6rdar dem och drar sig tillbaka till l\u00e4gret d\u00e4r det \u00e4r fint och torrt. Ingen id\u00e9 att dr\u00f6ja en sekund mer \u00e4n vad de beh\u00f6ver med det h\u00e4r v\u00e4dret!",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -530,7 +530,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l <i>knows<\/i> the conditions are miserable, but this group is somehow more insufferable! Not only {VERB\/p_l\/do\/does} {PRONOUN\/p_l\/subject} have to put up with these cats for an entire afternoon, there's also nothing to show for it at the end of the day.",
+                "text": "p_l <i>vet</i> att f\u00f6rh\u00e5llandena \u00e4r el\u00e4ndiga, men den h\u00e4r gruppen \u00e4r p\u00e5 n\u00e5got s\u00e4tt mer olidlig! Inte bara {VERB/p_l/do/does} {PRONOUN/p_l/subject} m\u00e5ste st\u00e5 ut med dessa katter en hel eftermiddag, det finns inte heller n\u00e5got att visa f\u00f6r det i slutet av dagen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -594,12 +594,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l heads out into the territory to stock up on cobwebs, something the Clan never seems to have enough of.",
-        "decline_text": "{PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/have\/has} second thoughts about leaving {PRONOUN\/p_l\/poss} patients behind and {VERB\/p_l\/decide\/decides} to go another day.",
+        "intro_text": "p_l beger sig ut i territoriet f\u00f6r att fylla p\u00e5 med spindelv\u00e4v, n\u00e5got som klanen aldrig verkar ha nog av.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att l\u00e4mna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att g\u00e5 en annan dag.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l finds plenty of cobwebs, gently collecting them on the ends of sticks. No cat will have the chance to bleed out - not now, with so many cobwebs to staunch their wounds!",
+                "text": "p_l hittar massor av spindelv\u00e4v och samlar dem f\u00f6rsiktigt p\u00e5 \u00e4ndarna av pinnar. Ingen katt kommer att ha chansen att bl\u00f6da ut - inte nu, med s\u00e5 m\u00e5nga spindelv\u00e4v att st\u00e4rka sina s\u00e5r!",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -607,7 +607,7 @@
                 ]
             },
             {
-                "text": "p_l visits a few of {PRONOUN\/p_l\/poss} favorite places to gather cobwebs. When {PRONOUN\/p_l\/subject} {VERB\/p_l\/get\/gets} back to camp, {PRONOUN\/p_l\/subject} {VERB\/p_l\/end\/ends} up startling several cats on {PRONOUN\/p_l\/poss} way back to {PRONOUN\/p_l\/poss} den - p_l is practically a walking cobweb, impossible to see beneath the sheer mass {PRONOUN\/p_l\/subject} {VERB\/p_l\/have\/has} gathered.",
+                "text": "p_l bes\u00f6ker n\u00e5gra av {PRONOUN/p_l/poss} favoritst\u00e4llen f\u00f6r att samla spindelv\u00e4v. N\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/get/gets} tillbaka till l\u00e4gret, {PRONOUN/p_l/subject} {VERB/p_l/end/slutar} med att skr\u00e4mma flera katter p\u00e5 {PRONOUN/p_l/poss} v\u00e4g tillbaka till {PRONOUN/p_l/poss} den - p_l \u00e4r praktiskt taget ett vandrande spindeln\u00e4t, om\u00f6jligt att se under den rena massan {PRONOUN/p_l/subject} {VERB/p_l/har/har} samlats.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -618,7 +618,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Over-tired from caring for {PRONOUN\/p_l\/poss} patients all day and night, the only cobwebs p_l manages to 'collect' are the ones {PRONOUN\/p_l\/subject} accidentally walked into.",
+                "text": "\u00d6vertr\u00f6tt p\u00e5 att ta hand om {PRONOUN/p_l/poss} patienter hela dagen och natten, de enda spindeln\u00e4t som p_l lyckas \"samla\" \u00e4r de som {PRONOUN/p_l/subject} r\u00e5kade g\u00e5 in i.",
                 "exp": 0,
                 "weight": 20
             }
@@ -662,12 +662,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l heads out into the territory with app1, both to stock up on cobwebs and to teach the apprentice how to gather one of the Clan's most vital medical tools.",
-        "decline_text": "{PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/have\/has} second thoughts leaving {PRONOUN\/p_l\/poss} patients behind, especially with {PRONOUN\/p_l\/object} also bringing {PRONOUN\/p_l\/poss} apprentice, and {VERB\/p_l\/decide\/decides} to go another day.",
+        "intro_text": "p_l beger sig ut i territoriet med app1, b\u00e5de f\u00f6r att fylla p\u00e5 med spindeln\u00e4t och f\u00f6r att l\u00e4ra l\u00e4rlingen hur man samlar ihop ett av klanens mest vitala medicinska verktyg.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar som l\u00e4mnar {PRONOUN/p_l/poss} patienter bakom sig, s\u00e4rskilt med {PRONOUN/p_l/object} som ocks\u00e5 tar med sig {PRONOUN/p_l/poss} l\u00e4rling , och {VERB/p_l/decide/decides} f\u00f6r att g\u00e5 en annan dag.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l finds plenty of cobwebs, gently collecting them on the ends of sticks. app1 works hard alongside {PRONOUN\/p_l\/object} to gather as many as {PRONOUN\/app1\/subject} can, {PRONOUN\/app1\/poss} eyes glittering with joy and pride as {PRONOUN\/app1\/subject} {VERB\/app1\/work\/works}.",
+                "text": "p_l hittar massor av spindelv\u00e4v och samlar dem f\u00f6rsiktigt p\u00e5 \u00e4ndarna av pinnar. app1 arbetar h\u00e5rt tillsammans med {PRONOUN/p_l/object} f\u00f6r att samla s\u00e5 m\u00e5nga som {PRONOUN/app1/subject} kan, {PRONOUN/app1/poss} \u00f6gon glittrar av gl\u00e4dje och stolthet som {PRONOUN/app1/subject} {VERB/app1 /work/works}.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -691,7 +691,7 @@
                 ]
             },
             {
-                "text": "p_l takes app1 to a few of {PRONOUN\/p_l\/poss} favorite places to gather cobwebs. When they get back to camp, they end up startling several cats on their way back to {PRONOUN\/p_l\/poss} den - p_l and app1 are practically walking cobwebs, impossible to see beneath the sheer mass they have gathered.",
+                "text": "p_l tar app1 till n\u00e5gra av {PRONOUN/p_l/poss} favoritplatser f\u00f6r att samla spindelv\u00e4v. N\u00e4r de kommer tillbaka till l\u00e4gret slutar de med att de skr\u00e4mmer flera katter p\u00e5 v\u00e4g tillbaka till {PRONOUN/p_l/poss} h\u00e5lan - p_l och app1 \u00e4r praktiskt taget vandrande spindelv\u00e4v, om\u00f6jliga att se under den rena massan de har samlat.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -718,7 +718,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 doesn't seem to be able to focus today, and p_l isn't much better off, tired from teaching {PRONOUN\/p_l\/poss} apprentice and caring for {PRONOUN\/p_l\/poss} patients. After app1 accidentally ruins a cobweb while playing with it, p_l decides to call the whole thing off and try again another day.",
+                "text": "app1 verkar inte kunna fokusera idag, och p_l har det inte mycket b\u00e4ttre, tr\u00f6tt p\u00e5 att l\u00e4ra ut {PRONOUN/p_l/poss} l\u00e4rling och ta hand om {PRONOUN/p_l/poss} patienter. Efter att app1 av misstag f\u00f6rst\u00f6r ett spindeln\u00e4t n\u00e4r han lekte med det, best\u00e4mmer sig p_l f\u00f6r att avbryta det hela och f\u00f6rs\u00f6ka igen en annan dag.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -770,12 +770,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "c_n can never have enough cobwebs, p_l instructs {PRONOUN\/p_l\/poss} team, leading them out to search for them.",
-        "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
+        "intro_text": "c_n kan aldrig ha tillr\u00e4ckligt med spindelv\u00e4v, instruerar p_l {PRONOUN/p_l/poss}-teamet och leder dem ut f\u00f6r att s\u00f6ka efter dem.",
+        "decline_text": "De stoppas innan de l\u00e4mnar l\u00e4gret - dessa krigare beh\u00f6vs n\u00e5gon annanstans. p_ls expedition f\u00e5r v\u00e4nta.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l mrrps with laughter, watching r_c parade around with such a big bundle of cobwebs that {PRONOUN\/r_c\/subject} {VERB\/r_c\/keep\/keeps} colliding with things in {PRONOUN\/r_c\/poss} path {PRONOUN\/r_c\/subject} can't see. The entire patrol has gotten a wonderful haul, and it's a very pleased medicine cat that leads them back to camp.",
+                "text": "p_l mrrps av skratt, tittar p\u00e5 r_c paradera runt med ett s\u00e5 stort knippe spindelv\u00e4v att {PRONOUN/r_c/subject} {VERB/r_c/keep/keeps} kolliderar med saker i {PRONOUN/r_c/poss} s\u00f6kv\u00e4g {PRONOUN/r_c/ \u00e4mne} kan inte se. Hela patrullen har f\u00e5tt ett underbart drag, och det \u00e4r en mycket n\u00f6jd medicinkatt som leder dem tillbaka till l\u00e4gret.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -812,7 +812,7 @@
                 ]
             },
             {
-                "text": "The patrol brings back a truly massive haul, and return in good humor, laughing as they set down their sticks of spun-up webbing in the medicine cat den. p_l joins everyone as they sit down to share tongues, ridding their pelts of dust and the odd spider as the cats catch up with each other and enjoy the day.",
+                "text": "Patrullen tar tillbaka ett riktigt massivt drag och \u00e5terv\u00e4nder med gott hum\u00f6r och skrattar n\u00e4r de l\u00e4gger ner sina pinnar av spunna v\u00e4v i medicinkatth\u00e5lan. p_l s\u00e4llar sig till alla n\u00e4r de s\u00e4tter sig ner f\u00f6r att dela tungor, befria dem fr\u00e5n damm och den udda spindeln n\u00e4r katterna kommer ikapp varandra och njuter av dagen.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -850,7 +850,7 @@
                 ]
             },
             {
-                "text": "s_c's keen eyes have a knack for spotting the gossamer-thin strands of cobwebs, and with the patrol there to follow {PRONOUN\/s_c\/poss} lead, it's a very successful gathering mission.",
+                "text": "s_c:s skarpa \u00f6gon har en f\u00f6rm\u00e5ga att uppt\u00e4cka de sk\u00e4mttunna spindelv\u00e4varna, och med patrullen d\u00e4r f\u00f6r att f\u00f6lja {PRONOUN/s_c/poss} ledning \u00e4r det ett mycket lyckat insamlingsuppdrag.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -893,7 +893,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Can warriors not pay attention, even to something as simple as cobwebs?! p_l holds {PRONOUN\/p_l\/poss} breath and counts to ten before {PRONOUN\/p_l\/subject} {VERB\/p_l\/dismiss\/dismisses} the patrol, every found cobweb ruined, what little they did manage to find.",
+                "text": "Kan krigare inte uppm\u00e4rksamma, ens till n\u00e5got s\u00e5 enkelt som spindeln\u00e4t?! p_l h\u00e5ller {PRONOUN/p_l/poss} andedr\u00e4kt och r\u00e4knar till tio innan {PRONOUN/p_l/subject} {VERB/p_l/dismiss/dismisss} patrullen, varje hittat spindeln\u00e4t f\u00f6rst\u00f6rt, det lilla de lyckades hitta.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -962,12 +962,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l heads out on an herb-gathering patrol, searching for the ever-green, ever-reliable horsetail to harvest for the herb stores.",
-        "decline_text": "{PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/have\/has} second thoughts about leaving {PRONOUN\/p_l\/poss} patients behind, and {VERB\/p_l\/decide\/decides} to go another day.",
+        "intro_text": "p_l ger sig ut p\u00e5 en \u00f6rtsamlande patrull och letar efter den st\u00e4ndigt gr\u00f6na, alltid p\u00e5litliga \u00e5kerfr\u00e4ken att sk\u00f6rda f\u00f6r \u00f6rtbutikerna.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att l\u00e4mna {PRONOUN/p_l/poss} patienter bakom sig, och {VERB/p_l/decide/decides} att g\u00e5 en annan dag.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also<\/i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine cat den.",
+                "text": "Som en v\u00e4xt som v\u00e4xer utan att tappa n\u00e5got av sitt gr\u00f6na i bladbar, samtidigt som den <i>ocks\u00e5</i> har en avg\u00f6rande v\u00e4xtbaserad anv\u00e4ndning f\u00f6r att stoppa blodf\u00f6rlust, \u00e4r \u00e5kerfr\u00e4ken en v\u00e4lkommen syn i alla v\u00e4lsorterade medicinkatth\u00e5lor.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -975,7 +975,7 @@
                 ]
             },
             {
-                "text": "Snapping off the thick horsetail stem near the base of the plant allows p_l to drag an entire big, long shoot back to camp, where {PRONOUN\/p_l\/subject} diligently {VERB\/p_l\/process\/processes} it down further into smaller stem sections that are easily stored.",
+                "text": "Genom att kn\u00e4ppa av den tjocka \u00e5kerfr\u00e4kenstammen n\u00e4ra basen av v\u00e4xten kan p_l dra ett helt stort, l\u00e5ngt skott tillbaka till l\u00e4gret, d\u00e4r {PRONOUN/p_l/subject} flitigt {VERB/p_l/process/processes} det l\u00e4ngre ner i en mindre stam sektioner som \u00e4r l\u00e4tta att lagra.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -984,7 +984,7 @@
                 ]
             },
             {
-                "text": "s_c deftly picks out an entire horsetail shoot, bringing back quite the impressive addition to the Clan's herb stores.",
+                "text": "s_c plockar skickligt ut ett helt \u00e5kerfr\u00e4kenskott, vilket ger tillbaka ett ganska imponerande tillskott till klanens \u00f6rtbutiker.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -998,7 +998,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is distracted today, and it affects {PRONOUN\/p_l\/poss} work. The patrol is unsuccessful.",
+                "text": "p_l \u00e4r distraherad idag och det p\u00e5verkar {PRONOUN/p_l/poss} arbetet. Patrullen misslyckades.",
                 "exp": 0,
                 "weight": 20
             }
@@ -1042,12 +1042,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l heads out on an herb-gathering patrol, searching for the ever-green, ever-reliable horsetail to harvest for the herb stores. app1 trots after {PRONOUN\/p_l\/object}, asking {PRONOUN\/p_l\/object} why horsetail grows so weirdly without leaves.",
-        "decline_text": "{PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/have\/has} second thoughts leaving {PRONOUN\/p_l\/poss} patients behind, especially with {PRONOUN\/p_l\/object} also bringing {PRONOUN\/p_l\/poss} apprentice, and {VERB\/p_l\/decide\/decides} to go another day.",
+        "intro_text": "p_l ger sig ut p\u00e5 en \u00f6rtsamlande patrull och letar efter den st\u00e4ndigt gr\u00f6na, alltid p\u00e5litliga \u00e5kerfr\u00e4ken att sk\u00f6rda f\u00f6r \u00f6rtbutikerna. app1 travar efter {PRONOUN/p_l/object} och fr\u00e5gar {PRONOUN/p_l/object} varf\u00f6r \u00e5kerfr\u00e4ken v\u00e4xer s\u00e5 konstigt utan l\u00f6v.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar som l\u00e4mnar {PRONOUN/p_l/poss} patienter bakom sig, s\u00e4rskilt med {PRONOUN/p_l/object} som ocks\u00e5 tar med sig {PRONOUN/p_l/poss} l\u00e4rling , och {VERB/p_l/decide/decides} f\u00f6r att g\u00e5 en annan dag.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l doesn't know why horsetail plants lack leaves, but {PRONOUN\/p_l\/subject} {VERB\/p_l\/encourage\/encourages} app1's interest in the topic. As a plant that grows without losing any of its green in leaf-bare, while <i>also<\/i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine cat den.",
+                "text": "p_l vet inte varf\u00f6r \u00e5kerfr\u00e4kenv\u00e4xter saknar l\u00f6v, men {PRONOUN/p_l/subject} {VERB/p_l/encourage/encourages} app1:s intresse f\u00f6r \u00e4mnet. Som en v\u00e4xt som v\u00e4xer utan att tappa n\u00e5got av sitt gr\u00f6na i bladbar, samtidigt som den <i>ocks\u00e5</i> har en avg\u00f6rande v\u00e4xtbaserad anv\u00e4ndning f\u00f6r att stoppa blodf\u00f6rlust, \u00e4r \u00e5kerfr\u00e4ken en v\u00e4lkommen syn i alla v\u00e4lsorterade medicinkatth\u00e5lor.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -1086,7 +1086,7 @@
                 ]
             },
             {
-                "text": "Snapping off the thick horsetail stem near the base of the plant allows p_l to drag an entire big, long shoot back to camp, where app1 processes it down further into small stem sections that are easily stored, making a neat pile in the medicine cat den with them.",
+                "text": "Att kn\u00e4ppa av den tjocka \u00e5kerfr\u00e4kenstammen n\u00e4ra plantans bas g\u00f6r att p_l kan dra ett helt stort, l\u00e5ngt skott tillbaka till l\u00e4gret, d\u00e4r app1 bearbetar det ytterligare till sm\u00e5 stj\u00e4lksektioner som l\u00e4tt kan lagras, vilket g\u00f6r en snygg h\u00f6g i medicinkatth\u00e5lan med dem.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -1126,7 +1126,7 @@
                 ]
             },
             {
-                "text": "s_c deftly picks out an entire horsetail shoot, bringing back quite the impressive addition to the Clan's herb stores as {PRONOUN\/s_c\/subject} {VERB\/s_c\/describe\/describes} the plant's uses to app1.",
+                "text": "s_c plockar skickligt ut ett helt \u00e5kerfr\u00e4kenskott, vilket ger tillbaka det ganska imponerande till\u00e4gget till klanens \u00f6rtbutiker som {PRONOUN/s_c/subject} {VERB/s_c/describe/describes} v\u00e4xtens anv\u00e4ndningsomr\u00e5de till app1.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -1174,7 +1174,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is distracted today, and it affects {PRONOUN\/p_l\/poss} work. The patrol is unsuccessful, and app1 looks up at {PRONOUN\/p_l\/object} with disappointment.",
+                "text": "p_l \u00e4r distraherad idag och det p\u00e5verkar {PRONOUN/p_l/poss} arbetet. Patrullen misslyckades och app1 tittar upp p\u00e5 {PRONOUN/p_l/object} med besvikelse.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1241,12 +1241,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Bringing a motley assortment of Clanmates along with {PRONOUN\/p_l\/object}, p_l heads out on an herb-gathering patrol, searching for the ever-green, ever-reliable horsetail to harvest for the herb stores.",
-        "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
+        "intro_text": "P_l tar med sig ett brokigt sortiment av klankamrater tillsammans med {PRONOUN/p_l/object} och ger sig ut p\u00e5 en \u00f6rtinsamlingspatrull och letar efter den st\u00e4ndigt gr\u00f6na, alltid p\u00e5litliga \u00e5kerfr\u00e4ken att sk\u00f6rda f\u00f6r \u00f6rtbutikerna.",
+        "decline_text": "De stoppas innan de l\u00e4mnar l\u00e4gret - dessa krigare beh\u00f6vs n\u00e5gon annanstans. p_ls expedition f\u00e5r v\u00e4nta.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "As a plant that grows without losing any of its green in leaf-bare, while <i>also<\/i> having a crucial herbal use in stopping blood-loss, horsetail is a welcome sight in any well-stocked medicine cat den. Having other cats to help {PRONOUN\/p_l\/object} makes the patrol an easy afternoon's work.",
+                "text": "Som en v\u00e4xt som v\u00e4xer utan att tappa n\u00e5got av sitt gr\u00f6na i bladbar, samtidigt som den <i>ocks\u00e5</i> har en avg\u00f6rande v\u00e4xtbaserad anv\u00e4ndning f\u00f6r att stoppa blodf\u00f6rlust, \u00e4r \u00e5kerfr\u00e4ken en v\u00e4lkommen syn i alla v\u00e4lsorterade medicinkatth\u00e5lor. Att ha andra katter f\u00f6r att hj\u00e4lpa {PRONOUN/p_l/object} g\u00f6r patrullen till ett l\u00e4tt eftermiddagsarbete.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1283,7 +1283,7 @@
                 ]
             },
             {
-                "text": "Snapping off the thick horsetail stem near the base of the plant allows p_l to drag an entire shoot back to camp. The patrol helps pull along the massive bush, causing several cats in camp to fluff up in alarm when the patrol drags it through camp, where they diligently process it down further into smaller stem sections that are easily stored.",
+                "text": "Genom att kn\u00e4ppa av den tjocka \u00e5kerfr\u00e4kenstammen n\u00e4ra basen av plantan kan p_l dra ett helt skott tillbaka till l\u00e4gret. Patrullen hj\u00e4lper till att dra l\u00e4ngs den massiva busken, vilket g\u00f6r att flera katter i l\u00e4gret fluffar upp i larm n\u00e4r patrullen sl\u00e4par den genom l\u00e4gret, d\u00e4r de flitigt bearbetar den ner ytterligare till mindre stamsektioner som l\u00e4tt kan lagras.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -1321,7 +1321,7 @@
                 ]
             },
             {
-                "text": "s_c deftly picks out an entire horsetail shoot, bringing back quite the impressive addition to the Clan's herb stores with the help of the warriors.",
+                "text": "s_c plockar skickligt ut ett helt \u00e5kerfr\u00e4kenskott, vilket ger tillbaka det imponerande tillskottet till klanens \u00f6rtbutiker med hj\u00e4lp av krigarna.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1364,7 +1364,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is distracted today, and it affects {PRONOUN\/p_l\/poss} work. The patrol is unsuccessful, and the cats are snappy with each other.",
+                "text": "p_l \u00e4r distraherad idag och det p\u00e5verkar {PRONOUN/p_l/poss} arbetet. Patrullen misslyckades och katterna \u00e4r sn\u00e4lla mot varandra.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1429,12 +1429,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l notices that the moss in the medicine cat den is getting old. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/need\/needs} to go and gather some more.",
-        "decline_text": "A cat requires {PRONOUN\/p_l\/poss} attention just as {PRONOUN\/p_l\/subject} {VERB\/p_l\/go\/goes} to leave. Moss will have to wait.",
+        "intro_text": "p_l m\u00e4rker att mossan i medicinkatten b\u00f6rjar bli gammal. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} f\u00f6r att g\u00e5 och samla lite mer.",
+        "decline_text": "En katt kr\u00e4ver {PRONOUN/p_l/poss} uppm\u00e4rksamhet precis som {PRONOUN/p_l/subject} {VERB/p_l/go/goes} f\u00f6r att l\u00e4mna. Moss f\u00e5r v\u00e4nta.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l quickly makes {PRONOUN\/p_l\/poss} way to the best moss patch {PRONOUN\/p_l\/subject} {VERB\/p_l\/know\/knows}. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/spend\/spends} a bit of time slicing bits off with {PRONOUN\/p_l\/poss} claws, careful not to get any roots or dirt in the pile - once {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} satisfied, {PRONOUN\/p_l\/subject} {VERB\/p_l\/take\/takes} a moment to wrap {PRONOUN\/p_l\/poss} jaws around the heap, then {VERB\/p_l\/make\/makes} {PRONOUN\/p_l\/poss} way back to camp.",
+                "text": "p_l tar snabbt {PRONOUN/p_l/poss} v\u00e4gen till det b\u00e4sta mosspl\u00e5stret {PRONOUN/p_l/subject} {VERB/p_l/know/knows}. {PRONOUN/p_l/subject/CAP} {VERB/p_l/spend/spends} lite tid p\u00e5 att sk\u00e4ra av bitar med {PRONOUN/p_l/poss} klor, var f\u00f6rsiktig s\u00e5 att du inte f\u00e5r n\u00e5gra r\u00f6tter eller smuts i h\u00f6gen - en g\u00e5ng {PRONOUN /p_l/subject}{VERB/p_l/'re/'s} n\u00f6jd, {PRONOUN/p_l/subject} {VERB/p_l/take/takes} en stund att linda {PRONOUN/p_l/poss} k\u00e4ftar runt h\u00f6gen, sedan {VERB/p_l/make/makes} {PRONOUN/p_l/poss} l\u00e5ngt tillbaka till l\u00e4gret.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1444,7 +1444,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Mouse-dung! When p_l gets to the best moss-gathering spot, {PRONOUN\/p_l\/subject} {VERB\/p_l\/find\/finds} that some animal has dug up most of the moss. {PRONOUN\/p_l\/subject\/CAP}'ll have to leave the rest to repopulate before gathering from this spot again.",
+                "text": "Mus-dynga! N\u00e4r p_l kommer till den b\u00e4sta mossansamlingsplatsen {PRONOUN/p_l/subject} {VERB/p_l/find/finder} att n\u00e5got djur har gr\u00e4vt upp det mesta av mossan. {PRONOUN/p_l/subject/CAP} m\u00e5ste l\u00e4mna resten f\u00f6r att fylla p\u00e5 igen innan de samlas fr\u00e5n den h\u00e4r platsen igen.",
                 "exp": 0,
                 "weight": 20
             }
@@ -1488,12 +1488,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l notices that the moss in the medicine cat den is getting old. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/need\/needs} to go and gather some more, and {VERB\/p_l\/decide\/decides} to bring app1 along for assistance.",
-        "decline_text": "A cat requires {PRONOUN\/p_l\/poss} attention just as {PRONOUN\/p_l\/subject} and app1 go to leave. Moss will have to wait.",
+        "intro_text": "p_l m\u00e4rker att mossan i medicinkatten b\u00f6rjar bli gammal. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} f\u00f6r att g\u00e5 och samla lite mer och {VERB/p_l/decide/decides} ta med app1 f\u00f6r hj\u00e4lp.",
+        "decline_text": "En katt kr\u00e4ver {PRONOUN/p_l/poss} uppm\u00e4rksamhet precis som {PRONOUN/p_l/subject} och app1 g\u00e5r f\u00f6r att l\u00e4mna. Moss f\u00e5r v\u00e4nta.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l leads the way to the best moss patch {PRONOUN\/p_l\/subject} {VERB\/p_l\/know\/knows}, with app1 following close behind. The two cats begin cutting off bits of moss and making their respective piles - once the piles turn into mouthfuls, they pick up the bundles of new bedding and start back towards camp.",
+                "text": "p_l leder v\u00e4gen till det b\u00e4sta mosspl\u00e5stret {PRONOUN/p_l/subject} {VERB/p_l/know/knows}, med app1 som f\u00f6ljer t\u00e4tt efter. De tv\u00e5 katterna b\u00f6rjar sk\u00e4ra av mossabitar och g\u00f6ra sina respektive h\u00f6gar - n\u00e4r h\u00f6garna v\u00e4l f\u00f6rvandlas till munsbitar, plockar de upp buntarna med nya s\u00e4ngkl\u00e4der och b\u00f6rjar tillbaka mot l\u00e4gret.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1531,7 +1531,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Mouse-dung! When the two cats arrive at the best moss-gathering spot, they find that some animal has dug up most of the moss. They'll have to leave the rest to repopulate before gathering from this spot again.",
+                "text": "Mus-dynga! N\u00e4r de tv\u00e5 katterna kommer till den b\u00e4sta mossansamlingsplatsen uppt\u00e4cker de att n\u00e5got djur har gr\u00e4vt upp det mesta av mossan. De m\u00e5ste l\u00e4mna resten f\u00f6r att \u00e5terbefolka innan de samlas fr\u00e5n denna plats igen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1595,12 +1595,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l notices that the moss in the medicine cat den is getting old. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/need\/needs} to go and gather some more, and {VERB\/p_l\/decide\/decides} to bring r_c along for some assistance.",
-        "decline_text": "A cat requires {PRONOUN\/p_l\/poss} attention just as {PRONOUN\/p_l\/subject} and r_c go to leave. Moss will have to wait.",
+        "intro_text": "p_l m\u00e4rker att mossan i medicinkatten b\u00f6rjar bli gammal. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} att g\u00e5 och samla lite mer, och {VERB/p_l/decide/decides} ta med r_c f\u00f6r hj\u00e4lp.",
+        "decline_text": "En katt kr\u00e4ver {PRONOUN/p_l/poss} uppm\u00e4rksamhet precis som {PRONOUN/p_l/subject} och r_c g\u00e5r f\u00f6r att l\u00e4mna. Moss f\u00e5r v\u00e4nta.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l leads the way to the best moss patch {PRONOUN\/p_l\/subject} {VERB\/p_l\/know\/knows}, with r_c following close behind. The two cats begin cutting off bits of moss and making their respective piles - once the piles turn into mouthfuls, they pick up the bundles of new bedding and start back towards camp.",
+                "text": "p_l leder v\u00e4gen till det b\u00e4sta mossf\u00e4ltet {PRONOUN/p_l/subject} {VERB/p_l/know/knows}, med r_c som f\u00f6ljer t\u00e4tt bakom. De tv\u00e5 katterna b\u00f6rjar sk\u00e4ra av mossabitar och g\u00f6ra sina respektive h\u00f6gar - n\u00e4r h\u00f6garna v\u00e4l f\u00f6rvandlas till munsbitar, plockar de upp buntarna med nya s\u00e4ngkl\u00e4der och b\u00f6rjar tillbaka mot l\u00e4gret.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1638,7 +1638,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Mouse-dung! When the two cats arrive at the best moss-gathering spot, they find that some animal has dug up most of the moss. They'll have to leave the rest to repopulate before gathering from this spot again.",
+                "text": "Mus-dynga! N\u00e4r de tv\u00e5 katterna kommer till den b\u00e4sta mossansamlingsplatsen uppt\u00e4cker de att n\u00e5got djur har gr\u00e4vt upp det mesta av mossan. De m\u00e5ste l\u00e4mna resten f\u00f6r att \u00e5terbefolka innan de samlas fr\u00e5n denna plats igen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1702,12 +1702,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l notices that the moss in the medicine cat den is getting old. {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/need\/needs} to go and gather some more, and {VERB\/p_l\/decide\/decides} to bring some Clanmates along for assistance.",
-        "decline_text": "A cat requires {PRONOUN\/p_l\/poss} attention just as {PRONOUN\/p_l\/subject} {VERB\/p_l\/go\/goes} to leave with {PRONOUN\/p_l\/poss} patrol. Moss will have to wait.",
+        "intro_text": "p_l m\u00e4rker att mossan i medicinkatten b\u00f6rjar bli gammal. {PRONOUN/p_l/subject/CAP} {VERB/p_l/need/needs} att g\u00e5 och samla lite mer, och {VERB/p_l/decide/decides} att ta med n\u00e5gra klankamrater f\u00f6r att f\u00e5 hj\u00e4lp.",
+        "decline_text": "En katt kr\u00e4ver {PRONOUN/p_l/poss} uppm\u00e4rksamhet precis som {PRONOUN/p_l/subject} {VERB/p_l/go/goes} f\u00f6r att l\u00e4mna med {PRONOUN/p_l/poss} patrull. Moss f\u00e5r v\u00e4nta.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l leads the way to the best moss patch {PRONOUN\/p_l\/subject} {VERB\/p_l\/know\/knows}, with {PRONOUN\/p_l\/poss} entourage following close behind. The cats begin cutting off bits of moss and making their respective piles - once the piles turn into mouthfuls, they pick up the bundles of new bedding and start back towards camp.",
+                "text": "p_l leder v\u00e4gen till det b\u00e4sta mossf\u00e4ltet {PRONOUN/p_l/subject} {VERB/p_l/know/knows}, med {PRONOUN/p_l/poss} entourage som f\u00f6ljer t\u00e4tt efter. Katterna b\u00f6rjar sk\u00e4ra av bitar av mossa och g\u00f6ra sina respektive h\u00f6gar - n\u00e4r h\u00f6garna v\u00e4l f\u00f6rvandlas till munsbitar, plockar de upp buntarna med nya s\u00e4ngkl\u00e4der och b\u00f6rjar tillbaka mot l\u00e4gret.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1732,7 +1732,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Mouse-dung! When the cats arrive at the best moss-gathering spot, they find that some animal has dug up most of the moss. They'll have to leave the rest to repopulate before gathering from this spot again.",
+                "text": "Mus-dynga! N\u00e4r katterna kommer till den b\u00e4sta mossansamlingsplatsen uppt\u00e4cker de att n\u00e5got djur har gr\u00e4vt upp det mesta av mossan. De m\u00e5ste l\u00e4mna resten f\u00f6r att \u00e5terbefolka innan de samlas fr\u00e5n denna plats igen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1791,12 +1791,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l has to attend to one of {PRONOUN\/p_l\/poss} grimmer jobs as a medicine cat - the grounds where c_n goes to mourn their dead need to be tended to. {PRONOUN\/p_l\/subject\/CAP}{VERB\/p_l\/'re\/'s} bringing along app1 as {PRONOUN\/p_l\/poss} assistant for this trip, and the two cats head out in relative silence.",
-        "decline_text": "Just before the two can leave, a cat calls for their attention.",
+        "intro_text": "p_l m\u00e5ste sk\u00f6ta ett av {PRONOUN/p_l/poss} grimmerjobb som medicinkatt - grunden dit c_n g\u00e5r f\u00f6r att s\u00f6rja sina d\u00f6da m\u00e5ste v\u00e5rdas. {PRONOUN/p_l/subject/CAP}{VERB/p_l/'re/'s} tar med app1 som {PRONOUN/p_l/poss}-assistent f\u00f6r denna resa, och de tv\u00e5 katterna ger sig ut i relativ tystnad.",
+        "decline_text": "Strax innan de tv\u00e5 kan g\u00e5, ropar en katt p\u00e5 deras uppm\u00e4rksamhet.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Even though there's nothing different about this place, other than the serenity it was chosen for, p_l always feels that the grief and love {PRONOUN\/p_l\/poss} Clanmates express here has seeped into every corner. {PRONOUN\/p_l\/subject\/CAP} and app1 tidy the grounds, collecting rosemary as they work. It feels appropriate for the plant to grow here, when its herbs are used to hide the scent of death.",
+                "text": "\u00c4ven om det inte \u00e4r n\u00e5got annorlunda med denna plats, f\u00f6rutom lugnet den valdes f\u00f6r, k\u00e4nner p_l alltid att sorgen och k\u00e4rleken {PRONOUN/p_l/poss} som klankamrater uttrycker h\u00e4r har sipprat in i varje h\u00f6rn. {PRONOUN/p_l/subject/CAP} och app1 st\u00e4dar marken och samlar rosmarin medan de arbetar. Det k\u00e4nns l\u00e4mpligt f\u00f6r v\u00e4xten att v\u00e4xa h\u00e4r, n\u00e4r dess \u00f6rter anv\u00e4nds f\u00f6r att d\u00f6lja doften av d\u00f6d.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1822,7 +1822,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There's a sharp yowl of pain, followed by a string of muttered curses, and p_l turns to see app1 holding one of {PRONOUN\/app1\/poss} paws off the ground. It seems that the apprentice stepped on a thorn. Ouch! They'll have to go back to camp and fix that up.",
+                "text": "Det \u00e4r ett skarpt skrik av sm\u00e4rta, f\u00f6ljt av en str\u00e4ng mumlade f\u00f6rbannelser, och p_l v\u00e4nder sig f\u00f6r att se app1 som h\u00e5ller en av {PRONOUN/app1/poss} tassar fr\u00e5n marken. Det verkar som att l\u00e4rlingen trampade p\u00e5 en tagg. aj! De m\u00e5ste g\u00e5 tillbaka till l\u00e4gret och fixa det.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1869,12 +1869,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l has to attend to one of {PRONOUN\/p_l\/poss} grimmer jobs as a medicine cat - the grounds where c_n goes to mourn their dead need to be tended to. {PRONOUN\/p_l\/subject\/CAP}{VERB\/p_l\/'re\/'s} bringing along r_c as {PRONOUN\/p_l\/poss} assistant for this trip, and the two cats head out in relative silence.",
-        "decline_text": "Just before the two can leave, a cat calls for their attention.",
+        "intro_text": "p_l m\u00e5ste sk\u00f6ta ett av {PRONOUN/p_l/poss} grimmerjobb som medicinkatt - grunden dit c_n g\u00e5r f\u00f6r att s\u00f6rja sina d\u00f6da m\u00e5ste v\u00e5rdas. {PRONOUN/p_l/subject/CAP}{VERB/p_l/'re/'s} tar med r_c som {PRONOUN/p_l/poss}-assistent f\u00f6r denna resa, och de tv\u00e5 katterna ger sig ut i relativ tystnad.",
+        "decline_text": "Strax innan de tv\u00e5 kan g\u00e5, ropar en katt p\u00e5 deras uppm\u00e4rksamhet.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Even though there's nothing different about this place, other than the serenity it was chosen for, p_l always feels that the grief and love {PRONOUN\/p_l\/poss} Clanmates express here has seeped into every corner. {PRONOUN\/p_l\/subject\/CAP} and r_c tidy the grounds, collecting rosemary as they work. It feels appropriate for the plant to grow here, when its herbs are used to hide the scent of death.",
+                "text": "\u00c4ven om det inte \u00e4r n\u00e5got annorlunda med denna plats, f\u00f6rutom lugnet den valdes f\u00f6r, k\u00e4nner p_l alltid att sorgen och k\u00e4rleken {PRONOUN/p_l/poss} som klankamrater uttrycker h\u00e4r har sipprat in i varje h\u00f6rn. {PRONOUN/p_l/subject/CAP} och r_c st\u00e4dar marken och samlar rosmarin medan de arbetar. Det k\u00e4nns l\u00e4mpligt f\u00f6r v\u00e4xten att v\u00e4xa h\u00e4r, n\u00e4r dess \u00f6rter anv\u00e4nds f\u00f6r att d\u00f6lja doften av d\u00f6d.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1900,7 +1900,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "There's a sharp yowl of pain, followed by a string of muttered curses, and p_l turns to see r_c holding one of {PRONOUN\/r_c\/poss} paws off the ground. It seems that the other cat stepped on a thorn. Ouch! They'll have to go back to camp and fix that up.",
+                "text": "Det \u00e4r ett skarpt skrik av sm\u00e4rta, f\u00f6ljt av en str\u00e4ng muttrade f\u00f6rbannelser, och p_l v\u00e4nder sig f\u00f6r att se r_c h\u00e5lla en av {PRONOUN/r_c/poss} tassar fr\u00e5n marken. Det verkar som att den andra katten trampade p\u00e5 en tagg. aj! De m\u00e5ste g\u00e5 tillbaka till l\u00e4gret och fixa det.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1949,12 +1949,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l and r_c head into the old growth forest to look for herbs, discussing the latest news.",
-        "decline_text": "It seems like some mischievous cat has gotten into the herb storage and the duo will have to sort it all over again.",
+        "intro_text": "p_l och r_c beger sig in i den gamla skogen f\u00f6r att leta efter \u00f6rter och diskutera de senaste nyheterna.",
+        "decline_text": "Det verkar som om n\u00e5gon busig katt har hamnat i \u00f6rtf\u00f6rr\u00e5det och duon kommer att beh\u00f6va reda ut det hela igen.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "They have a good discussion while foraging under the shade of the immense hardwoods and manage to come up with several ideas to discuss with c_n's leadership.",
+                "text": "De har en bra diskussion medan de letar i skuggan av de enorma l\u00f6vtr\u00e4den och lyckas komma p\u00e5 flera id\u00e9er att diskutera med c_ns ledning.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1979,7 +1979,7 @@
                 ]
             },
             {
-                "text": "Carefully plucking some herbs, they discuss the latest signs from StarClan and ponder what to do about them. They manage to think up some tentative plans and return to camp to discuss them with the leader and deputy.",
+                "text": "De plockar f\u00f6rsiktigt n\u00e5gra \u00f6rter och diskuterar de senaste tecknen fr\u00e5n StarClan och funderar p\u00e5 vad de ska g\u00f6ra \u00e5t dem. De lyckas komma p\u00e5 n\u00e5gra trevande planer och \u00e5terv\u00e4nder till l\u00e4gret f\u00f6r att diskutera dem med ledaren och st\u00e4llf\u00f6retr\u00e4daren.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -2006,7 +2006,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "They fail to interpret any signs, and are too irritated with each other to discuss any other news. Furthermore, neither cat manages to gather anything, the trip cut short by the discovery of ominous Twoleg things, piled in an abandoned, stinking heap.",
+                "text": "De misslyckas med att tolka n\u00e5gra tecken och \u00e4r f\u00f6r irriterade p\u00e5 varandra f\u00f6r att diskutera n\u00e5gra andra nyheter. Dessutom lyckas ingen av katterna samla ihop n\u00e5got, resan avbr\u00f6ts av uppt\u00e4ckten av olycksb\u00e5dande Twoleg saker, staplade i en \u00f6vergiven, illaluktande h\u00f6g.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2061,12 +2061,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect cobwebs, app2 screws up {PRONOUN\/app2\/poss} face into a stupid expression around the stick {PRONOUN\/app2\/subject} {VERB\/app2\/hold\/holds} in {PRONOUN\/app2\/poss} mouth.",
-        "decline_text": "The duo is called back to camp, needed for other chores.",
+        "intro_text": "N\u00e4r l\u00e4rlingarna ger sig ut f\u00f6r att samla spindeln\u00e4t, skruvar app2 upp {PRONOUN/app2/poss} ansikte till ett dumt uttryck runt pinnen {PRONOUN/app2/subject} {VERB/app2/hold/holds} i {PRONOUN/app2/poss } mun.",
+        "decline_text": "Duon kallas tillbaka till l\u00e4gret, beh\u00f6vs f\u00f6r andra sysslor.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "It makes app1 laugh, muffled through {PRONOUN\/app1\/poss} own cobweb gathering stick. It's good to have a friend around for the boring bits of the day, app2 seems to lighten up every situation.",
+                "text": "Den f\u00e5r app1 att skratta, d\u00e4mpad genom {PRONOUN/app1/poss} egen spindeln\u00e4tssamlingspinne. Det \u00e4r bra att ha en v\u00e4n i n\u00e4rheten f\u00f6r dagens tr\u00e5kiga bitar, app2 verkar l\u00e4tta upp varje situation.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -2104,7 +2104,7 @@
                 ]
             },
             {
-                "text": "<i>Murrp<\/i>ing with laughter, app1 clacks the stick {PRONOUN\/app1\/subject} {VERB\/app1\/hold\/holds} in {PRONOUN\/app1\/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the apprentices' muffled purrs and laughs.",
+                "text": "<i>Mumpar</i> av skratt, app1 sl\u00e5r pinnen {PRONOUN/app1/subject} {VERB/app1/hold/holds} i {PRONOUN/app1/poss} sin egen mun mot app2:s. K\u00e4ppsnackandet forts\u00e4tter medan de samlar spindelv\u00e4v, och eftermiddagen \u00e4r fylld av l\u00e4rlingarnas dova spinnande och skratt.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -2145,7 +2145,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered...",
+                "text": "L\u00e4rlingarna tillbringar hela patrullen med att st\u00f6ka runt med sina pinnar, \u00e4ven n\u00e4r det snurras spindeln\u00e4t runt \u00e4ndarna p\u00e5 dem, och det slutar med att de helt f\u00f6rst\u00f6r det de har samlat ihop...",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2209,12 +2209,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l and r_c take a look at their supply of herbs and decide to combine their efforts into searching for more. Two sets of trained eyes are better than one!",
-        "decline_text": "Unfortunately they are interrupted by a cat claiming they have an emergency. Runny dirt is not an emergency. Ugh.",
+        "intro_text": "p_l och r_c tar en titt p\u00e5 deras utbud av \u00f6rter och best\u00e4mmer sig f\u00f6r att kombinera sina anstr\u00e4ngningar f\u00f6r att s\u00f6ka efter mer. Tv\u00e5 upps\u00e4ttningar tr\u00e4nade \u00f6gon \u00e4r b\u00e4ttre \u00e4n en!",
+        "decline_text": "Tyv\u00e4rr avbryts de av en katt som h\u00e4vdar att de har en n\u00f6dsituation. Rinnande smuts \u00e4r ingen n\u00f6dsituation. Usch.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l and r_c decide to search near the Twoleg dens. As the sun sinks towards the horizon, they return with their mouths stuffed full of herbs taken from the weirdly bountiful Twoleg territories.",
+                "text": "p_l och r_c best\u00e4mmer sig f\u00f6r att s\u00f6ka n\u00e4ra Twoleg-h\u00e5lorna. N\u00e4r solen sjunker mot horisonten \u00e5terv\u00e4nder de med munnen fylld med \u00f6rter h\u00e4mtade fr\u00e5n de konstigt rikliga Twoleg-territorierna.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -2251,7 +2251,7 @@
                 ]
             },
             {
-                "text": "p_l and r_c decide on a little friendly competition - one medicine cat to another, like all those silly bets the warriors make about hunting prey. They reunite when the sun is going down and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
+                "text": "p_l och r_c best\u00e4mmer sig f\u00f6r en liten v\u00e4nskaplig t\u00e4vling - en medicinkatt till en annan, som alla de dumma vad krigarna g\u00f6r om att jaga bytesdjur. De \u00e5terf\u00f6renas n\u00e4r solen g\u00e5r ner och g\u00e5r in i l\u00e4gret spinnande och lekfullt knuffande varandra med b\u00e5da munnen full av \u00f6rter.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -2290,7 +2290,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Both p_l and r_c are tense and it shows. Even though it should not be this hard to find any herbs they fail to find even a single one. They return to camp frustrated and irritated with each other.",
+                "text": "B\u00e5de p_l och r_c \u00e4r sp\u00e4nda och det m\u00e4rks. \u00c4ven om det inte borde vara s\u00e5 sv\u00e5rt att hitta n\u00e5gra \u00f6rter s\u00e5 lyckas de inte hitta en enda. De \u00e5terv\u00e4nder till l\u00e4gret frustrerade och irriterade p\u00e5 varandra.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2324,7 +2324,7 @@
                 ]
             },
             {
-                "text": "Even though there should be many herbs they fail to find anything. p_l blames r_c for distracting {PRONOUN\/p_l\/object} and they get into a huge argument.",
+                "text": "\u00c4ven om det borde finnas m\u00e5nga \u00f6rter lyckas de inte hitta n\u00e5got. p_l anklagar r_c f\u00f6r att distrahera {PRONOUN/p_l/object} och de hamnar i ett enormt argument.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2391,12 +2391,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect cobwebs, app2 screws up {PRONOUN\/app2\/poss} face into a stupid expression around the stick {PRONOUN\/app2\/subject} {VERB\/app2\/hold\/holds} in {PRONOUN\/app2\/poss} mouth.",
-        "decline_text": "The group is called back to camp, needed for other chores.",
+        "intro_text": "N\u00e4r l\u00e4rlingarna ger sig ut f\u00f6r att samla spindeln\u00e4t, skruvar app2 upp {PRONOUN/app2/poss} ansikte till ett dumt uttryck runt pinnen {PRONOUN/app2/subject} {VERB/app2/hold/holds} i {PRONOUN/app2/poss } mun.",
+        "decline_text": "Gruppen kallas tillbaka till l\u00e4gret, beh\u00f6vs f\u00f6r andra sysslor.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "app3 ignores it, but it makes app1 laugh, muffled through {PRONOUN\/app1\/poss} own cobweb gathering stick. It's good to have a friend around for the boring bits of the day, app2 seems to lighten up every situation.",
+                "text": "app3 ignorerar det, men det f\u00e5r app1 att skratta, d\u00e4mpat genom {PRONOUN/app1/poss} egen spindeln\u00e4tssamling. Det \u00e4r bra att ha en v\u00e4n i n\u00e4rheten f\u00f6r dagens tr\u00e5kiga bitar, app2 verkar l\u00e4tta upp varje situation.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -2434,7 +2434,7 @@
                 ]
             },
             {
-                "text": "<i>Murrp<\/i>ing with laughter, app1 clacks the stick {PRONOUN\/app1\/subject} {VERB\/app1\/hold\/holds} in {PRONOUN\/app1\/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the apprentices' muffled purrs and laughs, even though app3 seems solely focused on the chore, content to let the others muck about so long as everything gets done.",
+                "text": "<i>Mumpar</i> av skratt, app1 sl\u00e5r pinnen {PRONOUN/app1/subject} {VERB/app1/hold/holds} i {PRONOUN/app1/poss} sin egen mun mot app2:s. K\u00e4ppjasandet forts\u00e4tter medan de samlar spindelv\u00e4v och eftermiddagen \u00e4r fylld av l\u00e4rlingarnas dova spinnande och skratt, \u00e4ven om app3 verkar enbart fokuserad p\u00e5 sysslorna, n\u00f6jda med att l\u00e5ta de andra mucka om s\u00e5 l\u00e4nge allt blir gjort.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -2475,7 +2475,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered...",
+                "text": "L\u00e4rlingarna tillbringar hela patrullen med att st\u00f6ka runt med sina pinnar, \u00e4ven n\u00e4r det snurras spindeln\u00e4t runt \u00e4ndarna p\u00e5 dem, och det slutar med att de helt f\u00f6rst\u00f6r det de har samlat ihop...",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2543,12 +2543,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect cobwebs, app2 screws up {PRONOUN\/app2\/poss} face into a stupid expression around the stick {PRONOUN\/app2\/subject} {VERB\/app2\/hold\/holds} in {PRONOUN\/app2\/poss} mouth.",
-        "decline_text": "The group is called back to camp, needed for other chores.",
+        "intro_text": "N\u00e4r l\u00e4rlingarna ger sig ut f\u00f6r att samla spindeln\u00e4t, skruvar app2 upp {PRONOUN/app2/poss} ansikte till ett dumt uttryck runt pinnen {PRONOUN/app2/subject} {VERB/app2/hold/holds} i {PRONOUN/app2/poss } mun.",
+        "decline_text": "Gruppen kallas tillbaka till l\u00e4gret, beh\u00f6vs f\u00f6r andra sysslor.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The other apprentices ignore it, but it makes app1 laugh, muffled through {PRONOUN\/app1\/poss} own cobweb gathering stick. It's good to have a friend around for the boring bits of the day, and app2 seems to lighten up every situation.",
+                "text": "De andra l\u00e4rlingarna ignorerar det, men det f\u00e5r app1 att skratta, d\u00e4mpad genom {PRONOUN/app1/poss} egen spindeln\u00e4tssamling. Det \u00e4r bra att ha en v\u00e4n i n\u00e4rheten f\u00f6r dagens tr\u00e5kiga bitar, och app2 verkar l\u00e4tta upp varje situation.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -2586,7 +2586,7 @@
                 ]
             },
             {
-                "text": "<i>Murrp<\/i>ing with laughter, app1 clacks the stick {PRONOUN\/app1\/subject} {VERB\/app1\/hold\/holds} in {PRONOUN\/app1\/poss} own mouth against app2's. The stick bashing continues as they collect cobwebs, and the afternoon is filled with the two's muffled purrs and laughs, even though the other apprentices seem solely focused on the chore, content to let the others muck about so long as everything gets done.",
+                "text": "<i>Mumpar</i> av skratt, app1 sl\u00e5r pinnen {PRONOUN/app1/subject} {VERB/app1/hold/holds} i {PRONOUN/app1/poss} sin egen mun mot app2:s. K\u00e4ppsnackandet forts\u00e4tter medan de samlar spindelv\u00e4v och eftermiddagen \u00e4r fylld av de tv\u00e5s dova spinnande och skratt, \u00e4ven om de andra l\u00e4rlingarna verkar enbart fokuserade p\u00e5 sysslorna, n\u00f6jda med att l\u00e5ta de andra mucka om s\u00e5 l\u00e4nge allt blir gjort.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -2627,7 +2627,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The apprentices spend the entire patrol messing around with their sticks, even when there's cobwebs spun around the ends of them, and they end up completely ruining what they've gathered...",
+                "text": "L\u00e4rlingarna tillbringar hela patrullen med att st\u00f6ka runt med sina pinnar, \u00e4ven n\u00e4r det snurras spindeln\u00e4t runt \u00e4ndarna p\u00e5 dem, och det slutar med att de helt f\u00f6rst\u00f6r det de har samlat ihop...",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2693,12 +2693,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
-        "decline_text": "The group is called back to camp, needed for other chores.",
+        "intro_text": "L\u00e4rlingarna beger sig ut i territoriet, f\u00f6ljer p_l lite tveksamt. Att samla saker kan om\u00f6jligen vara s\u00e5 sv\u00e5rt som att jaga dem - v\u00e4xter springer inte iv\u00e4g!",
+        "decline_text": "Gruppen kallas tillbaka till l\u00e4gret, beh\u00f6vs f\u00f6r andra sysslor.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "It's a long, weird, hard day. <i>Yes,<\/i> they find cobwebs. <i>Yes,<\/i> they bring them back to camp - but by StarClan, none of the warrior apprentices were expecting something as simple as cobweb gathering to be so hard, not when it feels like they run into one every other hunt! They definitely end up with a new appreciation for p_l's skills.",
+                "text": "Det \u00e4r en l\u00e5ng, konstig, h\u00e5rd dag. <i>Ja,</i> de hittar spindelv\u00e4v. <i>Ja,</i> de tar tillbaka dem till l\u00e4gret - men av StarClan hade ingen av krigarl\u00e4rlingarna f\u00f6rv\u00e4ntat sig att n\u00e5got s\u00e5 enkelt som att samla spindeln\u00e4t skulle vara s\u00e5 sv\u00e5rt, inte n\u00e4r det k\u00e4nns som att de st\u00f6ter p\u00e5 varannan jakt ! De slutar definitivt med en ny uppskattning f\u00f6r p_ls kompetens.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -2735,7 +2735,7 @@
                 ]
             },
             {
-                "text": "... However, once out of camp, the warrior apprentices realize they're out of their depth, and turn to p_l for help. p_l, to {PRONOUN\/p_l\/poss} credit, is very gracious about it, not making anyone feel stupid, and by the time the patrol returns with a successful haul there's a new feeling of rapport between everyone, regardless of their role.",
+                "text": "... Men n\u00e4r krigsl\u00e4rlingarna v\u00e4l \u00e4r ute ur l\u00e4gret inser de att de \u00e4r ur sitt djup och v\u00e4nder sig till p_l f\u00f6r att f\u00e5 hj\u00e4lp. p_l, till {PRONOUN/p_l/poss} \u00e4ra, \u00e4r v\u00e4ldigt \u00e4lskv\u00e4rd med det, f\u00e5r ingen att k\u00e4nna sig dum, och n\u00e4r patrullen \u00e5terv\u00e4nder med ett lyckat drag finns det en ny k\u00e4nsla av relation mellan alla, oavsett deras roll.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -2775,7 +2775,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l is disgusted with the general disdain {PRONOUN\/p_l\/subject} {VERB\/p_l\/feel\/feels} from the other apprentices, and how hypocritical it is for them to tell {PRONOUN\/p_l\/object} that herb gathering is easy when the patrol hasn't found <i>any<\/i> cobwebs! {PRONOUN\/p_l\/subject\/CAP} {VERB\/p_l\/stalk\/stalks} back to the medicine cat den in a huff, unable to bear being near the other apprentices for any longer than {PRONOUN\/p_l\/subject} {VERB\/p_l\/have\/has} been.",
+                "text": "p_l \u00e4r \u00e4cklad av det allm\u00e4nna f\u00f6raktet {PRONOUN/p_l/subject} {VERB/p_l/feel/feels} fr\u00e5n de andra l\u00e4rlingarna, och hur hycklande det \u00e4r av dem att ber\u00e4tta f\u00f6r {PRONOUN/p_l/object} att \u00f6rtinsamling \u00e4r l\u00e4tt n\u00e4r patrullen har inte hittat <i>n\u00e5gra</i> spindelv\u00e4v! {PRONOUN/p_l/subject/CAP} {VERB/p_l/stalk/stalks} tillbaka till medicinkatth\u00e5lan i ett huff, of\u00f6rm\u00f6gen att vara n\u00e4ra de andra l\u00e4rlingarna l\u00e4ngre \u00e4n {PRONOUN/p_l/subject} {VERB/ p_l/har/har} varit.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2842,12 +2842,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l comes up to meet r_c, quietly apologizing about r_c being sent to help {PRONOUN\/p_l\/object} collect moss.",
-        "decline_text": "However, before the two apprentices can leave, they're called away to do other chores.",
+        "intro_text": "p_l kommer upp f\u00f6r att tr\u00e4ffa r_c och ber tyst om urs\u00e4kt f\u00f6r att r_c har skickats f\u00f6r att hj\u00e4lpa {PRONOUN/p_l/object} att samla mossa.",
+        "decline_text": "Men innan de tv\u00e5 l\u00e4rlingarna kan g\u00e5, kallas de bort f\u00f6r att g\u00f6ra andra sysslor.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "There's nothing to apologize for! r_c bumps p_l's shoulder affectionately, brushing past {PRONOUN\/p_l\/object} with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool cat to spend it with!",
+                "text": "Det finns inget att be om urs\u00e4kt f\u00f6r! r_c st\u00f6ter p_ls axel k\u00e4rleksfullt och str\u00e4cker sig f\u00f6rbi {PRONOUN/p_l/object} med ett leende n\u00e4r de l\u00e4mnar l\u00e4gret. Det \u00e4r ett bra s\u00e4tt att tillbringa eftermiddagen p\u00e5, och en cool katt att tillbringa den med!",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -2885,7 +2885,7 @@
                 ]
             },
             {
-                "text": "r_c seems somewhat irritated at first, but as p_l keeps chatting to {PRONOUN\/r_c\/object}, {PRONOUN\/r_c\/subject} {VERB\/r_c\/start\/starts} to warm up, and both apprentices feel much more comfortable with each other by the time they bring their mossy loot back to camp.",
+                "text": "r_c verkar n\u00e5got irriterad till en b\u00f6rjan, men eftersom p_l forts\u00e4tter att chatta med {PRONOUN/r_c/object}, {PRONOUN/r_c/subject} {VERB/r_c/start/starts} f\u00f6r att v\u00e4rma upp, och b\u00e5da l\u00e4rlingarna k\u00e4nner sig mycket mer bekv\u00e4ma med varje andra n\u00e4r de tar med sig sitt mossiga byte tillbaka till l\u00e4gret.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -2926,7 +2926,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c shrugs, tailtip twitching with irritation. It's fine, it's totally not like {PRONOUN\/r_c\/subject}'d prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each apprentice is too snappy and standoffish to manage gathering anything other than negative thoughts.",
+                "text": "r_c rycker p\u00e5 axlarna, ryckningar i bakspetsen av irritation. Det \u00e4r bra, det \u00e4r absolut inte s\u00e5 att {PRONOUN/r_c/subject} skulle f\u00f6redra att jaga, g\u00f6ra n\u00e5got som faktiskt \u00e4r anv\u00e4ndbart... Den attityden \u00e4r tyv\u00e4rr n\u00e4rvarande genom hela patrullen, och varje l\u00e4rling \u00e4r f\u00f6r sn\u00e4ll och st\u00e5ndaktig f\u00f6r att hantera samla p\u00e5 allt annat \u00e4n negativa tankar.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2995,12 +2995,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "As the apprentices head out to collect moss, app2 screws up {PRONOUN\/app2\/poss} face into a stupid expression at the menial nature of the task.",
-        "decline_text": "They're called back to camp, needed for other chores.",
+        "intro_text": "N\u00e4r l\u00e4rlingarna beger sig ut f\u00f6r att samla mossa, skruvar app2 ihop {PRONOUN/app2/poss} ansikte till ett dumt uttryck f\u00f6r uppgiftens underliga karakt\u00e4r.",
+        "decline_text": "De kallas tillbaka till l\u00e4gret, beh\u00f6vs f\u00f6r andra sysslor.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Though the other cats in the group don't look thrilled, app1 insists there's nothing to annoyed about. app1 bumps p_l's shoulder affectionately, brushing past {PRONOUN\/p_l\/object} with a smile as they leave camp. It's a fine way to spend the afternoon, and a cool cat to spend it with!",
+                "text": "\u00c4ven om de andra katterna i gruppen inte ser glada ut, insisterar app1 p\u00e5 att det inte finns n\u00e5got att irritera sig \u00f6ver. app1 st\u00f6ter p_ls axel k\u00e4rleksfullt och str\u00e4cker sig f\u00f6rbi {PRONOUN/p_l/object} med ett leende n\u00e4r de l\u00e4mnar l\u00e4gret. Det \u00e4r ett bra s\u00e4tt att tillbringa eftermiddagen p\u00e5, och en cool katt att tillbringa den med!",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -3038,7 +3038,7 @@
                 ]
             },
             {
-                "text": "Out of all the cats in the group, app2 is definitely the one that seems the most irritated about it at first. However, as p_l keeps chatting to {PRONOUN\/app2\/object}, {PRONOUN\/app2\/subject} {VERB\/app2\/start\/starts} to warm up to the task, and both apprentices feel much more comfortable with each other by the time the group brings their mossy loot back to camp.",
+                "text": "Av alla katter i gruppen \u00e4r app2 definitivt den som verkar mest irriterad \u00f6ver det till en b\u00f6rjan. Men eftersom p_l forts\u00e4tter att chatta med {PRONOUN/app2/object}, {PRONOUN/app2/subject} {VERB/app2/start/starts} f\u00f6r att v\u00e4rma upp till uppgiften, och b\u00e5da l\u00e4rlingarna k\u00e4nner sig mycket mer bekv\u00e4ma med varandra genom att g\u00e5ng gruppen tar med sig sitt mossiga byte tillbaka till l\u00e4gret.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -3079,7 +3079,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The warrior apprentices exchange glances, tailtips twitching with irritation. It's fine, it's totally not like they'd prefer to be hunting, doing something actually useful... That attitude, unfortunately, is present through the entire patrol, and each apprentice is too snappy and standoffish to manage gathering anything other than negative thoughts.",
+                "text": "Krigarl\u00e4rlingarna utbyter blickar, svanstopparna rycker av irritation. Det \u00e4r bra, det \u00e4r absolut inte s\u00e5 att de f\u00f6redrar att jaga, g\u00f6ra n\u00e5got faktiskt nyttigt... Den attityden finns tyv\u00e4rr genom hela patrullen, och varje l\u00e4rling \u00e4r f\u00f6r sn\u00e4ll och st\u00e5ndaktig f\u00f6r att klara av att samla n\u00e5got annat \u00e4n negativa tankar .",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3145,12 +3145,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The apprentices are sent off into the territory to gather moss for the medicine cat den.",
-        "decline_text": "They're called back to camp, needed for other chores.",
+        "intro_text": "L\u00e4rlingarna skickas iv\u00e4g till reviret f\u00f6r att samla mossa till medicinkatten.",
+        "decline_text": "De kallas tillbaka till l\u00e4gret, beh\u00f6vs f\u00f6r andra sysslor.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "While it's a traditional chore for apprentices, it's not a particularly <i>interesting<\/i> one. Still, though, sometimes it isn't what you're doing, but who you're doing it with, and though there's a bit of complaining, all the apprentices are glad to have the chance to spend time together.",
+                "text": "\u00c4ven om det \u00e4r en traditionell syssla f\u00f6r l\u00e4rlingar, \u00e4r det inte s\u00e4rskilt <i>intressant</i>. Men ibland \u00e4r det inte vad du g\u00f6r, utan vem du g\u00f6r det med, och \u00e4ven om det \u00e4r lite klagande \u00e4r alla l\u00e4rlingar glada \u00f6ver att f\u00e5 chansen att umg\u00e5s tillsammans.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -3187,7 +3187,7 @@
                 ]
             },
             {
-                "text": "p_l is determined to prove {PRONOUN\/p_l\/self} to the other apprentices, and fortunately {PRONOUN\/p_l\/subject} {VERB\/p_l\/don't\/doesn't} push it too far. Despite {PRONOUN\/p_l\/poss} enthusiasm, {PRONOUN\/p_l\/subject} {VERB\/p_l\/avoid\/avoids} bossing everyone around, instead encouraging the patrol in their duties. {VERB\/p_l\/Are\/Is} {PRONOUN\/p_l\/subject} a bit stiff? Sure, but {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} not unlikeable!",
+                "text": "p_l \u00e4r fast besluten att bevisa {PRONOUN/p_l/self} f\u00f6r de andra l\u00e4rlingarna, och lyckligtvis pressar {PRONOUN/p_l/subject} {VERB/p_l/don't/does't} det f\u00f6r l\u00e5ngt. Trots {PRONOUN/p_l/poss} entusiasm, {PRONOUN/p_l/subject} {VERB/p_l/avoid/avoids} styr alla runt omkring och uppmuntrar ist\u00e4llet patrullen i deras uppgifter. {VERB/p_l/Are/\u00c4r} {PRONOUN/p_l/subject} lite stel? Visst, men {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} \u00e4r inte osannolikt!",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -3227,7 +3227,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 and app2 start to argue, ruining everyone's day.",
+                "text": "app1 och app2 b\u00f6rjar br\u00e5ka och f\u00f6rst\u00f6r allas dag.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3292,12 +3292,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "The apprentices head out into the territory, following p_l a little dubiously. Gathering things can't possibly be as hard as hunting them - plants don't run away!",
-        "decline_text": "They're called back to camp, needed for other chores.",
+        "intro_text": "L\u00e4rlingarna beger sig ut i territoriet, f\u00f6ljer p_l lite tveksamt. Att samla saker kan om\u00f6jligen vara s\u00e5 sv\u00e5rt som att jaga dem - v\u00e4xter springer inte iv\u00e4g!",
+        "decline_text": "De kallas tillbaka till l\u00e4gret, beh\u00f6vs f\u00f6r andra sysslor.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "While it's a traditional chore for apprentices, it's not a particularly <i>interesting<\/i> one. Still, though, sometimes it isn't what you're doing, but who you're doing it with, and though there's a bit of complaining, all the apprentices are glad to have the chance to spend time together.",
+                "text": "\u00c4ven om det \u00e4r en traditionell syssla f\u00f6r l\u00e4rlingar, \u00e4r det inte s\u00e4rskilt <i>intressant</i>. Men ibland \u00e4r det inte vad du g\u00f6r, utan vem du g\u00f6r det med, och \u00e4ven om det \u00e4r lite klagande \u00e4r alla l\u00e4rlingar glada \u00f6ver att f\u00e5 chansen att umg\u00e5s tillsammans.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -3334,7 +3334,7 @@
                 ]
             },
             {
-                "text": "p_l is determined to prove {PRONOUN\/p_l\/self} to the other apprentices, and fortunately {PRONOUN\/p_l\/subject} {VERB\/p_l\/don't\/doesn't} push it too far. Despite {PRONOUN\/p_l\/poss} enthusiasm, {PRONOUN\/p_l\/subject} {VERB\/p_l\/avoid\/avoids} bossing everyone around, instead encouraging the patrol in their duties. {VERB\/p_l\/Are\/Is} {PRONOUN\/p_l\/subject} a bit stiff? Sure, but {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} not unlikeable!",
+                "text": "p_l \u00e4r fast besluten att bevisa {PRONOUN/p_l/self} f\u00f6r de andra l\u00e4rlingarna, och lyckligtvis pressar {PRONOUN/p_l/subject} {VERB/p_l/don't/does't} det f\u00f6r l\u00e5ngt. Trots {PRONOUN/p_l/poss} entusiasm, {PRONOUN/p_l/subject} {VERB/p_l/avoid/avoids} styr alla runt omkring och uppmuntrar ist\u00e4llet patrullen i deras uppgifter. {VERB/p_l/Are/\u00c4r} {PRONOUN/p_l/subject} lite stel? Visst, men {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} \u00e4r inte osannolikt!",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -3374,7 +3374,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 and app2 start to argue, ruining everyone's day.",
+                "text": "app1 och app2 b\u00f6rjar br\u00e5ka och f\u00f6rst\u00f6r allas dag.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3445,12 +3445,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c trips over a tree root while helping p_l to collect herbs.",
-        "decline_text": "{PRONOUN\/r_c\/subject\/CAP} quickly {VERB\/r_c\/pick\/picks} {PRONOUN\/r_c\/self} up and {VERB\/r_c\/continue\/continues} on.",
+        "intro_text": "r_c snubblar \u00f6ver en tr\u00e4drot samtidigt som han hj\u00e4lper p_l att samla \u00f6rter.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} snabbt {VERB/r_c/pick/picks} {PRONOUN/r_c/self} upp och {VERB/r_c/continue/continues} p\u00e5.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Though p_l checks {PRONOUN\/r_c\/object} over and doesn't find any injuries, r_c <i>insists<\/i> that {PRONOUN\/r_c\/subject} {VERB\/r_c\/need\/needs} to lean on p_l's shoulder all the way back to camp. p_l complies, and r_c purrs the entire way home.",
+                "text": "\u00c4ven om p_l kontrollerar {PRONOUN/r_c/object} och inte hittar n\u00e5gra skador, r_c <i>insisterar</i> p\u00e5 att {PRONOUN/r_c/subject} {VERB/r_c/need/needs} ska luta sig mot p_ls axel hela v\u00e4gen tillbaka till l\u00e4gret. p_l f\u00f6ljer, och r_c spinnar hela v\u00e4gen hem.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -3488,7 +3488,7 @@
                 ]
             },
             {
-                "text": "It's alright, s_c didn't trip! {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/were\/was} just saying hello to the ground. With {PRONOUN\/s_c\/poss} face.",
+                "text": "Det \u00e4r okej, s_c snubblade inte! {PRONOUN/s_c/subject/CAP} {VERB/s_c/were/was} s\u00e4ger bara hej till marken. Med ansiktet {PRONOUN/s_c/poss}.",
                 "exp": 20,
                 "weight": 40,
                 "stat_trait": [
@@ -3523,7 +3523,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Thankfully, r_c is able to pick {PRONOUN\/r_c\/self} up, {PRONOUN\/r_c\/poss} only injuries being the ones to {PRONOUN\/r_c\/poss} pride. StarClan, did that <i>really<\/i> have to happen in front of p_l?",
+                "text": "Tack och lov kan r_c plocka upp {PRONOUN/r_c/self}, bara {PRONOUN/r_c/poss} skador \u00e4r de som \u00e4r stolta \u00f6ver {PRONOUN/r_c/poss}. StarClan, beh\u00f6vde det <i>verkligen</i> ske framf\u00f6r p_l?",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3543,7 +3543,7 @@
                 ]
             },
             {
-                "text": "s_c checks r_c over and, upon confirming that there are no injuries, tells {PRONOUN\/r_c\/object} that {PRONOUN\/r_c\/object}{VERB\/r_c\/'re\/'s} fine and to walk it off.",
+                "text": "s_c kontrollerar r_c och, efter att ha bekr\u00e4ftat att det inte finns n\u00e5gra skador, s\u00e4ger han till {PRONOUN/r_c/object} att {PRONOUN/r_c/object}{VERB/r_c/'re/'s} m\u00e5r bra och att det g\u00e5r av.",
                 "exp": 0,
                 "weight": 40,
                 "stat_trait": [
@@ -3586,7 +3586,7 @@
                 ]
             },
             {
-                "text": "p_l checks r_c over and, while the other cat is not seriously injured, {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} definitely a little more battered than {PRONOUN\/r_c\/subject} {VERB\/r_c\/were\/was} when they set out.",
+                "text": "p_l kontrollerar r_c och, medan den andra katten inte \u00e4r allvarligt skadad, {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} definitivt lite mer misshandlad \u00e4n {PRONOUN/r_c/subject} {VERB/r_c /were/was} n\u00e4r de gav sig ut.",
                 "exp": 0,
                 "weight": 15,
                 "injury": [
@@ -3601,7 +3601,7 @@
                 ]
             },
             {
-                "text": "s_c sees r_c falling and rushes to help. However, before s_c can reach {PRONOUN\/s_c\/poss} Clanmate, {PRONOUN\/s_c\/subject} {VERB\/s_c\/trip\/trips} over the <i>same<\/i> tree root and {VERB\/s_c\/end\/ends} up joining r_c on the ground. Thankfully, neither cat is seriously injured and, after sharing a laugh over their shared misfortune, they decide to call it a day and head back to camp, leaning on each other the whole way home.",
+                "text": "s_c ser r_c falla och skyndar sig f\u00f6r att hj\u00e4lpa. Men innan s_c kan n\u00e5 {PRONOUN/s_c/poss} Clanmate, {PRONOUN/s_c/subject} {VERB/s_c/trip/trips} \u00f6ver <i>samma</i> tr\u00e4drot och {VERB/s_c/end /slutar} med att g\u00e5 med r_c p\u00e5 marken. Tack och lov \u00e4r ingen av katterna allvarligt skadad och efter att ha delat ett skratt \u00f6ver sin delade olycka best\u00e4mmer de sig f\u00f6r att ta en dag och bege sig tillbaka till l\u00e4gret, lutade sig mot varandra hela v\u00e4gen hem.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -3639,7 +3639,7 @@
                 ]
             },
             {
-                "text": "s_c can't help the <i>mrrps<\/i> of laughter that escape {PRONOUN\/s_c\/object} at the sight. Sweet StarClan, if only r_c could see {PRONOUN\/r_c\/poss} own face! However, karma quickly comes for s_c, who is so busy laughing at r_c's misfortune that {PRONOUN\/s_c\/subject} completely {VERB\/s_c\/miss\/misses} and trips over the <i>other<\/i> tree root that just so happens to be directly in {PRONOUN\/s_c\/poss} path. <i>Meowch!<\/i>",
+                "text": "s_c kan inte hj\u00e4lpa <i>mrrps</i> av skratt som undkommer {PRONOUN/s_c/object} vid synen. S\u00f6ta StarClan, om bara r_c kunde se {PRONOUN/r_c/poss} eget ansikte! Men karma kommer snabbt f\u00f6r s_c, som \u00e4r s\u00e5 upptagen med att skratta \u00e5t r_cs olycka att {PRONOUN/s_c/subject} helt {VERB/s_c/miss/misses} och snubblar \u00f6ver den <i>andra</i> tr\u00e4droten som bara s\u00e5 r\u00e5kar vara direkt i {PRONOUN/s_c/poss} s\u00f6kv\u00e4g. <i>Mjau!</i>",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -3677,7 +3677,7 @@
                 ]
             },
             {
-                "text": "r_c yowls out in pain, alerting p_l and causing {PRONOUN\/p_l\/object} to drop everything and rush over. The medicine cat tries to help {PRONOUN\/p_l\/poss} companion to stand, but it quickly becomes clear that that won't be happening. r_c will need to be carried back to camp.",
+                "text": "r_c gr\u00e5ter av sm\u00e4rta, varnar p_l och f\u00e5r {PRONOUN/p_l/object} att tappa allt och rusa \u00f6ver. Medicinkatten f\u00f6rs\u00f6ker hj\u00e4lpa {PRONOUN/p_l/poss} f\u00f6ljeslagare att st\u00e5 upp, men det st\u00e5r snabbt klart att det inte kommer att h\u00e4nda. r_c kommer att beh\u00f6va b\u00e4ras tillbaka till l\u00e4gret.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3691,9 +3691,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred after {PRONOUN\/m_c\/subject} tripped over a tree root.",
-                    "reg_death": "m_c died from injuries sustained after tripping over a tree root.",
-                    "lead_death": "died from injuries sustained after tripping over a tree root"
+                    "scar": "m_c fick \u00e4rr efter att {PRONOUN/m_c/subject} snubblade \u00f6ver en tr\u00e4drot.",
+                    "reg_death": "m_c dog av skador efter att ha snubblat \u00f6ver en tr\u00e4drot.",
+                    "lead_death": "dog av skador efter att ha snubblat \u00f6ver en tr\u00e4drot"
                 }
             }
         ]
@@ -3730,12 +3730,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "r_c trips over a tree root while out collecting herbs with p_l.",
-        "decline_text": "{PRONOUN\/r_c\/subject\/CAP} quickly {VERB\/r_c\/pick\/picks} {PRONOUN\/r_c\/self} up and {VERB\/r_c\/continue\/continues} on.",
+        "intro_text": "r_c snubblar \u00f6ver en tr\u00e4drot n\u00e4r han \u00e4r ute och samlar \u00f6rter med p_l.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} snabbt {VERB/r_c/pick/picks} {PRONOUN/r_c/self} upp och {VERB/r_c/continue/continues} p\u00e5.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Though p_l checks {PRONOUN\/r_c\/object} over and doesn't find any injuries, r_c <i>insists<\/i> that {PRONOUN\/r_c\/subject} {VERB\/r_c\/need\/needs} to lean on p_l's shoulder all the way back to camp. p_l complies, and r_c purrs the entire way home.",
+                "text": "\u00c4ven om p_l kontrollerar {PRONOUN/r_c/object} och inte hittar n\u00e5gra skador, r_c <i>insisterar</i> p\u00e5 att {PRONOUN/r_c/subject} {VERB/r_c/need/needs} ska luta sig mot p_ls axel hela v\u00e4gen tillbaka till l\u00e4gret. p_l f\u00f6ljer, och r_c spinnar hela v\u00e4gen hem.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -3773,7 +3773,7 @@
                 ]
             },
             {
-                "text": "It's alright, s_c didn't trip! {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/were\/was} just saying hello to the ground. With {PRONOUN\/s_c\/poss} face.",
+                "text": "Det \u00e4r okej, s_c snubblade inte! {PRONOUN/s_c/subject/CAP} {VERB/s_c/were/was} s\u00e4ger bara hej till marken. Med ansiktet {PRONOUN/s_c/poss}.",
                 "exp": 20,
                 "weight": 40,
                 "stat_trait": [
@@ -3808,7 +3808,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Thankfully, r_c is able to pick {PRONOUN\/r_c\/self} up, {PRONOUN\/r_c\/poss} only injuries being the ones to {PRONOUN\/r_c\/poss} pride. StarClan, did that <i>really<\/i> have to happen in front of p_l?",
+                "text": "Tack och lov kan r_c plocka upp {PRONOUN/r_c/self}, bara {PRONOUN/r_c/poss} skador \u00e4r de som \u00e4r stolta \u00f6ver {PRONOUN/r_c/poss}. StarClan, beh\u00f6vde det <i>verkligen</i> ske framf\u00f6r p_l?",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3828,7 +3828,7 @@
                 ]
             },
             {
-                "text": "s_c checks r_c over and, upon confirming that there are no injuries, tells {PRONOUN\/r_c\/object} that {PRONOUN\/r_c\/object}{VERB\/r_c\/'re\/'s} fine and to walk it off.",
+                "text": "s_c kontrollerar r_c och, efter att ha bekr\u00e4ftat att det inte finns n\u00e5gra skador, s\u00e4ger han till {PRONOUN/r_c/object} att {PRONOUN/r_c/object}{VERB/r_c/'re/'s} m\u00e5r bra och att det g\u00e5r av.",
                 "exp": 0,
                 "weight": 40,
                 "stat_trait": [
@@ -3871,7 +3871,7 @@
                 ]
             },
             {
-                "text": "p_l checks r_c over and, while the other medicine cat is not seriously injured, {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} definitely a little more battered than {PRONOUN\/r_c\/subject} {VERB\/r_c\/were\/was} when they set out.",
+                "text": "p_l kontrollerar r_c och, medan den andra medicinkatten inte \u00e4r allvarligt skadad, {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} definitivt lite mer misshandlad \u00e4n {PRONOUN/r_c/subject} {VERB/ r_c/were/was} n\u00e4r de gav sig ut.",
                 "exp": 0,
                 "weight": 15,
                 "injury": [
@@ -3886,7 +3886,7 @@
                 ]
             },
             {
-                "text": "s_c sees r_c falling and rushes to help. However, before s_c can reach {PRONOUN\/s_c\/poss} Clanmate, {PRONOUN\/s_c\/subject} {VERB\/s_c\/trip\/trips} over the <i>same<\/i> tree root and {VERB\/s_c\/end\/ends} up joining r_c on the ground. Thankfully, neither cat is seriously injured and, after sharing a laugh over their joint misfortune, they decide to call it a day and head back to camp, leaning on each other the whole way home.",
+                "text": "s_c ser r_c falla och skyndar sig f\u00f6r att hj\u00e4lpa. Men innan s_c kan n\u00e5 {PRONOUN/s_c/poss} Clanmate, {PRONOUN/s_c/subject} {VERB/s_c/trip/trips} \u00f6ver <i>samma</i> tr\u00e4drot och {VERB/s_c/end /slutar} med att g\u00e5 med r_c p\u00e5 marken. Tack och lov \u00e4r ingen av katterna allvarligt skadad och efter att ha delat ett skratt \u00f6ver deras gemensamma olycka, best\u00e4mmer de sig f\u00f6r att ta en dag och bege sig tillbaka till l\u00e4gret, lutade sig mot varandra hela v\u00e4gen hem.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -3924,7 +3924,7 @@
                 ]
             },
             {
-                "text": "s_c can't help the <i>mrrps<\/i> of laughter that escape {PRONOUN\/s_c\/object} at the sight. Sweet StarClan, if only r_c could see {PRONOUN\/r_c\/poss} own face! However, karma quickly comes for s_c, who is so busy laughing at r_c's misfortune that {PRONOUN\/s_c\/subject} completely {VERB\/s_c\/miss\/misses} and trips over the <i>other<\/i> tree root that just so happens to be directly in {PRONOUN\/s_c\/poss} path. <i>Meowch!<\/i>",
+                "text": "s_c kan inte hj\u00e4lpa <i>mrrps</i> av skratt som undkommer {PRONOUN/s_c/object} vid synen. S\u00f6ta StarClan, om bara r_c kunde se {PRONOUN/r_c/poss} eget ansikte! Men karma kommer snabbt f\u00f6r s_c, som \u00e4r s\u00e5 upptagen med att skratta \u00e5t r_cs olycka att {PRONOUN/s_c/subject} helt {VERB/s_c/miss/misses} och snubblar \u00f6ver den <i>andra</i> tr\u00e4droten som bara s\u00e5 r\u00e5kar vara direkt i {PRONOUN/s_c/poss} s\u00f6kv\u00e4g. <i>Mjau!</i>",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -3962,7 +3962,7 @@
                 ]
             },
             {
-                "text": "r_c yowls out in pain, alerting p_l and causing {PRONOUN\/p_l\/object} to drop everything and rush over. p_l tries to help {PRONOUN\/p_l\/poss} fellow medicine cat to stand, but it quickly becomes clear that that won't be happening. r_c will need to be carried back to camp.",
+                "text": "r_c gr\u00e5ter av sm\u00e4rta, varnar p_l och f\u00e5r {PRONOUN/p_l/object} att tappa allt och rusa \u00f6ver. p_l f\u00f6rs\u00f6ker hj\u00e4lpa {PRONOUN/p_l/poss} medl\u00e4karkatt att st\u00e5 upp, men det st\u00e5r snabbt klart att det inte kommer att h\u00e4nda. r_c kommer att beh\u00f6va b\u00e4ras tillbaka till l\u00e4gret.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3976,8 +3976,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred after {PRONOUN\/m_c\/subject} tripped over a tree root.",
-                    "reg_death": "m_c died from injuries sustained after tripping over a tree root."
+                    "scar": "m_c fick \u00e4rr efter att {PRONOUN/m_c/subject} snubblade \u00f6ver en tr\u00e4drot.",
+                    "reg_death": "m_c dog av skador efter att ha snubblat \u00f6ver en tr\u00e4drot."
                 }
             }
         ]
@@ -4018,12 +4018,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l trips over a tree root while out collecting herbs with r_c.",
-        "decline_text": "{PRONOUN\/p_l\/subject\/CAP} quickly {VERB\/p_l\/pick\/picks} {PRONOUN\/p_l\/self} up and {VERB\/p_l\/continue\/continues} on.",
+        "intro_text": "p_l snubblar \u00f6ver en tr\u00e4drot n\u00e4r han \u00e4r ute och samlar \u00f6rter med r_c.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} snabbt {VERB/p_l/pick/picks} {PRONOUN/p_l/self} upp och {VERB/p_l/continue/continues} p\u00e5.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Though p_l has no visible injuries, {PRONOUN\/p_l\/subject} <i>{VERB\/p_l\/insist\/insists}<\/i> that {PRONOUN\/p_l\/subject} {VERB\/p_l\/need\/needs} to lean on r_c's shoulder all the way back to camp. r_c complies, and p_l purrs the entire way home.",
+                "text": "\u00c4ven om p_l inte har n\u00e5gra synliga skador, {PRONOUN/p_l/subject} <i>{VERB/p_l/insist/insists}</i> att {PRONOUN/p_l/subject} {VERB/p_l/need/needs} att luta sig mot r_c:s axel hela v\u00e4gen tillbaka till l\u00e4gret. r_c f\u00f6ljer, och p_l spinnar hela v\u00e4gen hem.",
                 "exp": 20,
                 "weight": 20,
                 "herbs": [
@@ -4061,7 +4061,7 @@
                 ]
             },
             {
-                "text": "It's alright, s_c didn't trip! {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/were\/was} just saying hello to the ground. With {PRONOUN\/s_c\/poss} face.",
+                "text": "Det \u00e4r okej, s_c snubblade inte! {PRONOUN/s_c/subject/CAP} {VERB/s_c/were/was} s\u00e4ger bara hej till marken. Med ansiktet {PRONOUN/s_c/poss}.",
                 "exp": 20,
                 "weight": 40,
                 "stat_trait": [
@@ -4096,7 +4096,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Thankfully, p_l doesn't fall far and is able to pick {PRONOUN\/p_l\/self} up, {PRONOUN\/p_l\/poss} only injuries being the ones to {PRONOUN\/p_l\/poss} pride. StarClan, did that <i>really<\/i> have to happen in front of r_c?",
+                "text": "Tack och lov, p_l faller inte l\u00e5ngt och kan plocka upp {PRONOUN/p_l/self}, bara {PRONOUN/p_l/poss} skador \u00e4r de som \u00e4r stolta \u00f6ver {PRONOUN/p_l/poss}. StarClan, beh\u00f6vde det <i>verkligen</i> ske framf\u00f6r r_c?",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -4116,7 +4116,7 @@
                 ]
             },
             {
-                "text": "s_c may not be a medicine cat, but even <i>{PRONOUN\/s_c\/subject}<\/i> can tell that p_l is fine. Already annoyed at having been woken up so early in the stars-damned morning just to go pick herbs, s_c rather callously tells the medicine cat to get up and walk it off.",
+                "text": "s_c kanske inte \u00e4r en medicinkatt, men \u00e4ven <i>{PRONOUN/s_c/subject}</i> kan s\u00e4ga att p_l \u00e4r bra. Redan irriterad \u00f6ver att ha v\u00e4ckts s\u00e5 tidigt p\u00e5 den stj\u00e4rnf\u00f6rbannade morgonen bara f\u00f6r att g\u00e5 och plocka \u00f6rter, s\u00e4ger s_c ganska kallt till medicinkatten att g\u00e5 upp och g\u00e5 av den.",
                 "exp": 0,
                 "weight": 40,
                 "stat_trait": [
@@ -4159,7 +4159,7 @@
                 ]
             },
             {
-                "text": "r_c hurries over to help p_l and, while the medicine cat is not seriously injured, {PRONOUN\/p_l\/subject}{VERB\/p_l\/'re\/'s} definitely a little more battered than {PRONOUN\/p_l\/subject} {VERB\/p_l\/were\/was} when they set out.",
+                "text": "r_c skyndar \u00f6ver f\u00f6r att hj\u00e4lpa p_l och, medan medicinkatten inte \u00e4r allvarligt skadad, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} definitivt lite mer misshandlad \u00e4n {PRONOUN/p_l/subject} {VERB /p_l/were/was} n\u00e4r de gav sig ut.",
                 "exp": 0,
                 "weight": 15,
                 "injury": [
@@ -4174,7 +4174,7 @@
                 ]
             },
             {
-                "text": "s_c sees p_l falling and rushes to help. However, before s_c can reach {PRONOUN\/s_c\/poss} Clanmate, {PRONOUN\/s_c\/subject} {VERB\/s_c\/trip\/trips} over the <i>same<\/i> tree root and {VERB\/s_c\/end\/ends} up joining p_l on the ground. Thankfully, neither cat is seriously injured and, after sharing a laugh over their shared misfortune, they decide to call it a day and head back to camp, leaning on each other the whole way home.",
+                "text": "s_c ser p_l falla och skyndar sig f\u00f6r att hj\u00e4lpa. Men innan s_c kan n\u00e5 {PRONOUN/s_c/poss} Clanmate, {PRONOUN/s_c/subject} {VERB/s_c/trip/trips} \u00f6ver <i>samma</i> tr\u00e4drot och {VERB/s_c/end /slutar} med att g\u00e5 med p_l p\u00e5 marken. Tack och lov \u00e4r ingen av katterna allvarligt skadad och efter att ha delat ett skratt \u00f6ver sin delade olycka best\u00e4mmer de sig f\u00f6r att ta en dag och bege sig tillbaka till l\u00e4gret, lutade sig mot varandra hela v\u00e4gen hem.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -4212,7 +4212,7 @@
                 ]
             },
             {
-                "text": "s_c can't help the <i>mrrps<\/i> of laughter that escape {PRONOUN\/s_c\/object} at the sight. Sweet StarClan, if only p_l could see {PRONOUN\/p_l\/poss} own face! However, karma quickly comes for s_c, who is so busy laughing at p_l's misfortune that {PRONOUN\/s_c\/subject} completely {VERB\/s_c\/miss\/misses} and trips over the <i>other<\/i> tree root that just so happens to be directly in {PRONOUN\/s_c\/poss} path. <i>Meowch!<\/i>",
+                "text": "s_c kan inte hj\u00e4lpa <i>mrrps</i> av skratt som undkommer {PRONOUN/s_c/object} vid synen. S\u00f6ta StarClan, om bara p_l kunde se {PRONOUN/p_l/poss} eget ansikte! Karma kommer dock snabbt f\u00f6r s_c, som \u00e4r s\u00e5 upptagen med att skratta \u00e5t p_ls olycka att {PRONOUN/s_c/subject} helt {VERB/s_c/miss/misses} och snubblar \u00f6ver den <i>andra</i> tr\u00e4droten som bara s\u00e5 r\u00e5kar vara direkt i {PRONOUN/s_c/poss} s\u00f6kv\u00e4g. <i>Mjau!</i>",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -4250,7 +4250,7 @@
                 ]
             },
             {
-                "text": "p_l yowls out in pain, alerting r_c and causing {PRONOUN\/r_c\/object} to drop everything and rush over. r_c tries to help the medicine cat to stand, but it quickly becomes clear that that won't be happening. p_l will need to be carried back to camp.",
+                "text": "p_l gr\u00e5ter av sm\u00e4rta, varnar r_c och f\u00e5r {PRONOUN/r_c/object} att tappa allt och rusa \u00f6ver. r_c f\u00f6rs\u00f6ker hj\u00e4lpa medicinkatten att st\u00e5 upp, men det blir snabbt klart att det inte kommer att h\u00e4nda. p_l kommer att beh\u00f6va b\u00e4ras tillbaka till l\u00e4gret.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -4264,9 +4264,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c was scarred after {PRONOUN\/m_c\/subject} tripped over a tree root.",
-                    "reg_death": "m_c died from injuries sustained after tripping over a tree root.",
-                    "lead_death": "died from injuries sustained after tripping over a tree root"
+                    "scar": "m_c fick \u00e4rr efter att {PRONOUN/m_c/subject} snubblade \u00f6ver en tr\u00e4drot.",
+                    "reg_death": "m_c dog av skador efter att ha snubblat \u00f6ver en tr\u00e4drot.",
+                    "lead_death": "dog av skador efter att ha snubblat \u00f6ver en tr\u00e4drot"
                 }
             }
         ]

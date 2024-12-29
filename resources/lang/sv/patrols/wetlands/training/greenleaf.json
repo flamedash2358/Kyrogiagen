@@ -27,11 +27,11 @@
         "relationship_constraint": [
             "not_mates"
         ],
-        "intro_text": "This heat is just oppressive. The patrol gives up on battle training. The humidity blankets the wetlands, thick, suffocating, sapping their strength as surely as a viper's bite.",
-        "decline_text": "Time to go back home and wait it out.",
+        "intro_text": "Den här värmen är bara tryckande. Patrullen ger upp stridsträningen. Fuktigheten täcker våtmarkerna, tjocka, kvävande, och tappar deras styrka lika säkert som ett huggormsbett.",
+        "decline_text": "Dags att gå hem och vänta.",
         "success_outcomes": [
             {
-                "text": "The patrol staggers towards the nearest pond and flops into it - not to hunt, solely for the cool water. r_c swipes water towards p_l and {PRONOUN\/p_l\/subject} {VERB\/p_l\/laugh\/laughes}, welcoming it and returning the favour. There's nothing like swimming in greenleaf, and the patrol devolves into a splash-fight.",
+                "text": "Patrullen vacklar mot närmaste damm och floppar in i den - inte för att jaga, enbart för det svala vattnet. r_c sveper vattnet mot p_l och {PRONOUN/p_l/subject} {VERB/p_l/laugh/laughes}, välkomnar det och ger tillbaka tjänsten. Det finns inget som att simma i greenleaf, och patrullen förvandlas till en plask-kamp.",
                 "exp": 20,
                 "weight": 10,
                 "art": "gen_train_soggykitty_happy_warrior",
@@ -66,7 +66,7 @@
                 ]
             },
             {
-                "text": "The patrol staggers towards the nearest pond and flops into it - not to hunt, solely for the cool water. r_c swipes water towards p_l and PRONOUN\/p_l\/subject} {VERB\/p_l\/laugh\/laughes}, welcoming it and returning the favour, batting back in splash-fight. The rest of the patrol fades away. The two of them are in their own little world",
+                "text": "Patrullen vacklar mot närmaste damm och floppar in i den - inte för att jaga, enbart för det svala vattnet. r_c sveper vatten mot p_l och PRONOUN/p_l/subject} {VERB/p_l/laugh/laughes}, välkomnar det och ger tillbaka tjänsten, slår tillbaka i splash-fight. Resten av patrullen tynar bort. De två är i sin egen lilla värld",
                 "exp": 20,
                 "weight": 10,
                 "art": "fst_train_newleafmatesonadates_70locked1",
@@ -104,7 +104,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's a long walk home, and not a pleasant one. They probably should have drunk more water before going out to train. Or not gone out at all.",
+                "text": "Det är en lång promenad hem, och ingen trevlig sådan. De borde nog ha druckit mer vatten innan de gick ut och tränade. Eller inte gått ut alls.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -119,8 +119,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c got dehydrated training under the hot greenleaf sun, and it eventually sapped {PRONOUN\/m_c\/poss} life from {PRONOUN\/m_c\/object}.",
-                    "lead_death": "got dehydrated training under the hot greenleaf sun, and it eventually sapped {PRONOUN\/m_c\/poss} life from {PRONOUN\/m_c\/object}"
+                    "reg_death": "m_c fick uttorkad träning under den varma grönbladssolen, och det tärde så småningom {PRONOUN/m_c/poss} liv från {PRONOUN/m_c/object}.",
+                    "lead_death": "fick uttorkad träning under den varma grönbladssolen, och det tärde till slut {PRONOUN/m_c/poss} liv från {PRONOUN/m_c/object}"
                 }
             }
         ]

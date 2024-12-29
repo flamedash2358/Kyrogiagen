@@ -27,12 +27,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l suggests to r_c that it is the perfect weather to go for a swim in the ocean together.",
-        "decline_text": "r_c isn't convinced and suggests they should probably focus on the patrol instead.",
+        "intro_text": "p_l f\u00f6resl\u00e5r r_c att det \u00e4r det perfekta v\u00e4dret att ta ett dopp i havet tillsammans.",
+        "decline_text": "r_c \u00e4r inte \u00f6vertygad och f\u00f6resl\u00e5r att de f\u00f6rmodligen borde fokusera p\u00e5 patrullen ist\u00e4llet.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l flashes r_c a playful look and leaps smoothly into the water. When p_l emerges from the water, {PRONOUN\/p_l\/poss} slicked fur clinging to {PRONOUN\/p_l\/poss} muscles, r_c can't help but admire p_l for {PRONOUN\/p_l\/poss} strength. With the way r_c's heart is fluttering, it may not just be p_l's strength {PRONOUN\/r_c\/subject} {VERB\/r_c\/admire\/admires}. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/brush\/brushes} it aside and {VERB\/r_c\/plunge\/plunges} in after {PRONOUN\/p_l\/object}.",
+                "text": "p_l blinkar r_c en lekfull blick och hoppar mjukt i vattnet. N\u00e4r p_l dyker upp ur vattnet, {PRONOUN/p_l/poss} slickad p\u00e4ls som klamrar sig fast vid {PRONOUN/p_l/poss} muskler, kan r_c inte l\u00e5ta bli att beundra p_l f\u00f6r {PRONOUN/p_l/poss} styrka. Med hur r_c:s hj\u00e4rta fladdrar, \u00e4r det kanske inte bara p_ls styrka {PRONOUN/r_c/subject} {VERB/r_c/admire/admires}. {PRONOUN/r_c/subject/CAP} {VERB/r_c/brush/brushes} \u00e5t sidan och {VERB/r_c/plunge/plunges} efter {PRONOUN/p_l/object}.",
                 "exp": 5,
                 "weight": 20,
                 "relationships": [
@@ -52,7 +52,7 @@
                 ]
             },
             {
-                "text": "Silence meets {PRONOUN\/p_l\/poss} question, and just as p_l is about to turn and ask again, r_c shoves {PRONOUN\/p_l\/object} into the water. Spluttering from the cold saltwater, p_l finds it quite difficult to scowl as though {PRONOUN\/p_l\/subject} {VERB\/p_l\/mean\/means} it, captivated by the sound of r_c's joyous laughter and the sunlight catching on {PRONOUN\/r_c\/poss} pelt in just the right way.",
+                "text": "Tystnad m\u00f6ter fr\u00e5gan om {PRONOUN/p_l/poss}, och precis n\u00e4r p_l \u00e4r p\u00e5 v\u00e4g att v\u00e4nda sig och fr\u00e5ga igen, trycker r_c {PRONOUN/p_l/object} i vattnet. St\u00f6ttande fr\u00e5n det kalla saltvattnet har p_l ganska sv\u00e5rt att smyga sig som om {PRONOUN/p_l/subject} {VERB/p_l/mean/means} det, f\u00e4ngslad av ljudet av r_c:s glada skratt och solljuset som faller p\u00e5 {PRONOUN/r_c /poss} p\u00e4ls p\u00e5 precis r\u00e4tt s\u00e4tt.",
                 "exp": 5,
                 "weight": 5,
                 "relationships": [
@@ -74,7 +74,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c dips one paw in the water and hisses, proclaiming that it's much too cold and urging p_l to come back to camp with {PRONOUN\/r_c\/object} instead.",
+                "text": "r_c doppar en tass i vattnet och v\u00e4ser, proklamerar att det \u00e4r alldeles f\u00f6r kallt och uppmanar p_l att komma tillbaka till l\u00e4gret med {PRONOUN/r_c/object} ist\u00e4llet.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -94,7 +94,7 @@
                 ]
             },
             {
-                "text": "s_c tries {PRONOUN\/s_c\/poss} best to show off {PRONOUN\/s_c\/poss} swimming skills, but {PRONOUN\/s_c\/poss} companion just isn't paying attention, too focused on {PRONOUN\/r_c\/poss} own swimming to notice. Eventually, s_c gives up for now, discouraged.",
+                "text": "s_c f\u00f6rs\u00f6ker {PRONOUN/s_c/poss} b\u00e4st att visa upp {PRONOUN/s_c/poss} simkunskaper, men {PRONOUN/s_c/poss} f\u00f6ljeslagare \u00e4r helt enkelt inte uppm\u00e4rksamma, alltf\u00f6r fokuserad p\u00e5 {PRONOUN/r_c/poss} egna simma att l\u00e4gga m\u00e4rke till. S\u00e5 sm\u00e5ningom ger s_c upp f\u00f6r nu, avskr\u00e4ckt.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -147,12 +147,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 notices app2's absence and follows {PRONOUN\/app2\/poss} unobscured trail to the cliff's edge. What in the seven seas is app2 doing out here? There's an eagle nest, app2 explains, {PRONOUN\/app2\/poss} tail swooping up over {PRONOUN\/app2\/poss} back to point - look, the chicks are trying to fly!",
-        "decline_text": "That's lovely, but, like, can app2 watch from a place that isn't a damned cliff edge?",
+        "intro_text": "app1 m\u00e4rker app2:s fr\u00e5nvaro och f\u00f6ljer {PRONOUN/app2/poss} oskymd sp\u00e5r till klippkanten. Vad i hela v\u00e4rlden g\u00f6r app2 h\u00e4r ute? Det finns ett \u00f6rnbo, f\u00f6rklarar app2, {PRONOUN/app2/poss} svans sveper upp \u00f6ver {PRONOUN/app2/poss} tillbaka till punkten - titta, ungarna f\u00f6rs\u00f6ker flyga!",
+        "decline_text": "Det \u00e4r underbart, men kan app2 titta fr\u00e5n en plats som inte \u00e4r en f\u00f6rbannad klippkant?",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Wait, like, eagle apprentices? Intrigued, app1 sticks {PRONOUN\/app1\/poss} head out. Down below, two dappled feathered juveniles squabble, beating their wings frantically, clearly gearing up for something. app2 bets on the lighter colored one, but app1 thinks that the smaller dark patterned one has the heart for it, and {PRONOUN\/app1\/subject} {VERB\/app1\/leap\/leaps} to {PRONOUN\/app1\/poss} paws when the darker chick takes to the wing first, throwing {PRONOUN\/app1\/poss} head back and yowling cheers to the sky as the little eagle makes it to the next tree over.",
+                "text": "V\u00e4nta, typ, \u00f6rnl\u00e4rlingar? Intresserad, app1 sticker ut {PRONOUN/app1/poss}. Nedanf\u00f6r br\u00e5kar tv\u00e5 fl\u00e4ckiga fj\u00e4derbevuxna ungdomar, sl\u00e5r frenetiskt p\u00e5 sina vingar, tydligt redo f\u00f6r n\u00e5got. app2 satsar p\u00e5 den ljusare, men app1 tror att den mindre m\u00f6rkm\u00f6nstrade har hj\u00e4rtat f\u00f6r det, och {PRONOUN/app1/subject} {VERB/app1/leap/leaps} till {PRONOUN/app1/poss} tassar n\u00e4r den m\u00f6rkare bruden tar sig f\u00f6rst till vingen, kastar {PRONOUN/app1/poss} huvudet bak\u00e5t och skriker hurrarop mot himlen som den lilla \u00f6rnen tar sig till n\u00e4sta tr\u00e4d \u00f6ver.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -186,7 +186,7 @@
                 ]
             },
             {
-                "text": "app1 has never seen those before! {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/edge\/edges} over beside app2, both apprentices staring down at the eagle nest in the tree below them, calling down advice. No, beat their wings harder! Harder! They can do it!",
+                "text": "app1 har aldrig sett dem f\u00f6rut! {PRONOUN/app1/subject/CAP} {VERB/app1/edge/edges} bredvid app2, b\u00e5da l\u00e4rlingarna stirrar ner p\u00e5 \u00f6rnboet i tr\u00e4det under dem och ropar p\u00e5 r\u00e5d. Nej, sl\u00e5 deras vingar h\u00e5rdare! H\u00e5rdare! De kan g\u00f6ra det!",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -222,12 +222,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's not app1's thing, but {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} happy to bask a couple tail-lengths away until app2 is done eagle watching.",
+                "text": "Det \u00e4r inte app1s grej, men {PRONOUN/app1/subject}{VERB/app1/'re/'s} solar sig g\u00e4rna ett par svansl\u00e4ngder bort tills app2 \u00e4r klar med \u00f6rnsk\u00e5dning.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "s_c crowds forward, daringly letting {PRONOUN\/s_c\/poss} paws dangle over the edge as {PRONOUN\/s_c\/subject} {VERB\/s_c\/look\/looks} at the chicks - and the ground crumbles. Both apprentices flinch backwards with yelps and yowls, but s_c is too close, on too unstable ground, and {PRONOUN\/s_c\/subject} {VERB\/s_c\/feel\/feels} {PRONOUN\/s_c\/self} losing {PRONOUN\/s_c\/poss} grip. {PRONOUN\/s_c\/poss\/CAP} heart jumps with terror as sudden pain sparks down {PRONOUN\/s_c\/poss} flank. The other apprentice digs fangs into s_c's side, saving {PRONOUN\/s_c\/poss} life, if not {PRONOUN\/s_c\/poss} pelt.",
+                "text": "s_c tr\u00e4ngs fram och l\u00e5ter dj\u00e4rvt {PRONOUN/s_c/poss} tassar dingla \u00f6ver kanten medan {PRONOUN/s_c/subject} {VERB/s_c/look/looks} mot ungarna - och marken faller s\u00f6nder. B\u00e5da l\u00e4rlingarna ryggar bakl\u00e4nges med tjat och tjat, men s_c \u00e4r f\u00f6r n\u00e4ra, p\u00e5 f\u00f6r instabil mark, och {PRONOUN/s_c/subject} {VERB/s_c/feel/feels} {PRONOUN/s_c/self} tappar {PRONOUN/s_c/ poss} grepp. {PRONOUN/s_c/poss/CAP} hj\u00e4rta hoppar av skr\u00e4ck n\u00e4r pl\u00f6tslig sm\u00e4rta gnistor l\u00e4ngs {PRONOUN/s_c/poss} flanken. Den andra l\u00e4rlingen gr\u00e4ver huggt\u00e4nder i s_c:s sida och r\u00e4ddar {PRONOUN/s_c/poss} liv, om inte {PRONOUN/s_c/poss} p\u00e4ls.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -255,7 +255,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c was scarred when another apprentice (violently) saved {PRONOUN\/r_c\/poss} life from a cliff fall during a youthful adventure."
+                    "scar": "r_c var \u00e4rrad n\u00e4r en annan l\u00e4rling (v\u00e5ldsamt) r\u00e4ddade {PRONOUN/r_c/poss} liv fr\u00e5n ett klippfall under ett ungdomligt \u00e4ventyr."
                 }
             }
         ]
@@ -288,12 +288,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 notices app2's absence and follows {PRONOUN\/app2\/poss} unobscured trail to the cliff's edge. What in the seven seas is app2 doing out here? There's an eagle nest, app2 explains, {PRONOUN\/app2\/poss} tail swooping up over {PRONOUN\/app2\/poss} back to point - look, the chicks are trying to fly!",
-        "decline_text": "That's lovely, but, like, can app2 watch from a place that isn't a damned cliff edge?",
+        "intro_text": "app1 m\u00e4rker app2:s fr\u00e5nvaro och f\u00f6ljer {PRONOUN/app2/poss} oskymd sp\u00e5r till klippkanten. Vad i hela v\u00e4rlden g\u00f6r app2 h\u00e4r ute? Det finns ett \u00f6rnbo, f\u00f6rklarar app2, {PRONOUN/app2/poss} svans sveper upp \u00f6ver {PRONOUN/app2/poss} tillbaka till punkten - titta, ungarna f\u00f6rs\u00f6ker flyga!",
+        "decline_text": "Det \u00e4r underbart, men kan app2 titta fr\u00e5n en plats som inte \u00e4r en f\u00f6rbannad klippkant?",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Wait, like, eagle apprentices? Intrigued, app1 sticks {PRONOUN\/app1\/poss} head out. Down below, two dappled feathered juveniles squabble, beating their wings frantically, clearly gearing up for something. app2 bets on the lighter colored one, but app1 thinks that the smaller dark patterned one has the heart for it, and {PRONOUN\/app1\/subject} {VERB\/app1\/leap\/leaps} to {PRONOUN\/app1\/poss} paws when the darker chick takes to the wing first, throwing {PRONOUN\/app1\/poss} head back and yowling cheers to the sky as the little eagle makes it to the next tree over.",
+                "text": "V\u00e4nta, typ, \u00f6rnl\u00e4rlingar? Intresserad, app1 sticker ut {PRONOUN/app1/poss}. Nedanf\u00f6r br\u00e5kar tv\u00e5 fl\u00e4ckiga fj\u00e4derbevuxna ungdomar, sl\u00e5r frenetiskt p\u00e5 sina vingar, tydligt redo f\u00f6r n\u00e5got. app2 satsar p\u00e5 den ljusare, men app1 tror att den mindre m\u00f6rkm\u00f6nstrade har hj\u00e4rtat f\u00f6r det, och {PRONOUN/app1/subject} {VERB/app1/leap/leaps} till {PRONOUN/app1/poss} tassar n\u00e4r den m\u00f6rkare bruden tar sig f\u00f6rst till vingen, kastar {PRONOUN/app1/poss} huvudet bak\u00e5t och skriker hurrarop mot himlen som den lilla \u00f6rnen tar sig till n\u00e4sta tr\u00e4d \u00f6ver.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -327,7 +327,7 @@
                 ]
             },
             {
-                "text": "app1 has never seen those before! {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/edge\/edges} over beside app2, both apprentices staring down at the eagle nest in the tree below them, calling down advice. No, beat their wings harder! Harder! They can do it!",
+                "text": "app1 har aldrig sett dem f\u00f6rut! {PRONOUN/app1/subject/CAP} {VERB/app1/edge/edges} bredvid app2, b\u00e5da l\u00e4rlingarna stirrar ner p\u00e5 \u00f6rnboet i tr\u00e4det under dem och ropar p\u00e5 r\u00e5d. Nej, sl\u00e5 deras vingar h\u00e5rdare! H\u00e5rdare! De kan g\u00f6ra det!",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -363,12 +363,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's not app1's thing, but {PRONOUN\/app1\/subject}{VERB\/app1\/'re\/'s} happy to bask a couple tail-lengths away until app2 is done eagle watching.",
+                "text": "Det \u00e4r inte app1s grej, men {PRONOUN/app1/subject}{VERB/app1/'re/'s} solar sig g\u00e4rna ett par svansl\u00e4ngder bort tills app2 \u00e4r klar med \u00f6rnsk\u00e5dning.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "s_c crowds forward, daringly letting {PRONOUN\/s_c\/poss} paws dangle over the edge as {PRONOUN\/s_c\/subject} {VERB\/s_c\/look\/looks} at the chicks - and the ground crumbles. Both apprentices flinch backwards with yelps and yowls, but s_c is too close, on too unstable ground, and {PRONOUN\/s_c\/subject} {VERB\/s_c\/feel\/feels} {PRONOUN\/s_c\/self} losing {PRONOUN\/s_c\/poss} grip. {PRONOUN\/s_c\/poss\/CAP} heart jumps with terror as sudden pain sparks down {PRONOUN\/s_c\/poss} flank. The other apprentice digs fangs into s_c's side, saving {PRONOUN\/s_c\/poss} life, if not {PRONOUN\/s_c\/poss} pelt.",
+                "text": "s_c tr\u00e4ngs fram och l\u00e5ter dj\u00e4rvt {PRONOUN/s_c/poss} tassar dingla \u00f6ver kanten medan {PRONOUN/s_c/subject} {VERB/s_c/look/looks} mot ungarna - och marken faller s\u00f6nder. B\u00e5da l\u00e4rlingarna ryggar bakl\u00e4nges med tjat och tjat, men s_c \u00e4r f\u00f6r n\u00e4ra, p\u00e5 f\u00f6r instabil mark, och {PRONOUN/s_c/subject} {VERB/s_c/feel/feels} {PRONOUN/s_c/self} tappar {PRONOUN/s_c/ poss} grepp. {PRONOUN/s_c/poss/CAP} hj\u00e4rta hoppar av skr\u00e4ck n\u00e4r pl\u00f6tslig sm\u00e4rta gnistor l\u00e4ngs {PRONOUN/s_c/poss} flanken. Den andra l\u00e4rlingen gr\u00e4ver huggt\u00e4nder i s_c:s sida och r\u00e4ddar {PRONOUN/s_c/poss} liv, om inte {PRONOUN/s_c/poss} p\u00e4ls.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -396,12 +396,12 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c was scarred when another apprentice (violently) saved {PRONOUN\/r_c\/poss} life from a cliff fall during a youthful adventure.",
-                    "death": "r_c fell from a cliff as an apprentice when {PRONOUN\/r_c\/subject} took a stupid risk, cutting {PRONOUN\/r_c\/poss} life short."
+                    "scar": "r_c var \u00e4rrad n\u00e4r en annan l\u00e4rling (v\u00e5ldsamt) r\u00e4ddade {PRONOUN/r_c/poss} liv fr\u00e5n ett klippfall under ett ungdomligt \u00e4ventyr.",
+                    "death": "r_c f\u00f6ll fr\u00e5n en klippa som l\u00e4rling n\u00e4r {PRONOUN/r_c/subject} tog en dum risk och f\u00f6rkortade {PRONOUN/r_c/poss} livet."
                 }
             },
             {
-                "text": "s_c crowds forward, daringly letting {PRONOUN\/s_c\/poss} paws dangle over the edge as {PRONOUN\/s_c\/subject} {VERB\/s_c\/look\/looks} at the chicks - and the ground crumbles. Both apprentices flinch backwards with yelps and yowls, but s_c is too close, on too unstable ground, and {PRONOUN\/s_c\/subject} {VERB\/s_c\/feel\/feels} {PRONOUN\/s_c\/self} losing {PRONOUN\/s_c\/poss} grip, {PRONOUN\/s_c\/poss} claws gripping on nothing as {PRONOUN\/s_c\/subject} {VERB\/s_c\/tumble\/tumbles}, spinning end over end, yowling with terror, until {PRONOUN\/s_c\/poss} flight comes to an abrupt and terrible end.",
+                "text": "s_c tr\u00e4ngs fram och l\u00e5ter dj\u00e4rvt {PRONOUN/s_c/poss} tassar dingla \u00f6ver kanten medan {PRONOUN/s_c/subject} {VERB/s_c/look/looks} mot ungarna - och marken faller s\u00f6nder. B\u00e5da l\u00e4rlingarna ryggar bakl\u00e4nges med tjat och tjat, men s_c \u00e4r f\u00f6r n\u00e4ra, p\u00e5 f\u00f6r instabil mark, och {PRONOUN/s_c/subject} {VERB/s_c/feel/feels} {PRONOUN/s_c/self} tappar {PRONOUN/s_c/ poss} grepp, {PRONOUN/s_c/poss} klor gripande p\u00e5 ingenting som {PRONOUN/s_c/subject} {VERB/s_c/tumble/tumbles}, snurrar p\u00e5 \u00e4nda, skriker av skr\u00e4ck, tills flygningen {PRONOUN/s_c/poss} f\u00e5r ett abrupt och fruktansv\u00e4rt slut.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -419,8 +419,8 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "scar": "r_c was scarred when another apprentice (violently) saved {PRONOUN\/r_c\/poss} life from a cliff fall during a youthful adventure.",
-                    "death": "r_c fell from a cliff as an apprentice when {PRONOUN\/r_c\/subject} took a stupid risk, cutting {PRONOUN\/r_c\/poss} life short."
+                    "scar": "r_c var \u00e4rrad n\u00e4r en annan l\u00e4rling (v\u00e5ldsamt) r\u00e4ddade {PRONOUN/r_c/poss} liv fr\u00e5n ett klippfall under ett ungdomligt \u00e4ventyr.",
+                    "death": "r_c f\u00f6ll fr\u00e5n en klippa som l\u00e4rling n\u00e4r {PRONOUN/r_c/subject} tog en dum risk och f\u00f6rkortade {PRONOUN/r_c/poss} livet."
                 }
             }
         ]
@@ -442,12 +442,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "While out training, r_c stumbles upon a bush of red berries.",
-        "decline_text": "r_c decides not to touch the berries.",
+        "intro_text": "N\u00e4r han \u00e4r ute och tr\u00e4nar, snubblar r_c p\u00e5 en buske med r\u00f6da b\u00e4r.",
+        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att inte r\u00f6ra b\u00e4ren.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Unsure but remembering the kitten-tales of red deathberries, r_c avoids them, and gives the rest of the patrol a heads-up about the potentially dangerous bush.",
+                "text": "Os\u00e4ker men kommer ih\u00e5g kattungens ber\u00e4ttelser om r\u00f6da d\u00f6dsb\u00e4r, r_c undviker dem och ger resten av patrullen en heads-up om den potentiellt farliga busken.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -468,7 +468,7 @@
                 ]
             },
             {
-                "text": "After careful consideration and consulting with the other cats, r_c recognizes them as raspberries and brings the rare berries back to the medicine cat's den.",
+                "text": "Efter noggrant \u00f6verv\u00e4gande och samr\u00e5d med de andra katterna k\u00e4nner r_c igen dem som hallon och tar de s\u00e4llsynta b\u00e4ren tillbaka till medicinkattens h\u00e5la.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -492,7 +492,7 @@
                 ]
             },
             {
-                "text": "Astutely, s_c recognizes the raspberries, and carefully chews off a branch laden with them to bring back to camp - the herb stocks can use this odd fruit.",
+                "text": "Sk\u00f6nt k\u00e4nner s_c igen hallonen och tuggar f\u00f6rsiktigt av en gren som \u00e4r lastad med dem f\u00f6r att ta med sig tillbaka till l\u00e4gret - \u00f6rtbest\u00e5nden kan anv\u00e4nda denna udda frukt.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -521,7 +521,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Confidently gathering them and prancing back to camp with the patrol, r_c is then informed that redcurrants aren't a useful medicinal herb.",
+                "text": "N\u00e4r han sj\u00e4lvs\u00e4kert samlar ihop dem och springer tillbaka till l\u00e4gret med patrullen f\u00e5r r_c besked om att r\u00f6da vinb\u00e4r inte \u00e4r en anv\u00e4ndbar medicinsk \u00f6rt.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -542,7 +542,7 @@
                 ]
             },
             {
-                "text": "While plucking them from the bush, r_c is surprised to find they taste pretty good. Before anyone can stop {PRONOUN\/r_c\/object}, {PRONOUN\/r_c\/subject} {VERB\/r_c\/eat\/eats} a few, and {VERB\/r_c\/are\/is} rushed back to camp for deathberry poisoning.",
+                "text": "Medan r_c plockar dem fr\u00e5n busken blir r_c f\u00f6rv\u00e5nad \u00f6ver att finna att de smakar ganska bra. Innan n\u00e5gon kan stoppa {PRONOUN/r_c/object}, skyndade {PRONOUN/r_c/subject} {VERB/r_c/eat/eats} n\u00e5gra och {VERB/r_c/are/is} tillbaka till l\u00e4gret f\u00f6r d\u00f6dsb\u00e4rsf\u00f6rgiftning.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -557,8 +557,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c mistook deathberries for something edible.",
-                    "lead_death": "after eating deathberries"
+                    "reg_death": "m_c misstog d\u00f6dsb\u00e4r f\u00f6r n\u00e5got \u00e4tbart.",
+                    "lead_death": "efter att ha \u00e4tit d\u00f6dsb\u00e4r"
                 },
                 "relationships": [
                     {
@@ -601,17 +601,17 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Whilst helping to gather herbs, app1 stumbles upon a bush of red berries.",
-        "decline_text": "r_c decides not to touch the berries.",
+        "intro_text": "Samtidigt som app1 hj\u00e4lper till att samla \u00f6rter, snubblar app1 p\u00e5 en buske med r\u00f6da b\u00e4r.",
+        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att inte r\u00f6ra b\u00e4ren.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Unsure but remembering the kitten-tales of red deathberries from the nursery, app1 avoids them and alerts the other apprentices.",
+                "text": "Os\u00e4ker men kommer ih\u00e5g kattungesagorna om r\u00f6da d\u00f6dsb\u00e4r fr\u00e5n barnkammaren, app1 undviker dem och varnar de andra l\u00e4rlingarna.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "Whatever. Identifying them is medicine cat nonsense and not app1's problem. app1 plucks the berries and brings them back to camp, where it turns out they're called raspberries.",
+                "text": "Vad som helst. Att identifiera dem \u00e4r medicinkatt-nonsens och inte app1:s problem. app1 plockar b\u00e4ren och tar med dem tillbaka till l\u00e4gret, d\u00e4r det visar sig att de kallas hallon.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -621,24 +621,24 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Confidently gathering them and prancing back to camp, app1 is then informed that redcurrants aren't a useful medicinal herb.",
+                "text": "App1 samlar dem med tillf\u00f6rsikt och springer tillbaka till l\u00e4gret och informeras sedan om att r\u00f6da vinb\u00e4r inte \u00e4r en anv\u00e4ndbar medicinsk \u00f6rt.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Whatever. Identifying them is medicine cat nonsense and not app1's problem. app1 plucks the berries, surprised at the pleasant taste, and swallows a few. {PRONOUN\/app1\/subject\/CAP} {VERB\/app1\/collapse\/collapses} on the way back to camp, and there's nothing any cat can do for {PRONOUN\/app1\/object}, having not identified deathberries before eating them.",
+                "text": "Vad som helst. Att identifiera dem \u00e4r medicinkatt-nonsens och inte app1:s problem. app1 plockar b\u00e4ren, f\u00f6rv\u00e5nad \u00f6ver den behagliga smaken och sv\u00e4ljer n\u00e5gra. {PRONOUN/app1/subject/CAP} {VERB/app1/collapse/collapses} p\u00e5 v\u00e4g tillbaka till l\u00e4gret, och det finns inget n\u00e5gon katt kan g\u00f6ra f\u00f6r {PRONOUN/app1/object}, efter att inte ha identifierat d\u00f6dsb\u00e4r innan de \u00e4tit dem.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "app1"
                 ],
                 "history_text": {
-                    "reg_death": "m_c mistook deathberries for something edible.",
-                    "lead_death": "after eating deathberries"
+                    "reg_death": "m_c misstog d\u00f6dsb\u00e4r f\u00f6r n\u00e5got \u00e4tbart.",
+                    "lead_death": "efter att ha \u00e4tit d\u00f6dsb\u00e4r"
                 }
             },
             {
-                "text": "Whatever. Identifying them is medicine cat nonsense and not app1's problem. app1 plucks the tasty berries, swallowing a few, and takes the rest back to camp where {PRONOUN\/app1\/subject} {VERB\/app1\/collapse\/collapses} from deathberry poisoning.",
+                "text": "Vad som helst. Att identifiera dem \u00e4r medicinkatt-nonsens och inte app1:s problem. app1 plockar de goda b\u00e4ren, sv\u00e4ljer n\u00e5gra och tar resten tillbaka till l\u00e4gret d\u00e4r {PRONOUN/app1/subject} {VERB/app1/collapse/collapses} fr\u00e5n d\u00f6dsb\u00e4rsf\u00f6rgiftning.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -653,8 +653,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c mistook deathberries for something edible.",
-                    "lead_death": "after eating deathberries"
+                    "reg_death": "m_c misstog d\u00f6dsb\u00e4r f\u00f6r n\u00e5got \u00e4tbart.",
+                    "lead_death": "efter att ha \u00e4tit d\u00f6dsb\u00e4r"
                 }
             }
         ]
@@ -683,11 +683,11 @@
         "pl_skill_constraint": [
             "LORE,1"
         ],
-        "intro_text": "p_l leads the patrol out to a promontory of rock, pointing out the Twoleg monsters crowding the sandy shoreline below as they twinkle in the sunlight.",
-        "decline_text": "Clearly there'll be no using this part of their territory today then. The patrol goes to report this back to camp.",
+        "intro_text": "p_l leder patrullen ut till en udde av klippor och pekar ut Twoleg-monstren som tr\u00e4ngs l\u00e4ngs den sandiga strandlinjen nedanf\u00f6r n\u00e4r de glittrar i solljuset.",
+        "decline_text": "Uppenbarligen kommer det inte att anv\u00e4ndas den h\u00e4r delen av deras territorium idag d\u00e5. Patrullen g\u00e5r f\u00f6r att rapportera detta tillbaka till l\u00e4gret.",
         "success_outcomes": [
             {
-                "text": "This is the history p_l is here to teach - every greenleaf, the Twolegs come to this beach, a great migration in their monsters. They swim in this bay, and occasionally the bays to either side, but no more than that, a constrained invasion. Leave them to their rituals. c_n will return to this beach when the seasons change.",
+                "text": "Det h\u00e4r \u00e4r historien p_l \u00e4r h\u00e4r f\u00f6r att l\u00e4ra ut - varje gr\u00f6nt blad, Twolegs kommer till denna strand, en stor migration i sina monster. De simmar i den h\u00e4r bukten, och ibland vikarna p\u00e5 b\u00e5da sidor, men inte mer \u00e4n s\u00e5, en begr\u00e4nsad invasion. L\u00e4mna dem till sina ritualer. c_n kommer att \u00e5terv\u00e4nda till den h\u00e4r stranden n\u00e4r \u00e5rstiderna \u00e4ndras.",
                 "exp": 30,
                 "weight": 20,
                 "art": "bch_hunt_twolegsobject",
@@ -724,7 +724,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The monsters unnerve the patrol, who don't want to stick around to hear p_l's lesson. p_l disapproves, but lets the patrol end early.",
+                "text": "Monstren irriterar patrullen, som inte vill stanna kvar f\u00f6r att h\u00f6ra p_ls l\u00e4xa. p_l ogillar, men l\u00e5ter patrullen avsluta tidigt.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -788,11 +788,11 @@
         "relationship_constraint": [
             "not_mates"
         ],
-        "intro_text": "This is just oppressive. The sand burns the patrol's paws as they dart from one refuge of dune-bush to another, the distant training grounds they were supposed to go to looking more and more out of reach.",
-        "decline_text": "Time to go back home and wait it out.",
+        "intro_text": "Det h\u00e4r \u00e4r bara f\u00f6rtryckande. Sanden br\u00e4nner patrullens tassar n\u00e4r de flyger fr\u00e5n en tillflyktsort av dynbuske till en annan, de avl\u00e4gsna tr\u00e4ningsplatserna som de skulle \u00e5ka till ser mer och mer utom r\u00e4ckh\u00e5ll.",
+        "decline_text": "Dags att g\u00e5 hem och v\u00e4nta.",
         "success_outcomes": [
             {
-                "text": "They all stagger towards the nearest rockpool and flop into it, not hunting, purely there for the water and damp coats. r_c swipes water towards p_l and {PRONOUN\/p_l\/subject} {VERB\/p_l\/laugh\/laughs}, welcoming it and returning the favor. There's nothing like swimming in greenleaf, and the patrol devolves into a waterfight.",
+                "text": "De vacklar alla mot n\u00e4rmaste klippbass\u00e4ng och floppar in i den, inte p\u00e5 jakt, enbart d\u00e4r f\u00f6r vattnet och fuktiga rockar. r_c sveper vatten mot p_l och {PRONOUN/p_l/subject} {VERB/p_l/laugh/laughs}, v\u00e4lkomnar det och ger tillbaka tj\u00e4nsten. Det finns inget som att simma i greenleaf, och patrullen f\u00f6rvandlas till en vattenstrid.",
                 "exp": 20,
                 "weight": 10,
                 "art": "gen_train_soggykitty_happy_warrior",
@@ -827,7 +827,7 @@
                 ]
             },
             {
-                "text": "They all stagger towards the nearest rockpool and flop into it, not hunting, purely there for the water and damp coats. r_c swipes water towards p_l and {PRONOUN\/p_l\/subject} {VERB\/p_l\/laugh\/laughs}, welcoming it and returning the favor, batting back in mock splashy fight as the rest of the patrol fades away, just the two of them in their own little world",
+                "text": "De vacklar alla mot n\u00e4rmaste klippbass\u00e4ng och floppar in i den, inte p\u00e5 jakt, enbart d\u00e4r f\u00f6r vattnet och fuktiga rockar. r_c sveper vatten mot p_l och {PRONOUN/p_l/subject} {VERB/p_l/laugh/laughs}, v\u00e4lkomnar det och ger tillbaka tj\u00e4nsten, sl\u00e5r tillbaka i skenbart plaskande slagsm\u00e5l n\u00e4r resten av patrullen f\u00f6rsvinner, bara de tv\u00e5 i sin egen lilla v\u00e4rld",
                 "exp": 20,
                 "weight": 10,
                 "art": "fst_train_newleafmatesonadates_70locked1",
@@ -865,7 +865,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's a long walk home, and not a pleasent one. They probably should have drunk more water before going out to train. Or not gone out at all.",
+                "text": "Det \u00e4r en l\u00e5ng promenad hem, och inte en trevlig s\u00e5dan. De borde nog ha druckit mer vatten innan de gick ut och tr\u00e4nade. Eller inte g\u00e5tt ut alls.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -880,8 +880,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c got dehydrated training under the hot greenleaf sun, and it eventually sapped {PRONOUN\/m_c\/poss} life from {PRONOUN\/m_c\/object}.",
-                    "lead_death": "got dehydrated training under the hot greenleaf sun, and it eventually sapped {PRONOUN\/m_c\/poss} life from {PRONOUN\/m_c\/object}"
+                    "reg_death": "m_c fick uttorkad tr\u00e4ning under den varma gr\u00f6nbladssolen, och det t\u00e4rde s\u00e5 sm\u00e5ningom {PRONOUN/m_c/poss} liv fr\u00e5n {PRONOUN/m_c/object}.",
+                    "lead_death": "fick uttorkad tr\u00e4ning under den varma gr\u00f6nbladssolen, och det t\u00e4rde till slut {PRONOUN/m_c/poss} liv fr\u00e5n {PRONOUN/m_c/object}"
                 }
             }
         ]

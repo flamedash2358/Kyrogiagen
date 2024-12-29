@@ -2,70 +2,70 @@
     "virtues": {
         "comment": "THIS DICT DOES NOTHING - it's purely here for quick reference of some possible virtues, you are not constrained to using these nor should you use these lists",
         "queen_virtues": [
-            "affection",
-            "compassion",
-            "empathy",
-            "duty",
-            "protection",
-            "pride"
+            "tillgivenhet",
+            "medlidande",
+            "empati",
+            "tull",
+            "skydd",
+            "stolthet"
         ],
         "warrior_virtues": [
-            "acceptance",
-            "bravery",
-            "certainty",
-            "clear judgment",
-            "confidence",
-            "courage",
-            "determination",
-            "endurance",
-            "sympathy",
-            "farsightedness",
-            "friendship",
-            "instincts",
-            "mercy",
-            "strength",
-            "unity"
+            "godtagande",
+            "mod",
+            "säkerhet",
+            "tydligt omdöme",
+            "förtroende",
+            "mod",
+            "bestämning",
+            "uthållighet",
+            "sympati",
+            "framsynthet",
+            "vänskap",
+            "instinkter",
+            "barmhärtighet",
+            "styrka",
+            "enhet"
         ],
         "kit_virtues": [
-            "adventure",
-            "curiosity",
-            "forgiveness",
-            "hope",
-            "perspective",
-            "protection"
+            "äventyr",
+            "nyfikenhet",
+            "förlåtelse",
+            "hoppas",
+            "perspektiv",
+            "skydd"
         ],
         "app_virtues": [
-            "happiness",
-            "honesty",
-            "humor",
-            "justice",
-            "mentoring",
-            "trust"
+            "lycka",
+            "ärlighet",
+            "humör",
+            "rättvisa",
+            "mentorskap",
+            "förtroende"
         ],
         "elder_virtues": [
-            "empathy",
-            "grace",
-            "humility",
-            "integrity",
-            "persistence",
-            "resilience"
+            "empati",
+            "nåd",
+            "ödmjukhet",
+            "integritet",
+            "uthållighet",
+            "elasticitet"
         ],
         "med_cat_virtues": [
-            "clear sight",
-            "devotion",
-            "faith",
-            "healing",
-            "patience",
-            "selflessness",
-            "wisdom"
+            "fri sikt",
+            "hängivenhet",
+            "tro",
+            "helande",
+            "tålamod",
+            "osjälviskhet",
+            "visdom"
         ],
         "prev_lead_virtues": [
-            "endurance in the face of hardship",
-            "knowing when to fight and when to choose peace",
-            "leadership through the darkest times",
-            "loyalty to {PRONOUN\/m_c\/poss} Clan",
-            "the strength to overcome {PRONOUN\/m_c\/poss} fears",
-            "tireless energy"
+            "uthållighet inför svårigheter",
+            "att veta när man ska kämpa och när man ska välja fred",
+            "ledarskap genom de mörkaste tiderna",
+            "lojalitet till klanen {PRONOUN/m_c/poss}",
+            "styrkan att övervinna {PRONOUN/m_c/poss} rädslor",
+            "outtröttlig energi"
         ]
     },
     "intros": {
@@ -73,7 +73,7 @@
             "tags": [],
             "lead_trait": [],
             "text": [
-                "m_c leaves to speak with StarClan. {PRONOUN\/m_c\/subject\/CAP} {VERB\/m_c\/close\/closes} {PRONOUN\/m_c\/poss} eyes and {VERB\/m_c\/are\/is} immediately surrounded by {PRONOUN\/m_c\/poss} loved ones, friends, and Clanmates who have passed on. Stars shine throughout their pelts, and their eyes are warm as they greet the new leader."
+                "m_c lämnar för att prata med StarClan. {PRONOUN/m_c/subject/CAP} {VERB/m_c/close/closes} {PRONOUN/m_c/poss} ögon och {VERB/m_c/are/is} omedelbart omgivna av {PRONOUN/m_c/poss} nära och kära, vänner , och klankamrater som har gått vidare. Stjärnor lyser i hela deras skinn och deras ögon är varma när de hälsar på den nya ledaren."
             ]
         },
         "new_clan": {
@@ -82,7 +82,7 @@
             ],
             "lead_trait": [],
             "text": [
-                "As m_c dreams that night, {PRONOUN\/m_c\/subject} {VERB\/m_c\/find\/finds} {PRONOUN\/m_c\/self} walking the stars of Silverpelt, a ghostly landscape surrounding {PRONOUN\/m_c\/object} and a single, starry cat sat within a clearing."
+                "Som m_c drömmer den natten, {PRONOUN/m_c/subject} {VERB/m_c/find/finds} {PRONOUN/m_c/self} går stjärnorna i Silverpelt, ett spöklikt landskap som omger {PRONOUN/m_c/object} och en singel, stjärnklar katt satt i en glänta."
             ]
         },
         "bloodthirsty": {
@@ -91,16 +91,16 @@
                 "bloodthirsty"
             ],
             "text": [
-                "m_c leaves to speak with StarClan. {PRONOUN\/m_c\/subject\/CAP} {VERB\/m_c\/close\/closes} {PRONOUN\/m_c\/poss} eyes and {VERB\/m_c\/awaken\/awakens} under a vast, inky black sky. {PRONOUN\/m_c\/subject\/CAP} {VERB\/m_c\/turn\/turns} around to see a wary group of cats approaching, stars dotting their fur."
+                "m_c lämnar för att prata med StarClan. {PRONOUN/m_c/subject/CAP} {VERB/m_c/close/closes} {PRONOUN/m_c/poss} ögon och {VERB/m_c/awaken/awakens} under en vidsträckt, bläckblå himmel. {PRONOUN/m_c/subject/CAP} {VERB/m_c/turn/turns} runt för att se en försiktig grupp katter närma sig, stjärnor som prickar sin päls."
             ]
         }
     },
     "default_life": {
-        "text": "r_c approaches, dipping {PRONOUN\/r_c\/poss} head in greeting. \"I give you a life for [virtue].\" {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/meow\/meows}, before slipping back into the crowd.",
+        "text": "r_c närmar sig och doppar {PRONOUN/r_c/poss} huvudet i hälsning. \"Jag ger dig ett liv för [dygd].\" {PRONOUN/r_c/subject/CAP} {VERB/r_c/meow/meows}, innan du glider tillbaka in i mängden.",
         "virtue": [
-            "energy",
-            "strength",
-            "wisdom"
+            "energi",
+            "styrka",
+            "visdom"
         ]
     },
     "lives": {
@@ -114,14 +114,14 @@
             "rank": [],
             "life_giving": [
                 {
-                    "text": "The starry cat approaches {PRONOUN\/m_c\/object} and, although the cat is unfamiliar, their meeting still feels like a reunion with an old friend. \"My name is r_c. You meet me tonight, but the cats under your care will all meet me one day when they join the stars. For now,\" the cat presses {PRONOUN\/r_c\/poss} nose to m_c's forehead, \"Take this gift, to help you [virtue].\"",
+                    "text": "Den stjärnklara katten närmar sig {PRONOUN/m_c/object} och även om katten inte är bekant känns deras möte fortfarande som ett återseende med en gammal vän. \"Jag heter r_c. Du träffar mig ikväll, men katterna under din vård kommer alla att möta mig en dag när de går med i stjärnorna. För nu,\" katten trycker {PRONOUN/r_c/poss} näsa mot m_cs panna, \"ta denna gåva, för att hjälpa dig [dygd].\"",
                     "virtue": [
-                        "endure in the face of hardship",
-                        "know when to fight and when to choose peace",
-                        "have the strength to overcome your fears",
-                        "lead with tireless energy",
-                        "see the dawn behind the darkness",
-                        "find wisdom in desperate times"
+                        "stå ut inför svårigheter",
+                        "veta när man ska kämpa och när man ska välja fred",
+                        "har styrkan att övervinna din rädsla",
+                        "leda med outtröttlig energi",
+                        "se gryningen bakom mörkret",
+                        "hitta visdom i desperata tider"
                     ]
                 }
             ]
@@ -135,7 +135,7 @@
             "rank": [],
             "life_giving": [
                 {
-                    "text": "Suddenly, the mist at the edge of the clearing takes shape. Dozens of wispy, starry spirits emerge, quickly surrounding m_c. \"We grant you your remaining [life_num] lives.\" Individually, each voice is distant, but together, the force of their words shakes m_c to {PRONOUN\/m_c\/poss} core.  \"Use them well, with our blessing.\"  And in a heartbeat, they were gone.",
+                    "text": "Plötsligt tar dimman i kanten av gläntan form. Dussintals piggiga, stjärnklara andar dyker upp och omger snabbt m_c. \"Vi ger dig dina återstående [life_num] liv.\" Varje röst är individuellt avlägsen, men tillsammans skakar kraften i deras ord m_c till {PRONOUN/m_c/poss} kärna.  \"Använd dem väl, med vår välsignelse.\"  Och på ett ögonblick var de borta.",
                     "virtue": []
                 }
             ]
@@ -161,14 +161,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c pads up to the new leader, softly touching {PRONOUN\/r_c\/poss} nose to m_c's head. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "r_c skjuter upp till den nya ledaren och rör mjukt {PRONOUN/r_c/poss} näsan mot m_c:s huvud. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "affection",
-                        "compassion",
-                        "empathy",
-                        "duty",
-                        "protection",
-                        "pride"
+                        "tillgivenhet",
+                        "medlidande",
+                        "empati",
+                        "tull",
+                        "skydd",
+                        "stolthet"
                     ]
                 }
             ]
@@ -191,16 +191,16 @@
             ],
             "life_giving": [
                 {
-                    "text": "m_c is breathless when {PRONOUN\/m_c\/subject} {VERB\/m_c\/see\/sees} r_c approach. Fierce pride burns in r_c's eyes as {PRONOUN\/r_c\/subject} {VERB\/r_c\/greet\/greets} {PRONOUN\/r_c\/poss} child, pressing {PRONOUN\/r_c\/poss} nose to m_c's forehead and giving {PRONOUN\/m_c\/object} a life for [virtue].",
+                    "text": "m_c andas när {PRONOUN/m_c/subject} {VERB/m_c/see/seees} r_c närmar sig. Hård stolthet brinner i r_c:s ögon när {PRONOUN/r_c/subject} {VERB/r_c/greet/greets} {PRONOUN/r_c/poss} barn, trycker {PRONOUN/r_c/poss} näsa mot m_cs panna och ger {PRONOUN/m_c /objekt} ett liv för [dygd].",
                     "virtue": [
-                        "courage in the face of hardship",
-                        "unconditional love",
-                        "compassion",
-                        "protection",
-                        "endurance through thick and thin",
-                        "empathy",
-                        "pride",
-                        "forgiveness"
+                        "mod inför svårigheter",
+                        "villkorslös kärlek",
+                        "medlidande",
+                        "skydd",
+                        "uthållighet i tjockt och tunt",
+                        "empati",
+                        "stolthet",
+                        "förlåtelse"
                     ]
                 }
             ]
@@ -216,16 +216,16 @@
             ],
             "life_giving": [
                 {
-                    "text": "m_c is breathless when {PRONOUN\/m_c\/subject} {VERB\/m_c\/see\/sees} r_c approach. Fierce pride, and a bit of guilt, burns in r_c's eyes as {PRONOUN\/r_c\/subject} {VERB\/r_c\/greet\/greets} {PRONOUN\/r_c\/poss} child, pressing {PRONOUN\/r_c\/poss} nose to m_c's forehead and giving {PRONOUN\/m_c\/object} a life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/whisper\/whispers} a quick apology for what {PRONOUN\/r_c\/subject}{VERB\/r_c\/'ve'\/'s'} done, before {PRONOUN\/r_c\/subject} {VERB\/r_c\/turn\/turns} and {VERB\/r_c\/walk\/walks} back into the gloom.",
+                    "text": "m_c andas när {PRONOUN/m_c/subject} {VERB/m_c/see/seees} r_c närmar sig. Hård stolthet, och lite skuld, bränner i r_c:s ögon när {PRONOUN/r_c/subject} {VERB/r_c/greet/greets} {PRONOUN/r_c/poss} barn, trycker {PRONOUN/r_c/poss} näsa mot m_c:s pannan och ge {PRONOUN/m_c/object} ett liv för [dygd]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/whisper/whispers} en snabb ursäkt för vad {PRONOUN/r_c/subject}{VERB/r_c/'ve'/'s'} gjorde innan {PRONOUN/r_c /subject} {VERB/r_c/turn/turns} och {VERB/r_c/walk/walks} tillbaka in i mörkret.",
                     "virtue": [
-                        "courage in the face of hardship",
-                        "unconditional love",
-                        "compassion",
-                        "protection",
-                        "endurance through thick and thin",
-                        "empathy",
-                        "pride",
-                        "forgiveness"
+                        "mod inför svårigheter",
+                        "villkorslös kärlek",
+                        "medlidande",
+                        "skydd",
+                        "uthållighet i tjockt och tunt",
+                        "empati",
+                        "stolthet",
+                        "förlåtelse"
                     ]
                 }
             ]
@@ -248,16 +248,16 @@
             ],
             "life_giving": [
                 {
-                    "text": "It feels like a dream when r_c emerges from the star-filled crowd. m_c can barely stand {PRONOUN\/m_c\/poss} ground, resisting the temptation to run forward and press into {PRONOUN\/m_c\/poss} kit's fur. Love shines in r_c's eyes as {PRONOUN\/r_c\/subject} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "Det känns som en dröm när r_c dyker upp från den stjärnfyllda skaran. m_c kan knappt stå {PRONOUN/m_c/poss} mark, motstå frestelsen att springa framåt och trycka in i {PRONOUN/m_c/poss} kits päls. Kärlek lyser i r_c:s ögon som {PRONOUN/r_c/subject} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "courage in the face of hardship",
-                        "unconditional love",
-                        "compassion",
-                        "protection",
-                        "endurance through thick and thin",
-                        "empathy",
-                        "pride",
-                        "forgiveness"
+                        "mod inför svårigheter",
+                        "villkorslös kärlek",
+                        "medlidande",
+                        "skydd",
+                        "uthållighet i tjockt och tunt",
+                        "empati",
+                        "stolthet",
+                        "förlåtelse"
                     ]
                 }
             ]
@@ -287,14 +287,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c stalks up to the new leader, eyes burning with unexpected ferocity. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/touch\/touches} {PRONOUN\/r_c\/poss} nose to m_c's head, giving {PRONOUN\/m_c\/object} a life for [virtue]. m_c reels back with the emotion of the life that courses through {PRONOUN\/m_c\/object}.",
+                    "text": "r_c går fram till den nya ledaren, ögonen brinnande av oväntad grymhet. {PRONOUN/r_c/subject/CAP} {VERB/r_c/touch/touchs} {PRONOUN/r_c/poss} näsa mot m_c:s huvud, vilket ger {PRONOUN/m_c/object} ett liv för [dygd]. m_c rullar tillbaka med känslan av livet som går genom {PRONOUN/m_c/object}.",
                     "virtue": [
-                        "affection",
-                        "compassion",
-                        "empathy",
-                        "duty",
-                        "protection",
-                        "pride"
+                        "tillgivenhet",
+                        "medlidande",
+                        "empati",
+                        "tull",
+                        "skydd",
+                        "stolthet"
                     ]
                 }
             ]
@@ -309,63 +309,63 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c walks up to m_c, offering a life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/smile\/smiles}, and {VERB\/r_c\/state\/states} that the Clan will do well under m_c's leadership.",
+                    "text": "r_c går upp till m_c och erbjuder ett liv för [dygd]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/smile/smiles} och {VERB/r_c/state/stater} att klanen kommer att klara sig bra under m_c:s ledning.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c steps forward to give m_c a life for [virtue]. m_c grits {PRONOUN\/m_c\/poss} teeth as the life rushes into {PRONOUN\/m_c\/object}.",
+                    "text": "r_c kliver fram för att ge m_c ett liv för [dygd]. m_c grisar {PRONOUN/m_c/poss} tänder när livet rusar in i {PRONOUN/m_c/object}.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c dips {PRONOUN\/r_c\/poss} head in greeting. Energy surges through m_c's pelt as {PRONOUN\/m_c\/subject} {VERB\/m_c\/receive\/receives} a life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/reassure\/reassures} m_c that {PRONOUN\/m_c\/subject} {VERB\/m_c\/are\/is} almost done.",
+                    "text": "r_c sänker {PRONOUN/r_c/poss} huvudet i hälsning. Energi strömmar genom m_c:s päls som {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} ett liv för [dygd]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/reassure/reassures} m_c att {PRONOUN/m_c/subject} {VERB/m_c/are/är} nästan klar.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -382,63 +382,63 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c walks up to m_c, giving {PRONOUN\/m_c\/object} a life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/pause\/pauses}, then {VERB\/r_c\/shake\/shakes} {PRONOUN\/r_c\/poss} head, heading back into the ranks of StarClan.",
+                    "text": "r_c går fram till m_c och ger {PRONOUN/m_c/object} ett liv för [dygd]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/pause/pauses}, sedan {VERB/r_c/shake/shakes} {PRONOUN/r_c/poss} huvudet, på väg tillbaka till StarClans leden.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "A new cat approaches. r_c steps forward to give m_c a life for [virtue]. m_c yowls in pain as the life rushes into {PRONOUN\/m_c\/object}.",
+                    "text": "En ny katt närmar sig. r_c kliver fram för att ge m_c ett liv för [dygd]. m_c gråter av smärta när livet rusar in i {PRONOUN/m_c/object}.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c approaches. Pain surges through m_c's pelt as {PRONOUN\/m_c\/subject} receive a life for [virtue]. r_c watches dispassionately.",
+                    "text": "r_c närmar sig. Smärtan stiger genom m_cs päls när {PRONOUN/m_c/subject} får ett liv för [dygd]. r_c tittar passionerat på.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -461,43 +461,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c presses {PRONOUN\/r_c\/poss} nose to m_c's forehead, offering a life for [virtue]. Before {PRONOUN\/r_c\/subject} {VERB\/r_c\/return\/returns} to the line of StarClan cats, {PRONOUN\/r_c\/subject} {VERB\/r_c\/whisper\/whispers} to keep an eye on c_n, not just the horizons.",
+                    "text": "r_c trycker {PRONOUN/r_c/poss} näsan mot m_c:s panna och erbjuder ett liv för [dygd]. Innan {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till raden av StarClan-katter, {PRONOUN/r_c/subject} {VERB/r_c/whisper/whispers} för att hålla ett öga på c_n, inte bara horisonter.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "After giving a small lecture on the blessings and curses of being so open minded to what lay beyond the border, r_c happily gives m_c a life for [virtue].",
+                    "text": "Efter att ha hållit en liten föreläsning om välsignelserna och förbannelserna av att vara så öppen för det som ligger bortom gränsen, ger r_c glatt m_c ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -520,43 +520,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c waltzes up to m_c's side like a whirlwind, {PRONOUN\/r_c\/poss} fur sticking up in all angles. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} the new leader a life for [virtue] before dashing off into the crowd of starlight.",
+                    "text": "r_c valsar upp till m_c:s sida som en virvelvind, {PRONOUN/r_c/poss} päls sticker upp i alla vinklar. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} den nya ledaren ett liv för [dygd] innan han rusar iväg in i mängden av stjärnljus.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c waltzes up to m_c's side like a whirlwind, {PRONOUN\/r_c\/poss} fur sticking up in all angles. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} the new leader a life for [virtue] before dashing off into the crowd of starlight.",
+                    "text": "r_c valsar upp till m_c:s sida som en virvelvind, {PRONOUN/r_c/poss} päls sticker upp i alla vinklar. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} den nya ledaren ett liv för [dygd] innan han rusar iväg in i mängden av stjärnljus.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -579,43 +579,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c steps in front of m_c, a worried look crossing {PRONOUN\/r_c\/poss} features for a moment before {PRONOUN\/r_c\/subject} {VERB\/r_c\/shake\/shakes} {PRONOUN\/r_c\/poss} head. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/press\/presses} {PRONOUN\/r_c\/poss} muzzle against m_c's and give a life for [virtue].",
+                    "text": "r_c kliver framför m_c, en orolig blick som korsar {PRONOUN/r_c/poss} funktioner en stund innan {PRONOUN/r_c/subject} {VERB/r_c/shake/shakes} {PRONOUN/r_c/poss} huvudet. {PRONOUN/r_c/subject/CAP} {VERB/r_c/press/presses} {PRONOUN/r_c/poss} snurra mot m_c och ge ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "With a calm whisper that m_c should keep {PRONOUN\/m_c\/poss} ambitions in check and not lose {PRONOUN\/m_c\/self} to greed, r_c delivers a life for [virtue].",
+                    "text": "Med en lugn viskning att m_c ska hålla {PRONOUN/m_c/poss} ambitioner i schack och inte förlora {PRONOUN/m_c/self} till girighet, levererar r_c ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -638,63 +638,63 @@
             ],
             "life_giving": [
                 {
-                    "text": "Knowing that c_n may tread upon new ground under m_c's leadership, r_c carefully gives a life for [virtue] and urges caution before being so bold.",
+                    "text": "Med vetskapen om att c_n kan trampa på ny mark under m_c:s ledning, ger r_c omsorgsfullt ett liv för [dygd] och uppmanar till försiktighet innan han är så djärv.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c grunts out a warning to the new leader to not be so thick-headed in the future. Bold action can yield victory, but would the cost of life be worth it? r_c lets the question sink in after giving a life for [virtue].",
+                    "text": "r_c grymtar ut en varning till den nya ledaren att inte vara så tjock i huvudet i framtiden. Djärv handling kan ge seger, men skulle livskostnaden vara värt det? r_c låter frågan sjunka in efter att ha gett ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c gave m_c a searching look, hesitation crossing {PRONOUN\/r_c\/poss} features before placing {PRONOUN\/r_c\/poss} muzzle against m_c's head. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} a life for [virtue] and stepped away as quietly as {PRONOUN\/r_c\/subject} came.",
+                    "text": "r_c gav m_c en letande blick, tvekade över {PRONOUN/r_c/poss} funktioner innan han placerade {PRONOUN/r_c/poss} munkorg mot m_c:s huvud. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} ett liv för [dygd] och klev iväg lika tyst som {PRONOUN/r_c/subject} kom.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -717,22 +717,22 @@
             ],
             "life_giving": [
                 {
-                    "text": "m_c, recognized for {PRONOUN\/m_c\/poss} steady composure, greeted r_c with a courteous nod as {PRONOUN\/r_c\/subject} approached. Approval alight in {PRONOUN\/r_c\/poss} expression, r_c bestows upon  m_c a life for [virtue]. As it settled within {PRONOUN\/m_c\/object}, {PRONOUN\/m_c\/subject} could feel a subtle, yet powerful shift within, one of fiery initiative.",
+                    "text": "m_c, igenkänd för {PRONOUN/m_c/poss} stadigt lugn, hälsade r_c med en artig nick när {PRONOUN/r_c/subject} närmade sig. Godkännande tänds i uttrycket {PRONOUN/r_c/poss}, r_c skänker m_c ett liv för [dygd]. När det slog sig ner inom {PRONOUN/m_c/object} kunde {PRONOUN/m_c/subject} känna en subtil men ändå kraftfull förändring inom, ett av eldigt initiativ.",
                     "virtue": [
-                        "decisiveness",
-                        "initiative",
-                        "certainty",
-                        "clear judgment",
-                        "adaptability",
+                        "beslutsamhet",
+                        "initiativ",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "anpassningsförmåga",
                         "inspiration",
-                        "balance",
-                        "commitment",
-                        "cunning",
-                        "protection",
-                        "friendship",
-                        "instincts",
-                        "tireless energy",
-                        "strength",
+                        "balans",
+                        "engagemang",
+                        "listig",
+                        "skydd",
+                        "vänskap",
+                        "instinkter",
+                        "outtröttlig energi",
+                        "styrka",
                         "innovation"
                     ]
                 }
@@ -756,43 +756,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "With a graceful gait, r_c treads forward, {PRONOUN\/r_c\/poss} serene presence washing over m_c like one would be put under a spell. In the moment of peace, r_c tenderly extends an offer; a life infused with the essence of [virtue].",
+                    "text": "Med en graciös gång trampar r_c fram, {PRONOUN/r_c/poss} fridfull närvaro sköljer över m_c som om man skulle förtrollas. I fridens ögonblick förlänger r_c ömt ett erbjudande; ett liv genomsyrat av essensen av [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "Paws treading softly, as if the very ground beneath recognizes {PRONOUN\/r_c\/poss} sacred touch, r_c gracefully navigates the hallowed path that leads to m_c. In the depths of {PRONOUN\/r_c\/poss} tranquil gaze, a reflection of countless moons shines forth, a testament to the unmatched wisdom that resides within. {PRONOUN\/r_c\/subject\/CAP} inches forward, offering a life for [virtue].",
+                    "text": "Tassar som trampar mjukt, som om själva marken under känner igen {PRONOUN/r_c/poss} helig beröring, r_c navigerar graciöst den heliga vägen som leder till m_c. I djupet av {PRONOUN/r_c/poss} lugn blick lyser en reflektion av otaliga månar fram, ett bevis på den oöverträffade visdom som finns inombords. {PRONOUN/r_c/subject/CAP} tum framåt, erbjuder ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -815,43 +815,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c steps forward to m_c, holding {PRONOUN\/m_c\/poss} gaze. Pressing {PRONOUN\/r_c\/poss} muzzle against m_c's, {PRONOUN\/r_c\/subject} {VERB\/r_c\/nod\/nods} and {VERB\/r_c\/grant\/grants} {PRONOUN\/m_c\/object} a life of [virtue].",
+                    "text": "r_c kliver fram till m_c, med {PRONOUN/m_c/poss} blick. Genom att trycka på {PRONOUN/r_c/poss} nosparti mot m_c, {PRONOUN/r_c/subject} {VERB/r_c/nod/nods} och {VERB/r_c/grant/grants} {PRONOUN/m_c/object} ett liv i [dygd] ].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c peers at m_c, witnessing the depths of {PRONOUN\/m_c\/poss} wisdom and calmness, like still waters that run deep. With an approving nod, r_c offers {PRONOUN\/m_c\/object} a life of [virtue], trusting that m_c will lead the Clan with care.",
+                    "text": "r_c tittar på m_c och bevittnar djupet av {PRONOUN/m_c/poss} visdom och lugn, som stilla vatten som rinner djupt. Med en godkännande nick erbjuder r_c {PRONOUN/m_c/object} ett liv i [dygd], och litar på att m_c kommer att leda klanen med omsorg.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -874,43 +874,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c can only hope that m_c uses {PRONOUN\/m_c\/poss} honeyed words and silver tongue well as {PRONOUN\/r_c\/subject} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "r_c kan bara hoppas att m_c använder {PRONOUN/m_c/poss} honungiga ord och silvertunga samt {PRONOUN/r_c/subject} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c can't help but wonder if m_c will use {PRONOUN\/m_c\/poss} charm and popularity to make c_n a better Clan, or for {PRONOUN\/m_c\/poss} own selfish gain. Regardless, r_c bestows a life for [virtue].",
+                    "text": "r_c kan inte låta bli att undra om m_c kommer att använda {PRONOUN/m_c/poss} charm och popularitet för att göra c_n till en bättre klan, eller för {PRONOUN/m_c/poss} egen självisk vinning. Oavsett vilket skänker r_c ett liv åt [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -933,63 +933,63 @@
             ],
             "life_giving": [
                 {
-                    "text": "There is some doubt in r_c's eyes as {PRONOUN\/r_c\/subject} {VERB\/r_c\/consider\/considers} the cat before {PRONOUN\/r_c\/object}. Eventually, attempting to stress the importance of leadership, {PRONOUN\/r_c\/subject} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "Det finns en del tvivel i r_c:s ögon eftersom {PRONOUN/r_c/subject} {VERB/r_c/consider/considers} katten före {PRONOUN/r_c/object}. Så småningom, i ett försök att betona vikten av ledarskap, {PRONOUN/r_c/subject} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c can't help but laugh along with a small joke m_c uses to interrupt the stuffy, serious ceremony, and {VERB\/r_c\/give\/gives} {PRONOUN\/m_c\/object} a life for [virtue].",
+                    "text": "r_c kan inte låta bli att skratta tillsammans med ett litet skämt som m_c använder för att avbryta den kvava, allvarliga ceremonin och {VERB/r_c/give/gives} {PRONOUN/m_c/object} ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c greets m_c like an old friend, pressing {PRONOUN\/r_c\/poss} nose to {PRONOUN\/m_c\/poss} forehead with a wide grin. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} a life for [virtue] and {VERB\/r_c\/walk\/walks} away in much higher spirits.",
+                    "text": "r_c hälsar m_c som en gammal vän, trycker {PRONOUN/r_c/poss} näsan mot {PRONOUN/m_c/poss} pannan med ett brett leende. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} ett liv för [dygd] och {VERB/r_c/walk/walks} i mycket högre humör.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1010,24 +1010,24 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c approaches m_c with narrowed eyes, slightly unsettled by {PRONOUN\/m_c\/poss} aloofness. m_c is startled by the radiant warmth that surges through {PRONOUN\/m_c\/poss} chest as {PRONOUN\/m_c\/object} {VERB\/r_c\/are\/is} granted a life for [virtue], and for the first time in a long while, a soft smile softens {PRONOUN\/m_c\/poss} cold demeanor.",
+                    "text": "r_c närmar sig m_c med smala ögon, något orolig av {PRONOUN/m_c/poss} avstånd. m_c skräms av den strålande värmen som strömmar genom {PRONOUN/m_c/poss} bröstet när {PRONOUN/m_c/object} {VERB/r_c/are/is} beviljades ett liv för [dygd], och för första gången i en länge, ett mjukt leende mjukar upp {PRONOUN/m_c/poss} kallt uppträdande.",
                     "virtue": [
-                        "acceptance",
-                        "empathy",
-                        "kindness",
-                        "understanding",
-                        "warmth",
-                        "patience",
-                        "open-mindedness",
-                        "respect",
-                        "tolerance",
-                        "forgiveness",
-                        "friendship",
-                        "respect",
-                        "mercy",
-                        "perspective",
-                        "unity",
-                        "benevolence"
+                        "godtagande",
+                        "empati",
+                        "vänlighet",
+                        "förståelse",
+                        "värme",
+                        "tålamod",
+                        "öppenhet",
+                        "respektera",
+                        "tolerans",
+                        "förlåtelse",
+                        "vänskap",
+                        "respektera",
+                        "barmhärtighet",
+                        "perspektiv",
+                        "enhet",
+                        "välvilja"
                     ]
                 }
             ]
@@ -1048,43 +1048,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "The air grows crisp and brittle as r_c, a feline known for {PRONOUN\/r_c\/poss} cold demeanor, draws near. Gaze, as piercing as the winter moon, examines m_c with caution, gifting a life for [virtue].",
+                    "text": "Luften blir krispig och spröd när r_c, ett kattdjur känt för {PRONOUN/r_c/poss} kallt uppträdande, närmar sig. Gaze, lika genomträngande som vintermånen, undersöker m_c med försiktighet och ger ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c steps foward with indomitable strength that commands both respect and a reverent awe, as an enigmatic beauty of {PRONOUN\/r_c\/poss} steps catches m_c's gaze. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/offer\/offers} a life for [virtue], but {VERB\/r_c\/retreat\/retreats} to {PRONOUN\/r_c\/poss} chilling solitude as swiftly as {PRONOUN\/r_c\/subject} emerged.",
+                    "text": "r_c kliver fram med okuvlig styrka som avlar både respekt och vördnadsfull vördnad, eftersom en gåtfull skönhet av {PRONOUN/r_c/poss} steg fångar m_cs blick. {PRONOUN/r_c/subject/CAP} {VERB/r_c/offer/offers} ett liv för [dygd], men {VERB/r_c/retreat/retreats} till {PRONOUN/r_c/poss} kylande ensamhet lika snabbt som {PRONOUN /r_c/subject} dök upp.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1105,23 +1105,23 @@
             ],
             "life_giving": [
                 {
-                    "text": "The cats of StarClan were well aware of m_c's compassionate nature. r_c prances forward and gives the new leader a life for [virtue], whispering to keep {PRONOUN\/m_c\/poss} heart pure and open to others.",
+                    "text": "StarClans katter var väl medvetna om m_c:s medkännande natur. r_c hoppar fram och ger den nya ledaren ett liv för [dygd], och viskar för att hålla {PRONOUN/m_c/poss} hjärta rent och öppet för andra.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1142,43 +1142,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "Stars flicker in r_c's fur, and pride lit {PRONOUN\/r_c\/poss} friendly gaze. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} m_c a life for [virtue], the sensation feeling like a warm nest surrounded by loved ones.",
+                    "text": "Stjärnor flimrar i r_c:s päls och stolthet tände {PRONOUN/r_c/poss} vänlig blick. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} m_c ett liv för [dygd], känslan som känns som ett varmt bo omgivet av nära och kära.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c gently presses {PRONOUN\/r_c\/poss} nose against m_c and gives a life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/wrap\/wraps} {PRONOUN\/r_c\/poss} tail around m_c and {VERB\/r_c\/keep\/keeps} a warm gaze around the new leader until {PRONOUN\/r_c\/subject} finally {VERB\/r_c\/step\/steps} away.",
+                    "text": "r_c trycker försiktigt {PRONOUN/r_c/poss} näsan mot m_c och ger ett liv för [dygd]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/wrap/wraps} {PRONOUN/r_c/poss} svans runt m_c och {VERB/r_c/keep/keeps} en varm blick runt den nya ledaren tills {PRONOUN/r_c /subject} slutligen {VERB/r_c/step/steps} bort.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1199,43 +1199,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "With a warning of overconfidence being a slow and insidious killer on {PRONOUN\/r_c\/poss} maw, r_c gives m_c a life for [virtue].",
+                    "text": "Med en varning för övermod som en långsam och lömsk mördare på {PRONOUN/r_c/poss} maw, ger r_c m_c ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c placed {PRONOUN\/r_c\/poss} maw against m_c's head, starlight shining in {PRONOUN\/r_c\/poss} fur. {PRONOUN\/r_c\/poss\/CAP} life for [virtue] felt like a rush of energy, like m_c could fight through a pack of wolves and rogues in order to protect c_n.",
+                    "text": "r_c placerade {PRONOUN/r_c/poss} maw mot m_c:s huvud, stjärnljus lyser i {PRONOUN/r_c/poss} päls. {PRONOUN/r_c/poss/CAP} livet för [dygd] kändes som en energirus, som att m_c kunde slåss genom en flock vargar och skurkar för att skydda c_n.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1256,43 +1256,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "Urging caution and care upon the path {PRONOUN\/m_c\/subject} {VERB\/m_c\/tread\/treads}, r_c gives the new leader a life for [virtue].",
+                    "text": "Man uppmanar till försiktighet och omsorg på vägen {PRONOUN/m_c/subject} {VERB/m_c/tread/treads}, ger r_c den nya ledaren ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "As r_c gives a life for [virtue], {PRONOUN\/r_c\/subject} {VERB\/m_c\/urge\/urges} m_c to keep {PRONOUN\/m_c\/poss} head on straight, and to remember to sheathe {PRONOUN\/r_c\/poss} claws.",
+                    "text": "Eftersom r_c ger liv åt [dygd], {PRONOUN/r_c/subject} {VERB/m_c/urge/urges} m_c att hålla {PRONOUN/m_c/poss} rakt på huvudet och komma ihåg att hylla {PRONOUN/r_c/ poss} klor.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1313,43 +1313,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "There is no doubt in r_c's eyes that StarClan made a good choice in leader. m_c had demonstrated {PRONOUN\/m_c\/poss} faith in StarClan time and time again, and it is {PRONOUN\/r_c\/poss} honor to give {PRONOUN\/m_c\/object} a life for [virtue].",
+                    "text": "Det råder ingen tvekan i r_c:s ögon att StarClan gjorde ett bra val som ledare. m_c hade visat {PRONOUN/m_c/poss} tro på StarClan gång på gång, och det är {PRONOUN/r_c/poss} ära att ge {PRONOUN/m_c/object} ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "When r_c presses {PRONOUN\/r_c\/poss} nose against m_c's head to give a life for [virtue], {PRONOUN\/r_c\/subject} {VERB\/r_c\/swear\/swears} that {PRONOUN\/r_c\/subject} can already see starlight in {PRONOUN\/m_c\/poss} fur.",
+                    "text": "När r_c trycker {PRONOUN/r_c/poss} näsa mot m_c:s huvud för att ge ett liv för [dygd], {PRONOUN/r_c/subject} {VERB/r_c/swear/swears} som {PRONOUN/r_c/subject} redan kan se starlight i {PRONOUN/m_c/poss} päls.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1371,43 +1371,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "Not all battles must end in death. Not all problems can be dealt with claws alone. r_c hopes that m_c will remember this as the life of [virtue] is given.",
+                    "text": "Alla strider måste inte sluta med döden. Alla problem kan inte hanteras enbart med klor. r_c hoppas att m_c kommer ihåg detta när livet för [dygd] ges.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c hesitates for a moment, a vision of blood across m_c's claws assaulting the StarClan cat's mind. But eventually, {PRONOUN\/r_c\/subject} {VERB\/r_c\/relent\/relents} and gives a life for [virtue].",
+                    "text": "r_c tvekar ett ögonblick, en syn av blod över m_c:s klor angriper StarClan-kattens sinne. Men så småningom, {PRONOUN/r_c/subject} {VERB/r_c/relent/relents} och ger ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1428,23 +1428,23 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c advances forward, chuckling and gently nudging m_c as {PRONOUN\/r_c\/subject} {VERB\/r_c\/urge\/urges} {PRONOUN\/m_c\/object} to fix {PRONOUN\/m_c\/poss} meek posture to one that emanates confidence and commands respect. Only then does r_c grant a life for [virtue], hoping it will remind m_c of {PRONOUN\/m_c\/poss} worth and the faith c_n has in {PRONOUN\/m_c\/object}.",
+                    "text": "r_c avancerar framåt, skrattar och knuffar försiktigt m_c som {PRONOUN/r_c/subject} {VERB/r_c/urge/urges} {PRONOUN/m_c/object} för att fixa {PRONOUN/m_c/poss} saktmodig hållning till en som utstrålar självförtroende och manar respekt. Först då ger r_c ett liv för [dygd], i hopp om att det kommer att påminna m_c om {PRONOUN/m_c/poss} värde och tron c_n har på {PRONOUN/m_c/object}.",
                     "virtue": [
-                        "confidence",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "resilience",
-                        "courage",
-                        "assertiveness",
-                        "clarity",
-                        "patience",
-                        "adaptability",
+                        "förtroende",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "elasticitet",
+                        "mod",
+                        "självsäkerhet",
+                        "klarhet",
+                        "tålamod",
+                        "anpassningsförmåga",
                         "mindfulness",
-                        "instincts",
-                        "sense",
-                        "strength",
-                        "unity"
+                        "instinkter",
+                        "känsla",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1465,23 +1465,23 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c gazes at the lonesome leader with a deep sympathy as {PRONOUN\/r_c\/subject} approach, sensing the weight of {PRONOUN\/m_c\/poss} solitude. m_c's eyes begin to well up as a life for [virtue] flows through {PRONOUN\/m_c\/object}, a warm embrace that wards off the cold isolation, even if for a brief moment.",
+                    "text": "r_c stirrar på den ensamma ledaren med en djup sympati när {PRONOUN/r_c/subject} närmar sig och känner tyngden av {PRONOUN/m_c/poss} ensamhet. m_cs ögon börjar välla upp när ett liv för [dygd] flödar genom {PRONOUN/m_c/object}, en varm omfamning som avvärjer den kalla isoleringen, även om det är för en kort stund.",
                     "virtue": [
-                        "gratitude",
-                        "bravery",
-                        "trust",
-                        "affection",
-                        "friendship",
-                        "love",
-                        "determination",
-                        "endurance",
-                        "hope",
-                        "humor",
-                        "certainty",
-                        "devotion",
-                        "healing",
-                        "strength",
-                        "unity"
+                        "tacksamhet",
+                        "mod",
+                        "förtroende",
+                        "tillgivenhet",
+                        "vänskap",
+                        "kärlek",
+                        "bestämning",
+                        "uthållighet",
+                        "hoppas",
+                        "humör",
+                        "säkerhet",
+                        "hängivenhet",
+                        "helande",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1502,63 +1502,63 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c walks up to m_c, offering a life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/smile\/smiles}, and {VERB\/r_c\/state\/states} that the Clan will do well under m_c's leadership.",
+                    "text": "r_c går upp till m_c och erbjuder ett liv för [dygd]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/smile/smiles} och {VERB/r_c/state/stater} att klanen kommer att klara sig bra under m_c:s ledning.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "A new cat approaches. r_c steps forward to give m_c a life for [virtue]. m_c grits {PRONOUN\/m_c\/poss} teeth as the life rushes into {PRONOUN\/m_c\/object}.",
+                    "text": "En ny katt närmar sig. r_c kliver fram för att ge m_c ett liv för [dygd]. m_c grisar {PRONOUN/m_c/poss} tänder när livet rusar in i {PRONOUN/m_c/object}.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c dips {PRONOUN\/r_c\/poss} head in greeting. Energy surges through m_c's pelt as {PRONOUN\/m_c\/subject} {VERB\/m_c\/receive\/receives} a life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/reassure\/reassures} m_c that {PRONOUN\/m_c\/subject} {VERB\/m_c\/are\/is} almost done.",
+                    "text": "r_c sänker {PRONOUN/r_c/poss} huvudet i hälsning. Energi strömmar genom m_c:s päls som {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} ett liv för [dygd]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/reassure/reassures} m_c att {PRONOUN/m_c/subject} {VERB/m_c/are/är} nästan klar.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1579,63 +1579,63 @@
             ],
             "life_giving": [
                 {
-                    "text": "m_c's ears perk up as {PRONOUN\/m_c\/subject} {VERB\/m_c\/begin\/begins} to hear a deep, resonant rumbling. Reciprocating the intense purr, m_c gently bumps heads with r_c, a warrior known for the endless love {PRONOUN\/r_c\/subject} {VERB\/r_c\/hold\/holds} for {PRONOUN\/r_c\/poss} Clan. A warm, sweet feeling cascades over m_c as {PRONOUN\/m_c\/subject} {VERB\/m_c\/receive\/receives} a life for [virtue].",
+                    "text": "m_cs öron piggar upp som {PRONOUN/m_c/subject} {VERB/m_c/begin/begins} för att höra ett djupt, resonant mullrande. M_c återgår det intensiva spinnet och stöter försiktigt huvudena med r_c, en krigare känd för den oändliga kärleken {PRONOUN/r_c/subject} {VERB/r_c/hold/holds} för klanen {PRONOUN/r_c/poss}. En varm, söt känsla faller över m_c som {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} ett liv för [dygd].",
                     "virtue": [
-                        "compassion",
-                        "empathy",
-                        "devotion",
-                        "friendship",
-                        "forgiveness",
-                        "happiness",
-                        "hope",
-                        "kindness",
-                        "sympathy",
-                        "love",
-                        "offering second chances",
-                        "selflessness",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "medlidande",
+                        "empati",
+                        "hängivenhet",
+                        "vänskap",
+                        "förlåtelse",
+                        "lycka",
+                        "hoppas",
+                        "vänlighet",
+                        "sympati",
+                        "kärlek",
+                        "erbjuder andra chanser",
+                        "osjälviskhet",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "What a profound honor it is to grant a life to such a lovely warrior. r_c cannot stop purring as {PRONOUN\/r_c\/subject} {VERB\/m_c\/bestow\/bestows} upon m_c a life for [virtue].",
+                    "text": "Vilken djup ära det är att ge ett liv till en sådan underbar krigare. r_c kan inte sluta spinna som {PRONOUN/r_c/subject} {VERB/m_c/bestow/bestows} på m_c ett liv för [dygd].",
                     "virtue": [
-                        "compassion",
-                        "empathy",
-                        "devotion",
-                        "friendship",
-                        "forgiveness",
-                        "happiness",
-                        "hope",
-                        "kindness",
-                        "sympathy",
-                        "love",
-                        "offering second chances",
-                        "selflessness",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "medlidande",
+                        "empati",
+                        "hängivenhet",
+                        "vänskap",
+                        "förlåtelse",
+                        "lycka",
+                        "hoppas",
+                        "vänlighet",
+                        "sympati",
+                        "kärlek",
+                        "erbjuder andra chanser",
+                        "osjälviskhet",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c approaches m_c with {PRONOUN\/r_c\/poss} tail held high, nuzzling m_c as a warm greeting. With a soothing purr, r_c gently offers words of solace and support, granting m_c a life for [virtue].",
+                    "text": "r_c närmar sig m_c med {PRONOUN/r_c/poss} svansen högt, nötande m_c som en varm hälsning. Med ett lugnande spinnande ger r_c varsamt ord av tröst och stöd, vilket ger m_c ett liv för [dygd].",
                     "virtue": [
-                        "compassion",
-                        "empathy",
-                        "devotion",
-                        "friendship",
-                        "forgiveness",
-                        "happiness",
-                        "hope",
-                        "kindness",
-                        "sympathy",
-                        "love",
-                        "offering second chances",
-                        "selflessness",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "medlidande",
+                        "empati",
+                        "hängivenhet",
+                        "vänskap",
+                        "förlåtelse",
+                        "lycka",
+                        "hoppas",
+                        "vänlighet",
+                        "sympati",
+                        "kärlek",
+                        "erbjuder andra chanser",
+                        "osjälviskhet",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1656,43 +1656,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "m_c squares {PRONOUN\/m_c\/poss} shoulders, standing up as straight as {PRONOUN\/m_c\/subject} can, as r_c approaches. r_c's whiskers twitch in amusement as {PRONOUN\/r_c\/subject} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "m_c rutor {PRONOUN/m_c/poss} axlar, stående upp så rakt som {PRONOUN/m_c/subject} kan när r_c närmar sig. r_c:s morrhår rycker av ro när {PRONOUN/r_c/subject} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "m_c can't help but notice that r_c looks pleased as {PRONOUN\/r_c\/subject} {VERB\/r_c\/trot\/trots} up. As {PRONOUN\/r_c\/subject} {VERB\/r_c\/give\/gives} a life for [virtue], {PRONOUN\/r_c\/subject} {VERB\/r_c\/whisper\/whispers} that c_n is surely in good paws.",
+                    "text": "m_c kan inte låta bli att lägga märke till att r_c ser nöjd ut när {PRONOUN/r_c/subject} {VERB/r_c/trav/trav} uppåt. Som {PRONOUN/r_c/subject} {VERB/r_c/give/gives} ett liv för [dygd], {PRONOUN/r_c/subject} {VERB/r_c/whisper/whispers} att c_n säkert är i goda tassar.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1713,39 +1713,39 @@
             ],
             "life_giving": [
                 {
-                    "text": "m_c tries to keep {PRONOUN\/m_c\/poss} whiskers from trembling as r_c pads forward. r_c looks at {PRONOUN\/m_c\/object} sympathetically before pressing {PRONOUN\/r_c\/poss} nose to m_c's head, giving a life for [virtue], and telling {PRONOUN\/m_c\/object} that {PRONOUN\/m_c\/poss} Clan needs {PRONOUN\/m_c\/object} now.",
+                    "text": "m_c försöker hindra {PRONOUN/m_c/poss} morrhår från att darra när r_c skjuter framåt. r_c tittar sympatiskt på {PRONOUN/m_c/object} innan han trycker {PRONOUN/r_c/poss} näsan mot m_c:s huvud, ger ett liv för [dygd] och säger till {PRONOUN/m_c/object} att {PRONOUN/m_c/poss} Klanen behöver {PRONOUN/m_c/object} nu.",
                     "virtue": [
-                        "bravery",
-                        "certainty",
-                        "confidence",
-                        "courage",
-                        "strength"
+                        "mod",
+                        "säkerhet",
+                        "förtroende",
+                        "mod",
+                        "styrka"
                     ]
                 },
                 {
-                    "text": "m_c can barely meet r_c's gaze as the starry cat approaches. {PRONOUN\/m_c\/poss\/CAP} head snaps up as r_c mews at {PRONOUN\/m_c\/object} to take heart in the life {PRONOUN\/r_c\/subject} {VERB\/r_c\/are\/is} about to give. As r_c touches {PRONOUN\/m_c\/poss} forehead, a life for [virtue] surges through {PRONOUN\/m_c\/object}, filling {PRONOUN\/m_c\/object} with a resolve {PRONOUN\/m_c\/subject}{VERB\/m_c\/'ve\/'s} never felt before.",
+                    "text": "m_c kan knappt möta r_cs blick när den stjärnklara katten närmar sig. Huvudet på {PRONOUN/m_c/poss/CAP} snäpper upp när r_c myser mot {PRONOUN/m_c/object} för att ta hjärtat i livet {PRONOUN/r_c/subject} {VERB/r_c/are/is} på väg att ge. När r_c vidrör {PRONOUN/m_c/poss} panna, strömmar ett liv för [dygd] genom {PRONOUN/m_c/object}, och fyller {PRONOUN/m_c/object} med ett beslut {PRONOUN/m_c/subject}{VERB/m_c /'ve/'s} aldrig känt förut.",
                     "virtue": [
-                        "bravery",
-                        "certainty",
-                        "confidence",
-                        "courage",
-                        "strength"
+                        "mod",
+                        "säkerhet",
+                        "förtroende",
+                        "mod",
+                        "styrka"
                     ]
                 },
                 {
-                    "text": "Tail flicking nervously, m_c watches the StarClan cat approach. r_c dips {PRONOUN\/r_c\/poss} head and reassures m_c that if {PRONOUN\/m_c\/subject} {VERB\/m_c\/weren't\/wasn't} fit to be leader, {PRONOUN\/m_c\/subject} wouldn't have made it this far. m_c braces as {PRONOUN\/m_c\/subject} {VERB\/m_c\/receive\/receives} a life for [virtue], hoping that the starry cat is right.",
+                    "text": "Svansen snurrar nervöst och m_c ser StarClan-katten närma sig. r_c sänker {PRONOUN/r_c/poss} huvudet och försäkrar m_c att om {PRONOUN/m_c/subject} {VERB/m_c/weren't/wasn't} passar att vara ledare, skulle {PRONOUN/m_c/subject} inte har kommit så här långt. m_c hänger med som {PRONOUN/m_c/subject} {VERB/m_c/receive/receives} ett liv för [dygd], i hopp om att den stjärnklara katten har rätt.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "instincts"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "instinkter"
                     ]
                 }
             ]
@@ -1766,43 +1766,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "Endeared by m_c's playful nature and kit-like wonder at the world, r_c happily gives the new leader a life for [virtue].",
+                    "text": "Omtyckt av m_cs lekfulla natur och kit-liknande förundran över världen, ger r_c glatt den nya ledaren ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "Stone-faced, r_c bestows a life for [virtue] with a lecture on taking things more seriously than m_c had done in the past.",
+                    "text": "Sten-faced, r_c skänker ett liv för [dygd] med en föreläsning om att ta saker mer seriöst än vad m_c hade gjort tidigare.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1823,16 +1823,16 @@
             ],
             "life_giving": [
                 {
-                    "text": "A cool breeze buffets m_c's fur as {PRONOUN\/m_c\/subject} {VERB\/m_c\/watch\/watches} r_c approach. r_c gives a life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} add that it may seem easy to follow the Warrior Code, but the Code doesn't always have the answers.",
+                    "text": "En sval bris bjuder på m_c:s päls när {PRONOUN/m_c/subject} {VERB/m_c/watch/watches} r_c närmar sig. r_c ger ett liv för [dygd]. {PRONOUN/r_c/subject/CAP} tillägger att det kan verka lätt att följa Warrior Code, men koden har inte alltid svaren.",
                     "virtue": [
-                        "trusting {PRONOUN\/m_c\/poss} instincts"
+                        "litar på {PRONOUN/m_c/poss} instinkter"
                     ]
                 },
                 {
-                    "text": "m_c looks up as r_c pads towards {PRONOUN\/m_c\/object}. r_c dips {PRONOUN\/m_c\/poss} head and offers a life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/continue\/continues} that {PRONOUN\/m_c\/poss} Clanmates may push {PRONOUN\/m_c\/object} to the very edge sometimes, but a leader must remain firm yet fair.",
+                    "text": "m_c ser upp som r_c-knappar mot {PRONOUN/m_c/object}. r_c sänker {PRONOUN/m_c/poss} huvudet och erbjuder ett liv för [dygd]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/continue/continues} att {PRONOUN/m_c/poss} klankamrater kan pressa {PRONOUN/m_c/object} till yttersta kanten ibland, men en ledare måste förbli fast men ändå rättvis .",
                     "virtue": [
-                        "patience",
-                        "grace"
+                        "tålamod",
+                        "nåd"
                     ]
                 }
             ]
@@ -1849,27 +1849,27 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c approaches, dipping {PRONOUN\/r_c\/poss} head in greeting to m_c. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/meow\/meows} something about not being afraid to look beyond traditions before touching {PRONOUN\/r_c\/poss} muzzle to m_c's head and a cool energy begins to fizz through {PRONOUN\/m_c\/poss} body. This life is for [virtue], the starry cat tells {PRONOUN\/m_c\/object}.",
+                    "text": "r_c närmar sig och doppar huvudet {PRONOUN/r_c/poss} i hälsning till m_c. {PRONOUN/r_c/subject/CAP} {VERB/r_c/meow/meows} något om att inte vara rädd för att se bortom traditioner innan du rör {PRONOUN/r_c/poss} munkorg mot m_c:s huvud och en sval energi börjar flöda genom {PRONOUN /m_c/poss} kropp. Det här livet är för [dygd], säger den stjärnklara katten till {PRONOUN/m_c/object}.",
                     "virtue": [
-                        "curiosity"
+                        "nyfikenhet"
                     ]
                 },
                 {
-                    "text": "m_c suppresses {PRONOUN\/m_c\/poss} shivers of excitement as r_c pads up, a small smile on {PRONOUN\/r_c\/poss} face. The StarClan cat delicately touches {PRONOUN\/r_c\/poss} nose to m_c's head, murmuring that this life is for [virtue], and {PRONOUN\/r_c\/subject} {VERB\/r_c\/expect\/expects} m_c to use it well.",
+                    "text": "m_c dämpar {PRONOUN/m_c/poss} rysningar av upphetsning när r_c stiger upp, ett litet leende på {PRONOUN/r_c/poss} ansiktet. StarClan-katten rör försiktigt {PRONOUN/r_c/poss} näsan mot m_c:s huvud och mumlar att det här livet är för [dygd], och {PRONOUN/r_c/subject} {VERB/r_c/expect/expects} m_c att använda det väl.",
                     "virtue": [
-                        "devotion",
-                        "determination",
-                        "honesty",
-                        "justice"
+                        "hängivenhet",
+                        "bestämning",
+                        "ärlighet",
+                        "rättvisa"
                     ]
                 },
                 {
-                    "text": "Tail lashing excitedly, m_c dips {PRONOUN\/m_c\/poss} head to r_c as {PRONOUN\/r_c\/subject} {VERB\/r_c\/walk\/walks} up. r_c returns the gesture and offers a life for [virtue], adding that {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} not sure {PRONOUN\/m_c\/subject} {VERB\/m_c\/need\/needs} it, but it can't hurt.",
+                    "text": "Svansen surrar upphetsat, m_c sänker {PRONOUN/m_c/poss} huvudet till r_c som {PRONOUN/r_c/subject} {VERB/r_c/walk/walks} upp. r_c returnerar gesten och erbjuder ett liv för [dygd], och lägger till att {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} inte säker {PRONOUN/m_c/subject} {VERB/m_c/need/needs } det, men det kan inte skada.",
                     "virtue": [
-                        "devotion",
-                        "courage in the face of hardship",
-                        "compassion",
-                        "honor"
+                        "hängivenhet",
+                        "mod inför svårigheter",
+                        "medlidande",
+                        "ära"
                     ]
                 }
             ]
@@ -1890,63 +1890,63 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c winces at a question m_c asks, tail low with second-claw embarrassment. Nonetheless, {PRONOUN\/r_c\/subject} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "r_c rycker till vid en fråga som m_c ställer, svansen låg med andra-klons förlägenhet. ändå, {PRONOUN/r_c/subject} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "m_c ignores the dubious glance r_c gives {PRONOUN\/m_c\/object} as {PRONOUN\/m_c\/subject} {VERB\/m_c\/push\/pushes} through the glittering crowd to stand next to {PRONOUN\/r_c\/object}. With hesitation, r_c rasps {PRONOUN\/r_c\/poss} tongue across m_c's cheek in [virtue]'s name.",
+                    "text": "m_c ignorerar den tvivelaktiga blick r_c ger {PRONOUN/m_c/object} som {PRONOUN/m_c/subject} {VERB/m_c/push/pushes} genom den glittrande folkmassan för att stå bredvid {PRONOUN/r_c/object}. Med tvekan raspar r_c {PRONOUN/r_c/poss} tungan över m_c:s kind i [dygdens] namn.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c pushes m_c with a gentle paw, an amused purr starting up in {PRONOUN\/r_c\/poss} throat. m_c doesn't need any more [virtue], but r_c jokes and says that some extra can't hurt.",
+                    "text": "r_c trycker på m_c med en försiktig tass, en road spinnande start i halsen av {PRONOUN/r_c/poss}. m_c behöver inte mer [dygd], men r_c skämtar och säger att något extra inte kan skada.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -1967,23 +1967,23 @@
             ],
             "life_giving": [
                 {
-                    "text": "m_c's breath catches in {PRONOUN\/m_c\/poss} throat as r_c steps forward, immediately feeling as though the heavenly warrior could see right through {PRONOUN\/m_c\/object}. r_c holds m_c's gaze as {PRONOUN\/r_c\/subject} {VERB\/r_c\/give\/gives} a life for [virtue], imploring {PRONOUN\/m_c\/object} to embrace transparency in {PRONOUN\/m_c\/poss} actions, for only then will {PRONOUN\/m_c\/subject} earn the respect and loyalty of c_n.",
+                    "text": "m_c andedräkt hamnar i halsen av {PRONOUN/m_c/poss} när r_c kliver fram, och känns omedelbart som om den himmelske krigaren kunde se rakt igenom {PRONOUN/m_c/object}. r_c håller m_cs blick som {PRONOUN/r_c/subject} {VERB/r_c/give/gives} ett liv för [dygd], och ber {PRONOUN/m_c/object} att omfamna transparens i {PRONOUN/m_c/poss} handlingar, för först då kommer {PRONOUN/m_c/subject} att tjäna c_ns respekt och lojalitet.",
                     "virtue": [
-                        "honesty",
-                        "integrity",
-                        "sincerity",
-                        "respect",
-                        "accountability",
-                        "openness",
-                        "honor",
-                        "clarity",
-                        "courage",
-                        "trust",
-                        "humility",
-                        "instincts",
-                        "loyalty",
-                        "gratitude",
-                        "unity"
+                        "ärlighet",
+                        "integritet",
+                        "uppriktighet",
+                        "respektera",
+                        "ansvarighet",
+                        "öppenhet",
+                        "ära",
+                        "klarhet",
+                        "mod",
+                        "förtroende",
+                        "ödmjukhet",
+                        "instinkter",
+                        "lojalitet",
+                        "tacksamhet",
+                        "enhet"
                     ]
                 }
             ]
@@ -2004,43 +2004,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "Eyes aglow with mischievous gleam, r_c stealthily closes the distance, carrying a precious offering for m_c; a life imbued with the virtue of [virtue]. Like a fleeting wisp of smoke, r_c departs, leaving behind no trace of {PRONOUN\/r_c\/poss} enigmatic presence.",
+                    "text": "Ögon lyser av busig glimt, r_c smyger avståndet, bärande ett dyrbart offer för m_c; ett liv genomsyrat av dygden [dygd]. Som en flyktig pip av rök avgår r_c och lämnar inga spår efter sig av {PRONOUN/r_c/poss} gåtfull närvaro.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "A lone figure emerges, sleek and silent as a ghost. With a predatory glare, r_c advances to m_c, ears twitching with acute sensitivity, attuned to the symphony of whispers that surround {PRONOUN\/r_c\/subject}. The feline conveys a life for [virtue], a noble essence that emanates from {PRONOUN\/r_c\/subject} very being, then gracefully {VERB\/r_c\/retreat\/retreats}.",
+                    "text": "En ensam figur dyker upp, snygg och tyst som ett spöke. Med en rovlysten bländning avancerar r_c till m_c, öronen rycker med akut känslighet, inställda på symfonin av viskningar som omger {PRONOUN/r_c/subject}. Katten förmedlar ett liv för [dygd], en ädel essens som utgår från {PRONOUN/r_c/subject} själva varelsen, sedan graciöst {VERB/r_c/retreat/retreats}.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -2061,43 +2061,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c had to get m_c's attention once or twice during the ceremony, but eventually gives the new c_n leader a life for [virtue].",
+                    "text": "r_c var tvungen att få m_c:s uppmärksamhet en eller två gånger under ceremonin, men ger så småningom den nya c_n-ledaren ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c and m_c seem to only watch one another as the life for [virtue] is given, the two deep in a silent conversation before the two go their separate ways.",
+                    "text": "r_c och m_c verkar bara titta på varandra när livet för [dygd] ges, de två djupt inne i en tyst konversation innan de två går skilda vägar.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -2113,23 +2113,23 @@
             ],
             "life_giving": [
                 {
-                    "text": "Well aware of m_c's unwavering nature, r_c speaks with a calm, yet purposeful tone as {PRONOUN\/r_c\/subject} {VERB\/r_c\/grant\/grants} a life for [virtue], hoping it will soften the edges of m_c's judgement and help {PRONOUN\/m_c\/object} see beyond the boundaries of strict discipline.",
+                    "text": "Väl medveten om m_c:s orubbliga natur talar r_c med en lugn, men målmedveten ton som {PRONOUN/r_c/subject} {VERB/r_c/grant/grants} ett liv för [dygd], i hopp om att det kommer att mjuka upp kanterna på m_c:s omdöme och hjälpa {PRONOUN/m_c/object} att se bortom gränserna för strikt disciplin.",
                     "virtue": [
-                        "acceptance",
-                        "flexibility",
-                        "understanding",
-                        "forgiveness",
-                        "trust",
-                        "fairness",
-                        "hope",
-                        "humility",
-                        "sympathy",
-                        "balance",
-                        "tolerance",
-                        "perspective",
-                        "joy",
-                        "leniency",
-                        "unity"
+                        "godtagande",
+                        "flexibilitet",
+                        "förståelse",
+                        "förlåtelse",
+                        "förtroende",
+                        "rättvisa",
+                        "hoppas",
+                        "ödmjukhet",
+                        "sympati",
+                        "balans",
+                        "tolerans",
+                        "perspektiv",
+                        "glädje",
+                        "mildhet",
+                        "enhet"
                     ]
                 }
             ]
@@ -2145,12 +2145,12 @@
             ],
             "life_giving": [
                 {
-                    "text": "m_c squares {PRONOUN\/m_c\/poss} jaw as r_c approaches, preparing for receiving another life. r_c gazes at {PRONOUN\/m_c\/object}, an intensity in {PRONOUN\/r_c\/poss} eyes that makes m_c want to shrink back, but {PRONOUN\/m_c\/subject} stay frozen to the spot. r_c gives a life for [virtue], implying that m_c could use it.",
+                    "text": "m_c kvadrater {PRONOUN/m_c/poss} käken när r_c närmar sig, förbereder sig för att ta emot ett annat liv. r_c stirrar på {PRONOUN/m_c/object}, en intensitet i {PRONOUN/r_c/poss} ögon som får m_c att vilja krympa tillbaka, men {PRONOUN/m_c/subject} förblir frusen till platsen. r_c ger ett liv för [dygd], vilket antyder att m_c skulle kunna använda det.",
                     "virtue": [
-                        "grace",
-                        "mercy",
-                        "offering second chances",
-                        "forgiveness"
+                        "nåd",
+                        "barmhärtighet",
+                        "erbjuder andra chanser",
+                        "förlåtelse"
                     ]
                 }
             ]
@@ -2171,43 +2171,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "Valuing m_c's thoughtful nature, r_c hopes that {PRONOUN\/m_c\/subject} will not let the stress of leadership get to {PRONOUN\/m_c\/object} as the StarClan cat gives a life for [virtue].",
+                    "text": "Genom att värdera m_cs omtänksamma natur, hoppas r_c att {PRONOUN/m_c/subject} inte kommer att låta stressen av ledarskap komma till {PRONOUN/m_c/object} eftersom StarClan-katten ger ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "Urging m_c to take {PRONOUN\/r_c\/poss} time and to chart out c_n's future carefully, r_c bestows a life of [virtue] upon the new leader.",
+                    "text": "Genom att uppmana m_c att ta {PRONOUN/r_c/poss} tid och att noggrant kartlägga c_ns framtid, skänker r_c ett liv i [dygd] till den nya ledaren.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -2228,43 +2228,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c grits {PRONOUN\/r_c\/poss} teeth to not chide m_c like a kitten once more about {PRONOUN\/m_c\/poss} troublesome ways, and gives {PRONOUN\/m_c\/object} a life for [virtue].",
+                    "text": "r_c biter ihop {PRONOUN/r_c/poss} tänder för att inte beklaga m_c som en kattunge ännu en gång om {PRONOUN/m_c/poss} besvärliga sätt, och ger {PRONOUN/m_c/object} ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "r_c carefully encourages m_c to keep out of too much trouble before giving a life for [virtue].",
+                    "text": "r_c uppmuntrar noggrant m_c att hålla sig undan för mycket problem innan han ger ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -2285,43 +2285,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c ambles forward, {PRONOUN\/r_c\/poss} starry gaze unreadable. r_c grants m_c a life for [virtue], urging {PRONOUN\/m_c\/object} to remember that a leader's greatest power is found not in fury, but in the courage to forgive. The life blazes through m_c's chest, burning hot, but a soothing calm soon follows, easing {PRONOUN\/m_c\/poss} shaky breath.",
+                    "text": "r_c rör sig framåt, {PRONOUN/r_c/poss} stjärnklar blick oläslig. r_c ger m_c ett liv för [dygd], och uppmanar {PRONOUN/m_c/object} att komma ihåg att en ledares största kraft inte finns i raseri, utan i modet att förlåta. Livet flammar genom m_c:s bröst, brännande hett, men ett lugnande lugn följer snart, vilket gör att {PRONOUN/m_c/poss} skakiga andetag.",
                     "virtue": [
-                        "restraint",
-                        "mercy",
-                        "empathy",
-                        "clear judgment",
-                        "patience",
-                        "bravery",
-                        "wisdom",
-                        "justice",
-                        "sympathy",
-                        "humility",
-                        "peace",
-                        "forgiveness",
-                        "clarity",
-                        "compassion",
-                        "acceptance"
+                        "återhållsamhet",
+                        "barmhärtighet",
+                        "empati",
+                        "tydligt omdöme",
+                        "tålamod",
+                        "mod",
+                        "visdom",
+                        "rättvisa",
+                        "sympati",
+                        "ödmjukhet",
+                        "fred",
+                        "förlåtelse",
+                        "klarhet",
+                        "medlidande",
+                        "godtagande"
                     ]
                 },
                 {
-                    "text": "With a firm stance and even expression, r_c takes {PRONOUN\/r_c\/poss} place in front of m_c, gifting {PRONOUN\/m_c\/object} a life for [virtue]. m_c trembles as the life courses through {PRONOUN\/m_c\/object}, and r_c mumbles that {PRONOUN\/r_c\/subject} should let this life guide {PRONOUN\/m_c\/poss} claws to remain sheathed when revenge clouds {PRONOUN\/m_c\/poss} senses.",
+                    "text": "Med en fast hållning och jämnt uttryck tar r_c {PRONOUN/r_c/poss} plats framför m_c och ger {PRONOUN/m_c/object} ett liv för [dygd]. m_c darrar när livet rullar genom {PRONOUN/m_c/object}, och r_c mumlar att {PRONOUN/r_c/subject} borde låta detta liv styra {PRONOUN/m_c/poss} klor för att förbli mantlade när hämnd moln {PRONOUN/m_c/ poss} sinnen.",
                     "virtue": [
-                        "restraint",
-                        "mercy",
-                        "empathy",
-                        "clear judgment",
-                        "patience",
-                        "bravery",
-                        "wisdom",
-                        "justice",
-                        "sympathy",
-                        "humility",
-                        "peace",
-                        "forgiveness",
-                        "clarity",
-                        "compassion",
-                        "acceptance"
+                        "återhållsamhet",
+                        "barmhärtighet",
+                        "empati",
+                        "tydligt omdöme",
+                        "tålamod",
+                        "mod",
+                        "visdom",
+                        "rättvisa",
+                        "sympati",
+                        "ödmjukhet",
+                        "fred",
+                        "förlåtelse",
+                        "klarhet",
+                        "medlidande",
+                        "godtagande"
                     ]
                 }
             ]
@@ -2342,43 +2342,43 @@
             ],
             "life_giving": [
                 {
-                    "text": "There was no doubt in r_c's mind that m_c would be a wise leader of legend one day. It was {PRONOUN\/r_c\/poss} pleasure to give the new leader a life for [virtue].",
+                    "text": "Det fanns ingen tvekan i r_c:s sinne att m_c skulle bli en klok legendledare en dag. Det var {PRONOUN/r_c/poss} ett nöje att ge den nya ledaren ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 },
                 {
-                    "text": "Wisdom is a virtue that is well valued in StarClan. r_c hopes that, with this life of [virtue], m_c can find the courage and power to be a great leader one day.",
+                    "text": "Visdom är en dygd som värderas väl i StarClan. r_c hoppas att m_c med detta liv av [dygd] kan finna modet och kraften att bli en stor ledare en dag.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -2395,14 +2395,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "m_c holds {PRONOUN\/m_c\/poss} head high as r_c approaches. r_c looks mildly amused - or is that annoyance? The starry cat offers m_c a life for [virtue], saying that {PRONOUN\/m_c\/subject} could definitely use it. m_c scoffs internally at the implication.",
+                    "text": "m_c håller {PRONOUN/m_c/poss} huvudet högt när r_c närmar sig. r_c ser lätt road ut - eller är det irriterande? Den stjärnklara katten erbjuder m_c ett liv för [dygd], och säger att {PRONOUN/m_c/subject} definitivt skulle kunna använda det. m_c hånar internt åt implikationen.",
                     "virtue": [
-                        "humility",
-                        "honesty",
-                        "honor",
-                        "integrity",
-                        "selflessness",
-                        "sense"
+                        "ödmjukhet",
+                        "ärlighet",
+                        "ära",
+                        "integritet",
+                        "osjälviskhet",
+                        "känsla"
                     ]
                 }
             ]
@@ -2419,23 +2419,23 @@
             ],
             "life_giving": [
                 {
-                    "text": "Puffing out {PRONOUN\/r_c\/poss} chest, r_c gives m_c a life for [virtue] and dares {PRONOUN\/m_c\/object} to make c_n an even better Clan than anyone ever could!",
+                    "text": "Genom att blåsa ut {PRONOUN/r_c/poss} bröstet ger r_c m_c ett liv för [dygd] och vågar {PRONOUN/m_c/object} göra c_n till en ännu bättre klan än någon någonsin kunnat!",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -2452,23 +2452,23 @@
             ],
             "life_giving": [
                 {
-                    "text": "m_c had always been known for a dramatic persona, but r_c hopes that the new leader will let that become an asset than a bane. r_c gives the c_n cat a life for [virtue].",
+                    "text": "m_c hade alltid varit känd för en dramatisk persona, men r_c hoppas att den nya ledaren kommer att låta det bli en tillgång än en bana. r_c ger c_n-katten ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -2485,23 +2485,23 @@
             ],
             "life_giving": [
                 {
-                    "text": "Despite r_c's best efforts, m_c didn't once crack a smile during the starry spirit's part of the ceremony. r_c awkwardly gives a life for [virtue] before leaving the grumpy cat behind.",
+                    "text": "Trots r_c:s bästa ansträngningar, knäckte m_c inte en enda gång ett leende under stjärnandans del av ceremonin. r_c ger obekvämt ett liv för [dygd] innan han lämnar den griniga katten bakom sig.",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -2518,23 +2518,23 @@
             ],
             "life_giving": [
                 {
-                    "text": "Not all of StarClan is as rigid as the Code some cling to. r_c hopes that m_c will use {PRONOUN\/m_c\/poss} rebellious nature to make c_n a better place as {PRONOUN\/r_c\/subject} {VERB\/r_c\/gives\/give} a life for [virtue].",
+                    "text": "Inte hela StarClan är lika stel som koden som vissa håller fast vid. r_c hoppas att m_c kommer att använda {PRONOUN/m_c/poss} upprorisk natur för att göra c_n till en bättre plats som {PRONOUN/r_c/subject} {VERB/r_c/gives/give} ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -2551,23 +2551,23 @@
             ],
             "life_giving": [
                 {
-                    "text": "Sincerity and honesty was one of the most prominent trait of a StarClan cat. r_c presses {PRONOUN\/r_c\/poss} nose against m_c and with a serene voice gives the new leader a life for [virtue].",
+                    "text": "Uppriktighet och ärlighet var en av de mest framträdande egenskaperna hos en StarClan-katt. r_c trycker {PRONOUN/r_c/poss} näsan mot m_c och ger med en lugn röst den nya ledaren ett liv för [dygd].",
                     "virtue": [
-                        "acceptance",
-                        "bravery",
-                        "certainty",
-                        "clear judgment",
-                        "confidence",
-                        "courage",
-                        "determination",
-                        "endurance",
-                        "sympathy",
-                        "farsightedness",
-                        "friendship",
-                        "instincts",
-                        "mercy",
-                        "strength",
-                        "unity"
+                        "godtagande",
+                        "mod",
+                        "säkerhet",
+                        "tydligt omdöme",
+                        "förtroende",
+                        "mod",
+                        "bestämning",
+                        "uthållighet",
+                        "sympati",
+                        "framsynthet",
+                        "vänskap",
+                        "instinkter",
+                        "barmhärtighet",
+                        "styrka",
+                        "enhet"
                     ]
                 }
             ]
@@ -2581,14 +2581,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c bounds up to the new leader, reaching up on {PRONOUN\/r_c\/poss} hind legs to give {PRONOUN\/m_c\/object} a new life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/flick\/flicks} {PRONOUN\/r_c\/poss} tail and {VERB\/r_c\/head\/heads} back to make room for the next cat.",
+                    "text": "r_c binder upp till den nya ledaren och sträcker sig upp på {PRONOUN/r_c/poss} bakben för att ge {PRONOUN/m_c/object} ett nytt liv för [dygd]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/flick/flicks} {PRONOUN/r_c/poss} svans och {VERB/r_c/head/heads} tillbaka för att ge plats åt nästa katt.",
                     "virtue": [
-                        "adventure",
-                        "curiosity",
-                        "forgiveness",
-                        "hope",
-                        "perspective",
-                        "protection"
+                        "äventyr",
+                        "nyfikenhet",
+                        "förlåtelse",
+                        "hoppas",
+                        "perspektiv",
+                        "skydd"
                     ]
                 }
             ]
@@ -2604,14 +2604,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c hesitantly approaches the new leader, reaching up on {PRONOUN\/r_c\/poss} hind legs to give {PRONOUN\/m_c\/object} a new life for [virtue]. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/lash\/lashes} {PRONOUN\/r_c\/poss} tail and {VERB\/r_c\/head\/heads} back to make room for the next cat.",
+                    "text": "r_c går tveksamt fram till den nya ledaren och sträcker sig upp på {PRONOUN/r_c/poss} bakben för att ge {PRONOUN/m_c/object} ett nytt liv för [dygd]. {PRONOUN/r_c/subject/CAP} {VERB/r_c/lash/lashes} {PRONOUN/r_c/poss} svans och {VERB/r_c/head/heads} tillbaka för att ge plats åt nästa katt.",
                     "virtue": [
-                        "adventure",
-                        "curiosity",
-                        "forgiveness",
-                        "hope",
-                        "perspective",
-                        "protection"
+                        "äventyr",
+                        "nyfikenhet",
+                        "förlåtelse",
+                        "hoppas",
+                        "perspektiv",
+                        "skydd"
                     ]
                 }
             ]
@@ -2632,15 +2632,15 @@
             ],
             "life_giving": [
                 {
-                    "text": "A tiny kit, r_c, runs up to m_c, stars twinkling in {PRONOUN\/r_c\/poss} eyes. {PRONOUN\/r_c\/subject\/CAP} loudly and theatrically {VERB\/r_c\/proclaim\/proclaims} that {PRONOUN\/r_c\/subject}'ll be giving m_c a life for [virtue] before dashing back into line, looking very proud of {PRONOUN\/r_c\/self}.",
+                    "text": "Ett litet kit, r_c, går upp till m_c, stjärnor blinkar i {PRONOUN/r_c/poss} ögon. {PRONOUN/r_c/subject/CAP} högljutt och teatraliskt {VERB/r_c/proclaim/proclaims} att {PRONOUN/r_c/subject} kommer att ge m_c ett liv för [dygd] innan han rusar tillbaka i kö, ser väldigt stolt ut över {PRONOUN/r_c/self}.",
                     "virtue": [
-                        "excitement",
-                        "cheerfulness",
+                        "spänning",
+                        "gladlynthet",
                         "optimism",
-                        "friendship",
-                        "hope",
-                        "confidence",
-                        "pride"
+                        "vänskap",
+                        "hoppas",
+                        "förtroende",
+                        "stolthet"
                     ]
                 }
             ]
@@ -2659,14 +2659,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "Emerging from the line comes r_c, a quiet calm to {PRONOUN\/r_c\/object} despite {PRONOUN\/r_c\/poss} small stature. {PRONOUN\/r_c\/subject\/CAP} very carefully {VERB\/r_c\/offer\/offers} a life for [virtue], sounding as though {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} trying very hard to remember the right words to say. Once finished, {PRONOUN\/r_c\/subject} {VERB\/r_c\/rush\/rushes} back to the line of starry pelts.",
+                    "text": "Framträder från linjen kommer r_c, ett lugnt lugn till {PRONOUN/r_c/object} trots {PRONOUN/r_c/poss} liten resning. {PRONOUN/r_c/subject/CAP} mycket noggrant {VERB/r_c/offer/offers} ett liv för [dygd], låter som om {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} försöker mycket svårt att komma ihåg de rätta orden att säga. När du är klar, {PRONOUN/r_c/subject} {VERB/r_c/rush/rushes} tillbaka till raden av stjärnklara skinn.",
                     "virtue": [
-                        "caution",
-                        "love",
-                        "patience",
-                        "trust",
+                        "försiktighet",
+                        "kärlek",
+                        "tålamod",
+                        "förtroende",
                         "optimism",
-                        "friendship"
+                        "vänskap"
                     ]
                 }
             ]
@@ -2682,19 +2682,19 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c nearly sprints out of the crowd, caught last moment by an older StarClan cat who gives a sharp, but endeared, whisper before setting {PRONOUN\/r_c\/object} back down. r_c continues towards m_c, but slower this time, barely containing {PRONOUN\/r_c\/poss} excitement. When {PRONOUN\/r_c\/subject} {VERB\/r_c\/give\/gives} a life for [virtue], {PRONOUN\/r_c\/subject} {VERB\/r_c\/press\/presses} {PRONOUN\/r_c\/self} tightly against m_c's legs before returning to the ranks of StarClan.",
+                    "text": "r_c springer nästan ut ur folkmassan, fångad i sista stund av en äldre StarClan-katt som ger en skarp men omtyckt viskning innan han ställer tillbaka {PRONOUN/r_c/object}. r_c fortsätter mot m_c, men långsammare denna gång, knappt innehållande {PRONOUN/r_c/poss} spänning. När {PRONOUN/r_c/subject} {VERB/r_c/give/gives} ett liv för [dygd], {PRONOUN/r_c/subject} {VERB/r_c/press/presses} {PRONOUN/r_c/self} hårt mot m_c:s ben innan han återvände till StarClans leden.",
                     "virtue": [
-                        "love",
-                        "patience",
-                        "trust",
+                        "kärlek",
+                        "tålamod",
+                        "förtroende",
                         "optimism",
-                        "happiness",
-                        "courage",
-                        "protection",
-                        "resilience",
-                        "adventure",
-                        "curiosity",
-                        "forgiveness"
+                        "lycka",
+                        "mod",
+                        "skydd",
+                        "elasticitet",
+                        "äventyr",
+                        "nyfikenhet",
+                        "förlåtelse"
                     ]
                 }
             ]
@@ -2710,14 +2710,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "A young cat emerges from the starry ranks to give a life. Starlight reflects off {PRONOUN\/r_c\/poss} youthful eyes. r_c stretches up to give a life for [virtue].",
+                    "text": "En ung katt dyker upp från de stjärnklara leden för att ge ett liv. Starlight reflekteras från {PRONOUN/r_c/poss} ungdomliga ögon. r_c sträcker sig upp för att ge ett liv för [dygd].",
                     "virtue": [
-                        "happiness",
-                        "honesty",
-                        "humor",
-                        "justice",
-                        "mentoring",
-                        "trust"
+                        "lycka",
+                        "ärlighet",
+                        "humör",
+                        "rättvisa",
+                        "mentorskap",
+                        "förtroende"
                     ]
                 }
             ]
@@ -2735,14 +2735,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "A young cat emerges from the starry ranks to give a life. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/hesitate\/hesitates}, before an older cat nudges {PRONOUN\/r_c\/object} forward, whispering something in {PRONOUN\/r_c\/poss} ear. r_c stretches up to give a life for [virtue].",
+                    "text": "En ung katt dyker upp från de stjärnklara leden för att ge ett liv. {PRONOUN/r_c/subject/CAP} {VERB/r_c/hesitate/hesitates}, innan en äldre katt knuffar fram {PRONOUN/r_c/object} och viskar något i {PRONOUN/r_c/poss} örat. r_c sträcker sig upp för att ge ett liv för [dygd].",
                     "virtue": [
-                        "happiness",
-                        "honesty",
-                        "humor",
-                        "justice",
-                        "mentoring",
-                        "trust"
+                        "lycka",
+                        "ärlighet",
+                        "humör",
+                        "rättvisa",
+                        "mentorskap",
+                        "förtroende"
                     ]
                 }
             ]
@@ -2760,20 +2760,20 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c bounds out of the crowd, <i>mrrp<\/i>-ing as {PRONOUN\/r_c\/subject} {VERB\/r_c\/press\/presses} {PRONOUN\/r_c\/self} into m_c's fur. m_c chokes back a startled laugh before returning the affection as r_c offers a life for [virtue].",
+                    "text": "r_c går utanför mängden, <i>mrrp</i>-ing som {PRONOUN/r_c/subject} {VERB/r_c/press/presses} {PRONOUN/r_c/self} in i m_c:s päls. m_c stryper ett förvånat skratt innan han återvänder tillgivenheten när r_c erbjuder ett liv för [dygd].",
                     "virtue": [
-                        "happiness",
-                        "compassion",
-                        "protection",
-                        "pride",
-                        "certainty",
-                        "confidence",
-                        "sympathy",
-                        "unity",
-                        "humor",
-                        "justice",
-                        "trust",
-                        "forgiveness"
+                        "lycka",
+                        "medlidande",
+                        "skydd",
+                        "stolthet",
+                        "säkerhet",
+                        "förtroende",
+                        "sympati",
+                        "enhet",
+                        "humör",
+                        "rättvisa",
+                        "förtroende",
+                        "förlåtelse"
                     ]
                 }
             ]
@@ -2787,14 +2787,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c strides forward, an energy in {PRONOUN\/r_c\/poss} steps that wasn't present in {PRONOUN\/r_c\/poss} last moments. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "r_c går framåt, en energi i steg med {PRONOUN/r_c/poss} som inte fanns i {PRONOUN/r_c/poss} sista ögonblicken. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "empathy",
-                        "grace",
-                        "humility",
-                        "integrity",
-                        "persistence",
-                        "resilience"
+                        "empati",
+                        "nåd",
+                        "ödmjukhet",
+                        "integritet",
+                        "uthållighet",
+                        "elasticitet"
                     ]
                 }
             ]
@@ -2810,14 +2810,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c pads forward with a wary expression. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "r_c skjuter fram med ett försiktigt uttryck. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "empathy",
-                        "grace",
-                        "humility",
-                        "integrity",
-                        "persistence",
-                        "resilience"
+                        "empati",
+                        "nåd",
+                        "ödmjukhet",
+                        "integritet",
+                        "uthållighet",
+                        "elasticitet"
                     ]
                 }
             ]
@@ -2831,15 +2831,15 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c approaches, a warm smile on {PRONOUN\/r_c\/poss} face. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/offer\/offers} a life for [virtue], whispering to take care of the Clan the best {PRONOUN\/m_c\/subject} can.",
+                    "text": "r_c närmar sig, ett varmt leende på {PRONOUN/r_c/poss} ansiktet. {PRONOUN/r_c/subject/CAP} {VERB/r_c/offer/offers} ett liv för [dygd], viskar att ta hand om klanen så gott som {PRONOUN/m_c/subject} kan.",
                     "virtue": [
-                        "clear sight",
-                        "devotion",
-                        "faith",
-                        "healing",
-                        "patience",
-                        "selflessness",
-                        "wisdom"
+                        "fri sikt",
+                        "hängivenhet",
+                        "tro",
+                        "helande",
+                        "tålamod",
+                        "osjälviskhet",
+                        "visdom"
                     ]
                 }
             ]
@@ -2855,15 +2855,15 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c approaches, a blank expression on {PRONOUN\/r_c\/poss} face. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/offer\/offers} a life for [virtue], whispering to not lose {PRONOUN\/m_c\/poss} way.",
+                    "text": "r_c närmar sig, ett tomt uttryck på ansiktet {PRONOUN/r_c/poss}. {PRONOUN/r_c/subject/CAP} {VERB/r_c/offer/offers} ett liv för [dygd], viskar att inte tappa {PRONOUN/m_c/poss} sätt.",
                     "virtue": [
-                        "clear sight",
-                        "devotion",
-                        "faith",
-                        "healing",
-                        "patience",
-                        "selflessness",
-                        "wisdom"
+                        "fri sikt",
+                        "hängivenhet",
+                        "tro",
+                        "helande",
+                        "tålamod",
+                        "osjälviskhet",
+                        "visdom"
                     ]
                 }
             ]
@@ -2877,14 +2877,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "Finally, r_c steps forward. There is pride in {PRONOUN\/r_c\/poss} gaze as {PRONOUN\/r_c\/subject} {VERB\/r_c\/stare\/stares} into m_c's eyes. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "Slutligen kliver r_c fram. Det finns stolthet i {PRONOUN/r_c/poss} blick som {PRONOUN/r_c/subject} {VERB/r_c/stare/stares} i m_c:s ögon. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "endurance in the face of hardship",
-                        "knowing when to fight and when to choose peace",
-                        "leadership through the darkest times",
-                        "loyalty to {PRONOUN\/m_c\/poss} Clan",
-                        "the strength to overcome {PRONOUN\/m_c\/poss} fears",
-                        "tireless energy"
+                        "uthållighet inför svårigheter",
+                        "att veta när man ska kämpa och när man ska välja fred",
+                        "ledarskap genom de mörkaste tiderna",
+                        "lojalitet till klanen {PRONOUN/m_c/poss}",
+                        "styrkan att övervinna {PRONOUN/m_c/poss} rädslor",
+                        "outtröttlig energi"
                     ]
                 }
             ]
@@ -2900,14 +2900,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "Finally, r_c steps forward. There is a conflicted expression on {PRONOUN\/r_c\/poss} face when {PRONOUN\/r_c\/subject} {VERB\/r_c\/step\/steps} forward and {VERB\/r_c\/stare\/stares} into m_c's eyes. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "Slutligen kliver r_c fram. Det finns ett motstridigt uttryck i ansiktet på {PRONOUN/r_c/poss} när {PRONOUN/r_c/subject} {VERB/r_c/step/steps} framåt och {VERB/r_c/stare/stares} i m_c:s ögon. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "endurance in the face of hardship",
-                        "knowing when to fight and when to choose peace",
-                        "leadership through the darkest times",
-                        "loyalty to {PRONOUN\/m_c\/poss} Clan",
-                        "the strength to overcome {PRONOUN\/m_c\/poss} fears",
-                        "tireless energy"
+                        "uthållighet inför svårigheter",
+                        "att veta när man ska kämpa och när man ska välja fred",
+                        "ledarskap genom de mörkaste tiderna",
+                        "lojalitet till klanen {PRONOUN/m_c/poss}",
+                        "styrkan att övervinna {PRONOUN/m_c/poss} rädslor",
+                        "outtröttlig energi"
                     ]
                 }
             ]
@@ -2923,14 +2923,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "Finally, r_c steps forward. There is a conflicted expression on {PRONOUN\/r_c\/poss} face when {PRONOUN\/r_c\/subject} {VERB\/r_c\/step\/steps} forward and {VERB\/r_c\/stare\/stares} into m_c's eyes. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} a life for [virtue].",
+                    "text": "Slutligen kliver r_c fram. Det finns ett motstridigt uttryck i ansiktet på {PRONOUN/r_c/poss} när {PRONOUN/r_c/subject} {VERB/r_c/step/steps} framåt och {VERB/r_c/stare/stares} i m_c:s ögon. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} ett liv för [dygd].",
                     "virtue": [
-                        "endurance in the face of hardship",
-                        "knowing when to fight and when to choose peace",
-                        "leadership through the darkest times",
-                        "loyalty to {PRONOUN\/m_c\/poss} Clan",
-                        "the strength to overcome {PRONOUN\/m_c\/poss} fears",
-                        "tireless energy"
+                        "uthållighet inför svårigheter",
+                        "att veta när man ska kämpa och när man ska välja fred",
+                        "ledarskap genom de mörkaste tiderna",
+                        "lojalitet till klanen {PRONOUN/m_c/poss}",
+                        "styrkan att övervinna {PRONOUN/m_c/poss} rädslor",
+                        "outtröttlig energi"
                     ]
                 }
             ]
@@ -2948,14 +2948,14 @@
             ],
             "life_giving": [
                 {
-                    "text": "r_c, one of StarClan's oldest leaders, looks at the new leader with a conflicted expression. {PRONOUN\/r_c\/subject\/CAP} {VERB\/r_c\/give\/gives} a last life, the gift of [virtue].",
+                    "text": "r_c, en av StarClans äldsta ledare, tittar på den nya ledaren med ett motstridigt uttryck. {PRONOUN/r_c/subject/CAP} {VERB/r_c/give/gives} ett sista liv, gåvan av [dygd].",
                     "virtue": [
-                        "endurance in the face of hardship",
-                        "knowing when to fight and when to choose peace",
-                        "leadership through the darkest times",
-                        "loyalty to {PRONOUN\/m_c\/poss} Clan",
-                        "the strength to overcome {PRONOUN\/m_c\/poss} fears",
-                        "tireless energy"
+                        "uthållighet inför svårigheter",
+                        "att veta när man ska kämpa och när man ska välja fred",
+                        "ledarskap genom de mörkaste tiderna",
+                        "lojalitet till klanen {PRONOUN/m_c/poss}",
+                        "styrkan att övervinna {PRONOUN/m_c/poss} rädslor",
+                        "outtröttlig energi"
                     ]
                 }
             ]
@@ -2966,7 +2966,7 @@
             "tags": [],
             "lead_trait": [],
             "text": [
-                "r_c hails m_c by {PRONOUN\/m_c\/poss} new name, m_c_star, telling {PRONOUN\/m_c\/object} that {PRONOUN\/m_c\/poss} old life is no more. {PRONOUN\/m_c\/subject\/CAP} {VERB\/m_c\/are\/is} granted guardianship of c_n, and {VERB\/m_c\/are\/is} told to use {PRONOUN\/m_c\/poss} new power wisely. The group of starry cats yowls m_c_star's name in support. m_c_star wakes up feeling a new strength within {PRONOUN\/m_c\/poss} body and knows that {PRONOUN\/m_c\/subject} {VERB\/m_c\/are\/is} now ready to lead the Clan."
+                "r_c hyllar m_c med {PRONOUN/m_c/poss} nytt namn, m_c_star, och berättar för {PRONOUN/m_c/object} att {PRONOUN/m_c/poss} det gamla livet inte längre finns. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} beviljades förmyndarskap för c_n, och {VERB/m_c/are/is} uppmanades att använda {PRONOUN/m_c/poss} ny makt klokt. Gruppen av stjärnklara katter yowler m_c_stars namn till stöd. m_c_star vaknar upp och känner en ny styrka i kroppen av {PRONOUN/m_c/poss} och vet att {PRONOUN/m_c/subject} {VERB/m_c/are/is} nu är redo att leda klanen."
             ]
         },
         "new_clan": {
@@ -2975,7 +2975,7 @@
             ],
             "lead_trait": [],
             "text": [
-                "m_c_star wakes, {PRONOUN\/m_c\/poss} new name echoing in {PRONOUN\/m_c\/poss} ears."
+                "m_c_star vaknar, {PRONOUN/m_c/poss} nytt namn ekar i {PRONOUN/m_c/poss} öron."
             ]
         },
         "bloodthirsty": {
@@ -2984,7 +2984,7 @@
                 "bloodthirsty"
             ],
             "text": [
-                "r_c hails m_c by {PRONOUN\/m_c\/poss} new name, m_c_star, telling {PRONOUN\/m_c\/object} that {PRONOUN\/m_c\/poss} old life is no more. {PRONOUN\/m_c\/subject\/CAP} {VERB\/m_c\/are\/is} granted guardianship of c_n, and {VERB\/m_c\/are\/is} told to use {PRONOUN\/m_c\/poss} new power wisely. StarClan is silent as the new leader begins to wake up. m_c_star stands, feeling a new strength within {PRONOUN\/m_c\/poss} body, and grins."
+                "r_c hyllar m_c med {PRONOUN/m_c/poss} nytt namn, m_c_star, och berättar för {PRONOUN/m_c/object} att {PRONOUN/m_c/poss} det gamla livet inte längre finns. {PRONOUN/m_c/subject/CAP} {VERB/m_c/are/is} beviljades förmyndarskap för c_n, och {VERB/m_c/are/is} uppmanades att använda {PRONOUN/m_c/poss} ny makt klokt. StarClan är tyst när den nya ledaren börjar vakna. m_c_star står och känner en ny styrka i kroppen med {PRONOUN/m_c/poss} och flinar."
             ]
         }
     }

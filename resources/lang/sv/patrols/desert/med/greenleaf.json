@@ -31,12 +31,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l and r_c head out to look for herbs, discussing the latest news. They tread carefully, searching methodically. Greenleaf has few herbs left for them to gather.",
-        "decline_text": "It seems like some mischievous cat has gotten into the herb storage and they have to sort it all over again.",
+        "intro_text": "p_l och r_c ger sig ut f\u00f6r att leta efter \u00f6rter och diskuterar de senaste nyheterna. De trampar f\u00f6rsiktigt, letar metodiskt. Greenleaf har f\u00e5 \u00f6rter kvar att samla ihop.",
+        "decline_text": "Det verkar som om n\u00e5gon busig katt har hamnat i \u00f6rtf\u00f6rr\u00e5det och de m\u00e5ste sortera det igen.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "They have a good discussion while foraging among the dunes and manage to come up with several ideas to discuss with c_n's leadership.",
+                "text": "De har en bra diskussion medan de letar bland sanddynerna och lyckas komma p\u00e5 flera id\u00e9er att diskutera med c_ns ledning.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -61,7 +61,7 @@
                 ]
             },
             {
-                "text": "Carefully plucking some herbs, they discuss the latest signs from StarClan and ponder what to do about them. They manage to think up some tentative plans and return to camp to discuss them with the leader and deputy.",
+                "text": "De plockar f\u00f6rsiktigt n\u00e5gra \u00f6rter och diskuterar de senaste tecknen fr\u00e5n StarClan och funderar p\u00e5 vad de ska g\u00f6ra \u00e5t dem. De lyckas komma p\u00e5 n\u00e5gra trevande planer och \u00e5terv\u00e4nder till l\u00e4gret f\u00f6r att diskutera dem med ledaren och st\u00e4llf\u00f6retr\u00e4daren.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -88,7 +88,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "They fail to interpret any signs, and are too irritated with each other to discuss any other news. Furthermore, neither cat manages to gather anything, the trip cut short by the hot sun.",
+                "text": "De misslyckas med att tolka n\u00e5gra tecken och \u00e4r f\u00f6r irriterade p\u00e5 varandra f\u00f6r att diskutera n\u00e5gra andra nyheter. Dessutom lyckas ingen av katterna samla ihop n\u00e5got, resan avbr\u00f6ts av den varma solen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -139,12 +139,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l and r_c take a look at their supply of herbs and decide to combine their efforts into searching for more. Two sets of trained eyes are better than one!",
-        "decline_text": "Unfortunately they are interrupted by a cat claiming they have an emergency. Runny dirt is not an emergency. Ugh.",
+        "intro_text": "p_l och r_c tar en titt p\u00e5 deras utbud av \u00f6rter och best\u00e4mmer sig f\u00f6r att kombinera sina anstr\u00e4ngningar f\u00f6r att s\u00f6ka efter mer. Tv\u00e5 upps\u00e4ttningar tr\u00e4nade \u00f6gon \u00e4r b\u00e4ttre \u00e4n en!",
+        "decline_text": "Tyv\u00e4rr avbryts de av en katt som h\u00e4vdar att de har en n\u00f6dsituation. Rinnande smuts \u00e4r ingen n\u00f6dsituation. Usch.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "p_l and r_c decide to search in the slot canyons, where the deep clefts may yet harbor water and plant life. It's a mark of both of their skill and experience that they return home with herbs for c_n, scavenged from the impossible heat.",
+                "text": "p_l och r_c best\u00e4mmer sig f\u00f6r att leta i sp\u00e5ren, d\u00e4r de djupa klyftorna \u00e4nnu kan hysa vatten och v\u00e4xtliv. Det \u00e4r ett tecken p\u00e5 b\u00e5de deras skicklighet och erfarenhet att de \u00e5terv\u00e4nder hem med \u00f6rter f\u00f6r c_n, rensade fr\u00e5n den om\u00f6jliga v\u00e4rmen.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -181,7 +181,7 @@
                 ]
             },
             {
-                "text": "p_l and r_c decide on a little friendly competition - one medicine cat to another, like all those silly bets the warriors make about hunting prey. They reunite when the sun is going down and walk into camp purring and playfully shoving each other with both their mouths full of herbs.",
+                "text": "p_l och r_c best\u00e4mmer sig f\u00f6r en liten v\u00e4nskaplig t\u00e4vling - en medicinkatt till en annan, som alla de dumma vad krigarna g\u00f6r om att jaga bytesdjur. De \u00e5terf\u00f6renas n\u00e4r solen g\u00e5r ner och g\u00e5r in i l\u00e4gret spinnande och lekfullt knuffande varandra med b\u00e5da munnen full av \u00f6rter.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -220,7 +220,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Both p_l and r_c are tense and it shows. Even though it should not be this hard to find any herbs they fail to find even a single one. They return to camp frustrated and irritated with each other.",
+                "text": "B\u00e5de p_l och r_c \u00e4r sp\u00e4nda och det m\u00e4rks. \u00c4ven om det inte borde vara s\u00e5 sv\u00e5rt att hitta n\u00e5gra \u00f6rter s\u00e5 lyckas de inte hitta en enda. De \u00e5terv\u00e4nder till l\u00e4gret frustrerade och irriterade p\u00e5 varandra.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -254,7 +254,7 @@
                 ]
             },
             {
-                "text": "Even though there should be many herbs they fail to find anything. p_l blames r_c for distracting them and they get into a huge argument.",
+                "text": "\u00c4ven om det borde finnas m\u00e5nga \u00f6rter lyckas de inte hitta n\u00e5got. p_l skyller p\u00e5 r_c f\u00f6r att distrahera dem och de hamnar i ett stort br\u00e5k.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [

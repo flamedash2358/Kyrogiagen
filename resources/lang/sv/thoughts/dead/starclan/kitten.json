@@ -2,22 +2,22 @@
     {
         "id": "gen_dead_kit",
         "thoughts": [
-            "Wants to find StarClan cats to play with",
-            "Is imagining what it would be like to be a warrior",
-            "Is imagining what it would be like to be a medicine cat",
-            "Is imagining what it would be like to be a mediator",
-            "Is sad {PRONOUN\/m_c\/subject} couldn't experience being an apprentice",
-            "Doesn't really understand what being in StarClan means"
+            "Vill hitta StarClan-katter att leka med",
+            "Jag föreställer mig hur det skulle vara att vara en krigare",
+            "Funderar på hur det skulle vara att vara en medicinkatt",
+            "Funderar på hur det skulle vara att vara medlare",
+            "är ledsen att {PRONOUN/m_c/subject} inte kunde uppleva att vara lärling",
+            "Förstår inte riktigt vad att vara med i StarClan betyder"
         ]
     },
     {
         "id": "dead_kit_to_dead_other_older",
         "thoughts": [
-            "Is nagging r_c to play with {PRONOUN\/m_c\/object}",
-            "Is begging r_c to tell {PRONOUN\/m_c\/object} stories",
-            "Is following r_c around",
-            "Is sticking closely to r_c",
-            "Is asking r_c uncomfortable questions about life and death"
+            "Tjatar r_c att leka med {PRONOUN/m_c/object}",
+            "Ber r_c att berätta historier för {PRONOUN/m_c/object}",
+            "Följer r_c runt",
+            "Håller sig nära till r_c",
+            "Ställer r_c obekväma frågor om liv och död"
         ],
         "random_living_status": [
             "starclan"
@@ -33,8 +33,8 @@
     {
         "id": "dead_kit_to_dead_other_kit",
         "thoughts": [
-            "Is happy to have r_c to play with",
-            "Is playing hide and seek with r_c"
+            "är glad över att ha r_c att leka med",
+            "Leker kurragömma med r_c"
         ],
         "random_living_status": [
             "starclan"
@@ -46,7 +46,7 @@
     {
         "id": "dead_kit_to_dead_other_newborn",
         "thoughts": [
-            "Can't wait for r_c to grow up, so they can play together"
+            "Kan inte vänta på att r_c ska växa upp, så att de kan spela tillsammans"
         ],
         "random_living_status": [
             "starclan"
@@ -58,7 +58,7 @@
     {
         "id": "dead_kit_to_alive_other_kit",
         "thoughts": [
-            "Is sad because {PRONOUN\/m_c\/subject} can't play with r_c"
+            "är tråkigt eftersom {PRONOUN/m_c/subject} inte kan spela med r_c"
         ],
         "random_living_status": [
             "living"
@@ -70,9 +70,9 @@
     {
         "id": "dead_kit_to_alive_parent",
         "thoughts": [
-            "Is missing r_c",
-            "Wonders if r_c is missing {PRONOUN\/m_c\/object} too",
-            "Is sad about being apart from r_c"
+            "Saknas r_c",
+            "Undrar om r_c saknar {PRONOUN/m_c/object} också",
+            "är ledsen över att vara skild från r_c"
         ],
         "relationship_constraint": [
             "child\/parent"
@@ -84,9 +84,9 @@
     {
         "id": "dead_kit_to_alive_kit_sibling",
         "thoughts": [
-            "Wishes {PRONOUN\/m_c\/subject} could become apprentices with r_c",
-            "Misses playing with r_c",
-            "Hopes that r_c doesn't think that {PRONOUN\/m_c\/subject} {VERB\/m_c\/is\/are} angry with {PRONOUN\/r_c\/object}"
+            "Önskar att {PRONOUN/m_c/subject} kunde bli lärlingar med r_c",
+            "Saknar att leka med r_c",
+            "Hoppas att r_c inte tror att {PRONOUN/m_c/subject} {VERB/m_c/är/är} arg på {PRONOUN/r_c/object}"
         ],
         "relationship_constraint": [
             "siblings"
@@ -101,7 +101,7 @@
     {
         "id": "dead_kit_to_dead_kit_sibling",
         "thoughts": [
-            "Is glad that at least {PRONOUN\/m_c\/subject} {VERB\/m_c\/have\/has} r_c"
+            "är glad att åtminstone {PRONOUN/m_c/subject} {VERB/m_c/have/has} r_c"
         ],
         "relationship_constraint": [
             "siblings"

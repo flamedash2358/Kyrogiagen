@@ -2,19 +2,19 @@
     {
         "id": "gen_dead_leader",
         "thoughts": [
-            "Watches c_n proudly",
-            "Hopes {PRONOUN\/m_c\/subject} {VERB\/m_c\/have\/has} been a good leader",
-            "Is contemplating {PRONOUN\/m_c\/poss} legacy",
-            "Thinks {PRONOUN\/m_c\/subject} could have made a better decision during {PRONOUN\/m_c\/poss} life"
+            "Klockar c_n stolt",
+            "Hoppas {PRONOUN/m_c/subject} {VERB/m_c/have/has} varit en bra ledare",
+            "Överväger {PRONOUN/m_c/poss} arv",
+            "Tycker att {PRONOUN/m_c/subject} kunde ha fattat ett bättre beslut under {PRONOUN/m_c/poss} livet"
         ]
     },
     {
         "id": "dead_leader_to_alive_leader",
         "thoughts": [
-            "Approves of r_c's leadership choices",
-            "Walks in r_c's dreams to impart wisdom and guidance",
-            "Thinks r_c made some bad decisions lately",
-            "Is glad that {PRONOUN\/m_c\/subject} chose r_c as {PRONOUN\/m_c\/poss} successor"
+            "Godkänner r_c:s ledarskapsval",
+            "Går i r_c:s drömmar för att förmedla visdom och vägledning",
+            "Tycker att r_c tagit några dåliga beslut på sistone",
+            "är glad att {PRONOUN/m_c/subject} valde r_c som {PRONOUN/m_c/poss} efterträdare"
         ],
         "random_status_constraint": [
             "leader"
@@ -26,7 +26,7 @@
     {
         "id": "dead_leader_founder",
         "thoughts": [
-            "Is proud of being one of c_n's first leaders"
+            "är stolt över att vara en av c_ns första ledare"
         ],
         "main_backstory_constraint": [
             "clan_founder"

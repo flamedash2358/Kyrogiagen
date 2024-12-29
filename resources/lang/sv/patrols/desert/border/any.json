@@ -16,12 +16,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c tracks the scent of a large dog along the edge of the Clan's territory.",
-        "decline_text": "r_c decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
+        "intro_text": "r_c sp\u00e5rar doften av en stor hund l\u00e4ngs kanten av klanens territorium.",
+        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att inte f\u00f6rf\u00f6lja en s\u00e5 farlig varelse, speciellt eftersom den inte har passerat gr\u00e4nsen.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "r_c bolts back to camp, yowling a warning!",
+                "text": "r_c bultar tillbaka till l\u00e4gret och skriker en varning!",
                 "exp": 40,
                 "weight": 20,
                 "relationships": [
@@ -42,7 +42,7 @@
                 ]
             },
             {
-                "text": "s_c sets up an ambush for the wandering dog. When the dog nears {PRONOUN\/s_c\/poss} hiding spot, s_c leaps out with claws unsheathed, bloodies its snout, and leads it on a wild chasing dance across the border and out of c_n territory.",
+                "text": "s_c s\u00e4tter upp ett bakh\u00e5ll f\u00f6r den vandrande hunden. N\u00e4r hunden n\u00e4rmar sig ett g\u00f6mst\u00e4lle f\u00f6r {PRONOUN/s_c/poss}, hoppar s_c ut med klor utan h\u00f6lje, blodar sin nos och leder den p\u00e5 en vild jagande dans \u00f6ver gr\u00e4nsen och ut ur c_n territorium.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": [
@@ -66,7 +66,7 @@
                 ]
             },
             {
-                "text": "{PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/do\/does}n't feel like {PRONOUN\/s_c\/subject} {VERB\/s_c\/have\/has} the skill or power to take on a dog single-pawed, but s_c would give {PRONOUN\/s_c\/poss} life for c_n. {PRONOUN\/s_c\/subject\/CAP} {VERB\/s_c\/charge\/charges} in courageously to lead the dog away from c_n territory. Each booming bark could be the herald of {PRONOUN\/s_c\/poss} doom, each rancid breath the last thing {PRONOUN\/s_c\/subject} might ever smell, but somehow, limbs and lungs burning, {PRONOUN\/s_c\/subject} eventually {VERB\/s_c\/leap\/leaps} to refuge.",
+                "text": "{PRONOUN/s_c/subject/CAP} {VERB/s_c/do/does}k\u00e4nns inte som {PRONOUN/s_c/subject} {VERB/s_c/har/har} f\u00f6rm\u00e5gan eller kraften att ta sig an en hund singel- tassade, men s_c skulle ge {PRONOUN/s_c/poss} liv f\u00f6r c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/charge/charges} i modigt att leda hunden bort fr\u00e5n c_n territorium. Varje bultande sk\u00e4ll kan vara f\u00f6reb\u00e5daren f\u00f6r {PRONOUN/s_c/poss} underg\u00e5ng, varje h\u00e4rsken andetag det sista som {PRONOUN/s_c/subject} n\u00e5gonsin kan lukta, men p\u00e5 n\u00e5got s\u00e4tt br\u00e4nner lemmar och lungor, {PRONOUN/s_c/subject} s\u00e5 sm\u00e5ningom {VERB/s_c/leap/leaps} till fristad.",
                 "exp": 40,
                 "weight": 20,
                 "stat_trait": [
@@ -100,16 +100,16 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c would give {PRONOUN\/r_c\/poss} life to protect c_n, and as {PRONOUN\/r_c\/subject} {VERB\/r_c\/lead\/leads} the huge dog away from the Clan, in {PRONOUN\/r_c\/poss} heart, {PRONOUN\/r_c\/subject} {VERB\/r_c\/accept\/accepts} that's what {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} doing. As darkness closes in around {PRONOUN\/r_c\/object}, and the dog's jaws descend again, r_c tries to sink {PRONOUN\/r_c\/poss} claws into its face and hopes desperately that {PRONOUN\/r_c\/subject} led it far enough.",
+                "text": "r_c skulle ge {PRONOUN/r_c/poss} liv f\u00f6r att skydda c_n, och som {PRONOUN/r_c/subject} {VERB/r_c/lead/leads} den enorma hunden bort fr\u00e5n klanen, i {PRONOUN/r_c/poss} hj\u00e4rta , {PRONOUN/r_c/subject} {VERB/r_c/accept/accepts} det \u00e4r vad {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} g\u00f6r. N\u00e4r m\u00f6rkret sluter sig runt {PRONOUN/r_c/object} och hundens k\u00e4kar sjunker igen, f\u00f6rs\u00f6ker r_c s\u00e4nka {PRONOUN/r_c/poss} klor i ansiktet och hoppas desperat att {PRONOUN/r_c/subject} ledde den tillr\u00e4ckligt l\u00e5ngt .",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
-                    "reg_death": "This cat died to keep c_n safe from a large dog.",
-                    "lead_death": "died to keep c_n safe from a large dog"
+                    "scar": "Den h\u00e4r katten \u00e4r \u00e4rrad av att tappert f\u00f6rsvara klanen mot en hund.",
+                    "reg_death": "Denna katt dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor hund.",
+                    "lead_death": "dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor hund"
                 },
                 "relationships": [
                     {
@@ -129,7 +129,7 @@
                 ]
             },
             {
-                "text": "r_c would give {PRONOUN\/r_c\/poss} life to protect c_n, and as {PRONOUN\/r_c\/subject} {VERB\/r_c\/charge\/charges} past the huge dog to lead it far, far from c_n, {PRONOUN\/r_c\/subject} {VERB\/r_c\/accept\/accepts} it. Fear gives {PRONOUN\/r_c\/object} speed, but it only takes one successful hit. Miraculously, {PRONOUN\/r_c\/subject} {VERB\/r_c\/fly\/flies} out of the dog's jaws while it shakes {PRONOUN\/r_c\/object}, landing safely. r_c is injured, desperate, and terrified - but {PRONOUN\/r_c\/subject}{VERB\/r_c\/'re\/'s} alive.",
+                "text": "r_c skulle ge {PRONOUN/r_c/poss} liv f\u00f6r att skydda c_n, och som {PRONOUN/r_c/subject} {VERB/r_c/charge/charges} f\u00f6rbi den enorma hunden f\u00f6r att leda den l\u00e5ngt, l\u00e5ngt fr\u00e5n c_n, {PRONOUN/r_c /subject} {VERB/r_c/accept/accepts} det. R\u00e4dsla ger {PRONOUN/r_c/object} hastighet, men det kr\u00e4vs bara en lyckad tr\u00e4ff. Mirakul\u00f6st nog, {PRONOUN/r_c/subject} {VERB/r_c/fly/flies} ur hundens k\u00e4kar medan den skakar {PRONOUN/r_c/object} och landar s\u00e4kert. r_c \u00e4r skadad, desperat och livr\u00e4dd - men {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} vid liv.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -146,9 +146,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
-                    "reg_death": "This cat died to keep c_n safe from a large dog.",
-                    "lead_death": "died to keep c_n safe from a large dog"
+                    "scar": "Den h\u00e4r katten \u00e4r \u00e4rrad av att tappert f\u00f6rsvara klanen mot en hund.",
+                    "reg_death": "Denna katt dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor hund.",
+                    "lead_death": "dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor hund"
                 },
                 "relationships": [
                     {
@@ -186,12 +186,12 @@
         "max_cats": 3,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol tracks the scent of a large dog along the edge of the Clan's territory.",
-        "decline_text": "The patrol decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
+        "intro_text": "Patrullen sp\u00e5rar doften av en stor hund l\u00e4ngs kanten av klanens territorium.",
+        "decline_text": "Patrullen best\u00e4mmer sig f\u00f6r att inte f\u00f6rf\u00f6lja en s\u00e5 farlig varelse, speciellt eftersom den inte har passerat gr\u00e4nsen.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol shadows the dog, sending a message back to warn camp. It's an exhausting and stressful day, but by the time night falls, they've confirmed that the dog is leaving the local area, and the patrol has assured c_n's safety.",
+                "text": "Patrullen skuggar hunden och skickar ett meddelande tillbaka f\u00f6r att varna l\u00e4gret. Det \u00e4r en anstr\u00e4ngande och stressig dag, men n\u00e4r natten faller har de bekr\u00e4ftat att hunden l\u00e4mnar det lokala omr\u00e5det, och patrullen har garanterat c_ns s\u00e4kerhet.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -212,7 +212,7 @@
                 ]
             },
             {
-                "text": "The patrol gathers their courage and valiantly tries to lead the dog away. With such a small group of cats, they can only lead it a short distance, but it's better than nothing.",
+                "text": "Patrullen samlar mod och f\u00f6rs\u00f6ker tappert leda bort hunden. Med en s\u00e5 liten grupp katter kan de bara leda den en kort str\u00e4cka, men det \u00e4r b\u00e4ttre \u00e4n ingenting.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -233,7 +233,7 @@
                 ]
             },
             {
-                "text": "s_c sets up a careful ambush ahead of the dog, and {PRONOUN\/s_c\/poss} surprising, darting attack bloodies the dog's flank, dissuading it from heading further into c_n territory.",
+                "text": "s_c s\u00e4tter upp ett f\u00f6rsiktigt bakh\u00e5ll framf\u00f6r hunden, och {PRONOUN/s_c/poss} \u00f6verraskande, darting attack blodar hundens flank, avskr\u00e4cker den fr\u00e5n att g\u00e5 vidare in i c_n territorium.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -257,7 +257,7 @@
                 ]
             },
             {
-                "text": "s_c selflessly takes the lion's share of the run the patrol leads the dog on, exhausting {PRONOUN\/s_c\/self} almost to the point of danger but leading the dog far away from c_n borders. {PRONOUN\/s_c\/poss\/CAP} Clanmates support {PRONOUN\/s_c\/object} on the long walk home once it's all over, their purrs mixing with s_c's exhausted pants.",
+                "text": "s_c tar osj\u00e4lviskt lejonparten av l\u00f6pningen patrullen leder hunden p\u00e5, utmattande {PRONOUN/s_c/self} n\u00e4stan till en fara men leder hunden l\u00e5ngt bort fr\u00e5n c_n gr\u00e4nser. {PRONOUN/s_c/poss/CAP} Klankamrater st\u00f6djer {PRONOUN/s_c/object} p\u00e5 den l\u00e5nga promenaden hem n\u00e4r allt \u00e4r \u00f6ver, deras spinnande blandas med s_c:s utmattade byxor.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -290,7 +290,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol tries to keep watch over the dog from a distance, but it spots the cats and forces them to scatter. Everyone escapes just fine, but they lose track of the dog. It could be anywhere - still out there, lurking, waiting to attack.",
+                "text": "Patrullen f\u00f6rs\u00f6ker h\u00e5lla koll p\u00e5 hunden p\u00e5 avst\u00e5nd, men den uppt\u00e4cker katterna och tvingar dem att sprida sig. Alla kommer undan fint, men de tappar koll p\u00e5 hunden. Det kan vara var som helst - fortfarande d\u00e4r ute, lurar och v\u00e4ntar p\u00e5 att attackera.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -311,7 +311,7 @@
                 ]
             },
             {
-                "text": "s_c tries to take the lion's share of the effort to lead the dog away, but {PRONOUN\/s_c\/poss} strength fails {PRONOUN\/s_c\/object} - the rest of the patrol needs to rescue {PRONOUN\/s_c\/object}, cutting the patrol short. Everyone knows the dog could still be lurking on their borders.",
+                "text": "s_c f\u00f6rs\u00f6ker ta lejonparten av anstr\u00e4ngningen att leda bort hunden, men {PRONOUN/s_c/poss} styrka sviker {PRONOUN/s_c/object} - resten av patrullen m\u00e5ste r\u00e4dda {PRONOUN/s_c/object}, avbryta patrullen. Alla vet att hunden fortfarande lurar p\u00e5 deras gr\u00e4nser.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -338,16 +338,16 @@
                 ]
             },
             {
-                "text": "The patrol tries to lead the dog away from the Clan's borders, but with so few cats it's impossible to cover each other's backs. r_c falls to the dog as the rest of the patrol runs for their lives back to camp, terrified out of their pelts and mourning their Clanmate.",
+                "text": "Patrullen f\u00f6rs\u00f6ker leda bort hunden fr\u00e5n klanens gr\u00e4nser, men med s\u00e5 f\u00e5 katter \u00e4r det om\u00f6jligt att t\u00e4cka varandras ryggar. r_c faller f\u00f6r hunden n\u00e4r resten av patrullen springer f\u00f6r sina liv tillbaka till l\u00e4gret, livr\u00e4dda ur sina skinn och s\u00f6rjer sin klankamrat.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
-                    "reg_death": "This cat died to keep the Clan safe from a large dog.",
-                    "lead_death": "died to keep c_n safe from a large dog"
+                    "scar": "Den h\u00e4r katten \u00e4r \u00e4rrad av att tappert f\u00f6rsvara klanen mot en hund.",
+                    "reg_death": "Denna katt dog f\u00f6r att h\u00e5lla klanen s\u00e4ker fr\u00e5n en stor hund.",
+                    "lead_death": "dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor hund"
                 },
                 "relationships": [
                     {
@@ -367,7 +367,7 @@
                 ]
             },
             {
-                "text": "The patrol tries bravely to lead the dog away from c_n borders, but with so few cats it's impossible to cover each other's backs. r_c gets caught while running and it's all the rest of the patrol can do to distract the dog long enough to get r_c to safety.",
+                "text": "Patrullen f\u00f6rs\u00f6ker tappert att leda bort hunden fr\u00e5n c_n gr\u00e4nser, men med s\u00e5 f\u00e5 katter \u00e4r det om\u00f6jligt att t\u00e4cka varandras ryggar. r_c fastnar n\u00e4r han springer och det \u00e4r allt resten av patrullen kan g\u00f6ra f\u00f6r att distrahera hunden tillr\u00e4ckligt l\u00e4nge f\u00f6r att f\u00e5 r_c i s\u00e4kerhet.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -384,9 +384,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
-                    "reg_death": "This cat died to keep the Clan safe from a large dog.",
-                    "lead_death": "died to keep c_n safe from a large dog"
+                    "scar": "Den h\u00e4r katten \u00e4r \u00e4rrad av att tappert f\u00f6rsvara klanen mot en hund.",
+                    "reg_death": "Denna katt dog f\u00f6r att h\u00e5lla klanen s\u00e4ker fr\u00e5n en stor hund.",
+                    "lead_death": "dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor hund"
                 },
                 "relationships": [
                     {
@@ -424,12 +424,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol stumbles across a large dog wandering through the middle of the Clan's territory.",
-        "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
+        "intro_text": "Patrullen snubblar \u00f6ver en stor hund som vandrar genom mitten av klanens territorium.",
+        "decline_text": "Patrullen best\u00e4mmer sig f\u00f6r att inte f\u00f6rf\u00f6lja en s\u00e5 farlig varelse. c_n f\u00e5r bara hoppas att det inte kommer n\u00e4rmare l\u00e4gret.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "They decide that no cat is going to be surprised by this predator again. The patrol shadows the dog, sending a message to warn camp. With enough cats to keep watch, rest, track, and send messages back and forth, c_n is kept safe from the wandering dog.",
+                "text": "De best\u00e4mmer sig f\u00f6r att ingen katt kommer att bli \u00f6verraskad av detta rovdjur igen. Patrullen skuggar hunden och skickar ett meddelande f\u00f6r att varna l\u00e4gret. Med tillr\u00e4ckligt m\u00e5nga katter f\u00f6r att h\u00e5lla vakt, vila, sp\u00e5ra och skicka meddelanden fram och tillbaka, h\u00e5lls c_n s\u00e4kert fr\u00e5n den vandrande hunden.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -450,7 +450,7 @@
                 ]
             },
             {
-                "text": "The patrol gathers their courage and valiantly drives away the dog. Together, working as one, and with all the strength of StarClan behind them, the patrol harries the dog. By keeping up a series of small skirmishes through the entire day, they drive it all the way off c_n territory.",
+                "text": "Patrullen tar mod till sig och driver tappert bort hunden. Tillsammans, arbetar som en, och med StarClans styrka bakom sig, tjatar patrullen p\u00e5 hunden. Genom att h\u00e5lla uppe en serie sm\u00e5 sk\u00e4rmytslingar under hela dagen, driver de det hela v\u00e4gen utanf\u00f6r c_n territorium.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -471,7 +471,7 @@
                 ]
             },
             {
-                "text": "s_c has just enough time to yowl out a plan, leading the whole large patrol in a skillful battle maneuver against the dog that protects the cats from the chance of injury. The dog tucks tail and runs for more friendly lands.",
+                "text": "s_c har precis tillr\u00e4ckligt med tid att skrika ut en plan, vilket leder hela den stora patrullen i en skicklig stridsman\u00f6ver mot hunden som skyddar katterna fr\u00e5n risken f\u00f6r skada. Hunden drar svansen och springer mot v\u00e4nligare land.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -495,7 +495,7 @@
                 ]
             },
             {
-                "text": "s_c selflessly throw {PRONOUN\/s_c\/self} into the fight, and every time the dog tries to grab at {PRONOUN\/s_c\/poss} Clanmates, {PRONOUN\/s_c\/subject}{VERB\/s_c\/'re\/'s} there with unsheathed claws, fur puffed out to twice {PRONOUN\/s_c\/poss} normal size. With s_c defending them, the patrol drives the dog off, yowling triumphantly.",
+                "text": "s_c kastar osj\u00e4lviskt {PRONOUN/s_c/self} in i kampen, och varje g\u00e5ng hunden f\u00f6rs\u00f6ker ta tag i {PRONOUN/s_c/poss} klankamrater, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} d\u00e4r med klor utan skal, p\u00e4ls utbl\u00e5st till tv\u00e5 g\u00e5nger {PRONOUN/s_c/poss} normal storlek. Med s_c f\u00f6rsvar av dem k\u00f6r patrullen iv\u00e4g hunden och yowler triumferande.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -528,7 +528,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol tries to keep watch on the dog from a distance, but it spots the cats and forces them to scatter. It's not as bad as it could've been, though; r_c manages to keep track of the dog's position, and it doesn't come any further into c_n territory.",
+                "text": "Patrullen f\u00f6rs\u00f6ker h\u00e5lla koll p\u00e5 hunden p\u00e5 avst\u00e5nd, men den uppt\u00e4cker katterna och tvingar dem att sprida sig. Det \u00e4r dock inte s\u00e5 illa som det kunde ha varit; r_c lyckas h\u00e5lla koll p\u00e5 hundens position, och den kommer inte l\u00e4ngre in p\u00e5 c_n territorium.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -549,7 +549,7 @@
                 ]
             },
             {
-                "text": "s_c tries to protect {PRONOUN\/s_c\/poss} Clanmates, but too much defense gets in the way of actually attacking the dog. Without everyone committed to driving the dog off, the patrol has to fall back, but they do so in good order.",
+                "text": "s_c f\u00f6rs\u00f6ker skydda {PRONOUN/s_c/poss} klankamrater, men f\u00f6r mycket f\u00f6rsvar st\u00e5r i v\u00e4gen f\u00f6r att faktiskt attackera hunden. Utan att alla har f\u00f6rbundit sig att k\u00f6ra iv\u00e4g hunden m\u00e5ste patrullen falla tillbaka, men de g\u00f6r det i god ordning.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -576,16 +576,16 @@
                 ]
             },
             {
-                "text": "With so many cats all working as one, the patrol starts to beat the dog back. But just as the tide of the fight seems about to turn in their favour, one lucky strike hits r_c, and those vicious jaws send {PRONOUN\/r_c\/object} to StarClan.",
+                "text": "Med s\u00e5 m\u00e5nga katter som alla arbetar som en, b\u00f6rjar patrullen sl\u00e5 tillbaka hunden. Men precis som tidvattnet i kampen verkar p\u00e5 v\u00e4g att v\u00e4nda till deras f\u00f6rdel, tr\u00e4ffar ett lyckligt slag r_c, och de onda k\u00e4ftarna skickar {PRONOUN/r_c/object} till StarClan.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
-                    "reg_death": "This cat died to keep the Clan safe from a large dog.",
-                    "lead_death": "died to keep c_n safe from a large dog"
+                    "scar": "Den h\u00e4r katten \u00e4r \u00e4rrad av att tappert f\u00f6rsvara klanen mot en hund.",
+                    "reg_death": "Denna katt dog f\u00f6r att h\u00e5lla klanen s\u00e4ker fr\u00e5n en stor hund.",
+                    "lead_death": "dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor hund"
                 },
                 "relationships": [
                     {
@@ -605,7 +605,7 @@
                 ]
             },
             {
-                "text": "The patrol fights bravely, but you only need to be unlucky once. One snap of the beast's huge jaws takes r_c out of the fight. The rest of the patrol rallies to defend {PRONOUN\/r_c\/object}, and r_c is safely helped back to camp, where the medicine cat den awaits.",
+                "text": "Patrullen k\u00e4mpar tappert, men du beh\u00f6ver bara ha otur en g\u00e5ng. Ett kn\u00e4pp av odjurets enorma k\u00e4kar tar r_c ur kampen. Resten av patrullen samlas f\u00f6r att f\u00f6rsvara {PRONOUN/r_c/object}, och r_c f\u00e5r s\u00e4kert hj\u00e4lp tillbaka till l\u00e4gret, d\u00e4r medicinkatth\u00e5lan v\u00e4ntar.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -622,9 +622,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
-                    "reg_death": "This cat died to keep the Clan safe from a large dog.",
-                    "lead_death": "died to keep c_n safe from a large dog"
+                    "scar": "Den h\u00e4r katten \u00e4r \u00e4rrad av att tappert f\u00f6rsvara klanen mot en hund.",
+                    "reg_death": "Denna katt dog f\u00f6r att h\u00e5lla klanen s\u00e4ker fr\u00e5n en stor hund.",
+                    "lead_death": "dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor hund"
                 },
                 "relationships": [
                     {
@@ -662,12 +662,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol comes across a small dog.",
-        "decline_text": "The patrol decides not to pursue the dog.",
+        "intro_text": "Patrullen st\u00f6ter p\u00e5 en liten hund.",
+        "decline_text": "Patrullen beslutar att inte f\u00f6rf\u00f6lja hunden.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "r_c hisses at the dog, warning it off. It skitters back, yapping loudly but headed in the right direction. Maybe {PRONOUN\/r_c\/subject} should add dog herding to their list of accomplishments?",
+                "text": "r_c v\u00e4ser mot hunden och varnar f\u00f6r den. Den hoppar tillbaka, jappar h\u00f6gt men p\u00e5 v\u00e4g \u00e5t r\u00e4tt h\u00e5ll. Kanske borde {PRONOUN/r_c/subject} l\u00e4gga till hundvallning till sin lista \u00f6ver prestationer?",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -688,7 +688,7 @@
                 ]
             },
             {
-                "text": "r_c unsheathes {PRONOUN\/r_c\/poss} claws, puffs {PRONOUN\/r_c\/poss} fur out to as far as it'll go, gathers {PRONOUN\/r_c\/poss} courage, and drives the small dog from the border.",
+                "text": "r_c tar av {PRONOUN/r_c/poss} klor, bl\u00e5ser ut {PRONOUN/r_c/poss} p\u00e4ls s\u00e5 l\u00e5ngt det g\u00e5r, samlar mod till {PRONOUN/r_c/poss} och driver den lilla hunden fr\u00e5n gr\u00e4nsen.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -709,7 +709,7 @@
                 ]
             },
             {
-                "text": "s_c unleashes all {PRONOUN\/s_c\/poss} battle experience, darting this way and that, ripping chunks of dog fur out as the patrol drives it into the distance.",
+                "text": "s_c sl\u00e4pper l\u00f6s all stridserfarenhet av {PRONOUN/s_c/poss}, skjuter hit och dit och river ut bitar av hundp\u00e4ls n\u00e4r patrullen driver den i fj\u00e4rran.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -735,7 +735,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "All r_c's attempts to drive the small dog off only send it into greater and greater fits of excitement until the only thing to do is wait, miserable and humiliated, in a safe spot for the beast to calm down.",
+                "text": "Alla r_c:s f\u00f6rs\u00f6k att driva iv\u00e4g den lilla hunden f\u00e5r den bara att bli mer och mer upphetsad tills det enda man kan g\u00f6ra \u00e4r att v\u00e4nta, el\u00e4ndig och f\u00f6r\u00f6dmjukad, p\u00e5 en s\u00e4ker plats f\u00f6r odjuret att lugna sig.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -756,16 +756,16 @@
                 ]
             },
             {
-                "text": "The animal is far more tenacious than r_c ever expected, and once the fight starts, there's no escaping from it. As r_c's world goes dark, {PRONOUN\/r_c\/subject} {VERB\/r_c\/have\/has} {PRONOUN\/r_c\/poss} fangs sunk in the dog's throat. At least {PRONOUN\/r_c\/subject}'ll take the beast with {PRONOUN\/r_c\/object}.",
+                "text": "Djuret \u00e4r mycket mer ih\u00e4rdigt \u00e4n vad r_c n\u00e5gonsin f\u00f6rv\u00e4ntat sig, och n\u00e4r striden v\u00e4l b\u00f6rjar g\u00e5r det inte att undkomma det. N\u00e4r r_c:s v\u00e4rld blir m\u00f6rk, sjunker {PRONOUN/r_c/subject} {VERB/r_c/have/has} {PRONOUN/r_c/poss} huggt\u00e4nder i hundens hals. \u00c5tminstone {PRONOUN/r_c/subject} kommer att ta besten med {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "This cat got a scar from a fight with a small dog, but they always say it was a huge dog.",
-                    "reg_death": "This cat was killed in a fight with a small dog, but they took the dog out with them.",
-                    "lead_death": "killed in a fight with a small dog"
+                    "scar": "Den h\u00e4r katten fick ett \u00e4rr av ett slagsm\u00e5l med en liten hund, men de s\u00e4ger alltid att det var en enorm hund.",
+                    "reg_death": "Den h\u00e4r katten d\u00f6dades i ett slagsm\u00e5l med en liten hund, men de tog hunden med sig ut.",
+                    "lead_death": "d\u00f6dades i ett slagsm\u00e5l med en liten hund"
                 },
                 "relationships": [
                     {
@@ -785,7 +785,7 @@
                 ]
             },
             {
-                "text": "Small, yappy, but. . . still a dog. r_c peers down from the tree where the animal has trapped {PRONOUN\/r_c\/object}, wincing in pain. {PRONOUN\/r_c\/subject\/CAP} won't underestimate these ugly creatures again.",
+                "text": "Liten, yappy, men. . . fortfarande en hund. r_c kikar ner fr\u00e5n tr\u00e4det d\u00e4r djuret har f\u00e5ngat {PRONOUN/r_c/object} och rycker till av sm\u00e4rta. {PRONOUN/r_c/subject/CAP} kommer inte att underskatta dessa fula varelser igen.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -802,9 +802,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat got a scar from a fight with a small dog, but they always say it was a huge dog.",
-                    "reg_death": "This cat was killed in a fight with a small dog, but they took the dog out with them.",
-                    "lead_death": "killed in a fight with a small dog"
+                    "scar": "Den h\u00e4r katten fick ett \u00e4rr av ett slagsm\u00e5l med en liten hund, men de s\u00e4ger alltid att det var en enorm hund.",
+                    "reg_death": "Den h\u00e4r katten d\u00f6dades i ett slagsm\u00e5l med en liten hund, men de tog hunden med sig ut.",
+                    "lead_death": "d\u00f6dades i ett slagsm\u00e5l med en liten hund"
                 },
                 "relationships": [
                     {
@@ -842,12 +842,12 @@
         "max_cats": 3,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol comes across a small dog right on the border of c_n territory.",
-        "decline_text": "p_l decides not to pursue the dog and instead cuts the patrol short to head back to camp and report it.",
+        "intro_text": "Patrullen st\u00f6ter p\u00e5 en liten hund precis p\u00e5 gr\u00e4nsen till c_n territorium.",
+        "decline_text": "p_l best\u00e4mmer sig f\u00f6r att inte f\u00f6rf\u00f6lja hunden och avbryter ist\u00e4llet patrullen f\u00f6r att bege sig tillbaka till l\u00e4gret och rapportera det.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "p_l hisses at the small dog, and the rest of {PRONOUN\/p_l\/poss} small team back {PRONOUN\/p_l\/object} up. The dog skitters back, yapping loudly, apparently shocked by the display. The patrol breaks out into yowls and caterwauls until the dog loses its nerve and runs from the c_n border into the distance.",
+                "text": "p_l v\u00e4ser mot den lilla hunden och resten av {PRONOUN/p_l/poss} lilla team backar upp {PRONOUN/p_l/object}. Hunden hoppar tillbaka, jappar h\u00f6gt, uppenbarligen chockad av displayen. Patrullen bryter ut i yowls och caterwauls tills hunden tappar nerven och springer fr\u00e5n c_n-gr\u00e4nsen ut p\u00e5 avst\u00e5nd.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -869,7 +869,7 @@
                 ]
             },
             {
-                "text": "The patrol paces towards the small dog, claws out, fur up, backed up with the courage of their Clanmates. The dog breaks into a barking fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "Patrullen g\u00e5r mot den lilla hunden, klor ur, p\u00e4ls upp, backar upp med mod fr\u00e5n sina klankamrater. Hunden bryter in i ett sk\u00e4llande anfall, men det \u00e4r deras m\u00f6jlighet att attackera och t\u00e4cka varandra n\u00e4r de trycker undan varelsen fr\u00e5n sitt territorium.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -891,7 +891,7 @@
                 ]
             },
             {
-                "text": "s_c calls out a battle plan, and the cats flow into it, carefully covering each other. They drive the dog backwards until it loses its nerve, tucks tail, and runs from c_n territory, fleeing deep into the wilderness.",
+                "text": "s_c ropar ut en stridsplan, och katterna str\u00f6mmar in i den och t\u00e4cker f\u00f6rsiktigt \u00f6ver varandra. De driver hunden bakl\u00e4nges tills den tappar nerven, drar svansen och springer fr\u00e5n c_n territorium och flyr djupt in i vildmarken.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -918,12 +918,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "All r_c's attempts to drive the small dog off only send it into greater and greater fits of excitement, until the only thing to do is wait, exasperated, in a safe spot for the beast to calm down.",
+                "text": "Alla r_c:s f\u00f6rs\u00f6k att driva iv\u00e4g den lilla hunden f\u00e5r den bara i st\u00f6rre och st\u00f6rre anfall av sp\u00e4nning, tills det enda man kan g\u00f6ra \u00e4r att v\u00e4nta, uppr\u00f6rd, p\u00e5 en s\u00e4ker plats f\u00f6r odjuret att lugna sig.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The dog gets a lucky hit in on r_c, though together the patrol is still able to drive it off successfully.",
+                "text": "Hunden f\u00e5r en tur p\u00e5 r_c, men tillsammans kan patrullen fortfarande k\u00f6ra iv\u00e4g den framg\u00e5ngsrikt.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -940,7 +940,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat got a scar from a fight with a small dog, but they always say it was a huge dog."
+                    "scar": "Den h\u00e4r katten fick ett \u00e4rr av ett slagsm\u00e5l med en liten hund, men de s\u00e4ger alltid att det var en enorm hund."
                 }
             }
         ]
@@ -962,12 +962,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol comes across a small dog right on the border of c_n territory.",
-        "decline_text": "p_l decides not to pursue the dog and instead cuts the patrol short to head back to camp and report it.",
+        "intro_text": "Patrullen st\u00f6ter p\u00e5 en liten hund precis p\u00e5 gr\u00e4nsen till c_n territorium.",
+        "decline_text": "p_l best\u00e4mmer sig f\u00f6r att inte f\u00f6rf\u00f6lja hunden och avbryter ist\u00e4llet patrullen f\u00f6r att bege sig tillbaka till l\u00e4gret och rapportera det.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol paces towards the small dog, claws out, fur up, backed up with the courage of their Clanmates. The dog breaks into a barking fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "Patrullen g\u00e5r mot den lilla hunden, klor ur, p\u00e4ls upp, backar upp med mod fr\u00e5n sina klankamrater. Hunden bryter in i ett sk\u00e4llande anfall, men det \u00e4r deras m\u00f6jlighet att attackera och t\u00e4cka varandra n\u00e4r de trycker undan varelsen fr\u00e5n sitt territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -989,7 +989,7 @@
                 ]
             },
             {
-                "text": "Mobbed by cats and near-blind with the blood in its eyes, the dog flees from c_n, yelping pitifully.",
+                "text": "Mobbad av katter och n\u00e4stan blind med blodet i \u00f6gonen flyr hunden fr\u00e5n c_n och skriker ynkligt.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1011,7 +1011,7 @@
                 ]
             },
             {
-                "text": "s_c calls out a battle plan, and the cats flow into it, carefully covering each other and driving the dog backwards until it loses its nerve, tucks tail, and runs from c_n territory, deep into the wilderness.",
+                "text": "s_c ropar ut en stridsplan, och katterna str\u00f6mmar in i den, t\u00e4cker f\u00f6rsiktigt varandra och driver hunden bak\u00e5t tills den tappar nerven, drar svansen och springer fr\u00e5n c_n territorium, djupt in i vildmarken.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1038,12 +1038,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "All r_c's attempts to drive the small dog off only send it into greater and greater fits of excitement, until the only thing to do is wait, exasperated, in a safe spot for the beast to calm down.",
+                "text": "Alla r_c:s f\u00f6rs\u00f6k att driva iv\u00e4g den lilla hunden f\u00e5r den bara i st\u00f6rre och st\u00f6rre anfall av sp\u00e4nning, tills det enda man kan g\u00f6ra \u00e4r att v\u00e4nta, uppr\u00f6rd, p\u00e5 en s\u00e4ker plats f\u00f6r odjuret att lugna sig.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "The dog gets a lucky hit in on r_c, though together the patrol is still able to drive it off successfully.",
+                "text": "Hunden f\u00e5r en tur p\u00e5 r_c, men tillsammans kan patrullen fortfarande k\u00f6ra iv\u00e4g den framg\u00e5ngsrikt.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1060,7 +1060,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat got a scar from a fight with a small dog, but they always say it was a huge dog."
+                    "scar": "Den h\u00e4r katten fick ett \u00e4rr av ett slagsm\u00e5l med en liten hund, men de s\u00e4ger alltid att det var en enorm hund."
                 }
             }
         ]
