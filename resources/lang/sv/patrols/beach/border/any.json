@@ -16,12 +16,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "N\u00e4r patrullen markerar gr\u00e4nslinjerna sprack ett g\u00e4ng skurkar fr\u00e5n strandgr\u00e4set! Ett bakh\u00e5ll!",
-        "decline_text": "Patrullen v\u00e4nder efter och springer iv\u00e4g! Gr\u00e4nserna l\u00e4mnas \u00f6ppna f\u00f6r skurkarna att leriga.",
+        "intro_text": "När patrullen markerar gränslinjerna sprack ett gäng skurkar från strandgräset! Ett bakhåll!",
+        "decline_text": "Patrullen vänder efter och springer iväg! Gränserna lämnas öppna för skurkarna att leriga.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "Patrullen g\u00e5r ner i strid utan en sekund eftertanke och driver s\u00e5 sm\u00e5ningom bort skurkarna.",
+                "text": "Patrullen går ner i strid utan en sekund eftertanke och driver så småningom bort skurkarna.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -43,7 +43,7 @@
                 ]
             },
             {
-                "text": "s_c hoppar omedelbart f\u00f6r att skydda {PRONOUN/s_c/poss} klankamrater. {PRONOUN/s_c/poss/CAP} v\u00e5ldsamhet i strid skr\u00e4mmer skurkarna. N\u00e4r de inser att de verkligen har underskattat klankatterna, v\u00e4nder skurkarna om och springer.",
+                "text": "s_c hoppar omedelbart för att skydda {PRONOUN/s_c/poss} klankamrater. {PRONOUN/s_c/poss/CAP} våldsamhet i strid skrämmer skurkarna. När de inser att de verkligen har underskattat klankatterna, vänder skurkarna om och springer.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -68,7 +68,7 @@
                 ]
             },
             {
-                "text": "s_c njuter av striden och hoppar in i striden med {PRONOUN/s_c/poss} t\u00e4nder blottade och klor utan h\u00f6lje. Skurvarna drivs snabbt bort av patrullen.",
+                "text": "s_c njuter av striden och hoppar in i striden med {PRONOUN/s_c/poss} tänder blottade och klor utan hölje. Skurvarna drivs snabbt bort av patrullen.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -97,20 +97,20 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Skurvarna \u00e4r skr\u00e4mmande samordnade och anv\u00e4nder patrullens chock och f\u00f6rvirring mot dem. Patrullkatterna plockas av en efter en, och bara ett par lyckas undkomma slakten.",
+                "text": "Skurvarna är skrämmande samordnade och använder patrullens chock och förvirring mot dem. Patrullkatterna plockas av en efter en, och bara ett par lyckas undkomma slakten.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "multi"
                 ],
                 "history_text": {
-                    "scar": "m_c var sv\u00e5rt \u00e4rrad n\u00e4r skurkar gick i bakh\u00e5ll f\u00f6r {PRONOUN/m_c/poss} patrull.",
-                    "reg_death": "m_c d\u00f6dades n\u00e4r skurkar \u00f6verf\u00f6ll {PRONOUN/m_c/poss} patrull.",
-                    "lead_death": "d\u00f6dades i ett oseri\u00f6st bakh\u00e5ll"
+                    "scar": "m_c var svårt ärrad när skurkar gick i bakhåll för {PRONOUN/m_c/poss} patrull.",
+                    "reg_death": "m_c dödades när skurkar överföll {PRONOUN/m_c/poss} patrull.",
+                    "lead_death": "dödades i ett oseriöst bakhåll"
                 }
             },
             {
-                "text": "\u00d6verraskad sprids patrullen och tappar sammanh\u00e5llningen. Skurvarna \u00e4r snabba att dra f\u00f6rdel av f\u00f6rvirringen och r_c \u00e4r sv\u00e5rt s\u00e5rad, vilket tvingar patrullen att dra sig tillbaka.",
+                "text": "Överraskad sprids patrullen och tappar sammanhållningen. Skurvarna är snabba att dra fördel av förvirringen och r_c är svårt sårad, vilket tvingar patrullen att dra sig tillbaka.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -127,9 +127,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var sv\u00e5rt \u00e4rrad n\u00e4r skurkar gick i bakh\u00e5ll f\u00f6r {PRONOUN/m_c/poss} patrull.",
-                    "reg_death": "m_c dog av skador som \u00e5dragits i ett oseri\u00f6st bakh\u00e5ll.",
-                    "lead_death": "dog av skador som \u00e5dragits i ett oseri\u00f6st bakh\u00e5ll"
+                    "scar": "m_c var svårt ärrad när skurkar gick i bakhåll för {PRONOUN/m_c/poss} patrull.",
+                    "reg_death": "m_c dog av skador som ådragits i ett oseriöst bakhåll.",
+                    "lead_death": "dog av skador som ådragits i ett oseriöst bakhåll"
                 }
             }
         ]
@@ -151,12 +151,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "N\u00e4r r_c markerar gr\u00e4nslinjerna sprack ett g\u00e4ng skurkar fr\u00e5n strandgr\u00e4set! Ett bakh\u00e5ll!",
-        "decline_text": "r_c v\u00e4nder svansen och springer iv\u00e4g! Rogues har {PRONOUN/r_c/object} l\u00e5ngt f\u00e4rre \u00e4n; att varna klanen \u00e4r viktigare \u00e4n att spela hj\u00e4lten.",
+        "intro_text": "När r_c markerar gränslinjerna sprack ett gäng skurkar från strandgräset! Ett bakhåll!",
+        "decline_text": "r_c vänder svansen och springer iväg! Rogues har {PRONOUN/r_c/object} långt färre än; att varna klanen är viktigare än att spela hjälten.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "F\u00f6rbluffad f\u00f6r ett \u00f6gonblick \u00e4r r_c n\u00e4stan fast i t\u00e4nderna p\u00e5 den f\u00f6rsta skurken, men {PRONOUN/r_c/subject} {VERB/r_c/manage/manages} f\u00f6r att undvika och v\u00e4va sig igenom attackerna. S\u00e5 sm\u00e5ningom slipper r_c striden och kastar sig mot l\u00e4gret med varningsjul fr\u00e5n {PRONOUN/r_c/poss} lungorna.",
+                "text": "Förbluffad för ett ögonblick är r_c nästan fast i tänderna på den första skurken, men {PRONOUN/r_c/subject} {VERB/r_c/manage/manages} för att undvika och väva sig igenom attackerna. Så småningom slipper r_c striden och kastar sig mot lägret med varningsjul från {PRONOUN/r_c/poss} lungorna.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -177,7 +177,7 @@
                 ]
             },
             {
-                "text": "s_c morrar \u00e5t skurkarna, i antal men inte kuvade. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} mot inkr\u00e4ktarna med s\u00e5dan grymhet att skurkarna blir f\u00f6rv\u00e5nade. Skr\u00e4mmade \u00f6ver klankattens brist p\u00e5 r\u00e4dsla och sj\u00e4lvbevarelsedrift fryser skurkarna. s_c ser {PRONOUN/s_c/poss} m\u00f6jligheten att springa och tar den och springer tillbaka till l\u00e4gret f\u00f6r att samla fler krigare och \u00e5terv\u00e4nda.",
+                "text": "s_c morrar åt skurkarna, i antal men inte kuvade. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} mot inkräktarna med sådan grymhet att skurkarna blir förvånade. Skrämmade över klankattens brist på rädsla och självbevarelsedrift fryser skurkarna. s_c ser {PRONOUN/s_c/poss} möjligheten att springa och tar den och springer tillbaka till lägret för att samla fler krigare och återvända.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -203,7 +203,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "s_c morrar \u00e5t skurkarna, i antal men inte kuvade. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} mot inkr\u00e4ktarna med s\u00e5dan grymhet att skurkarna blir f\u00f6rv\u00e5nade. Chocken varar bara ett \u00f6gonblick innan de \u00e5ker ner p\u00e5 krigaren igen. S\u00e5 sm\u00e5ningom har s_c inget annat val \u00e4n att fly innan {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} d\u00f6dades.",
+                "text": "s_c morrar åt skurkarna, i antal men inte kuvade. {PRONOUN/s_c/subject/CAP} {VERB/s_c/throw/throws} {PRONOUN/s_c/self} mot inkräktarna med sådan grymhet att skurkarna blir förvånade. Chocken varar bara ett ögonblick innan de åker ner på krigaren igen. Så småningom har s_c inget annat val än att fly innan {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} dödades.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -229,15 +229,15 @@
                 ]
             },
             {
-                "text": "Rogues \u00e4r betydligt fler \u00e4n r_c och har inga problem med att d\u00f6da den ensamma katten. Kroppen {PRONOUN/r_c/poss/CAP} uppt\u00e4cks n\u00e4sta dag, t\u00e4ckt av s\u00e5r och kyla.",
+                "text": "Rogues är betydligt fler än r_c och har inga problem med att döda den ensamma katten. Kroppen {PRONOUN/r_c/poss/CAP} upptäcks nästa dag, täckt av sår och kyla.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "reg_death": "m_c d\u00f6dades n\u00e4r skurkar gick i bakh\u00e5ll mot {PRONOUN/m_c/object} medan de var p\u00e5 en solopatrull.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades i ett oseri\u00f6st bakh\u00e5ll"
+                    "reg_death": "m_c dödades när skurkar gick i bakhåll mot {PRONOUN/m_c/object} medan de var på en solopatrull.",
+                    "lead_death": "{VERB/m_c/were/was} dödades i ett oseriöst bakhåll"
                 },
                 "relationships": [
                     {
@@ -275,12 +275,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "N\u00e4r patrullen markerar gr\u00e4nslinjerna kommer ett g\u00e4ng skurkar ut fr\u00e5n strandgr\u00e4set f\u00f6r att konfrontera klankatterna!",
-        "decline_text": "Patrullen v\u00e4nder efter och springer iv\u00e4g! Gr\u00e4nserna l\u00e4mnas \u00f6ppna f\u00f6r skurkarna att leriga.",
+        "intro_text": "När patrullen markerar gränslinjerna kommer ett gäng skurkar ut från strandgräset för att konfrontera klankatterna!",
+        "decline_text": "Patrullen vänder efter och springer iväg! Gränserna lämnas öppna för skurkarna att leriga.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "Skurvarna h\u00e5ller p\u00e5 och h\u00e5nar, vilket s\u00e5 sm\u00e5ningom provocerar fram en strid. Klankatterna \u00e4r dock starka och skurkarna verkar vara f\u00f6rsvagade av hunger. Patrullen driver l\u00e4tt bort inkr\u00e4ktarna.",
+                "text": "Skurvarna håller på och hånar, vilket så småningom provocerar fram en strid. Klankatterna är dock starka och skurkarna verkar vara försvagade av hunger. Patrullen driver lätt bort inkräktarna.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -301,7 +301,7 @@
                 ]
             },
             {
-                "text": "Skurvarna h\u00e5ller p\u00e5 och h\u00e5nar, vilket s\u00e5 sm\u00e5ningom provocerar fram en strid. Klankatterna \u00e4r dock starka och efter en kort kamp tvingas skurkarna dra sig tillbaka.",
+                "text": "Skurvarna håller på och hånar, vilket så småningom provocerar fram en strid. Klankatterna är dock starka och efter en kort kamp tvingas skurkarna dra sig tillbaka.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -322,7 +322,7 @@
                 ]
             },
             {
-                "text": "s_c tar ledningen och konfronterar g\u00e4nget med sj\u00e4lvf\u00f6rtroende. S\u00e5 sm\u00e5ningom erk\u00e4nner skurkarna att de har k\u00e4mpat f\u00f6r att hitta tillr\u00e4ckligt med byte och letade efter att stj\u00e4la rikare territorium fr\u00e5n klanen. Sp\u00e4nningarna l\u00e4ttar n\u00e4r s_c informerar skurkarna om en bytesrik skog utanf\u00f6r c_n territorium.",
+                "text": "s_c tar ledningen och konfronterar gänget med självförtroende. Så småningom erkänner skurkarna att de har kämpat för att hitta tillräckligt med byte och letade efter att stjäla rikare territorium från klanen. Spänningarna lättar när s_c informerar skurkarna om en bytesrik skog utanför c_n territorium.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -346,7 +346,7 @@
                 ]
             },
             {
-                "text": "s_c tar ledningen och konfronterar g\u00e4nget med sj\u00e4lvf\u00f6rtroende. S\u00e5 sm\u00e5ningom erk\u00e4nner skurkarna att de har k\u00e4mpat f\u00f6r att hitta tillr\u00e4ckligt med byte och letade efter att stj\u00e4la rikare territorium fr\u00e5n klanen. Sp\u00e4nningarna l\u00e4ttar n\u00e4r s_c informerar skurkarna om en bytesrik skog utanf\u00f6r c_n territorium.",
+                "text": "s_c tar ledningen och konfronterar gänget med självförtroende. Så småningom erkänner skurkarna att de har kämpat för att hitta tillräckligt med byte och letade efter att stjäla rikare territorium från klanen. Spänningarna lättar när s_c informerar skurkarna om en bytesrik skog utanför c_n territorium.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -373,16 +373,16 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Skurvarna \u00e4r skr\u00e4mmande samordnade och anv\u00e4nder patrullens tillf\u00e4lliga \u00f6verraskning till sin f\u00f6rdel. Patrullkatterna plockas av en efter en, och bara ett par lyckas undkomma slakten.",
+                "text": "Skurvarna är skrämmande samordnade och använder patrullens tillfälliga överraskning till sin fördel. Patrullkatterna plockas av en efter en, och bara ett par lyckas undkomma slakten.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "multi"
                 ],
                 "history_text": {
-                    "scar": "m_c var sv\u00e5rt \u00e4rrad n\u00e4r skurkar attackerade {PRONOUN/m_c/poss} patrull.",
-                    "reg_death": "m_c dog av skador som \u00e5dragits i ett oseri\u00f6st bakh\u00e5ll.",
-                    "lead_death": "dog av skador som \u00e5dragits i ett oseri\u00f6st bakh\u00e5ll"
+                    "scar": "m_c var svårt ärrad när skurkar attackerade {PRONOUN/m_c/poss} patrull.",
+                    "reg_death": "m_c dog av skador som ådragits i ett oseriöst bakhåll.",
+                    "lead_death": "dog av skador som ådragits i ett oseriöst bakhåll"
                 },
                 "relationships": [
                     {
@@ -402,7 +402,7 @@
                 ]
             },
             {
-                "text": "Skurvarna h\u00e5ller p\u00e5 och h\u00e5nar, vilket s\u00e5 sm\u00e5ningom provocerar fram en strid. De visar sig vara starka k\u00e4mpar, och r_c \u00e4r sv\u00e5rt skadad, vilket tvingar patrullen att dra sig tillbaka.",
+                "text": "Skurvarna håller på och hånar, vilket så småningom provocerar fram en strid. De visar sig vara starka kämpar, och r_c är svårt skadad, vilket tvingar patrullen att dra sig tillbaka.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -419,9 +419,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var sv\u00e5rt \u00e4rrad n\u00e4r skurkar attackerade {PRONOUN/m_c/poss} patrull.",
-                    "reg_death": "m_c dog av skador som \u00e5dragits i ett oseri\u00f6st bakh\u00e5ll.",
-                    "lead_death": "dog av skador som \u00e5dragits i ett oseri\u00f6st bakh\u00e5ll"
+                    "scar": "m_c var svårt ärrad när skurkar attackerade {PRONOUN/m_c/poss} patrull.",
+                    "reg_death": "m_c dog av skador som ådragits i ett oseriöst bakhåll.",
+                    "lead_death": "dog av skador som ådragits i ett oseriöst bakhåll"
                 },
                 "relationships": [
                     {
@@ -443,14 +443,14 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Patrullen g\u00e5r ner i strid utan en sekund eftertanke, men skurkarna \u00e4r starkare \u00e4n v\u00e4ntat, och s\u00e5 sm\u00e5ningom tvingas patrullen dra sig tillbaka.",
+                "text": "Patrullen går ner i strid utan en sekund eftertanke, men skurkarna är starkare än väntat, och så småningom tvingas patrullen dra sig tillbaka.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "antag_success_outcomes": [
             {
-                "text": "Patrullen g\u00e5r ner i strid utan en sekund eftertanke och driver s\u00e5 sm\u00e5ningom bort skurkarna.",
+                "text": "Patrullen går ner i strid utan en sekund eftertanke och driver så småningom bort skurkarna.",
                 "exp": 30,
                 "weight": 20
             }
@@ -473,12 +473,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Det \u00e4r m\u00f6rka moln vid horisonten, och p_l undrar om patrullen ska forts\u00e4tta.",
-        "decline_text": "Patrullen best\u00e4mmer sig f\u00f6r att g\u00e5 tillbaka tidigt.",
+        "intro_text": "Det är mörka moln vid horisonten, och p_l undrar om patrullen ska fortsätta.",
+        "decline_text": "Patrullen bestämmer sig för att gå tillbaka tidigt.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "\u00c4ven om det \u00e4r ganska gr\u00e5tt d\u00e4r uppe, kommer det utlovade regnet aldrig.",
+                "text": "Även om det är ganska grått där uppe, kommer det utlovade regnet aldrig.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -499,7 +499,7 @@
                 ]
             },
             {
-                "text": "Katterna blir bl\u00f6ta i regnet, men patrullen lyckas i \u00f6vrigt.",
+                "text": "Katterna blir blöta i regnet, men patrullen lyckas i övrigt.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -520,7 +520,7 @@
                 ]
             },
             {
-                "text": "s_c g\u00f6r en noggrann bed\u00f6mning, och patrullen forts\u00e4tter. De h\u00e5ller sig till klipptopparna och undviker de l\u00e5ga str\u00e4nderna n\u00e4r regnet b\u00f6rjar \u00f6sa runt dem.",
+                "text": "s_c gör en noggrann bedömning, och patrullen fortsätter. De håller sig till klipptopparna och undviker de låga stränderna när regnet börjar ösa runt dem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -544,7 +544,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte v\u00e4rt risken - s_c \u00f6vertygar patrullen att bege sig hem.",
+                "text": "Det är inte värt risken - s_c övertygar patrullen att bege sig hem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -572,15 +572,15 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det regnar och en pl\u00f6tslig \u00f6versv\u00e4mning fr\u00e5n den \u00f6verfulla floden sveper bort alla katterna i patrullen. Vissa lyckas rida p\u00e5 v\u00e5gorna och paddla f\u00f6r sina liv, men m\u00e5nga \u00e4r f\u00f6rlorade f\u00f6r alltid.",
+                "text": "Det regnar och en plötslig översvämning från den överfulla floden sveper bort alla katterna i patrullen. Vissa lyckas rida på vågorna och paddla för sina liv, men många är förlorade för alltid.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "multi"
                 ],
                 "history_text": {
-                    "reg_death": "Den h\u00e4r katten dr\u00e4nktes i \u00f6versv\u00e4mningsvatten.",
-                    "lead_death": "drunknade i \u00f6versv\u00e4mningsvatten"
+                    "reg_death": "Den här katten dränktes i översvämningsvatten.",
+                    "lead_death": "drunknade i översvämningsvatten"
                 }
             }
         ]
@@ -602,12 +602,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Det \u00e4r m\u00f6rka moln vid horisonten, och p_l undrar om patrullen ska forts\u00e4tta.",
-        "decline_text": "Patrullen best\u00e4mmer sig f\u00f6r att g\u00e5 tillbaka tidigt.",
+        "intro_text": "Det är mörka moln vid horisonten, och p_l undrar om patrullen ska fortsätta.",
+        "decline_text": "Patrullen bestämmer sig för att gå tillbaka tidigt.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "\u00c4ven om det \u00e4r ganska gr\u00e5tt d\u00e4r uppe, kommer det utlovade regnet aldrig.",
+                "text": "Även om det är ganska grått där uppe, kommer det utlovade regnet aldrig.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -628,7 +628,7 @@
                 ]
             },
             {
-                "text": "Katterna blir bl\u00f6ta i regnet, men patrullen lyckas i \u00f6vrigt.",
+                "text": "Katterna blir blöta i regnet, men patrullen lyckas i övrigt.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -649,7 +649,7 @@
                 ]
             },
             {
-                "text": "s_c g\u00f6r en noggrann bed\u00f6mning, och patrullen forts\u00e4tter. De h\u00e5ller sig till klipptopparna och undviker de l\u00e5ga str\u00e4nderna n\u00e4r regnet b\u00f6rjar \u00f6sa runt dem.",
+                "text": "s_c gör en noggrann bedömning, och patrullen fortsätter. De håller sig till klipptopparna och undviker de låga stränderna när regnet börjar ösa runt dem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -673,7 +673,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte v\u00e4rt risken - s_c \u00f6vertygar patrullen att bege sig hem.",
+                "text": "Det är inte värt risken - s_c övertygar patrullen att bege sig hem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -701,15 +701,15 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det regnar och en pl\u00f6tslig \u00f6versv\u00e4mning fr\u00e5n den \u00f6verfulla floden sveper bort alla katterna i patrullen. p_l skriker ut en varning, och de flesta av patrullen kan reagera snabbt och sl\u00e5 ut kraftigt f\u00f6r passerande bitar av drivved, men r_c hinner inte med, sjunker under vattnet.",
+                "text": "Det regnar och en plötslig översvämning från den överfulla floden sveper bort alla katterna i patrullen. p_l skriker ut en varning, och de flesta av patrullen kan reagera snabbt och slå ut kraftigt för passerande bitar av drivved, men r_c hinner inte med, sjunker under vattnet.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "reg_death": "m_c dr\u00e4nktes av \u00f6versv\u00e4mningsvatten.",
-                    "lead_death": "drunknade i \u00f6versv\u00e4mningsvatten"
+                    "reg_death": "m_c dränktes av översvämningsvatten.",
+                    "lead_death": "drunknade i översvämningsvatten"
                 }
             }
         ]
@@ -731,22 +731,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Det finns m\u00f6rka moln vid horisonten, och r_c undrar om {PRONOUN/r_c/subject} ska forts\u00e4tta.",
-        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att g\u00e5 tillbaka tidigt.",
+        "intro_text": "Det finns mörka moln vid horisonten, och r_c undrar om {PRONOUN/r_c/subject} ska fortsätta.",
+        "decline_text": "r_c bestämmer sig för att gå tillbaka tidigt.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "\u00c4ven om det \u00e4r ganska gr\u00e5tt d\u00e4r uppe, kommer det utlovade regnet aldrig.",
+                "text": "Även om det är ganska grått där uppe, kommer det utlovade regnet aldrig.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c blir bl\u00f6t i regnet, men annars lyckas patrullen.",
+                "text": "r_c blir blöt i regnet, men annars lyckas patrullen.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c g\u00f6r en noggrann bed\u00f6mning och forts\u00e4tter. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stick/sticks} till klipptopparna, undvik de l\u00e5ga str\u00e4nderna n\u00e4r regnet b\u00f6rjar \u00f6sa runt {PRONOUN/s_c/object}.",
+                "text": "s_c gör en noggrann bedömning och fortsätter. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stick/sticks} till klipptopparna, undvik de låga stränderna när regnet börjar ösa runt {PRONOUN/s_c/object}.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -754,7 +754,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte v\u00e4rt risken - s_c beger sig hem.",
+                "text": "Det är inte värt risken - s_c beger sig hem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -766,20 +766,20 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det kommer ett skyfall, och en pl\u00f6tslig \u00f6versv\u00e4mning fr\u00e5n den \u00f6verfulla floden sveper bort r_c.",
+                "text": "Det kommer ett skyfall, och en plötslig översvämning från den överfulla floden sveper bort r_c.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades i en \u00f6versv\u00e4mning.",
-                    "reg_death": "m_c dr\u00e4nktes av \u00f6versv\u00e4mningsvatten.",
-                    "lead_death": "drunknade i \u00f6versv\u00e4mningsvatten"
+                    "scar": "m_c skadades i en översvämning.",
+                    "reg_death": "m_c dränktes av översvämningsvatten.",
+                    "lead_death": "drunknade i översvämningsvatten"
                 }
             },
             {
-                "text": "Det kommer ett skyfall, och en pl\u00f6tslig \u00f6versv\u00e4mning fr\u00e5n den \u00f6verfulla floden sveper bort r_c. Skadad, kippar efter luft och paddlar desperat, r_c minns tillr\u00e4ckligt mycket av {PRONOUN/r_c/poss}-tr\u00e4ningen f\u00f6r att h\u00e5lla utkik efter drivved. {PRONOUN/r_c/subject/CAP} {VERB/r_c/sink/sinks} {PRONOUN/r_c/poss} klor in i den f\u00f6rsta biten som har svepats f\u00f6rbi {PRONOUN/r_c/object}. Det r\u00e4ddar liv p\u00e5 {PRONOUN/r_c/poss}.",
+                "text": "Det kommer ett skyfall, och en plötslig översvämning från den överfulla floden sveper bort r_c. Skadad, kippar efter luft och paddlar desperat, r_c minns tillräckligt mycket av {PRONOUN/r_c/poss}-träningen för att hålla utkik efter drivved. {PRONOUN/r_c/subject/CAP} {VERB/r_c/sink/sinks} {PRONOUN/r_c/poss} klor in i den första biten som har svepats förbi {PRONOUN/r_c/object}. Det räddar liv på {PRONOUN/r_c/poss}.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -795,9 +795,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c skadades i en \u00f6versv\u00e4mning.",
-                    "reg_death": "m_c dr\u00e4nktes av \u00f6versv\u00e4mningsvatten.",
-                    "lead_death": "drunknade i \u00f6versv\u00e4mningsvatten"
+                    "scar": "m_c skadades i en översvämning.",
+                    "reg_death": "m_c dränktes av översvämningsvatten.",
+                    "lead_death": "drunknade i översvämningsvatten"
                 }
             }
         ]
@@ -819,22 +819,22 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Det finns m\u00f6rka moln vid horisonten, och r_c undrar om {PRONOUN/r_c/subject} ska forts\u00e4tta.",
-        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att g\u00e5 tillbaka tidigt.",
+        "intro_text": "Det finns mörka moln vid horisonten, och r_c undrar om {PRONOUN/r_c/subject} ska fortsätta.",
+        "decline_text": "r_c bestämmer sig för att gå tillbaka tidigt.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "\u00c4ven om det \u00e4r ganska gr\u00e5tt d\u00e4r uppe, kommer det utlovade regnet aldrig.",
+                "text": "Även om det är ganska grått där uppe, kommer det utlovade regnet aldrig.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "r_c blir bl\u00f6t i regnet, men annars lyckas patrullen.",
+                "text": "r_c blir blöt i regnet, men annars lyckas patrullen.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c g\u00f6r en noggrann bed\u00f6mning och forts\u00e4tter. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stick/sticks} till klipptopparna, undvik de l\u00e5ga str\u00e4nderna n\u00e4r regnet b\u00f6rjar \u00f6sa runt {PRONOUN/s_c/object}.",
+                "text": "s_c gör en noggrann bedömning och fortsätter. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stick/sticks} till klipptopparna, undvik de låga stränderna när regnet börjar ösa runt {PRONOUN/s_c/object}.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -842,7 +842,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte v\u00e4rt risken - s_c beger sig hem.",
+                "text": "Det är inte värt risken - s_c beger sig hem.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -854,7 +854,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det kommer ett skyfall, och en pl\u00f6tslig \u00f6versv\u00e4mning fr\u00e5n den \u00f6verfulla floden sveper bort r_c. Med den lilla varningen {PRONOUN/r_c/subject} {VERB/r_c/have/has}, {PRONOUN/r_c/subject} {VERB/r_c/spot/spots} en gren som b\u00e4rs av vattnet och {VERB/r_c/ stryk/strejker} kraftigt f\u00f6r det. S\u00e5rad och huttrande av b\u00e5de utmattning och kyla, {PRONOUN/r_c/subject} \u00e4nd\u00e5 {VERB/r_c/cling/clings} till s\u00e4kerhet n\u00e4r \u00f6versv\u00e4mningsvattnet g\u00e5r sin v\u00e4g.",
+                "text": "Det kommer ett skyfall, och en plötslig översvämning från den överfulla floden sveper bort r_c. Med den lilla varningen {PRONOUN/r_c/subject} {VERB/r_c/have/has}, {PRONOUN/r_c/subject} {VERB/r_c/spot/spots} en gren som bärs av vattnet och {VERB/r_c/ stryk/strejker} kraftigt för det. Sårad och huttrande av både utmattning och kyla, {PRONOUN/r_c/subject} ändå {VERB/r_c/cling/clings} till säkerhet när översvämningsvattnet går sin väg.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -870,7 +870,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c skadades i en \u00f6versv\u00e4mning."
+                    "scar": "m_c skadades i en översvämning."
                 }
             }
         ]
@@ -892,12 +892,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i den bl\u00f6ta sanden p\u00e5 stranden.",
-        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i den blöta sanden på stranden.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte undersöka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. r_c g\u00f6mmer snabbt {PRONOUN/r_c/self} i gr\u00e4set p\u00e5 sanddynerna och s\u00e4tter upp ett bakh\u00e5ll som f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. r_c gömmer snabbt {PRONOUN/r_c/self} i gräset på sanddynerna och sätter upp ett bakhåll som får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -918,7 +918,7 @@
                 ]
             },
             {
-                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -939,7 +939,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c kastar {PRONOUN/s_c/self} p\u00e5 skurken, v\u00e4sande rasande och driver dem bort fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c kastar {PRONOUN/s_c/self} på skurken, väsande rasande och driver dem bort från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -963,7 +963,7 @@
                 ]
             },
             {
-                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken l\u00e4mnar c_n territorium. Skr\u00e4mmad av {PRONOUN/s_c/poss} sj\u00e4lvf\u00f6rtroende ger skurken efter och l\u00e4mnar utan kamp.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken lämnar c_n territorium. Skrämmad av {PRONOUN/s_c/poss} självförtroende ger skurken efter och lämnar utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1004,7 +1004,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det visar sig att de var r_cs egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} ensam.",
+                "text": "Det visar sig att de var r_cs egna tassavtryck... r_c huffar av förlägenhet, plötsligt tacksam {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} ensam.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1025,7 +1025,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c f\u00f6rs\u00f6ker s\u00e4tta upp en f\u00e4lla genom att anv\u00e4nda tidvattnet f\u00f6r att sk\u00e4ra av skurkarnas flyktv\u00e4g, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} \u00e4r inte lika smart som {PRONOUN/s_c/subject} { VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. F\u00e4llan misslyckas, och skurken vandrar vidare.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c försöker sätta upp en fälla genom att använda tidvattnet för att skära av skurkarnas flyktväg, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} är inte lika smart som {PRONOUN/s_c/subject} { VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. Fällan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -1049,16 +1049,16 @@
                 ]
             },
             {
-                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget som d\u00f6dar {PRONOUN/r_c/object}.",
+                "text": "Följer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget som dödar {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
-                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
+                    "scar": "m_c var ärrad av en invaderande skurk.",
+                    "reg_death": "m_c dödades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av en invaderande skurk"
                 },
                 "relationships": [
                     {
@@ -1078,7 +1078,7 @@
                 ]
             },
             {
-                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av uppr\u00f6rdhet, men skurken som gjorde det har redan v\u00e4nt och sprungit .",
+                "text": "Följer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av upprördhet, men skurken som gjorde det har redan vänt och sprungit .",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1095,7 +1095,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "scar": "m_c var ärrad av en invaderande skurk.",
                     "reg_death": "m_c dog av en skada tillfogad av en invaderande skurk.",
                     "lead_death": "dog av en skada tillfogad av en invaderande skurk"
                 },
@@ -1135,12 +1135,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i den bl\u00f6ta sanden p\u00e5 stranden.",
-        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i den blöta sanden på stranden.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte undersöka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. r_c g\u00f6mmer snabbt {PRONOUN/r_c/self} i gr\u00e4set p\u00e5 sanddynerna och s\u00e4tter upp ett bakh\u00e5ll som f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. r_c gömmer snabbt {PRONOUN/r_c/self} i gräset på sanddynerna och sätter upp ett bakhåll som får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1161,7 +1161,7 @@
                 ]
             },
             {
-                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1182,7 +1182,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c s\u00e4tter upp en f\u00e4lla genom att anv\u00e4nda tidvattnet f\u00f6r att sk\u00e4ra av skurkarnas flyktv\u00e4g. Det f\u00e5r den f\u00f6rskr\u00e4ckta inkr\u00e4ktaren att krypa ihop f\u00f6r att inse att de har blivit f\u00e5ngad och inst\u00e4ngd av c_n, och de eskorteras till gr\u00e4nsen med l\u00e4rdomen ordentligt.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c sätter upp en fälla genom att använda tidvattnet för att skära av skurkarnas flyktväg. Det får den förskräckta inkräktaren att krypa ihop för att inse att de har blivit fångad och instängd av c_n, och de eskorteras till gränsen med lärdomen ordentligt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1206,7 +1206,7 @@
                 ]
             },
             {
-                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken l\u00e4mnar c_n territorium. Skr\u00e4mmad av {PRONOUN/s_c/poss} sj\u00e4lvf\u00f6rtroende ger skurken efter och l\u00e4mnar utan kamp.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken lämnar c_n territorium. Skrämmad av {PRONOUN/s_c/poss} självförtroende ger skurken efter och lämnar utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1247,7 +1247,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det visar sig att de var r_cs egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} ensam.",
+                "text": "Det visar sig att de var r_cs egna tassavtryck... r_c huffar av förlägenhet, plötsligt tacksam {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} ensam.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1268,7 +1268,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c kastar {PRONOUN/s_c/self} p\u00e5 skurken, v\u00e4sande ursinnigt, men det h\u00e4r \u00e4r en stridsh\u00e4rdad inkr\u00e4ktare, och s_c \u00e4r inte en s\u00e5 bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c kastar {PRONOUN/s_c/self} på skurken, väsande ursinnigt, men det här är en stridshärdad inkräktare, och s_c är inte en så bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -1292,16 +1292,16 @@
                 ]
             },
             {
-                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget som d\u00f6dar {PRONOUN/r_c/object}.",
+                "text": "Följer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget som dödar {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
-                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
+                    "scar": "m_c var ärrad av en invaderande skurk.",
+                    "reg_death": "m_c dödades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av en invaderande skurk"
                 },
                 "relationships": [
                     {
@@ -1321,7 +1321,7 @@
                 ]
             },
             {
-                "text": "F\u00f6ljer leden med {PRONOUN/s_c/poss} nos mot marken, ser s_c inte slaget komma. {PRONOUN/s_c/subject/CAP} {VERB/s_c/haul/hauls} {PRONOUN/s_c/self} till {PRONOUN/s_c/poss} fot, spottar av uppr\u00f6rdhet, men skurken som gjorde det har redan v\u00e4nt och sprungit .",
+                "text": "Följer leden med {PRONOUN/s_c/poss} nos mot marken, ser s_c inte slaget komma. {PRONOUN/s_c/subject/CAP} {VERB/s_c/haul/hauls} {PRONOUN/s_c/self} till {PRONOUN/s_c/poss} fot, spottar av upprördhet, men skurken som gjorde det har redan vänt och sprungit .",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -1345,7 +1345,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "scar": "m_c var ärrad av en invaderande skurk.",
                     "reg_death": "m_c dog av en skada tillfogad av en invaderande skurk.",
                     "lead_death": "dog av en skada tillfogad av en invaderande skurk"
                 },
@@ -1390,29 +1390,29 @@
             ]
         },
         "weight": 20,
-        "intro_text": "N\u00e4r app1 patrullerar m\u00e4rker han n\u00e5gra misst\u00e4nkta tassavtryck i den bl\u00f6ta sanden p\u00e5 stranden.",
-        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte unders\u00f6ka.",
+        "intro_text": "När app1 patrullerar märker han några misstänkta tassavtryck i den blöta sanden på stranden.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte undersöka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. app1 g\u00f6mmer snabbt {PRONOUN/app1/self} i gr\u00e4set p\u00e5 sanddynerna och s\u00e4tter upp ett bakh\u00e5ll som l\u00e5ter {PRONOUN/app1/object} l\u00e5tsas vara en mycket st\u00f6rre och mer imponerande fighter. Det skickar skurken att fly fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. app1 gömmer snabbt {PRONOUN/app1/self} i gräset på sanddynerna och sätter upp ett bakhåll som låter {PRONOUN/app1/object} låtsas vara en mycket större och mer imponerande fighter. Det skickar skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "app1 inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot. Faktum \u00e4r att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska s\u00e4ker p\u00e5 att detta \u00e4r {PRONOUN/app1/poss} mentors doft. Och mentorn f\u00f6r {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att f\u00e5 en bed\u00f6mning snart.",
+                "text": "app1 inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot. Faktum är att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska säker på att detta är {PRONOUN/app1/poss} mentors doft. Och mentorn för {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att få en bedömning snart.",
                 "exp": 10,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Det visade sig att de var app1s egna tassavtryck... app1 huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam {PRONOUN/app1/subject}{VERB/app1/'re/'s} ensam. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inf\u00f6r andra katter.",
+                "text": "Det visade sig att de var app1s egna tassavtryck... app1 huffar av förlägenhet, plötsligt tacksam {PRONOUN/app1/subject}{VERB/app1/'re/'s} ensam. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inför andra katter.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken l\u00e4mnar c_n territorium. Skurken \u00e4r inte imponerad av denna ton\u00e5ring och ignorerar {PRONOUN/s_c/object} helt.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken lämnar c_n territorium. Skurken är inte imponerad av denna tonåring och ignorerar {PRONOUN/s_c/object} helt.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1438,20 +1438,20 @@
                 ]
             },
             {
-                "text": "N\u00e4r du f\u00f6ljer sp\u00e5ret med {PRONOUN/app1/poss} nos mot marken ser app1 inte slaget som d\u00f6dar {PRONOUN/app1/object}.",
+                "text": "När du följer spåret med {PRONOUN/app1/poss} nos mot marken ser app1 inte slaget som dödar {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
-                    "reg_death": "m_c d\u00f6dades av en invaderande skurk.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en invaderande skurk"
+                    "scar": "m_c var ärrad av en invaderande skurk.",
+                    "reg_death": "m_c dödades av en invaderande skurk.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av en invaderande skurk"
                 }
             },
             {
-                "text": "F\u00f6ljer leden med {PRONOUN/app1/poss} nos mot marken, app1 ser inte slaget komma. {PRONOUN/app1/subject/CAP} {VERB/app1/haul/hauls} {PRONOUN/app1/self} till {PRONOUN/app1/poss} f\u00f6tter, gnisslande av sm\u00e4rta och {VERB/app1/run/runs} f\u00f6r hem.",
+                "text": "Följer leden med {PRONOUN/app1/poss} nos mot marken, app1 ser inte slaget komma. {PRONOUN/app1/subject/CAP} {VERB/app1/haul/hauls} {PRONOUN/app1/self} till {PRONOUN/app1/poss} fötter, gnisslande av smärta och {VERB/app1/run/runs} för hem.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1468,7 +1468,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "scar": "m_c var ärrad av en invaderande skurk.",
                     "reg_death": "m_c dog av en skada tillfogad av en invaderande skurk.",
                     "lead_death": "dog av en skada tillfogad av en invaderande skurk"
                 }
@@ -1492,12 +1492,12 @@
         "max_cats": 2,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i den bl\u00f6ta sanden p\u00e5 stranden.",
-        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i den blöta sanden på stranden.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte undersöka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i gr\u00e4set p\u00e5 sanddynerna och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen gömmer sig snabbt i gräset på sanddynerna och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1518,7 +1518,7 @@
                 ]
             },
             {
-                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1539,7 +1539,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c kastar {PRONOUN/s_c/self} p\u00e5 skurken, v\u00e4sande rasande, och tillsammans med r_c driver dem bort fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c kastar {PRONOUN/s_c/self} på skurken, väsande rasande, och tillsammans med r_c driver dem bort från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1563,7 +1563,7 @@
                 ]
             },
             {
-                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och smygande kr\u00e4ver s_c och r_c att skurken l\u00e4mnar c_n territorium. Skr\u00e4md av deras sj\u00e4lvf\u00f6rtroende ger skurken efter och l\u00e4mnar utan kamp.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och smygande kräver s_c och r_c att skurken lämnar c_n territorium. Skrämd av deras självförtroende ger skurken efter och lämnar utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1604,7 +1604,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam f\u00f6r att {PRONOUN/r_c/poss} patrull \u00e4r s\u00e5 liten. F\u00e4rre \u00f6gon som ser det pinsamma \u00f6gonblicket.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av förlägenhet, plötsligt tacksam för att {PRONOUN/r_c/poss} patrull är så liten. Färre ögon som ser det pinsamma ögonblicket.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1625,7 +1625,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c f\u00f6rs\u00f6ker s\u00e4tta upp en f\u00e4lla genom att anv\u00e4nda tidvattnet f\u00f6r att sk\u00e4ra av skurkarnas flyktv\u00e4g, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} \u00e4r inte lika smart som {PRONOUN/s_c/subject} { VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. F\u00e4llan misslyckas, och skurken vandrar vidare.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c försöker sätta upp en fälla genom att använda tidvattnet för att skära av skurkarnas flyktväg, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} är inte lika smart som {PRONOUN/s_c/subject} { VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. Fällan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -1649,7 +1649,7 @@
                 ]
             },
             {
-                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av uppr\u00f6rdhet, men skurken som gjorde det har redan v\u00e4nt och sprungit fr\u00e5n patrullen.",
+                "text": "Följer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av upprördhet, men skurken som gjorde det har redan vänt och sprungit från patrullen.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1666,7 +1666,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "scar": "m_c var ärrad av en invaderande skurk.",
                     "reg_death": "m_c dog av en skada tillfogad av en invaderande skurk.",
                     "lead_death": "dog av en skada tillfogad av en invaderande skurk"
                 },
@@ -1706,12 +1706,12 @@
         "max_cats": 2,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i den bl\u00f6ta sanden p\u00e5 stranden.",
-        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i den blöta sanden på stranden.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte undersöka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i gr\u00e4set p\u00e5 sanddynerna och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen gömmer sig snabbt i gräset på sanddynerna och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1732,7 +1732,7 @@
                 ]
             },
             {
-                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -1753,7 +1753,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c s\u00e4tter upp en f\u00e4lla genom att anv\u00e4nda tidvattnet f\u00f6r att sk\u00e4ra av skurkarnas flyktv\u00e4g. Det f\u00e5r den f\u00f6rskr\u00e4ckta inkr\u00e4ktaren att krypa ihop f\u00f6r att inse att de har blivit f\u00e5ngad och inst\u00e4ngd av c_n, och de eskorteras till gr\u00e4nsen med l\u00e4rdomen ordentligt.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c sätter upp en fälla genom att använda tidvattnet för att skära av skurkarnas flyktväg. Det får den förskräckta inkräktaren att krypa ihop för att inse att de har blivit fångad och instängd av c_n, och de eskorteras till gränsen med lärdomen ordentligt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1777,7 +1777,7 @@
                 ]
             },
             {
-                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och smygande kr\u00e4ver s_c och r_c att skurken l\u00e4mnar c_n territorium. Skurken skr\u00e4ms av deras sj\u00e4lvf\u00f6rtroende och g\u00e5r d\u00e4rifr\u00e5n utan kamp.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och smygande kräver s_c och r_c att skurken lämnar c_n territorium. Skurken skräms av deras självförtroende och går därifrån utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -1818,7 +1818,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt \u00e4r tacksam {PRONOUN/r_c/poss} patrull s\u00e5 liten. F\u00e4rre \u00f6gon som ser det pinsamma \u00f6gonblicket.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av förlägenhet, plötsligt är tacksam {PRONOUN/r_c/poss} patrull så liten. Färre ögon som ser det pinsamma ögonblicket.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1839,7 +1839,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c kastar {PRONOUN/s_c/self} p\u00e5 skurken, v\u00e4sande ursinnigt, men det h\u00e4r \u00e4r en stridsh\u00e4rdad inkr\u00e4ktare, och s_c \u00e4r inte en s\u00e5 bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c kastar {PRONOUN/s_c/self} på skurken, väsande ursinnigt, men det här är en stridshärdad inkräktare, och s_c är inte en så bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken slipper greppet {PRONOUN/s_c/poss} och springer vidare in i c_n-territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -1863,7 +1863,7 @@
                 ]
             },
             {
-                "text": "F\u00f6ljer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av uppr\u00f6rdhet, men skurken som gjorde det har redan v\u00e4nt och sprungit .",
+                "text": "Följer leden med {PRONOUN/r_c/poss} nos mot marken, r_c ser inte slaget komma. {PRONOUN/r_c/subject/CAP} {VERB/r_c/haul/hauls} {PRONOUN/r_c/self} till {PRONOUN/r_c/poss} fot, spottar av upprördhet, men skurken som gjorde det har redan vänt och sprungit .",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1880,7 +1880,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "scar": "m_c var ärrad av en invaderande skurk.",
                     "reg_death": "m_c dog av en skada tillfogad av en invaderande skurk.",
                     "lead_death": "dog av en skada tillfogad av en invaderande skurk"
                 },
@@ -1925,29 +1925,29 @@
             ]
         },
         "weight": 20,
-        "intro_text": "N\u00e4r app1 patrullerar m\u00e4rker han n\u00e5gra misst\u00e4nkta tassavtryck i den bl\u00f6ta sanden p\u00e5 stranden.",
-        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte unders\u00f6ka.",
+        "intro_text": "När app1 patrullerar märker han några misstänkta tassavtryck i den blöta sanden på stranden.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte undersöka.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i gr\u00e4set p\u00e5 sanddynerna och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen gömmer sig snabbt i gräset på sanddynerna och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "app1 inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot. Faktum \u00e4r att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska s\u00e4ker p\u00e5 att detta \u00e4r {PRONOUN/app1/poss} mentors doft. Och mentorn f\u00f6r {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att f\u00e5 en bed\u00f6mning snart.",
+                "text": "app1 inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot. Faktum är att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska säker på att detta är {PRONOUN/app1/poss} mentors doft. Och mentorn för {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att få en bedömning snart.",
                 "exp": 10,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Det visar sig att de var app1:s egna tassavtryck... app1 huffar av f\u00f6rl\u00e4genhet, pl\u00f6tsligt tacksam f\u00f6r att {PRONOUN/app1/poss} patrull \u00e4r s\u00e5 liten. F\u00e4rre \u00f6gon som ser det pinsamma \u00f6gonblicket. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inf\u00f6r andra katter.",
+                "text": "Det visar sig att de var app1:s egna tassavtryck... app1 huffar av förlägenhet, plötsligt tacksam för att {PRONOUN/app1/poss} patrull är så liten. Färre ögon som ser det pinsamma ögonblicket. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inför andra katter.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken l\u00e4mnar c_n territorium. Skurken \u00e4r inte imponerad av ton\u00e5ringen utan l\u00e4mnar motvilligt c_n territorium.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken lämnar c_n territorium. Skurken är inte imponerad av tonåringen utan lämnar motvilligt c_n territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1973,7 +1973,7 @@
                 ]
             },
             {
-                "text": "F\u00f6ljer leden med {PRONOUN/app1/poss} nos mot marken, app1 ser inte slaget komma. {PRONOUN/app1/subject/CAP} {VERB/app1/haul/hauls} {PRONOUN/app1/self} till {PRONOUN/app1/poss} f\u00f6tter, gnisslande av sm\u00e4rta och {VERB/app1/run/runs} f\u00f6r hem.",
+                "text": "Följer leden med {PRONOUN/app1/poss} nos mot marken, app1 ser inte slaget komma. {PRONOUN/app1/subject/CAP} {VERB/app1/haul/hauls} {PRONOUN/app1/self} till {PRONOUN/app1/poss} fötter, gnisslande av smärta och {VERB/app1/run/runs} för hem.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1990,7 +1990,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad av en invaderande skurk.",
+                    "scar": "m_c var ärrad av en invaderande skurk.",
                     "reg_death": "m_c dog av en skada tillfogad av en invaderande skurk.",
                     "lead_death": "dog av en skada tillfogad av en invaderande skurk"
                 }
@@ -2014,12 +2014,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i den bl\u00f6ta sanden p\u00e5 stranden.",
-        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i den blöta sanden på stranden.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte undersöka.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i gr\u00e4set p\u00e5 sanddynerna och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen gömmer sig snabbt i gräset på sanddynerna och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -2040,7 +2040,7 @@
                 ]
             },
             {
-                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -2061,7 +2061,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Med ett rasande v\u00e4sande kastar s_c {PRONOUN/s_c/self} mot skurken och, tillsammans med r_c, driver dem bort fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Med ett rasande väsande kastar s_c {PRONOUN/s_c/self} mot skurken och, tillsammans med r_c, driver dem bort från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2085,7 +2085,7 @@
                 ]
             },
             {
-                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, patrullen kr\u00e4ver att skurken l\u00e4mnar c_n territorium. Skr\u00e4md av s_c:s sj\u00e4lvf\u00f6rtroende och antalet katter ger skurken efter och l\u00e4mnar utan kamp.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, patrullen kräver att skurken lämnar c_n territorium. Skrämd av s_c:s självförtroende och antalet katter ger skurken efter och lämnar utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2126,7 +2126,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet och kan inte m\u00f6ta \u00f6gonen p\u00e5 resten av patrullen.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av förlägenhet och kan inte möta ögonen på resten av patrullen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2147,7 +2147,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c f\u00f6rs\u00f6ker s\u00e4tta upp en f\u00e4lla genom att anv\u00e4nda tidvattnet f\u00f6r att sk\u00e4ra av skurkarnas flyktv\u00e4g, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} \u00e4r inte lika smart som {PRONOUN/s_c/subject} { VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. F\u00e4llan misslyckas, och skurken vandrar vidare.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c försöker sätta upp en fälla genom att använda tidvattnet för att skära av skurkarnas flyktväg, men {PRONOUN/s_c/subject} {VERB/s_c/are/is} är inte lika smart som {PRONOUN/s_c/subject} { VERB/s_c/think/thinks} {PRONOUN/s_c/subject} {VERB/s_c/are/is}. Fällan misslyckas, och skurken vandrar vidare.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -2189,12 +2189,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Medan han \u00e4r p\u00e5 patrull l\u00e4gger r_c m\u00e4rke till n\u00e5gra misst\u00e4nkta tassavtryck i den bl\u00f6ta sanden p\u00e5 stranden.",
-        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte unders\u00f6ka.",
+        "intro_text": "Medan han är på patrull lägger r_c märke till några misstänkta tassavtryck i den blöta sanden på stranden.",
+        "decline_text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/decide/decides} att inte undersöka.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i gr\u00e4set p\u00e5 sanddynerna och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen gömmer sig snabbt i gräset på sanddynerna och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -2215,7 +2215,7 @@
                 ]
             },
             {
-                "text": "r_c inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot.",
+                "text": "r_c inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -2236,7 +2236,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c s\u00e4tter upp en f\u00e4lla genom att anv\u00e4nda tidvattnet f\u00f6r att sk\u00e4ra av skurkarnas flyktv\u00e4g. Det f\u00e5r den f\u00f6rskr\u00e4ckta inkr\u00e4ktaren att krypa ihop f\u00f6r att inse att de har blivit f\u00e5ngad och inst\u00e4ngd av c_n, och de eskorteras till gr\u00e4nsen med l\u00e4rdomen ordentligt.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c sätter upp en fälla genom att använda tidvattnet för att skära av skurkarnas flyktväg. Det får den förskräckta inkräktaren att krypa ihop för att inse att de har blivit fångad och instängd av c_n, och de eskorteras till gränsen med lärdomen ordentligt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2260,7 +2260,7 @@
                 ]
             },
             {
-                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, patrullen kr\u00e4ver att skurken l\u00e4mnar c_n territorium. Skr\u00e4md av {PRONOUN/s_c/poss} sj\u00e4lvf\u00f6rtroende och antalet katter ger skurken efter och g\u00e5r utan kamp.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, patrullen kräver att skurken lämnar c_n territorium. Skrämd av {PRONOUN/s_c/poss} självförtroende och antalet katter ger skurken efter och går utan kamp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -2301,7 +2301,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av f\u00f6rl\u00e4genhet och kan inte m\u00f6ta \u00f6gonen p\u00e5 resten av patrullen.",
+                "text": "Det visar sig att de var r_c:s egna tassavtryck... r_c huffar av förlägenhet och kan inte möta ögonen på resten av patrullen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2322,7 +2322,7 @@
                 ]
             },
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. s_c kastar {PRONOUN/s_c/self} p\u00e5 skurken, v\u00e4sande ursinnigt, men det h\u00e4r \u00e4r en stridsh\u00e4rdad inkr\u00e4ktare, och s_c \u00e4r inte en s\u00e5 bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken lyckas undkomma {PRONOUN/s_c/poss} grepp och springa vidare in i c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. s_c kastar {PRONOUN/s_c/self} på skurken, väsande ursinnigt, men det här är en stridshärdad inkräktare, och s_c är inte en så bra fighter som {PRONOUN/s_c/subject} skulle vilja tro. Skurken lyckas undkomma {PRONOUN/s_c/poss} grepp och springa vidare in i c_n territorium.",
                 "exp": 0,
                 "weight": 20,
                 "stat_skill": [
@@ -2369,29 +2369,29 @@
             ]
         },
         "weight": 20,
-        "intro_text": "N\u00e4r app1 patrullerar m\u00e4rker han n\u00e5gra misst\u00e4nkta tassavtryck i den bl\u00f6ta sanden p\u00e5 stranden.",
-        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte unders\u00f6ka.",
+        "intro_text": "När app1 patrullerar märker han några misstänkta tassavtryck i den blöta sanden på stranden.",
+        "decline_text": "{PRONOUN/app1/subject/CAP} {VERB/app1/decide/decides} att inte undersöka.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Tassavtrycken leder till en inkr\u00e4ktande skurk. Patrullen g\u00f6mmer sig snabbt i gr\u00e4set p\u00e5 sanddynerna och s\u00e4tter upp ett bakh\u00e5ll, vilket f\u00e5r skurken att fly fr\u00e5n c_n territorium.",
+                "text": "Tassavtrycken leder till en inkräktande skurk. Patrullen gömmer sig snabbt i gräset på sanddynerna och sätter upp ett bakhåll, vilket får skurken att fly från c_n territorium.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "app1 inser snart att tassavtrycken luktar c_n. N\u00e5gon m\u00e5ste ha vandrat genom den h\u00e4r delen av gr\u00e4nsen nyligen, men det \u00e4r inte ett hot. Faktum \u00e4r att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska s\u00e4ker p\u00e5 att detta \u00e4r {PRONOUN/app1/poss} mentors doft. Och mentorn f\u00f6r {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att f\u00e5 en bed\u00f6mning snart.",
+                "text": "app1 inser snart att tassavtrycken luktar c_n. Någon måste ha vandrat genom den här delen av gränsen nyligen, men det är inte ett hot. Faktum är att... {PRONOUN/app1/subject}{VERB/app1/'re/'s} ganska säker på att detta är {PRONOUN/app1/poss} mentors doft. Och mentorn för {PRONOUN/app1/poss} har tipsat om att {PRONOUN/app1/subject} kommer att få en bedömning snart.",
                 "exp": 10,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Det visar sig att de var app1:s egna tassavtryck... app1 huffar av f\u00f6rl\u00e4genhet och kan inte m\u00f6ta \u00f6gonen p\u00e5 resten av patrullen. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inf\u00f6r andra katter.",
+                "text": "Det visar sig att de var app1:s egna tassavtryck... app1 huffar av förlägenhet och kan inte möta ögonen på resten av patrullen. {PRONOUN/app1/subject/CAP} {VERB/app1/does}vill inte se dum ut inför andra katter.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Dj\u00e4rvt f\u00f6ljer s_c tassavtrycken till en inkr\u00e4ktande skurk och konfronterar dem. P\u00e4ls uppbl\u00e5st och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken l\u00e4mnar c_n territorium. Skurken \u00e4r inte imponerad av ton\u00e5ringen, men med en full patrull som backar upp {PRONOUN/s_c/object} v\u00e4ljer skurken att l\u00e4mna c_n territorium ist\u00e4llet f\u00f6r att sl\u00e5ss.",
+                "text": "Djärvt följer s_c tassavtrycken till en inkräktande skurk och konfronterar dem. Päls uppblåst och snett, {PRONOUN/s_c/subject} {VERB/s_c/demand/demands} skurken lämnar c_n territorium. Skurken är inte imponerad av tonåringen, men med en full patrull som backar upp {PRONOUN/s_c/object} väljer skurken att lämna c_n territorium istället för att slåss.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -2437,12 +2437,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 15,
-        "intro_text": "N\u00e4r katterna r\u00f6r sig l\u00e4ngs strandlinjen ser de n\u00e5got enormt som r\u00f6r sig under vattnet.",
-        "decline_text": "Katterna k\u00e4nner sig anm\u00e4rkningsv\u00e4rt nyfikna idag.",
+        "intro_text": "När katterna rör sig längs strandlinjen ser de något enormt som rör sig under vattnet.",
+        "decline_text": "Katterna känner sig anmärkningsvärt nyfikna idag.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Det \u00e4r Nessie! Patrullen travar upp och byter ut en fin mus mot en fin djuphavsfisk, b\u00e5da varelserna handlar med respektive delikatesser som \u00e4r sv\u00e5ra f\u00f6r den andra att f\u00e5 tag i.",
+                "text": "Det är Nessie! Patrullen travar upp och byter ut en fin mus mot en fin djuphavsfisk, båda varelserna handlar med respektive delikatesser som är svåra för den andra att få tag i.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -2452,7 +2452,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Patrullen \u00e4r s\u00e5 full av f\u00f6rs\u00f6k att ta reda p\u00e5 vad det \u00e4r f\u00f6r varelse att r_c faller i vattnet. Det l\u00f6ser dock mysteriet n\u00e4r Nessie driver r_c tillbaka till strandlinjen med en mild, enorm flipper.",
+                "text": "Patrullen är så full av försök att ta reda på vad det är för varelse att r_c faller i vattnet. Det löser dock mysteriet när Nessie driver r_c tillbaka till strandlinjen med en mild, enorm flipper.",
                 "exp": 0,
                 "weight": 20
             }
@@ -2480,18 +2480,18 @@
         "chance_of_success": 50,
         "relationship_constraint": [],
         "pl_skill_constraint": [],
-        "intro_text": "p_l v\u00e5gar r_c \u00f6ver med {PRONOUN/p_l/poss} svans. Vad \u00e4r <i>det</i>?!",
-        "decline_text": "r_c \u00e4r inte intresserad, och patrullen forts\u00e4tter sin v\u00e4g.",
+        "intro_text": "p_l vågar r_c över med {PRONOUN/p_l/poss} svans. Vad är <i>det</i>?!",
+        "decline_text": "r_c är inte intresserad, och patrullen fortsätter sin väg.",
         "success_outcomes": [
             {
-                "text": "Den massiva grodan-Twoleg kryper uppf\u00f6r klipporna, l\u00e5ngsamt och onaturligt. Patrullen tittar andf\u00e5dd tills den \u00e4r utom synh\u00e5ll. Tja, p_l huffs. Kanske blir paddor st\u00f6rre \u00e4n vad {PRONOUN/p_l/subject} trodde. Skr\u00e4mmande.",
+                "text": "Den massiva grodan-Twoleg kryper uppför klipporna, långsamt och onaturligt. Patrullen tittar andfådd tills den är utom synhåll. Tja, p_l huffs. Kanske blir paddor större än vad {PRONOUN/p_l/subject} trodde. Skrämmande.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Frusna, katterna tittar p\u00e5 den massiva skogsgrodan, storleken p\u00e5 ett tv\u00e5ben och lika tv\u00e5bent. Det stannar och, likt \u00e5skans mullret, avger ett massivt kvakande som knarrar som knastrande tr\u00e4. Allt r_c kan g\u00f6ra \u00e4r att rysa.",
+                "text": "Frusna, katterna tittar på den massiva skogsgrodan, storleken på ett tvåben och lika tvåbent. Det stannar och, likt åskans mullret, avger ett massivt kvakande som knarrar som knastrande trä. Allt r_c kan göra är att rysa.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [

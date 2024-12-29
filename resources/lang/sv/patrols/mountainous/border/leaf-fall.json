@@ -16,11 +16,11 @@
         "max_cats": 6,
         "weight": 15,
         "chance_of_success": 70,
-        "intro_text": "Patrullen h\u00f6r ett konstigt sm\u00e4llande ljud p\u00e5 andra sidan av ett stenblock. Efter initial f\u00f6rvirring inser patrullen att det \u00e4r uppvaktningss\u00e4song f\u00f6r getterna som bor p\u00e5 berget. Ljudet m\u00e5ste vara tv\u00e5 bockgetter som \u00e4r engagerade i slagsm\u00e5l. Det m\u00e5ste vara ett riktigt spektakel...",
-        "decline_text": "Hur kul det \u00e4n \u00e4r att se... det kan ocks\u00e5 sluta i katastrof. Patrullen beslutar att det inte \u00e4r v\u00e4rt risken och forts\u00e4tter sin v\u00e4g.",
+        "intro_text": "Patrullen hör ett konstigt smällande ljud på andra sidan av ett stenblock. Efter initial förvirring inser patrullen att det är uppvaktningssäsong för getterna som bor på berget. Ljudet måste vara två bockgetter som är engagerade i slagsmål. Det måste vara ett riktigt spektakel...",
+        "decline_text": "Hur kul det än är att se... det kan också sluta i katastrof. Patrullen beslutar att det inte är värt risken och fortsätter sin väg.",
         "success_outcomes": [
             {
-                "text": "Riktigt spektakel faktiskt! Patrullen ser i v\u00f6rdnad fr\u00e5n toppen av stenblocket n\u00e4r de tv\u00e5 bockarna illvilligt st\u00f6ter huvudena. Det blir ett roligt spel f\u00f6r patrullen n\u00e4r de lekfullt br\u00e5kar om vilken slant de f\u00f6rv\u00e4ntar sig att vinna.",
+                "text": "Riktigt spektakel faktiskt! Patrullen ser i vördnad från toppen av stenblocket när de två bockarna illvilligt stöter huvudena. Det blir ett roligt spel för patrullen när de lekfullt bråkar om vilken slant de förväntar sig att vinna.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -40,7 +40,7 @@
                 ]
             },
             {
-                "text": "Medan resten av patrullen \u00e4r tveksamma, hoppar r_c till toppen av stenblocket f\u00f6r att se showen. {PRONOUN/r_c/subject/CAP} {VERB/r_c/watch/watches} med f\u00f6rundran n\u00e4r de tv\u00e5 bockarna sl\u00e5ss. P\u00e5 uppmaning av r_c g\u00e5r resten av patrullen med {PRONOUN/r_c/object} och stirrar p\u00e5 striden.",
+                "text": "Medan resten av patrullen är tveksamma, hoppar r_c till toppen av stenblocket för att se showen. {PRONOUN/r_c/subject/CAP} {VERB/r_c/watch/watches} med förundran när de två bockarna slåss. På uppmaning av r_c går resten av patrullen med {PRONOUN/r_c/object} och stirrar på striden.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -60,7 +60,7 @@
                 ]
             },
             {
-                "text": "Hur \u00e4r det ens m\u00f6jligt f\u00f6r bockarna att sl\u00e5ss s\u00e5 utan att f\u00e5 massiva huvudskador eller bryta sina horn? Patrullen tittar p\u00e5 tills en av bockarna ger upp och drar sig tillbaka. N\u00e4r patrullen g\u00e5r tillbaka till l\u00e4gret sl\u00e5r de alla lekfullt mot varandra, tack och lov inte lika h\u00e5rt som de tv\u00e5 bockgetterna gjorde.",
+                "text": "Hur är det ens möjligt för bockarna att slåss så utan att få massiva huvudskador eller bryta sina horn? Patrullen tittar på tills en av bockarna ger upp och drar sig tillbaka. När patrullen går tillbaka till lägret slår de alla lekfullt mot varandra, tack och lov inte lika hårt som de två bockgetterna gjorde.",
                 "exp": 20,
                 "weight": 15,
                 "relationships": [
@@ -82,12 +82,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c kryper n\u00e4rmare och vill se programmet. Tyv\u00e4rr {PRONOUN/r_c/subject} av misstag {VERB/r_c/step/steps} p\u00e5 ett d\u00f6tt l\u00f6v, och crunchen varnar de tv\u00e5 dollarn. Patrullen ser besviket p\u00e5 n\u00e4r de tv\u00e5 bockarna br\u00e4tar och springer fr\u00e5n sikte. Allt det d\u00e4r bravader, och de skr\u00e4mdes av ett l\u00f6v?",
+                "text": "r_c kryper närmare och vill se programmet. Tyvärr {PRONOUN/r_c/subject} av misstag {VERB/r_c/step/steps} på ett dött löv, och crunchen varnar de två dollarn. Patrullen ser besviket på när de två bockarna brätar och springer från sikte. Allt det där bravader, och de skrämdes av ett löv?",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Patrullen tittar med gl\u00e4dje, f\u00f6r distraherad av showen f\u00f6r att inse att de k\u00e4mpande bockarna kommer farligt n\u00e4ra. Det \u00e4r f\u00f6r sent att reagera innan de tv\u00e5 getterna \u00e4r p\u00e5 dem och driver deras kamp rakt in i gruppen katter. Patrullen f\u00f6rs\u00f6ker krypa tillbaka, men alla kommer inte d\u00e4rifr\u00e5n oskadda.",
+                "text": "Patrullen tittar med glädje, för distraherad av showen för att inse att de kämpande bockarna kommer farligt nära. Det är för sent att reagera innan de två getterna är på dem och driver deras kamp rakt in i gruppen katter. Patrullen försöker krypa tillbaka, men alla kommer inte därifrån oskadda.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [

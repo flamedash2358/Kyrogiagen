@@ -21,22 +21,22 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 hukar l\u00e5gt bakom lite gr\u00e4s och letar efter det perfekta bytet att falla f\u00f6r {PRONOUN/app1/poss} d\u00f6dliga klor. Inf\u00f6r den m\u00e4ktiga j\u00e4garen stiger en f\u00e4rgglad skalbagge p\u00e5 en sten.",
-        "decline_text": "En skalbagge \u00e4r under {PRONOUN/app1/poss} uppm\u00e4rksamhet.",
+        "intro_text": "app1 hukar lågt bakom lite gräs och letar efter det perfekta bytet att falla för {PRONOUN/app1/poss} dödliga klor. Inför den mäktiga jägaren stiger en färgglad skalbagge på en sten.",
+        "decline_text": "En skalbagge är under {PRONOUN/app1/poss} uppmärksamhet.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "ha! app1 sl\u00e5r till, den patetiska buggen knasar under {PRONOUN/app1/poss} ett m\u00e4ktigt slag, st\u00e4nker och - ewwwww. Ew, ew ew ew, det \u00e4r insektsjuice \u00f6ver hela {PRONOUN/app1/poss} tassar, mellan {PRONOUN/app1/poss} t\u00e5rna, EWWWWW!",
+                "text": "ha! app1 slår till, den patetiska buggen knasar under {PRONOUN/app1/poss} ett mäktigt slag, stänker och - ewwwww. Ew, ew ew ew, det är insektsjuice över hela {PRONOUN/app1/poss} tassar, mellan {PRONOUN/app1/poss} tårna, EWWWWW!",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "ha! app1 hoppar, svansen surrar ursinnigt n\u00e4r skalbaggen surrar under {PRONOUN/app1/poss} framtassar, klor mantlade. {PRONOUN/app1/subject/CAP} {VERB/app1/bat/fladderm\u00f6ss} buggen fr\u00e5n klippan och ner p\u00e5 marken, hoppar efter den, hoppar och vrider sig medan {PRONOUN/app1/poss} f\u00e4rgglada byten flyger runt {PRONOUN/ app1/poss} huvud i f\u00f6rvirrat, hj\u00e4rnskakat skalbaggebeteende, ovant att vara en l\u00e4rlings nya favoritleksak.",
+                "text": "ha! app1 hoppar, svansen surrar ursinnigt när skalbaggen surrar under {PRONOUN/app1/poss} framtassar, klor mantlade. {PRONOUN/app1/subject/CAP} {VERB/app1/bat/fladdermöss} buggen från klippan och ner på marken, hoppar efter den, hoppar och vrider sig medan {PRONOUN/app1/poss} färgglada byten flyger runt {PRONOUN/ app1/poss} huvud i förvirrat, hjärnskakat skalbaggebeteende, ovant att vara en lärlings nya favoritleksak.",
                 "exp": 20,
                 "weight": 5
             },
             {
-                "text": "s_c kastar sig, v\u00e4nder skalbaggen med mjuka tassar och floppar \u00f6ver p\u00e5 {PRONOUN/app1/poss} ryggen, ser insekten springa fr\u00e5n en tass till den andra, s\u00e5 helt h\u00e4nf\u00f6rd av dess f\u00e4rg och sm\u00e5, perfekta ben att {PRONOUN/app1/ \u00e4mne} {VERB/app1/do/does}m\u00e4rker inte {PRONOUN/app1/poss} egen skicklighet f\u00e5nga och h\u00e5lla felet.",
+                "text": "s_c kastar sig, vänder skalbaggen med mjuka tassar och floppar över på {PRONOUN/app1/poss} ryggen, ser insekten springa från en tass till den andra, så helt hänförd av dess färg och små, perfekta ben att {PRONOUN/app1/ ämne} {VERB/app1/do/does}märker inte {PRONOUN/app1/poss} egen skicklighet fånga och hålla felet.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -46,12 +46,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Medan app1 vickar med {PRONOUN/app1/poss} rumpa till den perfekta punchpositionen, flyger skalbaggen iv\u00e4g. Awwwww.",
+                "text": "Medan app1 vickar med {PRONOUN/app1/poss} rumpa till den perfekta punchpositionen, flyger skalbaggen iväg. Awwwww.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Slemmigt, men \u00e4nd\u00e5 tillfredsst\u00e4llande! Nyfikenheten avslutad, app1 vandrar iv\u00e4g - men m\u00e5ste rapportera till medicinkattens h\u00e5la senare, n\u00e4r {PRONOUN/app1/poss} magen p\u00e5minner {PRONOUN/app1/object} varf\u00f6r katter inte \u00e4ter slumpm\u00e4ssiga insekter.",
+                "text": "Slemmigt, men ändå tillfredsställande! Nyfikenheten avslutad, app1 vandrar iväg - men måste rapportera till medicinkattens håla senare, när {PRONOUN/app1/poss} magen påminner {PRONOUN/app1/object} varför katter inte äter slumpmässiga insekter.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -95,11 +95,11 @@
             "STORY,1",
             "LORE,1"
         ],
-        "intro_text": "Svalkan i regnet som glider l\u00e4ngs r_c:s skinn \u00e4r n\u00e5got att njuta av, en s\u00e4llsynt njutning n\u00e4r den milda regnduschen sk\u00f6ljer av c_n. Och marken - den \u00e4r s\u00e5 gr\u00f6n, s\u00e5 levande! Varf\u00f6r under stj\u00e4rnorna kallar c_n inte den h\u00e4r \u00e5rstiden f\u00f6r gr\u00f6nl\u00f6v, n\u00e4r allt omkring dem vaknar till liv?!",
-        "decline_text": "Inte alla katter p\u00e5 patrullen \u00e4r s\u00e5 fan av fukten, och \u00e4ven om r_c f\u00e5r tid att leva i nuet, vill de alla g\u00e5 vidare snart.",
+        "intro_text": "Svalkan i regnet som glider längs r_c:s skinn är något att njuta av, en sällsynt njutning när den milda regnduschen sköljer av c_n. Och marken - den är så grön, så levande! Varför under stjärnorna kallar c_n inte den här årstiden för grönlöv, när allt omkring dem vaknar till liv?!",
+        "decline_text": "Inte alla katter på patrullen är så fan av fukten, och även om r_c får tid att leva i nuet, vill de alla gå vidare snart.",
         "success_outcomes": [
             {
-                "text": "Det \u00e4r urgammalt, f\u00f6rklarar p_l. \u00c4ldre sedan c_n... kanske \u00e4ldre \u00e4n detta land. Ingen \u00e4r s\u00e4ker p\u00e5 vad som f\u00f6rbannade \u00f6knen s\u00e5 torr, men p\u00e5 andra st\u00e4llen ger solen ljus, v\u00e4rme som \u00e4r en l\u00e4ttnad och inte ett straff, och d\u00e4r \u00e4r den torra \u00e5rstiden n\u00e4r solen n\u00e5r sin toppstyrka ocks\u00e5 s\u00e4songen av gr\u00f6na l\u00f6v .",
+                "text": "Det är urgammalt, förklarar p_l. Äldre sedan c_n... kanske äldre än detta land. Ingen är säker på vad som förbannade öknen så torr, men på andra ställen ger solen ljus, värme som är en lättnad och inte ett straff, och där är den torra årstiden när solen når sin toppstyrka också säsongen av gröna löv .",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_bord_story",
@@ -153,7 +153,7 @@
                 ]
             },
             {
-                "text": "Det finns klaner bortom \u00f6knen, instruerar p_l. P\u00e5 h\u00f6ga st\u00e4llen och l\u00e5gt, bl\u00f6tt och, ja, {PRONOUN/p_l/subject} {VERB/p_l/suppose/supposes} c_n \u00e4r katterna d\u00e4r det \u00e4r torrt. Greenleaf som namnet p\u00e5 torrperioden \u00e4r \u00e4ldre \u00e4n upplevelsen av att det <i>finns</i> en torrperiod. P\u00e5 de avl\u00e4gsna platserna \u00e4r greenleaf \u00f6verfl\u00f6dss\u00e4songen, inte det h\u00e5rda det \u00e4r h\u00e4r.",
+                "text": "Det finns klaner bortom öknen, instruerar p_l. På höga ställen och lågt, blött och, ja, {PRONOUN/p_l/subject} {VERB/p_l/suppose/supposes} c_n är katterna där det är torrt. Greenleaf som namnet på torrperioden är äldre än upplevelsen av att det <i>finns</i> en torrperiod. På de avlägsna platserna är greenleaf överflödssäsongen, inte det hårda det är här.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_bord_story",
@@ -209,7 +209,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det kan vara en nyhet i det regniga m\u00f6nster p\u00e5 p\u00e4lsen, men nyhet \u00e4r inte alltid kul. N\u00e4r katterna f\u00f6rs\u00f6ker prova, har marken f\u00f6rvandlats till en hal, lerig r\u00f6ra som deras klor inte kan greppa. Ingen \u00e4r allvarligt skadad, men ingens v\u00e4rdighet klarar sig heller helskinnad.",
+                "text": "Det kan vara en nyhet i det regniga mönster på pälsen, men nyhet är inte alltid kul. När katterna försöker prova, har marken förvandlats till en hal, lerig röra som deras klor inte kan greppa. Ingen är allvarligt skadad, men ingens värdighet klarar sig heller helskinnad.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -272,11 +272,11 @@
         "pl_skill_constraint": [
             "STORY,1"
         ],
-        "intro_text": "I dr\u00f6mmarnas b\u00f6rjan var landet platt och tomt, viskar det och satte scenen f\u00f6r en ber\u00e4ttelse.",
-        "decline_text": "Sagostunden avbryts av en regnskur, inte f\u00f6r att n\u00e5gon har n\u00e5got emot mer vatten p\u00e5 c_ns territorium.",
+        "intro_text": "I drömmarnas början var landet platt och tomt, viskar det och satte scenen för en berättelse.",
+        "decline_text": "Sagostunden avbryts av en regnskur, inte för att någon har något emot mer vatten på c_ns territorium.",
         "success_outcomes": [
             {
-                "text": "Goorialla regnb\u00e5gsorm skar stora h\u00e5l i landet och letade efter liv f\u00f6r att inte vara ensam. Han kallade fram grodor som spottade upp floderna, och djur f\u00f6r att befolka landet, och fastst\u00e4llde de f\u00f6rsta reglerna, reglerna inte f\u00f6r krigarkoden, utan f\u00f6r ekosystem och biosf\u00e4rer.",
+                "text": "Goorialla regnbågsorm skar stora hål i landet och letade efter liv för att inte vara ensam. Han kallade fram grodor som spottade upp floderna, och djur för att befolka landet, och fastställde de första reglerna, reglerna inte för krigarkoden, utan för ekosystem och biosfärer.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_bord_story",
@@ -332,7 +332,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "F\u00f6re dr\u00f6mmar? Hur kan du vara <i>f\u00f6re dr\u00f6mmar</i>, fr\u00e5gar app1 och kommer inte bara att sl\u00e5 sig ner och l\u00e5ta p_l ber\u00e4tta.",
+                "text": "Före drömmar? Hur kan du vara <i>före drömmar</i>, frågar app1 och kommer inte bara att slå sig ner och låta p_l berätta.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_train_argue",

@@ -27,12 +27,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l g\u00e5r ut med en krigareskort, b\u00e5de f\u00f6r s\u00e4kerhets skull som {PRONOUN/p_l/subject} {VERB/p_l/look/looks} f\u00f6r nyttiga f\u00e4rska f\u00f6rn\u00f6denheter som hittills \u00f6verlevt l\u00f6vblomma, och f\u00f6r b\u00e4rf\u00f6rm\u00e5ga b\u00f6r {PRONOUN/p_l /subject} hitta n\u00e5got.",
-        "decline_text": "{PRONOUN/p_l/poss/CAP} eskort kallas iv\u00e4g p\u00e5 ett annat uppdrag, s\u00e5 p_l best\u00e4mmer sig f\u00f6r att omorganisera \u00f6rtbutiken ist\u00e4llet.",
+        "intro_text": "p_l går ut med en krigareskort, både för säkerhets skull som {PRONOUN/p_l/subject} {VERB/p_l/look/looks} för nyttiga färska förnödenheter som hittills överlevt lövblomma, och för bärförmåga bör {PRONOUN/p_l /subject} hitta något.",
+        "decline_text": "{PRONOUN/p_l/poss/CAP} eskort kallas iväg på ett annat uppdrag, så p_l bestämmer sig för att omorganisera örtbutiken istället.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "\u00d6verraskande nog b\u00f6rjar r_c faktiskt en konversation med {PRONOUN/p_l/object} om de \u00f6rter de letar efter. p_l b\u00f6rjar med det vanliga spelet, och till {PRONOUN/p_l/poss} f\u00f6rv\u00e5ning \u00e4r r_c faktiskt intresserad, och det g\u00f6r att {PRONOUN/p_l/poss} hj\u00e4rtat k\u00e4nns l\u00e4ttare att f\u00e5 dela {PRONOUN/p_l/poss} kunskaper och f\u00e4rdigheter med n\u00e5gon som respekterar {PRONOUN/p_l/object}.",
+                "text": "Överraskande nog börjar r_c faktiskt en konversation med {PRONOUN/p_l/object} om de örter de letar efter. p_l börjar med det vanliga spelet, och till {PRONOUN/p_l/poss} förvåning är r_c faktiskt intresserad, och det gör att {PRONOUN/p_l/poss} hjärtat känns lättare att få dela {PRONOUN/p_l/poss} kunskaper och färdigheter med någon som respekterar {PRONOUN/p_l/object}.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -57,7 +57,7 @@
                 ]
             },
             {
-                "text": "s_c har alltid varit bra p\u00e5 att prata, s\u00e5 det \u00e4r inte en stor \u00f6verraskning att p_l tycker att det \u00e4r s\u00e5 l\u00e4tt att chatta med {PRONOUN/s_c/object}. Det \u00e4r bara en \u00f6rtsamlande patrull, men p_l k\u00e4nns mer avslappnad \u00e4n {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} k\u00e4ndes i m\u00e5nar n\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/return/returs } till l\u00e4gret och ler mjukt.",
+                "text": "s_c har alltid varit bra på att prata, så det är inte en stor överraskning att p_l tycker att det är så lätt att chatta med {PRONOUN/s_c/object}. Det är bara en örtsamlande patrull, men p_l känns mer avslappnad än {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} kändes i månar när {PRONOUN/p_l/subject} {VERB/p_l/return/returs } till lägret och ler mjukt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -90,7 +90,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det \u00e4r en anstr\u00e4ngande dag. p_l b\u00f6rjar chatta med r_c f\u00f6r att f\u00f6rdriva tiden, men de har ingenting gemensamt, och den andra katten v\u00e4grar rent ut att prata om tr\u00e5kiga \u00f6rter.",
+                "text": "Det är en ansträngande dag. p_l börjar chatta med r_c för att fördriva tiden, men de har ingenting gemensamt, och den andra katten vägrar rent ut att prata om tråkiga örter.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -112,7 +112,7 @@
                 ]
             },
             {
-                "text": "Inte nog med att de inte hittar n\u00e5got, men p_l \u00e4r <i>detta</i> n\u00e4ra att m\u00f6rda s_c. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} vidriga, besv\u00e4rliga, barnsliga... och helt enkelt inte n\u00e5gon p_l tycker om att interagera med.",
+                "text": "Inte nog med att de inte hittar något, men p_l är <i>detta</i> nära att mörda s_c. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} vidriga, besvärliga, barnsliga... och helt enkelt inte någon p_l tycker om att interagera med.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -178,12 +178,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l beger sig ut och leder en patrull av medicinkatter f\u00f6r att leta efter n\u00e5gra f\u00e4rska \u00f6rter som har \u00f6verlevt l\u00f6vblomma hittills.",
-        "decline_text": "... Och de blir uppringda n\u00e4stan omedelbart, eftersom en av de \u00e4ldste har b\u00f6rjat hacka upp n\u00e5got.",
+        "intro_text": "p_l beger sig ut och leder en patrull av medicinkatter för att leta efter några färska örter som har överlevt lövblomma hittills.",
+        "decline_text": "... Och de blir uppringda nästan omedelbart, eftersom en av de äldste har börjat hacka upp något.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Marken \u00e4r halt av frost, och n\u00e4r p_l faller f\u00e5ngar r_c {PRONOUN/p_l/object}. Det \u00e4r en trevlig p\u00e5minnelse om att ansvaret att ta hand om klanen \u00e4r ett delat ansvar, och r\u00e4ddningen f\u00e5r ocks\u00e5 p_l att rysa behagligt.",
+                "text": "Marken är halt av frost, och när p_l faller fångar r_c {PRONOUN/p_l/object}. Det är en trevlig påminnelse om att ansvaret att ta hand om klanen är ett delat ansvar, och räddningen får också p_l att rysa behagligt.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -208,7 +208,7 @@
                 ]
             },
             {
-                "text": "s_c har alltid varit bra p\u00e5 att prata, s\u00e5 det \u00e4r inte en stor \u00f6verraskning att p_l tycker att det \u00e4r s\u00e5 l\u00e4tt att chatta med {PRONOUN/s_c/object}. Det \u00e4r bara en \u00f6rtsamlande patrull, men p_l k\u00e4nns mer avslappnad \u00e4n {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} k\u00e4ndes i m\u00e5nar n\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/return/returs } till l\u00e4gret och ler mjukt.",
+                "text": "s_c har alltid varit bra på att prata, så det är inte en stor överraskning att p_l tycker att det är så lätt att chatta med {PRONOUN/s_c/object}. Det är bara en örtsamlande patrull, men p_l känns mer avslappnad än {PRONOUN/p_l/subject}{VERB/p_l/'ve/'s} kändes i månar när {PRONOUN/p_l/subject} {VERB/p_l/return/returs } till lägret och ler mjukt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -242,7 +242,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det \u00e4r en anstr\u00e4ngande dag. p_l b\u00f6rjar chatta med r_c f\u00f6r att f\u00f6rdriva tiden, men de har inget gemensamt.",
+                "text": "Det är en ansträngande dag. p_l börjar chatta med r_c för att fördriva tiden, men de har inget gemensamt.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -264,7 +264,7 @@
                 ]
             },
             {
-                "text": "Inte nog med att de inte hittar n\u00e5got, men p_l \u00e4r <i>detta</i> n\u00e4ra att m\u00f6rda s_c. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} vidriga, besv\u00e4rliga, barnsliga... och helt enkelt inte n\u00e5gon p_l tycker om att interagera med.",
+                "text": "Inte nog med att de inte hittar något, men p_l är <i>detta</i> nära att mörda s_c. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} vidriga, besvärliga, barnsliga... och helt enkelt inte någon p_l tycker om att interagera med.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -316,12 +316,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Hmm. p_l g\u00e5r ut och best\u00e4mmer att c_n beh\u00f6ver fler bj\u00f6rnb\u00e4rsblad i sina butiker.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att l\u00e4mna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att g\u00e5 en annan dag.",
+        "intro_text": "Hmm. p_l går ut och bestämmer att c_n behöver fler björnbärsblad i sina butiker.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att lämna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att gå en annan dag.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Medan varken bj\u00f6rnb\u00e4r eller hallon tappar sina blad helt, \u00e4r bladbar h\u00e5rt mot varje v\u00e4xt. p_l m\u00e5ste balansera b\u00e5de v\u00e4xtens och klanens behov som {PRONOUN/p_l/subject} {VERB/p_l/gather/gathers} det som l\u00e4mnar {PRONOUN/p_l/subject} kan med frusna tassar. Patrullen ser {PRONOUN/p_l/poss} stress och samlas runt f\u00f6r att st\u00f6dja {PRONOUN/p_l/object}.",
+                "text": "Medan varken björnbär eller hallon tappar sina blad helt, är bladbar hårt mot varje växt. p_l måste balansera både växtens och klanens behov som {PRONOUN/p_l/subject} {VERB/p_l/gather/gathers} det som lämnar {PRONOUN/p_l/subject} kan med frusna tassar. Patrullen ser {PRONOUN/p_l/poss} stress och samlas runt för att stödja {PRONOUN/p_l/object}.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -330,7 +330,7 @@
                 ]
             },
             {
-                "text": "Kantar sig ut p\u00e5 en halt frusen sten f\u00f6r att f\u00e5 mer h\u00f6jd, p_l lyckas plocka bort n\u00e5gra fortfarande levande l\u00f6v fr\u00e5n en h\u00e4rva av bj\u00f6rnb\u00e4r och hallon.",
+                "text": "Kantar sig ut på en halt frusen sten för att få mer höjd, p_l lyckas plocka bort några fortfarande levande löv från en härva av björnbär och hallon.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -339,7 +339,7 @@
                 ]
             },
             {
-                "text": "s_c uppt\u00e4cker ett skyddat h\u00f6rn som har skyddat en ficka med bj\u00f6rnb\u00e4r och hallon fr\u00e5n kylan, och man\u00f6vrerar sakkunnigt in f\u00f6r att plocka l\u00f6ven f\u00f6r c_n.",
+                "text": "s_c upptäcker ett skyddat hörn som har skyddat en ficka med björnbär och hallon från kylan, och manövrerar sakkunnigt in för att plocka löven för c_n.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -353,12 +353,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Bj\u00f6rnb\u00e4rstr\u00f6skan har d\u00f6tt tillbaka, vissen och torr, och p_l kan inte f\u00e5 n\u00e5gra f\u00e4rska blad av detta. {PRONOUN/p_l/subject/CAP} {VERB/p_l/note/notes} med v\u00e4xande oro f\u00f6r att bladbar kan ha d\u00f6dat v\u00e4xten.",
+                "text": "Björnbärströskan har dött tillbaka, vissen och torr, och p_l kan inte få några färska blad av detta. {PRONOUN/p_l/subject/CAP} {VERB/p_l/note/notes} med växande oro för att bladbar kan ha dödat växten.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "p_l kantar f\u00f6rsiktigt ut p\u00e5 en hal, frusen sten och f\u00f6rs\u00f6ker komma n\u00e4rmare en gren av bj\u00f6rnb\u00e4rsblad som fortfarande \u00e4r gr\u00f6na. {PRONOUN/p_l/subject/CAP} {VERB/p_l/overcompensate/overcompensates} {PRONOUN/p_l/poss} balans, faller ner i en djup sn\u00f6bank som {PRONOUN/p_l/subject} {VERB/p_l/emerge/emerge} fr\u00e5n med ett djupt rysande {PRONOUN/p_l/poss} kropp.",
+                "text": "p_l kantar försiktigt ut på en hal, frusen sten och försöker komma närmare en gren av björnbärsblad som fortfarande är gröna. {PRONOUN/p_l/subject/CAP} {VERB/p_l/overcompensate/overcompensates} {PRONOUN/p_l/poss} balans, faller ner i en djup snöbank som {PRONOUN/p_l/subject} {VERB/p_l/emerge/emerge} från med ett djupt rysande {PRONOUN/p_l/poss} kropp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -375,7 +375,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 }
             }
         ]
@@ -410,12 +410,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l ger sig av med app1 och beslutar att c_n beh\u00f6ver fler bj\u00f6rnb\u00e4rsblad i sina butiker.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar som l\u00e4mnar {PRONOUN/p_l/poss} patienter bakom sig, s\u00e4rskilt med {PRONOUN/p_l/object} som ocks\u00e5 tar med sig {PRONOUN/p_l/poss} l\u00e4rling , och {VERB/p_l/decide/decides} f\u00f6r att g\u00e5 en annan dag.",
+        "intro_text": "p_l ger sig av med app1 och beslutar att c_n behöver fler björnbärsblad i sina butiker.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar som lämnar {PRONOUN/p_l/poss} patienter bakom sig, särskilt med {PRONOUN/p_l/object} som också tar med sig {PRONOUN/p_l/poss} lärling , och {VERB/p_l/decide/decides} för att gå en annan dag.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Medan varken bj\u00f6rnb\u00e4r eller hallon tappar sina blad helt, \u00e4r bladbar h\u00e5rt mot varje v\u00e4xt. p_l m\u00e5ste balansera b\u00e5de v\u00e4xtens och klanens behov som {PRONOUN/p_l/subject} {VERB/p_l/gather/gathers} det som l\u00e4mnar {PRONOUN/p_l/subject} kan med frusna tassar. Patrullen ser {PRONOUN/p_l/poss} stress och samlas runt f\u00f6r att st\u00f6dja {PRONOUN/p_l/object}.",
+                "text": "Medan varken björnbär eller hallon tappar sina blad helt, är bladbar hårt mot varje växt. p_l måste balansera både växtens och klanens behov som {PRONOUN/p_l/subject} {VERB/p_l/gather/gathers} det som lämnar {PRONOUN/p_l/subject} kan med frusna tassar. Patrullen ser {PRONOUN/p_l/poss} stress och samlas runt för att stödja {PRONOUN/p_l/object}.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -455,7 +455,7 @@
                 ]
             },
             {
-                "text": "Kantar sig ut p\u00e5 en halt frusen sten f\u00f6r att f\u00e5 mer h\u00f6jd, p_l lyckas plocka bort n\u00e5gra fortfarande levande l\u00f6v fr\u00e5n en h\u00e4rva av bj\u00f6rnb\u00e4r och hallon. app1 h\u00e5ller andan {PRONOUN/app1/poss} och hoppas att {PRONOUN/app1/poss}-mentorn klarar sig helskinnad.",
+                "text": "Kantar sig ut på en halt frusen sten för att få mer höjd, p_l lyckas plocka bort några fortfarande levande löv från en härva av björnbär och hallon. app1 håller andan {PRONOUN/app1/poss} och hoppas att {PRONOUN/app1/poss}-mentorn klarar sig helskinnad.",
                 "exp": 30,
                 "weight": 5,
                 "herbs": [
@@ -495,7 +495,7 @@
                 ]
             },
             {
-                "text": "s_c uppt\u00e4cker ett skyddat h\u00f6rn som har skyddat en ficka med bj\u00f6rnb\u00e4r och hallon fr\u00e5n kylan, och man\u00f6vrerar sakkunnigt in f\u00f6r att plocka l\u00f6ven f\u00f6r c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/leave/leaves} app1 utanf\u00f6r, vill inte riskera {PRONOUN/s_c/poss} l\u00e4rling i sn\u00f6n och t\u00f6rnen.",
+                "text": "s_c upptäcker ett skyddat hörn som har skyddat en ficka med björnbär och hallon från kylan, och manövrerar sakkunnigt in för att plocka löven för c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/leave/leaves} app1 utanför, vill inte riskera {PRONOUN/s_c/poss} lärling i snön och törnen.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -540,7 +540,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Bj\u00f6rnb\u00e4rstr\u00f6skan har d\u00f6tt tillbaka, vissen och torr, och p_l kan inte f\u00e5 n\u00e5gra f\u00e4rska blad av detta. {PRONOUN/p_l/subject/CAP} {VERB/p_l/note/notes} med v\u00e4xande oro f\u00f6r att bladbar kan ha d\u00f6dat v\u00e4xten, och utbytte en orolig blick med app1.",
+                "text": "Björnbärströskan har dött tillbaka, vissen och torr, och p_l kan inte få några färska blad av detta. {PRONOUN/p_l/subject/CAP} {VERB/p_l/note/notes} med växande oro för att bladbar kan ha dödat växten, och utbytte en orolig blick med app1.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -576,7 +576,7 @@
                 ]
             },
             {
-                "text": "r_c kanter f\u00f6rsiktigt ut p\u00e5 en halt, frusen sten och f\u00f6rs\u00f6ker komma n\u00e4rmare en gren av bj\u00f6rnb\u00e4rsblad som fortfarande \u00e4r gr\u00f6na. {PRONOUN/r_c/subject/CAP} {VERB/r_c/overbalance/overbalances}, faller ner i en djup sn\u00f6bank som {PRONOUN/r_c/subject} {VERB/r_c/emerge/emerges} ifr\u00e5n med en djup rysning som rasar {PRONOUN/ r_c/poss} kropp.",
+                "text": "r_c kanter försiktigt ut på en halt, frusen sten och försöker komma närmare en gren av björnbärsblad som fortfarande är gröna. {PRONOUN/r_c/subject/CAP} {VERB/r_c/overbalance/overbalances}, faller ner i en djup snöbank som {PRONOUN/r_c/subject} {VERB/r_c/emerge/emerges} ifrån med en djup rysning som rasar {PRONOUN/ r_c/poss} kropp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -593,7 +593,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 },
                 "relationships": [
                     {
@@ -655,12 +655,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Hmm. p_l beger sig ut och best\u00e4mmer sig f\u00f6r att c_n beh\u00f6ver fler bj\u00f6rnb\u00e4rsblad i sina butiker och tar med alla som inte \u00e4r upptagna med annat arbete.",
-        "decline_text": "De stoppas innan de l\u00e4mnar l\u00e4gret - dessa krigare beh\u00f6vs n\u00e5gon annanstans. p_ls expedition f\u00e5r v\u00e4nta.",
+        "intro_text": "Hmm. p_l beger sig ut och bestämmer sig för att c_n behöver fler björnbärsblad i sina butiker och tar med alla som inte är upptagna med annat arbete.",
+        "decline_text": "De stoppas innan de lämnar lägret - dessa krigare behövs någon annanstans. p_ls expedition får vänta.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Medan varken bj\u00f6rnb\u00e4r eller hallon tappar sina blad helt, \u00e4r bladbar h\u00e5rt mot varje v\u00e4xt. p_l m\u00e5ste balansera b\u00e5de v\u00e4xtens och klanens behov som {PRONOUN/p_l/subject} {VERB/p_l/gather/gathers} det som l\u00e4mnar {PRONOUN/p_l/subject} kan med frusna tassar. Patrullen ser {PRONOUN/p_l/poss} stress och samlas runt f\u00f6r att st\u00f6dja {PRONOUN/p_l/object}.",
+                "text": "Medan varken björnbär eller hallon tappar sina blad helt, är bladbar hårt mot varje växt. p_l måste balansera både växtens och klanens behov som {PRONOUN/p_l/subject} {VERB/p_l/gather/gathers} det som lämnar {PRONOUN/p_l/subject} kan med frusna tassar. Patrullen ser {PRONOUN/p_l/poss} stress och samlas runt för att stödja {PRONOUN/p_l/object}.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -698,7 +698,7 @@
                 ]
             },
             {
-                "text": "Kantar sig ut p\u00e5 en halt frusen sten f\u00f6r att f\u00e5 mer h\u00f6jd, p_l lyckas plocka bort n\u00e5gra fortfarande levande l\u00f6v fr\u00e5n en h\u00e4rva av bj\u00f6rnb\u00e4r och hallon. Resten av patrullen f\u00f6ljer f\u00f6rsiktigt {PRONOUN/p_l/poss} ledning, och tillsammans klarar de en s\u00e5 anst\u00e4ndig sk\u00f6rd som alla kan f\u00f6rv\u00e4nta sig av l\u00f6vbart.",
+                "text": "Kantar sig ut på en halt frusen sten för att få mer höjd, p_l lyckas plocka bort några fortfarande levande löv från en härva av björnbär och hallon. Resten av patrullen följer försiktigt {PRONOUN/p_l/poss} ledning, och tillsammans klarar de en så anständig skörd som alla kan förvänta sig av lövbart.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -736,7 +736,7 @@
                 ]
             },
             {
-                "text": "s_c uppt\u00e4cker ett skyddat h\u00f6rn som har skyddat en ficka med bj\u00f6rnb\u00e4r och hallon fr\u00e5n kylan, och man\u00f6vrerar sakkunnigt in f\u00f6r att plocka l\u00f6ven f\u00f6r c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/pass/passes} dem till patrullens medlemmar fr\u00e5n sn\u00e5ret, och {PRONOUN/s_c/poss} entourage ser till att s_c kan ta med sig en enorm m\u00e4ngd f\u00e4rska bj\u00f6rnb\u00e4r l\u00e4mnar hemmet.",
+                "text": "s_c upptäcker ett skyddat hörn som har skyddat en ficka med björnbär och hallon från kylan, och manövrerar sakkunnigt in för att plocka löven för c_n. {PRONOUN/s_c/subject/CAP} {VERB/s_c/pass/passes} dem till patrullens medlemmar från snåret, och {PRONOUN/s_c/poss} entourage ser till att s_c kan ta med sig en enorm mängd färska björnbär lämnar hemmet.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -779,7 +779,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Bj\u00f6rnb\u00e4rstr\u00f6skan har d\u00f6tt tillbaka, vissen och torr, och p_l kan inte f\u00e5 n\u00e5gra f\u00e4rska blad av detta. {PRONOUN/p_l/subject/CAP} {VERB/p_l/note/notes} med v\u00e4xande oro f\u00f6r att bladbar kan ha d\u00f6dat v\u00e4xten. {PRONOUN/p_l/subject/CAP} m\u00e5ste prova en annan bj\u00f6rnb\u00e4rsbuske en annan dag.",
+                "text": "Björnbärströskan har dött tillbaka, vissen och torr, och p_l kan inte få några färska blad av detta. {PRONOUN/p_l/subject/CAP} {VERB/p_l/note/notes} med växande oro för att bladbar kan ha dödat växten. {PRONOUN/p_l/subject/CAP} måste prova en annan björnbärsbuske en annan dag.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -813,7 +813,7 @@
                 ]
             },
             {
-                "text": "r_c kanter f\u00f6rsiktigt ut p\u00e5 en halt, frusen sten och f\u00f6rs\u00f6ker komma n\u00e4rmare en gren av bj\u00f6rnb\u00e4rsblad som fortfarande \u00e4r gr\u00f6na. {PRONOUN/r_c/subject/CAP} {VERB/r_c/overbalance/overbalances}, faller ner i en djup sn\u00f6bank som {PRONOUN/r_c/subject} {VERB/r_c/emerge/emerges} ifr\u00e5n med en djup rysning som rasar {PRONOUN/ r_c/poss} kropp.",
+                "text": "r_c kanter försiktigt ut på en halt, frusen sten och försöker komma närmare en gren av björnbärsblad som fortfarande är gröna. {PRONOUN/r_c/subject/CAP} {VERB/r_c/overbalance/overbalances}, faller ner i en djup snöbank som {PRONOUN/r_c/subject} {VERB/r_c/emerge/emerges} ifrån med en djup rysning som rasar {PRONOUN/ r_c/poss} kropp.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -830,7 +830,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 },
                 "relationships": [
                     {
@@ -886,12 +886,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "N\u00e4r sn\u00f6n av l\u00f6v-bar bl\u00e5ser runt l\u00e4gret, p_l \u00f6gon {PRONOUN/p_l/poss} \u00f6rter lagrar. {PRONOUN/p_l/subject/CAP} borde fortfarande kunna gr\u00e4va upp kardborre. p_l ger sig ut f\u00f6r att fylla p\u00e5 klanens lager.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att l\u00e4mna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att g\u00e5 en annan dag.",
+        "intro_text": "När snön av löv-bar blåser runt lägret, p_l ögon {PRONOUN/p_l/poss} örter lagrar. {PRONOUN/p_l/subject/CAP} borde fortfarande kunna gräva upp kardborre. p_l ger sig ut för att fylla på klanens lager.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att lämna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att gå en annan dag.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "p_ls tassdynor \u00e4r n\u00e4stan frusna och f\u00f6rs\u00f6ker gr\u00e4va upp kardborre i kylan, men {PRONOUN/p_l/subject} {VERB/p_l/manage/manages} det, och det \u00e4r v\u00e4rt all m\u00f6da och el\u00e4nde att veta hur avg\u00f6rande dessa f\u00e4rska \u00f6rter kan vara f\u00f6r klanen.",
+                "text": "p_ls tassdynor är nästan frusna och försöker gräva upp kardborre i kylan, men {PRONOUN/p_l/subject} {VERB/p_l/manage/manages} det, och det är värt all möda och elände att veta hur avgörande dessa färska örter kan vara för klanen.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -899,7 +899,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r v\u00e4ldigt sv\u00e5rt, speciellt med v\u00e4xtens lummiga \u00f6vre halva borta till nyblad, men p_l lyckas p\u00e5 n\u00e5got s\u00e4tt hitta en kardborrev\u00e4xt och f\u00e5 hem dess r\u00f6tter.",
+                "text": "Det är väldigt svårt, speciellt med växtens lummiga övre halva borta till nyblad, men p_l lyckas på något sätt hitta en kardborreväxt och få hem dess rötter.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -907,7 +907,7 @@
                 ]
             },
             {
-                "text": "s_c minns exakt var kardborrev\u00e4xten v\u00e4xte i greenleaf, \u00e4ven om den ligger begravd under sn\u00f6 nu. N\u00e4r allt kommer omkring, \u00e4r s_c efter r\u00f6tterna, och de \u00e4r fortfarande perfekt sk\u00f6rdbara i bladbar.",
+                "text": "s_c minns exakt var kardborreväxten växte i greenleaf, även om den ligger begravd under snö nu. När allt kommer omkring, är s_c efter rötterna, och de är fortfarande perfekt skördbara i bladbar.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -920,12 +920,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Kanske {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} bara kommer ner med rinnande n\u00e4sa, men p_l lyckas inte nosa upp n\u00e5gon kardborre, och det k\u00e4nns som en bortkastad eftermiddag.",
+                "text": "Kanske {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} bara kommer ner med rinnande näsa, men p_l lyckas inte nosa upp någon kardborre, och det känns som en bortkastad eftermiddag.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "r_c gr\u00e4ver och gr\u00e4ver och gr\u00e4ver, men till slut m\u00e5ste {PRONOUN/r_c/subject} {VERB/r_c/have/has} erk\u00e4nna misslyckande och ge upp s\u00f6kandet efter kardborrerot. Kylan har l\u00e4ckt ut all v\u00e4rme fr\u00e5n {PRONOUN/r_c/poss} p\u00e4ls och {PRONOUN/r_c/subject} {VERB/r_c/arrive/arrives} tillbaka till l\u00e4gret el\u00e4ndigt och kallt.",
+                "text": "r_c gräver och gräver och gräver, men till slut måste {PRONOUN/r_c/subject} {VERB/r_c/have/has} erkänna misslyckande och ge upp sökandet efter kardborrerot. Kylan har läckt ut all värme från {PRONOUN/r_c/poss} päls och {PRONOUN/r_c/subject} {VERB/r_c/arrive/arrives} tillbaka till lägret eländigt och kallt.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -942,7 +942,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 }
             }
         ]
@@ -977,12 +977,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "N\u00e4r sn\u00f6n av l\u00f6v-bar bl\u00e5ser runt l\u00e4gret, p_l \u00f6gon {PRONOUN/p_l/poss} \u00f6rter lagrar. {PRONOUN/p_l/subject/CAP} borde fortfarande kunna gr\u00e4va upp kardborre. p_l ger sig ut f\u00f6r att fylla p\u00e5 klanens lager och tar med sig app1.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att l\u00e4mna {PRONOUN/p_l/poss} patienter bakom sig, s\u00e4rskilt med {PRONOUN/p_l/poss} l\u00e4rling med ocks\u00e5, och {VERB/p_l /decide/decides} f\u00f6r att g\u00e5 en annan dag.",
+        "intro_text": "När snön av löv-bar blåser runt lägret, p_l ögon {PRONOUN/p_l/poss} örter lagrar. {PRONOUN/p_l/subject/CAP} borde fortfarande kunna gräva upp kardborre. p_l ger sig ut för att fylla på klanens lager och tar med sig app1.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att lämna {PRONOUN/p_l/poss} patienter bakom sig, särskilt med {PRONOUN/p_l/poss} lärling med också, och {VERB/p_l /decide/decides} för att gå en annan dag.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "p_l:s och app1:s tassdynor \u00e4r n\u00e4stan frusna och f\u00f6rs\u00f6ker gr\u00e4va upp kardborre i kylan, men p\u00e5 n\u00e5got s\u00e4tt klarar de det, och det \u00e4r v\u00e4rt all m\u00f6da och el\u00e4nde att veta hur avg\u00f6rande dessa f\u00e4rska \u00f6rter kan vara f\u00f6r klanen.",
+                "text": "p_l:s och app1:s tassdynor är nästan frusna och försöker gräva upp kardborre i kylan, men på något sätt klarar de det, och det är värt all möda och elände att veta hur avgörande dessa färska örter kan vara för klanen.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -1021,7 +1021,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r v\u00e4ldigt sv\u00e5rt, speciellt med v\u00e4xtens lummiga \u00f6vre halva borta till nyblad, men p_l lyckas p\u00e5 n\u00e5got s\u00e4tt hitta en kardborrev\u00e4xt och f\u00e5 hem dess r\u00f6tter. Att l\u00e4gga ut de tunna r\u00f6tterna i en prydlig h\u00f6g i \u00f6rtbutikerna f\u00e5r p_ls hela kropp att bulta med ett bel\u00e5tet spinnande, liksom att se hur h\u00e5rt app1 arbetar f\u00f6r att l\u00e4ra sig \u00f6rthantverk.",
+                "text": "Det är väldigt svårt, speciellt med växtens lummiga övre halva borta till nyblad, men p_l lyckas på något sätt hitta en kardborreväxt och få hem dess rötter. Att lägga ut de tunna rötterna i en prydlig hög i örtbutikerna får p_ls hela kropp att bulta med ett belåtet spinnande, liksom att se hur hårt app1 arbetar för att lära sig örthantverk.",
                 "exp": 30,
                 "weight": 5,
                 "herbs": [
@@ -1060,7 +1060,7 @@
                 ]
             },
             {
-                "text": "s_c minns exakt var kardborrev\u00e4xten v\u00e4xte i greenleaf, \u00e4ven om den ligger begravd under sn\u00f6 nu. N\u00e4r allt kommer omkring, \u00e4r s_c efter r\u00f6tterna, och de \u00e4r fortfarande perfekt sk\u00f6rdbara i bladbar.",
+                "text": "s_c minns exakt var kardborreväxten växte i greenleaf, även om den ligger begravd under snö nu. När allt kommer omkring, är s_c efter rötterna, och de är fortfarande perfekt skördbara i bladbar.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -1104,7 +1104,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Kanske {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} bara kommer ner med rinnande n\u00e4sa, men p_l lyckas inte nosa upp n\u00e5gon kardborre, och det k\u00e4nns som en bortkastad eftermiddag. {PRONOUN/p_l/subject/CAP} {VERB/p_l/avoid/avoids} snappar p\u00e5 app1, som verkar of\u00f6rm\u00f6gen att identifiera den vanliga \u00f6rten, men {PRONOUN/p_l/subject} definitivt {VERB/p_l/come/comes} n\u00e4ra .",
+                "text": "Kanske {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} bara kommer ner med rinnande näsa, men p_l lyckas inte nosa upp någon kardborre, och det känns som en bortkastad eftermiddag. {PRONOUN/p_l/subject/CAP} {VERB/p_l/avoid/avoids} snappar på app1, som verkar oförmögen att identifiera den vanliga örten, men {PRONOUN/p_l/subject} definitivt {VERB/p_l/come/comes} nära .",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1140,7 +1140,7 @@
                 ]
             },
             {
-                "text": "r_c gr\u00e4ver och gr\u00e4ver och gr\u00e4ver, men till slut m\u00e5ste {PRONOUN/r_c/subject} {VERB/r_c/have/has} erk\u00e4nna misslyckande och ge upp s\u00f6kandet efter kardborrerot. Kylan har l\u00e4ckt ut all v\u00e4rme fr\u00e5n {PRONOUN/r_c/poss} p\u00e4ls och {PRONOUN/r_c/subject} {VERB/r_c/arrive/arrives} tillbaka till l\u00e4gret el\u00e4ndigt och kallt.",
+                "text": "r_c gräver och gräver och gräver, men till slut måste {PRONOUN/r_c/subject} {VERB/r_c/have/has} erkänna misslyckande och ge upp sökandet efter kardborrerot. Kylan har läckt ut all värme från {PRONOUN/r_c/poss} päls och {PRONOUN/r_c/subject} {VERB/r_c/arrive/arrives} tillbaka till lägret eländigt och kallt.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1157,7 +1157,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 },
                 "relationships": [
                     {
@@ -1219,12 +1219,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "N\u00e4r sn\u00f6n av l\u00f6v-bar bl\u00e5ser runt l\u00e4gret, p_l \u00f6gon {PRONOUN/p_l/poss} \u00f6rter lagrar. {PRONOUN/p_l/subject/CAP} borde fortfarande kunna gr\u00e4va upp kardborre. p_l ger sig ut f\u00f6r att fylla p\u00e5 klanens lager och tar med alla som inte \u00e4r upptagna med annat arbete.",
-        "decline_text": "De stoppas innan de l\u00e4mnar l\u00e4gret - dessa krigare beh\u00f6vs n\u00e5gon annanstans. p_ls expedition f\u00e5r v\u00e4nta.",
+        "intro_text": "När snön av löv-bar blåser runt lägret, p_l ögon {PRONOUN/p_l/poss} örter lagrar. {PRONOUN/p_l/subject/CAP} borde fortfarande kunna gräva upp kardborre. p_l ger sig ut för att fylla på klanens lager och tar med alla som inte är upptagna med annat arbete.",
+        "decline_text": "De stoppas innan de lämnar lägret - dessa krigare behövs någon annanstans. p_ls expedition får vänta.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "p_ls tassar fryser n\u00e4stan av att f\u00f6rs\u00f6ka gr\u00e4va upp kardborre i kylan, men p\u00e5 n\u00e5got s\u00e4tt {PRONOUN/p_l/subject} {VERB/p_l/manage/manage/manage}. Det \u00e4r v\u00e4rt all m\u00f6da och el\u00e4nde eftersom {PRONOUN/p_l/subject} vet hur avg\u00f6rande dessa f\u00e4rska \u00f6rter kan vara f\u00f6r klanen, {PRONOUN/p_l/poss} klankamrater spinnar vid \u00e5synen av de smutsiga r\u00f6tterna.",
+                "text": "p_ls tassar fryser nästan av att försöka gräva upp kardborre i kylan, men på något sätt {PRONOUN/p_l/subject} {VERB/p_l/manage/manage/manage}. Det är värt all möda och elände eftersom {PRONOUN/p_l/subject} vet hur avgörande dessa färska örter kan vara för klanen, {PRONOUN/p_l/poss} klankamrater spinnar vid åsynen av de smutsiga rötterna.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1261,7 +1261,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r v\u00e4ldigt sv\u00e5rt, speciellt med v\u00e4xtens lummiga \u00f6vre halva borta till nyblad, men p_l lyckas p\u00e5 n\u00e5got s\u00e4tt hitta en kardborrev\u00e4xt och f\u00e5 hem dess r\u00f6tter. Att l\u00e4gga ut de tunna r\u00f6tterna i en prydlig h\u00f6g i \u00f6rtf\u00f6rr\u00e5den f\u00e5r p_ls hela kropp att bulta med ett bel\u00e5tet spinnande, och {PRONOUN/p_l/poss} klankamrater ler och uppskattar sin h\u00e5rt arbetande medicinkatt.",
+                "text": "Det är väldigt svårt, speciellt med växtens lummiga övre halva borta till nyblad, men p_l lyckas på något sätt hitta en kardborreväxt och få hem dess rötter. Att lägga ut de tunna rötterna i en prydlig hög i örtförråden får p_ls hela kropp att bulta med ett belåtet spinnande, och {PRONOUN/p_l/poss} klankamrater ler och uppskattar sin hårt arbetande medicinkatt.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -1298,7 +1298,7 @@
                 ]
             },
             {
-                "text": "s_c minns exakt var kardborrev\u00e4xten v\u00e4xte i greenleaf, \u00e4ven om den ligger begravd under sn\u00f6 nu. N\u00e4r allt kommer omkring, \u00e4r s_c efter r\u00f6tterna, och de \u00e4r fortfarande perfekt sk\u00f6rdbara i bladbar.",
+                "text": "s_c minns exakt var kardborreväxten växte i greenleaf, även om den ligger begravd under snö nu. När allt kommer omkring, är s_c efter rötterna, och de är fortfarande perfekt skördbara i bladbar.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1340,7 +1340,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Kanske {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} bara kommer ner med rinnande n\u00e4sa, men p_l lyckas inte nosa upp n\u00e5gon kardborre, och ingen annan p\u00e5 patrullen \u00e4r heller till stor hj\u00e4lp . {PRONOUN/p_l/subject/CAP} {VERB/p_l/return/returns} till l\u00e4gret utan kardborre, stickande av frustration.",
+                "text": "Kanske {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} bara kommer ner med rinnande näsa, men p_l lyckas inte nosa upp någon kardborre, och ingen annan på patrullen är heller till stor hjälp . {PRONOUN/p_l/subject/CAP} {VERB/p_l/return/returns} till lägret utan kardborre, stickande av frustration.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1374,7 +1374,7 @@
                 ]
             },
             {
-                "text": "r_c gr\u00e4ver och gr\u00e4ver och gr\u00e4ver, men till slut m\u00e5ste {PRONOUN/r_c/subject} {VERB/r_c/have/has} erk\u00e4nna misslyckande och ge upp s\u00f6kandet efter kardborrerot. Kylan har l\u00e4ckt ut all v\u00e4rme fr\u00e5n {PRONOUN/r_c/poss} p\u00e4ls och {PRONOUN/r_c/subject} {VERB/r_c/arrive/arrives} tillbaka till l\u00e4gret el\u00e4ndigt och kallt.",
+                "text": "r_c gräver och gräver och gräver, men till slut måste {PRONOUN/r_c/subject} {VERB/r_c/have/has} erkänna misslyckande och ge upp sökandet efter kardborrerot. Kylan har läckt ut all värme från {PRONOUN/r_c/poss} päls och {PRONOUN/r_c/subject} {VERB/r_c/arrive/arrives} tillbaka till lägret eländigt och kallt.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1391,7 +1391,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 },
                 "relationships": [
                     {
@@ -1447,12 +1447,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "I den l\u00f6vbara sn\u00f6n verkar chanserna att hitta n\u00e5gra anv\u00e4ndbara pr\u00e4stkragar sm\u00e5. p_l tvekar - borde {PRONOUN/p_l/subject} ens f\u00f6rs\u00f6ka titta?",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att l\u00e4mna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att g\u00e5 en annan dag.",
+        "intro_text": "I den lövbara snön verkar chanserna att hitta några användbara prästkragar små. p_l tvekar - borde {PRONOUN/p_l/subject} ens försöka titta?",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att lämna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att gå en annan dag.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Det \u00e4r el\u00e4ndigt arbete, att skrapa bort sn\u00f6iga tassen f\u00f6r hemska, kalla tassen. P_l lyckas dock hitta en fl\u00e4ck vissna, bl\u00f6ta, men fortfarande gr\u00f6na pr\u00e4stkragar att sk\u00f6rda l\u00f6v fr\u00e5n.",
+                "text": "Det är eländigt arbete, att skrapa bort snöiga tassen för hemska, kalla tassen. P_l lyckas dock hitta en fläck vissna, blöta, men fortfarande gröna prästkragar att skörda löv från.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1460,7 +1460,7 @@
                 ]
             },
             {
-                "text": "Det k\u00e4nns n\u00e4stan om\u00f6jligt, men glimten av bl\u00f6ta gr\u00f6na saker i slutet av {PRONOUN/p_l/poss} kall s\u00f6kning g\u00f6r det v\u00e4rt det! Eller... typ v\u00e4rt det. p_l \u00e4r <i>s\u00e4ker</i> att det kommer att verka v\u00e4rt det en g\u00e5ng {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} \u00e4r tillbaka i {PRONOUN/p_l/poss} fint varmt bo.",
+                "text": "Det känns nästan omöjligt, men glimten av blöta gröna saker i slutet av {PRONOUN/p_l/poss} kall sökning gör det värt det! Eller... typ värt det. p_l är <i>säker</i> att det kommer att verka värt det en gång {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} är tillbaka i {PRONOUN/p_l/poss} fint varmt bo.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -1468,7 +1468,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte bara att uppt\u00e4cka saker som s_c \u00e4r beg\u00e5vad p\u00e5 - att hitta pr\u00e4stkragar i l\u00f6vblomma \u00e4r sv\u00e5rt nog, men att hitta bra, icke-vissnade l\u00f6v \u00e4r n\u00e4stan om\u00f6jligt, och det \u00e4r ett tecken p\u00e5 s_c:s unika f\u00e4rdigheter som {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} det.",
+                "text": "Det är inte bara att upptäcka saker som s_c är begåvad på - att hitta prästkragar i lövblomma är svårt nog, men att hitta bra, icke-vissnade löv är nästan omöjligt, och det är ett tecken på s_c:s unika färdigheter som {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} det.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1481,12 +1481,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Inte nog med att p_l hamnar genombl\u00f6t till huden, utan {PRONOUN/p_l/subject} ocks\u00e5 {VERB/p_l/don't/doesn't} hittar n\u00e5gra tusensk\u00f6nor under sn\u00f6n heller! Vilken bortkastad och fruktansv\u00e4rt kylig dag.",
+                "text": "Inte nog med att p_l hamnar genomblöt till huden, utan {PRONOUN/p_l/subject} också {VERB/p_l/don't/doesn't} hittar några tusenskönor under snön heller! Vilken bortkastad och fruktansvärt kylig dag.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Det slutar inte bara med att r_c blir genombl\u00f6t till huden, utan {PRONOUN/r_c/subject} ocks\u00e5 {VERB/r_c/don't/doesn't} hittar n\u00e5gra tusensk\u00f6nor under sn\u00f6n! N\u00e4r {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till l\u00e4gret l\u00e4mnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, bl\u00f6tt och huttrade v\u00e5ldsamt. Vilken hemsk, hemsk, ingen bra, mycket d\u00e5lig dag.",
+                "text": "Det slutar inte bara med att r_c blir genomblöt till huden, utan {PRONOUN/r_c/subject} också {VERB/r_c/don't/doesn't} hittar några tusenskönor under snön! När {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till lägret lämnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, blött och huttrade våldsamt. Vilken hemsk, hemsk, ingen bra, mycket dålig dag.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1503,7 +1503,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 }
             }
         ]
@@ -1538,12 +1538,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "I den l\u00f6vbara sn\u00f6n verkar chanserna att hitta n\u00e5gra anv\u00e4ndbara pr\u00e4stkragar sm\u00e5. p_l tvekar - borde {PRONOUN/p_l/subject} ens f\u00f6rs\u00f6ka titta? Och \u00e4r det en bra id\u00e9 att ta med app1?",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar som l\u00e4mnar {PRONOUN/p_l/poss} patienter bakom sig, s\u00e4rskilt med {PRONOUN/p_l/object} som ocks\u00e5 tar med sig {PRONOUN/p_l/poss} l\u00e4rling , och {VERB/p_l/decide/decides} f\u00f6r att g\u00e5 en annan dag.",
+        "intro_text": "I den lövbara snön verkar chanserna att hitta några användbara prästkragar små. p_l tvekar - borde {PRONOUN/p_l/subject} ens försöka titta? Och är det en bra idé att ta med app1?",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar som lämnar {PRONOUN/p_l/poss} patienter bakom sig, särskilt med {PRONOUN/p_l/object} som också tar med sig {PRONOUN/p_l/poss} lärling , och {VERB/p_l/decide/decides} för att gå en annan dag.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Det \u00e4r el\u00e4ndigt arbete, att skrapa bort sn\u00f6iga tassen f\u00f6r hemska, kalla tassen. P_l lyckas dock hitta en fl\u00e4ck vissna, bl\u00f6ta, men fortfarande gr\u00f6na pr\u00e4stkragar att sk\u00f6rda l\u00f6v fr\u00e5n. {PRONOUN/p_l/subject/CAP} {VERB/p_l/share/shares} en utmattad blick av medk\u00e4nsla med app1.",
+                "text": "Det är eländigt arbete, att skrapa bort snöiga tassen för hemska, kalla tassen. P_l lyckas dock hitta en fläck vissna, blöta, men fortfarande gröna prästkragar att skörda löv från. {PRONOUN/p_l/subject/CAP} {VERB/p_l/share/shares} en utmattad blick av medkänsla med app1.",
                 "exp": 40,
                 "weight": 20,
                 "herbs": [
@@ -1582,7 +1582,7 @@
                 ]
             },
             {
-                "text": "Det k\u00e4nns n\u00e4stan om\u00f6jligt, men glimten av bl\u00f6ta gr\u00f6na saker i slutet av deras kalla s\u00f6kning g\u00f6r det v\u00e4rt det! Eller... typ v\u00e4rt det. p_l \u00e4r <i>s\u00e4ker</i> att det kommer att verka v\u00e4rt det n\u00e4r de v\u00e4l \u00e4r tillbaka i sina fina varma bon, och app1 har varit en riktig trupp idag.",
+                "text": "Det känns nästan omöjligt, men glimten av blöta gröna saker i slutet av deras kalla sökning gör det värt det! Eller... typ värt det. p_l är <i>säker</i> att det kommer att verka värt det när de väl är tillbaka i sina fina varma bon, och app1 har varit en riktig trupp idag.",
                 "exp": 40,
                 "weight": 5,
                 "herbs": [
@@ -1621,7 +1621,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte bara att uppt\u00e4cka saker som s_c \u00e4r beg\u00e5vad p\u00e5 - att hitta pr\u00e4stkragar i l\u00f6vblomma \u00e4r sv\u00e5rt nog, men att hitta bra, icke-vissnade l\u00f6v \u00e4r n\u00e4stan om\u00f6jligt, och det \u00e4r ett tecken p\u00e5 s_c:s unika f\u00e4rdigheter som {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} det. app1 sp\u00e5r i {PRONOUN/s_c/poss} vaken, stor\u00f6gd och imponerad.",
+                "text": "Det är inte bara att upptäcka saker som s_c är begåvad på - att hitta prästkragar i lövblomma är svårt nog, men att hitta bra, icke-vissnade löv är nästan omöjligt, och det är ett tecken på s_c:s unika färdigheter som {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} det. app1 spår i {PRONOUN/s_c/poss} vaken, storögd och imponerad.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": [
@@ -1665,7 +1665,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Inte nog med att p_l hamnar genombl\u00f6t till huden, utan {PRONOUN/p_l/subject} ocks\u00e5 {VERB/p_l/don't/doesn't} hittar n\u00e5gra tusensk\u00f6nor under sn\u00f6n heller! Vilken bortkastad och fruktansv\u00e4rt kylig dag.",
+                "text": "Inte nog med att p_l hamnar genomblöt till huden, utan {PRONOUN/p_l/subject} också {VERB/p_l/don't/doesn't} hittar några tusenskönor under snön heller! Vilken bortkastad och fruktansvärt kylig dag.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1701,7 +1701,7 @@
                 ]
             },
             {
-                "text": "Det slutar inte bara med att r_c blir genombl\u00f6t till huden, utan {PRONOUN/r_c/subject} ocks\u00e5 {VERB/r_c/don't/doesn't} hittar n\u00e5gra tusensk\u00f6nor under sn\u00f6n! N\u00e4r {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till l\u00e4gret l\u00e4mnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, bl\u00f6tt och huttrade v\u00e5ldsamt. Vilken hemsk, hemsk, ingen bra, mycket d\u00e5lig dag.",
+                "text": "Det slutar inte bara med att r_c blir genomblöt till huden, utan {PRONOUN/r_c/subject} också {VERB/r_c/don't/doesn't} hittar några tusenskönor under snön! När {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till lägret lämnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, blött och huttrade våldsamt. Vilken hemsk, hemsk, ingen bra, mycket dålig dag.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1718,7 +1718,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 },
                 "relationships": [
                     {
@@ -1784,12 +1784,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "I den l\u00f6vbara sn\u00f6n verkar chanserna att hitta n\u00e5gra anv\u00e4ndbara pr\u00e4stkragar sm\u00e5. p_l tvekar - borde {PRONOUN/p_l/subject} ens f\u00f6rs\u00f6ka titta?",
-        "decline_text": "De stoppas innan de l\u00e4mnar l\u00e4gret - dessa krigare beh\u00f6vs n\u00e5gon annanstans. p_ls expedition f\u00e5r v\u00e4nta.",
+        "intro_text": "I den lövbara snön verkar chanserna att hitta några användbara prästkragar små. p_l tvekar - borde {PRONOUN/p_l/subject} ens försöka titta?",
+        "decline_text": "De stoppas innan de lämnar lägret - dessa krigare behövs någon annanstans. p_ls expedition får vänta.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Det \u00e4r el\u00e4ndigt arbete, att skrapa bort sn\u00f6iga tassen f\u00f6r hemska, kalla tassen. P_l lyckas dock hitta en fl\u00e4ck vissna, bl\u00f6ta, men fortfarande gr\u00f6na pr\u00e4stkragar att sk\u00f6rda l\u00f6v fr\u00e5n. {PRONOUN/p_l/poss/CAP} Klankamrater spinnar vid \u00e5synen av de mosiga gr\u00f6na l\u00f6ven, efter att ha spenderat lika mycket energi p\u00e5 att gr\u00e4va efter dem som p_l.",
+                "text": "Det är eländigt arbete, att skrapa bort snöiga tassen för hemska, kalla tassen. P_l lyckas dock hitta en fläck vissna, blöta, men fortfarande gröna prästkragar att skörda löv från. {PRONOUN/p_l/poss/CAP} Klankamrater spinnar vid åsynen av de mosiga gröna löven, efter att ha spenderat lika mycket energi på att gräva efter dem som p_l.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -1826,7 +1826,7 @@
                 ]
             },
             {
-                "text": "Det k\u00e4nns n\u00e4stan om\u00f6jligt, men glimten av bl\u00f6ta gr\u00f6na saker i slutet av deras kalla s\u00f6kning g\u00f6r det v\u00e4rt det! Eller... typ v\u00e4rt det. p_l \u00e4r <i>s\u00e4ker</i> att det kommer att verka v\u00e4rt det n\u00e4r de alla \u00e4r tillbaka i sina fina, varma bon.",
+                "text": "Det känns nästan omöjligt, men glimten av blöta gröna saker i slutet av deras kalla sökning gör det värt det! Eller... typ värt det. p_l är <i>säker</i> att det kommer att verka värt det när de alla är tillbaka i sina fina, varma bon.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -1863,7 +1863,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte bara att uppt\u00e4cka saker som s_c \u00e4r beg\u00e5vad p\u00e5 - att hitta pr\u00e4stkragar i l\u00f6vblomma \u00e4r sv\u00e5rt nog, men att hitta bra, icke-vissnade l\u00f6v \u00e4r n\u00e4stan om\u00f6jligt, och det \u00e4r ett tecken p\u00e5 s_c:s unika f\u00e4rdigheter som {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} det. Det p\u00e5minner alla p\u00e5 patrullen om hur lyckligt lottad c_n \u00e4r att ha s_c som medicinkatt.",
+                "text": "Det är inte bara att upptäcka saker som s_c är begåvad på - att hitta prästkragar i lövblomma är svårt nog, men att hitta bra, icke-vissnade löv är nästan omöjligt, och det är ett tecken på s_c:s unika färdigheter som {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} det. Det påminner alla på patrullen om hur lyckligt lottad c_n är att ha s_c som medicinkatt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -1905,7 +1905,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Inte nog med att p_l hamnar genombl\u00f6t till huden, utan {PRONOUN/p_l/subject} ocks\u00e5 {VERB/p_l/don't/doesn't} hittar n\u00e5gra tusensk\u00f6nor under sn\u00f6n heller! Vilken bortkastad och fruktansv\u00e4rt kylig dag.",
+                "text": "Inte nog med att p_l hamnar genomblöt till huden, utan {PRONOUN/p_l/subject} också {VERB/p_l/don't/doesn't} hittar några tusenskönor under snön heller! Vilken bortkastad och fruktansvärt kylig dag.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1939,7 +1939,7 @@
                 ]
             },
             {
-                "text": "Det slutar inte bara med att r_c blir genombl\u00f6t till huden, utan {PRONOUN/r_c/subject} ocks\u00e5 {VERB/r_c/don't/doesn't} hittar n\u00e5gra tusensk\u00f6nor under sn\u00f6n! N\u00e4r {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till l\u00e4gret l\u00e4mnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, bl\u00f6tt och huttrade v\u00e5ldsamt. Vilken hemsk, hemsk, ingen bra, mycket d\u00e5lig dag.",
+                "text": "Det slutar inte bara med att r_c blir genomblöt till huden, utan {PRONOUN/r_c/subject} också {VERB/r_c/don't/doesn't} hittar några tusenskönor under snön! När {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till lägret lämnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, blött och huttrade våldsamt. Vilken hemsk, hemsk, ingen bra, mycket dålig dag.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1956,7 +1956,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 },
                 "relationships": [
                     {
@@ -2012,12 +2012,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Kylan av l\u00f6vbar kan ha d\u00f6dat mycket gr\u00f6nska, men jag vet att maskrosorna bara leker d\u00f6da. Om {PRONOUN/p_l/subject} kan f\u00e5 {PRONOUN/p_l/poss} tassar p\u00e5 en planta, kommer r\u00f6tterna fortfarande att h\u00e5lla f\u00e4rsk, mj\u00f6lkvit saft. Kanske finns det lite vild vitl\u00f6k d\u00e4r ute ocks\u00e5...",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att l\u00e4mna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att g\u00e5 en annan dag",
+        "intro_text": "Kylan av lövbar kan ha dödat mycket grönska, men jag vet att maskrosorna bara leker döda. Om {PRONOUN/p_l/subject} kan få {PRONOUN/p_l/poss} tassar på en planta, kommer rötterna fortfarande att hålla färsk, mjölkvit saft. Kanske finns det lite vild vitlök där ute också...",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att lämna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att gå en annan dag",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l kan inte s\u00e4ga att det \u00e4r <i>roligt,</i> att svepa bort sn\u00f6 f\u00f6r att leta efter stj\u00e4lkar och r\u00f6tter fr\u00e5n vissnade maskrosor nedanf\u00f6r, men det som spelar roll just nu \u00e4r att det \u00e4r <i>m\u00f6jligt.</i> \u00c5tminstone det vilda. vitl\u00f6ksl\u00f6kar {PRONOUN/p_l/subject} som sniffats i n\u00e4rheten var i mycket b\u00e4ttre form och lika illaluktande som n\u00e5gonsin.",
+                "text": "p_l kan inte säga att det är <i>roligt,</i> att svepa bort snö för att leta efter stjälkar och rötter från vissnade maskrosor nedanför, men det som spelar roll just nu är att det är <i>möjligt.</i> Åtminstone det vilda. vitlökslökar {PRONOUN/p_l/subject} som sniffats i närheten var i mycket bättre form och lika illaluktande som någonsin.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -2026,7 +2026,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r en riktigt el\u00e4ndig, gr\u00e5 dag, men inte ens f\u00f6rkylningen av l\u00f6vblomma kan inte d\u00e4mpa p_ls gl\u00e4dje n\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/manage/manages} uppt\u00e4cker ett par bra maskrosv\u00e4xter och en enda \u00f6verlevande vild vitl\u00f6ksl\u00f6k.",
+                "text": "Det är en riktigt eländig, grå dag, men inte ens förkylningen av lövblomma kan inte dämpa p_ls glädje när {PRONOUN/p_l/subject} {VERB/p_l/manage/manages} upptäcker ett par bra maskrosväxter och en enda överlevande vild vitlökslök.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -2035,7 +2035,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte bara att uppt\u00e4cka saker som s_c \u00e4r beg\u00e5vad p\u00e5 - att hitta maskrosor i l\u00f6vblomma \u00e4r tillr\u00e4ckligt sv\u00e5rt, men att hitta bra, icke-vissnade l\u00f6v \u00e4r n\u00e4st intill om\u00f6jligt, och det \u00e4r ett tecken p\u00e5 s_c:s unika f\u00e4rdigheter som {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} det. Det \u00e4r sv\u00e5rt att inte putsa n\u00e4r {PRONOUN/s_c/subject} {VERB/s_c/discover/discovers} vild vitl\u00f6k inte l\u00e5ngt borta ocks\u00e5, \u00e4ven om det var mycket l\u00e4ttare med sin starka doft.",
+                "text": "Det är inte bara att upptäcka saker som s_c är begåvad på - att hitta maskrosor i lövblomma är tillräckligt svårt, men att hitta bra, icke-vissnade löv är näst intill omöjligt, och det är ett tecken på s_c:s unika färdigheter som {PRONOUN/s_c/subject} {VERB/s_c/manage/manages} det. Det är svårt att inte putsa när {PRONOUN/s_c/subject} {VERB/s_c/discover/discovers} vild vitlök inte långt borta också, även om det var mycket lättare med sin starka doft.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2049,12 +2049,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Inte nog med att p_l hamnar genombl\u00f6t till huden, utan {PRONOUN/p_l/subject} ocks\u00e5 {VERB/p_l/don't/doesn't} hittar n\u00e5gra maskrosor under sn\u00f6n heller! Vilken bortkastad och fruktansv\u00e4rt kylig dag.",
+                "text": "Inte nog med att p_l hamnar genomblöt till huden, utan {PRONOUN/p_l/subject} också {VERB/p_l/don't/doesn't} hittar några maskrosor under snön heller! Vilken bortkastad och fruktansvärt kylig dag.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Inte nog med att r_c hamnar genombl\u00f6t till huden, utan {PRONOUN/r_c/subject} slutar \u00e4ven med att {VERB/r_c/don't/doesn} hittar n\u00e5gra maskrosor under sn\u00f6n! N\u00e4r {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till l\u00e4gret l\u00e4mnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, bl\u00f6tt och huttrade v\u00e5ldsamt. Vilken hemsk, hemsk, ingen bra, mycket d\u00e5lig dag.",
+                "text": "Inte nog med att r_c hamnar genomblöt till huden, utan {PRONOUN/r_c/subject} slutar även med att {VERB/r_c/don't/doesn} hittar några maskrosor under snön! När {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till lägret lämnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, blött och huttrade våldsamt. Vilken hemsk, hemsk, ingen bra, mycket dålig dag.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2071,7 +2071,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 }
             }
         ]
@@ -2106,12 +2106,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Kylan av l\u00f6vbar kan ha d\u00f6dat mycket gr\u00f6nska, men p_l vet att v\u00e4xterna som maskrosor och vild vitl\u00f6k bara leker d\u00f6da, och om {PRONOUN/p_l/subject} kan f\u00e5 {PRONOUN/p_l/poss} tassar p\u00e5 en v\u00e4xt h\u00e5ller r\u00f6tterna fortfarande vit, mj\u00f6lkaktig saft eller stinkande l\u00f6kar. Det verkar vara dags f\u00f6r app1 att l\u00e4ra sig om vilka resurser som fortfarande finns att samla in under l\u00f6v-bar.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar som l\u00e4mnar {PRONOUN/p_l/poss} patienter bakom sig, s\u00e4rskilt med {PRONOUN/p_l/object} som ocks\u00e5 tar med sig {PRONOUN/p_l/poss} l\u00e4rling , och {VERB/p_l/decide/decides} f\u00f6r att g\u00e5 en annan dag.",
+        "intro_text": "Kylan av lövbar kan ha dödat mycket grönska, men p_l vet att växterna som maskrosor och vild vitlök bara leker döda, och om {PRONOUN/p_l/subject} kan få {PRONOUN/p_l/poss} tassar på en växt håller rötterna fortfarande vit, mjölkaktig saft eller stinkande lökar. Det verkar vara dags för app1 att lära sig om vilka resurser som fortfarande finns att samla in under löv-bar.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar som lämnar {PRONOUN/p_l/poss} patienter bakom sig, särskilt med {PRONOUN/p_l/object} som också tar med sig {PRONOUN/p_l/poss} lärling , och {VERB/p_l/decide/decides} för att gå en annan dag.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l kan inte s\u00e4ga att det \u00e4r <i>roligt,</i> att svepa bort sn\u00f6 f\u00f6r att leta efter stj\u00e4lkar och r\u00f6tter av vissnade maskrosor nedanf\u00f6r, men det som spelar roll just nu \u00e4r att det \u00e4r <i>m\u00f6jligt.</i> \u00c4nd\u00e5, {PRONOUN /p_l/subject} {VERB/p_l/praise/praises} app1 n\u00e4r de \u00e5terv\u00e4nder hem med sin sk\u00f6rd - {PRONOUN/app1/subject} {VERB/app1/hav't/hasn't} yttrade ett enda ord av klagom\u00e5l om de el\u00e4ndiga f\u00f6rh\u00e5llandena, och var till och med den som hittade den vilda vitl\u00f6ken p\u00e5 v\u00e4gen hem. p_l kunde inte vara stoltare.",
+                "text": "p_l kan inte säga att det är <i>roligt,</i> att svepa bort snö för att leta efter stjälkar och rötter av vissnade maskrosor nedanför, men det som spelar roll just nu är att det är <i>möjligt.</i> Ändå, {PRONOUN /p_l/subject} {VERB/p_l/praise/praises} app1 när de återvänder hem med sin skörd - {PRONOUN/app1/subject} {VERB/app1/hav't/hasn't} yttrade ett enda ord av klagomål om de eländiga förhållandena, och var till och med den som hittade den vilda vitlöken på vägen hem. p_l kunde inte vara stoltare.",
                 "exp": 40,
                 "weight": 20,
                 "herbs": [
@@ -2151,7 +2151,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r en riktigt el\u00e4ndig, gr\u00e5 dag, men f\u00f6rkylningen av l\u00f6vbar kan inte d\u00e4mpa app1s lycka n\u00e4r {PRONOUN/app1/subject} {VERB/p_l/avt\u00e4cka/avt\u00e4cker} n\u00e5gra bra maskrosor. N\u00e4r du ser {PRONOUN/app1/object} finna gl\u00e4dje i att skydda klanen, k\u00e4nner p_l en blixt av tillgivenhet f\u00f6r l\u00e4rlingen. {PRONOUN/app1/poss/CAP}-instinkterna \u00e4r ocks\u00e5 skarpa - det \u00e4r app1 som l\u00e4gger m\u00e4rke till den enda, of\u00f6rtr\u00f6ttade vildvitl\u00f6ksl\u00f6ken en bit bort.",
+                "text": "Det är en riktigt eländig, grå dag, men förkylningen av lövbar kan inte dämpa app1s lycka när {PRONOUN/app1/subject} {VERB/p_l/avtäcka/avtäcker} några bra maskrosor. När du ser {PRONOUN/app1/object} finna glädje i att skydda klanen, känner p_l en blixt av tillgivenhet för lärlingen. {PRONOUN/app1/poss/CAP}-instinkterna är också skarpa - det är app1 som lägger märke till den enda, oförtröttade vildvitlökslöken en bit bort.",
                 "exp": 40,
                 "weight": 5,
                 "herbs": [
@@ -2191,7 +2191,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte bara att uppt\u00e4cka saker som s_c \u00e4r beg\u00e5vad p\u00e5 - det \u00e4r sv\u00e5rt nog att hitta n\u00e5gra v\u00e4xter utan blad, men att hitta bra, icke-vissnade l\u00f6v av maskrosor och en intakt vildvitl\u00f6ksl\u00f6k \u00e4r n\u00e4st intill om\u00f6jligt, och det \u00e4r ett tecken p\u00e5 s_c:s unika f\u00e4rdigheter som {PRONOUN/s_c/subject} {VERB/s_c/hantera/hanterar} det. app1 sp\u00e5r i {PRONOUN/s_c/poss} vaken, stor\u00f6gd och imponerad.",
+                "text": "Det är inte bara att upptäcka saker som s_c är begåvad på - det är svårt nog att hitta några växter utan blad, men att hitta bra, icke-vissnade löv av maskrosor och en intakt vildvitlökslök är näst intill omöjligt, och det är ett tecken på s_c:s unika färdigheter som {PRONOUN/s_c/subject} {VERB/s_c/hantera/hanterar} det. app1 spår i {PRONOUN/s_c/poss} vaken, storögd och imponerad.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": [
@@ -2236,7 +2236,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Inte nog med att p_l hamnar genombl\u00f6t till huden, utan {PRONOUN/p_l/subject} ocks\u00e5 {VERB/p_l/don't/doesn't} hittar n\u00e5gra maskrosor under sn\u00f6n heller! Vilken bortkastad och fruktansv\u00e4rt kylig dag.",
+                "text": "Inte nog med att p_l hamnar genomblöt till huden, utan {PRONOUN/p_l/subject} också {VERB/p_l/don't/doesn't} hittar några maskrosor under snön heller! Vilken bortkastad och fruktansvärt kylig dag.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2272,7 +2272,7 @@
                 ]
             },
             {
-                "text": "Inte nog med att r_c hamnar genombl\u00f6t till huden, utan {PRONOUN/r_c/subject} slutar \u00e4ven med att {VERB/r_c/don't/doesn} hittar n\u00e5gra maskrosor under sn\u00f6n! N\u00e4r {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till l\u00e4gret l\u00e4mnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, bl\u00f6tt och huttrade v\u00e5ldsamt. Vilken hemsk, hemsk, ingen bra, mycket d\u00e5lig dag.",
+                "text": "Inte nog med att r_c hamnar genomblöt till huden, utan {PRONOUN/r_c/subject} slutar även med att {VERB/r_c/don't/doesn} hittar några maskrosor under snön! När {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till lägret lämnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, blött och huttrade våldsamt. Vilken hemsk, hemsk, ingen bra, mycket dålig dag.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2289,7 +2289,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 },
                 "relationships": [
                     {
@@ -2359,12 +2359,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Kylan av l\u00f6vbar kan ha d\u00f6dat mycket gr\u00f6nska, men jag vet att maskrosorna bara leker d\u00f6da. Om {PRONOUN/p_l/subject} kan f\u00e5 {PRONOUN/p_l/poss} tassar p\u00e5 en v\u00e4xt, kommer r\u00f6tterna fortfarande att h\u00e5lla f\u00e4rsk, mj\u00f6lkvit saft eller till och med stinkande l\u00f6kar. {PRONOUN/p_l/subject/CAP} ta med en patrull av huttrande klankamrater - fler tassar kommer att g\u00f6ra det l\u00e4tt att gr\u00e4va genom sn\u00f6n.",
-        "decline_text": "De stoppas innan de l\u00e4mnar l\u00e4gret - dessa krigare beh\u00f6vs n\u00e5gon annanstans. p_ls expedition f\u00e5r v\u00e4nta.",
+        "intro_text": "Kylan av lövbar kan ha dödat mycket grönska, men jag vet att maskrosorna bara leker döda. Om {PRONOUN/p_l/subject} kan få {PRONOUN/p_l/poss} tassar på en växt, kommer rötterna fortfarande att hålla färsk, mjölkvit saft eller till och med stinkande lökar. {PRONOUN/p_l/subject/CAP} ta med en patrull av huttrande klankamrater - fler tassar kommer att göra det lätt att gräva genom snön.",
+        "decline_text": "De stoppas innan de lämnar lägret - dessa krigare behövs någon annanstans. p_ls expedition får vänta.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "p_l kan inte s\u00e4ga att det \u00e4r roligt att svepa bort sn\u00f6 f\u00f6r att leta efter kroppar och r\u00f6tter av vissnade maskrosor under, och sedan vildvitl\u00f6ksl\u00f6karna n\u00e4stan direkt efter\u00e5t, men det som spelar roll just nu \u00e4r att det \u00e4r m\u00f6jligt. {PRONOUN/p_l/subject/CAP} specifikt {VERB/p_l/ensure/ensures} att, n\u00e4r de \u00e5terv\u00e4nder till l\u00e4gret med till\u00e4ggen till \u00f6rtbutikerna, ser hela l\u00e4gret {PRONOUN/p_l/object} ber\u00f6mma {PRONOUN/p_l /poss} l\u00e5ngmodig patrull till ledaren.",
+                "text": "p_l kan inte säga att det är roligt att svepa bort snö för att leta efter kroppar och rötter av vissnade maskrosor under, och sedan vildvitlökslökarna nästan direkt efteråt, men det som spelar roll just nu är att det är möjligt. {PRONOUN/p_l/subject/CAP} specifikt {VERB/p_l/ensure/ensures} att, när de återvänder till lägret med tilläggen till örtbutikerna, ser hela lägret {PRONOUN/p_l/object} berömma {PRONOUN/p_l /poss} långmodig patrull till ledaren.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -2402,7 +2402,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r en riktigt el\u00e4ndig, gr\u00e5 dag, men inte ens f\u00f6rkylningen av l\u00f6vblomma kan inte d\u00e4mpa p_ls gl\u00e4dje n\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/manage/manages} uppt\u00e4cker ett par bra maskrosv\u00e4xter och en tassfull av vild vitl\u00f6ksl\u00f6kar. {PRONOUN/p_l/subject/CAP} {VERB/p_l/make/makes} se till att kolla upp tassarna till krigarna som hj\u00e4lpte {PRONOUN/p_l/object} n\u00e4r alla \u00e4r tillbaka i l\u00e4gret och vill se till att alla \u00e4r okej och inte f\u00f6r nedkyld.",
+                "text": "Det är en riktigt eländig, grå dag, men inte ens förkylningen av lövblomma kan inte dämpa p_ls glädje när {PRONOUN/p_l/subject} {VERB/p_l/manage/manages} upptäcker ett par bra maskrosväxter och en tassfull av vild vitlökslökar. {PRONOUN/p_l/subject/CAP} {VERB/p_l/make/makes} se till att kolla upp tassarna till krigarna som hjälpte {PRONOUN/p_l/object} när alla är tillbaka i lägret och vill se till att alla är okej och inte för nedkyld.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -2440,7 +2440,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte bara att uppt\u00e4cka saker som s_c \u00e4r beg\u00e5vad p\u00e5 - att hitta maskrosor i l\u00f6vblomma \u00e4r sv\u00e5rt nog, men att hitta bra, icke vissnade l\u00f6v av maskrosor och en intakt vildvitl\u00f6ksl\u00f6k \u00e4r n\u00e4st intill om\u00f6jligt, och det \u00e4r ett tecken p\u00e5 s_c:s unika f\u00e4rdigheter att {PRONOUN/s_c/subject} {VERB/s_c/manage/managers} det. Det p\u00e5minner alla om hur lyckligt lottad c_n \u00e4r att ha s_c som medicinkatt.",
+                "text": "Det är inte bara att upptäcka saker som s_c är begåvad på - att hitta maskrosor i lövblomma är svårt nog, men att hitta bra, icke vissnade löv av maskrosor och en intakt vildvitlökslök är näst intill omöjligt, och det är ett tecken på s_c:s unika färdigheter att {PRONOUN/s_c/subject} {VERB/s_c/manage/managers} det. Det påminner alla om hur lyckligt lottad c_n är att ha s_c som medicinkatt.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2483,7 +2483,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Inte nog med att p_l hamnar genombl\u00f6t till huden, utan {PRONOUN/p_l/subject} ocks\u00e5 {VERB/p_l/don't/doesn't} hittar n\u00e5gra maskrosor under sn\u00f6n heller! Vilken bortkastad och fruktansv\u00e4rt kylig dag.",
+                "text": "Inte nog med att p_l hamnar genomblöt till huden, utan {PRONOUN/p_l/subject} också {VERB/p_l/don't/doesn't} hittar några maskrosor under snön heller! Vilken bortkastad och fruktansvärt kylig dag.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2517,7 +2517,7 @@
                 ]
             },
             {
-                "text": "Inte nog med att r_c hamnar genombl\u00f6t till huden, utan {PRONOUN/r_c/subject} slutar \u00e4ven med att {VERB/r_c/don't/doesn} hittar n\u00e5gra maskrosor under sn\u00f6n! N\u00e4r {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till l\u00e4gret l\u00e4mnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, bl\u00f6tt och huttrade v\u00e5ldsamt. Vilken hemsk, hemsk, ingen bra, mycket d\u00e5lig dag.",
+                "text": "Inte nog med att r_c hamnar genomblöt till huden, utan {PRONOUN/r_c/subject} slutar även med att {VERB/r_c/don't/doesn} hittar några maskrosor under snön! När {PRONOUN/r_c/subject} {VERB/r_c/return/returns} till lägret lämnade {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} kallt, blött och huttrade våldsamt. Vilken hemsk, hemsk, ingen bra, mycket dålig dag.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2534,7 +2534,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 },
                 "relationships": [
                     {
@@ -2590,12 +2590,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Det \u00e4r inte att hitta f\u00e4rsk enb\u00e4r som \u00e4r problemet. Som en vintergr\u00f6n v\u00e4xt \u00e4r enb\u00e4r k\u00e4nd f\u00f6r att v\u00e4xa tillf\u00f6rlitligt \u00e4ven under de kalla \u00e5rstiderna. <i>Problemet</i> \u00e4r att enb\u00e4r v\u00e4xer i stora buskar; buskar ibland tillr\u00e4ckligt stora f\u00f6r att vara bokstavliga tr\u00e4d! Att kl\u00e4ttra i dessa hala f\u00f6rh\u00e5llanden \u00e4r en katastrof som bara v\u00e4ntar p\u00e5 att h\u00e4nda.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att l\u00e4mna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att g\u00e5 en annan dag.",
+        "intro_text": "Det är inte att hitta färsk enbär som är problemet. Som en vintergrön växt är enbär känd för att växa tillförlitligt även under de kalla årstiderna. <i>Problemet</i> är att enbär växer i stora buskar; buskar ibland tillräckligt stora för att vara bokstavliga träd! Att klättra i dessa hala förhållanden är en katastrof som bara väntar på att hända.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att lämna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att gå en annan dag.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "\u00c5tminstone {PRONOUN/p_l/subject} {VERB/p_l/do/does} beh\u00f6ver inte gr\u00e4va igenom sn\u00f6n efter dessa l\u00f6v. p_l suckar, sakta och f\u00f6rsiktigt klipper av enb\u00e4r bland tr\u00e4dets grenar.",
+                "text": "Åtminstone {PRONOUN/p_l/subject} {VERB/p_l/do/does} behöver inte gräva igenom snön efter dessa löv. p_l suckar, sakta och försiktigt klipper av enbär bland trädets grenar.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -2603,7 +2603,7 @@
                 ]
             },
             {
-                "text": "Ibland finner p_l {PRONOUN/p_l/self} n\u00e4stan snurrig av tacksamhet f\u00f6r vintergr\u00f6na v\u00e4xter, v\u00e4xter som h\u00e5nar l\u00f6vblomma och v\u00e4xer trots det. Det \u00e4r inte en effekt av v\u00e4xten - enb\u00e4r lugnar, framkallar inte eufori - bara l\u00e4ttnaden av att fortfarande ha en f\u00e4rsk \u00f6rtk\u00e4lla i l\u00f6v.",
+                "text": "Ibland finner p_l {PRONOUN/p_l/self} nästan snurrig av tacksamhet för vintergröna växter, växter som hånar lövblomma och växer trots det. Det är inte en effekt av växten - enbär lugnar, framkallar inte eufori - bara lättnaden av att fortfarande ha en färsk örtkälla i löv.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -2611,7 +2611,7 @@
                 ]
             },
             {
-                "text": "Ibland \u00e4r det inte att hitta v\u00e4xter att sk\u00f6rda som \u00e4r problemet, det \u00e4r att hitta v\u00e4xter att <i>s\u00e4kert</i> sk\u00f6rda. s_c hittar ett enb\u00e4r p\u00e5 en sluttning, med l\u00e4ttillg\u00e4ngliga nedre grenar att sk\u00f6rda fr\u00e5n utan att beh\u00f6va riskera att {PRONOUN/s_c/poss} halskl\u00e4ttring i l\u00f6vbar.",
+                "text": "Ibland är det inte att hitta växter att skörda som är problemet, det är att hitta växter att <i>säkert</i> skörda. s_c hittar ett enbär på en sluttning, med lättillgängliga nedre grenar att skörda från utan att behöva riskera att {PRONOUN/s_c/poss} halsklättring i lövbar.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -2624,12 +2624,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l finner ett par enb\u00e4rstr\u00e4d med sina vintergr\u00f6na l\u00f6v som chockerar mot bristen p\u00e5 l\u00f6vblomma, men ingen har n\u00e5gra grenar som \u00e4r l\u00e5ga nog att sk\u00f6rda fr\u00e5n s\u00e4kert.",
+                "text": "p_l finner ett par enbärsträd med sina vintergröna löv som chockerar mot bristen på lövblomma, men ingen har några grenar som är låga nog att skörda från säkert.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "r_c, kantar ut p\u00e5 en mager gren f\u00f6r att f\u00f6rs\u00f6ka f\u00e5 n\u00e5gra enb\u00e4rsblad, glider p\u00e5 den frostade veden och rasar av tr\u00e4det och sl\u00e5r h\u00e5rt i marken.",
+                "text": "r_c, kantar ut på en mager gren för att försöka få några enbärsblad, glider på den frostade veden och rasar av trädet och slår hårt i marken.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2647,7 +2647,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad efter att ha fallit fr\u00e5n ett enb\u00e4r, n\u00e4r han f\u00f6rs\u00f6kte sk\u00f6rda sina l\u00f6v i den kalla sn\u00f6n av l\u00f6vbar."
+                    "scar": "m_c var ärrad efter att ha fallit från ett enbär, när han försökte skörda sina löv i den kalla snön av lövbar."
                 }
             }
         ]
@@ -2682,12 +2682,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Det \u00e4r inte att hitta f\u00e4rsk enb\u00e4r som \u00e4r problemet. Som en vintergr\u00f6n v\u00e4xt \u00e4r enb\u00e4r k\u00e4nd f\u00f6r att v\u00e4xa tillf\u00f6rlitligt \u00e4ven under de kalla \u00e5rstiderna. <i>Problemet</i> \u00e4r att enb\u00e4r v\u00e4xer i stora buskar; buskar ibland tillr\u00e4ckligt stora f\u00f6r att vara bokstavliga tr\u00e4d! Att kl\u00e4ttra i dessa hala f\u00f6rh\u00e5llanden kan vara farligt och p_l tvekar att ta med app1, men s\u00e4ger till {PRONOUN/p_l/self} att det \u00e4r en m\u00f6jlighet att l\u00e4ra sig.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar som l\u00e4mnar {PRONOUN/p_l/poss} patienter bakom sig, s\u00e4rskilt med {PRONOUN/p_l/object} som ocks\u00e5 tar med sig {PRONOUN/p_l/poss} l\u00e4rling , och {VERB/p_l/decide/decides} f\u00f6r att g\u00e5 en annan dag.",
+        "intro_text": "Det är inte att hitta färsk enbär som är problemet. Som en vintergrön växt är enbär känd för att växa tillförlitligt även under de kalla årstiderna. <i>Problemet</i> är att enbär växer i stora buskar; buskar ibland tillräckligt stora för att vara bokstavliga träd! Att klättra i dessa hala förhållanden kan vara farligt och p_l tvekar att ta med app1, men säger till {PRONOUN/p_l/self} att det är en möjlighet att lära sig.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar som lämnar {PRONOUN/p_l/poss} patienter bakom sig, särskilt med {PRONOUN/p_l/object} som också tar med sig {PRONOUN/p_l/poss} lärling , och {VERB/p_l/decide/decides} för att gå en annan dag.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "\u00c5tminstone {PRONOUN/p_l/subject} {VERB/p_l/do/does} beh\u00f6ver inte gr\u00e4va igenom sn\u00f6n efter dessa l\u00f6v. p_l suckar, sakta och f\u00f6rsiktigt klipper av enb\u00e4r bland tr\u00e4dets grenar. app1 \u00e4r mycket tveksam till att g\u00e5 med {PRONOUN/p_l/object} d\u00e4r uppe, men \u00f6vervinner s\u00e5 sm\u00e5ningom {PRONOUN/app1/poss} r\u00e4dsla f\u00f6r att l\u00f6vsamla p\u00e5 en l\u00e4gre gren... <i>mycket</i> f\u00f6rsiktigt.",
+                "text": "Åtminstone {PRONOUN/p_l/subject} {VERB/p_l/do/does} behöver inte gräva igenom snön efter dessa löv. p_l suckar, sakta och försiktigt klipper av enbär bland trädets grenar. app1 är mycket tveksam till att gå med {PRONOUN/p_l/object} där uppe, men övervinner så småningom {PRONOUN/app1/poss} rädsla för att lövsamla på en lägre gren... <i>mycket</i> försiktigt.",
                 "exp": 40,
                 "weight": 20,
                 "herbs": [
@@ -2726,7 +2726,7 @@
                 ]
             },
             {
-                "text": "Ibland finner p_l {PRONOUN/p_l/self} n\u00e4stan snurrig av tacksamhet f\u00f6r vintergr\u00f6na v\u00e4xter, v\u00e4xter som h\u00e5nar l\u00f6vblomma och v\u00e4xer trots det. Det \u00e4r inte en effekt av v\u00e4xten - enb\u00e4r lugnar, framkallar inte eufori - bara l\u00e4ttnaden av att fortfarande ha en f\u00e4rsk \u00f6rtk\u00e4lla i l\u00f6v. app1 ger {PRONOUN/p_l/object} en konstig blick, men f\u00e5r p_l att f\u00f6rklara {PRONOUN/p_l/poss} brett leende.",
+                "text": "Ibland finner p_l {PRONOUN/p_l/self} nästan snurrig av tacksamhet för vintergröna växter, växter som hånar lövblomma och växer trots det. Det är inte en effekt av växten - enbär lugnar, framkallar inte eufori - bara lättnaden av att fortfarande ha en färsk örtkälla i löv. app1 ger {PRONOUN/p_l/object} en konstig blick, men får p_l att förklara {PRONOUN/p_l/poss} brett leende.",
                 "exp": 40,
                 "weight": 5,
                 "herbs": [
@@ -2765,7 +2765,7 @@
                 ]
             },
             {
-                "text": "Ibland \u00e4r det inte att hitta v\u00e4xter att sk\u00f6rda som \u00e4r problemet, det \u00e4r att hitta v\u00e4xter att <i>s\u00e4kert</i> sk\u00f6rda. s_c hittar ett enb\u00e4r p\u00e5 en sluttning, med l\u00e4ttillg\u00e4ngliga nedre grenar att sk\u00f6rda fr\u00e5n utan att s_c eller app1 beh\u00f6ver riskera att halsen kl\u00e4ttrar i l\u00f6vbar.",
+                "text": "Ibland är det inte att hitta växter att skörda som är problemet, det är att hitta växter att <i>säkert</i> skörda. s_c hittar ett enbär på en sluttning, med lättillgängliga nedre grenar att skörda från utan att s_c eller app1 behöver riskera att halsen klättrar i lövbar.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": [
@@ -2809,7 +2809,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l finner ett par enb\u00e4rstr\u00e4d med sina vintergr\u00f6na l\u00f6v som chockerar mot bristen p\u00e5 l\u00f6vblomma, men ingen har n\u00e5gra grenar som \u00e4r l\u00e5ga nog att sk\u00f6rda fr\u00e5n s\u00e4kert.",
+                "text": "p_l finner ett par enbärsträd med sina vintergröna löv som chockerar mot bristen på lövblomma, men ingen har några grenar som är låga nog att skörda från säkert.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2845,7 +2845,7 @@
                 ]
             },
             {
-                "text": "r_c, kantar ut p\u00e5 en mager gren f\u00f6r att f\u00f6rs\u00f6ka f\u00e5 n\u00e5gra enb\u00e4rsblad, glider p\u00e5 den frostade veden och rasar av tr\u00e4det och sl\u00e5r h\u00e5rt i marken.",
+                "text": "r_c, kantar ut på en mager gren för att försöka få några enbärsblad, glider på den frostade veden och rasar av trädet och slår hårt i marken.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2863,7 +2863,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad efter att ha fallit fr\u00e5n ett enb\u00e4r, n\u00e4r han f\u00f6rs\u00f6kte sk\u00f6rda sina l\u00f6v i den kalla sn\u00f6n av l\u00f6vbar."
+                    "scar": "m_c var ärrad efter att ha fallit från ett enbär, när han försökte skörda sina löv i den kalla snön av lövbar."
                 },
                 "relationships": [
                     {
@@ -2929,12 +2929,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Det \u00e4r inte att hitta f\u00e4rsk enb\u00e4r som \u00e4r problemet. Som en vintergr\u00f6n v\u00e4xt \u00e4r enb\u00e4r k\u00e4nd f\u00f6r att v\u00e4xa tillf\u00f6rlitligt \u00e4ven under de kalla \u00e5rstiderna. <i>Problemet</i> \u00e4r att enb\u00e4r v\u00e4xer i stora buskar; buskar ibland tillr\u00e4ckligt stora f\u00f6r att vara bokstavliga tr\u00e4d! Att kl\u00e4ttra i dessa hala f\u00f6rh\u00e5llanden kan vara farligt. F\u00f6rhoppningsvis kommer krigarna som f\u00f6ljer med p_l att kunna hj\u00e4lpa till.",
-        "decline_text": "De stoppas innan de l\u00e4mnar l\u00e4gret - dessa krigare beh\u00f6vs n\u00e5gon annanstans. p_ls expedition f\u00e5r v\u00e4nta.",
+        "intro_text": "Det är inte att hitta färsk enbär som är problemet. Som en vintergrön växt är enbär känd för att växa tillförlitligt även under de kalla årstiderna. <i>Problemet</i> är att enbär växer i stora buskar; buskar ibland tillräckligt stora för att vara bokstavliga träd! Att klättra i dessa hala förhållanden kan vara farligt. Förhoppningsvis kommer krigarna som följer med p_l att kunna hjälpa till.",
+        "decline_text": "De stoppas innan de lämnar lägret - dessa krigare behövs någon annanstans. p_ls expedition får vänta.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "\u00c5tminstone {PRONOUN/p_l/subject} {VERB/p_l/do/does} beh\u00f6ver inte gr\u00e4va igenom sn\u00f6n efter dessa l\u00f6v. p_l suckar, sakta och f\u00f6rsiktigt klipper av enb\u00e4r bland tr\u00e4dets grenar. Patrullen ansluter sig till {PRONOUN/p_l/object}, sp\u00e4nd och fokuserad, och det \u00e4r en utmattad grupp som \u00e5terv\u00e4nder till l\u00e4gret n\u00e4r solen sjunker mot horisonten. Utmattad \u2013 men lyckad.",
+                "text": "Åtminstone {PRONOUN/p_l/subject} {VERB/p_l/do/does} behöver inte gräva igenom snön efter dessa löv. p_l suckar, sakta och försiktigt klipper av enbär bland trädets grenar. Patrullen ansluter sig till {PRONOUN/p_l/object}, spänd och fokuserad, och det är en utmattad grupp som återvänder till lägret när solen sjunker mot horisonten. Utmattad - men lyckad.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": [
@@ -2971,7 +2971,7 @@
                 ]
             },
             {
-                "text": "Ibland finner p_l {PRONOUN/p_l/self} n\u00e4stan snurrig av tacksamhet f\u00f6r vintergr\u00f6na v\u00e4xter, v\u00e4xter som h\u00e5nar l\u00f6vblomma och v\u00e4xer trots det. Det \u00e4r inte en effekt av v\u00e4xten - enb\u00e4r lugnar, framkallar inte eufori - bara l\u00e4ttnaden av att fortfarande ha en f\u00e4rsk \u00f6rtk\u00e4lla i l\u00f6v, och v\u00e4rmen av att ha {PRONOUN/p_l/poss} klankamrater d\u00e4r f\u00f6r att hj\u00e4lpa {PRONOUN/p_l /objekt} samla det.",
+                "text": "Ibland finner p_l {PRONOUN/p_l/self} nästan snurrig av tacksamhet för vintergröna växter, växter som hånar lövblomma och växer trots det. Det är inte en effekt av växten - enbär lugnar, framkallar inte eufori - bara lättnaden av att fortfarande ha en färsk örtkälla i löv, och värmen av att ha {PRONOUN/p_l/poss} klankamrater där för att hjälpa {PRONOUN/p_l /objekt} samla det.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": [
@@ -3008,7 +3008,7 @@
                 ]
             },
             {
-                "text": "Ibland \u00e4r det inte att hitta v\u00e4xter att sk\u00f6rda som \u00e4r problemet, det \u00e4r att hitta v\u00e4xter att <i>s\u00e4kert</i> sk\u00f6rda. s_c hittar ett enb\u00e4rstr\u00e4d p\u00e5 en sluttning, med l\u00e4ttillg\u00e4ngliga nedre grenar att sk\u00f6rda fr\u00e5n utan att n\u00e5gon katt beh\u00f6ver riskera att halsen kl\u00e4ttrar i l\u00f6vbar.",
+                "text": "Ibland är det inte att hitta växter att skörda som är problemet, det är att hitta växter att <i>säkert</i> skörda. s_c hittar ett enbärsträd på en sluttning, med lättillgängliga nedre grenar att skörda från utan att någon katt behöver riskera att halsen klättrar i lövbar.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -3050,7 +3050,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l finner ett par enb\u00e4rstr\u00e4d med sina vintergr\u00f6na l\u00f6v som chockerar mot bristen p\u00e5 l\u00f6vblomma, men ingen har n\u00e5gra grenar som \u00e4r l\u00e5ga nog att sk\u00f6rda fr\u00e5n s\u00e4kert.",
+                "text": "p_l finner ett par enbärsträd med sina vintergröna löv som chockerar mot bristen på lövblomma, men ingen har några grenar som är låga nog att skörda från säkert.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3084,7 +3084,7 @@
                 ]
             },
             {
-                "text": "r_c, kantar ut p\u00e5 en mager gren f\u00f6r att f\u00f6rs\u00f6ka f\u00e5 n\u00e5gra enb\u00e4rsblad, glider p\u00e5 den frostade veden och rasar av tr\u00e4det och sl\u00e5r h\u00e5rt i marken.",
+                "text": "r_c, kantar ut på en mager gren för att försöka få några enbärsblad, glider på den frostade veden och rasar av trädet och slår hårt i marken.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3102,7 +3102,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c var \u00e4rrad efter att ha fallit fr\u00e5n ett enb\u00e4r, n\u00e4r han f\u00f6rs\u00f6kte sk\u00f6rda sina l\u00f6v i den kalla sn\u00f6n av l\u00f6vbar."
+                    "scar": "m_c var ärrad efter att ha fallit från ett enbär, när han försökte skörda sina löv i den kalla snön av lövbar."
                 },
                 "relationships": [
                     {
@@ -3158,12 +3158,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Det finns ett begr\u00e4nsat urval av \u00f6rter som p_l till och med kan leta efter i bladfria, men om {PRONOUN/p_l/subject} kan komma ih\u00e5g var den vilda vitl\u00f6ken v\u00e4xte i greenleaf, \u00e4r det {PRONOUN/p_l/inposs} att ta.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att l\u00e4mna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att g\u00e5 en annan dag.",
+        "intro_text": "Det finns ett begränsat urval av örter som p_l till och med kan leta efter i bladfria, men om {PRONOUN/p_l/subject} kan komma ihåg var den vilda vitlöken växte i greenleaf, är det {PRONOUN/p_l/inposs} att ta.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att lämna {PRONOUN/p_l/poss} patienter bakom sig och {VERB/p_l/decide/decides} att gå en annan dag.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l \u00e5terv\u00e4nder till l\u00e4gret med stenkalla tassar och ett nytt hat mot att gr\u00e4va, men b\u00e4rande vitl\u00f6k.",
+                "text": "p_l återvänder till lägret med stenkalla tassar och ett nytt hat mot att gräva, men bärande vitlök.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -3171,7 +3171,7 @@
                 ]
             },
             {
-                "text": "En av de saker du verkligen inte vill ha i l\u00f6vbar \u00e4r en infektion, och det \u00e4r vitl\u00f6kens illaluktande specialitet att behandla. Efter en l\u00e5ng, anstr\u00e4ngande dag i kylan, lyckas p_l f\u00e5 tillbaka en hel del av sina l\u00f6kar till \u00f6rtbutikerna.",
+                "text": "En av de saker du verkligen inte vill ha i lövbar är en infektion, och det är vitlökens illaluktande specialitet att behandla. Efter en lång, ansträngande dag i kylan, lyckas p_l få tillbaka en hel del av sina lökar till örtbutikerna.",
                 "exp": 30,
                 "weight": 5,
                 "herbs": [
@@ -3180,7 +3180,7 @@
                 ]
             },
             {
-                "text": "s_c vet exakt vart den ska g\u00e5 - det fanns en tjock fl\u00e4ck av vild vitl\u00f6k som v\u00e4xte i ett utsatt omr\u00e5de. {PRONOUN/s_c/subject/CAP} {VERB/s_c/prove/proves} {PRONOUN/s_c/self} r\u00e4tt, och det \u00e4r bara en fullst\u00e4ndig sm\u00e4rta att gr\u00e4va fram l\u00f6karna. N\u00e5v\u00e4l, \u00e5tminstone {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} har {PRONOUN/app1/object} nu.",
+                "text": "s_c vet exakt vart den ska gå - det fanns en tjock fläck av vild vitlök som växte i ett utsatt område. {PRONOUN/s_c/subject/CAP} {VERB/s_c/prove/proves} {PRONOUN/s_c/self} rätt, och det är bara en fullständig smärta att gräva fram lökarna. Nåväl, åtminstone {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} har {PRONOUN/app1/object} nu.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -3194,12 +3194,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l s\u00f6ker och s\u00f6ker, men s\u00e5 sm\u00e5ningom {PRONOUN/p_l/subject} {VERB/p_l/have/has} f\u00f6r att erk\u00e4nna nederlag. {PRONOUN/p_l/subject/CAP} kommer inte ih\u00e5g var vitl\u00f6ken v\u00e4xte n\u00e4r v\u00e4rlden var varm.",
+                "text": "p_l söker och söker, men så småningom {PRONOUN/p_l/subject} {VERB/p_l/have/has} för att erkänna nederlag. {PRONOUN/p_l/subject/CAP} kommer inte ihåg var vitlöken växte när världen var varm.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "N\u00e4r p_l kommer tillbaka till l\u00e4gret, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} huttrar och \u00e4r kallt. Att gr\u00e4va ner i den l\u00f6vbara marken i ett s\u00f6kande efter l\u00f6kar som inte fanns d\u00e4r var b\u00e5de improduktivt och meningsl\u00f6st.",
+                "text": "När p_l kommer tillbaka till lägret, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} huttrar och är kallt. Att gräva ner i den lövbara marken i ett sökande efter lökar som inte fanns där var både improduktivt och meningslöst.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3216,7 +3216,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 }
             }
         ]
@@ -3251,12 +3251,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Det finns ett begr\u00e4nsat urval av \u00f6rter som p_l till och med kan leta efter i bladfria, men om {PRONOUN/p_l/subject} eller app1 bara kan komma ih\u00e5g var den vilda vitl\u00f6ken v\u00e4xte i greenleaf, \u00e4r det deras att ta.",
-        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att l\u00e4mna {PRONOUN/p_l/poss} patienter bakom sig, s\u00e4rskilt med {PRONOUN/p_l/poss} l\u00e4rling med ocks\u00e5, och {VERB/p_l /decide/decides} f\u00f6r att g\u00e5 en annan dag.",
+        "intro_text": "Det finns ett begränsat urval av örter som p_l till och med kan leta efter i bladfria, men om {PRONOUN/p_l/subject} eller app1 bara kan komma ihåg var den vilda vitlöken växte i greenleaf, är det deras att ta.",
+        "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} andra tankar om att lämna {PRONOUN/p_l/poss} patienter bakom sig, särskilt med {PRONOUN/p_l/poss} lärling med också, och {VERB/p_l /decide/decides} för att gå en annan dag.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l och app1 \u00e5terv\u00e4nder till l\u00e4gret med stenkalla tassar och ett nytt hat mot att gr\u00e4va, men b\u00e4ra p\u00e5 vitl\u00f6k.",
+                "text": "p_l och app1 återvänder till lägret med stenkalla tassar och ett nytt hat mot att gräva, men bära på vitlök.",
                 "exp": 40,
                 "weight": 20,
                 "herbs": [
@@ -3295,7 +3295,7 @@
                 ]
             },
             {
-                "text": "En av de saker du verkligen inte vill ha i l\u00f6vbar \u00e4r en infektion, och det \u00e4r vitl\u00f6kens illaluktande specialitet att behandla. Efter en l\u00e5ng, anstr\u00e4ngande dag i kylan, lyckas p_l f\u00e5 tillbaka en hel del av sina l\u00f6kar till \u00f6rtbutikerna med app1.",
+                "text": "En av de saker du verkligen inte vill ha i lövbar är en infektion, och det är vitlökens illaluktande specialitet att behandla. Efter en lång, ansträngande dag i kylan, lyckas p_l få tillbaka en hel del av sina lökar till örtbutikerna med app1.",
                 "exp": 40,
                 "weight": 5,
                 "herbs": [
@@ -3335,7 +3335,7 @@
                 ]
             },
             {
-                "text": "s_c vet exakt vart den ska g\u00e5 - det fanns en tjock fl\u00e4ck av vild vitl\u00f6k som v\u00e4xte i ett utsatt omr\u00e5de. {PRONOUN/s_c/subject/CAP} visar att {PRONOUN/s_c/self} har r\u00e4tt, och det \u00e4r bara en fullkomlig sm\u00e4rta att gr\u00e4va fram l\u00f6karna. N\u00e5v\u00e4l, \u00e5tminstone {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} har dem nu.",
+                "text": "s_c vet exakt vart den ska gå - det fanns en tjock fläck av vild vitlök som växte i ett utsatt område. {PRONOUN/s_c/subject/CAP} visar att {PRONOUN/s_c/self} har rätt, och det är bara en fullkomlig smärta att gräva fram lökarna. Nåväl, åtminstone {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} har dem nu.",
                 "exp": 40,
                 "weight": 20,
                 "stat_skill": [
@@ -3380,7 +3380,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l s\u00f6ker och s\u00f6ker, men s\u00e5 sm\u00e5ningom {PRONOUN/p_l/subject} {VERB/p_l/have/has} f\u00f6r att erk\u00e4nna nederlag. {PRONOUN/p_l/subject/CAP} kommer inte ih\u00e5g var vitl\u00f6ken v\u00e4xte n\u00e4r v\u00e4rlden var varm.",
+                "text": "p_l söker och söker, men så småningom {PRONOUN/p_l/subject} {VERB/p_l/have/has} för att erkänna nederlag. {PRONOUN/p_l/subject/CAP} kommer inte ihåg var vitlöken växte när världen var varm.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3416,7 +3416,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r den misslyckade patrullen kommer tillbaka till l\u00e4gret fryser r_c och \u00e4r kall. Att gr\u00e4va ner i den l\u00f6vbara marken i ett s\u00f6kande efter l\u00f6kar som inte fanns d\u00e4r var b\u00e5de improduktivt och meningsl\u00f6st.",
+                "text": "När den misslyckade patrullen kommer tillbaka till lägret fryser r_c och är kall. Att gräva ner i den lövbara marken i ett sökande efter lökar som inte fanns där var både improduktivt och meningslöst.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3433,7 +3433,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 },
                 "relationships": [
                     {
@@ -3499,12 +3499,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Det finns ett begr\u00e4nsat urval av \u00f6rter som p_l till och med kan leta efter i bladfria, \u00e4ven med en patrull som hj\u00e4lper till {PRONOUN/p_l/object}, men om {PRONOUN/p_l/subject} kan komma ih\u00e5g var den vilda vitl\u00f6ken v\u00e4xte i greenleaf, \u00e4r det { PRONOUN/p_l/inposs} f\u00f6r tillf\u00e4llet.",
-        "decline_text": "De stoppas innan de l\u00e4mnar l\u00e4gret - dessa krigare beh\u00f6vs n\u00e5gon annanstans. p_ls expedition f\u00e5r v\u00e4nta.",
+        "intro_text": "Det finns ett begränsat urval av örter som p_l till och med kan leta efter i bladfria, även med en patrull som hjälper till {PRONOUN/p_l/object}, men om {PRONOUN/p_l/subject} kan komma ihåg var den vilda vitlöken växte i greenleaf, är det { PRONOUN/p_l/inposs} för tillfället.",
+        "decline_text": "De stoppas innan de lämnar lägret - dessa krigare behövs någon annanstans. p_ls expedition får vänta.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "p_l och patrullen \u00e5terv\u00e4nder till l\u00e4gret med stenkalla tassar och ett nytt hat mot att gr\u00e4va, men b\u00e4rande vitl\u00f6ksl\u00f6kar.",
+                "text": "p_l och patrullen återvänder till lägret med stenkalla tassar och ett nytt hat mot att gräva, men bärande vitlökslökar.",
                 "exp": 30,
                 "weight": 20,
                 "herbs": [
@@ -3541,7 +3541,7 @@
                 ]
             },
             {
-                "text": "En av de saker du verkligen inte vill ha i l\u00f6vbar \u00e4r en infektion, och det \u00e4r vitl\u00f6kens illaluktande specialitet att behandla. Efter en l\u00e5ng, anstr\u00e4ngande dag i kylan, lyckas p_l f\u00e5 tillbaka ett rej\u00e4lt drag av sina l\u00f6kar till \u00f6rtbutikerna med patrullen.",
+                "text": "En av de saker du verkligen inte vill ha i lövbar är en infektion, och det är vitlökens illaluktande specialitet att behandla. Efter en lång, ansträngande dag i kylan, lyckas p_l få tillbaka ett rejält drag av sina lökar till örtbutikerna med patrullen.",
                 "exp": 30,
                 "weight": 5,
                 "herbs": [
@@ -3579,7 +3579,7 @@
                 ]
             },
             {
-                "text": "s_c vet exakt vart den ska g\u00e5 - det fanns en tjock fl\u00e4ck av vild vitl\u00f6k som v\u00e4xte i ett utsatt omr\u00e5de. {PRONOUN/s_c/subject/CAP} {VERB/s_c/prove/proves} {PRONOUN/s_c/self} r\u00e4tt, och det \u00e4r bara en fullst\u00e4ndig sm\u00e4rta att gr\u00e4va fram l\u00f6karna. N\u00e5v\u00e4l, \u00e5tminstone {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} har dem nu.",
+                "text": "s_c vet exakt vart den ska gå - det fanns en tjock fläck av vild vitlök som växte i ett utsatt område. {PRONOUN/s_c/subject/CAP} {VERB/s_c/prove/proves} {PRONOUN/s_c/self} rätt, och det är bara en fullständig smärta att gräva fram lökarna. Nåväl, åtminstone {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} har dem nu.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -3622,7 +3622,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l s\u00f6ker och s\u00f6ker, men s\u00e5 sm\u00e5ningom {PRONOUN/p_l/subject} {VERB/p_l/have/has} f\u00f6r att erk\u00e4nna nederlag. {PRONOUN/p_l/subject/CAP} kommer inte ih\u00e5g var vitl\u00f6ken v\u00e4xte n\u00e4r v\u00e4rlden var varm.",
+                "text": "p_l söker och söker, men så småningom {PRONOUN/p_l/subject} {VERB/p_l/have/has} för att erkänna nederlag. {PRONOUN/p_l/subject/CAP} kommer inte ihåg var vitlöken växte när världen var varm.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3656,7 +3656,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r den misslyckade patrullen kommer tillbaka till l\u00e4gret fryser r_c och \u00e4r kall. Att gr\u00e4va ner i den l\u00f6vbara marken i ett s\u00f6kande efter l\u00f6kar som inte fanns d\u00e4r var b\u00e5de improduktivt och meningsl\u00f6st.",
+                "text": "När den misslyckade patrullen kommer tillbaka till lägret fryser r_c och är kall. Att gräva ner i den lövbara marken i ett sökande efter lökar som inte fanns där var både improduktivt och meningslöst.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3673,7 +3673,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c fick \u00e4rr av f\u00f6rfrysning av att leta efter \u00f6rter i l\u00f6vbar."
+                    "scar": "m_c fick ärr av förfrysning av att leta efter örter i lövbar."
                 },
                 "relationships": [
                     {

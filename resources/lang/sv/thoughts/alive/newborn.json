@@ -2,16 +2,16 @@
     {
         "id": "gen_newborn",
         "thoughts": [
-            "Mewlar ynkligt efter mj\u00f6lk",
-            "F\u00f6rs\u00f6ker ta reda p\u00e5 alla dofter runt {PRONOUN/m_c/object}",
+            "Mewlar ynkligt efter mjölk",
+            "Försöker ta reda på alla dofter runt {PRONOUN/m_c/object}",
             "Snoozar lugnt",
-            "F\u00f6rs\u00f6ker \u00f6ppna \u00f6gonen f\u00f6r {PRONOUN/m_c/poss}, men allt \u00e4r suddigt",
+            "Försöker öppna ögonen för {PRONOUN/m_c/poss}, men allt är suddigt",
             "Huvudet tomt",
-            "N\u00e4stan rullade ut ur boet",
-            "Provade att suga p\u00e5 en bit s\u00e4ngkl\u00e4der",
-            "skriker h\u00f6gt",
-            "Mewlar \u00e5t n\u00e5gon som knuffar {PRONOUN/m_c/object}",
-            "V\u00e4ser \u00e5t alla konstiga nya dofter"
+            "Nästan rullade ut ur boet",
+            "Provade att suga på en bit sängkläder",
+            "skriker högt",
+            "Mewlar åt någon som knuffar {PRONOUN/m_c/object}",
+            "Väser åt alla konstiga nya dofter"
         ],
         "main_age_constraint": [
             "newborn"
@@ -20,12 +20,12 @@
     {
         "id": "gen_newborn_to_parent",
         "thoughts": [
-            "Smyger sig n\u00e4rmare r_c",
+            "Smyger sig närmare r_c",
             "Luktar r_c och piggar upp direkt",
             "Mews vid r_c som {PRONOUN/r_c/subject} {VERB/r_c/shift/shifts} i boet",
-            "Piper ynkligt n\u00e4r r_c kollar p\u00e5 {PRONOUN/m_c/object}",
+            "Piper ynkligt när r_c kollar på {PRONOUN/m_c/object}",
             "Nusar upp till r_c med ett spinnande",
-            "Piper ynkligt n\u00e4r r_c brudgummar {PRONOUN/m_c/object}"
+            "Piper ynkligt när r_c brudgummar {PRONOUN/m_c/object}"
         ],
         "main_age_constraint": [
             "newborn"
@@ -40,9 +40,9 @@
     {
         "id": "gen_newborn_to_sibling",
         "thoughts": [
-            "F\u00f6rs\u00f6kte suga p\u00e5 r_c:s svans",
-            "H\u00e5ller p\u00e5 att begravas under r_c",
-            "Blev n\u00e4stan utskjuten ur boet av r_c"
+            "Försökte suga på r_c:s svans",
+            "Håller på att begravas under r_c",
+            "Blev nästan utskjuten ur boet av r_c"
         ],
         "main_age_constraint": [
             "newborn"

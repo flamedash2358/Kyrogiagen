@@ -26,11 +26,11 @@
             "STORY,1",
             "LORE,1"
         ],
-        "intro_text": "Greenleaf, bah, r_c h\u00e5nar. Det \u00e4r inget gr\u00f6nt med l\u00f6ven just nu, s\u00e5 varf\u00f6r kallar c_n torrperioden det?!",
-        "decline_text": "Patrullen \u00e4r f\u00f6r upptagen med att hitta skydd fr\u00e5n solen f\u00f6r att \u00f6verv\u00e4ga rc:s fr\u00e5ga.",
+        "intro_text": "Greenleaf, bah, r_c hånar. Det är inget grönt med löven just nu, så varför kallar c_n torrperioden det?!",
+        "decline_text": "Patrullen är för upptagen med att hitta skydd från solen för att överväga rc:s fråga.",
         "success_outcomes": [
             {
-                "text": "Det \u00e4r urgammalt, f\u00f6rklarar p_l. \u00c4ldre sedan c_n... Kanske \u00e4ldre \u00e4n detta land. Ingen \u00e4r s\u00e4ker p\u00e5 vad som f\u00f6rbannade \u00f6knen f\u00f6r att vara s\u00e5 torr, men p\u00e5 andra st\u00e4llen ger solen ljus och v\u00e4rme som \u00e4r en l\u00e4ttnad och inte ett straff. D\u00e4r \u00e4r den torra s\u00e4songen n\u00e4r solen n\u00e5r sin toppeffekt ocks\u00e5 s\u00e4songen f\u00f6r gr\u00f6na l\u00f6v.",
+                "text": "Det är urgammalt, förklarar p_l. Äldre sedan c_n... Kanske äldre än detta land. Ingen är säker på vad som förbannade öknen för att vara så torr, men på andra ställen ger solen ljus och värme som är en lättnad och inte ett straff. Där är den torra säsongen när solen når sin toppeffekt också säsongen för gröna löv.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_bord_story",
@@ -84,7 +84,7 @@
                 ]
             },
             {
-                "text": "Det finns klaner bortom \u00f6knen, f\u00f6rklarar p_l. P\u00e5 h\u00f6ga st\u00e4llen och l\u00e5gt, bl\u00f6tt och, ja, {PRONOUN/p_l/subject} {VERB/p_l/suppose/supposes} c_n \u00e4r katterna d\u00e4r det \u00e4r torrt. Greenleaf som namnet p\u00e5 torrperioden \u00e4r \u00e4ldre \u00e4n upplevelsen av att det <i>finns</i> en torrperiod. P\u00e5 de avl\u00e4gsna platserna \u00e4r greenleaf \u00f6verfl\u00f6dss\u00e4songen, inte det h\u00e5rda det \u00e4r h\u00e4r.",
+                "text": "Det finns klaner bortom öknen, förklarar p_l. På höga ställen och lågt, blött och, ja, {PRONOUN/p_l/subject} {VERB/p_l/suppose/supposes} c_n är katterna där det är torrt. Greenleaf som namnet på torrperioden är äldre än upplevelsen av att det <i>finns</i> en torrperiod. På de avlägsna platserna är greenleaf överflödssäsongen, inte det hårda det är här.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_bord_story",
@@ -140,7 +140,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det finns ingen tid att svara p\u00e5 r_cs fr\u00e5ga. Patrullen har varit ute f\u00f6r l\u00e4nge, under f\u00f6r torra f\u00f6rh\u00e5llanden och f\u00f6r utsatta platser f\u00f6r den gassande solen. De prioriterar att hitta skugga, men de m\u00e5ste kontrollera sig sj\u00e4lva f\u00f6r v\u00e4rmeslag n\u00e4r de \u00e5terv\u00e4nder till l\u00e4gret.",
+                "text": "Det finns ingen tid att svara på r_cs fråga. Patrullen har varit ute för länge, under för torra förhållanden och för utsatta platser för den gassande solen. De prioriterar att hitta skugga, men de måste kontrollera sig själva för värmeslag när de återvänder till lägret.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -155,8 +155,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c fick uttorkad tr\u00e4ning under den varma gr\u00f6nbladssolen, och det t\u00e4rde s\u00e5 sm\u00e5ningom {PRONOUN/m_c/poss} liv fr\u00e5n {PRONOUN/m_c/object}.",
-                    "lead_death": "fick uttorkad tr\u00e4ning under den varma gr\u00f6nbladssolen, och det t\u00e4rde till slut {PRONOUN/m_c/poss} liv fr\u00e5n {PRONOUN/m_c/object}"
+                    "reg_death": "m_c fick uttorkad träning under den varma grönbladssolen, och det tärde så småningom {PRONOUN/m_c/poss} liv från {PRONOUN/m_c/object}.",
+                    "lead_death": "fick uttorkad träning under den varma grönbladssolen, och det tärde till slut {PRONOUN/m_c/poss} liv från {PRONOUN/m_c/object}"
                 }
             }
         ]

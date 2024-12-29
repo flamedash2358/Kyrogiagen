@@ -25,11 +25,11 @@
         "pl_skill_constraint": [
             "LORE,1"
         ],
-        "intro_text": "F\u00f6r m\u00e5nga s\u00e4songer sedan, p_l b\u00f6rjar, gav StarClan en l\u00e4rling en kraftfull v\u00e4lsignelse, en eftertraktad av klanerna runt dem. L\u00e4rlingen kunde inte h\u00e5lla freden, eftersom alla kr\u00e4vde sin tid och skicklighet.",
-        "decline_text": "r_c har inte tid att lyssna p\u00e5 p_ls ber\u00e4ttelse - {PRONOUN/r_c/subject} {VERB/r_c/apologize/apologizes}, men {PRONOUN/r_c/subject} snarare {VERB/r_c/feel/feels} s\u00e5 l\u00e5ng d\u00f6d \u00f6veranstr\u00e4ngd l\u00e4rling, just nu!",
+        "intro_text": "För många säsonger sedan, p_l börjar, gav StarClan en lärling en kraftfull välsignelse, en eftertraktad av klanerna runt dem. Lärlingen kunde inte hålla freden, eftersom alla krävde sin tid och skicklighet.",
+        "decline_text": "r_c har inte tid att lyssna på p_ls berättelse - {PRONOUN/r_c/subject} {VERB/r_c/apologize/apologizes}, men {PRONOUN/r_c/subject} snarare {VERB/r_c/feel/feels} så lång död överansträngd lärling, just nu!",
         "success_outcomes": [
             {
-                "text": "Efter m\u00e5nar av att ha haft sin klan attackerad och m\u00e5ltavla, rasade l\u00e4rlingen och p\u00e5kallade sin dolda kraft. De framkallade en kraftfull sn\u00f6storm och skapade l\u00f6vblomma i sin ilska innan de flydde fr\u00e5n klanerna, f\u00f6r att aldrig \u00e5terv\u00e4nda och aldrig g\u00e5 p\u00e5 stj\u00e4rnorna, deras liv och talanger sl\u00f6sas bort av grymma, sm\u00e5stridiga strider.",
+                "text": "Efter månar av att ha haft sin klan attackerad och måltavla, rasade lärlingen och påkallade sin dolda kraft. De framkallade en kraftfull snöstorm och skapade lövblomma i sin ilska innan de flydde från klanerna, för att aldrig återvända och aldrig gå på stjärnorna, deras liv och talanger slösas bort av grymma, småstridiga strider.",
                 "exp": 30,
                 "weight": 20,
                 "art": "scaryghost_INTRO",
@@ -81,7 +81,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Fr\u00e4ckt l\u00e4mnar r_c mitt i p_ls ber\u00e4ttelse och ber\u00f6var den dess fart. p_l sp\u00e5rar av, generad.",
+                "text": "Fräckt lämnar r_c mitt i p_ls berättelse och berövar den dess fart. p_l spårar av, generad.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -129,7 +129,7 @@
                 ]
             },
             {
-                "text": "s_c \u00e4r s\u00e5 bekymrad \u00f6ver h\u00e4lsan hos den sedan l\u00e4nge d\u00f6da l\u00e4rlingen att det faktiskt sp\u00e5rar ur p_ls historia, och {PRONOUN/p_l/subject} {VERB/p_l/have/has} f\u00f6r att f\u00f6rsiktigt p\u00e5minna {PRONOUN/s_c/object} att denna l\u00e4rling \u00e4r l\u00e5ngt bortom att hj\u00e4lpa.",
+                "text": "s_c är så bekymrad över hälsan hos den sedan länge döda lärlingen att det faktiskt spårar ur p_ls historia, och {PRONOUN/p_l/subject} {VERB/p_l/have/has} för att försiktigt påminna {PRONOUN/s_c/object} att denna lärling är långt bortom att hjälpa.",
                 "exp": 0,
                 "weight": 20,
                 "art": "scaryghost_INTRO",

@@ -28,12 +28,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "L\u00e4rlingarna dyker upp i en v\u00e4rld f\u00f6re gryningen tystade och kv\u00e4vda i en damm av sn\u00f6! app1 och app2 river av i territoriet n\u00e4ra l\u00e4gret och vill spela.",
-        "decline_text": "Deras mentorer \u00e4r redan redo f\u00f6r dagen och ringer tillbaka dem. Det kommer att finnas tid att spela senare.",
+        "intro_text": "Lärlingarna dyker upp i en värld före gryningen tystade och kvävda i en damm av snö! app1 och app2 river av i territoriet nära lägret och vill spela.",
+        "decline_text": "Deras mentorer är redan redo för dagen och ringer tillbaka dem. Det kommer att finnas tid att spela senare.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Sn\u00f6n verkar ha sm\u00e4lt och frusit igen under natten, och app1 pilar l\u00e4tt \u00f6ver toppen av den tunna skorpan. app2 f\u00f6ljer {PRONOUN/app1/object}, bara f\u00f6r att omedelbart h\u00f6ra ett kn\u00e4ck och sjunka upp till {PRONOUN/app2/poss} huk i det fluffiga. Retande nog springer app1 runt i n\u00e4rheten av {PRONOUN/app2/object}, och det f\u00f6rvandlas till ett spel d\u00e4r app2 leker genom sn\u00f6n och f\u00f6rs\u00f6ker f\u00e5nga {PRONOUN/app1/object}.",
+                "text": "Snön verkar ha smält och frusit igen under natten, och app1 pilar lätt över toppen av den tunna skorpan. app2 följer {PRONOUN/app1/object}, bara för att omedelbart höra ett knäck och sjunka upp till {PRONOUN/app2/poss} huk i det fluffiga. Retande nog springer app1 runt i närheten av {PRONOUN/app2/object}, och det förvandlas till ett spel där app2 leker genom snön och försöker fånga {PRONOUN/app1/object}.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -55,7 +55,7 @@
                 ]
             },
             {
-                "text": "app1 hittar en sn\u00f6driva och under loppet av en timme f\u00f6rvandlar {PRONOUN/app1/subject} och app2 den till ett mycket respektabelt sn\u00f6h\u00e5l, komplett med en kort ing\u00e5ngstunnel. De diskuterar vad de ska kalla l\u00e4gret f\u00f6r sin lilla klan n\u00e4r deras mentorer anl\u00e4nder, och gratulerar dem till att ha genomf\u00f6rt en utm\u00e4rkt vildmarks\u00f6verlevnadssession utan \u00f6vervakning.",
+                "text": "app1 hittar en snödriva och under loppet av en timme förvandlar {PRONOUN/app1/subject} och app2 den till ett mycket respektabelt snöhål, komplett med en kort ingångstunnel. De diskuterar vad de ska kalla lägret för sin lilla klan när deras mentorer anländer, och gratulerar dem till att ha genomfört en utmärkt vildmarksöverlevnadssession utan övervakning.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -77,7 +77,7 @@
                 ]
             },
             {
-                "text": "Efter en stunds lek i sn\u00f6n klagar app1 \u00f6ver att kylan sipprar in i {PRONOUN/app1/poss} p\u00e4ls. s_c gr\u00e4ver lite ih\u00e5ligt och bjuder in {PRONOUN/app1/object} att krypa ihop med {PRONOUN/s_c/object}. Enbart i v\u00e4rmesyfte f\u00f6rst\u00e5s. B\u00e5da stannar d\u00e4r n\u00e4r solen g\u00e5r upp. Enbart f\u00f6r v\u00e4rme.",
+                "text": "Efter en stunds lek i snön klagar app1 över att kylan sipprar in i {PRONOUN/app1/poss} päls. s_c gräver lite ihåligt och bjuder in {PRONOUN/app1/object} att krypa ihop med {PRONOUN/s_c/object}. Enbart i värmesyfte förstås. Båda stannar där när solen går upp. Enbart för värme.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -112,12 +112,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "L\u00e4rlingarna hittar en nysn\u00f6 som ser lovande ut, bara f\u00f6r att finna att den d\u00f6ljer en gammal grusgrav under. Det stinker inte bara, utan nu m\u00e5ste de st\u00e4da upp <i>och</i> d\u00f6lja det faktum att de st\u00f6rde det fr\u00e5n b\u00f6rjan! Det g\u00f6r dem b\u00e5de irriterade och stressade.",
+                "text": "Lärlingarna hittar en nysnö som ser lovande ut, bara för att finna att den döljer en gammal grusgrav under. Det stinker inte bara, utan nu måste de städa upp <i>och</i> dölja det faktum att de störde det från början! Det gör dem både irriterade och stressade.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "N\u00e4r de leker i sn\u00f6n faller app1 pinsamt \u00f6ver {PRONOUN/app1/self} och best\u00e4mmer sig pl\u00f6tsligt f\u00f6r {PRONOUN/app1/subject} {VERB/app1/remember/remembers} att {PRONOUN/app1/subject} {VERB/app1 /har/har} andra saker som {PRONOUN/app1/subject} borde g\u00f6ra.",
+                "text": "När de leker i snön faller app1 pinsamt över {PRONOUN/app1/self} och bestämmer sig plötsligt för {PRONOUN/app1/subject} {VERB/app1/remember/remembers} att {PRONOUN/app1/subject} {VERB/app1 /har/har} andra saker som {PRONOUN/app1/subject} borde göra.",
                 "exp": 0,
                 "weight": 20
             }
@@ -149,12 +149,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l tar {PRONOUN/app1/object} nerf\u00f6r berget, dit en liten b\u00e4ck f\u00f6rvandlas till en liten kall myr.",
-        "decline_text": "Om man t\u00e4nker b\u00e4ttre p\u00e5 det, f\u00f6rs\u00f6ker katterna att jaga ist\u00e4llet.",
+        "intro_text": "p_l tar {PRONOUN/app1/object} nerför berget, dit en liten bäck förvandlas till en liten kall myr.",
+        "decline_text": "Om man tänker bättre på det, försöker katterna att jaga istället.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 skr\u00e4mmer, h\u00f6r en katt gr\u00e5ta! {PRONOUN/app1/subject/CAP} {VERB/app1/race/races} \u00f6ver \u00e5sen och letar efter den som ringer, eftersom p_l bakom {PRONOUN/app1/object} n\u00e4stan faller omkull i skratt. Det \u00e4r en f\u00e5gel, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}. Den fl\u00e4ckiga towhee har lurat m\u00e5nga unga katter, app1 beh\u00f6ver inte m\u00e5 d\u00e5ligt, det \u00e4r bara n\u00e5got att l\u00e4ra av.",
+                "text": "app1 skrämmer, hör en katt gråta! {PRONOUN/app1/subject/CAP} {VERB/app1/race/races} över åsen och letar efter den som ringer, eftersom p_l bakom {PRONOUN/app1/object} nästan faller omkull i skratt. Det är en fågel, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}. Den fläckiga towhee har lurat många unga katter, app1 behöver inte må dåligt, det är bara något att lära av.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -175,7 +175,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r de n\u00e4rmar sig myren h\u00f6r app1 en katts yowling. En inkr\u00e4ktare! {PRONOUN/app1/subject/CAP} {VERB/app1/go/goes} tar av, medan p_l suckar och sl\u00e5r sig ner f\u00f6r att v\u00e4nta. N\u00e4r {PRONOUN/app1/subject} s\u00e5 sm\u00e5ningom {VERB/app1/return/returns} l\u00e4r p_l ut {PRONOUN/app1/object} om towhee f\u00e5glar, som kan ringa som en katt.",
+                "text": "När de närmar sig myren hör app1 en katts yowling. En inkräktare! {PRONOUN/app1/subject/CAP} {VERB/app1/go/goes} tar av, medan p_l suckar och slår sig ner för att vänta. När {PRONOUN/app1/subject} så småningom {VERB/app1/return/returns} lär p_l ut {PRONOUN/app1/object} om towhee fåglar, som kan ringa som en katt.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -196,7 +196,7 @@
                 ]
             },
             {
-                "text": "P\u00e5 en buskmark vid myren \u00f6ppnar en liten towhee n\u00e4bben och ropar som en katt. app1 petar s_c f\u00f6r en f\u00f6rklaring. Du f\u00f6rst\u00e5r, en ur\u00e5ldrig katt, som flydde fr\u00e5n vargar, bad StarClan om hj\u00e4lp. StarClan gav sin r\u00f6st till f\u00e5geln i tr\u00e4det hon g\u00f6mde sig under, och medan vargarna var distraherade kom hon undan, men hon lyckades aldrig f\u00e5nga den f\u00e5geln och f\u00e5 tillbaka r\u00f6sten.",
+                "text": "På en buskmark vid myren öppnar en liten towhee näbben och ropar som en katt. app1 petar s_c för en förklaring. Du förstår, en uråldrig katt, som flydde från vargar, bad StarClan om hjälp. StarClan gav sin röst till fågeln i trädet hon gömde sig under, och medan vargarna var distraherade kom hon undan, men hon lyckades aldrig fånga den fågeln och få tillbaka rösten.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": [
@@ -227,7 +227,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 v\u00e4grar tro att kattskriket {PRONOMEN/app1/\u00e4mne} {VERB/app1/h\u00f6r/h\u00f6r} fr\u00e5n myren kommer fr\u00e5n en liten towhee-f\u00e5gel, och argumenterar med p_l hela v\u00e4gen tillbaka till l\u00e4gret.",
+                "text": "app1 vägrar tro att kattskriket {PRONOMEN/app1/ämne} {VERB/app1/hör/hör} från myren kommer från en liten towhee-fågel, och argumenterar med p_l hela vägen tillbaka till lägret.",
                 "exp": 0,
                 "weight": 20
             }
@@ -259,12 +259,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l tar {PRONOUN/app1/object} nerf\u00f6r berget, dit en liten b\u00e4ck f\u00f6rvandlas till en liten kall myr.",
-        "decline_text": "Om man t\u00e4nker b\u00e4ttre p\u00e5 det, f\u00f6rs\u00f6ker katterna att jaga ist\u00e4llet.",
+        "intro_text": "p_l tar {PRONOUN/app1/object} nerför berget, dit en liten bäck förvandlas till en liten kall myr.",
+        "decline_text": "Om man tänker bättre på det, försöker katterna att jaga istället.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "app1 skr\u00e4mmer, h\u00f6r en katt gr\u00e5ta! {PRONOUN/app1/subject/CAP} {VERB/app1/race/races} \u00f6ver \u00e5sen och letar efter den som ringer, eftersom p_l bakom {PRONOUN/app1/object} n\u00e4stan faller omkull i skratt. Det \u00e4r en f\u00e5gel, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}. Den fl\u00e4ckiga towhee har lurat m\u00e5nga unga katter, app1 beh\u00f6ver inte m\u00e5 d\u00e5ligt, det \u00e4r bara n\u00e5got att l\u00e4ra av.",
+                "text": "app1 skrämmer, hör en katt gråta! {PRONOUN/app1/subject/CAP} {VERB/app1/race/races} över åsen och letar efter den som ringer, eftersom p_l bakom {PRONOUN/app1/object} nästan faller omkull i skratt. Det är en fågel, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}. Den fläckiga towhee har lurat många unga katter, app1 behöver inte må dåligt, det är bara något att lära av.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -285,7 +285,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r de n\u00e4rmar sig myren h\u00f6r app1 en katts yowling. En inkr\u00e4ktare! {PRONOUN/app1/subject/CAP} {VERB/app1/go/goes} tar av, medan p_l suckar och sl\u00e5r sig ner f\u00f6r att v\u00e4nta. N\u00e4r {PRONOUN/app1/subject} s\u00e5 sm\u00e5ningom {VERB/app1/return/returns} l\u00e4r p_l ut {PRONOUN/app1/object} om towhee f\u00e5glar, som kan ringa som en katt.",
+                "text": "När de närmar sig myren hör app1 en katts yowling. En inkräktare! {PRONOUN/app1/subject/CAP} {VERB/app1/go/goes} tar av, medan p_l suckar och slår sig ner för att vänta. När {PRONOUN/app1/subject} så småningom {VERB/app1/return/returns} lär p_l ut {PRONOUN/app1/object} om towhee fåglar, som kan ringa som en katt.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -306,7 +306,7 @@
                 ]
             },
             {
-                "text": "s_c pekar ut towhee som sitter p\u00e5 en sten med utsikt \u00f6ver myren, och det \u00e4r bara den varningen som g\u00f6r att app1 inte skr\u00e4mmer n\u00e4r f\u00e5geln \u00f6ppnar n\u00e4bben och ropar som en katt. Det kan vara sv\u00e5rt att sp\u00e5ra inkr\u00e4ktare runt c_ns territorium, f\u00f6rklarar s_c, och det \u00e4r en av anledningarna. Men det kan ocks\u00e5 fungera till c_n:s f\u00f6rdel ocks\u00e5.",
+                "text": "s_c pekar ut towhee som sitter på en sten med utsikt över myren, och det är bara den varningen som gör att app1 inte skrämmer när fågeln öppnar näbben och ropar som en katt. Det kan vara svårt att spåra inkräktare runt c_ns territorium, förklarar s_c, och det är en av anledningarna. Men det kan också fungera till c_n:s fördel också.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": [
@@ -335,7 +335,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 v\u00e4grar tro att kattskriket {PRONOMEN/app1/\u00e4mne} {VERB/app1/h\u00f6r/h\u00f6r} fr\u00e5n myren kommer fr\u00e5n en liten towhee-f\u00e5gel, och argumenterar med p_l hela v\u00e4gen tillbaka till l\u00e4gret.",
+                "text": "app1 vägrar tro att kattskriket {PRONOMEN/app1/ämne} {VERB/app1/hör/hör} från myren kommer från en liten towhee-fågel, och argumenterar med p_l hela vägen tillbaka till lägret.",
                 "exp": 0,
                 "weight": 20
             }
@@ -371,12 +371,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l f\u00f6r dem ner f\u00f6r berget, dit en liten b\u00e4ck f\u00f6rvandlas till en liten kall myr.",
-        "decline_text": "Om man t\u00e4nker b\u00e4ttre p\u00e5 det, f\u00f6rs\u00f6ker katterna att jaga ist\u00e4llet.",
+        "intro_text": "p_l för dem ner för berget, dit en liten bäck förvandlas till en liten kall myr.",
+        "decline_text": "Om man tänker bättre på det, försöker katterna att jaga istället.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "app1 skr\u00e4mmer, h\u00f6r en katt gr\u00e5ta! app2 rusar \u00f6ver \u00e5sen och letar efter den som ringer, eftersom p_l bakom dem n\u00e4stan faller omkull i skratt. Det \u00e4r en f\u00e5gel, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}. Den fl\u00e4ckiga towhee har lurat m\u00e5nga unga katter. De beh\u00f6ver inte m\u00e5 d\u00e5ligt, det \u00e4r bara n\u00e5got att l\u00e4ra sig av.",
+                "text": "app1 skrämmer, hör en katt gråta! app2 rusar över åsen och letar efter den som ringer, eftersom p_l bakom dem nästan faller omkull i skratt. Det är en fågel, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}. Den fläckiga towhee har lurat många unga katter. De behöver inte må dåligt, det är bara något att lära sig av.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -397,7 +397,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r de n\u00e4rmar sig myren h\u00f6r app1 en katts yowling. En inkr\u00e4ktare! {PRONOUN/app1/subject/CAP} {VERB/app1/go/goes} b\u00f6rjar med app2, skriker av raseri, medan p_l suckar och sl\u00e5r sig ner f\u00f6r att v\u00e4nta. N\u00e4r de s\u00e5 sm\u00e5ningom kommer tillbaka, l\u00e4r p_l dem om towhee f\u00e5glar, som kan ropa som en katt.",
+                "text": "När de närmar sig myren hör app1 en katts yowling. En inkräktare! {PRONOUN/app1/subject/CAP} {VERB/app1/go/goes} börjar med app2, skriker av raseri, medan p_l suckar och slår sig ner för att vänta. När de så småningom kommer tillbaka, lär p_l dem om towhee fåglar, som kan ropa som en katt.",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -418,7 +418,7 @@
                 ]
             },
             {
-                "text": "P\u00e5 en buskmark vid myren \u00f6ppnar en liten towhee n\u00e4bben och ropar som en katt. L\u00e4rlingarna petar s_c f\u00f6r en f\u00f6rklaring. Du f\u00f6rst\u00e5r, en ur\u00e5ldrig katt, som flydde fr\u00e5n vargar, bad StarClan om hj\u00e4lp. StarClan gav sin r\u00f6st till f\u00e5geln i tr\u00e4det hon g\u00f6mde sig under, och medan vargarna var distraherade kom hon undan, men hon lyckades aldrig f\u00e5nga den f\u00e5geln och f\u00e5 tillbaka r\u00f6sten.",
+                "text": "På en buskmark vid myren öppnar en liten towhee näbben och ropar som en katt. Lärlingarna petar s_c för en förklaring. Du förstår, en uråldrig katt, som flydde från vargar, bad StarClan om hjälp. StarClan gav sin röst till fågeln i trädet hon gömde sig under, och medan vargarna var distraherade kom hon undan, men hon lyckades aldrig fånga den fågeln och få tillbaka rösten.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -449,7 +449,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 v\u00e4grar tro att kattropet {PRONOUN/app1/subject} {VERB/app1/h\u00f6r/h\u00f6r} fr\u00e5n myren kommer fr\u00e5n en liten towhee-f\u00e5gel och argumenterar med p_l och app2 hela v\u00e4gen tillbaka till l\u00e4gret.",
+                "text": "app1 vägrar tro att kattropet {PRONOUN/app1/subject} {VERB/app1/hör/hör} från myren kommer från en liten towhee-fågel och argumenterar med p_l och app2 hela vägen tillbaka till lägret.",
                 "exp": 0,
                 "weight": 20
             }
@@ -485,12 +485,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l f\u00f6r dem ner f\u00f6r berget, dit en liten b\u00e4ck f\u00f6rvandlas till en liten kall myr.",
-        "decline_text": "Om man t\u00e4nker b\u00e4ttre p\u00e5 det, f\u00f6rs\u00f6ker katterna att jaga ist\u00e4llet.",
+        "intro_text": "p_l för dem ner för berget, dit en liten bäck förvandlas till en liten kall myr.",
+        "decline_text": "Om man tänker bättre på det, försöker katterna att jaga istället.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "app1 skr\u00e4mmer, h\u00f6r en katt gr\u00e5ta! app2 rusar \u00f6ver \u00e5sen och letar efter den som ringer, som bakom {PRONOUN/app2/object} p_l n\u00e4stan faller omkull i skratt. Det \u00e4r en f\u00e5gel, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}. Den fl\u00e4ckiga towhee har lurat m\u00e5nga unga katter. De beh\u00f6ver inte m\u00e5 d\u00e5ligt, det \u00e4r bara n\u00e5got att l\u00e4ra sig av.",
+                "text": "app1 skrämmer, hör en katt gråta! app2 rusar över åsen och letar efter den som ringer, som bakom {PRONOUN/app2/object} p_l nästan faller omkull i skratt. Det är en fågel, {PRONOUN/p_l/subject} {VERB/p_l/explain/explains}. Den fläckiga towhee har lurat många unga katter. De behöver inte må dåligt, det är bara något att lära sig av.",
                 "exp": 15,
                 "weight": 20,
                 "relationships": [
@@ -511,7 +511,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r de n\u00e4rmar sig myren h\u00f6r app1 en katts yowling. En inkr\u00e4ktare! {PRONOUN/app1/subject/CAP} {VERB/app1/go/goes} b\u00f6rjar med app2, skriker av raseri, medan p_l suckar och sl\u00e5r sig ner f\u00f6r att v\u00e4nta. N\u00e4r de s\u00e5 sm\u00e5ningom kommer tillbaka, l\u00e4r p_l dem om towhee f\u00e5glar, som kan ropa som en katt.",
+                "text": "När de närmar sig myren hör app1 en katts yowling. En inkräktare! {PRONOUN/app1/subject/CAP} {VERB/app1/go/goes} börjar med app2, skriker av raseri, medan p_l suckar och slår sig ner för att vänta. När de så småningom kommer tillbaka, lär p_l dem om towhee fåglar, som kan ropa som en katt.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -532,7 +532,7 @@
                 ]
             },
             {
-                "text": "s_c pekar ut towhee som sitter p\u00e5 en sten med utsikt \u00f6ver myren, och det \u00e4r bara den varningen som g\u00f6r att l\u00e4rlingarna inte skr\u00e4mmer n\u00e4r f\u00e5geln \u00f6ppnar n\u00e4bben och ropar som en katt. Det kan vara sv\u00e5rt att sp\u00e5ra inkr\u00e4ktare runt c_ns territorium, f\u00f6rklarar s_c, och det \u00e4r en av anledningarna. Men det kan ocks\u00e5 fungera till c_n:s f\u00f6rdel ocks\u00e5.",
+                "text": "s_c pekar ut towhee som sitter på en sten med utsikt över myren, och det är bara den varningen som gör att lärlingarna inte skrämmer när fågeln öppnar näbben och ropar som en katt. Det kan vara svårt att spåra inkräktare runt c_ns territorium, förklarar s_c, och det är en av anledningarna. Men det kan också fungera till c_n:s fördel också.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": [
@@ -561,7 +561,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "app1 v\u00e4grar tro att kattropet {PRONOUN/app1/subject} {VERB/app1/h\u00f6r/h\u00f6r} fr\u00e5n myren kommer fr\u00e5n en liten towhee-f\u00e5gel och argumenterar med p_l och app2 hela v\u00e4gen tillbaka till l\u00e4gret.",
+                "text": "app1 vägrar tro att kattropet {PRONOUN/app1/subject} {VERB/app1/hör/hör} från myren kommer från en liten towhee-fågel och argumenterar med p_l och app2 hela vägen tillbaka till lägret.",
                 "exp": 0,
                 "weight": 20
             }
@@ -593,12 +593,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 m\u00e4rker app2:s fr\u00e5nvaro och f\u00f6ljer {PRONOUN/app2/poss} oskymd sp\u00e5r till klippkanten. Vad p\u00e5 alla intervall g\u00f6r app2 h\u00e4r ute? Det finns ett \u00f6rnbo, f\u00f6rklarar app2, {PRONOUN/app2/poss} svans sveper upp \u00f6ver {PRONOUN/app2/poss} tillbaka till punkten, h\u00e4r, titta. Kycklingarna f\u00f6rs\u00f6ker flyga!",
-        "decline_text": "Det \u00e4r underbart, men kan app2 titta fr\u00e5n en plats som inte \u00e4r en f\u00f6rbannad klippkant?",
+        "intro_text": "app1 märker app2:s frånvaro och följer {PRONOUN/app2/poss} oskymd spår till klippkanten. Vad på alla intervall gör app2 här ute? Det finns ett örnbo, förklarar app2, {PRONOUN/app2/poss} svans sveper upp över {PRONOUN/app2/poss} tillbaka till punkten, här, titta. Kycklingarna försöker flyga!",
+        "decline_text": "Det är underbart, men kan app2 titta från en plats som inte är en förbannad klippkant?",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "V\u00e4nta, typ, \u00f6rnl\u00e4rlingar? Intresserad, app1 sticker ut {PRONOUN/app1/poss}. Nedanf\u00f6r br\u00e5kar tv\u00e5 fl\u00e4ckiga ungdomar, sl\u00e5r frenetiskt p\u00e5 sina vingar, f\u00f6rbereder sig f\u00f6r n\u00e5got. app2 satsar p\u00e5 den ljusare, men app1 tror att den mindre m\u00f6rkm\u00f6nstrade har hj\u00e4rtat f\u00f6r det. {PRONOUN/app1/subject/CAP} {VERB/app1/leap/leaps} till {PRONOUN/app1/poss} tassar n\u00e4r den m\u00f6rkare bruden tar till vingen f\u00f6rst, kastar {PRONOUN/app1/poss} huvudet bak\u00e5t och skriker hurrarop till himlen n\u00e4r \u00f6rnen tar sig till n\u00e4sta tr\u00e4d \u00f6ver.",
+                "text": "Vänta, typ, örnlärlingar? Intresserad, app1 sticker ut {PRONOUN/app1/poss}. Nedanför bråkar två fläckiga ungdomar, slår frenetiskt på sina vingar, förbereder sig för något. app2 satsar på den ljusare, men app1 tror att den mindre mörkmönstrade har hjärtat för det. {PRONOUN/app1/subject/CAP} {VERB/app1/leap/leaps} till {PRONOUN/app1/poss} tassar när den mörkare bruden tar till vingen först, kastar {PRONOUN/app1/poss} huvudet bakåt och skriker hurrarop till himlen när örnen tar sig till nästa träd över.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -632,7 +632,7 @@
                 ]
             },
             {
-                "text": "app1 har aldrig sett dem f\u00f6rut! {PRONOUN/app1/subject/CAP} {VERB/app1/edge/edges} bredvid app2, b\u00e5da l\u00e4rlingarna stirrar p\u00e5 \u00f6rnboet i tr\u00e4det under dem och ropar p\u00e5 r\u00e5d. Nej, sl\u00e5 deras vingar h\u00e5rdare! H\u00e5rdare! De kan g\u00f6ra det!!",
+                "text": "app1 har aldrig sett dem förut! {PRONOUN/app1/subject/CAP} {VERB/app1/edge/edges} bredvid app2, båda lärlingarna stirrar på örnboet i trädet under dem och ropar på råd. Nej, slå deras vingar hårdare! Hårdare! De kan göra det!!",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -668,12 +668,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det \u00e4r inte app1s grej, men {PRONOUN/app1/subject}{VERB/app1/'re/'s} solar g\u00e4rna ett par svansl\u00e4ngder bort tills app2 \u00e4r klar med \u00f6rnsk\u00e5dning.",
+                "text": "Det är inte app1s grej, men {PRONOUN/app1/subject}{VERB/app1/'re/'s} solar gärna ett par svanslängder bort tills app2 är klar med örnskådning.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "s_c tr\u00e4ngs fram och l\u00e5ter dj\u00e4rvt {PRONOUN/s_c/poss} tassar dingla \u00f6ver kanten medan {PRONOUN/s_c/subject} {VERB/s_c/look/looks} mot ungarna - och marken faller s\u00f6nder. B\u00e5da l\u00e4rlingarna rullar bak\u00e5t, men s_c \u00e4r f\u00f6r n\u00e4ra, p\u00e5 f\u00f6r instabil mark och {PRONOUN/s_c/subject} {VERB/s_c/lose/loses} {PRONOUN/s_c/poss} grepp, {PRONOUN/s_c/poss} hj\u00e4rta hoppar av skr\u00e4ck n\u00e4r pl\u00f6tslig sm\u00e4rta gnistor l\u00e4ngs {PRONOUN/s_c/poss} flanken. Den andra l\u00e4rlingen gr\u00e4ver huggt\u00e4nder i s_c:s sida och r\u00e4ddar {PRONOUN/s_c/poss} liv, dock inte {PRONOUN/s_c/poss} p\u00e4ls.",
+                "text": "s_c trängs fram och låter djärvt {PRONOUN/s_c/poss} tassar dingla över kanten medan {PRONOUN/s_c/subject} {VERB/s_c/look/looks} mot ungarna - och marken faller sönder. Båda lärlingarna rullar bakåt, men s_c är för nära, på för instabil mark och {PRONOUN/s_c/subject} {VERB/s_c/lose/loses} {PRONOUN/s_c/poss} grepp, {PRONOUN/s_c/poss} hjärta hoppar av skräck när plötslig smärta gnistor längs {PRONOUN/s_c/poss} flanken. Den andra lärlingen gräver huggtänder i s_c:s sida och räddar {PRONOUN/s_c/poss} liv, dock inte {PRONOUN/s_c/poss} päls.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -701,7 +701,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c var \u00e4rrad n\u00e4r en annan l\u00e4rling (v\u00e5ldsamt) r\u00e4ddade {PRONOUN/r_c/poss} liv fr\u00e5n ett klippfall under ett ungdomligt \u00e4ventyr."
+                    "scar": "r_c var ärrad när en annan lärling (våldsamt) räddade {PRONOUN/r_c/poss} liv från ett klippfall under ett ungdomligt äventyr."
                 }
             }
         ]
@@ -734,12 +734,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1 m\u00e4rker app2:s fr\u00e5nvaro och f\u00f6ljer {PRONOUN/app2/poss} oskymd sp\u00e5r till klippkanten. Vad p\u00e5 alla intervall g\u00f6r app2 h\u00e4r ute? Det finns ett \u00f6rnbo, f\u00f6rklarar app2, {PRONOUN/app2/poss} svans sveper upp \u00f6ver {PRONOUN/app2/poss} tillbaka till punkten, h\u00e4r, titta. Kycklingarna f\u00f6rs\u00f6ker flyga!",
-        "decline_text": "Det \u00e4r underbart, men kan app2 titta fr\u00e5n en plats som inte \u00e4r en f\u00f6rbannad klippkant?",
+        "intro_text": "app1 märker app2:s frånvaro och följer {PRONOUN/app2/poss} oskymd spår till klippkanten. Vad på alla intervall gör app2 här ute? Det finns ett örnbo, förklarar app2, {PRONOUN/app2/poss} svans sveper upp över {PRONOUN/app2/poss} tillbaka till punkten, här, titta. Kycklingarna försöker flyga!",
+        "decline_text": "Det är underbart, men kan app2 titta från en plats som inte är en förbannad klippkant?",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "V\u00e4nta, typ, \u00f6rnl\u00e4rlingar? Intresserad, app1 sticker ut {PRONOUN/app1/poss}. Nedanf\u00f6r br\u00e5kar tv\u00e5 fl\u00e4ckiga ungdomar, sl\u00e5r frenetiskt p\u00e5 sina vingar, f\u00f6rbereder sig f\u00f6r n\u00e5got. app2 satsar p\u00e5 den ljusare, men app1 tror att den mindre m\u00f6rkm\u00f6nstrade har hj\u00e4rtat f\u00f6r det. {PRONOUN/app1/subject/CAP} {VERB/app1/leap/leaps} till {PRONOUN/app1/poss} tassar n\u00e4r den m\u00f6rkare bruden tar till vingen f\u00f6rst, kastar {PRONOUN/app1/poss} huvudet bak\u00e5t och skriker hurrarop till himlen n\u00e4r \u00f6rnen tar sig till n\u00e4sta tr\u00e4d \u00f6ver.",
+                "text": "Vänta, typ, örnlärlingar? Intresserad, app1 sticker ut {PRONOUN/app1/poss}. Nedanför bråkar två fläckiga ungdomar, slår frenetiskt på sina vingar, förbereder sig för något. app2 satsar på den ljusare, men app1 tror att den mindre mörkmönstrade har hjärtat för det. {PRONOUN/app1/subject/CAP} {VERB/app1/leap/leaps} till {PRONOUN/app1/poss} tassar när den mörkare bruden tar till vingen först, kastar {PRONOUN/app1/poss} huvudet bakåt och skriker hurrarop till himlen när örnen tar sig till nästa träd över.",
                 "exp": 20,
                 "weight": 20,
                 "relationships": [
@@ -773,7 +773,7 @@
                 ]
             },
             {
-                "text": "app1 har aldrig sett dem f\u00f6rut! {PRONOUN/app1/subject/CAP} {VERB/app1/edge/edges} bredvid app2, b\u00e5da l\u00e4rlingarna stirrar p\u00e5 \u00f6rnboet i tr\u00e4det under dem och ropar p\u00e5 r\u00e5d. Nej, sl\u00e5 deras vingar h\u00e5rdare! H\u00e5rdare! De kan g\u00f6ra det!!",
+                "text": "app1 har aldrig sett dem förut! {PRONOUN/app1/subject/CAP} {VERB/app1/edge/edges} bredvid app2, båda lärlingarna stirrar på örnboet i trädet under dem och ropar på råd. Nej, slå deras vingar hårdare! Hårdare! De kan göra det!!",
                 "exp": 20,
                 "weight": 5,
                 "relationships": [
@@ -809,12 +809,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det \u00e4r inte app1s grej, men {PRONOUN/app1/subject}{VERB/app1/'re/'s} solar g\u00e4rna ett par svansl\u00e4ngder bort tills app2 \u00e4r klar med \u00f6rnsk\u00e5dning.",
+                "text": "Det är inte app1s grej, men {PRONOUN/app1/subject}{VERB/app1/'re/'s} solar gärna ett par svanslängder bort tills app2 är klar med örnskådning.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "s_c tr\u00e4ngs fram och l\u00e5ter dj\u00e4rvt {PRONOUN/s_c/poss} tassar dingla \u00f6ver kanten medan {PRONOUN/s_c/subject} {VERB/s_c/look/looks} mot ungarna - och marken faller s\u00f6nder. B\u00e5da l\u00e4rlingarna rullar bak\u00e5t, men s_c \u00e4r f\u00f6r n\u00e4ra, p\u00e5 f\u00f6r instabil mark och {PRONOUN/s_c/subject} {VERB/s_c/lose/loses} {PRONOUN/s_c/poss} grepp, {PRONOUN/s_c/poss} hj\u00e4rta hoppar av skr\u00e4ck n\u00e4r pl\u00f6tslig sm\u00e4rta gnistor l\u00e4ngs {PRONOUN/s_c/poss} flanken. Den andra l\u00e4rlingen gr\u00e4ver huggt\u00e4nder i s_c:s sida och r\u00e4ddar {PRONOUN/s_c/poss} liv, dock inte {PRONOUN/s_c/poss} p\u00e4ls.",
+                "text": "s_c trängs fram och låter djärvt {PRONOUN/s_c/poss} tassar dingla över kanten medan {PRONOUN/s_c/subject} {VERB/s_c/look/looks} mot ungarna - och marken faller sönder. Båda lärlingarna rullar bakåt, men s_c är för nära, på för instabil mark och {PRONOUN/s_c/subject} {VERB/s_c/lose/loses} {PRONOUN/s_c/poss} grepp, {PRONOUN/s_c/poss} hjärta hoppar av skräck när plötslig smärta gnistor längs {PRONOUN/s_c/poss} flanken. Den andra lärlingen gräver huggtänder i s_c:s sida och räddar {PRONOUN/s_c/poss} liv, dock inte {PRONOUN/s_c/poss} päls.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -842,12 +842,12 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c var \u00e4rrad n\u00e4r en annan l\u00e4rling (v\u00e5ldsamt) r\u00e4ddade {PRONOUN/r_c/poss} liv fr\u00e5n ett klippfall under ett ungdomligt \u00e4ventyr.",
-                    "death": "r_c f\u00f6ll fr\u00e5n en klippa som l\u00e4rling n\u00e4r {PRONOUN/r_c/subject} tog en dum risk och f\u00f6rkortade {PRONOUN/r_c/poss} livet."
+                    "scar": "r_c var ärrad när en annan lärling (våldsamt) räddade {PRONOUN/r_c/poss} liv från ett klippfall under ett ungdomligt äventyr.",
+                    "death": "r_c föll från en klippa som lärling när {PRONOUN/r_c/subject} tog en dum risk och förkortade {PRONOUN/r_c/poss} livet."
                 }
             },
             {
-                "text": "s_c tr\u00e4ngs fram och l\u00e5ter dj\u00e4rvt {PRONOUN/s_c/poss} tassar dingla \u00f6ver kanten medan {PRONOUN/s_c/subject} {VERB/s_c/look/looks} mot ungarna - och marken faller s\u00f6nder. B\u00e5da l\u00e4rlingarna rullar bak\u00e5t, men s_c \u00e4r f\u00f6r n\u00e4ra, p\u00e5 f\u00f6r instabil mark, och {PRONOUN/s_c/subject} {VERB/s_c/lose/loses} {PRONOUN/s_c/poss} grepp, {PRONOUN/s_c/poss} klor griper ingenting n\u00e4r {PRONOUN/s_c/subject} {VERB/s_c/tumble/tumbles} slutar slut, skrikande av skr\u00e4ck, tills flygningen {PRONOUN/s_c/poss} f\u00e5r ett abrupt och fruktansv\u00e4rt slut.",
+                "text": "s_c trängs fram och låter djärvt {PRONOUN/s_c/poss} tassar dingla över kanten medan {PRONOUN/s_c/subject} {VERB/s_c/look/looks} mot ungarna - och marken faller sönder. Båda lärlingarna rullar bakåt, men s_c är för nära, på för instabil mark, och {PRONOUN/s_c/subject} {VERB/s_c/lose/loses} {PRONOUN/s_c/poss} grepp, {PRONOUN/s_c/poss} klor griper ingenting när {PRONOUN/s_c/subject} {VERB/s_c/tumble/tumbles} slutar slut, skrikande av skräck, tills flygningen {PRONOUN/s_c/poss} får ett abrupt och fruktansvärt slut.",
                 "exp": 0,
                 "weight": 10,
                 "stat_trait": [
@@ -865,8 +865,8 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "scar": "r_c var \u00e4rrad n\u00e4r en annan l\u00e4rling (v\u00e5ldsamt) r\u00e4ddade {PRONOUN/r_c/poss} liv fr\u00e5n ett klippfall under ett ungdomligt \u00e4ventyr.",
-                    "death": "r_c f\u00f6ll fr\u00e5n en klippa som l\u00e4rling n\u00e4r {PRONOUN/r_c/subject} tog en dum risk och f\u00f6rkortade {PRONOUN/r_c/poss} livet."
+                    "scar": "r_c var ärrad när en annan lärling (våldsamt) räddade {PRONOUN/r_c/poss} liv från ett klippfall under ett ungdomligt äventyr.",
+                    "death": "r_c föll från en klippa som lärling när {PRONOUN/r_c/subject} tog en dum risk och förkortade {PRONOUN/r_c/poss} livet."
                 }
             }
         ]
@@ -888,17 +888,17 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 10,
-        "intro_text": "Medan r_c hj\u00e4lper till att samla \u00f6rter, snubblar han \u00f6ver en buske med r\u00f6da b\u00e4r.",
-        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att inte r\u00f6ra b\u00e4ren.",
+        "intro_text": "Medan r_c hjälper till att samla örter, snubblar han över en buske med röda bär.",
+        "decline_text": "r_c bestämmer sig för att inte röra bären.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Os\u00e4ker men kommer ih\u00e5g kattungens ber\u00e4ttelser om r\u00f6da d\u00f6dsb\u00e4r, r_c undviker dem och ger resten av patrullen en uppfattning om den potentiellt farliga busken.",
+                "text": "Osäker men kommer ihåg kattungens berättelser om röda dödsbär, r_c undviker dem och ger resten av patrullen en uppfattning om den potentiellt farliga busken.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "Efter noggrant \u00f6verv\u00e4gande k\u00e4nner r_c igen dem som hallon och tar de s\u00e4llsynta b\u00e4ren tillbaka till medicinkattens h\u00e5la.",
+                "text": "Efter noggrant övervägande känner r_c igen dem som hallon och tar de sällsynta bären tillbaka till medicinkattens håla.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -906,7 +906,7 @@
                 ]
             },
             {
-                "text": "Sk\u00f6nt k\u00e4nner s_c igen tranb\u00e4ren och tuggar f\u00f6rsiktigt av en gren laddad med dem f\u00f6r att ta med sig tillbaka till l\u00e4gret - \u00f6rtbest\u00e5nden kan anv\u00e4nda denna udda frukt.",
+                "text": "Skönt känner s_c igen tranbären och tuggar försiktigt av en gren laddad med dem för att ta med sig tillbaka till lägret - örtbestånden kan använda denna udda frukt.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -916,12 +916,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "N\u00e4r han sj\u00e4lvs\u00e4kert samlar ihop dem och springer tillbaka till l\u00e4gret med patrullen f\u00e5r r_c besked om att r\u00f6da vinb\u00e4r inte \u00e4r en anv\u00e4ndbar medicinsk \u00f6rt.",
+                "text": "När han självsäkert samlar ihop dem och springer tillbaka till lägret med patrullen får r_c besked om att röda vinbär inte är en användbar medicinsk ört.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Medan han plockar dem fr\u00e5n busken tycker r_c att de \u00e4r l\u00e4ckra och \u00e4ter n\u00e5gra, bara f\u00f6r att p_l ska l\u00e4gga m\u00e4rke till vad {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} \u00e4ter. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} rusade tillbaka till l\u00e4gret, d\u00e4r medicinkatten kan ha en chans att r\u00e4dda {PRONOUN/r_c/object} fr\u00e5n d\u00f6dsb\u00e4rsf\u00f6rgiftning.",
+                "text": "Medan han plockar dem från busken tycker r_c att de är läckra och äter några, bara för att p_l ska lägga märke till vad {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} äter. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} rusade tillbaka till lägret, där medicinkatten kan ha en chans att rädda {PRONOUN/r_c/object} från dödsbärsförgiftning.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -936,8 +936,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c misstog d\u00f6dsb\u00e4r f\u00f6r n\u00e5got \u00e4tbart.",
-                    "lead_death": "efter att ha \u00e4tit d\u00f6dsb\u00e4r"
+                    "reg_death": "m_c misstog dödsbär för något ätbart.",
+                    "lead_death": "efter att ha ätit dödsbär"
                 }
             }
         ]
@@ -964,17 +964,17 @@
             ]
         },
         "weight": 10,
-        "intro_text": "Medan app1 hj\u00e4lper till att samla \u00f6rter, snubblar app1 p\u00e5 en buske med r\u00f6da b\u00e4r.",
-        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att inte r\u00f6ra b\u00e4ren.",
+        "intro_text": "Medan app1 hjälper till att samla örter, snubblar app1 på en buske med röda bär.",
+        "decline_text": "r_c bestämmer sig för att inte röra bären.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Os\u00e4ker men kommer ih\u00e5g kattungens ber\u00e4ttelser om r\u00f6da d\u00f6dsb\u00e4r, app1 undviker dem och varnar patrullen, som ytterst orolig bekr\u00e4ftar att detta \u00e4r en d\u00f6dsb\u00e4rsbuske.",
+                "text": "Osäker men kommer ihåg kattungens berättelser om röda dödsbär, app1 undviker dem och varnar patrullen, som ytterst orolig bekräftar att detta är en dödsbärsbuske.",
                 "exp": 20,
                 "weight": 20
             },
             {
-                "text": "Vad som helst. Att identifiera dem \u00e4r ett problem med medicinkatt. app1 plockar b\u00e4ren och tar med dem tillbaka till l\u00e4gret, d\u00e4r det visar sig att de kallas hallon.",
+                "text": "Vad som helst. Att identifiera dem är ett problem med medicinkatt. app1 plockar bären och tar med dem tillbaka till lägret, där det visar sig att de kallas hallon.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": [
@@ -984,24 +984,24 @@
         ],
         "fail_outcomes": [
             {
-                "text": "App1 samlar dem med tillf\u00f6rsikt och springer tillbaka till l\u00e4gret och informeras sedan om att r\u00f6da vinb\u00e4r inte \u00e4r en anv\u00e4ndbar medicinsk \u00f6rt.",
+                "text": "App1 samlar dem med tillförsikt och springer tillbaka till lägret och informeras sedan om att röda vinbär inte är en användbar medicinsk ört.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Vad som helst. Att identifiera dem \u00e4r ett problem med medicinkatt. app1 plockar b\u00e4ren, f\u00f6rv\u00e5nad \u00f6ver den behagliga smaken och sv\u00e4ljer n\u00e5gra. {PRONOUN/app1/subject/CAP} {VERB/app1/collapse/collapses} p\u00e5 v\u00e4g tillbaka till l\u00e4gret, och det finns inget n\u00e5gon katt kan g\u00f6ra f\u00f6r {PRONOUN/r_c/object}, efter att inte ha identifierat d\u00f6dsb\u00e4r innan de \u00e4tit dem.",
+                "text": "Vad som helst. Att identifiera dem är ett problem med medicinkatt. app1 plockar bären, förvånad över den behagliga smaken och sväljer några. {PRONOUN/app1/subject/CAP} {VERB/app1/collapse/collapses} på väg tillbaka till lägret, och det finns inget någon katt kan göra för {PRONOUN/r_c/object}, efter att inte ha identifierat dödsbär innan de ätit dem.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "app1"
                 ],
                 "history_text": {
-                    "reg_death": "m_c misstog d\u00f6dsb\u00e4r f\u00f6r n\u00e5got \u00e4tbart.",
-                    "lead_death": "efter att ha \u00e4tit d\u00f6dsb\u00e4r"
+                    "reg_death": "m_c misstog dödsbär för något ätbart.",
+                    "lead_death": "efter att ha ätit dödsbär"
                 }
             },
             {
-                "text": "Vad som helst. Att identifiera dem \u00e4r ett problem med medicinkatt. app1 plockar de goda b\u00e4ren, sv\u00e4ljer n\u00e5gra och tar resten tillbaka till l\u00e4gret d\u00e4r medicinkatten omedelbart b\u00f6rjar arbeta med att f\u00f6rs\u00f6ka r\u00e4dda {PRONOUN/app1/objekt} fr\u00e5n d\u00f6dsb\u00e4rsf\u00f6rgiftning.",
+                "text": "Vad som helst. Att identifiera dem är ett problem med medicinkatt. app1 plockar de goda bären, sväljer några och tar resten tillbaka till lägret där medicinkatten omedelbart börjar arbeta med att försöka rädda {PRONOUN/app1/objekt} från dödsbärsförgiftning.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1016,8 +1016,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c misstog d\u00f6dsb\u00e4r f\u00f6r n\u00e5got \u00e4tbart.",
-                    "lead_death": "efter att ha \u00e4tit d\u00f6dsb\u00e4r"
+                    "reg_death": "m_c misstog dödsbär för något ätbart.",
+                    "lead_death": "efter att ha ätit dödsbär"
                 }
             }
         ]
@@ -1047,11 +1047,11 @@
             "STORY,1",
             "LORE,1"
         ],
-        "intro_text": "En g\u00e5ng, f\u00f6re myt och magi, fanns det bara StarClan och ingen Dark Forest. p_l samlar patrullen och talar i tysta jamar om f\u00f6delsen av den platsen.",
-        "decline_text": "En gladare historia, fr\u00e5gar katterna, tack. Ingen vill ha sv\u00e5rt att sova i natt.",
+        "intro_text": "En gång, före myt och magi, fanns det bara StarClan och ingen Dark Forest. p_l samlar patrullen och talar i tysta jamar om födelsen av den platsen.",
+        "decline_text": "En gladare historia, frågar katterna, tack. Ingen vill ha svårt att sova i natt.",
         "success_outcomes": [
             {
-                "text": "En d\u00f6d krigare vaknade i StarClan, aff\u00e4rer oavslutade och hat mot de levande i deras hj\u00e4rta. De f\u00f6rde ruin och f\u00f6rst\u00f6relse \u00f6ver den levande klanen - men c_n var inte utan allierade. De andra katterna i StarClan hoppade till strid och slet ett h\u00e5l i Silverpelt, kastade ut f\u00f6rr\u00e4daren och d\u00f6mde dem att g\u00e5 en v\u00e4g av f\u00f6rfall och grymhet.",
+                "text": "En död krigare vaknade i StarClan, affärer oavslutade och hat mot de levande i deras hjärta. De förde ruin och förstörelse över den levande klanen - men c_n var inte utan allierade. De andra katterna i StarClan hoppade till strid och slet ett hål i Silverpelt, kastade ut förrädaren och dömde dem att gå en väg av förfall och grymhet.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -1098,7 +1098,7 @@
                 ]
             },
             {
-                "text": "s_c kan inte l\u00e5ta bli att vara \u00f6verdrivet fascinerad eftersom p_l talar om hur en krigare var s\u00e5 m\u00e4ktig att ett h\u00e5l beh\u00f6vde rivas i Silverpelt bara f\u00f6r att kunna stoppa dem. s_c hoppas att en dag bli s\u00e5 kraftfull.",
+                "text": "s_c kan inte låta bli att vara överdrivet fascinerad eftersom p_l talar om hur en krigare var så mäktig att ett hål behövde rivas i Silverpelt bara för att kunna stoppa dem. s_c hoppas att en dag bli så kraftfull.",
                 "exp": 30,
                 "weight": 20,
                 "can_have_stat": [
@@ -1151,7 +1151,7 @@
                 ]
             },
             {
-                "text": "s_c h\u00f6r sagan och blir inspirerad. {PRONOUN/s_c/subject/CAP} {VERB/s_c/wish/wishes} {PRONOUN/s_c/subject} {VERB/s_c/were/was} lika stark som katterna i sagan.",
+                "text": "s_c hör sagan och blir inspirerad. {PRONOUN/s_c/subject/CAP} {VERB/s_c/wish/wishes} {PRONOUN/s_c/subject} {VERB/s_c/were/was} lika stark som katterna i sagan.",
                 "exp": 30,
                 "weight": 20,
                 "can_have_stat": [
@@ -1207,7 +1207,7 @@
                 ]
             },
             {
-                "text": "I slutet av ber\u00e4ttelsen \u00e4r s_c inspirerad av hur stark den utst\u00f6tta krigaren \u00e4r, men att g\u00e5 emot StarClan... Det verkar vara ett d\u00e5res \u00e4rende. \u00c4ven om s_c inte skulle ha n\u00e5got emot att vara fri fr\u00e5n n\u00e5gra av klanens regler, skulle {PRONOUN/s_c/subject} inte v\u00e5ga g\u00e5 emot StarClan.",
+                "text": "I slutet av berättelsen är s_c inspirerad av hur stark den utstötta krigaren är, men att gå emot StarClan... Det verkar vara ett dåres ärende. Även om s_c inte skulle ha något emot att vara fri från några av klanens regler, skulle {PRONOUN/s_c/subject} inte våga gå emot StarClan.",
                 "exp": 30,
                 "weight": 20,
                 "can_have_stat": [
@@ -1262,7 +1262,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c lyssnar, huttrande, som p_l beskriver f\u00f6delsen av den m\u00f6rka skogen, den urgamla, knappt vunna striden mellan stj\u00e4rnornas goda katter och f\u00f6rr\u00e4daren mitt ibland dem. {PRONOUN/r_c/subject/CAP} kan inte sluta t\u00e4nka p\u00e5 det i {PRONOUN/r_c/poss} boet den natten, {PRONOUN/r_c/poss} sov trasig och orolig.",
+                "text": "r_c lyssnar, huttrande, som p_l beskriver födelsen av den mörka skogen, den urgamla, knappt vunna striden mellan stjärnornas goda katter och förrädaren mitt ibland dem. {PRONOUN/r_c/subject/CAP} kan inte sluta tänka på det i {PRONOUN/r_c/poss} boet den natten, {PRONOUN/r_c/poss} sov trasig och orolig.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -1278,12 +1278,12 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c dog av s\u00f6mnbrist, {PRONOUN/m_c/poss} syn hems\u00f6kt av m\u00f6rka skuggor.",
-                    "lead_death": "av brist p\u00e5 s\u00f6mn, {PRONOUN/m_c/poss} syn hems\u00f6kt av m\u00f6rka skuggor"
+                    "reg_death": "m_c dog av sömnbrist, {PRONOUN/m_c/poss} syn hemsökt av mörka skuggor.",
+                    "lead_death": "av brist på sömn, {PRONOUN/m_c/poss} syn hemsökt av mörka skuggor"
                 }
             },
             {
-                "text": "p_l m\u00e4rker hur ivrig och glad s_c verkar vara, och k\u00e4nner sig lite orolig efter att ha avslutat sagan. Ingen katt borde vara s\u00e5 glad \u00f6ver att h\u00f6ra den h\u00e4r historien...",
+                "text": "p_l märker hur ivrig och glad s_c verkar vara, och känner sig lite orolig efter att ha avslutat sagan. Ingen katt borde vara så glad över att höra den här historien...",
                 "exp": 0,
                 "weight": 20,
                 "can_have_stat": [
@@ -1324,7 +1324,7 @@
                 ]
             },
             {
-                "text": "I slutet av sagan fr\u00e5gar p_l s_c vad {PRONOUN/s_c/subject} {VERB/s_c/think/thinks}. s_c erk\u00e4nner att han inte uppm\u00e4rksammat n\u00e5gon dagisber\u00e4ttelse som \u00e4r avsedd att skr\u00e4mma kit.",
+                "text": "I slutet av sagan frågar p_l s_c vad {PRONOUN/s_c/subject} {VERB/s_c/think/thinks}. s_c erkänner att han inte uppmärksammat någon dagisberättelse som är avsedd att skrämma kit.",
                 "exp": 30,
                 "weight": 20,
                 "can_have_stat": [
@@ -1393,11 +1393,11 @@
         "pl_skill_constraint": [
             "STORY,1"
         ],
-        "intro_text": "Samla runt, samla runt. p_l sitter i mitten av gruppen, p\u00e5 den mest framtr\u00e4dande platsen, och s\u00e4nker {PRONOUN/p_l/poss} r\u00f6sten l\u00e5gt n\u00e4r tystnaden faller - idag kommer {PRONOUN/p_l/subject} att ber\u00e4tta historien om StarClans stora ilska .",
-        "decline_text": "En l\u00f6vfallande regnskur v\u00e4ljer det \u00f6gonblicket att bryta - tematiskt kanske, men bl\u00f6tt. Katterna best\u00e4mmer sig f\u00f6r att ta upp historien n\u00e5gon annan g\u00e5ng.",
+        "intro_text": "Samla runt, samla runt. p_l sitter i mitten av gruppen, på den mest framträdande platsen, och sänker {PRONOUN/p_l/poss} rösten lågt när tystnaden faller - idag kommer {PRONOUN/p_l/subject} att berätta historien om StarClans stora ilska .",
+        "decline_text": "En lövfallande regnskur väljer det ögonblicket att bryta - tematiskt kanske, men blött. Katterna bestämmer sig för att ta upp historien någon annan gång.",
         "success_outcomes": [
             {
-                "text": "Till en b\u00f6rjan var det f\u00e5 utom medicinkatterna som m\u00e4rkte l\u00f6vfallet, dess h\u00e5rdhet, sn\u00f6n tidigt, bytet knappt. Alla m\u00e4rkte den dagen StarClan v\u00e4ste - sj\u00e4lva den stora solen blinkade m\u00f6rkt under deras ilska. Alla tog d\u00e5 h\u00e4nsyn till omenen, och klanerna v\u00e4nde sig tillbaka till stj\u00e4rnorna och bad om liv och sol att komma tillbaka. De l\u00e4rde sig en l\u00e4xa man inte snart gl\u00f6mmer.",
+                "text": "Till en början var det få utom medicinkatterna som märkte lövfallet, dess hårdhet, snön tidigt, bytet knappt. Alla märkte den dagen StarClan väste - själva den stora solen blinkade mörkt under deras ilska. Alla tog då hänsyn till omenen, och klanerna vände sig tillbaka till stjärnorna och bad om liv och sol att komma tillbaka. De lärde sig en läxa man inte snart glömmer.",
                 "exp": 40,
                 "weight": 20,
                 "relationships": [
@@ -1420,7 +1420,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c v\u00e4grar att tro att deras f\u00f6rf\u00e4der n\u00e5gonsin utpl\u00e5nade solen - inte f\u00f6r att de inte kunde, men att de aldrig skulle skada klanerna, deras egna \u00e4lskade \u00e4ttlingar.",
+                "text": "r_c vägrar att tro att deras förfäder någonsin utplånade solen - inte för att de inte kunde, men att de aldrig skulle skada klanerna, deras egna älskade ättlingar.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1441,7 +1441,7 @@
                 ]
             },
             {
-                "text": "Om StarClan v\u00e4ste \u00e5t dem, borde de ha v\u00e4ste tillbaka, h\u00e4vdar s_c. Deras f\u00f6rf\u00e4der \u00e4r ingenting utan c_n!",
+                "text": "Om StarClan väste åt dem, borde de ha väste tillbaka, hävdar s_c. Deras förfäder är ingenting utan c_n!",
                 "exp": 0,
                 "weight": 20,
                 "can_have_stat": [

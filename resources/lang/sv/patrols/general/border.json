@@ -16,70 +16,70 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 5,
-        "intro_text": "p_l g\u00e5r ut f\u00f6r att markera c_ns gr\u00e4nser.",
-        "decline_text": "p_l best\u00e4mmer sig f\u00f6r att inte markera sina gr\u00e4nser.",
+        "intro_text": "p_l går ut för att markera c_ns gränser.",
+        "decline_text": "p_l bestämmer sig för att inte markera sina gränser.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l markerar framg\u00e5ngsrikt c_ns gr\u00e4nser.",
+                "text": "p_l markerar framgångsrikt c_ns gränser.",
                 "exp": 5,
                 "weight": 20,
                 "art": "gen_otherclan_mates_date"
             },
             {
-                "text": "p_l lyckas markera gr\u00e4nserna effektivt, kommer hem tidigare \u00e4n v\u00e4ntat.",
+                "text": "p_l lyckas markera gränserna effektivt, kommer hem tidigare än väntat.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "p_l doftar lite byte, f\u00e5nga det p_l har ett snabbt mellanm\u00e5l.",
+                "text": "p_l doftar lite byte, fånga det p_l har ett snabbt mellanmål.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "En tr\u00e5kig uppgift vanligtvis, och idag var inte annorlunda.",
+                "text": "En tråkig uppgift vanligtvis, och idag var inte annorlunda.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "p_l \u00f6nskar att n\u00e5got intressant skulle h\u00e4nda, men nej, det fanns inget som underl\u00e4ttade p_lls tristess eftersom {PRONOUN/p_l/subject} markerar gr\u00e4nserna.",
+                "text": "p_l önskar att något intressant skulle hända, men nej, det fanns inget som underlättade p_lls tristess eftersom {PRONOUN/p_l/subject} markerar gränserna.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "p_l \u00e4r glad \u00f6ver att ha en fredlig patrull, utan n\u00e5gra hot att m\u00f6ta.",
+                "text": "p_l är glad över att ha en fredlig patrull, utan några hot att möta.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "p_l slutar markera gr\u00e4nserna, glad att kunna g\u00e5 tillbaka och vila {PRONOUN/p_l/poss} tassar.",
+                "text": "p_l slutar markera gränserna, glad att kunna gå tillbaka och vila {PRONOUN/p_l/poss} tassar.",
                 "exp": 5,
                 "weight": 20
             }
         ],
         "fail_outcomes": [
             {
-                "text": "p_l avslutar patrullen tidigt, k\u00e4nner mig f\u00f6r lat f\u00f6r att markera resten av gr\u00e4nsen.",
+                "text": "p_l avslutar patrullen tidigt, känner mig för lat för att markera resten av gränsen.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "p_l b\u00f6rjar dagdr\u00f6mma, och slutar med att markera p\u00e5 fel st\u00e4lle, det var \u00e5tminstone inte p\u00e5 o_c_ns territorium.",
+                "text": "p_l börjar dagdrömma, och slutar med att markera på fel ställe, det var åtminstone inte på o_c_ns territorium.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "En tr\u00e5kig uppgift, och en p_l hatar.",
+                "text": "En tråkig uppgift, och en p_l hatar.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Blir distraherad n\u00e4r du markerar, slutar p_l med att det tar flera timmar mer \u00e4n vad som beh\u00f6vs f\u00f6r att markera gr\u00e4nsen.",
+                "text": "Blir distraherad när du markerar, slutar p_l med att det tar flera timmar mer än vad som behövs för att markera gränsen.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "p_l markerar fel omr\u00e5de, vilket g\u00f6r att andra beh\u00f6ver \u00e5tg\u00e4rda misstaget {PRONOUN/p_l/poss}.",
+                "text": "p_l markerar fel område, vilket gör att andra behöver åtgärda misstaget {PRONOUN/p_l/poss}.",
                 "exp": 0,
                 "weight": 20
             }
@@ -102,8 +102,8 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 5,
-        "intro_text": "p_l beger sig ut f\u00f6r att patrullera c_ns gr\u00e4nser, men doftar n\u00e5got l\u00e4ngs gr\u00e4nserna.",
-        "decline_text": "p_l best\u00e4mmer sig f\u00f6r att inte unders\u00f6ka doften.",
+        "intro_text": "p_l beger sig ut för att patrullera c_ns gränser, men doftar något längs gränserna.",
+        "decline_text": "p_l bestämmer sig för att inte undersöka doften.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
@@ -112,12 +112,12 @@
                 "weight": 20
             },
             {
-                "text": "p_l identifierar doften som ett passerande rovdjur, men det verkar ha g\u00e5tt vidare.",
+                "text": "p_l identifierar doften som ett passerande rovdjur, men det verkar ha gått vidare.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "Doften leder p_l till en n\u00e4rliggande fl\u00e4ck med \u00f6rter, f\u00f6rhoppningsvis \u00e4r \u00f6rterna anv\u00e4ndbara f\u00f6r klanens healer.",
+                "text": "Doften leder p_l till en närliggande fläck med örter, förhoppningsvis är örterna användbara för klanens healer.",
                 "exp": 5,
                 "weight": 15,
                 "herbs": [
@@ -125,34 +125,34 @@
                 ]
             },
             {
-                "text": "p_l uppt\u00e4cker doften av en klankamrat, m\u00f6jligen p\u00e5 en egen solopatrull, men det var inget att oroa sig f\u00f6r.",
+                "text": "p_l upptäcker doften av en klankamrat, möjligen på en egen solopatrull, men det var inget att oroa sig för.",
                 "exp": 5,
                 "weight": 20
             }
         ],
         "fail_outcomes": [
             {
-                "text": "p_l kan inte identifiera doften och g\u00e5 tillbaka till l\u00e4gret f\u00f6r att rapportera det.",
+                "text": "p_l kan inte identifiera doften och gå tillbaka till lägret för att rapportera det.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "p_l k\u00e4mpar f\u00f6r att identifiera den svaga doften och best\u00e4mmer sig f\u00f6r att \u00e5terv\u00e4nda till l\u00e4gret f\u00f6r att f\u00e5 hj\u00e4lp.",
+                "text": "p_l kämpar för att identifiera den svaga doften och bestämmer sig för att återvända till lägret för att få hjälp.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Trots p_ls anstr\u00e4ngningar kan {PRONOUN/p_l/subject} inte urskilja k\u00e4llan till doften och \u00e5terv\u00e4nder till l\u00e4gret f\u00f6r att rapportera det.",
+                "text": "Trots p_ls ansträngningar kan {PRONOUN/p_l/subject} inte urskilja källan till doften och återvänder till lägret för att rapportera det.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Doften verkar pl\u00f6tsligt f\u00f6rsvinna, vilket g\u00f6r p_l f\u00f6rbryllad och of\u00f6rm\u00f6gen att sp\u00e5ra den vidare.",
+                "text": "Doften verkar plötsligt försvinna, vilket gör p_l förbryllad och oförmögen att spåra den vidare.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "En pl\u00f6tslig vindpust sprider doften innan p_l kan unders\u00f6ka vidare... vilket g\u00f6r {PRONOUN/p_l/object} os\u00e4ker p\u00e5 om det var en inkr\u00e4ktare, ett hot eller n\u00e5got ofarligt.",
+                "text": "En plötslig vindpust sprider doften innan p_l kan undersöka vidare... vilket gör {PRONOUN/p_l/object} osäker på om det var en inkräktare, ett hot eller något ofarligt.",
                 "exp": 0,
                 "weight": 20
             }
@@ -175,49 +175,49 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 5,
-        "intro_text": "p_l beger sig ut f\u00f6r att patrullera c_ns gr\u00e4nser, men ser n\u00e5gra sp\u00e5r.",
-        "decline_text": "p_l best\u00e4mmer sig f\u00f6r att inte unders\u00f6ka sp\u00e5ren.",
+        "intro_text": "p_l beger sig ut för att patrullera c_ns gränser, men ser några spår.",
+        "decline_text": "p_l bestämmer sig för att inte undersöka spåren.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l identifierar sp\u00e5ren som tillh\u00f6rande n\u00e5got byte.",
+                "text": "p_l identifierar spåren som tillhörande något byte.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "Sp\u00e5ren leder p_l till en n\u00e4rliggande r\u00f6d b\u00e4rbuske. p_l g\u00e5r vidare och noterar det f\u00f6r att informera medicinkatten.",
+                "text": "Spåren leder p_l till en närliggande röd bärbuske. p_l går vidare och noterar det för att informera medicinkatten.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "p_l identifierar sp\u00e5ren som tillh\u00f6rande en annan klankamrat.",
+                "text": "p_l identifierar spåren som tillhörande en annan klankamrat.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "p_l identifierar sp\u00e5ren som tillh\u00f6rande tv\u00e5ben, och p_l best\u00e4mmer sig f\u00f6r att g\u00e5 tillbaka till l\u00e4gret f\u00f6r att informera de andra.",
+                "text": "p_l identifierar spåren som tillhörande tvåben, och p_l bestämmer sig för att gå tillbaka till lägret för att informera de andra.",
                 "exp": 5,
                 "weight": 20
             }
         ],
         "fail_outcomes": [
             {
-                "text": "p_l kan inte identifiera sp\u00e5ren och tvingas \u00e5terv\u00e4nda till l\u00e4gret f\u00f6r att rapportera det.",
+                "text": "p_l kan inte identifiera spåren och tvingas återvända till lägret för att rapportera det.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Trots p_l anstr\u00e4ngningar kan {PRONOUN/p_l/subject} inte identifiera sp\u00e5ren och rapporterar tillbaka det p\u00e5 l\u00e4gret.",
+                "text": "Trots p_l ansträngningar kan {PRONOUN/p_l/subject} inte identifiera spåren och rapporterar tillbaka det på lägret.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Sp\u00e5ren \u00e4r skymd av den senaste tidens nederb\u00f6rd, vilket g\u00f6r det om\u00f6jligt f\u00f6r p_l att fastst\u00e4lla deras ursprung.",
+                "text": "Spåren är skymd av den senaste tidens nederbörd, vilket gör det omöjligt för p_l att fastställa deras ursprung.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Sp\u00e5ren leder p_l till ett omr\u00e5de som \u00e4r f\u00f6r farligt att navigera, vilket tvingar p_l att \u00f6verge {PRONOUN/p_l/poss} unders\u00f6kningen.",
+                "text": "Spåren leder p_l till ett område som är för farligt att navigera, vilket tvingar p_l att överge {PRONOUN/p_l/poss} undersökningen.",
                 "exp": 0,
                 "weight": 20
             }
@@ -240,34 +240,34 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 5,
-        "intro_text": "p_l beger sig ut f\u00f6r att patrullera c_n:s gr\u00e4nser och m\u00e4rker att en del av deras markeringar hade blivit st\u00f6rda.",
-        "decline_text": "p_l beslutar att inte unders\u00f6ka markeringarna.",
+        "intro_text": "p_l beger sig ut för att patrullera c_n:s gränser och märker att en del av deras markeringar hade blivit störda.",
+        "decline_text": "p_l beslutar att inte undersöka markeringarna.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "Vid n\u00e4rmare granskning var det bara en anm\u00e4rkning fr\u00e5n en klankamrat.",
+                "text": "Vid närmare granskning var det bara en anmärkning från en klankamrat.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Skraporna st\u00e4mde inte med n\u00e5gra katttassar, det var s\u00e4kert, och p_l \u00e5terv\u00e4nder till l\u00e4gret f\u00f6r att rapportera det, uppm\u00e4rksamma p\u00e5 eventuella hot.",
+                "text": "Skraporna stämde inte med några katttassar, det var säkert, och p_l återvänder till lägret för att rapportera det, uppmärksamma på eventuella hot.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Efter unders\u00f6kning finner p_l att de st\u00f6rda markeringarna orsakades av en enst\u00f6ring, \u00e4ven om inkr\u00e4ktaren \u00e4r borta sedan l\u00e4nge.",
+                "text": "Efter undersökning finner p_l att de störda markeringarna orsakades av en enstöring, även om inkräktaren är borta sedan länge.",
                 "exp": 0,
                 "weight": 20
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Trots {PRONOUN/p_l/poss} anstr\u00e4ngningar kunde p_l inte identifiera vad som st\u00f6rde gr\u00e4nsmarkeringarna, vilket gjorde {PRONOUN/p_l/object} f\u00f6rvirrad n\u00e4r {PRONOUN/p_l/subject} \u00e5terv\u00e4nde till l\u00e4gret.",
+                "text": "Trots {PRONOUN/p_l/poss} ansträngningar kunde p_l inte identifiera vad som störde gränsmarkeringarna, vilket gjorde {PRONOUN/p_l/object} förvirrad när {PRONOUN/p_l/subject} återvände till lägret.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "St\u00f6rningen i markeringarna f\u00f6rblir ett mysterium f\u00f6r p_l, och n\u00e4r {PRONOUN/p_l/subject} rapporterar h\u00e4ndelsen tilldelas extra patruller f\u00f6r att \u00f6vervaka eventuella ytterligare st\u00f6rningar.",
+                "text": "Störningen i markeringarna förblir ett mysterium för p_l, och när {PRONOUN/p_l/subject} rapporterar händelsen tilldelas extra patruller för att övervaka eventuella ytterligare störningar.",
                 "exp": 0,
                 "weight": 20
             }
@@ -292,18 +292,18 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "P\u00e5 gr\u00e4nsbevakningen hittar patrullen en kattunges doft. Efter de (extremt) uppenbara ljuden av n\u00f6d, leder p_l patrullen ner till en kittypet, olyckligt inkl\u00e4md mellan ett par stenar. De gr\u00e5ter patetiskt och gr\u00e5ter att deras vinge har fastnat!",
-        "decline_text": "Det \u00e4r bortom c_ns gr\u00e4ns, det \u00e4r inte c_ns problem.",
+        "intro_text": "På gränsbevakningen hittar patrullen en kattunges doft. Efter de (extremt) uppenbara ljuden av nöd, leder p_l patrullen ner till en kittypet, olyckligt inklämd mellan ett par stenar. De gråter patetiskt och gråter att deras vinge har fastnat!",
+        "decline_text": "Det är bortom c_ns gräns, det är inte c_ns problem.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "Katter kommer normalt inte med vingar, \u00e4n mindre fladdermus, och patrullen ryggar tillbaka fr\u00e5n den fr\u00e4mmande fr\u00e4mlingen. Men onaturligt eller inte, fr\u00e4mlingen sitter fortfarande fast, och med ett djupt andetag beordrar p_l dem fram f\u00f6r att befria en medkatt... ish... sak.",
+                "text": "Katter kommer normalt inte med vingar, än mindre fladdermus, och patrullen ryggar tillbaka från den främmande främlingen. Men onaturligt eller inte, främlingen sitter fortfarande fast, och med ett djupt andetag beordrar p_l dem fram för att befria en medkatt... ish... sak.",
                 "exp": 15,
                 "weight": 20,
                 "outsider_rep": 1
             },
             {
-                "text": "Uppriktigt sagt, extra lemmar eller inte (fladdermusvingar, allts\u00e5 - det h\u00e4r kommer att bli en fantastisk historia tillbaka p\u00e5 l\u00e4gret), patrullen beh\u00f6ver f\u00e5 tillbaka denna fylliga gr\u00e5tande p\u00e4lsboll till sina tv\u00e5ben. V\u00e4rlden kommer att \u00e4ta denna kattunge levande om de inte hj\u00e4lper dem.",
+                "text": "Uppriktigt sagt, extra lemmar eller inte (fladdermusvingar, alltså - det här kommer att bli en fantastisk historia tillbaka på lägret), patrullen behöver få tillbaka denna fylliga gråtande pälsboll till sina tvåben. Världen kommer att äta denna kattunge levande om de inte hjälper dem.",
                 "exp": 15,
                 "weight": 10,
                 "outsider_rep": 1
@@ -311,7 +311,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "N\u00e4r patrullen ramlar omkull, tassarna viftar hj\u00e4lpl\u00f6st i luften och p\u00e5 n\u00e5got s\u00e4tt g\u00f6r situationen <i>\u00e4nnu v\u00e4rre</i>, passerar patrullen den mushj\u00e4rnade kittypen och l\u00e4mnar dem till sin dumhet medan de fokuserar p\u00e5 sin faktiska uppgift.",
+                "text": "När patrullen ramlar omkull, tassarna viftar hjälplöst i luften och på något sätt gör situationen <i>ännu värre</i>, passerar patrullen den mushjärnade kittypen och lämnar dem till sin dumhet medan de fokuserar på sin faktiska uppgift.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -319,7 +319,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "Pl\u00f6tsligt f\u00f6rs\u00f6ker p_l skr\u00e4mma kattungen. Men \u00e4ven om katten l\u00e4tt lyckas skr\u00e4mmas, g\u00f6r det inte att de fastnar mindre p\u00e5 plats, och s\u00e5 sm\u00e5ningom tvingas patrullen hj\u00e4lpa till att frig\u00f6ra dem, om s\u00e5 bara s\u00e5 att de kan l\u00e4mna c_ns gr\u00e4nser.",
+                "text": "Plötsligt försöker p_l skrämma kattungen. Men även om katten lätt lyckas skrämmas, gör det inte att de fastnar mindre på plats, och så småningom tvingas patrullen hjälpa till att frigöra dem, om så bara så att de kan lämna c_ns gränser.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1
@@ -327,7 +327,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "V\u00e4sande, p_l sk\u00e5lar \u00f6ver kittypen och med ett rivande ljud lossnar fladdermusvingen fr\u00e5n deras rygg. Den fylliga kattens gr\u00e5t \u00f6kar i volym n\u00e4r de flyr. p_l tar med sig trof\u00e9n till l\u00e4gret f\u00f6r att skryta.",
+                "text": "Väsande, p_l skålar över kittypen och med ett rivande ljud lossnar fladdermusvingen från deras rygg. Den fylliga kattens gråt ökar i volym när de flyr. p_l tar med sig trofén till lägret för att skryta.",
                 "exp": 15,
                 "weight": 20,
                 "outsider_rep": -2
@@ -353,22 +353,22 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Patrullen \u00e4r p\u00e5 v\u00e4g ut f\u00f6r att kontrollera gr\u00e4nserna, n\u00e4r p_l s\u00e4ger {PRONOUN/p_l/subject} {VERB/p_l/see/seees} konstiga gl\u00f6dande \u00f6gon i fj\u00e4rran.",
-        "decline_text": "r_c suckar och s\u00e4ger till p_l att {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} bara ser saker. Det finns inget d\u00e4r ute... eller hur?",
+        "intro_text": "Patrullen är på väg ut för att kontrollera gränserna, när p_l säger {PRONOUN/p_l/subject} {VERB/p_l/see/seees} konstiga glödande ögon i fjärran.",
+        "decline_text": "r_c suckar och säger till p_l att {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} bara ser saker. Det finns inget där ute... eller hur?",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "Patrullen g\u00e5r f\u00f6rsiktigt i riktning mot de m\u00e4rkliga, or\u00f6rliga \u00f6gonen. Katterna ser ett kusligt ansikte med gl\u00f6dande \u00f6gon p\u00e5 avst\u00e5nd, blottar sina huggt\u00e4nder och luktar r\u00f6k. p_l kryper fram till ansiktet f\u00f6r att uppt\u00e4cka att den tillh\u00f6r en pumpa! Skr\u00e4md f\u00f6resl\u00e5r r_c att \u00e5ka tillbaka till l\u00e4gret f\u00f6r att rapportera detta bisarra fynd till klanen. p_l h\u00e5ller med, vill inte vara i n\u00e4rheten av den h\u00e4r... saken... l\u00e4ngre.",
+                "text": "Patrullen går försiktigt i riktning mot de märkliga, orörliga ögonen. Katterna ser ett kusligt ansikte med glödande ögon på avstånd, blottar sina huggtänder och luktar rök. p_l kryper fram till ansiktet för att upptäcka att den tillhör en pumpa! Skrämd föreslår r_c att åka tillbaka till lägret för att rapportera detta bisarra fynd till klanen. p_l håller med, vill inte vara i närheten av den här... saken... längre.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "Patrullen g\u00e5r f\u00f6rsiktigt i riktning mot de m\u00e4rkliga, or\u00f6rliga \u00f6gonen. N\u00e4r p_l kommer n\u00e4rmare {PRONOUN/p_l/subject} {VERB/p_l/are/\u00e4r} \u00f6verv\u00e4ldigad av doften av Twolegs och r\u00f6k. Vid n\u00e4rmare granskning verkar det som att dessa dumma Twoleg-satser f\u00f6rs\u00f6ker s\u00e4tta eld p\u00e5 en pumpa med ett oroande ih\u00e5ligt ansikte! p_l och r_c laddar Twoleg-kit, v\u00e4sande, spottar och g\u00f6r sitt b\u00e4sta f\u00f6r att skr\u00e4mma iv\u00e4g dem. Tack och lov sprids kiten innan de s\u00e4tter eld p\u00e5 pumpan.",
+                "text": "Patrullen går försiktigt i riktning mot de märkliga, orörliga ögonen. När p_l kommer närmare {PRONOUN/p_l/subject} {VERB/p_l/are/är} överväldigad av doften av Twolegs och rök. Vid närmare granskning verkar det som att dessa dumma Twoleg-satser försöker sätta eld på en pumpa med ett oroande ihåligt ansikte! p_l och r_c laddar Twoleg-kit, väsande, spottar och gör sitt bästa för att skrämma iväg dem. Tack och lov sprids kiten innan de sätter eld på pumpan.",
                 "exp": 10,
                 "weight": 5
             },
             {
-                "text": "N\u00e4r patrullen beger sig i riktning mot det olycksb\u00e5dande skenet av konstiga, or\u00f6rliga \u00f6gon, smyger sig r\u00f6kdoften p\u00e5 patrullen. s_c pilar fram och hittar r\u00f6kdoften som kommer fr\u00e5n en udda pumpa med n\u00e5got slags... ansikte? T\u00e4nker snabbt {PRONOUN/s_c/subject} {VERB/s_c/scratch/scratches} smuts i h\u00e5len p\u00e5 pumpan och sl\u00e4cker de sm\u00e5 l\u00e5gorna. Patrullen undrar vad i hela StarClans namn de tittar p\u00e5.",
+                "text": "När patrullen beger sig i riktning mot det olycksbådande skenet av konstiga, orörliga ögon, smyger sig rökdoften på patrullen. s_c pilar fram och hittar rökdoften som kommer från en udda pumpa med något slags... ansikte? Tänker snabbt {PRONOUN/s_c/subject} {VERB/s_c/scratch/scratches} smuts i hålen på pumpan och släcker de små lågorna. Patrullen undrar vad i hela StarClans namn de tittar på.",
                 "exp": 15,
                 "weight": 10,
                 "stat_trait": [
@@ -385,7 +385,7 @@
                 ]
             },
             {
-                "text": "Patrullen g\u00e5r nerv\u00f6st mot de oblinkande \u00f6gonen, os\u00e4ker p\u00e5 vad som v\u00e4ntar. N\u00e4r det m\u00e4rkliga f\u00f6rem\u00e5let kommer till synen, sl\u00e4pper s_c fram ett skratt! {PRONOUN/s_c/subject/CAP} {VERB/s_c/explain/explains} att detta \u00e4r en Twoleg-ritual som utf\u00f6rs runt b\u00f6rjan av leaf-bar. p_l \u00e4r glad \u00f6ver att ha en katt med s_c:s f\u00f6rst\u00e5else f\u00f6r Twolegs p\u00e5 denna patrull. Med denna kunskap undvek man s\u00e4kert on\u00f6dig panik!",
+                "text": "Patrullen går nervöst mot de oblinkande ögonen, osäker på vad som väntar. När det märkliga föremålet kommer till synen, släpper s_c fram ett skratt! {PRONOUN/s_c/subject/CAP} {VERB/s_c/explain/explains} att detta är en Twoleg-ritual som utförs runt början av leaf-bar. p_l är glad över att ha en katt med s_c:s förståelse för Twolegs på denna patrull. Med denna kunskap undvek man säkert onödig panik!",
                 "exp": 15,
                 "weight": 10,
                 "stat_skill": [
@@ -397,7 +397,7 @@
                 ]
             },
             {
-                "text": "Patrullen g\u00e5r nerv\u00f6st mot de oblinkande \u00f6gonen, os\u00e4ker p\u00e5 vad som v\u00e4ntar. N\u00e4r det konstiga f\u00f6rem\u00e5let kommer till synen, b\u00f6rjar s_c att brusa av oro. {PRONOUN/s_c/subject/CAP} kan se konstiga, dimmliknande Twolegs sv\u00e4va runt det gl\u00f6dande, oblinkande ansiktet p\u00e5 en... pumpa? Figurerna n\u00e4rmar sig s_c och k\u00f6r sina kalla, p\u00e4lsl\u00f6sa tassar genom {PRONOUN/s_c/subject} p\u00e4ls. s_c kan knappt h\u00f6ra r_c fr\u00e5ga {PRONOUN/s_c/object} varf\u00f6r {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} fryst p\u00e5 plats.",
+                "text": "Patrullen går nervöst mot de oblinkande ögonen, osäker på vad som väntar. När det konstiga föremålet kommer till synen, börjar s_c att brusa av oro. {PRONOUN/s_c/subject/CAP} kan se konstiga, dimmliknande Twolegs sväva runt det glödande, oblinkande ansiktet på en... pumpa? Figurerna närmar sig s_c och kör sina kalla, pälslösa tassar genom {PRONOUN/s_c/subject} päls. s_c kan knappt höra r_c fråga {PRONOUN/s_c/object} varför {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} fryst på plats.",
                 "exp": 20,
                 "weight": 10,
                 "stat_skill": [
@@ -407,12 +407,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Patrullen g\u00e5r f\u00f6rsiktigt i riktning mot de m\u00e4rkliga, or\u00f6rliga \u00f6gonen. N\u00e4r de kommer n\u00e4rmare vad som verkar vara n\u00e5gon sorts pumpa, dyker en grupp Twoleg-kit upp fr\u00e5n ingenstans och jagar bort de r\u00e4dda katterna! Patrullen k\u00f6r tills Twolegs slutar f\u00f6lja efter. Fl\u00e5sande och besegrade \u00e5terv\u00e4nder de till l\u00e4gret utan mycket information om det konstiga ansiktet.",
+                "text": "Patrullen går försiktigt i riktning mot de märkliga, orörliga ögonen. När de kommer närmare vad som verkar vara någon sorts pumpa, dyker en grupp Twoleg-kit upp från ingenstans och jagar bort de rädda katterna! Patrullen kör tills Twolegs slutar följa efter. Flåsande och besegrade återvänder de till lägret utan mycket information om det konstiga ansiktet.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "N\u00e4r r_c sakta kryper mot det st\u00f6rande ansiktet, huffar s_c av frustration. Svansen surrning, s_c kallar r_c ett mushj\u00e4rta och stampar i riktning mot de oblinkande \u00f6gonen utan en gnutta r\u00e4dsla. s_c rullar {PRONOUN/s_c/poss} med \u00f6gonen och sl\u00e5r omkull den ofarliga pumpan, ignorerar det konstiga ansiktet och lukten av r\u00f6k som sv\u00e4var runt den.",
+                "text": "När r_c sakta kryper mot det störande ansiktet, huffar s_c av frustration. Svansen surrning, s_c kallar r_c ett mushjärta och stampar i riktning mot de oblinkande ögonen utan en gnutta rädsla. s_c rullar {PRONOUN/s_c/poss} med ögonen och slår omkull den ofarliga pumpan, ignorerar det konstiga ansiktet och lukten av rök som svävar runt den.",
                 "exp": 5,
                 "weight": 20,
                 "stat_trait": [
@@ -424,7 +424,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r r_c sakta kryper mot det st\u00f6rande ansiktet, pilar s_c h\u00e4nsynsl\u00f6st fram f\u00f6r att f\u00e5 en n\u00e4rmare titt! {PRONOUN/s_c/subject/CAP} {VERB/s_c/crash/crashes} till n\u00e5gon konstig pumpa, sl\u00e5r omkull den och skymmer dess kusliga ansikte. Patrullen beger sig hem utan mycket kvar att unders\u00f6ka tack vare s_c:s uppt\u00e5g.",
+                "text": "När r_c sakta kryper mot det störande ansiktet, pilar s_c hänsynslöst fram för att få en närmare titt! {PRONOUN/s_c/subject/CAP} {VERB/s_c/crash/crashes} till någon konstig pumpa, slår omkull den och skymmer dess kusliga ansikte. Patrullen beger sig hem utan mycket kvar att undersöka tack vare s_c:s upptåg.",
                 "exp": 5,
                 "weight": 20,
                 "stat_trait": [
@@ -455,34 +455,34 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Patrullen snubblar \u00f6ver en m\u00e4rklig scen n\u00e4ra en Twolegplace: Twoleg-kit som reser fr\u00e5n h\u00e5la till h\u00e5la i f\u00e4rgglada skinn.",
-        "decline_text": "Patrullen beslutar att det \u00e4r b\u00e4st att inte st\u00f6ra denna speciella ritual.",
+        "intro_text": "Patrullen snubblar över en märklig scen nära en Twolegplace: Twoleg-kit som reser från håla till håla i färgglada skinn.",
+        "decline_text": "Patrullen beslutar att det är bäst att inte störa denna speciella ritual.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c, som \u00e4r s\u00e5 nyfiken, best\u00e4mmer sig f\u00f6r att se om {PRONOUN/r_c/subject} kan tyda inneb\u00f6rden bakom denna Twoleg-ritual. Efter en tid, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} \u00e4r det n\u00e5got slags v\u00e4nligt utbyte. Varje g\u00e5ng Twoleg-paketen g\u00e5r till h\u00e5lan f\u00e5r de lite byte fr\u00e5n de \u00e4ldre Twolegs. Patrullen noterar och forts\u00e4tter sin v\u00e4g, road av Twolegs m\u00e4rkliga seder.",
+                "text": "r_c, som är så nyfiken, bestämmer sig för att se om {PRONOUN/r_c/subject} kan tyda innebörden bakom denna Twoleg-ritual. Efter en tid, {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} är det något slags vänligt utbyte. Varje gång Twoleg-paketen går till hålan får de lite byte från de äldre Twolegs. Patrullen noterar och fortsätter sin väg, road av Twolegs märkliga seder.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c n\u00e4rmar sig f\u00f6rsiktigt Twoleg-kit, fascinerad av deras f\u00e4rgglada skinn. Till r_cs f\u00f6rv\u00e5ning erbjuder en av de sm\u00e5 Twolegs {PRONOUN/r_c/object} ett konstigt, gl\u00e4nsande f\u00f6rem\u00e5l. Den luktar inte precis som byte, men r_c best\u00e4mmer sig f\u00f6r att ta den tillbaka till l\u00e4gret f\u00f6r vidare utredning.",
+                "text": "r_c närmar sig försiktigt Twoleg-kit, fascinerad av deras färgglada skinn. Till r_cs förvåning erbjuder en av de små Twolegs {PRONOUN/r_c/object} ett konstigt, glänsande föremål. Den luktar inte precis som byte, men r_c bestämmer sig för att ta den tillbaka till lägret för vidare utredning.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "r_c best\u00e4mmer sig f\u00f6r att h\u00e4rma de sm\u00e5 Twolegs. N\u00e4rmar sig en st\u00f6rre Twoleg den, {PRONOUN/r_c/subject} {VERB/r_c/meow/meows} sakta vid ing\u00e5ngen. Tv\u00e5benet som \u00f6ppnar entr\u00e9n verkar road och ger en bit mat. Patrullen f\u00f6r den tillbaka till l\u00e4gret f\u00f6r vidare utredning.",
+                "text": "r_c bestämmer sig för att härma de små Twolegs. Närmar sig en större Twoleg den, {PRONOUN/r_c/subject} {VERB/r_c/meow/meows} sakta vid ingången. Tvåbenet som öppnar entrén verkar road och ger en bit mat. Patrullen för den tillbaka till lägret för vidare utredning.",
                 "exp": 10,
                 "weight": 20
             }
         ],
         "fail_outcomes": [
             {
-                "text": "r_c, som \u00e4r s\u00e5 nyfiken, best\u00e4mmer sig f\u00f6r att se om {PRONOUN/r_c/subject} kan tyda inneb\u00f6rden bakom denna Twoleg-ritual. Men efter en tid, {PRONOUN/r_c/subject} {VERB/r_c/give/gives} upp, drar slutsatsen att det bara \u00e4r en annan konstig Twoleg-sed som klankatter aldrig kommer att f\u00f6rst\u00e5.",
+                "text": "r_c, som är så nyfiken, bestämmer sig för att se om {PRONOUN/r_c/subject} kan tyda innebörden bakom denna Twoleg-ritual. Men efter en tid, {PRONOUN/r_c/subject} {VERB/r_c/give/gives} upp, drar slutsatsen att det bara är en annan konstig Twoleg-sed som klankatter aldrig kommer att förstå.",
                 "exp": 0,
                 "weight": 10
             },
             {
-                "text": "Patrullen f\u00f6rs\u00f6ker komma n\u00e4rmare Twoleg-paketen, men deras n\u00e4rvaro orsakar panik bland de sm\u00e5 varelserna. De st\u00f6rre tv\u00e5benen i n\u00e4rheten verkar uppr\u00f6rda, viftar med tassarna och stampar runt. Katterna drar sig snabbt tillbaka f\u00f6r att undvika att orsaka ytterligare st\u00f6rningar.",
+                "text": "Patrullen försöker komma närmare Twoleg-paketen, men deras närvaro orsakar panik bland de små varelserna. De större tvåbenen i närheten verkar upprörda, viftar med tassarna och stampar runt. Katterna drar sig snabbt tillbaka för att undvika att orsaka ytterligare störningar.",
                 "exp": 0,
                 "weight": 10
             }
@@ -507,17 +507,17 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "I utkanten av territoriet st\u00f6ter patrullen p\u00e5 ett h\u00f6gt, or\u00f6rligt tv\u00e5ben som \u00e4r rotat mitt p\u00e5 en \u00e5ker.",
-        "decline_text": "Patrullen vill inte riskera att g\u00e5 n\u00e4ra denna m\u00e4rkliga Twoleg och beger sig snabbt tillbaka till l\u00e4gret f\u00f6r att rapportera om den udda iakttagelsen.",
+        "intro_text": "I utkanten av territoriet stöter patrullen på ett högt, orörligt tvåben som är rotat mitt på en åker.",
+        "decline_text": "Patrullen vill inte riskera att gå nära denna märkliga Twoleg och beger sig snabbt tillbaka till lägret för att rapportera om den udda iakttagelsen.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c n\u00e4rmar sig tveksamt tv\u00e5benet, p\u00e4lsbristande och p\u00e5 vakt. Det verkar inte l\u00e4gga m\u00e4rke till {PRONOUN/r_c/object} \u00e4nnu. Tass f\u00f6r tass, r_c tum fram\u00e5t, men inser att n\u00e5got verkar fel. \u00c4r det h\u00e4r Twoleg... ens vid liv? Efter en snabb unders\u00f6kning hittar r_c h\u00f6 som sticker ut ur Twolegs p\u00e4ls. Vad udda. r_c rapporterar tillbaka med {PRONOUN/r_c/poss} resultat.",
+                "text": "r_c närmar sig tveksamt tvåbenet, pälsbristande och på vakt. Det verkar inte lägga märke till {PRONOUN/r_c/object} ännu. Tass för tass, r_c tum framåt, men inser att något verkar fel. Är det här Twoleg... ens vid liv? Efter en snabb undersökning hittar r_c hö som sticker ut ur Twolegs päls. Vad udda. r_c rapporterar tillbaka med {PRONOUN/r_c/poss} resultat.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "s_c smyger upp bakom Twoleg. Med ett m\u00e4ktigt vr\u00e5l hoppar s_c upp p\u00e5 ryggen och {PRONOUN/s_c/poss} momentum skickar tv\u00e5benet att falla till marken med en gigantisk duns.",
+                "text": "s_c smyger upp bakom Twoleg. Med ett mäktigt vrål hoppar s_c upp på ryggen och {PRONOUN/s_c/poss} momentum skickar tvåbenet att falla till marken med en gigantisk duns.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -525,7 +525,7 @@
                 ]
             },
             {
-                "text": "s_c stoppar patrullen och drar ihop \u00f6gonen f\u00f6r {PRONOUN/s_c/poss}. Det \u00e4r inte en Twoleg! {PRONOUN/s_c/subject/CAP} st\u00f6tte p\u00e5 en tidigare under {PRONOUN/s_c/object} tid utanf\u00f6r klanen. Det \u00e4r en 'skr\u00e4mma', {PRONOUN/s_c/subject} {VERB/s_c/explain/explains}, menad att skydda Twoleg-f\u00e4lten fr\u00e5n skada. Patrullen forts\u00e4tter sin v\u00e4g och ger f\u00e5gelskr\u00e4mman en bred koj.",
+                "text": "s_c stoppar patrullen och drar ihop ögonen för {PRONOUN/s_c/poss}. Det är inte en Twoleg! {PRONOUN/s_c/subject/CAP} stötte på en tidigare under {PRONOUN/s_c/object} tid utanför klanen. Det är en 'skrämma', {PRONOUN/s_c/subject} {VERB/s_c/explain/explains}, menad att skydda Twoleg-fälten från skada. Patrullen fortsätter sin väg och ger fågelskrämman en bred koj.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -536,12 +536,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Patrullen best\u00e4mmer sig f\u00f6r att inte ta n\u00e5gra risker och s\u00e4tter upp ett bakh\u00e5ll runt Twoleg. De v\u00e4ntar... och v\u00e4ntar... men Twoleg g\u00f6r inga r\u00f6relser f\u00f6r att attackera. Slutligen m\u00e4rker r_c att Twoleg inte ens \u00e4r en Twoleg alls! De sl\u00f6sade bort all den tiden f\u00f6r ingenting.",
+                "text": "Patrullen bestämmer sig för att inte ta några risker och sätter upp ett bakhåll runt Twoleg. De väntar... och väntar... men Twoleg gör inga rörelser för att attackera. Slutligen märker r_c att Twoleg inte ens är en Twoleg alls! De slösade bort all den tiden för ingenting.",
                 "exp": 0,
                 "weight": 10
             },
             {
-                "text": "s_c smyger upp bakom Twoleg. Med ett m\u00e4ktigt vr\u00e5l hoppar s_c upp p\u00e5 ryggen och {PRONOUN/s_c/poss} fart skickar b\u00e5da till marken. s_c hamnar t\u00e4ckt av h\u00f6, {PRONOUN/s_c/poss} klor sjunkit in i en ofarlig f\u00e5gelskr\u00e4mma.",
+                "text": "s_c smyger upp bakom Twoleg. Med ett mäktigt vrål hoppar s_c upp på ryggen och {PRONOUN/s_c/poss} fart skickar båda till marken. s_c hamnar täckt av hö, {PRONOUN/s_c/poss} klor sjunkit in i en ofarlig fågelskrämma.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": [
@@ -574,16 +574,16 @@
         "relationship_constraint": [
             "dislike_20"
         ],
-        "intro_text": "p_l och r_c har br\u00e5kat oavbrutet hela tiden de har patrullerat.",
-        "decline_text": "Eftersom de inte kan arbeta tillsammans \u00e5terv\u00e4nder de tv\u00e5 till l\u00e4gret.",
+        "intro_text": "p_l och r_c har bråkat oavbrutet hela tiden de har patrullerat.",
+        "decline_text": "Eftersom de inte kan arbeta tillsammans återvänder de två till lägret.",
         "success_outcomes": [
             {
-                "text": "Trots br\u00e5ket lyckas de tv\u00e5 patrullera gr\u00e4nsen utan incidenter.",
+                "text": "Trots bråket lyckas de två patrullera gränsen utan incidenter.",
                 "exp": 10,
                 "weight": 20
             },
             {
-                "text": "Vid ett tillf\u00e4lle under br\u00e5ket b\u00f6rjar de tv\u00e5 komma till en b\u00e4ttre f\u00f6rst\u00e5else f\u00f6r varandra, vilket resulterar i att de skapar lite respekt f\u00f6r varandra.",
+                "text": "Vid ett tillfälle under bråket börjar de två komma till en bättre förståelse för varandra, vilket resulterar i att de skapar lite respekt för varandra.",
                 "exp": 10,
                 "weight": 10,
                 "art": "gen_train_talkingWW",
@@ -604,7 +604,7 @@
                 ]
             },
             {
-                "text": "p_l och r_c har br\u00e5kat hela morgonen. Men n\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/spot/spots} skuggan av en skurk som faller p\u00e5 r_c, {PRONOUN/p_l/subject} {VERB/p_l/react/reacts} utan eftertanke, hoppar fram\u00e5t, klor sliter in i fiendens rygg och v\u00e4nder bort dem fr\u00e5n r_c med ett v\u00e5ldsamt morrande. r_c \u00e4r sv\u00e5rt skadad, men kommer att leva tack vare att p_l sl\u00e4par {PRONOUN/r_c/object} tillbaka till l\u00e4gret.",
+                "text": "p_l och r_c har bråkat hela morgonen. Men när {PRONOUN/p_l/subject} {VERB/p_l/spot/spots} skuggan av en skurk som faller på r_c, {PRONOUN/p_l/subject} {VERB/p_l/react/reacts} utan eftertanke, hoppar framåt, klor sliter in i fiendens rygg och vänder bort dem från r_c med ett våldsamt morrande. r_c är svårt skadad, men kommer att leva tack vare att p_l släpar {PRONOUN/r_c/object} tillbaka till lägret.",
                 "exp": 10,
                 "weight": 5,
                 "art": "gen_battle_rogue_warrior",
@@ -620,8 +620,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c dog av {PRONOUN/r_c/poss} skador efter ett slagsm\u00e5l med en skurk.",
-                    "scar": "m_c blev \u00e4rrad i ett slagsm\u00e5l med en skurk."
+                    "reg_death": "m_c dog av {PRONOUN/r_c/poss} skador efter ett slagsmål med en skurk.",
+                    "scar": "m_c blev ärrad i ett slagsmål med en skurk."
                 },
                 "relationships": [
                     {
@@ -641,7 +641,7 @@
                 ]
             },
             {
-                "text": "s_c kan inte motst\u00e5 frestelsen att g\u00f6ra spetsiga kommentarer {PRONOUN/s_c/subject} {VERB/s_c/know/knows} \u00e4r s\u00e5rande f\u00f6r r_c. Men n\u00e4r r_c b\u00f6rjar gr\u00e5ta, prickar {PRONOUN/s_c/poss} av skam, och {PRONOUN/s_c/subject} ber obekv\u00e4mt om urs\u00e4kt.",
+                "text": "s_c kan inte motstå frestelsen att göra spetsiga kommentarer {PRONOUN/s_c/subject} {VERB/s_c/know/knows} är sårande för r_c. Men när r_c börjar gråta, prickar {PRONOUN/s_c/poss} av skam, och {PRONOUN/s_c/subject} ber obekvämt om ursäkt.",
                 "exp": 10,
                 "weight": 10,
                 "can_have_stat": [
@@ -681,7 +681,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r s_c kastar sig \u00f6ver en bugg, kan r_c inte l\u00e5ta bli att fatta att det \u00e4r precis vad {PRONOUN/r_c/subject} ogillar med s_c. s_c svarar att r_c beh\u00f6ver l\u00e4ra sig att l\u00e4tta upp och njuta av livet. r_c s\u00e4ger att {PRONOUN/r_c/subject} {VERB/r_c/do/does} vet hur man har kul, och s_c s\u00e4ger att man ska bevisa det, vilket resulterar i en improviserad t\u00e4vling f\u00f6r att se vem som kan f\u00e5nga flest buggar.",
+                "text": "När s_c kastar sig över en bugg, kan r_c inte låta bli att fatta att det är precis vad {PRONOUN/r_c/subject} ogillar med s_c. s_c svarar att r_c behöver lära sig att lätta upp och njuta av livet. r_c säger att {PRONOUN/r_c/subject} {VERB/r_c/do/does} vet hur man har kul, och s_c säger att man ska bevisa det, vilket resulterar i en improviserad tävling för att se vem som kan fånga flest buggar.",
                 "exp": 10,
                 "weight": 10,
                 "art": "fst_hunt_fun3",
@@ -713,12 +713,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Br\u00e5ket blir f\u00f6r mycket och r_c stormar tillbaka till l\u00e4gret irriterad.",
+                "text": "Bråket blir för mycket och r_c stormar tillbaka till lägret irriterad.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "Medan de br\u00e5kar, r_c resor och p_l snickers, tj\u00e4nar r_c's irritation.",
+                "text": "Medan de bråkar, r_c resor och p_l snickers, tjänar r_c's irritation.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -748,7 +748,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r duon patrullerar blir de \u00f6verfallna av en skurk! r_c \u00e4r sv\u00e5rt skadad och dukar f\u00f6r s\u00e5ren n\u00e4r p_l flyr och l\u00e4mnar {PRONOUN/r_c/object} bakom sig.",
+                "text": "När duon patrullerar blir de överfallna av en skurk! r_c är svårt skadad och dukar för såren när p_l flyr och lämnar {PRONOUN/r_c/object} bakom sig.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_dead_cat",
@@ -756,12 +756,12 @@
                     "r_c"
                 ],
                 "history_text": {
-                    "reg_death": "m_c dukade efter av skada efter att ha blivit \u00f6verfallen av en skurk och \u00f6vergiven p\u00e5 patrull.",
-                    "lead_death": "dukade av f\u00f6r skada efter att ha blivit \u00f6vergiven och \u00f6vergiven"
+                    "reg_death": "m_c dukade efter av skada efter att ha blivit överfallen av en skurk och övergiven på patrull.",
+                    "lead_death": "dukade av för skada efter att ha blivit övergiven och övergiven"
                 }
             },
             {
-                "text": "s_c kan inte motst\u00e5 frestelsen att g\u00f6ra spetsiga kommentarer {PRONOUN/s_c/subject} {VERB/s_c/know/knows} \u00e4r s\u00e5rande f\u00f6r r_c. Men n\u00e4r en verbal hulling sjunker f\u00f6r djupt och r_c b\u00f6rjar gr\u00e5ta, piskar s_c svansen och kn\u00e4pper p\u00e5 r_c f\u00f6r att fokusera p\u00e5 patrullering. r_c springer iv\u00e4g och l\u00e4mnar s_c f\u00f6r att avsluta patrullen ensam.",
+                "text": "s_c kan inte motstå frestelsen att göra spetsiga kommentarer {PRONOUN/s_c/subject} {VERB/s_c/know/knows} är sårande för r_c. Men när en verbal hulling sjunker för djupt och r_c börjar gråta, piskar s_c svansen och knäpper på r_c för att fokusera på patrullering. r_c springer iväg och lämnar s_c för att avsluta patrullen ensam.",
                 "exp": 0,
                 "weight": 10,
                 "can_have_stat": [
@@ -813,7 +813,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r s_c kastar sig \u00f6ver en bugg, kan r_c inte l\u00e5ta bli att fatta att det \u00e4r precis vad {PRONOUN/r_c/subject} ogillar med s_c. s_c svarar att r_c beh\u00f6ver l\u00e4ra sig att l\u00e4tta upp och njuta av livet. r_c s\u00e4ger att {PRONOUN/r_c/subject} {VERB/r_c/do/does} vet hur man har roligt, och s_c s\u00e4ger f\u00f6r att bevisa det, men r_c s\u00e4ger att {PRONOUN/r_c/subject} {VERB/r_c/do/ beh\u00f6ver} inte bevisa n\u00e5got f\u00f6r att s_c.",
+                "text": "När s_c kastar sig över en bugg, kan r_c inte låta bli att fatta att det är precis vad {PRONOUN/r_c/subject} ogillar med s_c. s_c svarar att r_c behöver lära sig att lätta upp och njuta av livet. r_c säger att {PRONOUN/r_c/subject} {VERB/r_c/do/does} vet hur man har roligt, och s_c säger för att bevisa det, men r_c säger att {PRONOUN/r_c/subject} {VERB/r_c/do/ behöver} inte bevisa något för att s_c.",
                 "exp": 0,
                 "weight": 10,
                 "can_have_stat": [

@@ -2,15 +2,15 @@
     {
         "id": "warrior_gen_alive_kits",
         "thoughts": [
-            "H\u00e5ller koll p\u00e5 kiten",
-            "Till\u00e5ter motvilligt kit att spela med {PRONOUN/m_c/poss} svans",
+            "Håller koll på kiten",
+            "Tillåter motvilligt kit att spela med {PRONOUN/m_c/poss} svans",
             "Blev repad till att spela mossboll med kiten",
-            "Blir bett av r_c att l\u00e4ra {PRONOUN/r_c/object} n\u00e5gra drag, trots att r_c \u00e4r ett kit",
-            "Blev p\u00e5 n\u00e5got s\u00e4tt fast i att titta p\u00e5 r_c f\u00f6r dagen",
-            "D\u00f6r p\u00e5 teater efter att r_c dr\u00e4par {PRONOUN/m_c/object}",
-            "M\u00e5ste l\u00e5tsas vara en tillf\u00e5ngatagen krigare f\u00f6r r_c:s spel",
-            "Utger sig f\u00f6r att vara en stor, ond krigare f\u00f6r r_c",
-            "Gav en gr\u00e4vlingsritt till r_c, och blir nu bett av fler kattungar att g\u00f6ra detsamma"
+            "Blir bett av r_c att lära {PRONOUN/r_c/object} några drag, trots att r_c är ett kit",
+            "Blev på något sätt fast i att titta på r_c för dagen",
+            "Dör på teater efter att r_c dräpar {PRONOUN/m_c/object}",
+            "Måste låtsas vara en tillfångatagen krigare för r_c:s spel",
+            "Utger sig för att vara en stor, ond krigare för r_c",
+            "Gav en grävlingsritt till r_c, och blir nu bett av fler kattungar att göra detsamma"
         ],
         "random_status_constraint": [
             "kitten"
@@ -22,7 +22,7 @@
     {
         "id": "warrior_gen_alive_apprentice",
         "thoughts": [
-            "Har l\u00e4rlingarna v\u00e4ldigt engagerade i en v\u00e4ldigt, v\u00e4ldigt l\u00e5ng ber\u00e4ttelse"
+            "Har lärlingarna väldigt engagerade i en väldigt, väldigt lång berättelse"
         ],
         "random_status_constraint": [
             "apprentice"
@@ -43,7 +43,7 @@
     {
         "id": "gen_older_warrior",
         "thoughts": [
-            "F\u00f6rs\u00f6ker f\u00f6reg\u00e5 med gott exempel f\u00f6r yngre katter"
+            "Försöker föregå med gott exempel för yngre katter"
         ],
         "main_age_constraint": [
             "senior",
@@ -57,8 +57,8 @@
     {
         "id": "warrior_gen_medicine_cat",
         "thoughts": [
-            "Planerar att bes\u00f6ka medicinkatten",
-            "Hj\u00e4lper till att eskortera medicinkatten f\u00f6r att samla \u00f6rter"
+            "Planerar att besöka medicinkatten",
+            "Hjälper till att eskortera medicinkatten för att samla örter"
         ],
         "random_status_constraint": [
             "medicine cat"
@@ -70,7 +70,7 @@
     {
         "id": "warrior_gen_warrior",
         "thoughts": [
-            "Sparrar med n\u00e5gra klankamrater",
+            "Sparrar med några klankamrater",
             "Vill kritisera r_c:s kamptekniker",
             "Vill komplimentera r_c:s kamptekniker"
         ],
@@ -87,7 +87,7 @@
             "forest"
         ],
         "thoughts": [
-            "\u00d6nskar att {PRONOUN/m_c/poss} skinn skulle bli silver som m\u00e5nen, precis som vargarna"
+            "Önskar att {PRONOUN/m_c/poss} skinn skulle bli silver som månen, precis som vargarna"
         ],
         "main_trait_constraint": [
             "ambitious"
@@ -96,16 +96,16 @@
     {
         "id": "ambitious_warrior",
         "thoughts": [
-            "Sk\u00f6ter h\u00f6gt om att ha besegrat en fiende krigare p\u00e5 patrull h\u00e4romdagen",
-            "Var noga med att vakna tidigt f\u00f6r att anm\u00e4la sig till gryningspatrullen",
-            "Har f\u00e5ngat flest byten p\u00e5 de senaste jaktpatrullerna",
-            "Har tagit p\u00e5 extra patruller den senaste tiden",
-            "Suger upp till ledaren och st\u00e4llf\u00f6retr\u00e4daren genom att erbjuda sig att leda varje patrull",
-            "Beger sig f\u00f6r att f\u00e5nga fem stycken fresh-kill idag",
-            "Utv\u00e4rderar hur {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} kommer att sk\u00e4rpa upp {PRONOUN/m_c/poss} stridsf\u00e4rdigheter",
-            "F\u00f6rs\u00f6ker efterlikna ledarens kroppsspr\u00e5k n\u00e4r han pratar med yngre katter",
-            "K\u00e4nns otillr\u00e4ckligt \u00f6ver att inte vara n\u00e5got annat \u00e4n en vanlig krigare",
-            "Kan {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} en shoo-in f\u00f6r st\u00e4llf\u00f6retr\u00e4dare"
+            "Sköter högt om att ha besegrat en fiende krigare på patrull häromdagen",
+            "Var noga med att vakna tidigt för att anmäla sig till gryningspatrullen",
+            "Har fångat flest byten på de senaste jaktpatrullerna",
+            "Har tagit på extra patruller den senaste tiden",
+            "Suger upp till ledaren och ställföreträdaren genom att erbjuda sig att leda varje patrull",
+            "Beger sig för att fånga fem stycken fresh-kill idag",
+            "Utvärderar hur {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} kommer att skärpa upp {PRONOUN/m_c/poss} stridsfärdigheter",
+            "Försöker efterlikna ledarens kroppsspråk när han pratar med yngre katter",
+            "Känns otillräckligt över att inte vara något annat än en vanlig krigare",
+            "Kan {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} en shoo-in för ställföreträdare"
         ],
         "main_trait_constraint": [
             "ambitious"
@@ -114,9 +114,9 @@
     {
         "id": "careful_warrior",
         "thoughts": [
-            "St\u00e5r plikttroget vakt utanf\u00f6r l\u00e4gret",
-            "\u00c5ker tillbaka f\u00f6r att kolla p\u00e5 en gammal r\u00e4vh\u00e5la {PRONOUN/m_c/subject} som uppt\u00e4cktes ig\u00e5r, bara f\u00f6r s\u00e4kerhets skull",
-            "Coachar andra krigare att ta en mer bevakad h\u00e5llning f\u00f6r sin teknik"
+            "Står plikttroget vakt utanför lägret",
+            "Åker tillbaka för att kolla på en gammal rävhåla {PRONOUN/m_c/subject} som upptäcktes igår, bara för säkerhets skull",
+            "Coachar andra krigare att ta en mer bevakad hållning för sin teknik"
         ],
         "main_trait_constraint": [
             "careful"
@@ -125,7 +125,7 @@
     {
         "id": "careful_warrior_to_deputy",
         "thoughts": [
-            "Fr\u00e5gar st\u00e4llf\u00f6retr\u00e4daren om att skicka ut n\u00e5gra fler jaktpatruller - bara f\u00f6r att vara s\u00e4ker"
+            "Frågar ställföreträdaren om att skicka ut några fler jaktpatruller - bara för att vara säker"
         ],
         "main_trait_constraint": [
             "careful"
@@ -140,10 +140,10 @@
     {
         "id": "childish_warrior",
         "thoughts": [
-            "gn\u00e4ller om klanens plikter",
-            "St\u00e4nker i en vattenp\u00f6l under en patrull",
+            "gnäller om klanens plikter",
+            "Stänker i en vattenpöl under en patrull",
             "Hoppar runt medan han patrullerar",
-            "Klagar p\u00e5 att bli skickad p\u00e5 gryningspatrull"
+            "Klagar på att bli skickad på gryningspatrull"
         ],
         "main_trait_constraint": [
             "childish"
@@ -152,15 +152,15 @@
     {
         "id": "compassionate_warrior",
         "thoughts": [
-            "V\u00e4ntar t\u00e5lmodigt p\u00e5 att en kanin ska komma ut ur sin h\u00e5la och s\u00e5 sm\u00e5ningom f\u00e5nga den",
-            "Erbj\u00f6d sig att g\u00e5 l\u00e4ngst fram i patrullen",
-            "Erbjuds att sticka in {PRONOUN/m_c/poss} n\u00e4sa i en gr\u00e4vling f\u00f6r att kontrollera om gr\u00e4vlingen fortfarande \u00e4r d\u00e4r",
-            "Erbj\u00f6ds att sticka in {PRONOUN/m_c/poss} n\u00e4sa i ett r\u00e4vh\u00e5la f\u00f6r att kontrollera om r\u00e4ven fortfarande \u00e4r d\u00e4r",
-            "Var frivillig f\u00f6r extra patruller",
-            "Anst\u00e4llde sig frivilligt f\u00f6r extra uppgifter",
-            "Erbjudit sig att st\u00e5 vakt \u00f6ver l\u00e4gret",
-            "Delar de b\u00e4sta jaktplatserna med de andra krigarna",
-            "G\u00f6r {PRONOUN/m_c/poss} klankamraters sysslor med ett leende p\u00e5 ansiktet av {PRONOUN/m_c/poss}"
+            "Väntar tålmodigt på att en kanin ska komma ut ur sin håla och så småningom fånga den",
+            "Erbjöd sig att gå längst fram i patrullen",
+            "Erbjuds att sticka in {PRONOUN/m_c/poss} näsa i en grävling för att kontrollera om grävlingen fortfarande är där",
+            "Erbjöds att sticka in {PRONOUN/m_c/poss} näsa i ett rävhåla för att kontrollera om räven fortfarande är där",
+            "Var frivillig för extra patruller",
+            "Anställde sig frivilligt för extra uppgifter",
+            "Erbjudit sig att stå vakt över lägret",
+            "Delar de bästa jaktplatserna med de andra krigarna",
+            "Gör {PRONOUN/m_c/poss} klankamraters sysslor med ett leende på ansiktet av {PRONOUN/m_c/poss}"
         ],
         "main_trait_constraint": [
             "compassionate"
@@ -169,7 +169,7 @@
     {
         "id": "compassionate_warrior_to_living_apprentices",
         "thoughts": [
-            "Tar r_cs plats i gryningspatrullen s\u00e5 att {PRONOUN/r_c/subject} kan sova ut lite"
+            "Tar r_cs plats i gryningspatrullen så att {PRONOUN/r_c/subject} kan sova ut lite"
         ],
         "random_status_constraint": [
             "apprentice"
@@ -184,12 +184,12 @@
     {
         "id": "daring_warrior",
         "thoughts": [
-            "Utmanar vilken Clanmate {PRONOUN/m_c/subject} som helst till en sparringmatch... med minimal rekryteringsframg\u00e5ng",
-            "Utmanar n\u00e5gra klankamrater till en sparringmatch, tv\u00e5-mot-en!",
-            "Slog mot en orm p\u00e5 en patrull nyligen och flydde",
-            "G\u00e5r l\u00e4ngs kanten av en mycket h\u00f6g klippa",
-            "Undvek nyligen ett monster p\u00e5 Thunderpath med skinnet av {PRONOUN/m_c/poss} t\u00e4nder!",
-            "Utmanar en klankamrat till en v\u00e4nlig sparring"
+            "Utmanar vilken Clanmate {PRONOUN/m_c/subject} som helst till en sparringmatch... med minimal rekryteringsframgång",
+            "Utmanar några klankamrater till en sparringmatch, två-mot-en!",
+            "Slog mot en orm på en patrull nyligen och flydde",
+            "Går längs kanten av en mycket hög klippa",
+            "Undvek nyligen ett monster på Thunderpath med skinnet av {PRONOUN/m_c/poss} tänder!",
+            "Utmanar en klankamrat till en vänlig sparring"
         ],
         "main_trait_constraint": [
             "daring"
@@ -199,9 +199,9 @@
         "id": "fierce_warrior",
         "thoughts": [
             "Visar upp {PRONOUN/m_c/poss} stridsdrag",
-            "Erbj\u00f6d sig att leda en gr\u00e4nspatrull idag",
-            "Har v\u00e4ntat p\u00e5 att ett krig ska f\u00f6rklaras",
-            "F\u00f6rst\u00e5r inte varf\u00f6r de andra krigarna \u00e4r tveksamma till att tr\u00e4na med {PRONOUN/m_c/object}"
+            "Erbjöd sig att leda en gränspatrull idag",
+            "Har väntat på att ett krig ska förklaras",
+            "Förstår inte varför de andra krigarna är tveksamma till att träna med {PRONOUN/m_c/object}"
         ],
         "main_trait_constraint": [
             "fierce"
@@ -210,7 +210,7 @@
     {
         "id": "fierce_warrior_to_living_deputy",
         "thoughts": [
-            "Blev nyligen \u00e5talad av st\u00e4llf\u00f6retr\u00e4daren f\u00f6r h\u00e4nsynsl\u00f6st beteende ute p\u00e5 patrull"
+            "Blev nyligen åtalad av ställföreträdaren för hänsynslöst beteende ute på patrull"
         ],
         "random_status_constraint": [
             "deputy"
@@ -225,7 +225,7 @@
     {
         "id": "fierce_warrior_to_living_medcat",
         "thoughts": [
-            "Fr\u00e5gar medicinkatten om \u00f6rter som kan hj\u00e4lpa {PRONOUN/m_c/object} i strid"
+            "Frågar medicinkatten om örter som kan hjälpa {PRONOUN/m_c/object} i strid"
         ],
         "random_status_constraint": [
             "medicine cat",
@@ -241,7 +241,7 @@
     {
         "id": "fierce_warrior_to_living_apprentices",
         "thoughts": [
-            "Argumenterar f\u00f6r mer stridstr\u00e4ning f\u00f6r l\u00e4rlingarna"
+            "Argumenterar för mer stridsträning för lärlingarna"
         ],
         "random_status_constraint": [
             "apprentice"
@@ -256,11 +256,11 @@
     {
         "id": "loyal_warrior_to_leader",
         "thoughts": [
-            "Lyssnar intensivt p\u00e5 ledaren",
-            "Ber\u00e4ttar f\u00f6r ledaren detaljer om {PRONOUN/m_c/poss} senaste patrull",
-            "Lyssnade p\u00e5 ledarens order nyligen, trots {PRONOUN/m_c/poss} egna tvivel",
+            "Lyssnar intensivt på ledaren",
+            "Berättar för ledaren detaljer om {PRONOUN/m_c/poss} senaste patrull",
+            "Lyssnade på ledarens order nyligen, trots {PRONOUN/m_c/poss} egna tvivel",
             "Proklamerade {PRONOUN/m_c/poss} orubblig lojalitet till ledaren",
-            "\u00c4r misst\u00e4nksam mot en klankamrat som ifr\u00e5gas\u00e4tter sin ledare"
+            "Är misstänksam mot en klankamrat som ifrågasätter sin ledare"
         ],
         "main_trait_constraint": [
             "loyal"
@@ -275,8 +275,8 @@
     {
         "id": "loyal_warrior_to_deputy",
         "thoughts": [
-            "Lyssnar intensivt p\u00e5 st\u00e4llf\u00f6retr\u00e4daren",
-            "Ber\u00e4ttar f\u00f6r bitr\u00e4dande detaljer om {PRONOUN/m_c/poss} senaste patrull",
+            "Lyssnar intensivt på ställföreträdaren",
+            "Berättar för biträdande detaljer om {PRONOUN/m_c/poss} senaste patrull",
             "Ger konstruktiv kritik till suppleanten"
         ],
         "main_trait_constraint": [
@@ -293,8 +293,8 @@
         "id": "responsible_warrior",
         "thoughts": [
             "Ser till att {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} har gjort alla {PRONOUN/m_c/poss} dagliga uppgifter",
-            "Erbjuder sig att leda n\u00e4sta patrull ut",
-            "Volont\u00e4rer att leda en patrull"
+            "Erbjuder sig att leda nästa patrull ut",
+            "Volontärer att leda en patrull"
         ],
         "main_trait_constraint": [
             "responsible"
@@ -303,7 +303,7 @@
     {
         "id": "righteous_warrior",
         "thoughts": [
-            "V\u00e4grar att f\u00f6lja st\u00e4llf\u00f6retr\u00e4darens senaste order p\u00e5 grund av {PRONOUN/m_c/poss} egen moral"
+            "Vägrar att följa ställföreträdarens senaste order på grund av {PRONOUN/m_c/poss} egen moral"
         ],
         "main_trait_constraint": [
             "righteous"
@@ -318,8 +318,8 @@
     {
         "id": "strict_warrior",
         "thoughts": [
-            "H\u00e5ller p\u00e5 med ett ganska rigor\u00f6st tr\u00e4ningspass f\u00f6r de yngre krigarna",
-            "\u00c4r stolt \u00f6ver hur v\u00e4lsk\u00f6tta {PRONOUN/m_c/poss} patruller alltid \u00e4r"
+            "Håller på med ett ganska rigoröst träningspass för de yngre krigarna",
+            "Är stolt över hur välskötta {PRONOUN/m_c/poss} patruller alltid är"
         ],
         "main_trait_constraint": [
             "strict"
@@ -328,7 +328,7 @@
     {
         "id": "troublesome_warrior",
         "thoughts": [
-            "\u00c5t en mus n\u00e4r jag var ute p\u00e5 patrull"
+            "Åt en mus när jag var ute på patrull"
         ],
         "main_trait_constraint": [
             "troublesome"
@@ -337,7 +337,7 @@
     {
         "id": "troublesome_warrior_to_deputy",
         "thoughts": [
-            "F\u00f6rel\u00e4ses \u00e4nnu en g\u00e5ng av suppleanten"
+            "Föreläses ännu en gång av suppleanten"
         ],
         "main_trait_constraint": [
             "troublesome"
@@ -352,13 +352,13 @@
     {
         "id": "warrior_parent_alive_kits",
         "thoughts": [
-            "Spelar ivrigt spel med r_c och l\u00e5ter {PRONOUN/r_c/object} vinna varje g\u00e5ng",
-            "V\u00e4cks av att r_c hoppar p\u00e5 {PRONOUN/m_c/object}, tigger om n\u00e5got",
-            "Grooms r_c reng\u00f6r och g\u00f6r {PRONOUN/r_c/object} presentabel",
-            "B\u00e4r r_c till barnkammaren eftersom {PRONOUN/r_c/subject} somnade",
-            "Sk\u00e4ller ut r_c f\u00f6r att n\u00e4stan vara h\u00e4nsynsl\u00f6s",
-            "Hoppas att {PRONOUN/m_c/poss} kit inte hamnar i f\u00f6r mycket problem",
-            "\u00c4r imponerad \u00f6ver hur snabbt r_c v\u00e4xer"
+            "Spelar ivrigt spel med r_c och låter {PRONOUN/r_c/object} vinna varje gång",
+            "Väcks av att r_c hoppar på {PRONOUN/m_c/object}, tigger om något",
+            "Grooms r_c rengör och gör {PRONOUN/r_c/object} presentabel",
+            "Bär r_c till barnkammaren eftersom {PRONOUN/r_c/subject} somnade",
+            "Skäller ut r_c för att nästan vara hänsynslös",
+            "Hoppas att {PRONOUN/m_c/poss} kit inte hamnar i för mycket problem",
+            "Är imponerad över hur snabbt r_c växer"
         ],
         "relationship_constraint": [
             "parent/child"
@@ -373,8 +373,8 @@
     {
         "id": "warrior_formerly_a_loner_alive_kits",
         "thoughts": [
-            "Ber\u00e4ttar f\u00f6r kiten om {PRONOUN/m_c/poss} dagar som ensamvarg",
-            "Blir bett av r_c att ber\u00e4tta f\u00f6r {PRONOUN/r_c/object} om hur det var att vara ensam"
+            "Berättar för kiten om {PRONOUN/m_c/poss} dagar som ensamvarg",
+            "Blir bett av r_c att berätta för {PRONOUN/r_c/object} om hur det var att vara ensam"
         ],
         "main_backstory_constraint": [
             "loner1",
@@ -394,8 +394,8 @@
     {
         "id": "warrior_formerly_a_rogue_alive_kits",
         "thoughts": [
-            "Ber\u00e4ttar f\u00f6r kiten om {PRONOUN/m_c/poss} dagar som en skurk",
-            "Blir bett av r_c att ber\u00e4tta f\u00f6r {PRONOUN/r_c/object} mer hur det var att vara en skurk"
+            "Berättar för kiten om {PRONOUN/m_c/poss} dagar som en skurk",
+            "Blir bett av r_c att berätta för {PRONOUN/r_c/object} mer hur det var att vara en skurk"
         ],
         "main_backstory_constraint": [
             "rogue1",

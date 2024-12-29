@@ -16,17 +16,17 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c tittar p\u00e5 den lilla b\u00e4cken {PRONOUN/r_c/subject} {VERB/r_c/have/has} att korsa f\u00f6r att forts\u00e4tta markera gr\u00e4nsen, och {VERB/r_c/debate/debates} stannar f\u00f6r ett snabbt dopp f\u00f6r att svalka sig.",
-        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att forts\u00e4tta med patrullen ist\u00e4llet.",
+        "intro_text": "r_c tittar på den lilla bäcken {PRONOUN/r_c/subject} {VERB/r_c/have/has} att korsa för att fortsätta markera gränsen, och {VERB/r_c/debate/debates} stannar för ett snabbt dopp för att svalka sig.",
+        "decline_text": "r_c bestämmer sig för att fortsätta med patrullen istället.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/stop/stops} f\u00f6r att simma en stund, och snart \u00e4r {VERB/r_c/feel/feels} f\u00f6ryngrad, sval och redo att forts\u00e4tta att markera gr\u00e4nsen.",
+                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/stop/stops} för att simma en stund, och snart är {VERB/r_c/feel/feels} föryngrad, sval och redo att fortsätta att markera gränsen.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/stick/sticks} till uppgiften {PRONOUN/r_c/poss}, men ist\u00e4llet f\u00f6r att hoppa \u00f6ver den lilla b\u00e4cken, vadar r_c genom den. Vattnet kyler {PRONOUN/r_c/poss} tassar behagligt.",
+                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/stick/sticks} till uppgiften {PRONOUN/r_c/poss}, men istället för att hoppa över den lilla bäcken, vadar r_c genom den. Vattnet kyler {PRONOUN/r_c/poss} tassar behagligt.",
                 "exp": 5,
                 "weight": 20,
                 "stat_trait": [
@@ -41,7 +41,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/get/gets} distraherad n\u00e4r du plaskar i vattnet. r_c sv\u00e4r att {PRONOUN/r_c/subject} s\u00e5g en fisk, men den sp\u00e5rar ur {PRONOUN/r_c/poss} gr\u00e4nspatrull helt, och {PRONOUN/r_c/subject} {VERB/r_c/get/gets} ingenting gjort.",
+                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/get/gets} distraherad när du plaskar i vattnet. r_c svär att {PRONOUN/r_c/subject} såg en fisk, men den spårar ur {PRONOUN/r_c/poss} gränspatrull helt, och {PRONOUN/r_c/subject} {VERB/r_c/get/gets} ingenting gjort.",
                 "exp": 0,
                 "weight": 20
             }

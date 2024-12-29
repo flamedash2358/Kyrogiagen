@@ -16,12 +16,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "N\u00e4r r_c korsar en strand och huttrar av kylan, {PRONOUN/r_c/subject} {VERB/r_c/h\u00f6r/h\u00f6r} ett knarrande, forsande ljud, som en v\u00e5g - men osynkroniserat med havet.",
-        "decline_text": "r_c best\u00e4mmer sig f\u00f6r att g\u00e5 tillbaka tidigt.",
+        "intro_text": "När r_c korsar en strand och huttrar av kylan, {PRONOUN/r_c/subject} {VERB/r_c/hör/hör} ett knarrande, forsande ljud, som en våg - men osynkroniserat med havet.",
+        "decline_text": "r_c bestämmer sig för att gå tillbaka tidigt.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "r_c hoppar fram, rusar till andra sidan stranden och upp p\u00e5 klipporna. {PRONOUN/r_c/subject/CAP} {VERB/r_c/make/makes} det i tid f\u00f6r att se stranden g\u00e5 vilse under en v\u00e5g av vatten fr\u00e5n inlandet.",
+                "text": "r_c hoppar fram, rusar till andra sidan stranden och upp på klipporna. {PRONOUN/r_c/subject/CAP} {VERB/r_c/make/makes} det i tid för att se stranden gå vilse under en våg av vatten från inlandet.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -29,7 +29,7 @@
                 ]
             },
             {
-                "text": "s_c rusar tillbaka v\u00e4gen {PRONOUN/s_c/subject} kom och ser stranden f\u00f6rsvinna under en flod av vatten. Den l\u00e4mnar efter sig ett f\u00f6r\u00e4ndrat landskap, massor av skr\u00e4p \u2013 och ett stort d\u00f6tt f\u00e5r. s_c kastar sig ut p\u00e5 m\u00f6jligheten att rensa.",
+                "text": "s_c rusar tillbaka vägen {PRONOUN/s_c/subject} kom och ser stranden försvinna under en flod av vatten. Den lämnar efter sig ett förändrat landskap, massor av skräp - och ett stort dött får. s_c kastar sig ut på möjligheten att rensa.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": [
@@ -40,7 +40,7 @@
                 ]
             },
             {
-                "text": "s_c skriker \u00e5t det konstiga ljudet, tassarna gr\u00e4ver i sanden som {PRONOUN/s_c/subject} {VERB/s_c/turn/turns} och {VERB/s_c/run/runs} f\u00f6r hem. {PRONOUN/s_c/subject/CAP} {VERB/s_c/are/is} har bevisats r\u00e4tt n\u00e4r stranden f\u00f6rsvinner under en flod av vatten fr\u00e5n inlandet. {PRONOUN/s_c/poss/CAP} f\u00f6rsiktighet r\u00e4ddade livet p\u00e5 {PRONOUN/s_c/poss}.",
+                "text": "s_c skriker åt det konstiga ljudet, tassarna gräver i sanden som {PRONOUN/s_c/subject} {VERB/s_c/turn/turns} och {VERB/s_c/run/runs} för hem. {PRONOUN/s_c/subject/CAP} {VERB/s_c/are/is} har bevisats rätt när stranden försvinner under en flod av vatten från inlandet. {PRONOUN/s_c/poss/CAP} försiktighet räddade livet på {PRONOUN/s_c/poss}.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -55,15 +55,15 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c \u00e4r mitt p\u00e5 stranden n\u00e4r \u00f6versv\u00e4mningen tr\u00e4ffar {PRONOUN/r_c/object}. Frysande vatten forsar fr\u00e5n inlandet och sveper {PRONOUN/r_c/object} rakt ut till havet f\u00f6r att d\u00f6 i det kalla havet.",
+                "text": "r_c är mitt på stranden när översvämningen träffar {PRONOUN/r_c/object}. Frysande vatten forsar från inlandet och sveper {PRONOUN/r_c/object} rakt ut till havet för att dö i det kalla havet.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "reg_death": "m_c sveptes ut i havet av en \u00f6versv\u00e4mning.",
-                    "lead_death": "{VERB/m_c/were/was} svepte ut till havet av en \u00f6versv\u00e4mning"
+                    "reg_death": "m_c sveptes ut i havet av en översvämning.",
+                    "lead_death": "{VERB/m_c/were/was} svepte ut till havet av en översvämning"
                 }
             }
         ]

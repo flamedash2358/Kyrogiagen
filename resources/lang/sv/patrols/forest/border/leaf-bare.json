@@ -16,12 +16,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "H\u00e4r p\u00e5 sl\u00e4tten \u00e4r r\u00e4ckvidden av c_n:s territorium vidstr\u00e4ckt, s\u00e4rskilt i riktningen p_l och {PRONOUN/p_l/poss} patruller \u00e4r p\u00e5 v\u00e4g, d\u00e4r det finns o\u00e4ndligt gr\u00e4s (under sn\u00f6t\u00e4cket) men inga permanenta vattenk\u00e4llor.",
-        "decline_text": "Patrullen avbryts av en jaktpatrull som beh\u00f6ver hj\u00e4lp med att b\u00e4ra byten tillbaka till l\u00e4gret - gr\u00e4nsmarkeringen v\u00e4ntar till senare.",
+        "intro_text": "Här på slätten är räckvidden av c_n:s territorium vidsträckt, särskilt i riktningen p_l och {PRONOUN/p_l/poss} patruller är på väg, där det finns oändligt gräs (under snötäcket) men inga permanenta vattenkällor.",
+        "decline_text": "Patrullen avbryts av en jaktpatrull som behöver hjälp med att bära byten tillbaka till lägret - gränsmarkeringen väntar till senare.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Sn\u00f6n st\u00f6rs d\u00e4r stora h\u00f6ga v\u00e4xt\u00e4tare har dragit av den f\u00f6r att komma \u00e5t gr\u00e4set under. p_l noterar det. De mindre v\u00e4xt\u00e4tarna kommer att frossa i resterna av de stora. Detta kan vara ett anv\u00e4ndbart jaktomr\u00e5de, om c_n kan komma till det innan n\u00e4sta sn\u00f6fall.",
+                "text": "Snön störs där stora höga växtätare har dragit av den för att komma åt gräset under. p_l noterar det. De mindre växtätarna kommer att frossa i resterna av de stora. Detta kan vara ett användbart jaktområde, om c_n kan komma till det innan nästa snöfall.",
                 "exp": 30,
                 "weight": 5,
                 "art": "gen_speaking_cat_w1",
@@ -43,7 +43,7 @@
                 ]
             },
             {
-                "text": "s_c \u00e4r inte bara beg\u00e5vad p\u00e5 att springa snabbt - {PRONOUN/s_c/subject} {VERB/s_c/have/has} n\u00e5gra mycket bra r\u00e5d om att r\u00f6ra sig i sn\u00f6 ocks\u00e5 och {PRONOUN/s_c/subject} {VERB/s_c/share/ delar} {PRONOUN/s_c/poss} tips f\u00f6r uth\u00e5llighet. De andra katterna spinner tacksamhet i slutet av dagen. Alla \u00e4r utmattade, men de klarade det hela l\u00e4ngden av den d\u00e4r borta gr\u00e4nsen tack vare s_c.",
+                "text": "s_c är inte bara begåvad på att springa snabbt - {PRONOUN/s_c/subject} {VERB/s_c/have/has} några mycket bra råd om att röra sig i snö också och {PRONOUN/s_c/subject} {VERB/s_c/share/ delar} {PRONOUN/s_c/poss} tips för uthållighet. De andra katterna spinner tacksamhet i slutet av dagen. Alla är utmattade, men de klarade det hela längden av den där borta gränsen tack vare s_c.",
                 "exp": 40,
                 "weight": 20,
                 "art": "fst_hunt_fun3",
@@ -110,7 +110,7 @@
                 ]
             },
             {
-                "text": "s_c m\u00e4rker att r_c b\u00f6rjar huttra n\u00e4r {PRONOUN/r_c/subject} {VERB/r_c/trudge/trudges} med utbl\u00e5st p\u00e4ls. {PRONOUN/s_c/subject/CAP} ta n\u00e4sta tillf\u00e4lle att valla patrullen under t\u00e4cket av en sten med en skrapig buske som klamrar sig fast vid den. Det finns ingen anledning att riskera frostskador h\u00e4r, dags att v\u00e4rma upp.",
+                "text": "s_c märker att r_c börjar huttra när {PRONOUN/r_c/subject} {VERB/r_c/trudge/trudges} med utblåst päls. {PRONOUN/s_c/subject/CAP} ta nästa tillfälle att valla patrullen under täcket av en sten med en skrapig buske som klamrar sig fast vid den. Det finns ingen anledning att riskera frostskador här, dags att värma upp.",
                 "exp": 20,
                 "weight": 20,
                 "can_have_stat": [
@@ -169,7 +169,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "De vandrar, och de vandrar, och de vandrar och de paddar. Men n\u00e4r solen smyger sig \u00f6ver himlen, innan de n\u00e5r sj\u00e4lva bortre gr\u00e4nsen, p_l fl\u00e4ckar r_c haltande. Det \u00e4r ingenting, {PRONOUN/r_c/subject} {VERB/r_c/say/says}, bara sov p\u00e5 benet fel. Men l\u00e5ngt fr\u00e5n l\u00e4gret \u00e4r inte r\u00e4tt st\u00e4lle att halta p\u00e5, och p_l kallar av patrullen.",
+                "text": "De vandrar, och de vandrar, och de vandrar och de paddar. Men när solen smyger sig över himlen, innan de når själva bortre gränsen, p_l fläckar r_c haltande. Det är ingenting, {PRONOUN/r_c/subject} {VERB/r_c/say/says}, bara sov på benet fel. Men långt från lägret är inte rätt ställe att halta på, och p_l kallar av patrullen.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -201,7 +201,7 @@
                 ]
             },
             {
-                "text": "Innan de n\u00e5r sj\u00e4lva bortre gr\u00e4nsen, p_l fl\u00e4ckar s_c haltande. Det \u00e4r ingenting, {PRONOUN/s_c/subject} {VERB/s_c/say/says}, och v\u00e4grar att sluta. Men i dessa avl\u00e4gsna omr\u00e5den, i territorium som inte vanligtvis kontrolleras, tr\u00e4nger andra rovdjur in. N\u00e4r en ung, oerfaren puma laddar patrullen, <i>borde</i> s_c ha kunnat springa tillr\u00e4ckligt fort f\u00f6r att fly. <i>B\u00f6r.</i>",
+                "text": "Innan de når själva bortre gränsen, p_l fläckar s_c haltande. Det är ingenting, {PRONOUN/s_c/subject} {VERB/s_c/say/says}, och vägrar att sluta. Men i dessa avlägsna områden, i territorium som inte vanligtvis kontrolleras, tränger andra rovdjur in. När en ung, oerfaren puma laddar patrullen, <i>borde</i> s_c ha kunnat springa tillräckligt fort för att fly. <i>Bör.</i>",
                 "exp": 0,
                 "weight": 20,
                 "art": "running_two_warriors",
@@ -220,12 +220,12 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades efter att ha fortsatt att patrullera den bortre gr\u00e4nsen medan den skadades av en ung, oerfaren puma.",
-                    "lead_death": "av en puma medan han patrullerar den bortre gr\u00e4nsen"
+                    "reg_death": "Den här katten dödades efter att ha fortsatt att patrullera den bortre gränsen medan den skadades av en ung, oerfaren puma.",
+                    "lead_death": "av en puma medan han patrullerar den bortre gränsen"
                 }
             },
             {
-                "text": "p_l verkligen pushar dem, att kunna patrullera hela den bortre gr\u00e4nsen i en enda patrull. De klarar det och gratuleras till prestationen n\u00e4r de kommer tillbaka till l\u00e4gret efter m\u00f6rkrets inbrott, fl\u00e4mtande, men alla som gick ut i sn\u00f6n \u00e4r tr\u00f6ttare \u00e4n de borde vara, och n\u00e5gra har tydligen f\u00e5tt frostskador.",
+                "text": "p_l verkligen pushar dem, att kunna patrullera hela den bortre gränsen i en enda patrull. De klarar det och gratuleras till prestationen när de kommer tillbaka till lägret efter mörkrets inbrott, flämtande, men alla som gick ut i snön är tröttare än de borde vara, och några har tydligen fått frostskador.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -252,9 +252,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c bar m\u00e4rken av k\u00f6ldskador p\u00e5 {PRONOUN/r_c/poss} p\u00e4ls fr\u00e5n en iskall gr\u00e4nspatrull i l\u00f6vfritt.",
-                    "reg_death": "r_c dog av en iskall gr\u00e4nspatrull i l\u00f6vbar efter att ha blivit frostbiten.",
-                    "lead_death": "fr\u00e5n en iskall gr\u00e4nspatrull i l\u00f6vbart"
+                    "scar": "r_c bar märken av köldskador på {PRONOUN/r_c/poss} päls från en iskall gränspatrull i lövfritt.",
+                    "reg_death": "r_c dog av en iskall gränspatrull i lövbar efter att ha blivit frostbiten.",
+                    "lead_death": "från en iskall gränspatrull i lövbart"
                 },
                 "relationships": [
                     {
@@ -287,7 +287,7 @@
                 ]
             },
             {
-                "text": "p_l verkligen pushar dem, att kunna patrullera hela den bortre gr\u00e4nsen i en enda patrull. Men s_c stoppar allt, ser att n\u00e5gra av patrullerna b\u00f6rjar k\u00e4nna effekterna av kylan, och insisterar p\u00e5 att de \u00e5terv\u00e4nder hem. Det r\u00e4ddar alla andra fr\u00e5n att ta skada av kylan.",
+                "text": "p_l verkligen pushar dem, att kunna patrullera hela den bortre gränsen i en enda patrull. Men s_c stoppar allt, ser att några av patrullerna börjar känna effekterna av kylan, och insisterar på att de återvänder hem. Det räddar alla andra från att ta skada av kylan.",
                 "exp": 0,
                 "weight": 20,
                 "can_have_stat": [
@@ -382,12 +382,12 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "p_l \u00e4r ute p\u00e5 natten och njuter av fridfull tystnad i de sn\u00f6iga gr\u00e4smarkerna, n\u00e4r {PRONOUN/p_l/subject} st\u00f6ter p\u00e5 den fr\u00e4scha doften av en pr\u00e4rievarg. Farligt - inte bara f\u00f6r p_l, utan f\u00f6r hela c_n.",
-        "decline_text": "p_l best\u00e4mmer sig f\u00f6r att inte f\u00f6rf\u00f6lja en s\u00e5 farlig varelse, speciellt med vetskapen om att pr\u00e4rievargar ofta kalasar p\u00e5 katter.",
+        "intro_text": "p_l är ute på natten och njuter av fridfull tystnad i de snöiga gräsmarkerna, när {PRONOUN/p_l/subject} stöter på den fräscha doften av en prärievarg. Farligt - inte bara för p_l, utan för hela c_n.",
+        "decline_text": "p_l bestämmer sig för att inte förfölja en så farlig varelse, speciellt med vetskapen om att prärievargar ofta kalasar på katter.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "p_l bultar tillbaka till l\u00e4gret, f\u00f6tterna glider vilt p\u00e5 den frostiga marken. Det tar en stund f\u00f6r {PRONOUN/p_l/object} att h\u00e4mta {PRONOUN/p_l/poss} andetag innan {PRONOUN/p_l/subject} lyckas fl\u00e4mta ut ett enda ord. <i>Coyote!</i>",
+                "text": "p_l bultar tillbaka till lägret, fötterna glider vilt på den frostiga marken. Det tar en stund för {PRONOUN/p_l/object} att hämta {PRONOUN/p_l/poss} andetag innan {PRONOUN/p_l/subject} lyckas flämta ut ett enda ord. <i>Coyote!</i>",
                 "exp": 40,
                 "weight": 20,
                 "art": "running_warrior",
@@ -409,7 +409,7 @@
                 ]
             },
             {
-                "text": "p_l bultar tillbaka till l\u00e4gret, f\u00f6tterna glider vilt p\u00e5 den frostiga marken, {PRONOUN/p_l/poss} hj\u00e4rtat bultar. {PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} att ber\u00e4tta f\u00f6r {PRONOUN/p_l/poss} klankamrater. {PRONOUN/p_l/subject/CAP} {VERB/p_l/burst/bursts} in i l\u00e4gret och skriker en varning!",
+                "text": "p_l bultar tillbaka till lägret, fötterna glider vilt på den frostiga marken, {PRONOUN/p_l/poss} hjärtat bultar. {PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} att berätta för {PRONOUN/p_l/poss} klankamrater. {PRONOUN/p_l/subject/CAP} {VERB/p_l/burst/bursts} in i lägret och skriker en varning!",
                 "exp": 40,
                 "weight": 10,
                 "art": "running_warrior",
@@ -431,7 +431,7 @@
                 ]
             },
             {
-                "text": "Frusen inf\u00f6r det stora hotet, {PRONOUN/s_c/subject} {VERB/s_c/muster/musters} en v\u00e5g av mod. N\u00e4r pr\u00e4rievargen kommer till sikte f\u00f6r att {PRONOUN/s_c/subject/} {VERB/s_c/manage/manages} fly fr\u00e5n pr\u00e4rievargen och spurtar p\u00e5 sn\u00f6skorpan tillbaka till l\u00e4gret f\u00f6r att varna klanen.",
+                "text": "Frusen inför det stora hotet, {PRONOUN/s_c/subject} {VERB/s_c/muster/musters} en våg av mod. När prärievargen kommer till sikte för att {PRONOUN/s_c/subject/} {VERB/s_c/manage/manages} fly från prärievargen och spurtar på snöskorpan tillbaka till lägret för att varna klanen.",
                 "exp": 40,
                 "weight": 20,
                 "art": "running_warrior",
@@ -457,7 +457,7 @@
                 ]
             },
             {
-                "text": "s_c har inte mycket tid att t\u00e4nka eftersom {PRONOUN/s_c/subject} {VERB/s_c/hear/hears} japparna. Coyoten har {PRONOUN/s_c/poss}-doft. Att se n\u00e5gra \u00e5skdjursdynga i n\u00e4rheten, fortfarande varmt, s_c dyker efter det, rullar runt i det innan det smyger sig genom de h\u00f6ga sn\u00f6drivorna, var noga med att h\u00e5lla sig g\u00f6mda. Det \u00e4r ett sp\u00e4nt \u00f6gonblick, men s_c {VERB/s_c/manage/manages} f\u00f6r att g\u00f6ra det s\u00e4kert hemma.",
+                "text": "s_c har inte mycket tid att tänka eftersom {PRONOUN/s_c/subject} {VERB/s_c/hear/hears} japparna. Coyoten har {PRONOUN/s_c/poss}-doft. Att se några åskdjursdynga i närheten, fortfarande varmt, s_c dyker efter det, rullar runt i det innan det smyger sig genom de höga snödrivorna, var noga med att hålla sig gömda. Det är ett spänt ögonblick, men s_c {VERB/s_c/manage/manages} för att göra det säkert hemma.",
                 "exp": 40,
                 "weight": 20,
                 "art": "gen_hunt_strange",
@@ -468,7 +468,7 @@
                 ]
             },
             {
-                "text": "s_c h\u00f6r yips. Coyoten har {PRONOUN/s_c/poss}-doft. {PRONOUN/s_c/subject/CAP} {VERB/s_c/run/runs}. {VERB/s_c/Run/Runs} s\u00e5 fort som {PRONOUN/s_c/subject} kan eftersom {PRONOUN/s_c/poss} livet beror p\u00e5 det. Men s_c kan inte springa f\u00f6r evigt, de dunkande fotstegen kommer ikapp.  {PRONOUN/s_c/subject/CAP} ser en grupp sovande \u00e5skdjur och tjuter till dem. N\u00e4r ett \u00e5skdjur sakta st\u00e5r upp v\u00e4nder pr\u00e4rievargen p\u00e5 svans och flyr.",
+                "text": "s_c hör yips. Coyoten har {PRONOUN/s_c/poss}-doft. {PRONOUN/s_c/subject/CAP} {VERB/s_c/run/runs}. {VERB/s_c/Run/Runs} så fort som {PRONOUN/s_c/subject} kan eftersom {PRONOUN/s_c/poss} livet beror på det. Men s_c kan inte springa för evigt, de dunkande fotstegen kommer ikapp.  {PRONOUN/s_c/subject/CAP} ser en grupp sovande åskdjur och tjuter till dem. När ett åskdjur sakta står upp vänder prärievargen på svans och flyr.",
                 "exp": 40,
                 "weight": 20,
                 "art": "gen_coyote_danger1",
@@ -479,7 +479,7 @@
                 ]
             },
             {
-                "text": "s_c h\u00f6r yips. Coyoten har {PRONOUN/s_c/poss}-doft.  {PRONOUN/s_c/subject/CAP} {VERB/s_c/run/runs}. {VERB/s_c/Run/Runs} s\u00e5 fort som {PRONOUN/s_c/subject} kan eftersom {PRONOUN/s_c/poss} livet beror p\u00e5 det. Men s_c kan inte springa f\u00f6r evigt, de dunkande fotstegen kommer ikapp.  {PRONOUN/s_c/subject/CAP} ser en grupp sovande \u00e5skdjur och tjuter till dem. s_c ser med en ny respekt och r\u00e4dsla n\u00e4r \u00e5skdjuren d\u00f6dar rovdjuret med l\u00e4tthet.",
+                "text": "s_c hör yips. Coyoten har {PRONOUN/s_c/poss}-doft.  {PRONOUN/s_c/subject/CAP} {VERB/s_c/run/runs}. {VERB/s_c/Run/Runs} så fort som {PRONOUN/s_c/subject} kan eftersom {PRONOUN/s_c/poss} livet beror på det. Men s_c kan inte springa för evigt, de dunkande fotstegen kommer ikapp.  {PRONOUN/s_c/subject/CAP} ser en grupp sovande åskdjur och tjuter till dem. s_c ser med en ny respekt och rädsla när åskdjuren dödar rovdjuret med lätthet.",
                 "exp": 40,
                 "weight": 10,
                 "art": "gen_coyote_danger1",
@@ -493,7 +493,7 @@
                 ]
             },
             {
-                "text": "s_c bultar tillbaka till l\u00e4gret och h\u00e5ller sig l\u00e4tt f\u00f6re besten, \u00e4ven med den instabila sn\u00f6iga foten. {PRONOUN/s_c/subject/CAP} {VERB/s_c/burst/bursts} in i l\u00e4gret och skriker en varning med gott om tid f\u00f6r c_n att f\u00f6rbereda sig f\u00f6r att driva iv\u00e4g pr\u00e4rievargen.",
+                "text": "s_c bultar tillbaka till lägret och håller sig lätt före besten, även med den instabila snöiga foten. {PRONOUN/s_c/subject/CAP} {VERB/s_c/burst/bursts} in i lägret och skriker en varning med gott om tid för c_n att förbereda sig för att driva iväg prärievargen.",
                 "exp": 40,
                 "weight": 20,
                 "art": "running_warrior",
@@ -518,7 +518,7 @@
                 ]
             },
             {
-                "text": "s_c s\u00e4tter upp ett bakh\u00e5ll f\u00f6r den vandrande pr\u00e4rievargen, blodig sin nos och leder den p\u00e5 en vild jagande dans genom midnattssn\u00f6 \u00f6ver gr\u00e4nsen och ut ur c_n territorium.",
+                "text": "s_c sätter upp ett bakhåll för den vandrande prärievargen, blodig sin nos och leder den på en vild jagande dans genom midnattssnö över gränsen och ut ur c_n territorium.",
                 "exp": 40,
                 "weight": 20,
                 "art": "gen_coyote_danger2_w2",
@@ -543,7 +543,7 @@
                 ]
             },
             {
-                "text": "{PRONOUN/s_c/subject/CAP} {VERB/s_c/don't/doesn't} k\u00e4nns som {PRONOUN/s_c/subject} {VERB/s_c/have/has} n\u00e5got liknande skickligheten eller kraften, men s_c skulle ge {PRONOUN/s_c/poss} liv f\u00f6r c_n, ladda in f\u00f6r att modigt leda pr\u00e4rievargen bort fr\u00e5n c_n territorium. Varje yip och sk\u00e4ll m\u00e5ste vara h\u00e4rolden f\u00f6r {PRONOUN/s_c/poss} underg\u00e5ng, varje h\u00e4rsken andetag \u00e4r det sista som {PRONOUN/s_c/subject} n\u00e5gonsin kommer att lukta, men p\u00e5 n\u00e5got s\u00e4tt, s\u00e5 sm\u00e5ningom, br\u00e4nner lemmar och lungor, {PRONOUN/ s_c/subject} {VERB/s_c/leap/leaps} till fristad.",
+                "text": "{PRONOUN/s_c/subject/CAP} {VERB/s_c/don't/doesn't} känns som {PRONOUN/s_c/subject} {VERB/s_c/have/has} något liknande skickligheten eller kraften, men s_c skulle ge {PRONOUN/s_c/poss} liv för c_n, ladda in för att modigt leda prärievargen bort från c_n territorium. Varje yip och skäll måste vara härolden för {PRONOUN/s_c/poss} undergång, varje härsken andetag är det sista som {PRONOUN/s_c/subject} någonsin kommer att lukta, men på något sätt, så småningom, bränner lemmar och lungor, {PRONOUN/ s_c/subject} {VERB/s_c/leap/leaps} till fristad.",
                 "exp": 40,
                 "weight": 20,
                 "art": "gen_coyote_danger2_w2",
@@ -578,7 +578,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c skulle ge {PRONOUN/r_c/poss} liv f\u00f6r att skydda c_n, och som {PRONOUN/r_c/subject} {VERB/r_c/lead/leads} den enorma pr\u00e4rievargen bort fr\u00e5n klanen, i {PRONOUN/r_c/poss} hj\u00e4rta , {PRONOUN/r_c/subject} {VERB/r_c/accept/accepts} det \u00e4r vad {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} g\u00f6r. N\u00e4r m\u00f6rkret sluter sig runt {PRONOUN/r_c/object} och pr\u00e4rievargens k\u00e4kar sjunker igen, f\u00f6rs\u00f6ker r_c s\u00e4nka {PRONOUN/r_c/poss} klor i ansiktet och hoppas desperat att {PRONOUN/r_c/subject} ledde den tillr\u00e4ckligt l\u00e5ngt .",
+                "text": "r_c skulle ge {PRONOUN/r_c/poss} liv för att skydda c_n, och som {PRONOUN/r_c/subject} {VERB/r_c/lead/leads} den enorma prärievargen bort från klanen, i {PRONOUN/r_c/poss} hjärta , {PRONOUN/r_c/subject} {VERB/r_c/accept/accepts} det är vad {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} gör. När mörkret sluter sig runt {PRONOUN/r_c/object} och prärievargens käkar sjunker igen, försöker r_c sänka {PRONOUN/r_c/poss} klor i ansiktet och hoppas desperat att {PRONOUN/r_c/subject} ledde den tillräckligt långt .",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_dead_cat_EXPLICIT",
@@ -587,8 +587,8 @@
                     "r_c"
                 ],
                 "history_text": {
-                    "reg_death": "Denna katt dog f\u00f6r att leda en pr\u00e4rievarg bort fr\u00e5n c_n.",
-                    "lead_death": "dog f\u00f6r att leda en pr\u00e4rievarg bort fr\u00e5n c_n"
+                    "reg_death": "Denna katt dog för att leda en prärievarg bort från c_n.",
+                    "lead_death": "dog för att leda en prärievarg bort från c_n"
                 },
                 "relationships": [
                     {
@@ -608,7 +608,7 @@
                 ]
             },
             {
-                "text": "r_c skulle ge {PRONOUN/r_c/poss} liv f\u00f6r att skydda c_n, och som {PRONOUN/r_c/subject} {VERB/r_c/charge/charges} f\u00f6rbi den enorma pr\u00e4rievargen f\u00f6r att leda den l\u00e5ngt, l\u00e5ngt ifr\u00e5n c_n, {PRONOUN/r_c /subject} {VERB/r_c/accept/accepts} det. R\u00e4dsla ger {PRONOUN/r_c/object} hastighet, men det kr\u00e4vs bara en lyckad tr\u00e4ff. Mirakul\u00f6st {PRONOUN/r_c/subject} {VERB/r_c/fly/flies} ut ur pr\u00e4rievargens k\u00e4kar medan den skakar {PRONOUN/r_c/object} och landar i en tillflyktsort. r_c \u00e4r skadad, desperat och livr\u00e4dd - men {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} vid liv.",
+                "text": "r_c skulle ge {PRONOUN/r_c/poss} liv för att skydda c_n, och som {PRONOUN/r_c/subject} {VERB/r_c/charge/charges} förbi den enorma prärievargen för att leda den långt, långt ifrån c_n, {PRONOUN/r_c /subject} {VERB/r_c/accept/accepts} det. Rädsla ger {PRONOUN/r_c/object} hastighet, men det krävs bara en lyckad träff. Mirakulöst {PRONOUN/r_c/subject} {VERB/r_c/fly/flies} ut ur prärievargens käkar medan den skakar {PRONOUN/r_c/object} och landar i en tillflyktsort. r_c är skadad, desperat och livrädd - men {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} vid liv.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_coyote_danger2_w2",
@@ -626,9 +626,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Denna katt \u00e4r \u00e4rrad av att tappert leda en pr\u00e4rievarg bort fr\u00e5n klanen.",
-                    "reg_death": "Denna katt dog av skador efter att ha f\u00f6rs\u00f6kt leda en pr\u00e4rievarg bort fr\u00e5n c_n.",
-                    "lead_death": "dog av skador efter att ha f\u00f6rs\u00f6kt leda en pr\u00e4rievarg bort fr\u00e5n c_n"
+                    "scar": "Denna katt är ärrad av att tappert leda en prärievarg bort från klanen.",
+                    "reg_death": "Denna katt dog av skador efter att ha försökt leda en prärievarg bort från c_n.",
+                    "lead_death": "dog av skador efter att ha försökt leda en prärievarg bort från c_n"
                 },
                 "relationships": [
                     {
@@ -648,7 +648,7 @@
                 ]
             },
             {
-                "text": "s_c vet att pr\u00e4rievargar \u00e4r farliga, men {PRONOUN/s_c/subject} {VERB/s_c/are/\u00e4r} starkare och b\u00e4ttre \u00e4n en enkel best. Men s_c underskattar pr\u00e4rievargens kraft och glider i sn\u00f6n. I kampen lyckas pr\u00e4rievargen \u00f6vermanna {PRONOUN/s_c/object} och ger ett ondskefullt bett, vilket l\u00e4mnar {PRONOUN/s_c/object} med ett djupt s\u00e5r p\u00e5 {PRONOUN/s_c/poss} benet. {PRONOUN/s_c/subject/CAP} slipper med n\u00f6d och n\u00e4ppe med {PRONOUN/s_c/poss} liv.",
+                "text": "s_c vet att prärievargar är farliga, men {PRONOUN/s_c/subject} {VERB/s_c/are/är} starkare och bättre än en enkel best. Men s_c underskattar prärievargens kraft och glider i snön. I kampen lyckas prärievargen övermanna {PRONOUN/s_c/object} och ger ett ondskefullt bett, vilket lämnar {PRONOUN/s_c/object} med ett djupt sår på {PRONOUN/s_c/poss} benet. {PRONOUN/s_c/subject/CAP} slipper med nöd och näppe med {PRONOUN/s_c/poss} liv.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_coyote_danger2_w2",
@@ -670,9 +670,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Den h\u00e4r katten b\u00e4r ett trasigt ben efter att ha trott att {PRONOUN/m_c/subject} kunde ta sig an en pr\u00e4rievarg av {PRONOUN/m_c/self}",
-                    "reg_death": "Den h\u00e4r katten dog av {PRONOUN/m_c/poss} skador efter att ha f\u00f6rs\u00f6kt ta sig an en pr\u00e4rievarg ensam.",
-                    "lead_death": "dog av {PRONOUN/m_c/poss} skador efter att ha f\u00f6rs\u00f6kt ta sig an en pr\u00e4rievarg ensam"
+                    "scar": "Den här katten bär ett trasigt ben efter att ha trott att {PRONOUN/m_c/subject} kunde ta sig an en prärievarg av {PRONOUN/m_c/self}",
+                    "reg_death": "Den här katten dog av {PRONOUN/m_c/poss} skador efter att ha försökt ta sig an en prärievarg ensam.",
+                    "lead_death": "dog av {PRONOUN/m_c/poss} skador efter att ha försökt ta sig an en prärievarg ensam"
                 },
                 "relationships": [
                     {
@@ -692,7 +692,7 @@
                 ]
             },
             {
-                "text": "s_c vet att pr\u00e4rievargar \u00e4r farliga, men {PRONOUN/s_c/subject} {VERB/s_c/are/\u00e4r} starkare och b\u00e4ttre \u00e4n en enkel best. Men s_c underskattar pr\u00e4rievargens kraft och halkar i sn\u00f6n. I kampen lyckas pr\u00e4rievargen \u00f6vermanna {PRONOUN/s_c/object} och levererar ett ondskefullt bett och drar ner s_c till marken.",
+                "text": "s_c vet att prärievargar är farliga, men {PRONOUN/s_c/subject} {VERB/s_c/are/är} starkare och bättre än en enkel best. Men s_c underskattar prärievargens kraft och halkar i snön. I kampen lyckas prärievargen övermanna {PRONOUN/s_c/object} och levererar ett ondskefullt bett och drar ner s_c till marken.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_dead_cat_EXPLICIT",
@@ -705,16 +705,16 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "reg_death": "Den h\u00e4r katten dog efter att ha f\u00f6rs\u00f6kt ta sig an en pr\u00e4rievarg ensam.",
-                    "lead_death": "dog efter att ha f\u00f6rs\u00f6kt ta sig an en pr\u00e4rievarg ensam"
+                    "reg_death": "Den här katten dog efter att ha försökt ta sig an en prärievarg ensam.",
+                    "lead_death": "dog efter att ha försökt ta sig an en prärievarg ensam"
                 }
             },
             {
-                "text": "Frusen inf\u00f6r det stora hotet kan s_c inte r\u00f6ra sig n\u00e4r k\u00e4ftarna sjunker mot {PRONOUN/s_c/object}. c_n kommer att hitta en ber\u00e4ttelse skriven i blod p\u00e5 sn\u00f6 p\u00e5 morgonen.",
+                "text": "Frusen inför det stora hotet kan s_c inte röra sig när käftarna sjunker mot {PRONOUN/s_c/object}. c_n kommer att hitta en berättelse skriven i blod på snö på morgonen.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_dead_cat_EXPLICIT",
-                "art_clean": "gen_d\u00f6d_katt",
+                "art_clean": "gen_död_katt",
                 "stat_trait": [
                     "nervous",
                     "insecure"
@@ -723,16 +723,16 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "reg_death": "Den h\u00e4r katten dog av pr\u00e4rievargens k\u00e4kar efter att ha frusit.",
-                    "lead_death": "dog av k\u00e4karna p\u00e5 en pr\u00e4rievarg efter att ha frusit."
+                    "reg_death": "Den här katten dog av prärievargens käkar efter att ha frusit.",
+                    "lead_death": "dog av käkarna på en prärievarg efter att ha frusit."
                 }
             },
             {
-                "text": "Kanske borde s_c ha varit mer uppm\u00e4rksam. {PRONOUN/s_c/subject/CAP} {VERB/s_c/see/sees} m\u00f6rker runt {PRONOUN/s_c/object} och {VERB/s_c/realize/realizes} det fruktansv\u00e4rda misstaget med {PRONOUN/s_c/poss} distraktion .",
+                "text": "Kanske borde s_c ha varit mer uppmärksam. {PRONOUN/s_c/subject/CAP} {VERB/s_c/see/sees} mörker runt {PRONOUN/s_c/object} och {VERB/s_c/realize/realizes} det fruktansvärda misstaget med {PRONOUN/s_c/poss} distraktion .",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_dead_cat_EXPLICIT",
-                "art_clean": "gen_d\u00f6d_katt",
+                "art_clean": "gen_död_katt",
                 "dead_cats": [
                     "s_c"
                 ],
@@ -744,8 +744,8 @@
                     "oblivious"
                 ],
                 "history_text": {
-                    "reg_death": "Denna katt dog p\u00e5 grund av att den inte uppm\u00e4rksammade {PRONOUN/m_c/poss} omgivningar.",
-                    "lead_death": "dog p\u00e5 grund av att inte uppm\u00e4rksammat {PRONOUN/m_c/poss} omgivningar"
+                    "reg_death": "Denna katt dog på grund av att den inte uppmärksammade {PRONOUN/m_c/poss} omgivningar.",
+                    "lead_death": "dog på grund av att inte uppmärksammat {PRONOUN/m_c/poss} omgivningar"
                 }
             }
         ]
@@ -767,12 +767,12 @@
         "max_cats": 4,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Utfyllda l\u00e4ngs gr\u00e4nsen hittar katterna f\u00e4rsk pr\u00e4rievarg som \u00e5ngar i sn\u00f6n. Det \u00e4r ett japp i fj\u00e4rran.",
-        "decline_text": "Patrullen best\u00e4mmer sig f\u00f6r att inte f\u00f6rf\u00f6lja en s\u00e5 farlig varelse, speciellt eftersom den inte har passerat gr\u00e4nsen.",
+        "intro_text": "Utfyllda längs gränsen hittar katterna färsk prärievarg som ångar i snön. Det är ett japp i fjärran.",
+        "decline_text": "Patrullen bestämmer sig för att inte förfölja en så farlig varelse, speciellt eftersom den inte har passerat gränsen.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Det d\u00e4r verkade lite konstigt. \u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Ingen l\u00e4gger m\u00e4rke till katterna, men patrullen ser p\u00e5 varandra med best\u00f6rtning - c_n beh\u00f6ver verkligen inte ha ett h\u00e4ckande par som s\u00e4tts upp n\u00e4ra dem, de m\u00e5ste rapportera detta direkt.",
+                "text": "Det där verkade lite konstigt. Öronen spetsade, patrullen går närmare och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Ingen lägger märke till katterna, men patrullen ser på varandra med bestörtning - c_n behöver verkligen inte ha ett häckande par som sätts upp nära dem, de måste rapportera detta direkt.",
                 "exp": 60,
                 "weight": 20,
                 "art": "running_two_warriors",
@@ -794,7 +794,7 @@
                 ]
             },
             {
-                "text": "Patrullen skuggar pr\u00e4rievargen och skickar ett meddelande tillbaka f\u00f6r att varna l\u00e4gret. Det \u00e4r en anstr\u00e4ngande och stressig dag, men n\u00e4r natten faller har de bekr\u00e4ftat att pr\u00e4rievargen l\u00e4mnar det lokala omr\u00e5det, och patrullen har garanterat c_ns s\u00e4kerhet.",
+                "text": "Patrullen skuggar prärievargen och skickar ett meddelande tillbaka för att varna lägret. Det är en ansträngande och stressig dag, men när natten faller har de bekräftat att prärievargen lämnar det lokala området, och patrullen har garanterat c_ns säkerhet.",
                 "exp": 30,
                 "weight": 5,
                 "art": "running_two_warriors",
@@ -816,7 +816,7 @@
                 ]
             },
             {
-                "text": "Det finns en ensam ek h\u00e4r i n\u00e4rheten. p_l pilar mot det med patrullen, kl\u00e4ttrar upp\u00e5t, och ja, det \u00e4r klaffandet av tassar, yip av frustration n\u00e4r pr\u00e4rievargen n\u00e5r dem alldeles f\u00f6r sent. Tja, om de beh\u00f6vde bekr\u00e4ftelse p\u00e5 att besten b\u00e5de verkligen var h\u00e4r och verkligen intresserad av kattk\u00f6tt s\u00e5 finns den d\u00e4r. De v\u00e4ntar p\u00e5 att rovdjuret ska ge upp, s\u00e5 de kan g\u00e5 och varna c_n.",
+                "text": "Det finns en ensam ek här i närheten. p_l pilar mot det med patrullen, klättrar uppåt, och ja, det är klaffandet av tassar, yip av frustration när prärievargen når dem alldeles för sent. Tja, om de behövde bekräftelse på att besten både verkligen var här och verkligen intresserad av kattkött så finns den där. De väntar på att rovdjuret ska ge upp, så de kan gå och varna c_n.",
                 "exp": 40,
                 "weight": 10,
                 "art": "gen_coyote2",
@@ -853,7 +853,7 @@
                 ]
             },
             {
-                "text": "Patrullen samlar mod och f\u00f6rs\u00f6ker tappert leda bort pr\u00e4rievargen. Med en s\u00e5 liten grupp katter kan de bara leda den en kort str\u00e4cka, men det \u00e4r b\u00e4ttre \u00e4n ingenting.",
+                "text": "Patrullen samlar mod och försöker tappert leda bort prärievargen. Med en så liten grupp katter kan de bara leda den en kort sträcka, men det är bättre än ingenting.",
                 "exp": 30,
                 "weight": 5,
                 "art": "running_two_warriors",
@@ -875,7 +875,7 @@
                 ]
             },
             {
-                "text": "s_c s\u00e4tter upp ett f\u00f6rsiktigt bakh\u00e5ll framf\u00f6r pr\u00e4rievargen, och den \u00f6verraskande, darrande attacken blodar pr\u00e4rievargens flank och avskr\u00e4cker den fr\u00e5n att g\u00e5 l\u00e4ngre in i c_n territorium.",
+                "text": "s_c sätter upp ett försiktigt bakhåll framför prärievargen, och den överraskande, darrande attacken blodar prärievargens flank och avskräcker den från att gå längre in i c_n territorium.",
                 "exp": 30,
                 "weight": 10,
                 "art": "gen_coyote_danger2_w2",
@@ -917,7 +917,7 @@
                 ]
             },
             {
-                "text": "Med gr\u00e4nsen h\u00e4r s\u00e5 platt finns det inga tr\u00e4d att kl\u00e4ttra upp f\u00f6r att undkomma. Men s_c t\u00e4nker p\u00e5 allt, de g\u00e5r till en v\u00e4lk\u00e4nd h\u00e5la som l\u00e4rlingarna leker i hela tiden. Det \u00e4r inte ett \u00f6gonblick f\u00f6r tidigt, pr\u00e4rievargen vandrar rakt f\u00f6rbi ing\u00e5ngen medan den jagar f\u00e4ltm\u00f6ss, katterna inom sig hukade och tysta.",
+                "text": "Med gränsen här så platt finns det inga träd att klättra upp för att undkomma. Men s_c tänker på allt, de går till en välkänd håla som lärlingarna leker i hela tiden. Det är inte ett ögonblick för tidigt, prärievargen vandrar rakt förbi ingången medan den jagar fältmöss, katterna inom sig hukade och tysta.",
                 "exp": 50,
                 "weight": 20,
                 "art": "gen_coyote2",
@@ -959,7 +959,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r inte bara ljudet av en pr\u00e4rievarg, det \u00e4r ljudet av pr\u00e4rievarg som ropar efter en kompis, v\u00e4ser s_c. Det \u00e4r inte bra, det betyder att det kommer att lockas in hanar av den honan, och katterna \u00e5terv\u00e4nder snabbt och tysta hem. c_n beh\u00f6ver veta om faran i gr\u00e4nslandet.",
+                "text": "Det är inte bara ljudet av en prärievarg, det är ljudet av prärievarg som ropar efter en kompis, väser s_c. Det är inte bra, det betyder att det kommer att lockas in hanar av den honan, och katterna återvänder snabbt och tysta hem. c_n behöver veta om faran i gränslandet.",
                 "exp": 50,
                 "weight": 20,
                 "art": "gen_coyote2",
@@ -1001,7 +1001,7 @@
                 ]
             },
             {
-                "text": "s_c tar osj\u00e4lviskt lejonparten av loppet n\u00e4r patrullen leder pr\u00e4rievargen vidare, utmattande {PRONOUN/s_c/self} n\u00e4stan till en fara, men leder pr\u00e4rievargen l\u00e5ngt bort fr\u00e5n c_n-gr\u00e4nserna. {PRONOUN/s_c/poss/CAP} Klankamrater st\u00f6djer {PRONOUN/s_c/object} p\u00e5 den l\u00e5nga promenaden hem n\u00e4r allt \u00e4r \u00f6ver, deras spinnande blandas med s_c:s utmattade byxor.",
+                "text": "s_c tar osjälviskt lejonparten av loppet när patrullen leder prärievargen vidare, utmattande {PRONOUN/s_c/self} nästan till en fara, men leder prärievargen långt bort från c_n-gränserna. {PRONOUN/s_c/poss/CAP} Klankamrater stödjer {PRONOUN/s_c/object} på den långa promenaden hem när allt är över, deras spinnande blandas med s_c:s utmattade byxor.",
                 "exp": 30,
                 "weight": 10,
                 "art": "running_warrior2",
@@ -1035,10 +1035,10 @@
         ],
         "fail_outcomes": [
             {
-                "text": "\u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och viftar ut och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Man erbjuder en g\u00e5va till honan, och p_ls mage faller. {PRONOUN/r_c/subject/CAP} {VERB/r_c/were/was} bara utom synh\u00e5ll i sekunder - men r_c kommer inte hem.",
+                "text": "Öronen spetsade, patrullen går närmare och viftar ut och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Man erbjuder en gåva till honan, och p_ls mage faller. {PRONOUN/r_c/subject/CAP} {VERB/r_c/were/was} bara utom synhåll i sekunder - men r_c kommer inte hem.",
                 "exp": 0,
                 "art": "gen_dead_cat_EXPLICIT",
-                "art_clean": "gen_d\u00f6d_katt",
+                "art_clean": "gen_död_katt",
                 "weight": 20,
                 "injury": [
                     {
@@ -1056,8 +1056,8 @@
                 ],
                 "history_text": {
                     "scar": "",
-                    "reg_death": "r_c d\u00f6dades av en pr\u00e4rievarghane som f\u00f6rs\u00f6kte erbjuda en uppvaktande present till en hona.",
-                    "lead_death": "h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_n:s gr\u00e4nser"
+                    "reg_death": "r_c dödades av en prärievarghane som försökte erbjuda en uppvaktande present till en hona.",
+                    "lead_death": "hålla prärievargar borta från c_n:s gränser"
                 },
                 "relationships": [
                     {
@@ -1077,7 +1077,7 @@
                 ]
             },
             {
-                "text": "Det d\u00e4r verkade lite konstigt. \u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Man uppt\u00e4cker r_c och best\u00e4mmer sig f\u00f6r att katten skulle ge en trevlig uppvaktningspresent. Patrullen springer in f\u00f6r att r\u00e4dda {PRONOUN/r_c/object} och finner en skyddsrum inkl\u00e4md i en kaninh\u00e5la medan pr\u00e4rievargarna ylar utanf\u00f6r.",
+                "text": "Det där verkade lite konstigt. Öronen spetsade, patrullen går närmare och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Man upptäcker r_c och bestämmer sig för att katten skulle ge en trevlig uppvaktningspresent. Patrullen springer in för att rädda {PRONOUN/r_c/object} och finner en skyddsrum inklämd i en kaninhåla medan prärievargarna ylar utanför.",
                 "exp": 0,
                 "weight": 40,
                 "art": "gen_coyote_danger1",
@@ -1104,9 +1104,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Att uppvakta pr\u00e4rievargar gjorde \u00e4rr p\u00e5 r_c:s p\u00e4ls.",
-                    "reg_death": "r_c d\u00f6dades av en pr\u00e4rievarghane som f\u00f6rs\u00f6kte erbjuda en uppvaktande present till en hona.",
-                    "lead_death": "h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_n:s gr\u00e4nser"
+                    "scar": "Att uppvakta prärievargar gjorde ärr på r_c:s päls.",
+                    "reg_death": "r_c dödades av en prärievarghane som försökte erbjuda en uppvaktande present till en hona.",
+                    "lead_death": "hålla prärievargar borta från c_n:s gränser"
                 },
                 "relationships": [
                     {
@@ -1126,7 +1126,7 @@
                 ]
             },
             {
-                "text": "Det d\u00e4r verkade lite konstigt. \u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Man uppt\u00e4cker r_c och best\u00e4mmer sig f\u00f6r att katten skulle g\u00f6ra en fin uppvaktningspresent. s_c springer in f\u00f6r att r\u00e4dda {PRONOUN/r_c/object}, sl\u00e5ss som en hel patrull bara av {PRONOUN/s_c/self}.",
+                "text": "Det där verkade lite konstigt. Öronen spetsade, patrullen går närmare och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Man upptäcker r_c och bestämmer sig för att katten skulle göra en fin uppvaktningspresent. s_c springer in för att rädda {PRONOUN/r_c/object}, slåss som en hel patrull bara av {PRONOUN/s_c/self}.",
                 "exp": 0,
                 "weight": 40,
                 "art": "gen_coyote_danger2_w2",
@@ -1151,9 +1151,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Att k\u00f6ra iv\u00e4g pr\u00e4rievargar l\u00e4mnade sina \u00e4rr p\u00e5 r_c.",
-                    "reg_death": "r_c dog av skador som \u00e5dragits i att h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_ns gr\u00e4nser.",
-                    "lead_death": "fr\u00e5n skador som h\u00e5llit pr\u00e4rievargar borta fr\u00e5n c_n:s gr\u00e4nser"
+                    "scar": "Att köra iväg prärievargar lämnade sina ärr på r_c.",
+                    "reg_death": "r_c dog av skador som ådragits i att hålla prärievargar borta från c_ns gränser.",
+                    "lead_death": "från skador som hållit prärievargar borta från c_n:s gränser"
                 },
                 "relationships": [
                     {
@@ -1186,7 +1186,7 @@
                 ]
             },
             {
-                "text": "Patrullen f\u00f6rs\u00f6ker h\u00e5lla koll p\u00e5 pr\u00e4rievargen p\u00e5 avst\u00e5nd, men den uppt\u00e4cker katterna och de m\u00e5ste sprida sig. Alla flyr bra, men de tappar koll p\u00e5 pr\u00e4rievargen. Det kan vara var som helst fortfarande d\u00e4r ute, lurar och v\u00e4ntar p\u00e5 att attackera.",
+                "text": "Patrullen försöker hålla koll på prärievargen på avstånd, men den upptäcker katterna och de måste sprida sig. Alla flyr bra, men de tappar koll på prärievargen. Det kan vara var som helst fortfarande där ute, lurar och väntar på att attackera.",
                 "exp": 0,
                 "weight": 5,
                 "art": "running_warrior",
@@ -1208,7 +1208,7 @@
                 ]
             },
             {
-                "text": "s_c f\u00f6rs\u00f6ker ta lejonparten av anstr\u00e4ngningarna att leda bort pr\u00e4rievargen, men {PRONOUN/s_c/poss} styrka sviker {PRONOUN/s_c/object} och resten av patrullen m\u00e5ste r\u00e4dda {PRONOUN/s_c/object}, f\u00f6rkorta resultatet av patrullen. Ist\u00e4llet vet alla att pr\u00e4rievargen fortfarande lurar vid deras gr\u00e4nser.",
+                "text": "s_c försöker ta lejonparten av ansträngningarna att leda bort prärievargen, men {PRONOUN/s_c/poss} styrka sviker {PRONOUN/s_c/object} och resten av patrullen måste rädda {PRONOUN/s_c/object}, förkorta resultatet av patrullen. Istället vet alla att prärievargen fortfarande lurar vid deras gränser.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_coyote_danger1",
@@ -1236,18 +1236,18 @@
                 ]
             },
             {
-                "text": "Patrullen f\u00f6rs\u00f6ker leda pr\u00e4rievargen bort fr\u00e5n klanens gr\u00e4nser, men med s\u00e5 f\u00e5 katter \u00e4r det om\u00f6jligt att t\u00e4cka varandras ryggar. r_c faller f\u00f6r pr\u00e4rievargen n\u00e4r resten av patrullen springer f\u00f6r sina liv tillbaka till l\u00e4gret, livr\u00e4dda ur sina skinn och s\u00f6rjer sin klankamrat.",
+                "text": "Patrullen försöker leda prärievargen bort från klanens gränser, men med så få katter är det omöjligt att täcka varandras ryggar. r_c faller för prärievargen när resten av patrullen springer för sina liv tillbaka till lägret, livrädda ur sina skinn och sörjer sin klankamrat.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_dead_cat_EXPLICIT",
-                "art_clean": "gen_d\u00f6d_katt",
+                "art_clean": "gen_död_katt",
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "Den h\u00e4r katten \u00e4r \u00e4rrad av att tappert f\u00f6rsvara klanen mot en pr\u00e4rievarg.",
-                    "reg_death": "Denna katt dog f\u00f6r att h\u00e5lla klanen s\u00e4ker fr\u00e5n en stor pr\u00e4rievarg.",
-                    "lead_death": "dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor pr\u00e4rievarg"
+                    "scar": "Den här katten är ärrad av att tappert försvara klanen mot en prärievarg.",
+                    "reg_death": "Denna katt dog för att hålla klanen säker från en stor prärievarg.",
+                    "lead_death": "dog för att hålla c_n säker från en stor prärievarg"
                 },
                 "relationships": [
                     {
@@ -1267,7 +1267,7 @@
                 ]
             },
             {
-                "text": "Patrullen f\u00f6rs\u00f6ker tappert att leda pr\u00e4rievargen bort fr\u00e5n c_n-gr\u00e4nserna, men med s\u00e5 f\u00e5 katter \u00e4r det om\u00f6jligt att t\u00e4cka varandras ryggar. r_c fastnar n\u00e4r han springer, och det \u00e4r allt resten av patrullen kan g\u00f6ra f\u00f6r att distrahera pr\u00e4rievargen tillr\u00e4ckligt l\u00e4nge f\u00f6r att f\u00e5 {PRONOUN/r_c/object} i s\u00e4kerhet.",
+                "text": "Patrullen försöker tappert att leda prärievargen bort från c_n-gränserna, men med så få katter är det omöjligt att täcka varandras ryggar. r_c fastnar när han springer, och det är allt resten av patrullen kan göra för att distrahera prärievargen tillräckligt länge för att få {PRONOUN/r_c/object} i säkerhet.",
                 "exp": 0,
                 "weight": 10,
                 "art": "running_two_warriors",
@@ -1285,9 +1285,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Den h\u00e4r katten \u00e4r \u00e4rrad av att tappert f\u00f6rsvara klanen mot en pr\u00e4rievarg.",
-                    "reg_death": "Denna katt dog f\u00f6r att h\u00e5lla klanen s\u00e4ker fr\u00e5n en stor pr\u00e4rievarg.",
-                    "lead_death": "dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor pr\u00e4rievarg"
+                    "scar": "Den här katten är ärrad av att tappert försvara klanen mot en prärievarg.",
+                    "reg_death": "Denna katt dog för att hålla klanen säker från en stor prärievarg.",
+                    "lead_death": "dog för att hålla c_n säker från en stor prärievarg"
                 },
                 "relationships": [
                     {
@@ -1325,12 +1325,12 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "N\u00e4r man n\u00e4rmar sig gr\u00e4nsen stannar patrullen i sina sp\u00e5r. En pr\u00e4rievarg har markerat \u00f6ver c_n:s gr\u00e4nsmarkeringar - s\u00e5 nyligen att det stinker fr\u00e5n flera r\u00e4vl\u00e4ngder bort, skarpt \u00e4ckligt i den dova frostiga v\u00e4rlden, s\u00e5 nyligen att hunden kan vara kvar h\u00e4r.",
-        "decline_text": "Patrullen best\u00e4mmer sig f\u00f6r att inte f\u00f6rf\u00f6lja en s\u00e5 farlig varelse. c_n f\u00e5r bara hoppas att det inte kommer n\u00e4rmare l\u00e4gret.",
+        "intro_text": "När man närmar sig gränsen stannar patrullen i sina spår. En prärievarg har markerat över c_n:s gränsmarkeringar - så nyligen att det stinker från flera rävlängder bort, skarpt äckligt i den dova frostiga världen, så nyligen att hunden kan vara kvar här.",
+        "decline_text": "Patrullen bestämmer sig för att inte förfölja en så farlig varelse. c_n får bara hoppas att det inte kommer närmare lägret.",
         "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "Krigarna delar en blick och en nick. De har tillr\u00e4ckligt med katter f\u00f6r att f\u00f6rs\u00f6ka ta itu med detta problem. De sprider sig och anv\u00e4nder ett s\u00f6km\u00f6nster som de alla har tr\u00e4nats i f\u00f6r att isolera den vuxna pr\u00e4rievargens plats och t\u00e4cket av sn\u00f6drivorna f\u00f6r att n\u00e4rma sig smygande. r_c startar striden starkt, s\u00e4nker {PRONOUN/r_c/poss} t\u00e4nder i pr\u00e4rievargens hamstring, och resten av patrullen bryter med skrik och driver pr\u00e4rievargen bort fr\u00e5n c_n.",
+                "text": "Krigarna delar en blick och en nick. De har tillräckligt med katter för att försöka ta itu med detta problem. De sprider sig och använder ett sökmönster som de alla har tränats i för att isolera den vuxna prärievargens plats och täcket av snödrivorna för att närma sig smygande. r_c startar striden starkt, sänker {PRONOUN/r_c/poss} tänder i prärievargens hamstring, och resten av patrullen bryter med skrik och driver prärievargen bort från c_n.",
                 "exp": 60,
                 "weight": 15,
                 "art": "gen_coyote1",
@@ -1380,7 +1380,7 @@
                 ]
             },
             {
-                "text": "s_c anv\u00e4nder {PRONOUN/s_c/poss} sp\u00e5rningstalanger f\u00f6r att leda patrullen till sin fiende. De finner pr\u00e4rievargen hopkurad, svansen stoppad \u00f6ver dess rinnande nos, med byten stulna fr\u00e5n c_n liggande vid f\u00f6tterna medan den v\u00e4rms upp av frosten. Patrullen lyckas inte bara riva hunden, de \u00e5terf\u00e5ngar ocks\u00e5 maten.",
+                "text": "s_c använder {PRONOUN/s_c/poss} spårningstalanger för att leda patrullen till sin fiende. De finner prärievargen hopkurad, svansen stoppad över dess rinnande nos, med byten stulna från c_n liggande vid fötterna medan den värms upp av frosten. Patrullen lyckas inte bara riva hunden, de återfångar också maten.",
                 "exp": 70,
                 "weight": 20,
                 "prey": [
@@ -1441,7 +1441,7 @@
                 ]
             },
             {
-                "text": "Det d\u00e4r verkade lite konstigt. \u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Ingen l\u00e4gger m\u00e4rke till katterna, men patrullen ser med best\u00f6rtning p\u00e5 varandra. Det \u00e4r extremt farligt att attackera s\u00e5 m\u00e5nga pr\u00e4rievargar p\u00e5 en g\u00e5ng, \u00e4ven med en stor gr\u00e4nspatrull. De rapporterar tillbaka till l\u00e4gret ist\u00e4llet.",
+                "text": "Det där verkade lite konstigt. Öronen spetsade, patrullen går närmare och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Ingen lägger märke till katterna, men patrullen ser med bestörtning på varandra. Det är extremt farligt att attackera så många prärievargar på en gång, även med en stor gränspatrull. De rapporterar tillbaka till lägret istället.",
                 "exp": 70,
                 "weight": 20,
                 "art": "running_two_warriors",
@@ -1477,7 +1477,7 @@
                 ]
             },
             {
-                "text": "Det d\u00e4r verkade lite konstigt. \u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Ingen l\u00e4gger m\u00e4rke till katterna, men patrullen ser med best\u00f6rtning p\u00e5 varandra. Det \u00e4r extremt farligt att attackera s\u00e5 m\u00e5nga pr\u00e4rievargar p\u00e5 en g\u00e5ng, \u00e4ven med en stor gr\u00e4nspatrull, men s_c leder dem till attack \u00e4nd\u00e5, och mirakul\u00f6st nog driver katterna bort flocken fr\u00e5n c_n.",
+                "text": "Det där verkade lite konstigt. Öronen spetsade, patrullen går närmare och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Ingen lägger märke till katterna, men patrullen ser med bestörtning på varandra. Det är extremt farligt att attackera så många prärievargar på en gång, även med en stor gränspatrull, men s_c leder dem till attack ändå, och mirakulöst nog driver katterna bort flocken från c_n.",
                 "exp": 90,
                 "weight": 10,
                 "art": "gen_coyote1",
@@ -1553,7 +1553,7 @@
                 ]
             },
             {
-                "text": "Det d\u00e4r verkade lite konstigt. \u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Ingen l\u00e4gger m\u00e4rke till katterna, men patrullen ser med best\u00f6rtning p\u00e5 varandra. Det \u00e4r bara f\u00f6r att s_c \u00e4r med dem och spurtar lika fort som vinden i det v\u00e4rsta av det livsfarliga stafettloppet, som de kan leda bort den illaluktande flocken.",
+                "text": "Det där verkade lite konstigt. Öronen spetsade, patrullen går närmare och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Ingen lägger märke till katterna, men patrullen ser med bestörtning på varandra. Det är bara för att s_c är med dem och spurtar lika fort som vinden i det värsta av det livsfarliga stafettloppet, som de kan leda bort den illaluktande flocken.",
                 "exp": 70,
                 "weight": 20,
                 "art": "running_warrior",
@@ -1621,7 +1621,7 @@
                 ]
             },
             {
-                "text": "De best\u00e4mmer sig f\u00f6r att ingen katt kommer att bli \u00f6verraskad av detta rovdjur igen, och patrullen skuggar pr\u00e4rievargen och skickar ett meddelande f\u00f6r att varna l\u00e4gret. Med tillr\u00e4ckligt m\u00e5nga katter f\u00f6r att h\u00e5lla vakt, vila, sp\u00e5ra och skicka meddelanden fram och tillbaka fr\u00e5n l\u00e4gret, h\u00e5lls c_n s\u00e4kert fr\u00e5n den vandrande pr\u00e4rievargen.",
+                "text": "De bestämmer sig för att ingen katt kommer att bli överraskad av detta rovdjur igen, och patrullen skuggar prärievargen och skickar ett meddelande för att varna lägret. Med tillräckligt många katter för att hålla vakt, vila, spåra och skicka meddelanden fram och tillbaka från lägret, hålls c_n säkert från den vandrande prärievargen.",
                 "exp": 40,
                 "weight": 5,
                 "art": "fst_hunt_fun3",
@@ -1643,7 +1643,7 @@
                 ]
             },
             {
-                "text": "Patrullen samlar mod och driver tappert bort pr\u00e4rievargen. Tillsammans, arbetar som en, och med StarClans styrka bakom sig, pressar patrullen pr\u00e4rievargen. Genom att h\u00e5lla ig\u00e5ng en serie sm\u00e5 sk\u00e4rmytslingar under hela dagen, driver de det l\u00e5ngt bort fr\u00e5n c_n territorium.",
+                "text": "Patrullen samlar mod och driver tappert bort prärievargen. Tillsammans, arbetar som en, och med StarClans styrka bakom sig, pressar patrullen prärievargen. Genom att hålla igång en serie små skärmytslingar under hela dagen, driver de det långt bort från c_n territorium.",
                 "exp": 40,
                 "weight": 5,
                 "art": "fst_hunt_fun3",
@@ -1665,7 +1665,7 @@
                 ]
             },
             {
-                "text": "Ett yip h\u00f6rs fr\u00e5n n\u00e4ra h\u00e5ll. s_c har precis tillr\u00e4ckligt med tid att skrika ut en plan, vilket leder hela den stora patrullen i en skicklig stridsplan mot pr\u00e4rievargen som skyddar katterna fr\u00e5n risken f\u00f6r skada. Coyoten drar svansen och springer mot v\u00e4nligare landomr\u00e5den.",
+                "text": "Ett yip hörs från nära håll. s_c har precis tillräckligt med tid att skrika ut en plan, vilket leder hela den stora patrullen i en skicklig stridsplan mot prärievargen som skyddar katterna från risken för skada. Coyoten drar svansen och springer mot vänligare landområden.",
                 "exp": 60,
                 "weight": 10,
                 "art": "gen_coyote1",
@@ -1691,7 +1691,7 @@
                 ]
             },
             {
-                "text": "s_c kastar osj\u00e4lviskt {PRONOUN/s_c/self} in i kampen, och varje g\u00e5ng pr\u00e4rievargen f\u00f6rs\u00f6ker ta tag i {PRONOUN/s_c/poss} klankamrater, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} d\u00e4r med klor, p\u00e4ls utbl\u00e5st till tv\u00e5 g\u00e5nger {PRONOUN/s_c/poss} normal storlek. Medan s_c f\u00f6rsvarar dem, driver patrullen iv\u00e4g pr\u00e4rievargen och skriker triumferande.",
+                "text": "s_c kastar osjälviskt {PRONOUN/s_c/self} in i kampen, och varje gång prärievargen försöker ta tag i {PRONOUN/s_c/poss} klankamrater, {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} där med klor, päls utblåst till två gånger {PRONOUN/s_c/poss} normal storlek. Medan s_c försvarar dem, driver patrullen iväg prärievargen och skriker triumferande.",
                 "exp": 50,
                 "weight": 5,
                 "art": "gen_angry_cat_warrior",
@@ -1739,7 +1739,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Krigarna delar en blick och en nick. De har tillr\u00e4ckligt med katter f\u00f6r att f\u00f6rs\u00f6ka ta itu med detta problem. De sprider sig och anv\u00e4nder ett s\u00f6km\u00f6nster som de alla har tr\u00e4nats i f\u00f6r att isolera den vuxna pr\u00e4rievargens plats och sn\u00f6t\u00e4cket f\u00f6r att n\u00e4rma sig smygande. Men r_c missbed\u00f6mer det f\u00f6rsta anfallet, och ist\u00e4llet f\u00e5r patrullen fokusera p\u00e5 f\u00f6rsvaret och ta sig d\u00e4rifr\u00e5n mestadels oskadd.",
+                "text": "Krigarna delar en blick och en nick. De har tillräckligt med katter för att försöka ta itu med detta problem. De sprider sig och använder ett sökmönster som de alla har tränats i för att isolera den vuxna prärievargens plats och snötäcket för att närma sig smygande. Men r_c missbedömer det första anfallet, och istället får patrullen fokusera på försvaret och ta sig därifrån mestadels oskadd.",
                 "exp": 0,
                 "weight": 15,
                 "art": "gen_coyote_danger2_w2",
@@ -1757,17 +1757,17 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Ett m\u00f6te med en pr\u00e4rievarg l\u00e4mnade sina \u00e4rr p\u00e5 r_c.",
-                    "reg_death": "r_c dog av skador han \u00e5dragit sig att h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_ns gr\u00e4nser.",
-                    "lead_death": "fr\u00e5n skador som \u00e5dragits h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_n:s gr\u00e4nser"
+                    "scar": "Ett möte med en prärievarg lämnade sina ärr på r_c.",
+                    "reg_death": "r_c dog av skador han ådragit sig att hålla prärievargar borta från c_ns gränser.",
+                    "lead_death": "från skador som ådragits hålla prärievargar borta från c_n:s gränser"
                 }
             },
             {
-                "text": "\u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och viftar ut och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Man erbjuder en g\u00e5va till honan, och p_ls mage faller. {PRONOUN/r_c/subject/CAP} {VERB/r_c/were/was} bara utom synh\u00e5ll i sekunder - men r_c kommer inte hem.",
+                "text": "Öronen spetsade, patrullen går närmare och viftar ut och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Man erbjuder en gåva till honan, och p_ls mage faller. {PRONOUN/r_c/subject/CAP} {VERB/r_c/were/was} bara utom synhåll i sekunder - men r_c kommer inte hem.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_dead_cat_ghost_EXPLICIT",
-                "art_clean": "gen_d\u00f6d_katt",
+                "art_clean": "gen_död_katt",
                 "injury": [
                     {
                         "cats": [
@@ -1784,8 +1784,8 @@
                 ],
                 "history_text": {
                     "scar": "",
-                    "reg_death": "r_c d\u00f6dades av en pr\u00e4rievarghane som f\u00f6rs\u00f6kte erbjuda en uppvaktande present till en hona.",
-                    "lead_death": "h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_n:s gr\u00e4nser"
+                    "reg_death": "r_c dödades av en prärievarghane som försökte erbjuda en uppvaktande present till en hona.",
+                    "lead_death": "hålla prärievargar borta från c_n:s gränser"
                 },
                 "relationships": [
                     {
@@ -1805,7 +1805,7 @@
                 ]
             },
             {
-                "text": "Det d\u00e4r verkade lite konstigt. \u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Man uppt\u00e4cker r_c och best\u00e4mmer sig f\u00f6r att katten skulle g\u00f6ra en fin uppvaktningspresent. Patrullen springer in f\u00f6r att r\u00e4dda {PRONOUN/r_c/object}, och hittar en tillflykt inkl\u00e4md i en kaninh\u00e5la n\u00e4r pr\u00e4rievargarna ylar utanf\u00f6r.",
+                "text": "Det där verkade lite konstigt. Öronen spetsade, patrullen går närmare och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Man upptäcker r_c och bestämmer sig för att katten skulle göra en fin uppvaktningspresent. Patrullen springer in för att rädda {PRONOUN/r_c/object}, och hittar en tillflykt inklämd i en kaninhåla när prärievargarna ylar utanför.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_coyote_danger1",
@@ -1832,9 +1832,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Att uppvakta pr\u00e4rievargar gjorde \u00e4rr p\u00e5 r_c:s p\u00e4ls.",
-                    "reg_death": "r_c d\u00f6dades av en pr\u00e4rievarghane som f\u00f6rs\u00f6kte erbjuda en uppvaktande present till en hona.",
-                    "lead_death": "h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_n:s gr\u00e4nser"
+                    "scar": "Att uppvakta prärievargar gjorde ärr på r_c:s päls.",
+                    "reg_death": "r_c dödades av en prärievarghane som försökte erbjuda en uppvaktande present till en hona.",
+                    "lead_death": "hålla prärievargar borta från c_n:s gränser"
                 },
                 "relationships": [
                     {
@@ -1854,7 +1854,7 @@
                 ]
             },
             {
-                "text": "Det d\u00e4r verkade lite konstigt. \u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Man uppt\u00e4cker r_c och best\u00e4mmer sig f\u00f6r att katten skulle g\u00f6ra en fin uppvaktningspresent. s_c springer in f\u00f6r att r\u00e4dda {PRONOUN/r_c/object}, sl\u00e5ss som en hel patrull bara av {PRONOUN/s_c/self}.",
+                "text": "Det där verkade lite konstigt. Öronen spetsade, patrullen går närmare och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Man upptäcker r_c och bestämmer sig för att katten skulle göra en fin uppvaktningspresent. s_c springer in för att rädda {PRONOUN/r_c/object}, slåss som en hel patrull bara av {PRONOUN/s_c/self}.",
                 "exp": 0,
                 "weight": 40,
                 "art": "gen_coyote_danger2_w2",
@@ -1879,9 +1879,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Att k\u00f6ra iv\u00e4g pr\u00e4rievargar l\u00e4mnade sina \u00e4rr p\u00e5 r_c.",
-                    "reg_death": "r_c dog av skador som \u00e5dragits i att h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_ns gr\u00e4nser.",
-                    "lead_death": "fr\u00e5n skador som h\u00e5llit pr\u00e4rievargar borta fr\u00e5n c_n:s gr\u00e4nser"
+                    "scar": "Att köra iväg prärievargar lämnade sina ärr på r_c.",
+                    "reg_death": "r_c dog av skador som ådragits i att hålla prärievargar borta från c_ns gränser.",
+                    "lead_death": "från skador som hållit prärievargar borta från c_n:s gränser"
                 },
                 "relationships": [
                     {
@@ -1914,7 +1914,7 @@
                 ]
             },
             {
-                "text": "Det d\u00e4r verkade lite konstigt. \u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Ingen l\u00e4gger m\u00e4rke till katterna, men patrullen ser med best\u00f6rtning p\u00e5 varandra. Det \u00e4r extremt farligt att attackera s\u00e5 m\u00e5nga pr\u00e4rievargar samtidigt, \u00e4ven med en stor gr\u00e4nspatrull, men s_c leder dem till attack \u00e4nd\u00e5. Det \u00e4r ett misstag.",
+                "text": "Det där verkade lite konstigt. Öronen spetsade, patrullen går närmare och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Ingen lägger märke till katterna, men patrullen ser med bestörtning på varandra. Det är extremt farligt att attackera så många prärievargar samtidigt, även med en stor gränspatrull, men s_c leder dem till attack ändå. Det är ett misstag.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_coyote_danger1",
@@ -1958,9 +1958,9 @@
                     "multi"
                 ],
                 "history_text": {
-                    "scar": "Att uppvakta pr\u00e4rievargar gjorde \u00e4rr p\u00e5 r_c:s p\u00e4ls.",
-                    "reg_death": "r_c dog av skador han \u00e5dragit sig att h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_ns gr\u00e4nser.",
-                    "lead_death": "fr\u00e5n skador som \u00e5dragits h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_n:s gr\u00e4nser"
+                    "scar": "Att uppvakta prärievargar gjorde ärr på r_c:s päls.",
+                    "reg_death": "r_c dog av skador han ådragit sig att hålla prärievargar borta från c_ns gränser.",
+                    "lead_death": "från skador som ådragits hålla prärievargar borta från c_n:s gränser"
                 },
                 "relationships": [
                     {
@@ -1993,7 +1993,7 @@
                 ]
             },
             {
-                "text": "Det d\u00e4r verkade lite konstigt. \u00d6ronen spetsade, patrullen g\u00e5r n\u00e4rmare och passerar gr\u00e4nsen. P\u00e5 andra sidan bed\u00f6mer en hona hanarna som f\u00f6rs\u00f6ker uppvakta henne. Ingen l\u00e4gger m\u00e4rke till katterna, men patrullen ser med best\u00f6rtning p\u00e5 varandra. Patrullen f\u00f6rs\u00f6ker leda bort flocken med en rel\u00e4 av katter som distraherar dem, men r_c f\u00e5ngas av en mans k\u00e4kar, och det \u00e4r bara s_cs f\u00f6rsta hj\u00e4lp som r\u00e4ddar {PRONOUN/r_c/object} fr\u00e5n att d\u00f6 i sn\u00f6n.",
+                "text": "Det där verkade lite konstigt. Öronen spetsade, patrullen går närmare och passerar gränsen. På andra sidan bedömer en hona hanarna som försöker uppvakta henne. Ingen lägger märke till katterna, men patrullen ser med bestörtning på varandra. Patrullen försöker leda bort flocken med en relä av katter som distraherar dem, men r_c fångas av en mans käkar, och det är bara s_cs första hjälp som räddar {PRONOUN/r_c/object} från att dö i snön.",
                 "exp": 0,
                 "weight": 40,
                 "art": "fst_hunt_howl",
@@ -2026,9 +2026,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Att uppvakta pr\u00e4rievargar gjorde \u00e4rr p\u00e5 r_c:s p\u00e4ls.",
-                    "reg_death": "r_c dog av skador han \u00e5dragit sig att h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_ns gr\u00e4nser.",
-                    "lead_death": "fr\u00e5n skador som \u00e5dragits h\u00e5lla pr\u00e4rievargar borta fr\u00e5n c_n:s gr\u00e4nser"
+                    "scar": "Att uppvakta prärievargar gjorde ärr på r_c:s päls.",
+                    "reg_death": "r_c dog av skador han ådragit sig att hålla prärievargar borta från c_ns gränser.",
+                    "lead_death": "från skador som ådragits hålla prärievargar borta från c_n:s gränser"
                 },
                 "relationships": [
                     {
@@ -2087,13 +2087,13 @@
                 ]
             },
             {
-                "text": "Patrullen f\u00f6rs\u00f6ker h\u00e5lla koll p\u00e5 pr\u00e4rievargen p\u00e5 avst\u00e5nd, men den uppt\u00e4cker katterna och de m\u00e5ste sprida sig. Det \u00e4r dock inte s\u00e5 illa som det kunde ha varit; r_c lyckas h\u00e5lla reda p\u00e5 pr\u00e4rievargens position, och den kommer inte l\u00e4ngre in p\u00e5 c_n territorium.",
+                "text": "Patrullen försöker hålla koll på prärievargen på avstånd, men den upptäcker katterna och de måste sprida sig. Det är dock inte så illa som det kunde ha varit; r_c lyckas hålla reda på prärievargens position, och den kommer inte längre in på c_n territorium.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_coyote_danger1"
             },
             {
-                "text": "s_c f\u00f6rs\u00f6ker visa upp {PRONOUN/s_c/poss} styrka n\u00e4r patrullen g\u00e5r mot strid, men det kommer i v\u00e4gen f\u00f6r attacken. Utan att alla har \u00e5tagit sig att k\u00f6ra iv\u00e4g pr\u00e4rievargen m\u00e5ste patrullen falla tillbaka, men de g\u00f6r det i god ordning.",
+                "text": "s_c försöker visa upp {PRONOUN/s_c/poss} styrka när patrullen går mot strid, men det kommer i vägen för attacken. Utan att alla har åtagit sig att köra iväg prärievargen måste patrullen falla tillbaka, men de gör det i god ordning.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_coyote_danger1",
@@ -2123,7 +2123,7 @@
                 ]
             },
             {
-                "text": "Med s\u00e5 m\u00e5nga katter som alla arbetade som en, b\u00f6rjade pr\u00e4rievargen bli slagen tillbaka. Men precis som tidvattnet i kampen verkar p\u00e5 v\u00e4g att v\u00e4nda, tr\u00e4ffar ett lyckligt slag r_c, och de onda k\u00e4ftarna tar {PRONOUN/r_c/object} till StarClan.",
+                "text": "Med så många katter som alla arbetade som en, började prärievargen bli slagen tillbaka. Men precis som tidvattnet i kampen verkar på väg att vända, träffar ett lyckligt slag r_c, och de onda käftarna tar {PRONOUN/r_c/object} till StarClan.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_dead_cat_ghost_EXPLICIT",
@@ -2132,9 +2132,9 @@
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "Den h\u00e4r katten \u00e4r \u00e4rrad av att tappert f\u00f6rsvara klanen mot en pr\u00e4rievarg.",
-                    "reg_death": "Denna katt dog f\u00f6r att h\u00e5lla klanen s\u00e4ker fr\u00e5n en stor pr\u00e4rievarg.",
-                    "lead_death": "dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor pr\u00e4rievarg"
+                    "scar": "Den här katten är ärrad av att tappert försvara klanen mot en prärievarg.",
+                    "reg_death": "Denna katt dog för att hålla klanen säker från en stor prärievarg.",
+                    "lead_death": "dog för att hålla c_n säker från en stor prärievarg"
                 },
                 "relationships": [
                     {
@@ -2154,7 +2154,7 @@
                 ]
             },
             {
-                "text": "Patrullen k\u00e4mpar tappert, men du beh\u00f6ver bara ha otur en g\u00e5ng. r_c tas ur kampen med ett kn\u00e4pp av odjurets enorma k\u00e4kar. Resten av patrullen samlas f\u00f6r att f\u00f6rsvara {PRONOUN/r_c/object}, och r_c f\u00e5r s\u00e4kert hj\u00e4lp tillbaka till l\u00e4gret, d\u00e4r medicinh\u00e5lan v\u00e4ntar.",
+                "text": "Patrullen kämpar tappert, men du behöver bara ha otur en gång. r_c tas ur kampen med ett knäpp av odjurets enorma käkar. Resten av patrullen samlas för att försvara {PRONOUN/r_c/object}, och r_c får säkert hjälp tillbaka till lägret, där medicinhålan väntar.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_coyote_danger2_w2",
@@ -2172,9 +2172,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Den h\u00e4r katten \u00e4r \u00e4rrad av att tappert f\u00f6rsvara klanen mot en pr\u00e4rievarg.",
-                    "reg_death": "Denna katt dog f\u00f6r att h\u00e5lla klanen s\u00e4ker fr\u00e5n en stor pr\u00e4rievarg.",
-                    "lead_death": "dog f\u00f6r att h\u00e5lla c_n s\u00e4ker fr\u00e5n en stor pr\u00e4rievarg"
+                    "scar": "Den här katten är ärrad av att tappert försvara klanen mot en prärievarg.",
+                    "reg_death": "Denna katt dog för att hålla klanen säker från en stor prärievarg.",
+                    "lead_death": "dog för att hålla c_n säker från en stor prärievarg"
                 },
                 "relationships": [
                     {
@@ -2221,12 +2221,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Patrullerar gr\u00e4nsen och uppdaterar markeringarna, p_l k\u00e4nner hur temperaturen sjunker. N\u00e4r du reser sig upp kan {PRONOUN/p_l/subject} bara urskilja den avl\u00e4gsna himlen ovanf\u00f6r dalen av nedtrampad sn\u00f6 som patrullen tar sig in i. En skir v\u00e4gg av gr\u00e5tt n\u00e4rmar sig. De m\u00e5ste ta skydd!!",
-        "decline_text": "Lyckligtvis har de inte vadderat l\u00e5ngt fr\u00e5n l\u00e4gret \u00e4n, och patrullen tar sig tillbaka innan stormen sl\u00e5r till.",
+        "intro_text": "Patrullerar gränsen och uppdaterar markeringarna, p_l känner hur temperaturen sjunker. När du reser sig upp kan {PRONOUN/p_l/subject} bara urskilja den avlägsna himlen ovanför dalen av nedtrampad snö som patrullen tar sig in i. En skir vägg av grått närmar sig. De måste ta skydd!!",
+        "decline_text": "Lyckligtvis har de inte vadderat långt från lägret än, och patrullen tar sig tillbaka innan stormen slår till.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l k\u00e4nner till en upps\u00e4ttning tunnlar h\u00e4r i n\u00e4rheten och rusar genom sn\u00f6vallarna, leder patrullen till ing\u00e5ngen och gr\u00e4ver frenetiskt n\u00e4r vinden b\u00f6rjar tillta. De g\u00f6r det inuti genom huden p\u00e5 sina t\u00e4nder, men det viktiga \u00e4r att de g\u00f6r det.",
+                "text": "p_l känner till en uppsättning tunnlar här i närheten och rusar genom snövallarna, leder patrullen till ingången och gräver frenetiskt när vinden börjar tillta. De gör det inuti genom huden på sina tänder, men det viktiga är att de gör det.",
                 "exp": 30,
                 "weight": 10,
                 "art": "fst_hunt_fun3",
@@ -2275,7 +2275,7 @@
                 ]
             },
             {
-                "text": "R\u00e4vdynga. Under kontroll av lusten att f\u00e5 panik lyfter s_c och springer till skyddet {PRONOUN/s_c/subject} {VERB/s_c/were/was} med i bakhuvudet {PRONOUN/s_c/poss} n\u00e4r patrullen gav sig ut i morse och leder v\u00e4gen f\u00f6r resten av katterna. Det \u00e4r inte paranoia n\u00e4r v\u00e4dret verkligen \u00e4r ute efter dig.",
+                "text": "Rävdynga. Under kontroll av lusten att få panik lyfter s_c och springer till skyddet {PRONOUN/s_c/subject} {VERB/s_c/were/was} med i bakhuvudet {PRONOUN/s_c/poss} när patrullen gav sig ut i morse och leder vägen för resten av katterna. Det är inte paranoia när vädret verkligen är ute efter dig.",
                 "exp": 30,
                 "weight": 30,
                 "can_have_stat": [
@@ -2332,7 +2332,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r viktigt att inte f\u00e5 panik. s_c tar ett djupt andetag. Tv\u00e5. Med {PRONOUN/s_c/poss} tredje, kom {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} ih\u00e5g rutten till n\u00e4rmaste upps\u00e4ttning k\u00e4nda, s\u00e4kra tunnlar. Resten av patrullen \u00e4r snabba och ot\u00e5liga, men de ber alla om urs\u00e4kt senare, packade t\u00e4tt och s\u00e4kert i en gammal bager-set n\u00e4r stormen rasar utanf\u00f6r.",
+                "text": "Det är viktigt att inte få panik. s_c tar ett djupt andetag. Två. Med {PRONOUN/s_c/poss} tredje, kom {PRONOUN/s_c/subject}{VERB/s_c/'ve/'s} ihåg rutten till närmaste uppsättning kända, säkra tunnlar. Resten av patrullen är snabba och otåliga, men de ber alla om ursäkt senare, packade tätt och säkert i en gammal bager-set när stormen rasar utanför.",
                 "exp": 30,
                 "weight": 30,
                 "can_have_stat": [
@@ -2403,7 +2403,7 @@
                 ]
             },
             {
-                "text": "s_c \u00e4r expert p\u00e5 n\u00e4tverket av tunnlar och h\u00e5lor som sprider sig \u00f6ver sl\u00e4tterna, och hela patrullen tittar omedelbart p\u00e5 {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/nod/nods}- {PRONOUN/s_c/subject} {VERB/s_c/know/knows} bara platsen, en gammal upps\u00e4ttning. Genom lukten av vinden kommer stormen som bl\u00e5ser ner p\u00e5 dem att vara en av sn\u00f6slask som kan leda bort all v\u00e4rme fr\u00e5n ett p\u00e4ls. Patrullen m\u00e5ste ta skydd och v\u00e4nta ut den.",
+                "text": "s_c är expert på nätverket av tunnlar och hålor som sprider sig över slätterna, och hela patrullen tittar omedelbart på {PRONOUN/s_c/object}. {PRONOUN/s_c/subject/CAP} {VERB/s_c/nod/nods}- {PRONOUN/s_c/subject} {VERB/s_c/know/knows} bara platsen, en gammal uppsättning. Genom lukten av vinden kommer stormen som blåser ner på dem att vara en av snöslask som kan leda bort all värme från ett päls. Patrullen måste ta skydd och vänta ut den.",
                 "exp": 40,
                 "weight": 30,
                 "can_have_stat": [
@@ -2471,7 +2471,7 @@
                 ]
             },
             {
-                "text": "Stormen sl\u00e5r till minuter innan patrullen hittar ing\u00e5ngen till n\u00e5gra tunnlar att ta skydd i. V\u00e4l inne instruerar s_c alla att b\u00f6rja dela tungor. De beh\u00f6ver alla f\u00e5 sina skinn torra och varma igen, s\u00e5 snart som m\u00f6jligt.",
+                "text": "Stormen slår till minuter innan patrullen hittar ingången till några tunnlar att ta skydd i. Väl inne instruerar s_c alla att börja dela tungor. De behöver alla få sina skinn torra och varma igen, så snart som möjligt.",
                 "exp": 40,
                 "weight": 30,
                 "art": "pln_bord_tunnel",
@@ -2539,7 +2539,7 @@
                 ]
             },
             {
-                "text": "s_c uppt\u00e4cker en kanin som springer hem. Vet du vad? Det \u00e4r gott nog. Han kallar in patrullen och sp\u00e5rar den till sin h\u00e5la, och katterna tr\u00e4nger sig in, en i taget och helt hopkl\u00e4dda, f\u00f6r att v\u00e4nta ut stormen. Det \u00e4r inte bekv\u00e4mt, men det fungerar.",
+                "text": "s_c upptäcker en kanin som springer hem. Vet du vad? Det är gott nog. Han kallar in patrullen och spårar den till sin håla, och katterna tränger sig in, en i taget och helt hopklädda, för att vänta ut stormen. Det är inte bekvämt, men det fungerar.",
                 "exp": 30,
                 "weight": 30,
                 "can_have_stat": [
@@ -2593,7 +2593,7 @@
                 ]
             },
             {
-                "text": "Det finns absolut inget skydd h\u00e4r, inga tunnlar, inga h\u00e5lor, inga buskar eller dalar, ingenting. Patrullen b\u00f6rjar f\u00e5 panik, men s_c rynkar pannan, koncentrerar sig och minns historien om katter som lever p\u00e5 kullar av is. Sn\u00f6n i sig kan vara deras h\u00e5la, ett sn\u00f6h\u00e5la, kallt, men b\u00e4ttre \u00e4n ingenting.",
+                "text": "Det finns absolut inget skydd här, inga tunnlar, inga hålor, inga buskar eller dalar, ingenting. Patrullen börjar få panik, men s_c rynkar pannan, koncentrerar sig och minns historien om katter som lever på kullar av is. Snön i sig kan vara deras håla, ett snöhåla, kallt, men bättre än ingenting.",
                 "exp": 30,
                 "weight": 30,
                 "can_have_stat": [
@@ -2616,9 +2616,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c f\u00e5ngades ute i kylan p\u00e5 en gr\u00e4nspatrull, och kylan brann {PRONOUN/m_c/object}.",
-                    "reg_death": "m_c d\u00f6dades av konsekvenserna av att {PRONOUN/m_c/poss} gr\u00e4nspatrull misslyckades med att hitta skydd i en sn\u00f6slaskstorm.",
-                    "lead_death": "konsekvenser av att gr\u00e4nspatrullen med {PRONOUN/m_c/poss} inte hittade skydd i en sn\u00f6slaskstorm"
+                    "scar": "m_c fångades ute i kylan på en gränspatrull, och kylan brann {PRONOUN/m_c/object}.",
+                    "reg_death": "m_c dödades av konsekvenserna av att {PRONOUN/m_c/poss} gränspatrull misslyckades med att hitta skydd i en snöslaskstorm.",
+                    "lead_death": "konsekvenser av att gränspatrullen med {PRONOUN/m_c/poss} inte hittade skydd i en snöslaskstorm"
                 },
                 "relationships": [
                     {
@@ -2666,7 +2666,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Ingen kan minnas n\u00e5gra tunnlar n\u00e4ra denna gr\u00e4nsstr\u00e4cka, och patrullen kryper ist\u00e4llet under en buske. Stormen sl\u00e5r till, inte med sn\u00f6 eller hagel, utan med fruktansv\u00e4rd, benh\u00e4mmande sn\u00f6slask, halvsm\u00e4lta hagelfl\u00e4ckar och iskallt vatten som suger v\u00e4rmen fr\u00e5n katternas skinn och slinker ner dem v\u00e5ta mot huden.",
+                "text": "Ingen kan minnas några tunnlar nära denna gränssträcka, och patrullen kryper istället under en buske. Stormen slår till, inte med snö eller hagel, utan med fruktansvärd, benhämmande snöslask, halvsmälta hagelfläckar och iskallt vatten som suger värmen från katternas skinn och slinker ner dem våta mot huden.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_bord_flashflood",
@@ -2684,9 +2684,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c f\u00e5ngades ute i kylan p\u00e5 en gr\u00e4nspatrull, och kylan brann {PRONOUN/m_c/object}.",
-                    "reg_death": "m_c d\u00f6dades av konsekvenserna av att {PRONOUN/m_c/poss} gr\u00e4nspatrull misslyckades med att hitta skydd i en sn\u00f6slaskstorm.",
-                    "lead_death": "konsekvenser av att gr\u00e4nspatrullen med {PRONOUN/m_c/poss} inte hittade skydd i en sn\u00f6slaskstorm"
+                    "scar": "m_c fångades ute i kylan på en gränspatrull, och kylan brann {PRONOUN/m_c/object}.",
+                    "reg_death": "m_c dödades av konsekvenserna av att {PRONOUN/m_c/poss} gränspatrull misslyckades med att hitta skydd i en snöslaskstorm.",
+                    "lead_death": "konsekvenser av att gränspatrullen med {PRONOUN/m_c/poss} inte hittade skydd i en snöslaskstorm"
                 },
                 "relationships": [
                     {
@@ -2705,7 +2705,7 @@
                 ]
             },
             {
-                "text": "Ingen kan minnas n\u00e5gra tunnlar n\u00e4ra denna gr\u00e4nsstr\u00e4cka, och patrullen kryper ist\u00e4llet under en buske. Stormen sl\u00e5r till, inte med sn\u00f6 eller hagel, utan med fruktansv\u00e4rd, benh\u00e4mmande sn\u00f6slask, halvsm\u00e4lta hagelfl\u00e4ckar och iskallt vatten som suger v\u00e4rmen fr\u00e5n katternas skinn och slinker ner dem v\u00e5ta mot huden. r_c svarar inte.",
+                "text": "Ingen kan minnas några tunnlar nära denna gränssträcka, och patrullen kryper istället under en buske. Stormen slår till, inte med snö eller hagel, utan med fruktansvärd, benhämmande snöslask, halvsmälta hagelfläckar och iskallt vatten som suger värmen från katternas skinn och slinker ner dem våta mot huden. r_c svarar inte.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_bord_flashflood",
@@ -2726,9 +2726,9 @@
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c f\u00e5ngades ute i kylan p\u00e5 en gr\u00e4nspatrull, och kylan brann {PRONOUN/m_c/object}.",
-                    "reg_death": "m_c d\u00f6dades av konsekvenserna av att {PRONOUN/m_c/poss} gr\u00e4nspatrull misslyckades med att hitta skydd i en sn\u00f6slaskstorm.",
-                    "lead_death": "konsekvenser av att gr\u00e4nspatrullen med {PRONOUN/m_c/poss} inte hittade skydd i en sn\u00f6slaskstorm"
+                    "scar": "m_c fångades ute i kylan på en gränspatrull, och kylan brann {PRONOUN/m_c/object}.",
+                    "reg_death": "m_c dödades av konsekvenserna av att {PRONOUN/m_c/poss} gränspatrull misslyckades med att hitta skydd i en snöslaskstorm.",
+                    "lead_death": "konsekvenser av att gränspatrullen med {PRONOUN/m_c/poss} inte hittade skydd i en snöslaskstorm"
                 },
                 "relationships": [
                     {
@@ -2747,7 +2747,7 @@
                 ]
             },
             {
-                "text": "s_c insisterar p\u00e5 att de alla kan komma tillbaka till l\u00e4gret innan stormen sl\u00e5r till. Resten av patrullen kommer inte att riskera det, de kommer att g\u00f6mma sig i n\u00e5gra tunnlar, men s_c tar en chans och g\u00f6r det som {PRONOUN/s_c/subject} {VERB/s_c/do/does} \u00e4r b\u00e4st, racing the wind hem. {PRONOUN/s_c/subject/CAP} {VERB/s_c/arrive/rives} i ett stycke. En huttrande, genombl\u00f6t bit.",
+                "text": "s_c insisterar på att de alla kan komma tillbaka till lägret innan stormen slår till. Resten av patrullen kommer inte att riskera det, de kommer att gömma sig i några tunnlar, men s_c tar en chans och gör det som {PRONOUN/s_c/subject} {VERB/s_c/do/does} är bäst, racing the wind hem. {PRONOUN/s_c/subject/CAP} {VERB/s_c/arrive/rives} i ett stycke. En huttrande, genomblöt bit.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_train_soggykitty_mad_warrior",
@@ -2771,9 +2771,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c f\u00e5ngades ute i kylan p\u00e5 en gr\u00e4nspatrull, och kylan brann {PRONOUN/m_c/object}.",
-                    "reg_death": "m_c d\u00f6dades av konsekvenserna av att inte hitta skydd i en sn\u00f6slaskstorm.",
-                    "lead_death": "konsekvenser av att inte hitta skydd i en sn\u00f6slaskstorm"
+                    "scar": "m_c fångades ute i kylan på en gränspatrull, och kylan brann {PRONOUN/m_c/object}.",
+                    "reg_death": "m_c dödades av konsekvenserna av att inte hitta skydd i en snöslaskstorm.",
+                    "lead_death": "konsekvenser av att inte hitta skydd i en snöslaskstorm"
                 },
                 "relationships": [
                     {
@@ -2792,7 +2792,7 @@
                 ]
             },
             {
-                "text": "s_c insisterar p\u00e5 att de alla kan komma tillbaka till l\u00e4gret innan stormen sl\u00e5r till. Resten av patrullen tvekar, men... s_c vet vad {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} g\u00f6r, helt klart. Stormen intar dem p\u00e5 v\u00e4gen hem, isbitar i sn\u00f6sladden tv\u00e4ttar deras p\u00e4ls bl\u00f6ta och frusna.",
+                "text": "s_c insisterar på att de alla kan komma tillbaka till lägret innan stormen slår till. Resten av patrullen tvekar, men... s_c vet vad {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} gör, helt klart. Stormen intar dem på vägen hem, isbitar i snösladden tvättar deras päls blöta och frusna.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_bord_flashflood",
@@ -2824,9 +2824,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c f\u00e5ngades ute i kylan p\u00e5 en gr\u00e4nspatrull, och kylan brann {PRONOUN/m_c/object}.",
-                    "reg_death": "m_c d\u00f6dades av konsekvenserna av att inte hitta skydd i en sn\u00f6slaskstorm.",
-                    "lead_death": "konsekvenser av att inte hitta skydd i en sn\u00f6slaskstorm"
+                    "scar": "m_c fångades ute i kylan på en gränspatrull, och kylan brann {PRONOUN/m_c/object}.",
+                    "reg_death": "m_c dödades av konsekvenserna av att inte hitta skydd i en snöslaskstorm.",
+                    "lead_death": "konsekvenser av att inte hitta skydd i en snöslaskstorm"
                 },
                 "relationships": [
                     {
@@ -2845,7 +2845,7 @@
                 ]
             },
             {
-                "text": "s_c insisterar p\u00e5 att de alla kan komma tillbaka till l\u00e4gret innan stormen sl\u00e5r till. Resten av patrullen tvekar, men... s_c vet vad {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} g\u00f6r, helt klart. Ingen av patrullerna kommer att ta sig hem.",
+                "text": "s_c insisterar på att de alla kan komma tillbaka till lägret innan stormen slår till. Resten av patrullen tvekar, men... s_c vet vad {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} gör, helt klart. Ingen av patrullerna kommer att ta sig hem.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_bord_flashflood",
@@ -2867,9 +2867,9 @@
                     "patrol"
                 ],
                 "history_text": {
-                    "scar": "m_c f\u00e5ngades ute i kylan p\u00e5 en gr\u00e4nspatrull, och kylan brann {PRONOUN/m_c/object}.",
-                    "reg_death": "m_c d\u00f6dades av konsekvenserna av att inte hitta skydd i en sn\u00f6slaskstorm.",
-                    "lead_death": "konsekvenser av att inte hitta skydd i en sn\u00f6slaskstorm"
+                    "scar": "m_c fångades ute i kylan på en gränspatrull, och kylan brann {PRONOUN/m_c/object}.",
+                    "reg_death": "m_c dödades av konsekvenserna av att inte hitta skydd i en snöslaskstorm.",
+                    "lead_death": "konsekvenser av att inte hitta skydd i en snöslaskstorm"
                 },
                 "relationships": [
                     {
@@ -2888,7 +2888,7 @@
                 ]
             },
             {
-                "text": "s_c insisterar p\u00e5 att de alla kan komma tillbaka till l\u00e4gret innan stormen sl\u00e5r till. Resten av patrullen kommer inte att riskera det, de kommer att g\u00f6mma sig i n\u00e5gra tunnlar, men s_c tar en chans och g\u00f6r det som {PRONOUN/s_c/subject} {VERB/s_c/do/does} \u00e4r b\u00e4st, racing the wind hem. {PRONOUN/s_c/subject/CAP} {VERB/s_c/do/does}anl\u00e4nder inte till l\u00e4gret.",
+                "text": "s_c insisterar på att de alla kan komma tillbaka till lägret innan stormen slår till. Resten av patrullen kommer inte att riskera det, de kommer att gömma sig i några tunnlar, men s_c tar en chans och gör det som {PRONOUN/s_c/subject} {VERB/s_c/do/does} är bäst, racing the wind hem. {PRONOUN/s_c/subject/CAP} {VERB/s_c/do/does}anländer inte till lägret.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_bord_flashflood",
@@ -2902,9 +2902,9 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "scar": "m_c f\u00e5ngades ute i kylan p\u00e5 en gr\u00e4nspatrull, och kylan brann {PRONOUN/m_c/object}.",
-                    "reg_death": "m_c d\u00f6dades av konsekvenserna av att inte hitta skydd i en sn\u00f6slaskstorm.",
-                    "lead_death": "konsekvenser av att inte hitta skydd i en sn\u00f6slaskstorm"
+                    "scar": "m_c fångades ute i kylan på en gränspatrull, och kylan brann {PRONOUN/m_c/object}.",
+                    "reg_death": "m_c dödades av konsekvenserna av att inte hitta skydd i en snöslaskstorm.",
+                    "lead_death": "konsekvenser av att inte hitta skydd i en snöslaskstorm"
                 },
                 "relationships": [
                     {
@@ -2950,12 +2950,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Medan han \u00e4r p\u00e5 en gr\u00e4nspatrull i gryningen, medan solen fortfarande kramar den avl\u00e4gsna horisonten, hittar p_l en \u00f6ppning till vad som verkar vara en ny upps\u00e4ttning tunnlar.",
-        "decline_text": "Patrullen beslutar att inte kontrollera tunnlarna. N\u00e4r allt kommer omkring, vem vet vad som kan g\u00f6mma sig inuti?",
+        "intro_text": "Medan han är på en gränspatrull i gryningen, medan solen fortfarande kramar den avlägsna horisonten, hittar p_l en öppning till vad som verkar vara en ny uppsättning tunnlar.",
+        "decline_text": "Patrullen beslutar att inte kontrollera tunnlarna. När allt kommer omkring, vem vet vad som kan gömma sig inuti?",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Det h\u00e4r kan vara en h\u00e5la, h\u00e5ller r_c med. Men att gr\u00e4va fram det f\u00f6r att kontrollera kommer att kyla deras tassar, och eventuellt st\u00f6ra en \u00f6vervintrande passagerare, om de \u00e4r ol\u00e5sta. Att rapportera tillbaka p\u00e5 l\u00e4gret \u00e4r v\u00e4rt att g\u00f6ra, men l\u00e5t oss inte peta p\u00e5 halvt nedgr\u00e4vda sn\u00f6h\u00f6gar, eller hur?",
+                "text": "Det här kan vara en håla, håller r_c med. Men att gräva fram det för att kontrollera kommer att kyla deras tassar, och eventuellt störa en övervintrande passagerare, om de är olåsta. Att rapportera tillbaka på lägret är värt att göra, men låt oss inte peta på halvt nedgrävda snöhögar, eller hur?",
                 "exp": 25,
                 "weight": 30,
                 "art": "gen_train_talkingWW",
@@ -2978,7 +2978,7 @@
                 ]
             },
             {
-                "text": "r_c gratulerar p_l till uppt\u00e4ckten - detta kommer att vara v\u00e4lkomna nyheter tillbaka p\u00e5 l\u00e4gret. Men n\u00e4r p_l v\u00e4nder sig bort kan inte {PRONOUN/r_c/subject} hj\u00e4lpa de sm\u00e5 ryckningarna i slutet av {PRONOUN/r_c/poss} svansen. {PRONOUN/r_c/subject/CAP} {VERB/r_c/were/was} s\u00e5 n\u00e4ra att hitta de d\u00e4r tunnlarna {PRONOUN/r_c/self}! Om bara r_c hade sett ett h\u00e5l, halvt begravt och f\u00f6rkl\u00e4dd i sn\u00f6n.",
+                "text": "r_c gratulerar p_l till upptäckten - detta kommer att vara välkomna nyheter tillbaka på lägret. Men när p_l vänder sig bort kan inte {PRONOUN/r_c/subject} hjälpa de små ryckningarna i slutet av {PRONOUN/r_c/poss} svansen. {PRONOUN/r_c/subject/CAP} {VERB/r_c/were/was} så nära att hitta de där tunnlarna {PRONOUN/r_c/self}! Om bara r_c hade sett ett hål, halvt begravt och förklädd i snön.",
                 "exp": 25,
                 "weight": 20,
                 "art": "gen_train_talkingWW",
@@ -3013,7 +3013,7 @@
                 ]
             },
             {
-                "text": "Nej, de h\u00e4r \u00e4r inte nya... men lukten av gr\u00e4vling p\u00e5 dem \u00e4r det. N\u00e5got \u00e4r v\u00e4ldigt konstigt h\u00e4r. Ingen gr\u00e4vling, oavsett art, ska flytta in i nya tunnlar under l\u00f6vbar. Kanske \u00e4r den skadad, eller sjuk, kanske k\u00f6rdes den ut ur sin cete, men de borde rapportera detta till resten av c_n.",
+                "text": "Nej, de här är inte nya... men lukten av grävling på dem är det. Något är väldigt konstigt här. Ingen grävling, oavsett art, ska flytta in i nya tunnlar under lövbar. Kanske är den skadad, eller sjuk, kanske kördes den ut ur sin cete, men de borde rapportera detta till resten av c_n.",
                 "exp": 30,
                 "weight": 20,
                 "art": "fst_bord_sett",
@@ -3048,7 +3048,7 @@
                 ]
             },
             {
-                "text": "Nej, de h\u00e4r \u00e4r inte nya... men lukten av dem \u00e4r det. N\u00e5got \u00e4r konstigt h\u00e4r, m\u00f6jligen en gr\u00e4vling? Inte en stor, \u00e4r b\u00e5da katterna \u00f6verens om, men en av de mindre sorten, \u00e4ven om vad den g\u00f6r s\u00e5 l\u00e5ngt fr\u00e5n sin cete \u00e4r ett mysterium, den sorten borde flytta i flock. s_c utarbetar en plan f\u00f6r att blockera infarten med sn\u00f6, f\u00f6r att markera platsen f\u00f6r en annan, st\u00f6rre gr\u00e4nspatrull att ta itu med.",
+                "text": "Nej, de här är inte nya... men lukten av dem är det. Något är konstigt här, möjligen en grävling? Inte en stor, är båda katterna överens om, men en av de mindre sorten, även om vad den gör så långt från sin cete är ett mysterium, den sorten borde flytta i flock. s_c utarbetar en plan för att blockera infarten med snö, för att markera platsen för en annan, större gränspatrull att ta itu med.",
                 "exp": 30,
                 "weight": 20,
                 "art": "fst_bord_sett",
@@ -3102,7 +3102,7 @@
                 ]
             },
             {
-                "text": "s_c pausar innan han g\u00e5r in i tunnlarna. Efter en noggrann inspektion av den halvt nedgr\u00e4vda entr\u00e9n kommer s_c fram till att en j\u00e4rv har h\u00e4vdat detta som sitt hem. Rovdjuret verkar vara borta f\u00f6r tillf\u00e4llet, men kan komma tillbaka snart. Patrullen g\u00e5r snabbt vidare.",
+                "text": "s_c pausar innan han går in i tunnlarna. Efter en noggrann inspektion av den halvt nedgrävda entrén kommer s_c fram till att en järv har hävdat detta som sitt hem. Rovdjuret verkar vara borta för tillfället, men kan komma tillbaka snart. Patrullen går snabbt vidare.",
                 "exp": 20,
                 "weight": 2,
                 "art": "gen_warrior_crouching",
@@ -3129,7 +3129,7 @@
                 ]
             },
             {
-                "text": "s_c pausar innan han g\u00e5r in i tunnlarna. Efter en noggrann inspektion av den halvt nedgr\u00e4vda entr\u00e9n kommer s_c fram till att en j\u00e4rv har h\u00e4vdat detta som sitt hem. Rovdjuret verkar vara borta f\u00f6r tillf\u00e4llet, men kan komma tillbaka snart. Patrullen g\u00e5r snabbt vidare.",
+                "text": "s_c pausar innan han går in i tunnlarna. Efter en noggrann inspektion av den halvt nedgrävda entrén kommer s_c fram till att en järv har hävdat detta som sitt hem. Rovdjuret verkar vara borta för tillfället, men kan komma tillbaka snart. Patrullen går snabbt vidare.",
                 "exp": 20,
                 "weight": 2,
                 "art": "gen_warrior_crouching",
@@ -3158,7 +3158,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l och r_c drar bort sn\u00f6 fr\u00e5n ing\u00e5ngen och gr\u00e4ver ner f\u00f6r att bekr\u00e4fta uppt\u00e4ckten. Det \u00e4r en ny upps\u00e4ttning tunnlar, ja. Men alla utgr\u00e4vningar i kylan f\u00e5r dem b\u00e5da att huttra.",
+                "text": "p_l och r_c drar bort snö från ingången och gräver ner för att bekräfta upptäckten. Det är en ny uppsättning tunnlar, ja. Men alla utgrävningar i kylan får dem båda att huttra.",
                 "exp": 0,
                 "weight": 20,
                 "art": "mtn_hunt_newleafsnowstorm",
@@ -3176,13 +3176,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Att gr\u00e4va ut en tunnel i l\u00f6vskog var ingen bra id\u00e9, och l\u00e4mnade m_c m\u00e4rkt av frostskador.",
-                    "reg_death": "Att gr\u00e4va ut en tunnel i l\u00f6vskog var ingen bra id\u00e9, och kylan d\u00f6dade m_c.",
-                    "lead_death": "att gr\u00e4va ut en tunnel i l\u00f6vskog var ingen bra id\u00e9 och kylan d\u00f6dade m_c"
+                    "scar": "Att gräva ut en tunnel i lövskog var ingen bra idé, och lämnade m_c märkt av frostskador.",
+                    "reg_death": "Att gräva ut en tunnel i lövskog var ingen bra idé, och kylan dödade m_c.",
+                    "lead_death": "att gräva ut en tunnel i lövskog var ingen bra idé och kylan dödade m_c"
                 }
             },
             {
-                "text": "p_l och r_c drar bort sn\u00f6 fr\u00e5n ing\u00e5ngen och gr\u00e4ver ner f\u00f6r att bekr\u00e4fta uppt\u00e4ckten. De faller n\u00e4stan p\u00e5 den unga pr\u00e4rievargen som skyddar sig inne i det grunda h\u00e5let, och det blir en chockad, v\u00e5ldsam strid n\u00e4r alla inblandade djur sl\u00e5r ut och drar sig tillbaka, alla kommer ut s\u00e4mre f\u00f6r slitage.",
+                "text": "p_l och r_c drar bort snö från ingången och gräver ner för att bekräfta upptäckten. De faller nästan på den unga prärievargen som skyddar sig inne i det grunda hålet, och det blir en chockad, våldsam strid när alla inblandade djur slår ut och drar sig tillbaka, alla kommer ut sämre för slitage.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_coyote1",
@@ -3200,13 +3200,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en skyddad pr\u00e4rievarg i l\u00f6vbar.",
-                    "reg_death": "Denna katt d\u00f6dades efter att ha st\u00f6rt en skyddad pr\u00e4rievarg i l\u00f6vbar.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades efter att ha st\u00f6rt en skyddad pr\u00e4rievarg i l\u00f6vbar"
+                    "scar": "m_c skadades efter att ha stört en skyddad prärievarg i lövbar.",
+                    "reg_death": "Denna katt dödades efter att ha stört en skyddad prärievarg i lövbar.",
+                    "lead_death": "{VERB/m_c/were/was} dödades efter att ha stört en skyddad prärievarg i lövbar"
                 }
             },
             {
-                "text": "p_l och r_c drar bort sn\u00f6 fr\u00e5n ing\u00e5ngen och gr\u00e4ver ner f\u00f6r att bekr\u00e4fta uppt\u00e4ckten. Inuti trycker den indignerade nya \u00e4garen av h\u00e5lan tillbaka v\u00e5ldsamt och l\u00e4mnar p_l bl\u00f6dande n\u00e4r gr\u00e4vlingen morrar.",
+                "text": "p_l och r_c drar bort snö från ingången och gräver ner för att bekräfta upptäckten. Inuti trycker den indignerade nya ägaren av hålan tillbaka våldsamt och lämnar p_l blödande när grävlingen morrar.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_scarybadger",
@@ -3224,22 +3224,22 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en skyddad pr\u00e4rievarg i l\u00f6vbar.",
-                    "reg_death": "Denna katt d\u00f6dades efter att ha st\u00f6rt en skyddad pr\u00e4rievarg i l\u00f6vbar.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades efter att ha st\u00f6rt en skyddad pr\u00e4rievarg i l\u00f6vbar"
+                    "scar": "m_c skadades efter att ha stört en skyddad prärievarg i lövbar.",
+                    "reg_death": "Denna katt dödades efter att ha stört en skyddad prärievarg i lövbar.",
+                    "lead_death": "{VERB/m_c/were/was} dödades efter att ha stört en skyddad prärievarg i lövbar"
                 }
             },
             {
-                "text": "Det verkar som om det h\u00e4r h\u00e5let \u00e4r hem f\u00f6r en knasig j\u00e4rv, ett faktum som patrullen l\u00e4r sig mycket snabbt n\u00e4r r_c fastnar i rovdjurets k\u00e4kar. r_c kommer inte tillbaka till l\u00e4gret...",
+                "text": "Det verkar som om det här hålet är hem för en knasig järv, ett faktum som patrullen lär sig mycket snabbt när r_c fastnar i rovdjurets käkar. r_c kommer inte tillbaka till lägret...",
                 "exp": 0,
                 "weight": 5,
                 "dead_cats": [
                     "r_c"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en j\u00e4rv i dess h\u00e5la.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en j\u00e4rv.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en järv i dess håla.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en järv.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 }
             }
         ]
@@ -3270,12 +3270,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "Trav l\u00e4ngs banan som markerar gr\u00e4nsen med app1, ser p_l ing\u00e5ngen till ett ok\u00e4nt h\u00e5l i marken.",
-        "decline_text": "p_l best\u00e4mmer sig f\u00f6r att inte kontrollera tunnlarna. N\u00e4r allt kommer omkring, vem vet vad som kan g\u00f6mma sig inuti?",
+        "intro_text": "Trav längs banan som markerar gränsen med app1, ser p_l ingången till ett okänt hål i marken.",
+        "decline_text": "p_l bestämmer sig för att inte kontrollera tunnlarna. När allt kommer omkring, vem vet vad som kan gömma sig inuti?",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Att kontrollera de nya tunnlarna \u00e4r ett bra drag - inte bara \u00e4r de sunda och s\u00e4kra, med en h\u00f6g med sn\u00f6 och gr\u00e4sstj\u00e4lkar som bl\u00e5ser in i den enda grunda kammarens \u00e4ndstation, utan de visar sig omedelbart n\u00f6dv\u00e4ndiga. En regnstorm rullar in, f\u00f6r att v\u00e4rma f\u00f6r sn\u00f6 eller sn\u00f6slask men f\u00f6r kallt f\u00f6r att vara ute och g\u00e5 i, och p_l och app1 skydd i sin nyfunna tillflyktsort.",
+                "text": "Att kontrollera de nya tunnlarna är ett bra drag - inte bara är de sunda och säkra, med en hög med snö och grässtjälkar som blåser in i den enda grunda kammarens ändstation, utan de visar sig omedelbart nödvändiga. En regnstorm rullar in, för att värma för snö eller snöslask men för kallt för att vara ute och gå i, och p_l och app1 skydd i sin nyfunna tillflyktsort.",
                 "exp": 25,
                 "weight": 20,
                 "art": "pln_bord_tunnel",
@@ -3310,7 +3310,7 @@
                 ]
             },
             {
-                "text": "Att kontrollera de nya tunnlarna \u00e4r kallt h\u00e5rt arbete. Det \u00e4r inte roligt att gr\u00e4va i l\u00f6v, oavsett om det \u00e4r sn\u00f6, jord eller v\u00e4xtrester, och alla t\u00e4pper till ing\u00e5ngen i en fuktig kall r\u00f6ra. Men p_l och app1 best\u00e5r, och n\u00e4r de \u00e5terv\u00e4nder till l\u00e4gret ser p_l till att ber\u00e4tta f\u00f6r app1 {PRONOUN/app1/subject}{VERB/app1/'ve/'s} gjort en bra dags arbete och att ta {PRONOUN/app1 /poss} v\u00e4lj fr\u00e5n den f\u00e4rska d\u00f6dsh\u00f6gen.",
+                "text": "Att kontrollera de nya tunnlarna är kallt hårt arbete. Det är inte roligt att gräva i löv, oavsett om det är snö, jord eller växtrester, och alla täpper till ingången i en fuktig kall röra. Men p_l och app1 består, och när de återvänder till lägret ser p_l till att berätta för app1 {PRONOUN/app1/subject}{VERB/app1/'ve/'s} gjort en bra dags arbete och att ta {PRONOUN/app1 /poss} välj från den färska dödshögen.",
                 "exp": 25,
                 "weight": 20,
                 "art": "pln_bord_tunnel",
@@ -3370,7 +3370,7 @@
                 ]
             },
             {
-                "text": "Tunnlarna visar sig vara en ny ing\u00e5ng till en upps\u00e4ttning tunnlar som c_n redan anv\u00e4nder. Detta kan vara till hj\u00e4lp i framtiden, c_n kan alltid anv\u00e4nda en annan punkt p\u00e5 sitt n\u00e4tverk p_l ser till att testa app1 om hur man hittar den igen, och l\u00e4r ut {PRONOUN/app1/object} hur man markerar platsen.",
+                "text": "Tunnlarna visar sig vara en ny ingång till en uppsättning tunnlar som c_n redan använder. Detta kan vara till hjälp i framtiden, c_n kan alltid använda en annan punkt på sitt nätverk p_l ser till att testa app1 om hur man hittar den igen, och lär ut {PRONOUN/app1/object} hur man markerar platsen.",
                 "exp": 25,
                 "weight": 5,
                 "art": "pln_bord_tunnel",
@@ -3404,7 +3404,7 @@
                 ]
             },
             {
-                "text": "Detta \u00e4r v\u00e4rt att avleda patrullen f\u00f6r. c_n kan alltid skicka ut ytterligare en gr\u00e4nsbevakning, men tappar de denna uppt\u00e4ckt (l\u00e4tt att klara sig utan markerad stig om det snart sn\u00f6ar igen) blir gr\u00e4nsregionen inte s\u00e4krare. Ju mer k\u00e4nda, kontrollerade, s\u00e4kra tillflyktsorter n\u00e4ra gr\u00e4nsen, desto b\u00e4ttre, p\u00e5minner p_l app1.",
+                "text": "Detta är värt att avleda patrullen för. c_n kan alltid skicka ut ytterligare en gränsbevakning, men tappar de denna upptäckt (lätt att klara sig utan markerad stig om det snart snöar igen) blir gränsregionen inte säkrare. Ju mer kända, kontrollerade, säkra tillflyktsorter nära gränsen, desto bättre, påminner p_l app1.",
                 "exp": 25,
                 "weight": 10,
                 "art": "pln_bord_tunnel",
@@ -3438,7 +3438,7 @@
                 ]
             },
             {
-                "text": "V\u00e4nta, vad? Hur missade app1 det, {PRONOUN/app1/subject} gick rakt f\u00f6rbi det! p_l visar {PRONOUN/app1/object} tecknen {PRONOUN/p_l/subject} som har uppt\u00e4ckts, den nyligen v\u00e4ltade jorden, de smutsiga sn\u00f6klumparna. Det \u00e4r en bra l\u00e4xa, men det \u00e4r fortfarande p_ls uppt\u00e4ckt, inte app1:s, och den yngre katten \u00e4r helt klart svartsjuk.",
+                "text": "Vänta, vad? Hur missade app1 det, {PRONOUN/app1/subject} gick rakt förbi det! p_l visar {PRONOUN/app1/object} tecknen {PRONOUN/p_l/subject} som har upptäckts, den nyligen vältade jorden, de smutsiga snöklumparna. Det är en bra läxa, men det är fortfarande p_ls upptäckt, inte app1:s, och den yngre katten är helt klart svartsjuk.",
                 "exp": 25,
                 "weight": 20,
                 "art": "pln_bord_tunnel",
@@ -3473,7 +3473,7 @@
                 ]
             },
             {
-                "text": "F\u00f6rsiktigt, varnar p_l. Men {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} beh\u00f6ver varna app1, app1 tar s\u00e4kerheten p\u00e5 allvar. {PRONOUN/app1/subject/CAP} {VERB/app1/want/wants} f\u00f6r att veta hur p_l uppt\u00e4ckte den h\u00e4r nya h\u00e5lan, vad f\u00e5r p_l att tro att det inte finns n\u00e5got farligt inuti, hur man kollar utan att springa ansiktet f\u00f6rst in i en gr\u00e4vling. p_l uppskattar app1s f\u00f6rsiktighet.",
+                "text": "Försiktigt, varnar p_l. Men {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} behöver varna app1, app1 tar säkerheten på allvar. {PRONOUN/app1/subject/CAP} {VERB/app1/want/wants} för att veta hur p_l upptäckte den här nya hålan, vad får p_l att tro att det inte finns något farligt inuti, hur man kollar utan att springa ansiktet först in i en grävling. p_l uppskattar app1s försiktighet.",
                 "exp": 30,
                 "weight": 20,
                 "art": "pln_bord_tunnel",
@@ -3519,7 +3519,7 @@
                 ]
             },
             {
-                "text": "F\u00f6rsiktigt, varnar p_l. Men {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} beh\u00f6ver varna app1, app1 tar s\u00e4kerheten p\u00e5 allvar. T\u00e4nk om n\u00e5gon blev skadad? {PRONOUN/app1/subject/CAP} {VERB/app1/want/wants} f\u00f6r att veta hur p_l uppt\u00e4ckte den h\u00e4r nya h\u00e5lan, vad f\u00e5r p_l att tro att det inte finns n\u00e5got farligt inuti, hur man kollar utan att springa ansiktet f\u00f6rst in i en gr\u00e4vling. p_l uppskattar app1:s osj\u00e4lviska.",
+                "text": "Försiktigt, varnar p_l. Men {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} behöver varna app1, app1 tar säkerheten på allvar. Tänk om någon blev skadad? {PRONOUN/app1/subject/CAP} {VERB/app1/want/wants} för att veta hur p_l upptäckte den här nya hålan, vad får p_l att tro att det inte finns något farligt inuti, hur man kollar utan att springa ansiktet först in i en grävling. p_l uppskattar app1:s osjälviska.",
                 "exp": 30,
                 "weight": 20,
                 "art": "pln_bord_tunnel",
@@ -3566,7 +3566,7 @@
                 ]
             },
             {
-                "text": "F\u00f6rsiktigt, varnar p_l. Men {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} beh\u00f6ver varna app1, gr\u00e4vunders\u00f6kning \u00e4r allvarlig. {PRONOUN/app1/subject/CAP} {VERB/app1/want/wants} f\u00f6r att veta hur p_l uppt\u00e4ckte den h\u00e4r nya h\u00e5lan, vad f\u00e5r p_l att tro att det inte finns n\u00e5got farligt inuti, hur man kollar utan att springa ansiktet f\u00f6rst in i en gr\u00e4vling. p_l uppskattar app1s fokus.",
+                "text": "Försiktigt, varnar p_l. Men {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} behöver varna app1, grävundersökning är allvarlig. {PRONOUN/app1/subject/CAP} {VERB/app1/want/wants} för att veta hur p_l upptäckte den här nya hålan, vad får p_l att tro att det inte finns något farligt inuti, hur man kollar utan att springa ansiktet först in i en grävling. p_l uppskattar app1s fokus.",
                 "exp": 30,
                 "weight": 20,
                 "art": "pln_bord_tunnel",
@@ -3613,7 +3613,7 @@
                 ]
             },
             {
-                "text": "F\u00f6rsiktigt, varnar p_l, redo att dra tillbaka app1 i svansen. Men app1, samtidigt som den \u00e4r skr\u00e4mmande angel\u00e4gen om att attackera en tack och lov imagin\u00e4r gr\u00e4vling som g\u00f6mmer sig i h\u00e5let, omdirigeras l\u00e4tt till ett bra l\u00e4rarsamtal om hur en bra krigare g\u00f6r det utan att bli makad i geng\u00e4ld.",
+                "text": "Försiktigt, varnar p_l, redo att dra tillbaka app1 i svansen. Men app1, samtidigt som den är skrämmande angelägen om att attackera en tack och lov imaginär grävling som gömmer sig i hålet, omdirigeras lätt till ett bra lärarsamtal om hur en bra krigare gör det utan att bli makad i gengäld.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_train_talkingWA.png",
@@ -3659,7 +3659,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Att kontrollera de nya tunnlarna \u00e4r kallt h\u00e5rt arbete. Det \u00e4r inte roligt att gr\u00e4va i l\u00f6v, oavsett om det \u00e4r sn\u00f6, jord eller v\u00e4xtrester, och alla t\u00e4pper till ing\u00e5ngen i en fuktig kall r\u00f6ra. p_l ger upp n\u00e4r {PRONOUN/p_l/subject} {VERB/p_l/see/sees} app1 b\u00f6rjar huttra och tar med den yngre katten tillbaka till l\u00e4gret innan kylan verkligen b\u00f6rjar bita.",
+                "text": "Att kontrollera de nya tunnlarna är kallt hårt arbete. Det är inte roligt att gräva i löv, oavsett om det är snö, jord eller växtrester, och alla täpper till ingången i en fuktig kall röra. p_l ger upp när {PRONOUN/p_l/subject} {VERB/p_l/see/sees} app1 börjar huttra och tar med den yngre katten tillbaka till lägret innan kylan verkligen börjar bita.",
                 "exp": 0,
                 "weight": 20,
                 "art": "mtn_hunt_newleafsnowstorm",
@@ -3680,7 +3680,7 @@
                 ]
             },
             {
-                "text": "Att kontrollera de nya tunnlarna \u00e4r kallt h\u00e5rt arbete. Det \u00e4r inte roligt att gr\u00e4va i l\u00f6v, oavsett om det \u00e4r sn\u00f6, jord eller v\u00e4xtrester, och alla t\u00e4pper till ing\u00e5ngen i en fuktig kall r\u00f6ra. De rensar det grunda g\u00f6mst\u00e4llet, men n\u00e4r de \u00e5terv\u00e4nder till l\u00e4gret, ryser p_l och app1 kan inte k\u00e4nna {PRONOUN/app1/poss} tassar l\u00e4ngre.",
+                "text": "Att kontrollera de nya tunnlarna är kallt hårt arbete. Det är inte roligt att gräva i löv, oavsett om det är snö, jord eller växtrester, och alla täpper till ingången i en fuktig kall röra. De rensar det grunda gömstället, men när de återvänder till lägret, ryser p_l och app1 kan inte känna {PRONOUN/app1/poss} tassar längre.",
                 "exp": 0,
                 "weight": 30,
                 "art": "mtn_hunt_newleafsnowstorm",
@@ -3709,9 +3709,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "Att gr\u00e4va genom nya tunnlar i l\u00f6vbart var en d\u00e5lig id\u00e9 och m\u00e4rkte upp m_c:s p\u00e4ls.",
-                    "reg_death": "Att gr\u00e4va genom nya tunnlar i l\u00f6vbart var en d\u00e5lig id\u00e9, och konsekvenserna d\u00f6dade m_c.",
-                    "lead_death": "att gr\u00e4va genom nya tunnlar i l\u00f6vbart var en d\u00e5lig id\u00e9 och fick konsekvenser"
+                    "scar": "Att gräva genom nya tunnlar i lövbart var en dålig idé och märkte upp m_c:s päls.",
+                    "reg_death": "Att gräva genom nya tunnlar i lövbart var en dålig idé, och konsekvenserna dödade m_c.",
+                    "lead_death": "att gräva genom nya tunnlar i lövbart var en dålig idé och fick konsekvenser"
                 },
                 "relationships": [
                     {
@@ -3731,7 +3731,7 @@
                 ]
             },
             {
-                "text": "Det \u00e4r bra att jag s\u00e5g ing\u00e5ngen, men en d\u00e5lig, <i>d\u00e5lig</i> dag att vara ute i gr\u00e4nslandet. V\u00e4dret n\u00e4rmar sig, och \u00e4ven om b\u00e5da katterna kurar ihop sig, med bara de tv\u00e5 slipper ingen av vinden, \u00e4ven om sn\u00f6sladden inte kan r\u00f6ra dem.",
+                "text": "Det är bra att jag såg ingången, men en dålig, <i>dålig</i> dag att vara ute i gränslandet. Vädret närmar sig, och även om båda katterna kurar ihop sig, med bara de två slipper ingen av vinden, även om snösladden inte kan röra dem.",
                 "exp": 0,
                 "weight": 30,
                 "art": "mtn_hunt_newleafsnowstorm",
@@ -3749,9 +3749,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "V\u00e4dret h\u00f6ll p\u00e5 medan m_c var ute och patrullerade i l\u00f6vbart, vilket fick kylan att bita ihop p\u00e5 ett s\u00e4tt som markerade {PRONOUN/m_c/poss} p\u00e4ls.",
-                    "reg_death": "V\u00e4dret f\u00f6ll in medan m_c var ute och patrullerade i l\u00f6vbart och d\u00f6dade {PRONOUN/m_c/object}.",
-                    "lead_death": "v\u00e4dret h\u00f6ll p\u00e5 medan m_c var ute och patrullerade i l\u00f6vbart"
+                    "scar": "Vädret höll på medan m_c var ute och patrullerade i lövbart, vilket fick kylan att bita ihop på ett sätt som markerade {PRONOUN/m_c/poss} päls.",
+                    "reg_death": "Vädret föll in medan m_c var ute och patrullerade i lövbart och dödade {PRONOUN/m_c/object}.",
+                    "lead_death": "vädret höll på medan m_c var ute och patrullerade i lövbart"
                 },
                 "relationships": [
                     {
@@ -3771,7 +3771,7 @@
                 ]
             },
             {
-                "text": "App1 hoppar \u00f6ver till p_ls sida och skjuter framf\u00f6r {PRONOUN/p_l/object}, fast besluten att vara f\u00f6rst in i den nya h\u00e5lan. Gr\u00e4vlingen inuti \u00e4r inte n\u00f6jd med att m\u00f6ta {PRONOUN/app1/object}, och det \u00e4r bara p_l:s blixtsnabba reflexer som drar ut app1 i tyget tillr\u00e4ckligt snabbt. Vad t\u00e4nkte app1 p\u00e5? <i>{VERB/app1/Ware/Was} {PRONOUN/app1/subject} t\u00e4nkte \u00f6verhuvudtaget?</i>",
+                "text": "App1 hoppar över till p_ls sida och skjuter framför {PRONOUN/p_l/object}, fast besluten att vara först in i den nya hålan. Grävlingen inuti är inte nöjd med att möta {PRONOUN/app1/object}, och det är bara p_l:s blixtsnabba reflexer som drar ut app1 i tyget tillräckligt snabbt. Vad tänkte app1 på? <i>{VERB/app1/Ware/Was} {PRONOUN/app1/subject} tänkte överhuvudtaget?</i>",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_scarybadger",
@@ -3844,7 +3844,7 @@
                 ]
             },
             {
-                "text": "App1 hoppar \u00f6ver till p_ls sida och skjuter framf\u00f6r {PRONOUN/p_l/object}, fast besluten att vara f\u00f6rst in i den nya h\u00e5lan. Gr\u00e4vlingen inuti \u00e4r inte n\u00f6jd med att m\u00f6ta {PRONOUN/app1/object}, och det \u00e4r bara p_ls blixtsnabba reflexer som drar ut app1 innan den kan cuffa app1 f\u00f6r d\u00e5ligt. p_l berates app1 hela v\u00e4gen tillbaka till l\u00e4gret och in i medicinh\u00e5lan.",
+                "text": "App1 hoppar över till p_ls sida och skjuter framför {PRONOUN/p_l/object}, fast besluten att vara först in i den nya hålan. Grävlingen inuti är inte nöjd med att möta {PRONOUN/app1/object}, och det är bara p_ls blixtsnabba reflexer som drar ut app1 innan den kan cuffa app1 för dåligt. p_l berates app1 hela vägen tillbaka till lägret och in i medicinhålan.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_scarybadger",
@@ -3898,9 +3898,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en gr\u00e4vling i dess set.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en gr\u00e4vling.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en grävling i dess set.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en grävling.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 },
                 "relationships": [
                     {
@@ -3961,7 +3961,7 @@
                 ]
             },
             {
-                "text": "App1 hoppar \u00f6ver till p_ls sida och skjuter framf\u00f6r {PRONOUN/p_l/object}, fast besluten att vara f\u00f6rst in i den nya h\u00e5lan. Gr\u00e4vlingen inuti \u00e4r inte n\u00f6jd med att tr\u00e4ffa {PRONOUN/app1/object}, och p_l kan inte komma till app1 i tid.",
+                "text": "App1 hoppar över till p_ls sida och skjuter framför {PRONOUN/p_l/object}, fast besluten att vara först in i den nya hålan. Grävlingen inuti är inte nöjd med att träffa {PRONOUN/app1/object}, och p_l kan inte komma till app1 i tid.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_scarybadger",
@@ -3979,9 +3979,9 @@
                     "app1"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en gr\u00e4vling i dess set.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en gr\u00e4vling.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en grävling i dess set.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en grävling.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 },
                 "relationships": [
                     {
@@ -4042,7 +4042,7 @@
                 ]
             },
             {
-                "text": "F\u00f6rsiktigt, varnar p_l. app1 h\u00e5nar dem och g\u00e5r fram f\u00f6r att kolla in den nya uppt\u00e4ckten och kryper ner i h\u00e5let. p_l \u00e4r f\u00f6r l\u00e5ngt borta f\u00f6r att g\u00f6ra n\u00e5gonting n\u00e4r j\u00e4rven inuti d\u00f6dar {PRONOUN/app1/object}.",
+                "text": "Försiktigt, varnar p_l. app1 hånar dem och går fram för att kolla in den nya upptäckten och kryper ner i hålet. p_l är för långt borta för att göra någonting när järven inuti dödar {PRONOUN/app1/object}.",
                 "exp": 30,
                 "weight": 20,
                 "art": "gen_dead_cat_EXPLICIT",
@@ -4058,13 +4058,13 @@
                     "app1"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en gr\u00e4vling i dess set.",
-                    "reg_death": "m_c avlivades efter ett olyckligt m\u00f6te med en j\u00e4rv.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av en j\u00e4rv som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en grävling i dess set.",
+                    "reg_death": "m_c avlivades efter ett olyckligt möte med en järv.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av en järv som gömde sig i sin håla"
                 }
             },
             {
-                "text": "s_c rusar in i tunnlarna med ett glatt mjau! En ny plats att utforska och uppt\u00e4cka! {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} f\u00f6rkortas n\u00e4r tunneln tar abrupt slut. Det verkar som om den h\u00e4r tunneln inte leder till n\u00e5got annat \u00e4n en \u00e5terv\u00e4ndsgr\u00e4nd bara n\u00e5gra r\u00e4vl\u00e4ngder fr\u00e5n ing\u00e5ngen.",
+                "text": "s_c rusar in i tunnlarna med ett glatt mjau! En ny plats att utforska och upptäcka! {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} förkortas när tunneln tar abrupt slut. Det verkar som om den här tunneln inte leder till något annat än en återvändsgränd bara några rävlängder från ingången.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_train_patrolapprenticesessionfail",
@@ -4093,7 +4093,7 @@
                 ]
             },
             {
-                "text": "N\u00e4r p_l unders\u00f6ker den nya tunneln kommer dess \u00e4gare snusande genom gr\u00e4set. app1 ropar, men p_l har {PRONOUN/p_l/poss} huvud i h\u00e5lan, och app1 springer in ist\u00e4llet, distraherar gr\u00e4vlingen och hoppar p\u00e5 rygg med utstr\u00e4ckta klor. Det r\u00e4ddar p_ls liv. Det kostar ca1 {PRONOUN/app1/poss}s.",
+                "text": "När p_l undersöker den nya tunneln kommer dess ägare snusande genom gräset. app1 ropar, men p_l har {PRONOUN/p_l/poss} huvud i hålan, och app1 springer in istället, distraherar grävlingen och hoppar på rygg med utsträckta klor. Det räddar p_ls liv. Det kostar ca1 {PRONOUN/app1/poss}s.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_scarybadger",
@@ -4129,13 +4129,13 @@
                     "app1"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en gr\u00e4vling i dess set.",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades n\u00e4r han r\u00e4ddade en \u00e4ldre krigare fr\u00e5n en gr\u00e4vling som l\u00e4rling.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en grävling i dess set.",
+                    "reg_death": "Den här katten dödades när han räddade en äldre krigare från en grävling som lärling.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 }
             },
             {
-                "text": "Tunnlarna visar sig vara en gr\u00e4vlingsanl\u00e4ggning som f\u00f6r n\u00e4rvarande anv\u00e4nds. Patrullen drar sig snabbt tillbaka, men inte f\u00f6rr\u00e4n p_l f\u00e5tt ett ot\u00e4ckt s\u00e5r.",
+                "text": "Tunnlarna visar sig vara en grävlingsanläggning som för närvarande används. Patrullen drar sig snabbt tillbaka, men inte förrän p_l fått ett otäckt sår.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_scarybadger",
@@ -4153,9 +4153,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en gr\u00e4vling i dess set.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en j\u00e4rv.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en grävling i dess set.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en järv.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 }
             }
         ]
@@ -4182,24 +4182,24 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l \u00e4r i h\u00f6g beredskap som {PRONOUN/p_l/subject} {VERB/p_l/pad/pads} l\u00e4ngs gr\u00e4nsen - trots allt, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} h\u00e4r ensam. Men i h\u00f6rnet av {PRONOUN/p_l/poss} \u00f6gonvr\u00e5n, {PRONOUN/p_l/subject} {VERB/p_l/spot/spots} ett konstigt skuggst\u00e4nk i det vita av de sn\u00f6kl\u00e4dda f\u00e4lten. \u00c4r det en h\u00e5ling\u00e5ng?",
-        "decline_text": "p_l best\u00e4mmer sig f\u00f6r att inte kontrollera tunnlarna. N\u00e4r allt kommer omkring, vem vet vad som kan g\u00f6mma sig inuti?",
+        "intro_text": "p_l är i hög beredskap som {PRONOUN/p_l/subject} {VERB/p_l/pad/pads} längs gränsen - trots allt, {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} här ensam. Men i hörnet av {PRONOUN/p_l/poss} ögonvrån, {PRONOUN/p_l/subject} {VERB/p_l/spot/spots} ett konstigt skuggstänk i det vita av de snöklädda fälten. Är det en hålingång?",
+        "decline_text": "p_l bestämmer sig för att inte kontrollera tunnlarna. När allt kommer omkring, vem vet vad som kan gömma sig inuti?",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Medan p_l noterar den m\u00f6jliga tunnelns plats, l\u00e4mnar {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} den s\u00e4kra sp\u00e5rade v\u00e4gen till gr\u00e4nsen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/don't/doesn't} vet om det har byggts sn\u00f6 i det d\u00e4r doppet i landskapet, om tunneln \u00e4r bebodd, om jorden \u00e4r stabil och ensam och s\u00e5rbara \u00e4r inte l\u00e4ge att unders\u00f6ka.",
+                "text": "Medan p_l noterar den möjliga tunnelns plats, lämnar {PRONOUN/p_l/subject} {VERB/p_l/don't/doesn't} den säkra spårade vägen till gränsen. {PRONOUN/p_l/subject/CAP} {VERB/p_l/don't/doesn't} vet om det har byggts snö i det där doppet i landskapet, om tunneln är bebodd, om jorden är stabil och ensam och sårbara är inte läge att undersöka.",
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_hunt_strange"
             },
             {
-                "text": "V\u00e4dret faller p\u00e5. H\u00e5let \u00e4r litet, tr\u00e5ngt och sv\u00e5rt att vicka in i - men det \u00e4r ur vinden och kallt regn, och det \u00e4r det som r\u00e4knas f\u00f6r de kommande timmarna. p_l framtr\u00e4der obekv\u00e4mt, t\u00e4ckt av smuts och stinker av kanin, men s\u00e4kert och friskt.",
+                "text": "Vädret faller på. Hålet är litet, trångt och svårt att vicka in i - men det är ur vinden och kallt regn, och det är det som räknas för de kommande timmarna. p_l framträder obekvämt, täckt av smuts och stinker av kanin, men säkert och friskt.",
                 "exp": 20,
                 "weight": 40,
                 "art": "gen_bord_flashflood"
             },
             {
-                "text": "Det \u00e4r n\u00e5got konstigt med den h\u00e4r h\u00e5lan, en doft som tr\u00e4ffar taket p\u00e5 p_ls mun och p\u00e5minner {PRONOUN/p_l/object} om Twoleg trash. Svansar svansen, p_l stannar utanf\u00f6r och best\u00e4mmer sig f\u00f6r att g\u00e5 tillbaka till l\u00e4gret f\u00f6r att rapportera detta icke-h\u00e5la.",
+                "text": "Det är något konstigt med den här hålan, en doft som träffar taket på p_ls mun och påminner {PRONOUN/p_l/object} om Twoleg trash. Svansar svansen, p_l stannar utanför och bestämmer sig för att gå tillbaka till lägret för att rapportera detta icke-håla.",
                 "exp": 20,
                 "weight": 10,
                 "art": "pln_hunt_gonetwolegtrap1",
@@ -4220,7 +4220,7 @@
                 ]
             },
             {
-                "text": "Det h\u00e4r \u00e4r ingen h\u00e5la. p_l backar fr\u00e5n metalln\u00e4tet. {PRONOUN/p_l/subject/CAP} {VERB/p_l/find/finds} en gr\u00e4sstj\u00e4lk som \u00e4r tillr\u00e4ckligt l\u00e5ng f\u00f6r att sticka djupet av Twoleg-f\u00e4llan med, s\u00e4tta av den och st\u00e4nga av den med ett v\u00e5ldsamt kn\u00e4pp. Ingen kommer att anv\u00e4nda den h\u00e4r typen av r\u00e4vdynga mot c_n, inte medan p_l \u00e4r h\u00e4r f\u00f6r att g\u00f6ra n\u00e5got \u00e5t \u200b\u200bdet.",
+                "text": "Det här är ingen håla. p_l backar från metallnätet. {PRONOUN/p_l/subject/CAP} {VERB/p_l/find/finds} en grässtjälk som är tillräckligt lång för att sticka djupet av Twoleg-fällan med, sätta av den och stänga av den med ett våldsamt knäpp. Ingen kommer att använda den här typen av rävdynga mot c_n, inte medan p_l är här för att göra något åt det.",
                 "exp": 20,
                 "weight": 20,
                 "art": "pln_hunt_gonetwolegtrap1",
@@ -4245,19 +4245,19 @@
                 ]
             },
             {
-                "text": "Tunnlarna \u00e4r en \u00f6vergiven gr\u00e4vling! Ingen har varit h\u00e4r p\u00e5 ett tag, det h\u00e4r kan vara en bra plats att \u00e5terv\u00e4nda till.",
+                "text": "Tunnlarna är en övergiven grävling! Ingen har varit här på ett tag, det här kan vara en bra plats att återvända till.",
                 "exp": 20,
                 "weight": 2,
                 "art": "gen_hunt_burrow"
             },
             {
-                "text": "Tunnlarna visar sig vara en ny ing\u00e5ng till en upps\u00e4ttning tunnlar som c_n redan anv\u00e4nder. Detta kan vara till hj\u00e4lp i framtiden.",
+                "text": "Tunnlarna visar sig vara en ny ingång till en uppsättning tunnlar som c_n redan använder. Detta kan vara till hjälp i framtiden.",
                 "exp": 20,
                 "weight": 5,
                 "art": "gen_hunt_burrow"
             },
             {
-                "text": "s_c pausar innan han g\u00e5r in i tunnlarna. Efter en noggrann inspektion av entr\u00e9n kommer s_c fram till att en j\u00e4rv har h\u00e4vdat detta som sitt hem. Rovdjuret verkar vara borta f\u00f6r tillf\u00e4llet, men kan komma tillbaka snart. s_c g\u00e5r snabbt vidare.",
+                "text": "s_c pausar innan han går in i tunnlarna. Efter en noggrann inspektion av entrén kommer s_c fram till att en järv har hävdat detta som sitt hem. Rovdjuret verkar vara borta för tillfället, men kan komma tillbaka snart. s_c går snabbt vidare.",
                 "exp": 20,
                 "weight": 20,
                 "art": "running_warrior",
@@ -4268,7 +4268,7 @@
                 ]
             },
             {
-                "text": "s_c pausar innan han g\u00e5r in i tunnlarna. Efter en noggrann inspektion av entr\u00e9n kommer s_c fram till att en j\u00e4rv har h\u00e4vdat detta som sitt hem. Rovdjuret verkar vara borta f\u00f6r tillf\u00e4llet, men kan komma tillbaka snart. s_c g\u00e5r snabbt vidare.",
+                "text": "s_c pausar innan han går in i tunnlarna. Efter en noggrann inspektion av entrén kommer s_c fram till att en järv har hävdat detta som sitt hem. Rovdjuret verkar vara borta för tillfället, men kan komma tillbaka snart. s_c går snabbt vidare.",
                 "exp": 20,
                 "weight": 20,
                 "art": "running_warrior",
@@ -4281,7 +4281,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Det \u00e4r n\u00e5got konstigt med den h\u00e4r h\u00e5lan, en doft som tr\u00e4ffar taket p\u00e5 p_ls mun och p\u00e5minner {PRONOUN/p_l/object} om Twoleg trash. Vaddering inuti f\u00f6r ett b\u00e4ttre utseende, p_l skakar n\u00e4r luckan sm\u00e4ller ner.",
+                "text": "Det är något konstigt med den här hålan, en doft som träffar taket på p_ls mun och påminner {PRONOUN/p_l/object} om Twoleg trash. Vaddering inuti för ett bättre utseende, p_l skakar när luckan smäller ner.",
                 "exp": 20,
                 "weight": 20,
                 "art": "pln_hunt_gonetwolegtrap1",
@@ -4290,7 +4290,7 @@
                 ]
             },
             {
-                "text": "V\u00e4dret faller p\u00e5. H\u00e5let \u00e4r litet, tr\u00e5ngt och sv\u00e5rt att vicka in i - men det \u00e4r ur vinden och kallt regn, och det \u00e4r det som r\u00e4knas f\u00f6r de kommande timmarna. p_l framtr\u00e4der obekv\u00e4mt, t\u00e4ckt av smuts och huttrande. Usch.",
+                "text": "Vädret faller på. Hålet är litet, trångt och svårt att vicka in i - men det är ur vinden och kallt regn, och det är det som räknas för de kommande timmarna. p_l framträder obekvämt, täckt av smuts och huttrande. Usch.",
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_bord_flashflood",
@@ -4308,9 +4308,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "V\u00e4dret h\u00f6ll p\u00e5 medan m_c var ute och patrullerade i l\u00f6vbart, vilket fick kylan att bita ihop p\u00e5 ett s\u00e4tt som markerade {PRONOUN/m_c/poss} p\u00e4ls.",
-                    "reg_death": "V\u00e4dret f\u00f6ll in medan m_c var ute och patrullerade i l\u00f6vbart och d\u00f6dade {PRONOUN/m_c/object}.",
-                    "lead_death": "v\u00e4dret h\u00f6ll p\u00e5 medan m_c var ute och patrullerade i l\u00f6vbart"
+                    "scar": "Vädret höll på medan m_c var ute och patrullerade i lövbart, vilket fick kylan att bita ihop på ett sätt som markerade {PRONOUN/m_c/poss} päls.",
+                    "reg_death": "Vädret föll in medan m_c var ute och patrullerade i lövbart och dödade {PRONOUN/m_c/object}.",
+                    "lead_death": "vädret höll på medan m_c var ute och patrullerade i lövbart"
                 },
                 "relationships": [
                     {
@@ -4330,7 +4330,7 @@
                 ]
             },
             {
-                "text": "s_c rusar in i tunnlarna med ett glatt mjau! En ny plats att utforska och uppt\u00e4cka! {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} f\u00f6rkortas n\u00e4r tunneln tar abrupt slut. Det verkar som om den h\u00e4r tunneln inte leder till n\u00e5got annat \u00e4n en \u00e5terv\u00e4ndsgr\u00e4nd bara n\u00e5gra r\u00e4vl\u00e4ngder fr\u00e5n ing\u00e5ngen.",
+                "text": "s_c rusar in i tunnlarna med ett glatt mjau! En ny plats att utforska och upptäcka! {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} förkortas när tunneln tar abrupt slut. Det verkar som om den här tunneln inte leder till något annat än en återvändsgränd bara några rävlängder från ingången.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_hunt_heat",
@@ -4342,7 +4342,7 @@
                 ]
             },
             {
-                "text": "s_c rusar in i tunnlarna med ett glatt mjau! En ny plats att utforska och uppt\u00e4cka! J\u00e4rven inuti \u00e4r mindre n\u00f6jd med s\u00e4llskap.",
+                "text": "s_c rusar in i tunnlarna med ett glatt mjau! En ny plats att utforska och upptäcka! Järven inuti är mindre nöjd med sällskap.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_hunt_heat",
@@ -4356,28 +4356,28 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en j\u00e4rv i dess set.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en j\u00e4rv.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en järv i dess set.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en järv.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 }
             },
             {
-                "text": "Det verkar som om det h\u00e4r h\u00e5let \u00e4r hem f\u00f6r en knasig j\u00e4rv, ett faktum som p_l upplever mycket snabbt n\u00e4r den hakar p_ls p\u00e4ls i k\u00e4karna. p_Jag kommer inte tillbaka till l\u00e4gret...",
+                "text": "Det verkar som om det här hålet är hem för en knasig järv, ett faktum som p_l upplever mycket snabbt när den hakar p_ls päls i käkarna. p_Jag kommer inte tillbaka till lägret...",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_dead_cat_EXPLICIT",
-                "art_clean": "gen_d\u00f6d_katt",
+                "art_clean": "gen_död_katt",
                 "dead_cats": [
                     "p_l"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en j\u00e4rv i dess set.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en j\u00e4rv.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en järv i dess set.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en järv.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 }
             },
             {
-                "text": "Tunnlarna visar sig vara en gr\u00e4vlingsanl\u00e4ggning som f\u00f6r n\u00e4rvarande anv\u00e4nds. p_l retirerar med ett ot\u00e4ckt s\u00e5r.",
+                "text": "Tunnlarna visar sig vara en grävlingsanläggning som för närvarande används. p_l retirerar med ett otäckt sår.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_scarybadger",
@@ -4395,9 +4395,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en gr\u00e4vling i dess set.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en gr\u00e4vling.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en grävling i dess set.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en grävling.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 }
             }
         ]
@@ -4424,30 +4424,30 @@
             ]
         },
         "weight": 20,
-        "intro_text": "app1:s \u00f6ron sv\u00e4nger fram och tillbaka och trycker platt mot huvudet p\u00e5 {PRONOUN/app1/poss} d\u00e5 och d\u00e5 n\u00e4r {PRONOUN/app1/poss} k\u00e4nslor glider igenom. Med p\u00e4ls str\u00e4ckt ut till full puff mot kyla och fara {PRONOUN/app1/subject} \u00e4nd\u00e5 {VERB/app1/pad/pads} bara gr\u00e4nsen. En m\u00e4rklig sammanblandning av skuggor f\u00e5ngar {PRONOUN/app1/poss} \u00f6gonen. \u00c4r det en tunneling\u00e5ng?",
-        "decline_text": "app1 best\u00e4mmer sig f\u00f6r att inte kontrollera. N\u00e4r allt kommer omkring, vem vet vad som kan g\u00f6mma sig inuti? Nej, det \u00e4r dags att \u00e5ka hem, innan n\u00e5got d\u00e5ligt h\u00e4nder med {PRONOUN/app1/object}.",
+        "intro_text": "app1:s öron svänger fram och tillbaka och trycker platt mot huvudet på {PRONOUN/app1/poss} då och då när {PRONOUN/app1/poss} känslor glider igenom. Med päls sträckt ut till full puff mot kyla och fara {PRONOUN/app1/subject} ändå {VERB/app1/pad/pads} bara gränsen. En märklig sammanblandning av skuggor fångar {PRONOUN/app1/poss} ögonen. Är det en tunnelingång?",
+        "decline_text": "app1 bestämmer sig för att inte kontrollera. När allt kommer omkring, vem vet vad som kan gömma sig inuti? Nej, det är dags att åka hem, innan något dåligt händer med {PRONOUN/app1/object}.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "app1 sticker {PRONOUN/app1/poss} huvudet in i den grunda grottan, ett morrh\u00e5r i taget, med stora \u00f6gon. Va. Tja, det finns ingen hemma, och fr\u00e5n utseendet av det bl\u00f6ta gr\u00e4set som bl\u00e5st in av vinden och frosten som kl\u00e4ttrar p\u00e5 v\u00e4ggarna, har ingen varit hemma p\u00e5 ett tag. Det finns dock ingen c_n-doft. Kanske f\u00f6r att detta \u00e4r f\u00f6r grunt f\u00f6r att vara en fristad fr\u00e5n rovdjur?",
+                "text": "app1 sticker {PRONOUN/app1/poss} huvudet in i den grunda grottan, ett morrhår i taget, med stora ögon. Va. Tja, det finns ingen hemma, och från utseendet av det blöta gräset som blåst in av vinden och frosten som klättrar på väggarna, har ingen varit hemma på ett tag. Det finns dock ingen c_n-doft. Kanske för att detta är för grunt för att vara en fristad från rovdjur?",
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_hunt_huntassessment"
             },
             {
-                "text": "Den h\u00e4r h\u00e5lan \u00e4r konstig. app1 har aldrig sett en tunnel med raka v\u00e4ggar, eller metallv\u00e4ggar, f\u00f6r den delen. Pelt st\u00e5r upp i en liten mohawk l\u00e4ngs {PRONOUN/app1/poss} ryggraden, {PRONOUN/app1/subject} {VERB/app1/back/backs} bort.",
+                "text": "Den här hålan är konstig. app1 har aldrig sett en tunnel med raka väggar, eller metallväggar, för den delen. Pelt står upp i en liten mohawk längs {PRONOUN/app1/poss} ryggraden, {PRONOUN/app1/subject} {VERB/app1/back/backs} bort.",
                 "exp": 20,
                 "weight": 10,
                 "art": "pln_hunt_gonetwolegtrap1"
             },
             {
-                "text": "N\u00e4r app1 ryser, {PRONOUN/app1/poss} tassar kallt p\u00e5 den frostiga marken, kommer en \u00e5nga av varm luft ut fr\u00e5n den ok\u00e4nda tunneling\u00e5ngen. Det kan inte vara bra, n\u00e5got andas in d\u00e4r. app1 har haft tillr\u00e4ckligt med \u00e4ventyr f\u00f6r en dag och g\u00e5r tillbaka till l\u00e4gret.",
+                "text": "När app1 ryser, {PRONOUN/app1/poss} tassar kallt på den frostiga marken, kommer en ånga av varm luft ut från den okända tunnelingången. Det kan inte vara bra, något andas in där. app1 har haft tillräckligt med äventyr för en dag och går tillbaka till lägret.",
                 "exp": 20,
                 "weight": 30,
                 "art": "gen_hunt_huntassessment"
             },
             {
-                "text": "Det h\u00e4r \u00e4r ingen h\u00e5la. app1 ryser. {PRONOUN/app1/subject/CAP} {VERB/app1/do/does}vet inte vad det <i>\u00e4r</i>, men tunnlar har inte raka kanter och skarpa h\u00f6rn, app1 vet s\u00e5 mycket. {PRONOUN/app1/subject/CAP} borde rapportera detta till {PRONOUN/app1/poss} mentor kanske? Ja, det l\u00e5ter bra.",
+                "text": "Det här är ingen håla. app1 ryser. {PRONOUN/app1/subject/CAP} {VERB/app1/do/does}vet inte vad det <i>är</i>, men tunnlar har inte raka kanter och skarpa hörn, app1 vet så mycket. {PRONOUN/app1/subject/CAP} borde rapportera detta till {PRONOUN/app1/poss} mentor kanske? Ja, det låter bra.",
                 "exp": 20,
                 "weight": 10,
                 "art": "pln_hunt_gonetwolegtrap1",
@@ -4472,7 +4472,7 @@
                 ]
             },
             {
-                "text": "app1 \u00e4r modig, men {PRONOUN/app1/subject}{VERB/app1/'re/'s} inte dumt. {PRONOUN/app1/subject/CAP} {VERB/app1/do/does} inte bara sticka in {PRONOUN/app1/poss} huvudet i en ok\u00e4nd tunnel, v\u00e4nta ist\u00e4llet och dofta och titta i evigheter tills ett lurvigt platt huvud petar ovan jord. En stoat. Den ser app1, men b\u00e5da \u00e4r tillr\u00e4ckligt l\u00e5ngt borta f\u00f6r att blanda sig obekv\u00e4mt runt varandra ist\u00e4llet f\u00f6r att sl\u00e5ss, n\u00e4r det tunna rovdjuret ger sig iv\u00e4g f\u00f6r att hitta mat och app1 v\u00e4nder sig hem.",
+                "text": "app1 är modig, men {PRONOUN/app1/subject}{VERB/app1/'re/'s} inte dumt. {PRONOUN/app1/subject/CAP} {VERB/app1/do/does} inte bara sticka in {PRONOUN/app1/poss} huvudet i en okänd tunnel, vänta istället och dofta och titta i evigheter tills ett lurvigt platt huvud petar ovan jord. En stoat. Den ser app1, men båda är tillräckligt långt borta för att blanda sig obekvämt runt varandra istället för att slåss, när det tunna rovdjuret ger sig iväg för att hitta mat och app1 vänder sig hem.",
                 "exp": 20,
                 "weight": 10,
                 "art": "gen_angry_cat_app",
@@ -4500,7 +4500,7 @@
                 ]
             },
             {
-                "text": "app1 utforskar noggrant den uppt\u00e4ckta tunneln {PRONOUN/app1/subject} och ser hur en buske normalt d\u00f6ljer sin ing\u00e5ng. Tanken p\u00e5 att ha en hemlig, g\u00f6md plats som bara {PRONOUN/app1/subject} {VERB/app1/know/knows} om \u00e4r otroligt tilltalande.",
+                "text": "app1 utforskar noggrant den upptäckta tunneln {PRONOUN/app1/subject} och ser hur en buske normalt döljer sin ingång. Tanken på att ha en hemlig, gömd plats som bara {PRONOUN/app1/subject} {VERB/app1/know/knows} om är otroligt tilltalande.",
                 "exp": 20,
                 "weight": 10,
                 "art": "gen_train_patrolapprenticesessionsuccess",
@@ -4526,7 +4526,7 @@
                 ]
             },
             {
-                "text": "Detta \u00e4r \u00e4nnu en sak att ta itu med p\u00e5 ett \u00e4ventyr som blev skr\u00e4mmande f\u00f6r l\u00e4nge sedan. Nej. app1 g\u00e5r hem ist\u00e4llet, tillbaka till {PRONOUN/app1/poss} trevligt s\u00e4kert h\u00e5la.",
+                "text": "Detta är ännu en sak att ta itu med på ett äventyr som blev skrämmande för länge sedan. Nej. app1 går hem istället, tillbaka till {PRONOUN/app1/poss} trevligt säkert håla.",
                 "exp": 20,
                 "weight": 10,
                 "art": "gen_hunt_huntassessment",
@@ -4552,7 +4552,7 @@
                 ]
             },
             {
-                "text": "Det h\u00e4r kommer att bli en s\u00e5 cool historia att ber\u00e4tta p\u00e5 l\u00e4gret, ber\u00e4ttar app1 f\u00f6r {PRONOUN/app1/self}. N\u00e4r man kollar in tunneln ser det ut som ett kollapsat tak i ett bredare tunnelsystem, som luktar svagt av n\u00e5got app1 inte kan identifiera. Fantastisk!",
+                "text": "Det här kommer att bli en så cool historia att berätta på lägret, berättar app1 för {PRONOUN/app1/self}. När man kollar in tunneln ser det ut som ett kollapsat tak i ett bredare tunnelsystem, som luktar svagt av något app1 inte kan identifiera. Fantastisk!",
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_train_patrolapprenticesessionsuccess",
@@ -4581,7 +4581,7 @@
                 ]
             },
             {
-                "text": "app1 sticker in {PRONOUN/app1/poss} i den nya uppt\u00e4ckten av {PRONOUN/app1/poss} och hittar en rasande pr\u00e4riehund. {PRONOUN/app1/subject/CAP} byter slag och tjattar mot varandra, b\u00e5da slipper oskadda och irriterade.",
+                "text": "app1 sticker in {PRONOUN/app1/poss} i den nya upptäckten av {PRONOUN/app1/poss} och hittar en rasande präriehund. {PRONOUN/app1/subject/CAP} byter slag och tjattar mot varandra, båda slipper oskadda och irriterade.",
                 "exp": 20,
                 "weight": 20,
                 "art": "pln_hunt_prairiedog1",
@@ -4592,7 +4592,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "N\u00e4r app1 ryser, {PRONOUN/app1/poss} tassar kallt p\u00e5 den frostiga marken, kommer en \u00e5nga av varm luft ut fr\u00e5n den ok\u00e4nda tunneling\u00e5ngen. Det \u00e4r varmt d\u00e4r inne! {PRONOUN/app1/subject/CAP} {VERB/app1/bound/bounds} fram\u00e5t, men tunneln \u00e4r varm eftersom den \u00e4r bebodd.",
+                "text": "När app1 ryser, {PRONOUN/app1/poss} tassar kallt på den frostiga marken, kommer en ånga av varm luft ut från den okända tunnelingången. Det är varmt där inne! {PRONOUN/app1/subject/CAP} {VERB/app1/bound/bounds} framåt, men tunneln är varm eftersom den är bebodd.",
                 "exp": 0,
                 "weight": 30,
                 "art": "gen_dead_cat_app_EXPLICIT",
@@ -4601,13 +4601,13 @@
                     "app1"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en j\u00e4rv i dess set.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en j\u00e4rv.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en järv i dess set.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en järv.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 }
             },
             {
-                "text": "N\u00e4r app1 ryser tassar {PRONOUN/app1/poss} kallt p\u00e5 den frostiga marken, {PRONOUN/app1/subject} {VERB/app1/consider/considers} n\u00e4rmar sig tunneln. Det \u00e4r bara s\u00e5 kallt h\u00e4r ute, kallare \u00e4n {PRONOUN/app1/subject} {VERB/app1/were/was} v\u00e4ntat, och vinden b\u00f6rjar tillta. Men nej, inget {PRONOUN/app1/subject} ska g\u00e5 tillbaka till l\u00e4gret ist\u00e4llet. Oerfarenhet av {PRONOUN/app1/poss/CAP} l\u00e5ter den l\u00f6vbl\u00e5 stormen komma ikapp {PRONOUN/app1/object}.",
+                "text": "När app1 ryser tassar {PRONOUN/app1/poss} kallt på den frostiga marken, {PRONOUN/app1/subject} {VERB/app1/consider/considers} närmar sig tunneln. Det är bara så kallt här ute, kallare än {PRONOUN/app1/subject} {VERB/app1/were/was} väntat, och vinden börjar tillta. Men nej, inget {PRONOUN/app1/subject} ska gå tillbaka till lägret istället. Oerfarenhet av {PRONOUN/app1/poss/CAP} låter den lövblå stormen komma ikapp {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 30,
                 "art": "gen_bord_flashflood",
@@ -4616,12 +4616,12 @@
                 ],
                 "history_text": {
                     "scar": "",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades efter att en l\u00f6vbar storm f\u00e5ngade {PRONOUN/s_c/object} p\u00e5 patrull som l\u00e4rling.",
-                    "lead_death": "en l\u00f6vbar storm f\u00e5ngade {PRONOUN/s_c/object} p\u00e5 patrull som l\u00e4rling"
+                    "reg_death": "Den här katten dödades efter att en lövbar storm fångade {PRONOUN/s_c/object} på patrull som lärling.",
+                    "lead_death": "en lövbar storm fångade {PRONOUN/s_c/object} på patrull som lärling"
                 }
             },
             {
-                "text": "N\u00e4r app1 ryser tassar {PRONOUN/app1/poss} kallt p\u00e5 den frostiga marken, {PRONOUN/app1/subject} {VERB/app1/consider/considers} n\u00e4rmar sig tunneln. Det \u00e4r bara s\u00e5 kallt h\u00e4r ute, kallare \u00e4n {PRONOUN/app1/subject} {VERB/app1/were/was} v\u00e4ntat, och vinden b\u00f6rjar tillta. {PRONOUN/app1/subject/CAP} {VERB/app1/huddle/huddles} nere i tunneln och f\u00f6rs\u00f6ker f\u00e5 s\u00e5 mycket l\u00e4 fr\u00e5n vinden som m\u00f6jligt.",
+                "text": "När app1 ryser tassar {PRONOUN/app1/poss} kallt på den frostiga marken, {PRONOUN/app1/subject} {VERB/app1/consider/considers} närmar sig tunneln. Det är bara så kallt här ute, kallare än {PRONOUN/app1/subject} {VERB/app1/were/was} väntat, och vinden börjar tillta. {PRONOUN/app1/subject/CAP} {VERB/app1/huddle/huddles} nere i tunneln och försöker få så mycket lä från vinden som möjligt.",
                 "exp": 0,
                 "weight": 30,
                 "art": "gen_bord_flashflood",
@@ -4648,13 +4648,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c gick ut p\u00e5 gr\u00e4nsbevakning ensam som l\u00e4rling under l\u00f6v-bar, och b\u00e4r fortfarande den lektionens sp\u00e5r.",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades efter att en l\u00f6vbar storm f\u00e5ngade {PRONOUN/s_c/object} p\u00e5 patrull som l\u00e4rling.",
-                    "lead_death": "en l\u00f6vbar storm f\u00e5ngade {PRONOUN/s_c/object} p\u00e5 patrull som l\u00e4rling"
+                    "scar": "m_c gick ut på gränsbevakning ensam som lärling under löv-bar, och bär fortfarande den lektionens spår.",
+                    "reg_death": "Den här katten dödades efter att en lövbar storm fångade {PRONOUN/s_c/object} på patrull som lärling.",
+                    "lead_death": "en lövbar storm fångade {PRONOUN/s_c/object} på patrull som lärling"
                 }
             },
             {
-                "text": "app1 sticker in {PRONOUN/app1/poss} i den nya uppt\u00e4ckten av {PRONOUN/app1/poss} och hittar en rasande pr\u00e4riehund. Den ger en svidande lektion om att stoppa huvudet i slumpm\u00e4ssiga h\u00e5l i marken.",
+                "text": "app1 sticker in {PRONOUN/app1/poss} i den nya upptäckten av {PRONOUN/app1/poss} och hittar en rasande präriehund. Den ger en svidande lektion om att stoppa huvudet i slumpmässiga hål i marken.",
                 "exp": 0,
                 "weight": 20,
                 "art": "pln_hunt_prairiedog1",
@@ -4692,13 +4692,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en ilsken pr\u00e4riehund.",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades efter att s\u00e5r fr\u00e5n en pr\u00e4riehund utvecklats till n\u00e5got v\u00e4rre.",
-                    "lead_death": "efter att s\u00e5r som gavs av en pr\u00e4riehund utvecklats till n\u00e5got v\u00e4rre"
+                    "scar": "m_c skadades efter att ha stört en ilsken präriehund.",
+                    "reg_death": "Den här katten dödades efter att sår från en präriehund utvecklats till något värre.",
+                    "lead_death": "efter att sår som gavs av en präriehund utvecklats till något värre"
                 }
             },
             {
-                "text": "Den h\u00e4r h\u00e5lan \u00e4r konstig. app1 har aldrig sett en tunnel med raka v\u00e4ggar, eller metallv\u00e4ggar, f\u00f6r den delen. Men c_n kan alltid ha nytta av att veta om nya tunnlar, s\u00e5 {PRONOUN/app1/subject} {VERB/app1/creep/creeps} in. Falld\u00f6rren sl\u00e5r igen bakom {PRONOUN/app1/object}.",
+                "text": "Den här hålan är konstig. app1 har aldrig sett en tunnel med raka väggar, eller metallväggar, för den delen. Men c_n kan alltid ha nytta av att veta om nya tunnlar, så {PRONOUN/app1/subject} {VERB/app1/creep/creeps} in. Falldörren slår igen bakom {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 20,
                 "art": "pln_hunt_gonetwolegtrap1",
@@ -4707,7 +4707,7 @@
                 ]
             },
             {
-                "text": "Det h\u00e4r kommer att bli en s\u00e5 cool historia att ber\u00e4tta p\u00e5 l\u00e4gret, ber\u00e4ttar app1 f\u00f6r {PRONOUN/app1/self}. N\u00e4r man kollar in tunneln ser det ut som ett kollapsat tak in i ett bredare tunnelsystem, som luktar svagt av n\u00e5got app1 inte kan identifiera. Va, app1 undrar vad-",
+                "text": "Det här kommer att bli en så cool historia att berätta på lägret, berättar app1 för {PRONOUN/app1/self}. När man kollar in tunneln ser det ut som ett kollapsat tak in i ett bredare tunnelsystem, som luktar svagt av något app1 inte kan identifiera. Va, app1 undrar vad-",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_train_patrolapprenticesessionsuccess",
@@ -4723,13 +4723,13 @@
                     "app1"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en ilsken pr\u00e4riehund.",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades som l\u00e4rling, patrullerade ensam vid gr\u00e4nsen och unders\u00f6kte saker som {PRONOUN/m_c/subject} inte borde ha gjort.",
-                    "lead_death": "patrullera gr\u00e4nsen ensam och unders\u00f6ka saker som {PRONOUN/m_c/subject} inte borde ha"
+                    "scar": "m_c skadades efter att ha stört en ilsken präriehund.",
+                    "reg_death": "Den här katten dödades som lärling, patrullerade ensam vid gränsen och undersökte saker som {PRONOUN/m_c/subject} inte borde ha gjort.",
+                    "lead_death": "patrullera gränsen ensam och undersöka saker som {PRONOUN/m_c/subject} inte borde ha"
                 }
             },
             {
-                "text": "Okej, s\u00e5 det kan vara en tunnel. app1 borde g\u00e5 och kolla upp det, eller hur? c_n bryr sig om tunnlar och s\u00e5nt. {PRONOUN/app1/subject/CAP} {VERB/app1/clamber/clambers} in, och sedan \u00e4r det en skarp sm\u00e4rta.",
+                "text": "Okej, så det kan vara en tunnel. app1 borde gå och kolla upp det, eller hur? c_n bryr sig om tunnlar och sånt. {PRONOUN/app1/subject/CAP} {VERB/app1/clamber/clambers} in, och sedan är det en skarp smärta.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_dead_cat_app_EXPLICIT",
@@ -4743,12 +4743,12 @@
                 ],
                 "history_text": {
                     "scar": "",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades som l\u00e4rling, patrullerade ensam vid gr\u00e4nsen och unders\u00f6kte saker som {PRONOUN/m_c/subject} inte borde ha gjort.",
-                    "lead_death": "patrullera gr\u00e4nsen ensam och unders\u00f6ka saker som {PRONOUN/m_c/subject} inte borde ha"
+                    "reg_death": "Den här katten dödades som lärling, patrullerade ensam vid gränsen och undersökte saker som {PRONOUN/m_c/subject} inte borde ha gjort.",
+                    "lead_death": "patrullera gränsen ensam och undersöka saker som {PRONOUN/m_c/subject} inte borde ha"
                 }
             },
             {
-                "text": "Den grunda grottan \u00e4r hem f\u00f6r en ung gr\u00e4vling, oerfaren, l\u00e5ngt ifr\u00e5n sin f\u00f6dda familj och farlig. p_l flyr, misshandlad, bl\u00e5slagen och bl\u00f6der, men det subadulta rovdjuret kommer inte att f\u00f6lja p_l tillbaka till l\u00e4gret, inte i territorium som \u00e4r obekant och nytt f\u00f6r det.",
+                "text": "Den grunda grottan är hem för en ung grävling, oerfaren, långt ifrån sin födda familj och farlig. p_l flyr, misshandlad, blåslagen och blöder, men det subadulta rovdjuret kommer inte att följa p_l tillbaka till lägret, inte i territorium som är obekant och nytt för det.",
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_scarybadger",
@@ -4797,13 +4797,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en gr\u00e4vling i dess set.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en gr\u00e4vling.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en grävling i dess set.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en grävling.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 }
             },
             {
-                "text": "s_c rusar in i tunnlarna med ett glatt mjau! En ny plats att utforska och uppt\u00e4cka! J\u00e4rven inuti \u00e4r mindre n\u00f6jd med s\u00e4llskap.",
+                "text": "s_c rusar in i tunnlarna med ett glatt mjau! En ny plats att utforska och upptäcka! Järven inuti är mindre nöjd med sällskap.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_dead_cat_app_EXPLICIT",
@@ -4817,9 +4817,9 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en j\u00e4rv i dess set.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en j\u00e4rv.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en järv i dess set.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en järv.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 }
             }
         ]
@@ -4850,12 +4850,12 @@
             ]
         },
         "weight": 20,
-        "intro_text": "L\u00e4rlingarna \u00e4r vid gr\u00e4nsen - inte precis en patrull de skickades p\u00e5. Inte precis en patrull som de ska klara sig utan en krigare, faktiskt. Det \u00e4r inte en patrull som <i>n\u00e5gon</i> ska ha att g\u00f6ra med en storm som rullar in. Hur som helst, \u00e4r det en tunneling\u00e5ng d\u00e4r borta?",
-        "decline_text": "S\u00e5 sm\u00e5ningom tr\u00f6ttnar l\u00e4rlingarna. Hur som helst, de \u00e4r inte t\u00e4nkta att vara h\u00e4r ute utan en krigare i alla fall.",
+        "intro_text": "Lärlingarna är vid gränsen - inte precis en patrull de skickades på. Inte precis en patrull som de ska klara sig utan en krigare, faktiskt. Det är inte en patrull som <i>någon</i> ska ha att göra med en storm som rullar in. Hur som helst, är det en tunnelingång där borta?",
+        "decline_text": "Så småningom tröttnar lärlingarna. Hur som helst, de är inte tänkta att vara här ute utan en krigare i alla fall.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "De k\u00e4nner inte till den h\u00e4r tunneln - men den k\u00e4nner dem, m\u00e4rkta av doft och klo som en av de s\u00e4kra tillflyktsorterna i n\u00e4tverket c_n st\u00e4ndigt underh\u00e5ller och expanderar p\u00e5 deras territorium. Den k\u00e4nner dem, och den r\u00e4ddar dem, f\u00f6r medan de utforskar den bryter stormen utanf\u00f6r, och det som var ett roligt \u00e4ventyr blir lite mer l\u00e4skigt n\u00e4r de kryper under jorden f\u00f6r att undkomma kylan.",
+                "text": "De känner inte till den här tunneln - men den känner dem, märkta av doft och klo som en av de säkra tillflyktsorterna i nätverket c_n ständigt underhåller och expanderar på deras territorium. Den känner dem, och den räddar dem, för medan de utforskar den bryter stormen utanför, och det som var ett roligt äventyr blir lite mer läskigt när de kryper under jorden för att undkomma kylan.",
                 "exp": 20,
                 "weight": 10,
                 "art": "pln_bord_tunnel",
@@ -4877,7 +4877,7 @@
                 ]
             },
             {
-                "text": "app1 g\u00f6r anspr\u00e5k p\u00e5 uppt\u00e4ckten f\u00f6r {PRONOUN/app1/self} och skjuter app2 \u00e5t sidan med {PRONOUN/app1/poss} axeln n\u00e4r app2 kommer f\u00f6r att ta en titt. Vilken p\u00e4lsboll, app2 stannar inte h\u00e4r f\u00f6r att bli behandlad s\u00e5 h\u00e4r, {PRONOUN/app2/subject}{VERB/app2/'re/'s} \u00e5ker hem!",
+                "text": "app1 gör anspråk på upptäckten för {PRONOUN/app1/self} och skjuter app2 åt sidan med {PRONOUN/app1/poss} axeln när app2 kommer för att ta en titt. Vilken pälsboll, app2 stannar inte här för att bli behandlad så här, {PRONOUN/app2/subject}{VERB/app2/'re/'s} åker hem!",
                 "exp": 20,
                 "weight": 5,
                 "art": "gen_train_argueAA",
@@ -4919,7 +4919,7 @@
                 ]
             },
             {
-                "text": "app1 har hittat en underbar upps\u00e4ttning tunnlar, och precis i tid. Alla kryper ner sig l\u00e5gt till marken n\u00e4r \u00e5skan sveper \u00f6ver sl\u00e4tterna och f\u00e5r l\u00e4rlingarna att springa runt och imponera p\u00e5 dem hur avg\u00f6rande en s\u00e4ker tillflyktsort \u00e4r medan sn\u00f6n faller utanf\u00f6r.",
+                "text": "app1 har hittat en underbar uppsättning tunnlar, och precis i tid. Alla kryper ner sig lågt till marken när åskan sveper över slätterna och får lärlingarna att springa runt och imponera på dem hur avgörande en säker tillflyktsort är medan snön faller utanför.",
                 "exp": 20,
                 "weight": 10,
                 "art": "gen_bord_flashflood",
@@ -4954,7 +4954,7 @@
                 ]
             },
             {
-                "text": "\u00c5h hej coolt, vad \u00e4r det h\u00e4r? L\u00e4rlingarna samlas runt den konstiga \u00e5terv\u00e4ndsgr\u00e4nden metalltunneln, petar p\u00e5 dess rostiga sidor, gr\u00e4ver jorden som har staplats ovanp\u00e5 den. Verkligen konstigt, men det h\u00e4r blir en fantastisk historia att ber\u00e4tta p\u00e5 l\u00e4gret.",
+                "text": "Åh hej coolt, vad är det här? Lärlingarna samlas runt den konstiga återvändsgränden metalltunneln, petar på dess rostiga sidor, gräver jorden som har staplats ovanpå den. Verkligen konstigt, men det här blir en fantastisk historia att berätta på lägret.",
                 "exp": 20,
                 "weight": 5,
                 "art": "pln_hunt_gonetwolegtrap1",
@@ -4976,7 +4976,7 @@
                 ]
             },
             {
-                "text": "\u00c5h hej coolt, vad \u00e4r det h\u00e4r? L\u00e4rlingarna samlas runt den konstiga \u00e5terv\u00e4ndsgr\u00e4nden av metalltunneln och petar p\u00e5 dess rostiga sidor. s_c rycker pl\u00f6tsligt bak\u00e5t. Kom bort fr\u00e5n det, det \u00e4r en f\u00e4lla!",
+                "text": "Åh hej coolt, vad är det här? Lärlingarna samlas runt den konstiga återvändsgränden av metalltunneln och petar på dess rostiga sidor. s_c rycker plötsligt bakåt. Kom bort från det, det är en fälla!",
                 "exp": 20,
                 "weight": 10,
                 "art": "gen_scared_cat_app",
@@ -5018,7 +5018,7 @@
                 ]
             },
             {
-                "text": "Tunnlarna \u00e4r markerade med c_n-doft, redan k\u00e4nd och d\u00e4rf\u00f6r mindre lockande. Men s_c v\u00e4grar l\u00e4mna deras s\u00e4kerhet och br\u00e5kar med resten av patrullen tills \u00e5skan sl\u00e5r utanf\u00f6r. Det kalla regnet som skulle ha bl\u00f6tt dem alla bevisar snarare {PRONOUN/s_c/poss} po\u00e4ng.",
+                "text": "Tunnlarna är markerade med c_n-doft, redan känd och därför mindre lockande. Men s_c vägrar lämna deras säkerhet och bråkar med resten av patrullen tills åskan slår utanför. Det kalla regnet som skulle ha blött dem alla bevisar snarare {PRONOUN/s_c/poss} poäng.",
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_speaking_cat_app",
@@ -5073,7 +5073,7 @@
                 ]
             },
             {
-                "text": "L\u00e4rlingarna kryper f\u00f6rsiktigt runt h\u00e5ling\u00e5ngen. Men n\u00e4r \u00e5skan rullar in \u00f6ver den platta horisonten och skickar v\u00e4rlden in i n\u00e4stan nattliga niv\u00e5er av m\u00f6rker, \u00f6vertygar s_c dem att g\u00e5 in - de beh\u00f6ver skydd, de beh\u00f6ver skydd av v\u00e4ggar runt dem. De har varandra, de kommer att bli bra.",
+                "text": "Lärlingarna kryper försiktigt runt hålingången. Men när åskan rullar in över den platta horisonten och skickar världen in i nästan nattliga nivåer av mörker, övertygar s_c dem att gå in - de behöver skydd, de behöver skydd av väggar runt dem. De har varandra, de kommer att bli bra.",
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_bord_flashflood",
@@ -5132,7 +5132,7 @@
                 ]
             },
             {
-                "text": "app1 sticker in {PRONOUN/app1/poss} i den nya uppt\u00e4ckten av {PRONOUN/app1/poss} och hittar en rasande pr\u00e4riehund. De byter slag och tjattrar mot varandra, b\u00e5da slipper oskadda och irriterade.",
+                "text": "app1 sticker in {PRONOUN/app1/poss} i den nya upptäckten av {PRONOUN/app1/poss} och hittar en rasande präriehund. De byter slag och tjattrar mot varandra, båda slipper oskadda och irriterade.",
                 "exp": 20,
                 "weight": 2,
                 "art": "pln_hunt_prairiedog1",
@@ -5158,7 +5158,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "\u00c5h hej coolt, vad \u00e4r det h\u00e4r? L\u00e4rlingarna samlas runt tunneln och unders\u00f6ker. Hej s_c, ser det h\u00e4r s\u00e4kert ut? N\u00e4r s_c nickar kliver app2 in - men d\u00e4rinne lurar en s\u00f6mnig j\u00e4rv.",
+                "text": "Åh hej coolt, vad är det här? Lärlingarna samlas runt tunneln och undersöker. Hej s_c, ser det här säkert ut? När s_c nickar kliver app2 in - men därinne lurar en sömnig järv.",
                 "exp": 20,
                 "weight": 10,
                 "art": "gen_dead_cat_app_EXPLICIT",
@@ -5186,8 +5186,8 @@
                 ],
                 "history_text": {
                     "scar": "",
-                    "reg_death": "m_c d\u00f6dades n\u00e4r en annan l\u00e4rling gjorde fel bed\u00f6mningsanrop p\u00e5 en gr\u00e4nspatrull.",
-                    "lead_death": "en annan l\u00e4rling gjorde fel bed\u00f6mningsuppmaning p\u00e5 en gr\u00e4nspatrull"
+                    "reg_death": "m_c dödades när en annan lärling gjorde fel bedömningsanrop på en gränspatrull.",
+                    "lead_death": "en annan lärling gjorde fel bedömningsuppmaning på en gränspatrull"
                 },
                 "relationships": [
                     {
@@ -5219,7 +5219,7 @@
                 ]
             },
             {
-                "text": "app1 sticker in {PRONOUN/app1/poss} i den nya uppt\u00e4ckten av {PRONOUN/app1/poss} och hittar en rasande pr\u00e4riehund. Den ger en svidande lektion om att stoppa huvudet i slumpm\u00e4ssiga h\u00e5l i marken.",
+                "text": "app1 sticker in {PRONOUN/app1/poss} i den nya upptäckten av {PRONOUN/app1/poss} och hittar en rasande präriehund. Den ger en svidande lektion om att stoppa huvudet i slumpmässiga hål i marken.",
                 "exp": 0,
                 "weight": 5,
                 "art": "pln_hunt_prairiedog1",
@@ -5257,13 +5257,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en ilsken pr\u00e4riehund.",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades efter att s\u00e5r fr\u00e5n en pr\u00e4riehund utvecklats till n\u00e5got v\u00e4rre.",
-                    "lead_death": "efter att s\u00e5r som gavs av en pr\u00e4riehund utvecklats till n\u00e5got v\u00e4rre"
+                    "scar": "m_c skadades efter att ha stört en ilsken präriehund.",
+                    "reg_death": "Den här katten dödades efter att sår från en präriehund utvecklats till något värre.",
+                    "lead_death": "efter att sår som gavs av en präriehund utvecklats till något värre"
                 }
             },
             {
-                "text": "Den h\u00e4r h\u00e5lan \u00e4r konstig. app1 har aldrig sett en tunnel med raka v\u00e4ggar, eller metallv\u00e4ggar, f\u00f6r den delen. Men c_n kan alltid ha nytta av att veta om nya tunnlar, s\u00e5 {PRONOUN/app1/subject} {VERB/app1/creep/creeps} in. Falld\u00f6rren sl\u00e5r igen bakom {PRONOUN/app1/object}.",
+                "text": "Den här hålan är konstig. app1 har aldrig sett en tunnel med raka väggar, eller metallväggar, för den delen. Men c_n kan alltid ha nytta av att veta om nya tunnlar, så {PRONOUN/app1/subject} {VERB/app1/creep/creeps} in. Falldörren slår igen bakom {PRONOUN/app1/object}.",
                 "exp": 0,
                 "weight": 5,
                 "art": "pln_hunt_gonetwolegtrap1",
@@ -5283,12 +5283,12 @@
                 ],
                 "history_text": {
                     "scar": "",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades av chocken av att se en medl\u00e4rling bli kidnappad av Twolegs.",
-                    "lead_death": "chocken av att se en medl\u00e4rling bli kidnappad av Twolegs"
+                    "reg_death": "Den här katten dödades av chocken av att se en medlärling bli kidnappad av Twolegs.",
+                    "lead_death": "chocken av att se en medlärling bli kidnappad av Twolegs"
                 }
             },
             {
-                "text": "\u00c5h hej coolt, vad \u00e4r det h\u00e4r? L\u00e4rlingarna samlas runt den konstiga \u00e5terv\u00e4ndsgr\u00e4nden av metalltunneln, petar p\u00e5 dess rostiga sidor, gr\u00e4ver av jorden som har staplats ovanp\u00e5 den, kryper in f\u00f6r att kl\u00f6sa p\u00e5 baksidan. F\u00e4llan st\u00e4ngs med ett v\u00e5ldsamt sn\u00e4pp.",
+                "text": "Åh hej coolt, vad är det här? Lärlingarna samlas runt den konstiga återvändsgränden av metalltunneln, petar på dess rostiga sidor, gräver av jorden som har staplats ovanpå den, kryper in för att klösa på baksidan. Fällan stängs med ett våldsamt snäpp.",
                 "exp": 20,
                 "weight": 5,
                 "art": "pln_hunt_gonetwolegtrap1",
@@ -5308,12 +5308,12 @@
                 ],
                 "history_text": {
                     "scar": "",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades av chocken av att se andra l\u00e4rlingar bli kidnappade av Twolegs.",
-                    "lead_death": "chocken av att se medl\u00e4rlingar bli kidnappade av Twolegs"
+                    "reg_death": "Den här katten dödades av chocken av att se andra lärlingar bli kidnappade av Twolegs.",
+                    "lead_death": "chocken av att se medlärlingar bli kidnappade av Twolegs"
                 }
             },
             {
-                "text": "Kom igen, l\u00e5t oss kolla upp det! s_c g\u00e5r fram till ing\u00e5ngen, svansen surrande upphetsat. Det finns en shirek och n\u00e5got drar in {PRONOUN/s_c/subject}.",
+                "text": "Kom igen, låt oss kolla upp det! s_c går fram till ingången, svansen surrande upphetsat. Det finns en shirek och något drar in {PRONOUN/s_c/subject}.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_train_patrolapprenticesessionsuccess",
@@ -5333,12 +5333,12 @@
                 ],
                 "history_text": {
                     "scar": "",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades som l\u00e4rling, patrullerade gr\u00e4nsen och unders\u00f6kte saker som {PRONOUN/m_c/subject} inte borde ha.",
-                    "lead_death": "patrullera gr\u00e4nsen och unders\u00f6ka saker som {PRONOUN/m_c/subject} inte borde ha"
+                    "reg_death": "Den här katten dödades som lärling, patrullerade gränsen och undersökte saker som {PRONOUN/m_c/subject} inte borde ha.",
+                    "lead_death": "patrullera gränsen och undersöka saker som {PRONOUN/m_c/subject} inte borde ha"
                 }
             },
             {
-                "text": "s_c rusar in i tunnlarna med ett glatt mjau! En ny plats att utforska och uppt\u00e4cka! J\u00e4rven inuti \u00e4r mindre n\u00f6jd med s\u00e4llskap.",
+                "text": "s_c rusar in i tunnlarna med ett glatt mjau! En ny plats att utforska och upptäcka! Järven inuti är mindre nöjd med sällskap.",
                 "exp": 0,
                 "weight": 5,
                 "art": "gen_dead_cat_app_EXPLICIT",
@@ -5355,13 +5355,13 @@
                     "s_c"
                 ],
                 "history_text": {
-                    "scar": "m_c skadades efter att ha st\u00f6rt en j\u00e4rv i dess set.",
-                    "reg_death": "Denna katt d\u00f6dades efter ett olyckligt m\u00f6te med en j\u00e4rv.",
-                    "lead_death": "{VERB/m_c/were/was} d\u00f6dades av ett rovdjur som g\u00f6mde sig i sin h\u00e5la"
+                    "scar": "m_c skadades efter att ha stört en järv i dess set.",
+                    "reg_death": "Denna katt dödades efter ett olyckligt möte med en järv.",
+                    "lead_death": "{VERB/m_c/were/was} dödades av ett rovdjur som gömde sig i sin håla"
                 }
             },
             {
-                "text": "Sn\u00f6 halvblockerar ing\u00e5ngen. Usch. Utan att n\u00e5gon vill f\u00e5 sina tassar kylda n\u00e4r de gr\u00e4ver ut den, forts\u00e4tter patrullen, medan \u00e5skan \u00f6ver huvudet mullrar hotfullt. Slask och hagel v\u00e4ntar dem. L\u00e4rlingarna \u00e5terfinns i en ihopkrupen, bl\u00f6t, frostbiten boll av mis\u00e4r. Inte alla kan \u00e5terupplivas p\u00e5 l\u00e4gret.",
+                "text": "Snö halvblockerar ingången. Usch. Utan att någon vill få sina tassar kylda när de gräver ut den, fortsätter patrullen, medan åskan över huvudet mullrar hotfullt. Slask och hagel väntar dem. Lärlingarna återfinns i en ihopkrupen, blöt, frostbiten boll av misär. Inte alla kan återupplivas på lägret.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_train_soggykitty_mad_app",
@@ -5392,13 +5392,13 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c gick ut med en grupp v\u00e4nner som l\u00e4rling, och de var alla f\u00e5ngade i sn\u00f6slask, vilket har satt sina sp\u00e5r p\u00e5 {PRONOUN/m_c/poss} p\u00e4ls.",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades som l\u00e4rling, efter att {PRONOUN/m_c/subject} \u00e5kte p\u00e5 gr\u00e4nspatrull med {PRONOUN/m_c/poss} v\u00e4nner och fastnade i en sn\u00f6slaskstorm.",
-                    "lead_death": "\u00e5kte p\u00e5 gr\u00e4nspatrull med {PRONOUN/m_c/poss} v\u00e4nner och fastnade i en sn\u00f6slaskv\u00e4der"
+                    "scar": "m_c gick ut med en grupp vänner som lärling, och de var alla fångade i snöslask, vilket har satt sina spår på {PRONOUN/m_c/poss} päls.",
+                    "reg_death": "Den här katten dödades som lärling, efter att {PRONOUN/m_c/subject} åkte på gränspatrull med {PRONOUN/m_c/poss} vänner och fastnade i en snöslaskstorm.",
+                    "lead_death": "åkte på gränspatrull med {PRONOUN/m_c/poss} vänner och fastnade i en snöslaskväder"
                 }
             },
             {
-                "text": "Sn\u00f6 halvblockerar ing\u00e5ngen. Usch. Utan att n\u00e5gon vill f\u00e5 sina tassar kylda n\u00e4r de gr\u00e4ver ut den, forts\u00e4tter patrullen, medan \u00e5skan \u00f6ver huvudet mullrar hotfullt. Slask och hagel v\u00e4ntar dem. L\u00e4rlingarna \u00e5terfinns i en ihopkrupen, bl\u00f6t, frostbiten boll av mis\u00e4r. Deras kroppar \u00e4r alla kalla.",
+                "text": "Snö halvblockerar ingången. Usch. Utan att någon vill få sina tassar kylda när de gräver ut den, fortsätter patrullen, medan åskan över huvudet mullrar hotfullt. Slask och hagel väntar dem. Lärlingarna återfinns i en ihopkrupen, blöt, frostbiten boll av misär. Deras kroppar är alla kalla.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_bord_flashflood",
@@ -5406,13 +5406,13 @@
                     "patrol"
                 ],
                 "history_text": {
-                    "scar": "m_c gick ut med en grupp v\u00e4nner som l\u00e4rling, och de var alla f\u00e5ngade i sn\u00f6slask, vilket har satt sina sp\u00e5r p\u00e5 {PRONOUN/m_c/poss} p\u00e4ls.",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades som l\u00e4rling, efter att {PRONOUN/m_c/subject} \u00e5kte p\u00e5 gr\u00e4nspatrull med {PRONOUN/m_c/poss} v\u00e4nner och fastnade i en sn\u00f6slaskstorm.",
-                    "lead_death": "\u00e5kte p\u00e5 gr\u00e4nspatrull med {PRONOUN/m_c/poss} v\u00e4nner och fastnade i en sn\u00f6slaskv\u00e4der"
+                    "scar": "m_c gick ut med en grupp vänner som lärling, och de var alla fångade i snöslask, vilket har satt sina spår på {PRONOUN/m_c/poss} päls.",
+                    "reg_death": "Den här katten dödades som lärling, efter att {PRONOUN/m_c/subject} åkte på gränspatrull med {PRONOUN/m_c/poss} vänner och fastnade i en snöslaskstorm.",
+                    "lead_death": "åkte på gränspatrull med {PRONOUN/m_c/poss} vänner och fastnade i en snöslaskväder"
                 }
             },
             {
-                "text": "Sn\u00f6 halvblockerar ing\u00e5ngen. Usch. Utan att n\u00e5gon vill f\u00e5 sina tassar kylda n\u00e4r de gr\u00e4ver ut den, forts\u00e4tter patrullen, medan \u00e5skan \u00f6ver huvudet mullrar hotfullt. Slask och hagel v\u00e4ntar dem. L\u00e4rlingarna \u00e5terfinns i en ihopkrupen, bl\u00f6t, frostbiten boll av mis\u00e4r.",
+                "text": "Snö halvblockerar ingången. Usch. Utan att någon vill få sina tassar kylda när de gräver ut den, fortsätter patrullen, medan åskan över huvudet mullrar hotfullt. Slask och hagel väntar dem. Lärlingarna återfinns i en ihopkrupen, blöt, frostbiten boll av misär.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_train_soggykitty_mad_app",
@@ -5440,9 +5440,9 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "m_c gick ut med en grupp v\u00e4nner som l\u00e4rling, och alla f\u00e5ngades i sn\u00f6slask, vilket har satt sina sp\u00e5r p\u00e5 {PRONOUN/m_c/poss} p\u00e4ls.",
-                    "reg_death": "Den h\u00e4r katten d\u00f6dades som l\u00e4rling, efter att {PRONOUN/m_c/subject} \u00e5kte p\u00e5 gr\u00e4nspatrull med {PRONOUN/m_c/poss} v\u00e4nner och fastnade i en sn\u00f6slaskstorm.",
-                    "lead_death": "\u00e5kte p\u00e5 gr\u00e4nspatrull med {PRONOUN/m_c/poss} v\u00e4nner och fastnade i en sn\u00f6slaskv\u00e4der"
+                    "scar": "m_c gick ut med en grupp vänner som lärling, och alla fångades i snöslask, vilket har satt sina spår på {PRONOUN/m_c/poss} päls.",
+                    "reg_death": "Den här katten dödades som lärling, efter att {PRONOUN/m_c/subject} åkte på gränspatrull med {PRONOUN/m_c/poss} vänner och fastnade i en snöslaskstorm.",
+                    "lead_death": "åkte på gränspatrull med {PRONOUN/m_c/poss} vänner och fastnade i en snöslaskväder"
                 }
             }
         ]

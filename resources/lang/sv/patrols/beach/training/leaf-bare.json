@@ -29,11 +29,11 @@
         "pl_skill_constraint": [
             "STORY,1"
         ],
-        "intro_text": "En vinterkuling ylar utanf\u00f6r l\u00e4gret - dagens l\u00e4rlingslektion kommer att ske i l\u00e4 av lyan. p_l samlar {PRONOUN/p_l/poss} publik n\u00e4ra. Om en katt har otur, den l\u00e4ngsta natten av l\u00f6vbar, kan de uppt\u00e4cka stora vita \u00f6ar som dyker upp ur havsdimman.",
-        "decline_text": "app1 ryser och g\u00e5r f\u00f6r att st\u00e4nga en spr\u00e4ngning i h\u00e5lans v\u00e4ggar innan v\u00e4rmen drivs ut. Myter f\u00e5r v\u00e4nta.",
+        "intro_text": "En vinterkuling ylar utanför lägret - dagens lärlingslektion kommer att ske i lä av lyan. p_l samlar {PRONOUN/p_l/poss} publik nära. Om en katt har otur, den längsta natten av lövbar, kan de upptäcka stora vita öar som dyker upp ur havsdimman.",
+        "decline_text": "app1 ryser och går för att stänga en sprängning i hålans väggar innan värmen drivs ut. Myter får vänta.",
         "success_outcomes": [
             {
-                "text": "De som ser det kallas, som en riptide som suger dem utom r\u00e4ckh\u00e5ll, p_l viskar. Ingen som trampar sin fot p\u00e5 de vita dim\u00f6arna ses n\u00e5gonsin igen... Gruppen ryser av behaglig r\u00e4dsla i v\u00e4rmen fr\u00e5n sina skyddade bon.",
+                "text": "De som ser det kallas, som en riptide som suger dem utom räckhåll, p_l viskar. Ingen som trampar sin fot på de vita dimöarna ses någonsin igen... Gruppen ryser av behaglig rädsla i värmen från sina skyddade bon.",
                 "exp": 40,
                 "weight": 20,
                 "relationships": [
@@ -95,7 +95,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Kulingens vindar dr\u00e4nker p_ls r\u00f6st. Ist\u00e4llet ger katterna upp ber\u00e4ttandet och myser ihop till en boll, vattent\u00e4t mot v\u00e4rlden.",
+                "text": "Kulingens vindar dränker p_ls röst. Istället ger katterna upp berättandet och myser ihop till en boll, vattentät mot världen.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -144,11 +144,11 @@
             "STORY,1",
             "LORE,1"
         ],
-        "intro_text": "V\u00e5gorna sl\u00e5r in utanf\u00f6r l\u00e4gret, ett st\u00e4ndigt n\u00e4rvarande ljud som bringas i skarpt fokus av sin ovanliga kraft och grymhet. Vinden \u00e4r blockerad av l\u00e4gerv\u00e4ggar, men p_l:s klankamrater har p\u00e4lsen utbl\u00e5st oavsett. Nu \u00e4r inte en bra tid att l\u00e4mna skydd.",
-        "decline_text": "Patrullen stannar i sina bon ist\u00e4llet f\u00f6r att tr\u00e4na.",
+        "intro_text": "Vågorna slår in utanför lägret, ett ständigt närvarande ljud som bringas i skarpt fokus av sin ovanliga kraft och grymhet. Vinden är blockerad av lägerväggar, men p_l:s klankamrater har pälsen utblåst oavsett. Nu är inte en bra tid att lämna skydd.",
+        "decline_text": "Patrullen stannar i sina bon istället för att träna.",
         "success_outcomes": [
             {
-                "text": "L\u00e5t oss tala om barnkammarens ber\u00e4ttelser, b\u00f6rjar s_c. Av klaner som grundats bland drivved och f\u00f6rlust, av m\u00e5nen som ger sin v\u00e4lsignelse till krigare som simmar under hennes blick, av havets magi, f\u00f6r n\u00e4rvarande hemskt, men lika mycket respektingivande. Utanf\u00f6r rasar det \u2013 men h\u00e4r i l\u00e4gret \u00e4r c_n s\u00e4ker.",
+                "text": "Låt oss tala om barnkammarens berättelser, börjar s_c. Av klaner som grundats bland drivved och förlust, av månen som ger sin välsignelse till krigare som simmar under hennes blick, av havets magi, för närvarande hemskt, men lika mycket respektingivande. Utanför rasar det - men här i lägret är c_n säker.",
                 "exp": 40,
                 "weight": 20,
                 "art": "bch_train_stormwaves",
@@ -202,7 +202,7 @@
                 ]
             },
             {
-                "text": "Den h\u00e4r dagen kommer att vara en dag av hj\u00e4ltar, s_c viskningar, som f\u00e5ngar {PRONOUN/s_c/poss} klankamraters uppm\u00e4rksamhet. Hj\u00e4ltar f\u00f6dda, skapade eller hittade - s\u00e5dana saker dyker alltid upp i c_ns historia, en fr\u00e4mling som anl\u00e4nder genombl\u00f6t fr\u00e5n en storm, ett nytt liv f\u00f6rt till v\u00e4rlden n\u00e4r vindarna ylar utanf\u00f6r, en krigare som stiger till n\u00f6d. Stormarna markerar det.",
+                "text": "Den här dagen kommer att vara en dag av hjältar, s_c viskningar, som fångar {PRONOUN/s_c/poss} klankamraters uppmärksamhet. Hjältar födda, skapade eller hittade - sådana saker dyker alltid upp i c_ns historia, en främling som anländer genomblöt från en storm, ett nytt liv fört till världen när vindarna ylar utanför, en krigare som stiger till nöd. Stormarna markerar det.",
                 "exp": 40,
                 "weight": 20,
                 "art": "bch_train_stormwaves",
@@ -258,7 +258,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "\u00c5skan spricker och vinden skiftar och kastar havspray fr\u00e5n v\u00e5gorna p\u00e5 de samlade katterna. Dags att dra sig tillbaka till torrare platser.",
+                "text": "Åskan spricker och vinden skiftar och kastar havspray från vågorna på de samlade katterna. Dags att dra sig tillbaka till torrare platser.",
                 "exp": 0,
                 "weight": 20,
                 "art": "gen_train_soggykitty_mad_warrior"

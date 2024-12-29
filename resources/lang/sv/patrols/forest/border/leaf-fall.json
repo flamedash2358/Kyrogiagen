@@ -18,17 +18,17 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Patrullen \u00e4r p\u00e5 topp efter att ha doftat Twolegs i omr\u00e5det. p_l tar ledningen och h\u00e5ller koll p\u00e5 eventuella Twolegs som kan vara p\u00e5 jakt efter katter. Deras doft finns \u00f6verallt, \u00e4ven n\u00e4r katterna noggrant noterar omr\u00e5det. Vad \u00e4r det f\u00f6r lukt? Det \u00e4r n\u00e4stan som pumpa, men konstigt...",
-        "decline_text": "p_l vet b\u00e4ttre \u00e4n att br\u00e5ka med allt som luktar Twolegs. {PRONOUN/p_l/subject/CAP} {VERB/p_l/skirt/skirts} runt omr\u00e5det och {VERB/p_l/continue/continues} patrullen.",
+        "intro_text": "Patrullen är på topp efter att ha doftat Twolegs i området. p_l tar ledningen och håller koll på eventuella Twolegs som kan vara på jakt efter katter. Deras doft finns överallt, även när katterna noggrant noterar området. Vad är det för lukt? Det är nästan som pumpa, men konstigt...",
+        "decline_text": "p_l vet bättre än att bråka med allt som luktar Twolegs. {PRONOUN/p_l/subject/CAP} {VERB/p_l/skirt/skirts} runt området och {VERB/p_l/continue/continues} patrullen.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "p_l f\u00f6ljer doften och trampar n\u00e4stan p\u00e5 det klibbiga i gr\u00e4set. Definitivt en konstig Twoleg-grej. {PRONOUN/p_l/subject/CAP} f\u00f6rsiktigt {VERB/p_l/walk/walks} runt den, ovillig att f\u00e5 det klibbiga i {PRONOUN/p_l/poss} p\u00e4ls.",
+                "text": "p_l följer doften och trampar nästan på det klibbiga i gräset. Definitivt en konstig Twoleg-grej. {PRONOUN/p_l/subject/CAP} försiktigt {VERB/p_l/walk/walks} runt den, ovillig att få det klibbiga i {PRONOUN/p_l/poss} päls.",
                 "exp": 5,
                 "weight": 20
             },
             {
-                "text": "p_l hittar det klibbiga i gr\u00e4set och unders\u00f6ker det. s_c dyker pl\u00f6tsligt upp bredvid {PRONOUN/p_l/object} och innan p_l kan s\u00e4ga till {PRONOUN/s_c/object} att vara f\u00f6rsiktig, b\u00f6jer sig s_c ner och tar en slick. s_c rynkar {PRONOUN/s_c/poss} n\u00e4san och gaggs, f\u00f6rs\u00f6ker spotta ut den \u00e4ckliga smaken ur {PRONOUN/s_c/poss} munnen.",
+                "text": "p_l hittar det klibbiga i gräset och undersöker det. s_c dyker plötsligt upp bredvid {PRONOUN/p_l/object} och innan p_l kan säga till {PRONOUN/s_c/object} att vara försiktig, böjer sig s_c ner och tar en slick. s_c rynkar {PRONOUN/s_c/poss} näsan och gaggs, försöker spotta ut den äckliga smaken ur {PRONOUN/s_c/poss} munnen.",
                 "exp": 10,
                 "weight": 20,
                 "stat_trait": [
@@ -44,7 +44,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "N\u00e4r p_l kryper n\u00e4rmare f\u00f6r att f\u00e5 en b\u00e4ttre titt fyller ljudet av kraschar och pladder luften. p_l fryser och ser ett paket Twolegs snubbla genom tr\u00e4den. Katterna sprider sig och l\u00e4mnar efter sig allt det d\u00e4r konstiga som fanns i gr\u00e4set.",
+                "text": "När p_l kryper närmare för att få en bättre titt fyller ljudet av kraschar och pladder luften. p_l fryser och ser ett paket Twolegs snubbla genom träden. Katterna sprider sig och lämnar efter sig allt det där konstiga som fanns i gräset.",
                 "exp": 0,
                 "weight": 20
             }
