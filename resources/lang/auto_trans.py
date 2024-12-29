@@ -314,7 +314,7 @@ def translate_all_files(language_file_paths: list[str]):
         #Skip retranslating files
         if (language_file_path not in translated_files.keys() or translated_files[language_file_path] == "None" ):
             generic_translte_file(language_file_path)
-            translated_files[language_file_path] = language_file_path + ",GoogleTranslate"
+            translated_files[language_file_path] = "GoogleTranslate"
             save_translated_files()
         else:
             print(f"{language_file_path} already transalted, skipping file")
