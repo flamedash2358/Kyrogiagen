@@ -54,7 +54,6 @@ from scripts.utility import (
 if TYPE_CHECKING:
     from scripts.screens.Screens import Screens
 
-
 class SymbolFilterWindow(UIWindow):
     def __init__(self):
         super().__init__(
@@ -670,6 +669,10 @@ class ChangeCatName(UIWindow):
                 game.all_screens["profile screen"].exit_screen()
                 game.all_screens["profile screen"].screen_switches()
                 self.kill()
+        elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE and game.settings["keybinds"]:
+            game.all_screens["profile screen"].exit_screen()
+            game.all_screens["profile screen"].screen_switches()
+            self.kill()
         return super().process_event(event)
 
 
@@ -1231,6 +1234,10 @@ class KillCat(UIWindow):
                 game.all_screens["profile screen"].exit_screen()
                 game.all_screens["profile screen"].screen_switches()
                 self.kill()
+        elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE and game.settings["keybinds"]:
+            game.all_screens["profile screen"].exit_screen()
+            game.all_screens["profile screen"].screen_switches()
+            self.kill()
 
         return super().process_event(event)
 
@@ -2040,6 +2047,10 @@ class ChangeCatToggles(UIWindow):
             elif event.ui_element == self.checkboxes["prevent_mates"]:
                 self.the_cat.no_mates = not self.the_cat.no_mates
                 self.refresh_checkboxes()
+        elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE and game.settings["keybinds"]:
+            game.all_screens["profile screen"].exit_screen()
+            game.all_screens["profile screen"].screen_switches()
+            self.kill()
 
         return super().process_event(event)
 
