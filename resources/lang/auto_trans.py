@@ -125,7 +125,8 @@ KEYS_TO_NOT_TRANSLATE = [
     "prey",
     "can_have_stat",
     "lost_cats",
-
+    "art",
+    "cats",
     #resources\lang\sv\thoughts
     "main_age_constraint",
     "main_backstory_constraint",
