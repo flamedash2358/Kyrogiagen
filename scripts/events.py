@@ -185,7 +185,9 @@ class Events:
             insert = adjust_list_text(ghost_names)
 
             if len(Cat.dead_cats) > 1:
-                event = i18n.t("hardcoded.event_deaths", count=2, insert=insert)
+                event = i18n.t(
+                    "hardcoded.event_deaths", count=len(Cat.dead_cats), insert=insert
+                )
 
                 if len(ghost_names) > 2:
                     alive_cats = list(
@@ -232,10 +234,16 @@ class Events:
 
             else:
                 event = i18n.t("hardcoded.event_deaths", count=1)
-                event_text_adjust(Cat, event, main_cat=Cat.dead_cats[0])
 
             game.cur_events_list.append(
-                Single_Event(event, ["birth_death"], [i.ID for i in Cat.dead_cats])
+                Single_Event(
+                    event,
+                    ["birth_death"],
+                    [i.ID for i in Cat.dead_cats],
+                    cat_dict={"m_c": Cat.dead_cats[0]}
+                    if len(Cat.dead_cats) == 1
+                    else None,
+                )
             )
             if extra_event:
                 game.cur_events_list.append(
@@ -336,11 +344,11 @@ class Events:
             rel_change = chosen_event["rel_change"]
             other_clan.relations += rel_change
             if rel_change > 0:
-                event_text += i18n.t("hardcoded.relation_improved")
+                event_text += i18n.t("hardcoded.relations_improved")
             elif rel_change == 0:
-                event_text += i18n.t("hardcoded.relation_neutral")
+                event_text += i18n.t("hardcoded.relations_neutral")
             else:
-                event_text += i18n.t("hardcoded.relation_worsened")
+                event_text += i18n.t("hardcoded.relations_worsened")
 
             # adjust text and add to event list
             event_text = event_text_adjust(
@@ -732,18 +740,12 @@ class Events:
             log_text = i18n.t(
                 "hardcoded.focus_herbs_log",
                 herbs=adjust_list_text(
-                    i18n.t(f"conditions.herbs.{herb}", count=2) for herb in herbs_found
+                    [
+                        i18n.t(f"conditions.herbs.{herb}", count=2)
+                        for herb in herbs_found
+                    ]
                 ),
             )
-            idx = 0
-            for herb, amount in herb_counter.items():
-                log_text += str(amount) + " " + herb.replace("_", " ")
-                idx += 1
-                if idx < len(herb_counter) - 1:
-                    log_text += ", "
-                elif idx < len(herb_counter):
-                    log_text += " and "
-            log_text += "."
             game.herb_events_list.append(log_text)
 
         elif game.clan.clan_settings.get("threaten outsiders"):
