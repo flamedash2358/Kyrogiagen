@@ -2,29 +2,28 @@ name: Docker Build and Push
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "development" ]
     paths:
+      - ".github/workflows/build-docs.yml"
+      - "Dockerfile"
       - "docs/**"
       - "docs-resources/**"
       - "mkdocs.yml"
       - "pyproject.toml"
       - "poetry.lock"
 
-
-env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: vars.DO_BUILD_DOCS == 'true'
     permissions:
       contents: read
-      packages: write
-
+      packages: write    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v5
@@ -50,12 +49,14 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+          secrets: |
+            mkdocs_git_committers_apikey=${{ secrets.GITHUB_TOKEN }}
       - name: Set up kubernetex context
         uses: azure/setup-kubectl@v3
       - name: Set Kubernetes context
         uses: Azure/k8s-set-context@v4
         with:
           method: kubeconfig
-          kubeconfig: ${{ secrets.KUBECONFIG }}
+          kubeconfig: ${{ secrets.DOCS_RESTART_KUBECONFIG }}
       - name: Restart deployment
         run: kubectl rollout restart deployment/clangen-docs -n clangen
