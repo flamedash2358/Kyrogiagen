@@ -180,7 +180,6 @@ class ClanScreen(Screens):
                         mask=x.sprite_mask,
                         cat_id=x.ID,
                         starting_height=layers[-1],
-                        tool_tip_text=str(x.name),
                     )
                 )
             except:
