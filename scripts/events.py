@@ -131,6 +131,8 @@ class Events:
         if random.randint(1, rejoin_upperbound) == 1:
             self.handle_lost_cats_return()
 
+        self.handle_delayed_events()
+
         # Calling of "one_moon" functions.
         for cat in Cat.all_cats.copy().values():
             if not cat.outside or cat.dead:
@@ -2170,7 +2172,7 @@ class Events:
 
         # Check to see if random murder is triggered.
         # If so, we allow targets to be anyone they have even the smallest amount of dislike for
-        if random.getrandbits(max(1, int(random_murder_chance))) == 1:
+        if random.getrandbits(max(1, 1)) == 1:
             targets = [
                 i
                 for i in relationships

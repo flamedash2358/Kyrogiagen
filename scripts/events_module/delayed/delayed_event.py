@@ -7,14 +7,14 @@ class DelayedEvent:
     def __init__(
             self,
             originator_event: str = None,
-            type: str = None,
+            event_type: str = None,
             pool: dict = None,
-            amount_of_events: tuple = None,
-            moon_delay: tuple = 0,
+            amount_of_events: int = None,
+            moon_delay: int = 0,
             involved_cats: dict = None,
     ):
         self.originator_event = originator_event
-        self.type = type
+        self.event_type = event_type
         self.pool = pool
         self.amount_of_events = amount_of_events
         self.moon_delay = moon_delay
@@ -70,7 +70,7 @@ class DelayedEvent:
 
         allowed_cats = []
         for param in funct_dict:
-            allowed_cats = funct_dict[param](alive_cats, constraint_dict["param"])
+            allowed_cats = funct_dict[param](alive_cats, constraint_dict.get(param))
 
             # if the list is emptied, break
             if not allowed_cats:
@@ -86,7 +86,7 @@ class DelayedEvent:
         """
         checks cat_list against required ages and returns qualifying cats
         """
-        if "any" in ages:
+        if not ages or "any" in ages:
             return cat_list
 
         return [kitty for kitty in cat_list if kitty.age in ages]
@@ -96,7 +96,7 @@ class DelayedEvent:
         """
         checks cat_list against required statuses and returns qualifying cats
         """
-        if "any" in statuses:
+        if not statuses or "any" in statuses:
             return cat_list
 
         return [kitty for kitty in cat_list if kitty.status in statuses]
@@ -107,6 +107,8 @@ class DelayedEvent:
         checks cat_list against required skills and returns qualifying cats
         """
         removals = []
+        if not skills:
+            return cat_list
 
         for kitty in cat_list:
             has_skill = False
@@ -130,6 +132,9 @@ class DelayedEvent:
         """
         checks cat_list against required traits and returns qualifying cats
         """
+        if not traits:
+            return cat_list
+
         return [kitty for kitty in cat_list if kitty.trait in traits]
 
     @staticmethod
@@ -137,6 +142,9 @@ class DelayedEvent:
         """
         checks cat_list against required backstories and returns qualifying cats
         """
+        if not backstories:
+            return cat_list
+
         return [kitty for kitty in cat_list if kitty.backstory in backstories]
 
 
