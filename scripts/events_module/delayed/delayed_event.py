@@ -1,6 +1,7 @@
-from random import choice
+from random import choice, randint
 
 from scripts.cat.cats import Cat
+from scripts.game_structure.game_essentials import game
 
 
 class DelayedEvent:
@@ -20,6 +21,40 @@ class DelayedEvent:
         self.moon_delay = moon_delay
 
         self.involved_cats = involved_cats
+
+    def prep_delayed_event(self, event, event_id, possible_cats):
+        """
+        Checks if the given event has a delayed event attached, then creates the delayed event
+        :param event: the class object for the event
+        :param event_id: the ID for the event
+        :param possible_cats: a dict of all cats involved in the event. This should provide the cat
+        abbreviation as the key and the cat object as the value.
+        """
+        if not event.delayed_event:
+            return
+
+        delayed_info = event.delayed_event
+
+        # create dict of all cats that need to be involved in delayed event
+        gathered_cat_dict = self.collect_involved_cats(
+            possible_cats,
+            delayed_info
+        )
+
+        # create delayed event and add it to the delayed event list
+        game.clan.delayed_events.append(
+            DelayedEvent(
+                originator_event=event_id,
+                event_type=delayed_info["event_type"],
+                pool=delayed_info["pool"],
+                amount_of_events=randint(
+                    delayed_info["amount_of_events"][0], delayed_info["amount_of_events"][1]
+                    ),
+                moon_delay=randint(
+                    delayed_info["moon_delay"][0], delayed_info["moon_delay"][1]
+                    ),
+                involved_cats=gathered_cat_dict
+            ))
 
     def collect_involved_cats(self, cat_dict, delayed_info) -> dict:
         """

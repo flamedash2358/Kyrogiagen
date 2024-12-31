@@ -284,7 +284,7 @@ class HandleShortEvents:
         if self.chosen_herb:
             game.herb_events_list.append(f"{self.chosen_event} {self.herb_notice}.")
 
-        self.prep_delayed_event()
+        self.handle_delayed_event()
 
         game.cur_events_list.append(
             Single_Event(
@@ -294,42 +294,28 @@ class HandleShortEvents:
             )
         )
 
-    def prep_delayed_event(self):
+    def handle_delayed_event(self):
         """
-        handles processing of delayed event assignments
+        Handles gathering information for delayed event
         """
         if not self.chosen_event.delayed_event:
             return
 
-        delayed_info = self.chosen_event.delayed_event
-
-        # now grab the cats that were already involved and need to continue being involved
         possible_cats = {
             "m_c": self.main_cat,
             "r_c": self.random_cat,
             "mur_c": self.victim_cat
         }
 
-        # create dict of all cats that need to be involved in delayed event
-        gathered_cat_dict = delayed_event.collect_involved_cats(
-            possible_cats,
-            delayed_info
+        for x, newbie in enumerate(self.new_cat):
+            possible_cats[f"n_c:{x}"] = newbie
+
+        delayed_event.prep_delayed_event(
+            event=self.chosen_event,
+            event_id=self.chosen_event.event_id,
+            possible_cats=possible_cats
         )
 
-        # create delayed event and add it to the delayed event list
-        game.clan.delayed_events.append(
-            DelayedEvent(
-                originator_event=self.chosen_event.event_id,
-                event_type=delayed_info["event_type"],
-                pool=delayed_info["pool"],
-                amount_of_events=randint(
-                    delayed_info["amount_of_events"][0], delayed_info["amount_of_events"][1]
-                    ),
-                moon_delay=randint(
-                    delayed_info["moon_delay"][0], delayed_info["moon_delay"][1]
-                    ),
-                involved_cats=gathered_cat_dict
-            ))
 
     def trigger_delayed_event(self, event):
         self.allowed_events = event.pool.get("event_ids")

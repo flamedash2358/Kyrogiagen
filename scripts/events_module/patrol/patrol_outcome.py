@@ -9,6 +9,7 @@ from typing import List, Dict, Union, TYPE_CHECKING, Optional, Tuple
 import i18n
 import pygame
 
+from scripts.events_module.delayed.delayed_event import delayed_event
 from scripts.events_module.short.handle_short_events import INJURY_GROUPS
 
 if TYPE_CHECKING:
@@ -68,6 +69,7 @@ class PatrolOutcome:
             outcome_art: Union[str, None] = None,
             outcome_art_clean: Union[str, None] = None,
             stat_cat: Cat = None,
+            delayed_event: Dict = None
     ):
         self.success = success
         self.antagonize = antagonize
@@ -106,6 +108,8 @@ class PatrolOutcome:
         )
         self.outcome_art = outcome_art
         self.outcome_art_clean = outcome_art_clean
+
+        self.delayed_event = delayed_event
 
         # This will hold the stat cat, for filtering purposes
         self.stat_cat = stat_cat
@@ -282,9 +286,37 @@ class PatrolOutcome:
         # Filter out empty results strings
         results = [x for x in results if x]
 
+        self._handle_delayed_event(patrol)
+
         print("PATROL END -----------------------------------------------------")
 
         return processed_text, " ".join(results), self.get_outcome_art()
+
+    def _handle_delayed_event(self, patrol):
+        """
+        collects required info and sends it to be prepped
+        """
+        if not self.delayed_event:
+            return
+
+        possible_cats = {
+            "p_l": patrol.patrol_leader,
+            "r_c": patrol.random_cat,
+            "s_c": self.stat_cat,
+        }
+
+        for x, app in enumerate(patrol.patrol_apprentices):
+            possible_cats[f"app{x}"] = app
+
+        for x, newbie in enumerate(self.new_cat):
+            possible_cats[f"n_c:{x}"] = newbie
+
+        delayed_event.prep_delayed_event(
+            event=self,
+            event_id=patrol.patrol_event.patrol_id,
+            possible_cats=possible_cats
+        )
+
 
     def _allowed_stat_cat_specific(
             self, kitty: Cat, patrol: "Patrol", allowed_specific
