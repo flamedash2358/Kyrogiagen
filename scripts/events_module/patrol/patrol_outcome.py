@@ -317,7 +317,6 @@ class PatrolOutcome:
             possible_cats=possible_cats
         )
 
-
     def _allowed_stat_cat_specific(
             self, kitty: Cat, patrol: "Patrol", allowed_specific
     ) -> bool:

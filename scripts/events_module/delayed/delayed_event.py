@@ -22,6 +22,24 @@ class DelayedEvent:
 
         self.involved_cats = involved_cats
 
+    def compile_save_file(self):
+        """
+        converts objects to a dict for the save file process
+        """
+        save_list = []
+
+        for event in game.clan.delayed_events:
+            save_list.append({
+                "originator_event": event.originator_event,
+                "event_type": event.event_type,
+                "pool": event.pool,
+                "amount_of_events": event.amount_of_events,
+                "moon_delay": event.moon_delay,
+                "involved_cats": event.involved_cats
+            })
+
+        return save_list
+
     def prep_delayed_event(self, event, event_id, possible_cats):
         """
         Checks if the given event has a delayed event attached, then creates the delayed event

@@ -307,7 +307,7 @@ class HandleShortEvents:
             "mur_c": self.victim_cat
         }
 
-        for x, newbie in enumerate(self.new_cat):
+        for x, newbie in enumerate(self.new_cats):
             possible_cats[f"n_c:{x}"] = newbie
 
         delayed_event.prep_delayed_event(
@@ -316,11 +316,9 @@ class HandleShortEvents:
             possible_cats=possible_cats
         )
 
-
     def trigger_delayed_event(self, event):
         self.allowed_events = event.pool.get("event_ids")
         self.excluded_events = event.pool.get("excluded_event_ids")
-
 
         self.handle_event(
             event_type=event.event_type,
