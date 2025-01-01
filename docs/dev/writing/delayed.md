@@ -2,7 +2,7 @@
 
 ## What is a Delayed Event?
 
-Delayed events are special event blocks that can be added to the ShortEvent and Patrol outcome formats. They allow the writer to specify a ShortEvent to be **triggered** by the originating event. These are called delayed events because their appearance can be delayed by a certain number of moons.
+Delayed events are special event blocks that can be added to the ShortEvent and Patrol outcome formats. They allow the writer to specify a ShortEvent to be **triggered** by the parent event. These are called delayed events because their appearance can be delayed by a certain number of moons.
 
 Throughout this documentation we will refer to the DelayedEvent format block as the "delayed event" and the event that is *chosen to eventually display* as the "triggered event". The event that the delayed event is contained within will be referred to as the "parent event".
 
@@ -16,14 +16,13 @@ Throughout this documentation we will refer to the DelayedEvent format block as 
         "moon_delay": [1,1],
         "involved_cats": {}
         }
-    }
 ]
 ```
 
 This block can be added to the end of ShortEvent and Patrol formats.
 
 !!! note
-    The delayed event block is a *list*, this means that you could have multiple delayed event dictionaries contained within, each dictionary creating it's own triggered event.
+    The delayed event block is a *list*, this means that you could have multiple delayed event dictionaries contained within, each dictionary creating its own triggered event.
 
 ### event_type:str
 
@@ -61,9 +60,9 @@ You can specify a whole pool of events to be chosen from. Only one event from th
 | `excluded_event_id` | All events with the specified event_ids will be removed from the pool. |
 
 
-### moon_delay:tuple[int]
+### moon_delay:tuple[int, int]
 
-This specifies how many moons must pass before the triggered event appears. Writers are able to specify a range `[x, y]` with `x` being the smallest possible delay and `y` being the largest possible delay.  One number will be picked between `x` and `y` to serve as the delay.  
+This specifies how many moons must pass before the triggered event appears. Writers are able to specify a range `[x, y]` with `x` being the smallest possible delay and `y` being the largest possible delay.  One number will be picked between `x` and `y` to serve as the delay.  Setting both `x` and `y` as the same number will make that number the only option.
 
 ### involved_cats:dict[str, dict]
 
@@ -75,7 +74,7 @@ Example of how this looks in use, the parent event for this hypothetical event i
         "m_c": "r_c",
         "mur_c": "m_c", 
         "r_c": { 
-            "age": ["any"] 
+            "age": ["senior"] 
         }
     }
 ```
@@ -89,7 +88,7 @@ Example of how this looks in use, the parent event for this hypothetical event i
     Any role used in the parent event can be used to carry a cat into the triggered event! For example, a new cat, `n_c:0`, from the parent event could be carried into the triggered event as `m_c` or any other possible role.
 
 **"r_c": {}**
-> In this line, we aren't carrying over any cat from the parent event. Instead, we're trying to find a new cat. We're okay with this being any cat currently existing, so we just set the `age` constraint to `any`. A cat will be chosen from the currently living cats, excluding any cats already involved in this event.
+> In this line, we aren't carrying over any cat from the parent event. Instead, we're trying to find a new cat. We've decided this cat can only be a senior, so that constraint is added. A cat will be chosen from the currently living cats, excluding any cats already involved in this event. We could provide 0 constraints if we wanted any cat to have access, in that case we would just leave an empty dictionary.
 
 The cat constraints that can be utilized here are the same as [ShortEvents](shortevents.md#r_cdictstr-various), with a few exclusions. The ***only*** constraints you *can* use are `age`, `status`, `skill`, `trait`, and `backstory`.
 
