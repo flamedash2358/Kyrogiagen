@@ -158,7 +158,7 @@ Here's an example of a delayed event being utilized for a murder event.
                 "pool": {
                     "subtype": ["murder_reveal"]
                 },
-                "moon_delay": [1,1],
+                "moon_delay": [1,10],
                 "involved_cats": {
                     "m_c": "r_c",
                     "mur_c": "m_c",
