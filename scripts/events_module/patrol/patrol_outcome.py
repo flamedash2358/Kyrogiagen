@@ -311,7 +311,7 @@ class PatrolOutcome:
         for x, newbie in enumerate(self.new_cat):
             possible_cats[f"n_c:{x}"] = newbie
 
-        delayed_event.prep_delayed_event(
+        delayed_event.prep_event(
             event=self,
             event_id=patrol.patrol_event.patrol_id,
             possible_cats=possible_cats

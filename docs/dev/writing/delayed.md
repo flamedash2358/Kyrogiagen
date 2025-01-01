@@ -2,7 +2,7 @@
 
 ## What is a Delayed Event?
 
-Delayed events are special event blocks that can be added to the ShortEvent and Patrol formats. They allow the writer to specify a ShortEvent to be **triggered** by the originating event. These are called Delayed events because their appearance can be delayed by a certain number of moons.
+Delayed events are special event blocks that can be added to the ShortEvent and Patrol formats. They allow the writer to specify a ShortEvent to be **triggered** by the originating event. These are called delayed events because their appearance can be delayed by a certain number of moons.
 
 Throughout this documentation we will refer to the DelayedEvent format block as the "delayed event" and the event that is *chosen to eventually display* as the "triggered event". The event that the delayed event is contained within will be referred to as the "parent event".
 
@@ -89,3 +89,84 @@ Example of how this looks in use, the parent event for this hypothetical event i
 
 The cat constraints that can be utilized here are the same as [ShortEvents](shortevents.md#r_cdictstr-various), with a few exclusions. The ***only*** constraints you *can* use are `age`, `status`, `skill`, `trait`, and `backstory`.
 
+## Example
+
+Here's an example of a delayed event being utilized for a murder event.
+
+```json
+    {
+        "event_id": "gen_death_murder_any1",
+        "location": [ "any" ],
+        "season": [
+            "any"
+        ],
+        "sub_type": ["murder"],
+        "tags": [],
+        "weight": 20,
+        "event_text": "m_c was murdered. The culprit is unknown.",
+        "m_c": {
+            "status": [
+                "kitten",
+                "apprentice",
+                "warrior",
+                "deputy",
+                "medicine cat apprentice",
+                "medicine cat",
+                "mediator apprentice",
+                "mediator",
+                "elder"
+            ],
+            "dies": true
+        },
+        "r_c": {
+            "age": ["adolescent", "young adult", "adult", "senior adult"],
+            "status": [ "any" ]
+        },
+        "history": [{
+            "cats": ["m_c"],
+            "reg_death": "m_c was secretly murdered by r_c."
+        }],
+        "relationships": [
+            {
+                "cats_from": [
+                    "r_c"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "values": [
+                    "platonic"
+                ],
+                "amount": -15
+            },
+            {
+                "cats_from": [
+                    "r_c"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "values": [
+                    "dislike"
+                ],
+                "amount": 15
+            }
+        ],
+        "delayed_event": [
+                {
+                "event_type": "misc",
+                "pool": {
+                    "subtype": ["murder_reveal"]
+                },
+                "moon_delay": [1,1],
+                "involved_cats": {
+                    "m_c": "r_c",
+                    "mur_c": "m_c",
+                    "r_c": {
+                        "age": ["any"]
+                    }
+                }
+            }
+        ]
+    },
+```

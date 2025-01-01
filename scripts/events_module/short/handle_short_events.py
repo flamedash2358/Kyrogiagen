@@ -310,7 +310,7 @@ class HandleShortEvents:
         for x, newbie in enumerate(self.new_cats):
             possible_cats[f"n_c:{x}"] = newbie
 
-        delayed_event.prep_delayed_event(
+        delayed_event.prep_event(
             event=self.chosen_event,
             event_id=self.chosen_event.event_id,
             possible_cats=possible_cats

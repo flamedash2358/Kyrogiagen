@@ -37,7 +37,7 @@ class DelayedEvent:
 
         return save_list
 
-    def prep_delayed_event(self, event, event_id, possible_cats):
+    def prep_event(self, event, event_id, possible_cats):
         """
         Checks if the given event has a delayed event attached, then creates the delayed event
         :param event: the class object for the event
@@ -51,7 +51,7 @@ class DelayedEvent:
         for delayed_info in event.delayed_event:
 
             # create dict of all cats that need to be involved in delayed event
-            gathered_cat_dict = self.collect_involved_cats(
+            gathered_cat_dict = self._collect_involved_cats(
                 possible_cats,
                 delayed_info
             )
@@ -68,7 +68,7 @@ class DelayedEvent:
                     involved_cats=gathered_cat_dict
                 ))
 
-    def collect_involved_cats(self, cat_dict, delayed_info) -> dict:
+    def _collect_involved_cats(self, cat_dict, delayed_info) -> dict:
         """
         collects involved cats and assigns their roles for the delayed event, then
         returns a dict associating their new role (key) with their cat ID (value)
@@ -82,7 +82,7 @@ class DelayedEvent:
         for new_role, cat_involved in delayed_info["involved_cats"].items():
             # grab any cats that need to be newly gathered
             if isinstance(cat_involved, dict):
-                gathered_cat_dict[new_role] = self.get_constrained_cat(
+                gathered_cat_dict[new_role] = self._get_constrained_cat(
                     cat_involved,
                     cat_dict
                 )
@@ -93,7 +93,7 @@ class DelayedEvent:
 
         return gathered_cat_dict
 
-    def get_constrained_cat(self, constraint_dict, already_involved: dict):
+    def _get_constrained_cat(self, constraint_dict, already_involved: dict):
         """
         checks the living clan cat list against constraint_dict to find any eligible cats.
         returns a single cat ID chosen from eligible cats
