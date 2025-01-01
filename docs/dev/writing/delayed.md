@@ -87,7 +87,7 @@ Example of how this looks in use, the parent event for this hypothetical event i
 !!! tip
     Any role used in the parent event can be used to carry a cat into the triggered event! For example, a new cat, `n_c:0`, from the parent event could be carried into the triggered event as `m_c` or any other possible role.
 
-**"r_c": {}**
+**"r_c": {...}**
 > In this line, we aren't carrying over any cat from the parent event. Instead, we're trying to find a new cat. We've decided this cat can only be a senior, so that constraint is added. A cat will be chosen from the currently living cats, excluding any cats already involved in this event. We could provide 0 constraints if we wanted any cat to have access, in that case we would just leave an empty dictionary.
 
 The cat constraints that can be utilized here are the same as [ShortEvents](shortevents.md#r_cdictstr-various), with a few exclusions. The ***only*** constraints you *can* use are `age`, `status`, `skill`, `trait`, and `backstory`.
