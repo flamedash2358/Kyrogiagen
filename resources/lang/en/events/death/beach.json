@@ -788,6 +788,22 @@
                 ],
                 "amount": -25
             }
+        ],
+        "delayed_event": [
+                {
+                "event_type": "misc",
+                "pool": {
+                    "subtype": ["murder_reveal"]
+                },
+                "moon_delay": [1,24],
+                "involved_cats": {
+                    "m_c": "r_c",
+                    "mur_c": "m_c",
+                    "r_c": {
+                        "age": ["any"]
+                    }
+                }
+            }
         ]
     },
     {
@@ -892,6 +908,22 @@
                 ],
                 "amount": -25
             }
+        ],
+        "delayed_event": [
+                {
+                "event_type": "misc",
+                "pool": {
+                    "subtype": ["murder_reveal"]
+                },
+                "moon_delay": [1,24],
+                "involved_cats": {
+                    "m_c": "r_c",
+                    "mur_c": "m_c",
+                    "r_c": {
+                        "age": ["any"]
+                    }
+                }
+            }
         ]
     },
     {
@@ -987,6 +1019,22 @@
                     "trust"
                 ],
                 "amount": -25
+            }
+        ],
+        "delayed_event": [
+                {
+                "event_type": "misc",
+                "pool": {
+                    "subtype": ["murder_reveal"]
+                },
+                "moon_delay": [1,24],
+                "involved_cats": {
+                    "m_c": "r_c",
+                    "mur_c": "m_c",
+                    "r_c": {
+                        "age": ["any"]
+                    }
+                }
             }
         ]
     }
