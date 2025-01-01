@@ -840,7 +840,7 @@ class HandleShortEvents:
                     if rating in trigger:
                         possible_herbs.append(herb)
 
-                self.chosen_herb = random.choice(possible_herbs)
+                self.chosen_herb = choice(possible_herbs)
 
             # if it wasn't a random herb or all herbs, then it's one specific herb
             else:
