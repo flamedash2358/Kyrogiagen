@@ -207,6 +207,7 @@ class PatrolOutcome:
                     relationship_constraints=_d.get("relationship_constraint"),
                     outcome_art=_d.get("art"),
                     outcome_art_clean=_d.get("art_clean"),
+                    delayed_event=_d.get("delayed_event")
                 )
             )
 

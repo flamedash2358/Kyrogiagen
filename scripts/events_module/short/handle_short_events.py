@@ -317,13 +317,13 @@ class HandleShortEvents:
         )
 
     def trigger_delayed_event(self, event):
-        self.allowed_events = event.pool.get("event_ids")
+        self.allowed_events = event.pool.get("event_id")
         self.excluded_events = event.pool.get("excluded_event_id")
 
         self.handle_event(
             event_type=event.event_type,
-            main_cat=Cat.fetch_cat(event.involved_cats["m_c"]),
-            random_cat=Cat.fetch_cat(event.involved_cats["r_c"]),
+            main_cat=Cat.fetch_cat(event.involved_cats.get("m_c")),
+            random_cat=Cat.fetch_cat(event.involved_cats.get("r_c")),
             freshkill_pile=game.clan.freshkill_pile,
             victim_cat=Cat.fetch_cat(event.involved_cats.get("mur_c")),
             sub_type=event.pool.get("subtype")

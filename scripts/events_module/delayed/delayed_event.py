@@ -20,24 +20,7 @@ class DelayedEvent:
 
         self.involved_cats = involved_cats
 
-    def compile_save_file(self):
-        """
-        converts objects to a dict for the save file process
-        """
-        save_list = []
-
-        for event in game.clan.delayed_events:
-            save_list.append({
-                "parent_event": event.parent_event,
-                "event_type": event.event_type,
-                "pool": event.pool,
-                "moon_delay": event.moon_delay,
-                "involved_cats": event.involved_cats
-            })
-
-        return save_list
-
-    def prep_event(self, event, event_id, possible_cats):
+    def prep_event(self, event, event_id:str, possible_cats:dict):
         """
         Checks if the given event has a delayed event attached, then creates the delayed event
         :param event: the class object for the event
@@ -68,7 +51,7 @@ class DelayedEvent:
                     involved_cats=gathered_cat_dict
                 ))
 
-    def _collect_involved_cats(self, cat_dict, delayed_info) -> dict:
+    def _collect_involved_cats(self, cat_dict: dict, delayed_info: dict) -> dict:
         """
         collects involved cats and assigns their roles for the delayed event, then
         returns a dict associating their new role (key) with their cat ID (value)
@@ -79,33 +62,41 @@ class DelayedEvent:
         """
         gathered_cat_dict = {}
 
+        # we always need an m_c and an r_c, so if they weren't specified at all then we need to find them
+        if not delayed_info["involved_cats"].get("m_c"):
+            delayed_info["involved_cats"]["m_c"] = {}
+        if not delayed_info["involved_cats"].get("r_c"):
+            delayed_info["involved_cats"]["r_c"] = {}
+
+        # we're just keeping this to living cats within the clan for now, more complexity can come later
+        possible_cats = [
+            kitty for kitty in Cat.all_cats.values()
+            if not kitty.dead
+            and not kitty.outside
+        ]
+
         for new_role, cat_involved in delayed_info["involved_cats"].items():
             # grab any cats that need to be newly gathered
             if isinstance(cat_involved, dict):
                 gathered_cat_dict[new_role] = self._get_constrained_cat(
                     cat_involved,
-                    cat_dict
+                    possible_cats
                 )
+                possible_cats.remove(Cat.fetch_cat(gathered_cat_dict[new_role]))
                 continue
 
             # otherwise, assign already involved cats to their new role within the delayed event
             gathered_cat_dict[new_role] = cat_dict[cat_involved].ID
+            if cat_dict[cat_involved] in possible_cats:
+                possible_cats.remove(cat_dict[cat_involved])
 
         return gathered_cat_dict
 
-    def _get_constrained_cat(self, constraint_dict, already_involved: dict):
+    def _get_constrained_cat(self, constraint_dict, possible_cats):
         """
         checks the living clan cat list against constraint_dict to find any eligible cats.
         returns a single cat ID chosen from eligible cats
         """
-
-        # we're just keeping this to living cats within the clan for now, more complexity can come later
-        alive_cats = [
-            kitty for kitty in Cat.all_cats.values()
-            if not kitty.dead
-            and not kitty.outside
-            and kitty not in already_involved.values()
-        ]
 
         funct_dict = {
             "age": self._check_age,
@@ -117,7 +108,7 @@ class DelayedEvent:
 
         allowed_cats = []
         for param in funct_dict:
-            allowed_cats = funct_dict[param](alive_cats, constraint_dict.get(param))
+            allowed_cats = funct_dict[param](possible_cats, constraint_dict.get(param))
 
             # if the list is emptied, break
             if not allowed_cats:
