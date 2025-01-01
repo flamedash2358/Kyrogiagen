@@ -28,7 +28,6 @@ from scripts.utility import (
 from scripts.game_structure.game_essentials import game
 from scripts.cat.skills import SkillPath
 from scripts.cat.cats import Cat, ILLNESSES, INJURIES, PERMANENT
-from scripts.cat.enums import CatAgeEnum
 from scripts.cat.pelts import Pelt
 from scripts.cat_relations.relationship import Relationship
 from scripts.clan_resources.freshkill import (
@@ -70,6 +69,7 @@ class PatrolOutcome:
             outcome_art_clean: Union[str, None] = None,
             stat_cat: Cat = None,
             delayed_event: Dict = None
+
     ):
         self.success = success
         self.antagonize = antagonize
@@ -116,7 +116,7 @@ class PatrolOutcome:
 
     @staticmethod
     def prepare_allowed_outcomes(
-            outcomes: List["PatrolOutcome"], patrol: "Patrol"
+        outcomes: List["PatrolOutcome"], patrol: "Patrol"
     ) -> List["PatrolOutcome"]:
         """Takes a list of patrol outcomes, and returns those which are possible. If "special" events, gated
         by stat cats or relationships, are possible, this function returns only those. Stat cats are also determined here.
@@ -160,7 +160,7 @@ class PatrolOutcome:
 
     @staticmethod
     def generate_from_info(
-            info: List[dict], success: bool = True, antagonize: bool = False
+        info: List[dict], success: bool = True, antagonize: bool = False
     ) -> List["PatrolOutcome"]:
         """Factory method generates a list of PatrolOutcome objects based on the dicts"""
 
@@ -319,7 +319,7 @@ class PatrolOutcome:
         )
 
     def _allowed_stat_cat_specific(
-            self, kitty: Cat, patrol: "Patrol", allowed_specific
+        self, kitty: Cat, patrol: "Patrol", allowed_specific
     ) -> bool:
         """Helper that handled specific stat cat requirements."""
 
@@ -346,15 +346,15 @@ class PatrolOutcome:
         if "r_c" in allowed_specific and kitty == patrol.random_cat:
             return True
         if (
-                "app1" in allowed_specific
-                and len(patrol.patrol_apprentices) >= 1
-                and kitty == patrol.patrol_apprentices[0]
+            "app1" in allowed_specific
+            and len(patrol.patrol_apprentices) >= 1
+            and kitty == patrol.patrol_apprentices[0]
         ):
             return True
         if (
-                "app2" in allowed_specific
-                and len(patrol.patrol_apprentices) >= 2
-                and kitty == patrol.patrol_apprentices[1]
+            "app2" in allowed_specific
+            and len(patrol.patrol_apprentices) >= 2
+            and kitty == patrol.patrol_apprentices[1]
         ):
             return True
 
@@ -438,7 +438,7 @@ class PatrolOutcome:
             file_name = self.outcome_art
 
         if not isinstance(file_name, str) or not path_exists(
-                f"{root_dir}{file_name}.png"
+            f"{root_dir}{file_name}.png"
         ):
             return None
 
@@ -574,7 +574,7 @@ class PatrolOutcome:
         [_cat.gone() for _cat in cats_to_lose]
 
         return i18n.t(
-            "patrol.lost_cats",
+            "screens.patrol.lost_cats",
             count=len(cats_to_lose),
             cats=adjust_list_text([str(cat.name) for cat in cats_to_lose]),
         )
@@ -620,7 +620,7 @@ class PatrolOutcome:
                 old_perm_cond = list(_cat.permanent_condition.keys())
 
                 if set(possible_injuries).issubset(
-                        old_injuries + old_illnesses + old_perm_cond
+                    old_injuries + old_illnesses + old_perm_cond
                 ):
                     print(
                         "WARNING: All possible conditions are already on this cat! (poor kitty)"
@@ -630,9 +630,9 @@ class PatrolOutcome:
                 give_injury = choice(possible_injuries)
                 # If the cat already has this injury, reroll it to get something new
                 while (
-                        give_injury in old_injuries
-                        or give_injury in old_illnesses
-                        or give_injury in old_perm_cond
+                    give_injury in old_injuries
+                    or give_injury in old_illnesses
+                    or give_injury in old_perm_cond
                 ):
                     give_injury = choice(possible_injuries)
 
@@ -725,11 +725,13 @@ class PatrolOutcome:
             list_of_herb_strs, found_herbs = game.clan.herb_supply.get_found_herbs(
                 med_cat=patrol.patrol_leader,
                 general_amount_bonus=large_bonus,
-                specific_quantity_bonus=patrol_size_modifier
+                specific_quantity_bonus=patrol_size_modifier,
             )
         else:
             found_herbs = {}
-            for herb in [x for x in self.herbs if x not in ["many_herbs", "random_herbs"]]:
+            for herb in [
+                x for x in self.herbs if x not in ["many_herbs", "random_herbs"]
+            ]:
                 amount = choices([2, 3, 4], weights=[2, 1, 1], k=1)[0]
                 amount *= patrol_size_modifier
                 if large_bonus:
@@ -741,24 +743,24 @@ class PatrolOutcome:
                 game.clan.herb_supply.add_herb(herb, count)
                 full_amount_count += count
                 if count > 1:
-                    list_of_herb_strs.append(f"{count} {game.clan.herb_supply.herb[herb].plural_display}")
+                    list_of_herb_strs.append(
+                        f"{count} {game.clan.herb_supply.herb[herb].plural_display}"
+                    )
                 else:
-                    list_of_herb_strs.append(f"{count} {game.clan.herb_supply.herb[herb].singular_display}")
+                    list_of_herb_strs.append(
+                        f"{count} {game.clan.herb_supply.herb[herb].singular_display}"
+                    )
 
         herb_string = adjust_list_text(list_of_herb_strs).capitalize()
 
         game.herb_events_list.append(
             i18n.t(
-                "screens.patrol.herb_log",
-                count=full_amount_count,
-                herbs=herb_string
+                "screens.patrol.herb_log", count=full_amount_count, herbs=herb_string
             )
         )
 
         return i18n.t(
-            "screens.patrol.herbs_gathered",
-            count=full_amount_count,
-            herbs=herb_string
+            "screens.patrol.herbs_gathered", count=full_amount_count, herbs=herb_string
         )
 
     def _handle_prey(self, patrol: "Patrol") -> str:
@@ -796,8 +798,8 @@ class PatrolOutcome:
         for cat in patrol.patrol_cats:
             total_amount += basic_amount
             if (
-                    cat.skills.primary.path == SkillPath.HUNTER
-                    and cat.skills.primary.tier > 0
+                cat.skills.primary.path == SkillPath.HUNTER
+                and cat.skills.primary.tier > 0
             ):
                 level = cat.experience_level
                 tier = cat.skills.primary.tier
@@ -807,9 +809,9 @@ class PatrolOutcome:
                     HUNTER_EXP_BONUS[level] * (HUNTER_BONUS[str(tier)] / 10 + 1)
                 )
             elif (
-                    cat.skills.secondary
-                    and cat.skills.secondary.path == SkillPath.HUNTER
-                    and cat.skills.secondary.tier > 0
+                cat.skills.secondary
+                and cat.skills.secondary.path == SkillPath.HUNTER
+                and cat.skills.secondary.tier > 0
             ):
                 level = cat.experience_level
                 tier = cat.skills.secondary.tier
@@ -891,13 +893,13 @@ class PatrolOutcome:
                 # Search for parent
                 for sub_sub in patrol.new_cats:
                     if (
-                            sub_sub[0] != sub[0]
-                            and (
+                        sub_sub[0] != sub[0]
+                        and (
                             sub_sub[0].gender == "female"
                             or game.clan.clan_settings["same sex birth"]
-                    )
-                            and sub_sub[0].ID in (sub[0].parent1, sub[0].parent2)
-                            and not (sub_sub[0].dead or sub_sub[0].outside)
+                        )
+                        and sub_sub[0].ID in (sub[0].parent1, sub[0].parent2)
+                        and not (sub_sub[0].dead or sub_sub[0].outside)
                     ):
                         sub_sub[0].get_injured("recovering from birth")
                         break  # Break - only one parent ever gives birth
@@ -981,12 +983,12 @@ class PatrolOutcome:
         return chosen_scar
 
     def __handle_condition_history(
-            self, cat: Cat, condition: str, patrol: "Patrol", default_overide=False
+        self, cat: Cat, condition: str, patrol: "Patrol", default_overide=False
     ) -> None:
         """Handles adding potentional history to a cat. default_overide will use the default text for the condition."""
 
         if not (
-                self.history_leader_death and self.history_reg_death and self.history_scar
+            self.history_leader_death and self.history_reg_death and self.history_scar
         ):
             print("WARNING: Injury occured, but some death or scar history is missing.")
 
