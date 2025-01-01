@@ -2,7 +2,7 @@
 
 ## What is a Delayed Event?
 
-Delayed events are special event blocks that can be added to the ShortEvent and Patrol formats. They allow the writer to specify a ShortEvent to be **triggered** by the originating event. These are called delayed events because their appearance can be delayed by a certain number of moons.
+Delayed events are special event blocks that can be added to the ShortEvent and Patrol outcome formats. They allow the writer to specify a ShortEvent to be **triggered** by the originating event. These are called delayed events because their appearance can be delayed by a certain number of moons.
 
 Throughout this documentation we will refer to the DelayedEvent format block as the "delayed event" and the event that is *chosen to eventually display* as the "triggered event". The event that the delayed event is contained within will be referred to as the "parent event".
 
@@ -44,6 +44,7 @@ You can specify a whole pool of events to be chosen from. Only one event from th
 !!! important
     You **cannot** specify both `subtype` *and* `event_id`. 
     You **can** specify both `subtype` *and* `excluded_event_id`.
+    If you specify `event_id`, you *must* include the corresponding subtypes in `subtype`
 
 ```json
         "pool": {
