@@ -1,4 +1,4 @@
-from random import randint, choice, choices, randrange, sample, random
+from random import choice, choices, randrange, sample, random
 from typing import List
 
 import i18n
