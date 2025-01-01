@@ -89,6 +89,9 @@ Example of how this looks in use, the parent event for this hypothetical event i
 
 The cat constraints that can be utilized here are the same as [ShortEvents](shortevents.md#r_cdictstr-various), with a few exclusions. The ***only*** constraints you *can* use are `age`, `status`, `skill`, `trait`, and `backstory`.
 
+!!! warning
+    Keep in mind that if you constrain certain roles, you *need* to be certain that there is at least one possible event within the pool that will allow for those constraints.  For example, if you specify that r_c must be an elder with the CAMP skill, then there must be at least one event in the pool that allows r_c to be an elder with the CAMP skill.  If there is not, then a triggered event will never be chosen and the delayed event has essentially done nothing.
+
 ## Example
 
 Here's an example of a delayed event being utilized for a murder event.
@@ -168,5 +171,5 @@ Here's an example of a delayed event being utilized for a murder event.
                 }
             }
         ]
-    },
+    }
 ```
