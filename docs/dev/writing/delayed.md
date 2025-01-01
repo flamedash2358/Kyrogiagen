@@ -85,6 +85,9 @@ Example of how this looks in use, the parent event for this hypothetical event i
 **"mur_c": "m_c"**
 > m_c is the main cat from the parent event. They will be mur_c, or the murdered cat, in the triggered event.
 
+!!! tip
+    Any role used in the parent event can be used to carry a cat into the triggered event! For example, a new cat, `n_c:0`, from the parent event could be carried into the triggered event as `m_c` or any other possible role.
+
 **"r_c": {}**
 > In this line, we aren't carrying over any cat from the parent event. Instead, we're trying to find a new cat. We're okay with this being any cat currently existing, so we just set the `age` constraint to `any`. A cat will be chosen from the currently living cats, excluding any cats already involved in this event.
 
