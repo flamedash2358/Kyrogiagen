@@ -1105,10 +1105,9 @@ class Clan:
                     try:
                         game.clan.delayed_events.append(
                             DelayedEvent(
-                                originator_event=event["originator_event"],
+                                parent_event=event["parent_event"],
                                 event_type=event["event_type"],
                                 pool=event["pool"],
-                                amount_of_events=event["amount_of_events"],
                                 moon_delay=event["moon_delay"],
                                 involved_cats=event["involved_cats"]
                             )
@@ -1130,10 +1129,9 @@ class Clan:
 
         for event in game.clan.delayed_events:
             save_list.append({
-                "originator_event": event.originator_event,
+                "parent_event": event.parent_event,
                 "event_type": event.event_type,
                 "pool": event.pool,
-                "amount_of_events": event.amount_of_events,
                 "moon_delay": event.moon_delay,
                 "involved_cats": event.involved_cats
             })

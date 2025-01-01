@@ -56,6 +56,22 @@
                 ],
                 "amount": 15
             }
+        ],
+        "delayed_event": [
+                {
+                "event_type": "misc",
+                "pool": {
+                    "subtype": ["murder_reveal"]
+                },
+                "moon_delay": [1,1],
+                "involved_cats": {
+                    "m_c": "r_c",
+                    "mur_c": "m_c",
+                    "r_c": {
+                        "age": ["any"]
+                    }
+                }
+            }
         ]
     },
     {

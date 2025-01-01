@@ -7,17 +7,15 @@ from scripts.game_structure.game_essentials import game
 class DelayedEvent:
     def __init__(
             self,
-            originator_event: str = None,
+            parent_event: str = None,
             event_type: str = None,
             pool: dict = None,
-            amount_of_events: int = None,
             moon_delay: int = 0,
             involved_cats: dict = None,
     ):
-        self.originator_event = originator_event
+        self.parent_event = parent_event
         self.event_type = event_type
         self.pool = pool
-        self.amount_of_events = amount_of_events
         self.moon_delay = moon_delay
 
         self.involved_cats = involved_cats
@@ -30,10 +28,9 @@ class DelayedEvent:
 
         for event in game.clan.delayed_events:
             save_list.append({
-                "originator_event": event.originator_event,
+                "parent_event": event.parent_event,
                 "event_type": event.event_type,
                 "pool": event.pool,
-                "amount_of_events": event.amount_of_events,
                 "moon_delay": event.moon_delay,
                 "involved_cats": event.involved_cats
             })
@@ -51,28 +48,25 @@ class DelayedEvent:
         if not event.delayed_event:
             return
 
-        delayed_info = event.delayed_event
+        for delayed_info in event.delayed_event:
 
-        # create dict of all cats that need to be involved in delayed event
-        gathered_cat_dict = self.collect_involved_cats(
-            possible_cats,
-            delayed_info
-        )
+            # create dict of all cats that need to be involved in delayed event
+            gathered_cat_dict = self.collect_involved_cats(
+                possible_cats,
+                delayed_info
+            )
 
-        # create delayed event and add it to the delayed event list
-        game.clan.delayed_events.append(
-            DelayedEvent(
-                originator_event=event_id,
-                event_type=delayed_info["event_type"],
-                pool=delayed_info["pool"],
-                amount_of_events=randint(
-                    delayed_info["amount_of_events"][0], delayed_info["amount_of_events"][1]
-                    ),
-                moon_delay=randint(
-                    delayed_info["moon_delay"][0], delayed_info["moon_delay"][1]
-                    ),
-                involved_cats=gathered_cat_dict
-            ))
+            # create delayed event and add it to the delayed event list
+            game.clan.delayed_events.append(
+                DelayedEvent(
+                    parent_event=event_id,
+                    event_type=delayed_info["event_type"],
+                    pool=delayed_info["pool"],
+                    moon_delay=randint(
+                        delayed_info["moon_delay"][0], delayed_info["moon_delay"][1]
+                        ),
+                    involved_cats=gathered_cat_dict
+                ))
 
     def collect_involved_cats(self, cat_dict, delayed_info) -> dict:
         """

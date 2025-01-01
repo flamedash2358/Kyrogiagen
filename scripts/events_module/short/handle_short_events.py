@@ -318,7 +318,7 @@ class HandleShortEvents:
 
     def trigger_delayed_event(self, event):
         self.allowed_events = event.pool.get("event_ids")
-        self.excluded_events = event.pool.get("excluded_event_ids")
+        self.excluded_events = event.pool.get("excluded_event_id")
 
         self.handle_event(
             event_type=event.event_type,
