@@ -22,7 +22,7 @@ Throughout this documentation we will refer to the DelayedEvent format block as 
 ]
 ```
 
-This block can be added to the end of ShortEvent and Patrol formats.
+This block can be added to the end of ShortEvent and Patrol outcome formats.
 
 !!! note
     The delayed event block is a *list*, this means that you could have multiple delayed event dictionaries contained within, each dictionary creating its own triggered event.
