@@ -6,6 +6,9 @@ Delayed events are special event blocks that can be added to the ShortEvent and 
 
 Throughout this documentation we will refer to the DelayedEvent format block as the "delayed event" and the event that is *chosen to eventually display* as the "triggered event". The event that the delayed event is contained within will be referred to as the "parent event".
 
+!!! tip
+    Currently, triggered events are removed from the "queue" if they go 12 moons without being able to display. For example, if an involved cat dies before the triggered event is able to display, then the event won't display to the player. A 12 moon buffer is provided so that any season-locked triggered events will have the opportunity to "wait" for their required season.
+
 ## DelayedEvent Format
 
 ```json
