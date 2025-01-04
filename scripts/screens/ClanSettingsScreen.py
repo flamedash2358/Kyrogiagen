@@ -182,7 +182,6 @@ class ClanSettingsScreen(Screens):
             tool_tip_text="buttons.open_data_directory_tooltip",
         )
 
-        screentext = "windowed" if game.settings["fullscreen"] else "fullscreen"
         rect = ui_scale(pygame.Rect((0, 0), (158, 36)))
         rect.bottomright = ui_scale_offset((-5, -25))
         self.fullscreen_toggle = UIImageButton(
@@ -192,13 +191,18 @@ class ClanSettingsScreen(Screens):
             manager=MANAGER,
             starting_height=2,
             tool_tip_text="buttons.toggle_fullscreen_tooltip",
+            tool_tip_text_kwargs={
+                "screentext": "windowed"
+                if game.settings["fullscreen"]
+                else "fullscreen"
+            },
             anchors={
                 "bottom": "bottom",
                 "right": "right",
                 "right_target": Screens.menu_buttons["mute_button"],
             },
         )
-        del screentext, rect
+        del rect
 
         if get_version_info().is_sandboxed:
             self.open_data_directory_button.hide()
