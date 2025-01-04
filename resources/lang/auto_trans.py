@@ -1,4 +1,5 @@
 import os
+import re
 from glob import glob
 import json
 from googletrans import Translator #pip install googletrans==3.1.0a0, Python 3.13+ break without this specific version
@@ -8,24 +9,10 @@ translated_files_type = []
 
 translated_files_output = []
 
+google_transalte_language_fixes = {}
 
 DEST_LANGUAGE = "sv"
 SRC_LANGUAGE = "en"
-
-PLACE_HOLDER_START_LETTER = [
-    "%",
-    "{",
-    "[",
-]
-
-WORDS_TO_NOT_TRANSLATE = [
-    "m_c",
-    "r_c",
-    "c_n",
-    "s_c",
-    "p_l",
-    "o_n_g"
-]
 
 '''
 The proper way forward is probably to make custom file handlers for
@@ -144,6 +131,22 @@ KEYS_TO_NOT_TRANSLATE = [
     
 ]
 
+GOOGLE_TRANSLATE_FIXES = {
+    "(/ ?m_c ?/)+": "/m_c/",
+    "(/ ?r_c ?/)+": "/r_c/",
+    "(/ ?s_c ?/)+": "/s_c/",
+    "(/ ?p_l ?/)+": "/p_l/",
+    "(/ ?n_c ?: ?0 ?/)+": "/n_c:0/",
+    "(/ ?app1 ?/)+": "/app1/",
+    "({ ?PRONOUN ?/)+": "{PRONOUN/",
+    "({ ?VERB ?/)+": "{VERB/",
+    "(/ ?object ?})+": "/object}",
+    "(/ ?subject ?})+": "/subject}",
+    "(/ ?poss ?})+": "/poss}",
+    "(b_mp_a_s3/subjects {PRONO})": "b_mp_a_s {PRONOUN/app3/subject}",
+    "(w_mp_a_app3/subjects {PRONO})": "w_mp_a_s {PRONOUN/app3/subject}",
+}
+
 SPECIAL_FILES = [
     f"{DEST_LANGUAGE}\\config.json",
     f"{DEST_LANGUAGE}\\events\\ceremonies\\ceremony-master.json",
@@ -158,7 +161,7 @@ FILE HANDLING
 
 def set_files_in_read_order():
     '''
-    Make the tranlated_files.txt palce files in order of reading
+    Make the tranlated_files.txt place files in order it reads them
     '''
     new_trans = {}
     files = get_files_to_translate(DEST_LANGUAGE)
@@ -174,11 +177,25 @@ def set_files_in_read_order():
 
     translated_files = new_trans
 
-    save_translated_files()
+    save_translation_progress()
 
-def save_translated_files():
+def load_langauge_specific_reversals():
     '''
-    Save a JSON data structure into a .json-file
+    If GoogleTranslate transalte any word it should not, it can be specifed in a GoogleTranslate_reversals.txt file
+    '''
+    if os.path.exists(f"{DEST_LANGUAGE}\\GoogleTranslate_reversals.txt"):
+        # Open and owerwrite the JSON file
+        with open(f"{DEST_LANGUAGE}\\GoogleTranslate_reversals.txt", "r") as file:
+            for line in file:
+                line_data = line.replace("\n","").split(",")
+                google_transalte_language_fixes[line_data[0]] = line_data[1]
+        return google_transalte_language_fixes
+    else:
+        return {}
+
+def save_translation_progress():
+    '''
+    save translation progress to file
     '''
     file_str = ""
     for file, tranclation_type in translated_files.items():
@@ -187,19 +204,19 @@ def save_translated_files():
     with open(f"{DEST_LANGUAGE}\\translation_progress.txt", "w") as outfile:
         outfile.write(file_str)
 
-
-def load_translated_files():
+def load_translation_progress():
     '''
-    Save a JSON data structure into a .json-file
+    Load data from translation progress file
     '''
-    # Open and owerwrite the JSON file
-    with open(f"{DEST_LANGUAGE}\\translation_progress.txt", "r") as file:
-        for line in file:
-            line_data = line.replace("\n","").split(",")
-            translated_files[line_data[0]] = line_data[1]
-    return translated_files
-
-
+    if os.path.exists(f"{DEST_LANGUAGE}\\translation_progress.txt"):
+        # Open and owerwrite the JSON file
+        with open(f"{DEST_LANGUAGE}\\translation_progress.txt", "r") as file:
+            for line in file:
+                line_data = line.replace("\n","").split(",")
+                translated_files[line_data[0]] = line_data[1]
+        return translated_files
+    else:
+        return {}
 
 def get_files_to_translate(base_path:str): 
     '''
@@ -212,23 +229,6 @@ def get_files_to_translate(base_path:str):
         if y not in SPECIAL_FILES
     ]
     return language_file_paths
-
-def make_backup_file_name(file_path: str):
-    '''
-    Copy a file and add "_original" in file name
-    '''
-    backup_file_path = file_path
-    if f".{DEST_LANGUAGE}.json" in backup_file_path:
-        backup_file_path = backup_file_path.replace(
-            f".{DEST_LANGUAGE}.json"
-            ,f"_original.{DEST_LANGUAGE}.json"
-        )
-    else:
-        backup_file_path = backup_file_path.replace(
-            f".json"
-            ,f"_original.json"
-        )
-    return backup_file_path
 
 def save_json(file_path: str,data):
     '''
@@ -255,7 +255,12 @@ def translate(data):
     Translate strings to correct language, ignore all other types
     '''
     if (type(data) is str):
-        return translator.translate(data, src=SRC_LANGUAGE,dest=DEST_LANGUAGE).text
+        translated_text = translator.translate(data, src=SRC_LANGUAGE,dest=DEST_LANGUAGE).text
+        for regex, correct_text in GOOGLE_TRANSLATE_FIXES.items():
+            translated_text = re.sub(regex,correct_text,translated_text)
+        for regex, correct_text in google_transalte_language_fixes.items():
+            translated_text = translated_text.replace(regex,correct_text)
+        return translated_text
     else:
         return data
 
@@ -310,7 +315,7 @@ def ceremony_master_special_translation():
                     data[key][index] = translate(data[key][index])
         save_json(SPECIAL_FILES[1],data)
         translated_files[SPECIAL_FILES[1]] = "GoogleTranslate"
-        save_translated_files()
+        save_translation_progress()
     else:
         print("File already transalted, skipping file")
         if translated_files[SPECIAL_FILES[1]] != "Human":
@@ -339,7 +344,7 @@ def translate_all_files(language_file_paths: list[str]):
         if (language_file_path not in translated_files.keys() or translated_files[language_file_path] == "None" ):
             generic_translte_file(language_file_path)
             translated_files[language_file_path] = "GoogleTranslate"
-            save_translated_files()
+            save_translation_progress()
         else:
             print(f"{language_file_path} already transalted, skipping file")
             if translated_files[language_file_path] != "Human":
@@ -353,15 +358,12 @@ def translate_all_files(language_file_paths: list[str]):
 '''
 START
 '''
+
 #Load translation progress
-translated_files = load_translated_files()
+translated_files = load_translation_progress()
 
-
+#Load any specifed translation reversals
+google_transalte_language_fixes = load_langauge_specific_reversals()
 
 #Translate
 translate_all_files(get_files_to_translate(DEST_LANGUAGE))
-
-
-
-
-
