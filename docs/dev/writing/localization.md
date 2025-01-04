@@ -15,6 +15,9 @@ Take a look in the function `load_langauge_specific_reversals` inside `auto_tran
 
 While `auto_trans.py` can do the heavy lifting, all files should be manually edited as well for translation accuracy. The `tranlated_files.txt` can be used to keep track of which is Google translated and human translated.
 
+!!! caution
+    As of 2025-01-04 `auto_trans.py` has only been tested with languages using mostly standard Latin-script alphabet letters
+
 ## Localizing in-game content
 
 Despite the undertaking being much more massive, it requires much less explanation. If you have run `create_new_lang_files.py`, the structure is all good to go. Simply delete the contents of the files and replace it with translated content. See the relevant documentation elsewhere for details on how it all works.
