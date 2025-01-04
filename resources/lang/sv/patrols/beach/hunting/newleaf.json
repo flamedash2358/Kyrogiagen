@@ -22,7 +22,7 @@
         },
         "weight": 20,
         "intro_text": "p_l sträcker sig lågt till marken, tassar mjuka och lätta för att inte göra ett ljud. {PRONOUN/p_l/poss/CAP} käkar hänger öppna efter smak i luften, och ett pirr av tillfredsställelse skjuter igenom {PRONOUN/p_l/object} som {PRONOUN/p_l/subject} {VERB/p_l/scent/scents} a närliggande markekorre, snusar i sanden efter färska nybladsbitar.",
-        "decline_text": "p_l beslutar sig för att inte fortsätta denna. Newleaf är parningssäsong, och {PRONOUN/p_l/subject} {VERB/p_l/know/knows} om {PRONOUN/p_l/subject} {VERB/p_l/want/wants} fler ekorrar under de kommande säsongerna, borde några bli lämnad ensam för nu.",
+        "decline_text": "p_l beslutar sig för att inte fortsätta med denna. Newleaf är parningssäsong, och {PRONOUN/p_l/subject} {VERB/p_l/know/knows} om {PRONOUN/p_l/subject} {VERB/p_l/want/wants} fler ekorrar under de kommande säsongerna, borde några bli lämnad ensam för nu.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
@@ -91,7 +91,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Vinden blåser en doft mot {PRONOUN/app1/object} och app1 faller omedelbart i huk. Det är svårt att hitta i en labyrint av stenar, och {PRONOUN/app1/subject}{VERB/app1/'re/'s} är ganska säker på att det vid ett tillfälle är borta för länge sedan, men i slutändan {PRONOUN/app1/subject} {VERB/app1/find/finds} och {VERB/app1/catch/catches} det!",
+                "text": "Vinden blåser en doft mot {PRONOUN/app1/object} och app1 faller omedelbart i huk. Det är svårt att hitta i en labyrint av stenar, och {PRONOUN/app1/subject}{VERB/app1/'re/'s} är ganska säker på att det vid ett tillfälle är borta för länge sedan, men i slutändan {PRONOUN/app1/subject} { VERB/app1/find/finds} och {VERB/app1/catch/catches} det!",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -144,7 +144,7 @@
             ]
         },
         "weight": 20,
-        "intro_text": "p_l och app1 sitter på stranden, nära ett nätverk av jordekorrhålor gömda i stenarna. Detta är ett av få sådana nätverk, som roteras av mentorer för att lära lärlingar deras jaktkunskaper. app1 doftar luften enligt instruktionerna och pekar ut en håla; Visst är det ett ekorrhuvud som sticker ut genom entrén!",
+        "intro_text": "p_l och app1 sitter på stranden, nära ett nätverk av jordekorrhålor gömda i stenarna. Detta är ett av få sådana nätverk, som roteras av mentorer för att lära lärlingar deras jaktkunskaper. app1 doftar luften enligt instruktionerna och pekar ut en håla; Visst, det är ett ekorrhuvud som sticker ut genom entrén!",
         "decline_text": "p_l berömmer {PRONOUN/app1/object} och ler men påminner app1 om att de inte är där för att jaga, bara för att observera och diskutera. Det kommer att finnas gott om tid en annan dag!",
         "chance_of_success": 60,
         "success_outcomes": [
@@ -173,7 +173,7 @@
                 ]
             },
             {
-                "text": "p_l berömmer {PRONOUN/app1/object} och ler, och app1 faller i en jakthuka när ekorren kryper ut ur hålan. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} är naturligtvis nervös, men {PRONOUN/app1/poss}-tekniken är nästan felfri, och {PRONOUN/app1/subject} {VERB/app1/catch/catches} ekorren lätt!",
+                "text": "p_l berömmer {PRONOUN/app1/object} och ler, och app1 faller i en jakthuka när ekorren kryper ut ur hålan. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} är naturligtvis nervös, men {PRONOUN/app1/poss}-tekniken är nästan felfri, och {PRONOUN/app1/subject} {VERB/app1 /catch/catches} ekorren lätt!",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -241,7 +241,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "När patrullen går genom sandstränderna i deras territorium, slår ett lågt ljud upp precis vid hörselkanterna. p_l stannar abrupt och klättrar baklänges och väser åt de andra att de också ska sluta, en gång {PRONOUN/p_l/subject} {VERB/p_l/realize/realizes} vad som gör det - det finns en skallerorm som stirrar ner i en markekorre!",
+        "intro_text": "När patrullen går genom sandstränderna i deras territorium, slår ett lågt ljud upp precis vid hörselkanterna. p_l stannar abrupt och klättrar baklänges och väser åt de andra att de också ska sluta, när {PRONOUN/p_l/subject} {VERB/p_l/realize/realizes} vad som gör det - det finns en skallerorm som stirrar ner i en markekorre!",
         "decline_text": "Patrullen slösar ingen tid på att vända på svansen och åka hem, och vill inte riskera att hamna på en skallerorm även om det finns en ekorre att fånga.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -600,7 +600,7 @@
                 ]
             },
             {
-                "text": "s_c uppvisar otrolig skicklighet och driver ut morboen ur territoriet nästan med {PRONOUN/s_c/self}. Nu utgör varken rödräven eller hennes ungar ett hot mot klanen. Det bevisar verkligen s_cs plats som en av c_ns mest begåvade och skickliga fighters.",
+                "text": "s_c uppvisar otrolig skicklighet och driver ut morboen ur territoriet nästan med {PRONOUN/s_c/self}. Nu utgör varken rödräven eller hennes ungar ett hot mot klanen. Det bevisar verkligen s_c:s plats som en av c_ns mest begåvade och skickliga fighters.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -899,7 +899,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Leds av p_l och med en hög av samarbete och lagarbete driver patrullen bort rödräven, söker upp hennes håla och dödar hennes unga ungar. Kusterna kommer att vara säkra från både hotet som vixen utgjorde den här säsongen och hotet som hennes ungar skulle ha utgjort för c_n under de kommande säsongerna.",
+                "text": "Leds av p_l och med en hög av samarbete och lagarbete driver patrullen bort rödräven, söker upp hennes håla och dödar hennes unga ungar. Kusterna kommer att vara säkra från både hotet som oxan utgjorde den här säsongen och hotet som hennes ungar skulle ha utgjort för c_n under de kommande säsongerna.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -969,7 +969,7 @@
                 ]
             },
             {
-                "text": "s_c uppvisar otrolig skicklighet och driver ut morboen ur territoriet nästan med {PRONOUN/s_c/self}. Nu utgör varken rödräven eller hennes beroende ungar ett hot mot klanen. Det bevisar verkligen s_cs plats som en av c_ns mest begåvade och skickliga fighters.",
+                "text": "s_c uppvisar otrolig skicklighet och driver ut morboen ur territoriet nästan med {PRONOUN/s_c/self}. Nu utgör varken rödräven eller hennes beroende ungar ett hot mot klanen. Det bevisar verkligen s_c:s plats som en av c_ns mest begåvade och skickliga fighters.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": [
@@ -1059,7 +1059,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Rödrävmodern är elak och målmedveten. Även om de förlorar denna kamp, lyckas katterna genom lagarbete dra sig tillbaka utan skador.",
+                "text": "Rödrävsmamman är elak och målmedveten. Även om de förlorar denna kamp, lyckas katterna genom lagarbete dra sig tillbaka utan skador.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1686,7 +1686,7 @@
                 ]
             },
             {
-                "text": "s_c är fast besluten att vinna, men {PRONOUN/s_c/poss} förtroende är felplacerat. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} en duktig fighter, men inte en bra sådan, och den tjocka grå vixen är helt och hållet muskler, tränger förbi s_c och knackar på {PRONOUN/s_c/object} rumpa över tassarna när hon flyr från patrullen.",
+                "text": "s_c är fast besluten att vinna, men {PRONOUN/s_c/poss} förtroende är felplacerat. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} en duktig fighter, men inte en bra sådan, och den tjocka grå vixen är helt och hållet muskler, tränger förbi s_c och knackar på {PRONOUN/s_c/object } rumpa över tassarna när hon flyr från patrullen.",
                 "exp": 0,
                 "weight": 10,
                 "stat_skill": [
@@ -1873,7 +1873,7 @@
                 ]
             },
             {
-                "text": "Tappert anklagar s_c den grå räven, skrikande hot. Vixen skrämmer och skitar uppför ett träd, morrande och skällande i en pipande ton, och s_c följer henne upp i grenarna. När resten av patrullen backar {PRONOUN/s_c/object} upp från marken, skriker s_c tills räven kryper ihop och är rädd, och låter henne sedan fly.",
+                "text": "Tappert anklagar s_c den grå räven, skrikande hot. Vixen skrämmer och springer uppför ett träd, morrande och skällande i en pipande ton, och s_c följer henne upp i grenarna. När resten av patrullen backar {PRONOUN/s_c/object} upp från marken, skriker s_c tills räven kryper ihop och är rädd, och låter henne sedan fly.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": [
@@ -2232,7 +2232,7 @@
                 ]
             },
             {
-                "text": "s_c är fast besluten att vinna, men {PRONOUN/s_c/poss} förtroende är felplacerat. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} en duktig fighter men inte en bra sådan, och den tjocka grå bocken är listig och sätter tänderna i s_c för att distrahera {PRONOUN/s_c/object} när hon flyr.",
+                "text": "s_c är fast besluten att vinna, men {PRONOUN/s_c/poss} förtroende är felplacerat. {PRONOUN/s_c/subject/CAP}{VERB/s_c/'re/'s} en duktig fighter men inte en bra sådan, och den tjocka grå bocken är listig och sätter tänderna i s_c för att distrahera {PRONOUN/s_c/object } när hon flyr.",
                 "exp": 0,
                 "weight": 10,
                 "stat_skill": [
@@ -2309,7 +2309,7 @@
         ],
         "success_outcomes": [
             {
-                "text": "app1 missar en b_tp_a_s och app2 skrämmer ett par b_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar med den tillbaka till lägret försöker app1 ta ensam äran för bytet, och istället för familjetalanger är det familjär oenighet som visas när lärlingarna hamnar i ett massivt argument mitt i lägret.",
+                "text": "app1 missar en b_tp_a_s och app2 skrämmer ett par b_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar tillbaka den till lägret, försöker app1 ta ensam åtnjutande av bytet, och istället för familjetalanger, är det familjär oenighet som visas när lärlingarna hamnar i ett massivt argument mitt i lägret.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -2651,7 +2651,7 @@
         ],
         "success_outcomes": [
             {
-                "text": "app1 missar en b_tp_a_s och {PRONOUN/app1/poss} syskon skrämmer ett par b_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar med den tillbaka till lägret försöker app1 ta ensam äran för bytet, och istället för familjetalanger är det familjär oenighet som visas när lärlingarna hamnar i ett massivt argument mitt i lägret.",
+                "text": "app1 missar en b_tp_a_s och {PRONOUN/app1/poss} syskon skrämmer ett par b_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar tillbaka den till lägret, försöker app1 ta ensam åtnjutande av bytet, och istället för familjetalanger, är det familjär oenighet som visas när lärlingarna hamnar i ett massivt argument mitt i lägret.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -2728,7 +2728,7 @@
                 ]
             },
             {
-                "text": "app1 tar ett hårt fall när man sveper mot en b_mp_a_s i en skarpt dekorerad klippbassäng, och eftermiddagens jakt avbryts då {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt de jaktlektioner är.",
+                "text": "app1 tar ett hårt fall när man sveper mot en b_mp_a_s i en skarpt dekorerad klippbassäng, och eftermiddagens jakt avbryts när {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt de jaktlektioner är.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2990,7 +2990,7 @@
         ],
         "success_outcomes": [
             {
-                "text": "app1 missar en b_tp_a_s och {PRONOUN/app1/poss} syskon skrämmer ett par b_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar med den tillbaka till lägret försöker app1 ta ensam äran för bytet, och istället för familjetalanger är det familjär oenighet som visas när lärlingarna hamnar i ett massivt argument mitt i lägret.",
+                "text": "app1 missar en b_tp_a_s och {PRONOUN/app1/poss} syskon skrämmer ett par b_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar tillbaka den till lägret, försöker app1 ta ensam åtnjutande av bytet, och istället för familjetalanger, är det familjär oenighet som visas när lärlingarna hamnar i ett massivt argument mitt i lägret.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -3067,7 +3067,7 @@
                 ]
             },
             {
-                "text": "app1 tar ett hårt fall när man sveper mot en b_mp_a_s i en skarpt dekorerad klippbassäng, och eftermiddagens jakt avbryts då {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt de jaktlektioner är.",
+                "text": "app1 tar ett hårt fall när man sveper mot en b_mp_a_s i en skarpt dekorerad klippbassäng, och eftermiddagens jakt avbryts när {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt de jaktlektioner är.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3329,7 +3329,7 @@
         ],
         "success_outcomes": [
             {
-                "text": "app1 missar en b_tp_a_s och {PRONOUN/app1/poss} syskon skrämmer ett par b_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar med den tillbaka till lägret försöker app1 ta ensam äran för bytet, och istället för familjetalanger är det familjär oenighet som visas när lärlingarna hamnar i ett massivt argument mitt i lägret.",
+                "text": "app1 missar en b_tp_a_s och {PRONOUN/app1/poss} syskon skrämmer ett par b_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar tillbaka den till lägret, försöker app1 ta ensam åtnjutande av bytet, och istället för familjetalanger, är det familjär oenighet som visas när lärlingarna hamnar i ett massivt argument mitt i lägret.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -3406,7 +3406,7 @@
                 ]
             },
             {
-                "text": "app1 tar ett hårt fall när man sveper mot en b_mp_a_s i en skarpt dekorerad klippbassäng, och eftermiddagens jakt avbryts då {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt de jaktlektioner är.",
+                "text": "app1 tar ett hårt fall när man sveper mot en b_mp_a_s i en skarpt dekorerad klippbassäng, och eftermiddagens jakt avbryts när {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt de jaktlektioner är.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3664,7 +3664,7 @@
         ],
         "success_outcomes": [
             {
-                "text": "app1 missar en b_tp_a_s och {PRONOUN/app1/poss} syskon skrämmer ett par b_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar med den tillbaka till lägret försöker app1 ta ensam äran för bytet, och istället för familjetalanger är det familjär oenighet som visas när lärlingarna hamnar i ett massivt argument mitt i lägret.",
+                "text": "app1 missar en b_tp_a_s och {PRONOUN/app1/poss} syskon skrämmer ett par b_tp_a_p. De låter inte det få dem ner, istället fångar de en fyllig kanin med ett vackert lagbakhåll! Men när de tar tillbaka den till lägret, försöker app1 ta ensam åtnjutande av bytet, och istället för familjetalanger, är det familjär oenighet som visas när lärlingarna hamnar i ett massivt argument mitt i lägret.",
                 "exp": 30,
                 "weight": 20,
                 "prey": [
@@ -3741,7 +3741,7 @@
                 ]
             },
             {
-                "text": "app1 tar ett hårt fall när man sveper mot en b_mp_a_s i en skarpt dekorerad klippbassäng, och eftermiddagens jakt avbryts då {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt de jaktlektioner är.",
+                "text": "app1 tar ett hårt fall när man sveper mot en b_mp_a_s i en skarpt dekorerad klippbassäng, och eftermiddagens jakt avbryts när {PRONOUN/app1/poss} syskon hjälper {PRONOUN/app1/object} tillbaka till lägret och pratar lugnande om hur hårt de jaktlektioner är.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -4105,7 +4105,7 @@
         ],
         "success_outcomes": [
             {
-                "text": "Ge efter och acceptera att {PRONOUN/app1/subject}{VERB/app1/'re/'s} bara kommer att se dum ut inför {PRONOUN/app1/poss} coola äldre syskon, app1 berättar för p_l om problemet {PRONOUN/app1/subject}{VERB/app1/'ve/'s} har råkat ut för {PRONOUN/app1/poss}. Det är en så enkel sak - {PRONOUN/app1/subject} borde ha det nu! Men p_l är faktiskt väldigt hjälpsam och lugnande med det, och app1 känns bättre..",
+                "text": "Ge efter och acceptera att {PRONOUN/app1/subject}{VERB/app1/'re/'s} bara kommer att se dum ut inför {PRONOUN/app1/poss} coola äldre syskon, app1 berättar för p_l om problemet {PRONOUN /app1/subject}{VERB/app1/'ve/'s} har råkat ut för {PRONOUN/app1/poss}. Det är en så enkel sak - {PRONOUN/app1/subject} borde ha det nu! Men p_l är faktiskt väldigt hjälpsam och lugnande med det, och app1 känns bättre..",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -4802,7 +4802,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "De klarar inte av något liknande antalet fångster som de båda förväntade sig att få - lite tråkigt, även om de inte är helt tomma tassar.",
+                "text": "De klarar inte av något liknande antalet fångster som de båda förväntade sig att få - lite tråkigt, även om de inte är helt tomtassade.",
                 "exp": 0,
                 "weight": 20,
                 "prey": [
@@ -4976,7 +4976,7 @@
         ],
         "success_outcomes": [
             {
-                "text": "p_l tar en massiv b_mp_a_s som {PRONOUN/p_l/subject} knappt kan bära, och r_c gratulerar {PRONOUN/p_l/object} och undrar i hemlighet om {PRONOUN/r_c/subject} någonsin kommer att lyckas överträffa {PRONOUN/r_c/poss} syskons prestationer.",
+                "text": "p_l tar en massiv b_mp_a_s som {PRONOUN/p_l/subject} knappt kan bära, och r_c gratulerar {PRONOUN/p_l/object} och undrar i hemlighet om {PRONOUN/r_c/subject} någonsin kommer att lyckas överträffa {PRONOUN/r_c/poss } syskons prestationer.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
@@ -5120,7 +5120,7 @@
                 ]
             },
             {
-                "text": "r_c gör en dum kommentar som av misstag skär djupt. {PRONOUN/r_c/poss/CAP} syskon arbetar med {PRONOUN/r_c/object} tillräckligt länge för att få tillbaka ett bra byte - men inte längre.",
+                "text": "r_c gör en dum kommentar som av misstag skär djupt. Syskonen {PRONOUN/r_c/poss/CAP} arbetar med {PRONOUN/r_c/object} tillräckligt länge för att få tillbaka ett bra byte - men inte längre.",
                 "exp": 20,
                 "weight": 5,
                 "prey": [
@@ -5195,7 +5195,7 @@
             ]
         },
         "weight": 40,
-        "intro_text": "p_l har precis återupptäckt en av {PRONOUN/p_l/poss} minst favoritdelarna av newleaf, då måsarna skriker i oändliga högljudda argument med varandra över huvudet medan p_l paddar på {PRONOUN/p_l/poss} jaktpatrull med {PRONOUN/p_l/poss} syskon.",
+        "intro_text": "p_l har precis återupptäckt en av {PRONOUN/p_l/poss} minst favoritdelarna av newleaf, då måsarna skriker i oändliga högljudda argument med varandra över huvudet medan p_l paddar på {PRONOUN/p_l/poss} jaktpatrull med {PRONOUN/p_l/ poss} syskon.",
         "decline_text": "Egentligen skulle {PRONOUN/p_l/subject} hellre prova en landjakt. {PRONOUN/p_l/subject/CAP} {VERB/p_l/wave/waves} {PRONOUN/p_l/poss} syskon av med en snärt av {PRONOUN/p_l/poss} svans och {VERB/p_l/disappear/disappears} in i inlandets undervegetation.",
         "chance_of_success": 50,
         "relationship_constraint": [
@@ -5610,7 +5610,7 @@
         ],
         "success_outcomes": [
             {
-                "text": "p_l tar en massiv b_mp_a_s som {PRONOUN/p_l/subject} knappt kan bära, och r_c gratulerar {PRONOUN/p_l/object} och undrar i hemlighet om {PRONOUN/r_c/subject} någonsin kommer att lyckas överträffa {PRONOUN/r_c/poss} syskons prestationer.",
+                "text": "p_l tar en massiv b_mp_a_s som {PRONOUN/p_l/subject} knappt kan bära, och r_c gratulerar {PRONOUN/p_l/object} och undrar i hemlighet om {PRONOUN/r_c/subject} någonsin kommer att lyckas överträffa {PRONOUN/r_c/poss } syskons prestationer.",
                 "exp": 20,
                 "weight": 20,
                 "prey": [
