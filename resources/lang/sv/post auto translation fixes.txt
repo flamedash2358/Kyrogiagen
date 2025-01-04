@@ -13,6 +13,7 @@ space conflicts, both before and after word
 /s_c/
 /p_l/
 /n_c:0/
+/app1/
 {PRONOUN/
 {VERB/
 object}
@@ -29,7 +30,11 @@ föregående_mentor -> previous_mentor
 /själv} -> /self}
 
 /ämne} -> /subject}
+/ämne/ -> /subject/
+/ ämne/ -> /subject/
+/ämne / -> /subject/
 
 PRONONUM -> PRONOUN
+PRONOMEN -> PRONOUN
 
 f.d. -> före detta
