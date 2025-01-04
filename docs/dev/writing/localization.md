@@ -6,7 +6,12 @@ We use ISO 2-letter language codes for storing the language a player wants to us
 
 There is a helper Python script in `resources/lang` called `create_new_lang_files.py`. By changing the 2-letter code on `line 7` of the file and running it, it will automatically create and rename all the files you'll need to localize into that language. 
 
-There is limited Google translate support for some languages through `auto_trans.py`. By changing the 2-letter code on `line 12` of the file and running it, it will try to translate english to the desired language. If the language is not supported, the script will crash. It will also create a file `tranlated_files.txt`, where it will track which files are translated, so the script can be stopped and started from where it left of at any time. As of 2024-12-18, this will take around 8-24 hours depending on computer speed and internet connection stability.
+There is limited GoogleTranslate support for some languages through `auto_trans.py`. By changing the 2-letter code on `line 12` of the file and running it, it will try to translate english to the desired language. If the language is not supported, the script will crash. It will also create a file `tranlated_files.txt`, where it will track which files are translated, so the script can be stopped and started from where it left of at any time. As of 2025-01-04, this will take around 8-24 hours in total depending on computer speed and internet connection stability.
+
+The script handle most generic errors where GoogleTranslate mess up the place holder text, but there is also the language dependent error where several place holder texts will be translated. This can be addressed during translation itself by making a `GoogleTranslate_reversals.txt` in the language folder with each row having the following format
+`[WRONGFULLY TRANSLATED WORD],[CORRECT ENGLISH WORD]`
+
+Take a look in the function `load_langauge_specific_reversals` inside `auto_trans.py` to see how this can be fixed with the script during the translation itself.
 
 While `auto_trans.py` can do the heavy lifting, all files should be manually edited as well for translation accuracy. The `tranlated_files.txt` can be used to keep track of which is Google translated and human translated.
 
