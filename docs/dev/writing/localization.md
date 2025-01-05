@@ -11,8 +11,6 @@ There is limited GoogleTranslate support for some languages through `auto_trans.
 The script handle most generic errors where GoogleTranslate mess up the place holder text, but there is also the language dependent error where several place holder texts will be translated. This can be addressed during translation itself by making a `GoogleTranslate_reversals.txt` in the language folder with each row having the following format
 `[WRONGFULLY TRANSLATED WORD],[CORRECT ENGLISH WORD]`
 
-Take a look in the function `load_langauge_specific_reversals` inside `auto_trans.py` to see how this can be fixed with the script during the translation itself.
-
 While `auto_trans.py` can do the heavy lifting, all files should be manually edited as well for translation accuracy. The `tranlated_files.txt` can be used to keep track of which is Google translated and human translated.
 
 !!! caution
