@@ -146,7 +146,7 @@ class Sprites:
             self.make_group("fadestarclan", (i, 0), f"fadestarclan{i}")
             self.make_group("fadedarkforest", (i, 0), f"fadedf{i}")
 
-        # Define eye colors
+        # Load eye colors
         eye_colors = _sprites["eye_colors"]
 
         for row, colors in enumerate(eye_colors):
