@@ -749,7 +749,7 @@ class Pelt:
             self.white_patches = convert_dict["old_creamy_patches"][self.white_patches]
             self.white_patches_tint = "darkcream"
 
-        elif self.white_patches in ['SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']:
+        elif self.white_patches in ["SEPIAPOINT", "MINKPOINT", "SEALPOINT"]:
             self.white_patches_tint = None
 
         # Eye Color Convert Stuff
