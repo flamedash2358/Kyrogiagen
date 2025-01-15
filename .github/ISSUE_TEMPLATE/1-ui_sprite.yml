@@ -1,0 +1,95 @@
+name: Bug - UI and Sprite (report typos further down)
+description: Report an issue with sprites, buttons, backgrounds, visual overlaps etc.
+title: "[UI] "
+labels: [ 'visual', 'bug' ]
+body:
+  - type: checkboxes
+    id: existing_issue
+    attributes:
+      label: Pre-requisites
+      options:
+        - label: I have searched the existing issues
+          required: true
+        - label: This issue was encountered (or replicated) on a non-edited Clan
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug
+      placeholder: "e.g. My 12 moon mediator apprentice doesn't have their accessory on the mediation screen."
+    validations:
+      required: true
+  - type: dropdown
+    id: grade
+    attributes:
+      label: Grade
+      description: How much of an impact does this issue have on play?
+      options:
+        - Game-breaking - a bug that makes it impossible to play the game
+        - Dire - Still playable, but a major feature is broken
+        - Important - The bug has a large effect on the gameplay but is not urgent
+        - Regular - A typical bug that should be seen to soon, but doesn't necessarily break the game or inhibit the player
+        - Non-vital - This bug can easily be ignored and does not have a large impact on play
+        - Unimportant - This bug has little to no impact on play.
+      default: 3
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: patrol
+    attributes:
+      label: Patrol ID + Outcome Print (if applicable)
+      placeholder: If you don't know what this means, you probably don't need to fill it out.
+  - type: input
+    id: version
+    attributes:
+      label: "Commit # or Game Version Number"
+    validations:
+      required: true
+  - type: dropdown
+    id: fullscreen
+    attributes:
+      label: Is this bug only happening in fullscreen?
+      description: Answer "yes" if the issue is resolved by using windowed mode, or if it relates to fullscreen.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: input
+    id: fullscreen_size
+    attributes:
+      label: If yes, what is your display size in pixels?
+      description: Include height and width; this can usually be found in your computer's display settings.
+      placeholder: e.g. 1920x1080
+  - type: dropdown
+    id: fullscreen_config
+    attributes:
+      label: Select any visual config options you are using
+      description: You can select more than one.
+      multiple: true
+      options:
+        - Disable sprite antialiasing
+        - Ignore fullscreen scaling rules
+        - Other (specify in additional context)
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      placeholder: Add any other context about the problem here.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      placeholder: Add screenshots to help explain your problem.

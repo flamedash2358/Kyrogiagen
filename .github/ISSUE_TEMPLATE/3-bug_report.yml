@@ -1,0 +1,69 @@
+name: Bug - Code
+description: General bugs related to how the game runs and responds to you.
+title: "[BUG] "
+labels: [ 'bug' ]
+body:
+  - type: checkboxes
+    id: existing_issue
+    attributes:
+      label: Pre-requisites
+      options:
+        - label: I have searched the existing issues
+          required: true
+        - label: This issue was encountered (or replicated) on a non-edited Clan
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug
+      placeholder: "e.g. Cats are lost in a moon event but are still in the clan cat list."
+    validations:
+      required: true
+  - type: dropdown
+    id: grade
+    attributes:
+      label: Grade
+      description: How much of an impact does this issue have on play?
+      options:
+        - Game-breaking - a bug that makes it impossible to play the game
+        - Dire - Still playable, but a major feature is broken
+        - Important - The bug has a large effect on the gameplay but is not urgent
+        - Regular - A typical bug that should be seen to soon, but doesn't necessarily break the game or inhibit the player
+        - Non-vital - This bug can easily be ignored and does not have a large impact on play
+        - Unimportant - This bug has little to no impact on play.
+      default: 3
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: patrol
+    attributes:
+      label: Patrol ID + Outcome Print (if applicable)
+      placeholder: If you don't know what this means, you probably don't need to fill it out.
+  - type: input
+    id: version
+    attributes:
+      label: "Commit # or Game Version Number"
+    validations:
+      required: true
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      placeholder: Add any other context about the problem here.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      placeholder: If applicable, add screenshots to help explain your problem.
