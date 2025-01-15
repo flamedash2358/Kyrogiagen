@@ -4,6 +4,8 @@ from random import randint, choice, choices
 
 import ujson
 
+from scripts.utility import clamp
+
 
 class Personality:
     """Hold personality information for a cat, and functions to deal with it"""
@@ -170,13 +172,7 @@ class Personality:
     @staticmethod
     def adjust_to_range(val: int) -> int:
         """Take an integer and adjust it to be in the trait-range"""
-
-        if val < Personality.facet_range[0]:
-            val = Personality.facet_range[0]
-        elif val > Personality.facet_range[1]:
-            val = Personality.facet_range[1]
-
-        return val
+        return clamp(val, Personality.facet_range[0], Personality.facet_range[1])
 
     def set_kit(self, kit: bool):
         """Switch the trait-type. True for kit, False for normal"""

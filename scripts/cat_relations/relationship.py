@@ -12,7 +12,7 @@ from scripts.cat_relations.interaction import (
 import scripts.cat_relations.interaction as interactions
 from scripts.event_class import Single_Event
 from scripts.game_structure.game_essentials import game
-from scripts.utility import get_personality_compatibility, process_text
+from scripts.utility import clamp, get_personality_compatibility, process_text
 
 
 # ---------------------------------------------------------------------------- #
@@ -118,19 +118,15 @@ class Relationship:
         biome = str(game.clan.biome).casefold()
         game_mode = game.clan.game_mode
 
-        all_interactions = interactions.NEUTRAL_INTERACTIONS.copy()
         if in_de_crease != "neutral":
-            all_interactions = interactions.INTERACTION_MASTER_DICT[rel_type][
-                in_de_crease
-            ].copy()
-            possible_interactions = self.get_relevant_interactions(
-                all_interactions, intensity, biome, season, game_mode
-            )
+            all_interactions = interactions.INTERACTION_MASTER_DICT[rel_type][in_de_crease].copy()
         else:
+            all_interactions = interactions.NEUTRAL_INTERACTIONS.copy()
             intensity = None
-            possible_interactions = self.get_relevant_interactions(
-                all_interactions, intensity, biome, season, game_mode
-            )
+
+        possible_interactions = self.get_relevant_interactions(
+            all_interactions, intensity, biome, season, game_mode
+        )
 
         # return if there are no possible interactions.
         if len(possible_interactions) <= 0:
@@ -212,11 +208,11 @@ class Relationship:
 
         # prepare string for display
         interaction_str = self.adjust_interaction_string(interaction_str)
-
-        effect = i18n.t("relationships.neutral_postscript")
-        if in_de_crease != "neutral" and positive:
+        if in_de_crease == "neutral":
+            effect = i18n.t("relationships.neutral_postscript")
+        elif positive:
             effect = i18n.t(f"relationships.positive_postscript_{intensity}")
-        elif in_de_crease != "neutral" and not positive:
+        else:
             effect = i18n.t(f"relationships.negative_postscript_{intensity}")
 
         interaction_str = interaction_str + effect
@@ -275,7 +271,7 @@ class Relationship:
         compatibility = get_personality_compatibility(self.cat_from, self.cat_to)
         if compatibility is None:
             # neutral compatibility
-            amount = amount
+            pass
         elif compatibility:
             # positive compatibility
             amount += game.config["relationship"]["compatibility_effect"]
@@ -632,11 +628,7 @@ class Relationship:
 
     @romantic_love.setter
     def romantic_love(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._romantic_love = value
+        self._romantic_love = clamp(value, 0, 100)
 
     @property
     def platonic_like(self):
@@ -644,11 +636,7 @@ class Relationship:
 
     @platonic_like.setter
     def platonic_like(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._platonic_like = value
+        self._platonic_like = clamp(value, 0, 100)
 
     @property
     def dislike(self):
@@ -656,11 +644,7 @@ class Relationship:
 
     @dislike.setter
     def dislike(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._dislike = value
+        self._dislike = clamp(value, 0, 100)
 
     @property
     def admiration(self):
@@ -668,11 +652,7 @@ class Relationship:
 
     @admiration.setter
     def admiration(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._admiration = value
+        self._admiration = clamp(value, 0, 100)
 
     @property
     def comfortable(self):
@@ -680,11 +660,7 @@ class Relationship:
 
     @comfortable.setter
     def comfortable(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._comfortable = value
+        self._comfortable = clamp(value, 0, 100)
 
     @property
     def jealousy(self):
@@ -692,11 +668,7 @@ class Relationship:
 
     @jealousy.setter
     def jealousy(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._jealousy = value
+        self._jealousy = clamp(value, 0, 100)
 
     @property
     def trust(self):
@@ -704,8 +676,4 @@ class Relationship:
 
     @trust.setter
     def trust(self, value):
-        if value > 100:
-            value = 100
-        if value < 0:
-            value = 0
-        self._trust = value
+        self._trust = clamp(value, 0, 100)

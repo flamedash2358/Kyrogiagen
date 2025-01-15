@@ -566,38 +566,24 @@ class Cat:
             self.illnesses.clear()
 
         # Deal with leader death
-        text = ""
         darkforest = game.clan.instructor.df
         isoutside = self.outside
         if self.status == "leader":
-            if game.clan.leader_lives > 0:
-                lives_left = game.clan.leader_lives
-                death_thought = Thoughts.leader_death_thought(
-                    self, lives_left, darkforest
-                )
-                final_thought = event_text_adjust(self, death_thought, main_cat=self)
-                self.thought = final_thought
-                return ""
-            elif game.clan.leader_lives <= 0:
+            if game.clan.leader_lives <= 0:
                 self.dead = True
                 game.just_died.append(self.ID)
                 game.clan.leader_lives = 0
-                death_thought = Thoughts.leader_death_thought(self, 0, darkforest)
-                final_thought = event_text_adjust(self, death_thought, main_cat=self)
-                self.thought = final_thought
-                if game.clan.instructor.df is False:
-                    text = (
-                        "They've lost their last life and have travelled to StarClan."
-                    )
-                else:
-                    text = "They've lost their last life and have travelled to the Dark Forest."
+            death_thought = Thoughts.leader_death_thought(self, game.clan.leader_lives, darkforest)
         else:
             self.dead = True
             game.just_died.append(self.ID)
             death_thought = Thoughts.new_death_thought(self, darkforest, isoutside)
-            final_thought = event_text_adjust(self, death_thought, main_cat=self)
-            self.thought = final_thought
+        final_thought = event_text_adjust(self, death_thought, main_cat=self)
+        self.thought = final_thought
 
+        if not self.dead:
+            return ""
+        
         for app in self.apprentice.copy():
             fetched_cat = Cat.fetch_cat(app)
             if fetched_cat:
@@ -902,44 +888,23 @@ class Cat:
             game.clan.remove_med_cat(self)
 
         # updates mentors
-        if self.status == "apprentice":
+        if (self.status == "apprentice"
+            or self.status == "medicine cat apprentice"
+            or self.status == "mediator"
+            or self.status == "mediator apprentice"
+        ):
             pass
-
-        elif self.status == "medicine cat apprentice":
-            pass
-
-        elif self.status == "warrior":
-            if old_status == "leader" and (
-                game.clan.leader and game.clan.leader.ID == self.ID
-            ):
+        elif self.status == "warrior" or self.status == "elder":
+            if old_status == "leader" and game.clan.leader and game.clan.leader.ID == self.ID:
                 game.clan.leader = None
                 game.clan.leader_predecessors += 1
             if game.clan and game.clan.deputy and game.clan.deputy.ID == self.ID:
                 game.clan.deputy = None
                 game.clan.deputy_predecessors += 1
-
         elif self.status == "medicine cat":
             if game.clan is not None:
                 game.clan.new_medicine_cat(self)
 
-        elif self.status == "elder":
-            if (
-                old_status == "leader"
-                and game.clan.leader
-                and game.clan.leader.ID == self.ID
-            ):
-                game.clan.leader = None
-                game.clan.leader_predecessors += 1
-
-            if game.clan.deputy and game.clan.deputy.ID == self.ID:
-                game.clan.deputy = None
-                game.clan.deputy_predecessors += 1
-
-        elif self.status == "mediator":
-            pass
-
-        elif self.status == "mediator apprentice":
-            pass
 
         # update class dictionary
         self.all_cats[self.ID] = self
@@ -954,10 +919,7 @@ class Cat:
         if self.status in ["warrior", "medicine cat", "mediator"]:
             # Give a couple doses of mentor influence:
             if mentor:
-                max_influence = randint(0, 2)
-                i = 0
-                while max_influence > i:
-                    i += 1
+                for _ in range(randint(0, 2)):
                     affect_personality = self.personality.mentor_influence(
                         Cat.fetch_cat(mentor).personality
                     )
@@ -1199,101 +1161,60 @@ class Cat:
         )
 
         # if we have relations, then make sure we only take the top 8
-        if dead_relations:
-            i = 0
-            for rel in dead_relations:
-                if i == 8:
-                    break
-                if rel.cat_to.status == "leader":
-                    life_giving_leader = rel.cat_to
-                    continue
-                life_givers.append(rel.cat_to.ID)
-                i += 1
+        for i in range(min(8,len(dead_relations))):
+            if rel.cat_to.status == "leader":
+                life_giving_leader = rel.cat_to
+                continue
+            life_givers.append(rel.cat_to.ID)
+
         # check amount of life givers, if we need more, then grab from the other dead cats
         if len(life_givers) < 8:
             amount = 8 - len(life_givers)
 
             if starclan:
-                # this part just checks how many SC cats are available, if there aren't enough to fill all the slots,
-                # then we just take however many are available
-
-                possible_sc_cats = [
-                    i
-                    for i in game.clan.starclan_cats
-                    if self.fetch_cat(i)
-                    and i not in life_givers
-                    and self.fetch_cat(i).status not in ["leader", "newborn"]
-                ]
-
-                if len(possible_sc_cats) - 1 < amount:
-                    extra_givers = possible_sc_cats
-                else:
-                    extra_givers = sample(possible_sc_cats, k=amount)
+                cats_in_starclan_or_darkforest = game.clan.starclan_cats
             else:
-                possible_df_cats = [
-                    i
-                    for i in game.clan.darkforest_cats
-                    if self.fetch_cat(i)
-                    and i not in life_givers
-                    and self.fetch_cat(i).status not in ["leader", "newborn"]
-                ]
-                if len(possible_df_cats) - 1 < amount:
-                    extra_givers = possible_df_cats
-                else:
-                    extra_givers = sample(possible_df_cats, k=amount)
+                cats_in_starclan_or_darkforest = game.clan.darkforest_cats
+
+            possible_life_givers = [
+                cat
+                for cat in cats_in_starclan_or_darkforest
+                if self.fetch_cat(cat)
+                and cat not in life_givers
+                and self.fetch_cat(cat).status not in ["leader", "newborn"]
+            ]
+
+            if len(possible_life_givers) - 1 < amount:
+                extra_givers = possible_life_givers
+            else:
+                extra_givers = sample(possible_life_givers, k=amount)
 
             life_givers.extend(extra_givers)
 
         # making sure we have a leader at the end
         ancient_leader = False
         if not life_giving_leader:
+            if starclan:
+                cats_in_starclan_or_darkforest = game.clan.starclan_cats.copy()
+            else:
+                cats_in_starclan_or_darkforest = game.clan.darkforest_cats.copy()
+            
             # choosing if the life giving leader will be the oldest leader or previous leader
-            coin_flip = randint(1, 2)
-            if coin_flip == 1:
+            if randint(1, 2) == 1:
                 # pick the oldest leader in SC
                 ancient_leader = True
-                if starclan:
-                    sc_cats = game.clan.starclan_cats.copy()
-                    sc_cats.sort(key=lambda x: -1 * int(Cat.fetch_cat(x).dead_for))
-                    for kitty in sc_cats:
-                        if (
-                            self.fetch_cat(kitty)
-                            and self.fetch_cat(kitty).status == "leader"
-                        ):
-                            life_giving_leader = kitty
-                            break
-                else:
-                    df_kitties = game.clan.darkforest_cats.copy()
-                    df_kitties.sort(key=lambda x: -1 * int(Cat.fetch_cat(x).dead_for))
-                    for kitty in df_kitties:
-                        if (
-                            self.fetch_cat(kitty)
-                            and self.fetch_cat(kitty).status == "leader"
-                        ):
-                            life_giving_leader = kitty
-                            break
+                cats_in_starclan_or_darkforest.sort(key=lambda x: -1 * int(Cat.fetch_cat(x).dead_for))
             else:
                 # pick previous leader
-                if starclan:
-                    sc_cats = game.clan.starclan_cats.copy()
-                    sc_cats.sort(key=lambda x: int(Cat.fetch_cat(x).dead_for))
-                    for kitty in sc_cats:
-                        if (
-                            self.fetch_cat(kitty)
-                            and self.fetch_cat(kitty).status == "leader"
-                        ):
-                            life_giving_leader = kitty
-                            break
-                else:
-                    df_kitties = game.clan.darkforest_cats.copy()
-                    df_kitties.sort(key=lambda x: int(Cat.fetch_cat(x).dead_for))
-                    for kitty in df_kitties:
-                        if (
-                            self.fetch_cat(kitty)
-                            and self.fetch_cat(kitty).status == "leader"
-                        ):
-                            life_giving_leader = kitty
-                            break
+                cats_in_starclan_or_darkforest.sort(key=lambda x: int(Cat.fetch_cat(x).dead_for))
+                
+            for kitty in cats_in_starclan_or_darkforest:
+                if (
+                    self.fetch_cat(kitty)
+                    and self.fetch_cat(kitty).status == "leader"
+                ):
+                    life_giving_leader = kitty
+                    break
 
         if life_giving_leader:
             life_givers.append(life_giving_leader)
@@ -1367,16 +1288,14 @@ class Cat:
                     continue
                 life_list.extend(list(possible_lives[life]["life_giving"]))
 
-            i = 0
             chosen_life = {}
-            while i < 10:
+            for _ in range(10):
                 attempted = []
                 if life_list:
                     chosen_life = choice(life_list)
                     if chosen_life not in used_lives and chosen_life not in attempted:
                         break
                     attempted.append(chosen_life)
-                    i += 1
                 else:
                     print(
                         f"WARNING: life list had no items for giver #{giver_cat.ID}. Using default life. "
@@ -1389,7 +1308,7 @@ class Cat:
             used_lives.append(chosen_life)
             if "virtue" in chosen_life:
                 poss_virtues = [
-                    i for i in chosen_life["virtue"] if i not in used_virtues
+                    poss_virtue for poss_virtue in chosen_life["virtue"] if poss_virtue not in used_virtues
                 ] or ["faith", "friendship", "love", "strength"]
                 virtue = choice(poss_virtues)
                 used_virtues.append(virtue)
@@ -1546,8 +1465,8 @@ class Cat:
             while (
                 other_cat == self.ID
                 and len(all_cats) > 1
-                or (all_cats.get(other_cat).dead and dead_chance != 1)
                 or (other_cat not in self.relationships)
+                or (all_cats.get(other_cat).dead and dead_chance != 1)
             ):
                 other_cat = choice(list(all_cats.keys()))
                 i += 1
@@ -1556,7 +1475,10 @@ class Cat:
                     break
         # for dead cats
         elif where_kitty in ["starclan", "hell", "UR"]:
-            while other_cat == self.ID and len(all_cats) > 1:
+            while (
+                other_cat == self.ID 
+                and len(all_cats) > 1
+            ):
                 other_cat = choice(list(all_cats.keys()))
                 i += 1
                 if i > 100:
@@ -1648,18 +1570,12 @@ class Cat:
 
         moons_with = game.clan.age - self.illnesses[illness]["moon_start"]
 
-        # focus buff
-        moons_prior = game.config["focus"]["rest and recover"]["moons_earlier_healed"]
-
-        if self.illnesses[illness]["duration"] - moons_with <= 0:
-            self.healed_condition = True
-            return False
-
+        moons_until_cured = self.illnesses[illness]["duration"] - moons_with
         # CLAN FOCUS! - if the focus 'rest and recover' is selected
-        elif (
-            game.clan.clan_settings.get("rest and recover")
-            and self.illnesses[illness]["duration"] + moons_prior - moons_with <= 0
-        ):
+        if(game.clan.clan_settings.get("rest and recover")):
+            moons_until_cured -= game.config["focus"]["rest and recover"]["moons_earlier_healed"]
+
+        if moons_until_cured <= 0:
             self.healed_condition = True
             return False
 
@@ -1685,28 +1601,18 @@ class Cat:
                 game.clan.leader_lives -= 1
             self.die()
             return False
-
-        moons_with = game.clan.age - self.injuries[injury]["moon_start"]
-
-        # focus buff
-        moons_prior = game.config["focus"]["rest and recover"]["moons_earlier_healed"]
-
+        
         # if the cat has an infected wound, the wound shouldn't heal till the illness is cured
-        if (
-            not self.injuries[injury]["complication"]
-            and self.injuries[injury]["duration"] - moons_with <= 0
-        ):
-            self.healed_condition = True
-            return False
+        if (not self.injuries[injury]["complication"]):
 
-        # CLAN FOCUS! - if the focus 'rest and recover' is selected
-        elif (
-            not self.injuries[injury]["complication"]
-            and game.clan.clan_settings.get("rest and recover")
-            and self.injuries[injury]["duration"] + moons_prior - moons_with <= 0
-        ):
-            self.healed_condition = True
-            return False
+            moons_with = game.clan.age - self.injuries[injury]["moon_start"]
+            moons_until_healed = self.injuries[injury]["duration"] - moons_with
+            # CLAN FOCUS! - if the focus 'rest and recover' is selected
+            if(game.clan.clan_settings.get("rest and recover")):
+                moons_until_healed -= game.config["focus"]["rest and recover"]["moons_earlier_healed"]
+            if(moons_until_healed <= 0):
+                self.healed_condition = True
+                return False
 
     def moon_skip_permanent_condition(self, condition):
         """handles the moon skip for permanent conditions"""
@@ -1854,9 +1760,7 @@ class Cat:
         if medical_cats_condition_fulfilled(Cat.all_cats.values(), amount_per_med):
             duration = med_duration
         if severity != "minor":
-            duration += randrange(-1, 1)
-        if duration == 0:
-            duration = 1
+            duration += clamp(duration + randrange(-1, 1), 1, duration + 1)
 
         if game.clan and game.clan.game_mode == "cruel season" and mortality != 0:
             mortality = int(mortality * 0.5)
@@ -1924,9 +1828,7 @@ class Cat:
         ):
             duration = med_duration
         if severity != "minor":
-            duration += randrange(-1, 1)
-        if duration == 0:
-            duration = 1
+            duration += clamp(duration + randrange(-1, 1), 1, duration + 1)
 
         if mortality != 0 and (game.clan and game.clan.game_mode == "cruel season"):
             mortality = int(mortality * 0.5)
@@ -2027,17 +1929,7 @@ class Cat:
             return
 
         # remove accessories if need be
-        if "NOTAIL" in self.pelt.scars and self.pelt.accessory in [
-            "RED FEATHERS",
-            "BLUE FEATHERS",
-            "JAY FEATHERS",
-            "GULL FEATHERS",
-            "SPARROW FEATHERS",
-            "CLOVER",
-            "DAISY",
-        ]:
-            self.pelt.accessory = None
-        if "HALFTAIL" in self.pelt.scars and self.pelt.accessory in [
+        if ("NOTAIL" in self.pelt.scars or "HALFTAIL" in self.pelt.scars) and self.pelt.accessory in [
             "RED FEATHERS",
             "BLUE FEATHERS",
             "JAY FEATHERS",
@@ -2264,6 +2156,14 @@ class Cat:
     # ---------------------------------------------------------------------------- #
 
     def is_valid_mentor(self, potential_mentor: Cat):
+
+        # If not an app, don't need a mentor
+        if "apprentice" not in self.status:
+            return False
+        # Dead cats don't need mentors
+        if self.dead or self.outside or self.exiled:
+            return False
+        
         # Dead or outside cats can't be mentors
         if potential_mentor.dead or potential_mentor.outside:
             return False
@@ -2283,13 +2183,6 @@ class Cat:
             self.status == "mediator apprentice"
             and potential_mentor.status != "mediator"
         ):
-            return False
-
-        # If not an app, don't need a mentor
-        if "apprentice" not in self.status:
-            return False
-        # Dead cats don't need mentors
-        if self.dead or self.outside or self.exiled:
             return False
         return True
 
@@ -2520,26 +2413,25 @@ class Cat:
         if self.inheritance:
             self.inheritance.update_all_mates()
 
+        relationships = []
         # Set starting relationship values
         if not self.dead:
             if other_cat.ID not in self.relationships:
                 self.create_one_relationship(other_cat)
                 self.relationships[other_cat.ID].mate = True
-            self_relationship = self.relationships[other_cat.ID]
-            self_relationship.romantic_love += 20
-            self_relationship.comfortable += 20
-            self_relationship.trust += 10
-            self_relationship.mate = True
+            relationships.append(self.relationships[other_cat.ID])
 
         if not other_cat.dead:
             if self.ID not in other_cat.relationships:
                 other_cat.create_one_relationship(self)
                 other_cat.relationships[self.ID].mate = True
-            other_relationship = other_cat.relationships[self.ID]
-            other_relationship.romantic_love += 20
-            other_relationship.comfortable += 20
-            other_relationship.trust += 10
-            other_relationship.mate = True
+            relationships.append(other_cat.relationships[self.ID])
+
+        for relationship in relationships:
+            relationship.romantic_love += 20
+            relationship.comfortable += 20
+            relationship.trust += 10
+            relationship.mate = True
 
     def unset_adoptive_parent(self, other_cat: Cat):
         """Unset the adoptive parent from self"""
@@ -2567,22 +2459,22 @@ class Cat:
         self.adoptive_parents.append(other_cat.ID)
         self.create_inheritance_new_cat()
 
+        relationships = []
         # Set starting relationship values
         if not self.dead:
             if other_cat.ID not in self.relationships:
                 self.create_one_relationship(other_cat)
-            self_relationship = self.relationships[other_cat.ID]
-            self_relationship.platonic_like += 20
-            self_relationship.comfortable += 20
-            self_relationship.trust += 10
+            relationships.append(self.relationships[other_cat.ID])
 
         if not other_cat.dead:
             if self.ID not in other_cat.relationships:
                 other_cat.create_one_relationship(self)
-            other_relationship = other_cat.relationships[self.ID]
-            other_relationship.platonic_like += 20
-            other_relationship.comfortable += 20
-            other_relationship.trust += 10
+            relationships.append(other_cat.relationships[self.ID])
+
+        for relationship in relationships:
+            relationship.platonic_like += 20
+            relationship.comfortable += 20
+            relationship.trust += 10
 
     def create_inheritance_new_cat(self):
         """Creates the inheritance class for a new cat."""
@@ -2615,16 +2507,10 @@ class Cat:
             # if they dead (dead cats have no relationships)
             if self.dead or inter_cat.dead:
                 continue
-            # if they are not outside of the Clan at the same time
-            if (
-                self.outside
-                and not inter_cat.outside
-                or not self.outside
-                and inter_cat.outside
-            ):
-                continue
-            inter_cat.relationships[self.ID] = Relationship(inter_cat, self)
-            self.relationships[inter_cat.ID] = Relationship(self, inter_cat)
+            # if they are outside of the Clan at the same time
+            if (self.outside and self.outside == inter_cat.outside):
+                inter_cat.relationships[self.ID] = Relationship(inter_cat, self)
+                self.relationships[inter_cat.ID] = Relationship(self, inter_cat)
 
     def init_all_relationships(self):
         """Create Relationships to all current Clancats."""
@@ -2779,17 +2665,17 @@ class Cat:
     def mediate_relationship(mediator, cat1, cat2, allow_romantic, sabotage=False):
         # Gather some important info
 
+        relationships = []
         # Gathering the relationships.
         if cat1.ID in cat2.relationships:
-            rel1 = cat1.relationships[cat2.ID]
+            relationships.append(cat1.relationships[cat2.ID])
         else:
-            rel1 = cat1.create_one_relationship(cat2)
+            relationships.append(cat1.create_one_relationship(cat2))
 
         if cat2.ID in cat1.relationships:
-            rel2 = cat2.relationships[cat1.ID]
+            relationships.append(cat2.relationships[cat1.ID])
         else:
-            rel2 = cat2.create_one_relationship(cat1)
-
+            relationships.append(cat2.create_one_relationship(cat1))
         # Output string.
         output = ""
 
@@ -2838,11 +2724,13 @@ class Cat:
             if mediator.status != "mediator apprentice":
                 exp_gain = randint(10, 24)
 
-                gm_modifier = 1
+                
                 if game.clan and game.clan.game_mode == "expanded":
                     gm_modifier = 3
                 elif game.clan and game.clan.game_mode == "cruel season":
                     gm_modifier = 6
+                else:
+                    gm_modifier = 1
 
                 if mediator.experience_level == "average":
                     lvl_modifier = 1.25
@@ -2859,7 +2747,7 @@ class Cat:
 
         # determine the traits to effect
         # Are they mates?
-        mates = rel1.cat_from.ID in rel1.cat_to.mate
+        mates = relationships[0].cat_from.ID in relationships[0].cat_to.mate
 
         pos_traits = ["platonic", "respect", "comfortable", "trust"]
         if allow_romantic and (mates or cat1.is_potential_mate(cat2)):
@@ -2905,171 +2793,102 @@ class Cat:
                     ran = (5, 10)
                 else:
                     ran = (4, 6)
-
                 if sabotage:
-                    rel1.romantic_love = Cat.effect_relation(
-                        rel1.romantic_love,
-                        -(randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
-                    rel2.romantic_love = Cat.effect_relation(
-                        rel2.romantic_love,
-                        -(randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
+                    sabotage_modifier = -1
                     output += "Romantic interest decreased. "
                 else:
-                    rel1.romantic_love = Cat.effect_relation(
-                        rel1.romantic_love,
-                        (randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
-                    rel2.romantic_love = Cat.effect_relation(
-                        rel2.romantic_love,
-                        (randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
+                    sabotage_modifier = 1
                     output += "Romantic interest increased. "
+                for relationship in relationships:
+                    relationship.romantic_love = Cat.effect_relation(
+                        relationship.romantic_love,
+                        sabotage_modifier*(randint(ran[0], ran[1]) + bonus) + personality_bonus,
+                    )
 
             elif trait == "platonic":
                 ran = (4, 6)
-
                 if sabotage:
-                    rel1.platonic_like = Cat.effect_relation(
-                        rel1.platonic_like,
-                        -(randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
-                    rel2.platonic_like = Cat.effect_relation(
-                        rel2.platonic_like,
-                        -(randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
+                    sabotage_modifier = -1
                     output += "Platonic like decreased. "
                 else:
-                    rel1.platonic_like = Cat.effect_relation(
-                        rel1.platonic_like,
-                        (randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
-                    rel2.platonic_like = Cat.effect_relation(
-                        rel2.platonic_like,
-                        (randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
+                    sabotage_modifier = 1
                     output += "Platonic like increased. "
+                for relationship in relationships:
+                    relationship.platonic_like = Cat.effect_relation(
+                        relationship.platonic_like,
+                        sabotage_modifier*(randint(ran[0], ran[1]) + bonus) + personality_bonus,
+                    )
 
             elif trait == "respect":
                 ran = (4, 6)
-
                 if sabotage:
-                    rel1.admiration = Cat.effect_relation(
-                        rel1.admiration,
-                        -(randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
-                    rel2.admiration = Cat.effect_relation(
-                        rel2.admiration,
-                        -(randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
+                    sabotage_modifier = -1
                     output += "Respect decreased. "
                 else:
-                    rel1.admiration = Cat.effect_relation(
-                        rel1.admiration,
-                        (randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
-                    rel2.admiration = Cat.effect_relation(
-                        rel2.admiration,
-                        (randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
+                    sabotage_modifier = 1
                     output += "Respect increased. "
+                for relationship in relationships:
+                    relationship.admiration = Cat.effect_relation(
+                        relationship.admiration,
+                        sabotage_modifier*(randint(ran[0], ran[1]) + bonus) + personality_bonus,
+                    )
 
             elif trait == "comfortable":
                 ran = (4, 6)
-
                 if sabotage:
-                    rel1.comfortable = Cat.effect_relation(
-                        rel1.comfortable,
-                        -(randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
-                    rel2.comfortable = Cat.effect_relation(
-                        rel2.comfortable,
-                        -(randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
+                    sabotage_modifier = -1
                     output += "Comfort decreased. "
                 else:
-                    rel1.comfortable = Cat.effect_relation(
-                        rel1.comfortable,
-                        (randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
-                    rel2.comfortable = Cat.effect_relation(
-                        rel2.comfortable,
-                        (randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
+                    sabotage_modifier = 1
                     output += "Comfort increased. "
+                for relationship in relationships:
+                    relationship.comfortable = Cat.effect_relation(
+                        relationship.comfortable,
+                        sabotage_modifier*(randint(ran[0], ran[1]) + bonus) + personality_bonus,
+                    )
 
             elif trait == "trust":
                 ran = (4, 6)
-
                 if sabotage:
-                    rel1.trust = Cat.effect_relation(
-                        rel1.trust,
-                        -(randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
-                    rel2.trust = Cat.effect_relation(
-                        rel2.trust,
-                        -(randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
+                    sabotage_modifier = -1
                     output += "Trust decreased. "
                 else:
-                    rel1.trust = Cat.effect_relation(
-                        rel1.trust,
-                        (randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
-                    rel2.trust = Cat.effect_relation(
-                        rel2.trust,
-                        (randint(ran[0], ran[1]) + bonus) + personality_bonus,
-                    )
+                    sabotage_modifier = 1
                     output += "Trust increased. "
+                for relationship in relationships:
+                    relationship.trust = Cat.effect_relation(
+                        relationship.trust,
+                        sabotage_modifier*(randint(ran[0], ran[1]) + bonus) + personality_bonus,
+                    )
 
             elif trait == "dislike":
                 ran = (4, 9)
                 if sabotage:
-                    rel1.dislike = Cat.effect_relation(
-                        rel1.dislike,
-                        (randint(ran[0], ran[1]) + bonus) - personality_bonus,
-                    )
-                    rel2.dislike = Cat.effect_relation(
-                        rel2.dislike,
-                        (randint(ran[0], ran[1]) + bonus) - personality_bonus,
-                    )
+                    sabotage_modifier = 1
                     output += "Dislike increased. "
                 else:
-                    rel1.dislike = Cat.effect_relation(
-                        rel1.dislike,
-                        -(randint(ran[0], ran[1]) + bonus) - personality_bonus,
-                    )
-                    rel2.dislike = Cat.effect_relation(
-                        rel2.dislike,
-                        -(randint(ran[0], ran[1]) + bonus) - personality_bonus,
-                    )
+                    sabotage_modifier = -1
                     output += "Dislike decreased. "
+                for relationship in relationships:
+                    relationship.dislike = Cat.effect_relation(
+                        relationship.dislike,
+                        sabotage_modifier*(randint(ran[0], ran[1]) + bonus) - personality_bonus,
+                    )
 
             elif trait == "jealousy":
                 ran = (4, 6)
-
                 if sabotage:
-                    rel1.jealousy = Cat.effect_relation(
-                        rel1.jealousy,
-                        (randint(ran[0], ran[1]) + bonus) - personality_bonus,
-                    )
-                    rel2.jealousy = Cat.effect_relation(
-                        rel2.jealousy,
-                        (randint(ran[0], ran[1]) + bonus) - personality_bonus,
-                    )
+                    sabotage_modifier = 1
                     output += "Jealousy increased. "
                 else:
-                    rel1.jealousy = Cat.effect_relation(
-                        rel1.jealousy,
-                        -(randint(ran[0], ran[1]) + bonus) - personality_bonus,
-                    )
-                    rel2.jealousy = Cat.effect_relation(
-                        rel2.jealousy,
-                        -(randint(ran[0], ran[1]) + bonus) - personality_bonus,
-                    )
+                    sabotage_modifier = -1
                     output += "Jealousy decreased. "
-
+                for relationship in relationships:
+                    relationship.jealousy = Cat.effect_relation(
+                        relationship.jealousy,
+                        sabotage_modifier*(randint(ran[0], ran[1]) + bonus) - personality_bonus,
+                    )
+                    
         return output
 
     @staticmethod

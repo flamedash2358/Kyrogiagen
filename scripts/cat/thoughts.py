@@ -1,3 +1,4 @@
+import os
 import traceback
 from random import choice
 
@@ -217,8 +218,9 @@ class Thoughts:
                 if outside_status and outside_status != "clancat" and len(r_c_in) > 0:
                     return False
 
-            if "has_injuries" in thought:
-                if "m_c" in thought["has_injuries"]:
+            if 'has_injuries' in thought:
+                #This will always return false
+                if "m_c" in thought['has_injuries']:
                     if main_cat.injuries or main_cat.illnesses:
                         injuries_and_illnesses = (
                             list(main_cat.injuries.keys()) + list(main_cat.injuries.keys())
@@ -326,8 +328,8 @@ class Thoughts:
 
     @staticmethod
     def load_thoughts(main_cat, other_cat, game_mode, biome, season, camp):
-        status = main_cat.status
-        status = status.replace(" ", "_")
+        
+        status = main_cat.status.replace(" ", "_")
         # match status:
         #     case "medicine cat apprentice":
         #         status = "medicine_cat_apprentice"
@@ -339,9 +341,9 @@ class Thoughts:
         #         status = 'former_Clancat'
 
         if not main_cat.dead:
-            life_dir = "alive"
+            life_dir = "/alive"
         else:
-            life_dir = "dead"
+            life_dir = "/dead"
 
         if main_cat.dead:
             if main_cat.outside:
@@ -359,24 +361,27 @@ class Thoughts:
         try:
             if main_cat.age == "newborn":
                 loaded_thoughts = load_lang_resource(
-                    f"thoughts/{life_dir}{spec_dir}/newborn.json"
+                    f"thoughts{life_dir}{spec_dir}/newborn.json"
                 )
             else:
                 thoughts = load_lang_resource(
-                    f"thoughts/{life_dir}{spec_dir}/{status}.json"
+                    f"thoughts{life_dir}{spec_dir}/{status}.json"
                 )
                 genthoughts = load_lang_resource(
-                    f"thoughts/{life_dir}{spec_dir}/general.json"
+                    f"thoughts{life_dir}{spec_dir}/general.json"
                 )
                 loaded_thoughts = thoughts + genthoughts
 
             final_thoughts = Thoughts.create_thoughts(
                 loaded_thoughts, main_cat, other_cat, game_mode, biome, season, camp
             )
-            return final_thoughts
+        
         except IOError:
-            print("ERROR: loading thoughts")
-
+            traceback.print_exc()
+            final_thoughts = i18n.t("defaults.thought")
+        
+        return final_thoughts
+        
     @staticmethod
     def get_chosen_thought(main_cat, other_cat, game_mode, biome, season, camp):
         # get possible thoughts
@@ -393,7 +398,7 @@ class Thoughts:
                     )
                 )
                 chosen_thought = choice(chosen_thought_group["thoughts"])
-        except Exception:
+        except IOError:
             traceback.print_exc()
             chosen_thought = i18n.t("defaults.thought")
 
@@ -418,7 +423,6 @@ class Thoughts:
             spec_dir = "/darkforest"
         else:
             spec_dir = "/starclan"
-        THOUGHTS: []
         try:
             if lives_left > 0:
                 loaded_thoughts = load_lang_resource(
@@ -433,7 +437,7 @@ class Thoughts:
             )
             chosen_thought = choice(thought_group["thoughts"])
             return chosen_thought
-        except Exception:
+        except IOError:
             traceback.print_exc()
             chosen_thought = i18n.t("defaults.thought")
             return chosen_thought
@@ -458,6 +462,6 @@ class Thoughts:
             )
             chosen_thought = choice(thought_group["thoughts"])
             return chosen_thought
-        except Exception:
+        except IOError:
             traceback.print_exc()
             return i18n.t("defaults.thought")

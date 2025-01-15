@@ -138,12 +138,10 @@ class Inheritance:
         for cat_id in self.all_involved:
             # Don't update the inheritance of faded cats
             # They are not viewable by the player and won't be used in any checks.
-            if (
-                cat_id in self.all_inheritances
-                and self.cat.fetch_cat(cat_id)
-                and not self.cat.fetch_cat(cat_id).faded
-            ):
-                self.all_inheritances[cat_id].update_inheritance()
+             if ( cat_id in self.all_inheritances):
+                fetched_cat = self.cat.fetch_cat(cat_id)
+                if(fetched_cat and not fetched_cat.faded):
+                    self.all_inheritances[cat_id].update_inheritance()
 
     def update_all_mates(self):
         """
@@ -384,18 +382,18 @@ class Inheritance:
             self.all_involved.append(inter_id)
             self.all_but_cousins.append(inter_id)
             if len(inter_blood_parents) > 0:
-                name = []
+                parent_names = []
                 for blood_parent_id in inter_blood_parents:
                     blood_parent_cat = self.cat.fetch_cat(blood_parent_id)
                     if blood_parent_cat is None:
                         print(f"ERROR: the blood_parent of {str(inter_cat.name)}")
                     else:
-                        name.append(str(blood_parent_cat.name))
+                        parent_names.append(str(blood_parent_cat.name))
                 self.kits[inter_id]["additional"].append(
                     i18n.t(
                         "inheritance.blood_parent",
-                        count=len(name),
-                        name=adjust_list_text(name),
+                        count=len(parent_names),
+                        name=adjust_list_text(parent_names),
                     )
                 )
 
