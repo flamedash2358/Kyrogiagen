@@ -134,6 +134,8 @@ class Events:
         if random.randint(1, rejoin_upperbound) == 1:
             self.handle_lost_cats_return()
 
+        self.handle_delayed_events()
+
         # Calling of "one_moon" functions.
         for cat in Cat.all_cats.copy().values():
             if not cat.outside or cat.dead:
@@ -320,6 +322,24 @@ class Events:
                 game.save_events()
             except:
                 SaveError(traceback.format_exc())
+
+    def handle_delayed_events(self):
+        """
+        Handles aging delayed events and triggering them.
+        """
+        removals = []
+
+        for event in game.clan.delayed_events:
+            event.moon_delay -= 1
+            # we give events a buffer of 12 moons to allow any season-locked events a chance to trigger, then we remove
+            if event.moon_delay <= -12:
+                removals.append(event)
+            if event.moon_delay <= 0:
+                handle_short_events.trigger_delayed_event(event)
+
+        for event in removals:
+            if event in game.clan.delayed_events:
+                game.clan.delayed_events.remove(event)
 
     def handle_lead_den_event(self):
         """

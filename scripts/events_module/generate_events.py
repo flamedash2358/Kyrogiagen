@@ -36,7 +36,6 @@ def get_resource_directory(fallback=False):
 class GenerateEvents:
     loaded_events = {}
 
-    INJURY_DISTRIBUTION = None
     with open(
         f"resources/dicts/conditions/event_injuries_distribution.json",
         "r",
@@ -44,7 +43,6 @@ class GenerateEvents:
     ) as read_file:
         INJURY_DISTRIBUTION = ujson.loads(read_file.read())
 
-    INJURIES = None
     with open(
         f"resources/dicts/conditions/injuries.json", "r", encoding="utf-8"
     ) as read_file:
@@ -153,6 +151,7 @@ class GenerateEvents:
                         other_clan=event["other_clan"] if "other_clan" in event else {},
                         supplies=event["supplies"] if "supplies" in event else [],
                         new_gender=event["new_gender"] if "new_gender" in event else [],
+                        delayed_event=event["delayed_event"] if "delayed_event" in event else {}
                     )
                     event_list.append(event)
 
@@ -234,14 +233,16 @@ class GenerateEvents:
 
     @staticmethod
     def filter_possible_short_events(
-        Cat_class,
-        possible_events,
-        cat,
-        random_cat,
-        other_clan,
-        freshkill_active,
-        freshkill_trigger_factor,
-        sub_types=None,
+            Cat_class,
+            possible_events,
+            cat,
+            random_cat,
+            other_clan,
+            freshkill_active,
+            freshkill_trigger_factor,
+            sub_types=None,
+            allowed_events=None,
+            excluded_events=None
     ):
         final_events = []
         incorrect_format = []
@@ -275,6 +276,12 @@ class GenerateEvents:
                         incorrect_format.append(
                             f"{event.event_id} injury formatted incorrectly"
                         )
+
+            # check if event is in allowed or excluded
+            if allowed_events and event.event_id not in allowed_events:
+                continue
+            if excluded_events and event.event_id in excluded_events:
+                continue
 
             # check for event sub_type
             if set(event.sub_type) != set(sub_types):
@@ -558,3 +565,4 @@ class GenerateEvents:
 
 
 generate_events = GenerateEvents()
+

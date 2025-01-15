@@ -32,6 +32,7 @@ from scripts.utility import (
     quit,
     clan_symbol_sprite, get_living_clan_cat_count,
 )  # pylint: disable=redefined-builtin
+from scripts.events_module.delayed.delayed_event import DelayedEvent
 
 
 class Clan:
@@ -173,6 +174,7 @@ class Clan:
             "enemy": None,
             "duration": 0,
         }
+        self.delayed_events = []
         self.last_focus_change = None
         self.clans_in_focus = []
 
@@ -182,7 +184,8 @@ class Clan:
         if self_run_init_functions:
             self.post_initialization_functions()
 
-    # The clan couldn't save itself in time due to issues arising, for example, from this function: "if deputy is not None: self.deputy.status_change('deputy') -> game.clan.remove_med_cat(self)"
+    # The clan couldn't save itself in time due to issues arising, for example, from this function: "if deputy is not
+    # None: self.deputy.status_change('deputy') -> game.clan.remove_med_cat(self)"
     def post_initialization_functions(self):
         if self.deputy is not None:
             self.deputy.status_change("deputy")
@@ -527,6 +530,7 @@ class Clan:
 
         self.save_herb_supply(game.clan)
         self.save_disaster(game.clan)
+        self.save_delayed_events(game.clan)
         self.save_pregnancy(game.clan)
 
         self.save_clan_settings()
@@ -912,6 +916,7 @@ class Clan:
 
         self.load_pregnancy(game.clan)
         self.load_herb_supply(game.clan)
+        self.load_delayed_events(game.clan)
         self.load_disaster(game.clan)
         if game.clan.game_mode != "classic":
             self.load_freshkill_pile(game.clan)
@@ -1080,6 +1085,60 @@ class Clan:
 
         game.safe_save(
             f"{get_save_dir()}/{clan.name}/disasters/secondary.json", disaster
+        )
+
+    def load_delayed_events(self, clan):
+        """
+        Loads the Clan's saved delayed events
+        """
+        if not game.clan.name:
+            return
+
+        # load the current file path, if it exists in save
+        file_path = f"{get_save_dir()}/{game.clan.name}/delayed_events.json"
+        if os.path.exists(file_path):
+            with open(
+                    file_path, "r", encoding="utf-8"
+            ) as save_file:
+                save_list = ujson.load(save_file)
+                for event in save_list:
+                    try:
+                        game.clan.delayed_events.append(
+                            DelayedEvent(
+                                parent_event=event["parent_event"],
+                                event_type=event["event_type"],
+                                pool=event["pool"],
+                                moon_delay=event["moon_delay"],
+                                involved_cats=event["involved_cats"]
+                            )
+                        )
+                    except KeyError:
+                        print(f"WARNING: A saved delayed event was missing information and was not loaded. event: {event}")
+                        continue
+
+                game.clan.delayed_events = ujson.load(save_file)
+
+    def save_delayed_events(self, clan):
+        """
+        saves the Clan's current delayed events
+        """
+        if not clan.delayed_events:
+            return
+
+        save_list = []
+
+        for event in game.clan.delayed_events:
+            save_list.append({
+                "parent_event": event.parent_event,
+                "event_type": event.event_type,
+                "pool": event.pool,
+                "moon_delay": event.moon_delay,
+                "involved_cats": event.involved_cats
+            })
+
+        game.safe_save(
+            f"{get_save_dir()}/{game.clan.name}/delayed_events.json",
+            save_list
         )
 
     def load_herb_supply(self, clan):
