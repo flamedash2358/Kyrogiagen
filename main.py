@@ -216,9 +216,6 @@ finished_loading = False
 def load_data():
     global finished_loading
 
-    # load in the spritesheets
-    sprites.load_all()
-
     clan_list = game.read_clans()
     if clan_list:
         game.switches["clan_list"] = clan_list
@@ -240,8 +237,6 @@ def load_data():
 
 
 def loading_animation(scale: float = 1):
-    global finished_loading
-
     # Load images, adjust color
     color = pygame.Surface((200 * scale, 210 * scale))
     if game.settings["dark mode"]:
@@ -289,19 +284,31 @@ def loading_animation(scale: float = 1):
 
         pygame.display.update()
 
+def load_game():
+    """
+    Performs the functions needed to load the game.
 
-loading_thread = threading.Thread(target=load_data)
-loading_thread.start()
+    This function is ran when the game loads and whenever the player
+    switches clans.
+    """
+    global finished_loading
 
-loading_animation(screen_scale)
+    game.cur_events_list.clear()
+    game.patrol_cats.clear()
+    game.patrolled.clear()
+    game.switches["switch_clan"] = False
 
-# The loading thread should be done by now. This line
-# is just for safety. Plus some cleanup.
-loading_thread.join()
-del loading_thread
-del finished_loading
-del loading_animation
-del load_data
+    finished_loading = False
+    loading_thread = threading.Thread(target=load_data)
+    loading_thread.start()
+    loading_animation(screen_scale)
+
+    #loading thread should be done by now, so just join it for safety.
+    loading_thread.join()
+
+# load spritesheets
+sprites.load_all()
+load_game()
 
 pygame.mixer.pre_init(buffer=44100)
 try:
@@ -326,6 +333,12 @@ while 1:
             pygame.mouse.set_cursor(cursor)
     elif pygame.mouse.get_cursor() == cursor:
         pygame.mouse.set_cursor(disabled_cursor)
+
+    if game.switches["switch_clan"]:
+        game.patrol_cats.clear()
+        game.patrolled.clear()
+        load_game()
+
     # Draw screens
     # This occurs before events are handled to stop pygame_gui buttons from blinking.
     game.all_screens[game.current_screen].on_use()
@@ -339,7 +352,8 @@ while 1:
             pass
         else:
             game.all_screens[game.current_screen].handle_event(event)
-            sound_manager.handle_sound_events(event)
+            
+        sound_manager.handle_sound_events(event)
 
         if event.type == pygame.QUIT:
             # Don't display if on the start screen or there is no clan.
