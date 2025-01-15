@@ -1,4 +1,4 @@
-name: Bug - UI & Sprite (report typos further down)
+name: Bug - UI and Sprite (report typos further down)
 description: Report an issue with sprites, buttons, backgrounds, visual overlaps etc.
 title: "[UI] "
 labels: [ 'visual', 'bug' ]
@@ -31,6 +31,7 @@ body:
     id: description
     attributes:
       label: Expected behavior
+      description: Describe what should have happened instead
       placeholder: The cat's accessory should be visible.
     validations:
       required: true
@@ -60,7 +61,7 @@ body:
         4. See error
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: patrol
     attributes:
       label: Patrol ID + Outcome Print (if applicable)
