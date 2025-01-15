@@ -1,7 +1,7 @@
-name: UI & Sprite (report typos further down)
+name: Bug - UI & Sprite (report typos further down)
 description: Report an issue with sprites, buttons, backgrounds, visual overlaps etc.
-title: "[UI & Sprite] "
-labels: [ 'visual' ]
+title: "[UI] "
+labels: [ 'visual', 'bug' ]
 body:
   - type: checkboxes
     id: existing_issue
