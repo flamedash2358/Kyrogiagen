@@ -120,45 +120,14 @@ class Sprites:
 
         del width, height  # unneeded
 
-        for x in [
-            "lineart",
-            "lineartdf",
-            "lineartdead",
-            "eyes",
-            "eyes2",
-            "skin",
-            "scars",
-            "missingscars",
-            "medcatherbs",
-            "wild",
-            "collars",
-            "bellcollars",
-            "bowcollars",
-            "nyloncollars",
-            "singlecolours",
-            "speckledcolours",
-            "tabbycolours",
-            "bengalcolours",
-            "marbledcolours",
-            "rosettecolours",
-            "smokecolours",
-            "tickedcolours",
-            "mackerelcolours",
-            "classiccolours",
-            "sokokecolours",
-            "agouticolours",
-            "singlestripecolours",
-            "maskedcolours",
-            "shadersnewwhite",
-            "lightingnew",
-            "whitepatches",
-            "tortiepatchesmasks",
-            "fademask",
-            "fadestarclan",
-            "fadedarkforest",
-            "symbols",
-        ]:
-            if "lineart" in x and game.config["fun"]["april_fools"]:
+        try:
+            with open("resources/sprites.json", 'r') as read_file:
+                _sprites = ujson.loads(read_file.read())
+        except IOError:
+            print("ERROR: Reading Sprites File")
+
+        for x in _sprites["images"]:
+            if 'lineart' in x and game.config['fun']['april_fools']:
                 self.spritesheet(f"sprites/aprilfools{x}.png", x)
             else:
                 self.spritesheet(f"sprites/{x}.png", x)
@@ -177,35 +146,8 @@ class Sprites:
             self.make_group("fadestarclan", (i, 0), f"fadestarclan{i}")
             self.make_group("fadedarkforest", (i, 0), f"fadedf{i}")
 
-        # Define eye colors
-        eye_colors = [
-            [
-                "YELLOW",
-                "AMBER",
-                "HAZEL",
-                "PALEGREEN",
-                "GREEN",
-                "BLUE",
-                "DARKBLUE",
-                "GREY",
-                "CYAN",
-                "EMERALD",
-                "HEATHERBLUE",
-                "SUNLITICE",
-            ],
-            [
-                "COPPER",
-                "SAGE",
-                "COBALT",
-                "PALEBLUE",
-                "BRONZE",
-                "SILVER",
-                "PALEYELLOW",
-                "GOLD",
-                "GREENYELLOW",
-                "ORANGE"
-            ],
-        ]
+        # Load eye colors
+        eye_colors = _sprites["eye_colors"]
 
         for row, colors in enumerate(eye_colors):
             for col, color in enumerate(colors):
@@ -213,181 +155,15 @@ class Sprites:
                 self.make_group("eyes2", (col, row), f"eyes2{color}")
 
         # Define white patches
-        white_patches = [
-            [
-                "FULLWHITE",
-                "ANY",
-                "TUXEDO",
-                "LITTLE",
-                "COLOURPOINT",
-                "VAN",
-                "ANYTWO",
-                "MOON",
-                "PHANTOM",
-                "POWDER",
-                "BLEACHED",
-                "SAVANNAH",
-                "FADESPOTS",
-                "PEBBLESHINE",
-            ],
-            [
-                "EXTRA",
-                "ONEEAR",
-                "BROKEN",
-                "LIGHTTUXEDO",
-                "BUZZARDFANG",
-                "RAGDOLL",
-                "LIGHTSONG",
-                "VITILIGO",
-                "BLACKSTAR",
-                "PIEBALD",
-                "CURVED",
-                "PETAL",
-                "SHIBAINU",
-                "OWL",
-            ],
-            [
-                "TIP",
-                "FANCY",
-                "FRECKLES",
-                "RINGTAIL",
-                "HALFFACE",
-                "PANTSTWO",
-                "GOATEE",
-                "VITILIGOTWO",
-                "PAWS",
-                "MITAINE",
-                "BROKENBLAZE",
-                "SCOURGE",
-                "DIVA",
-                "BEARD",
-            ],
-            [
-                "TAIL",
-                "BLAZE",
-                "PRINCE",
-                "BIB",
-                "VEE",
-                "UNDERS",
-                "HONEY",
-                "FAROFA",
-                "DAMIEN",
-                "MISTER",
-                "BELLY",
-                "TAILTIP",
-                "TOES",
-                "TOPCOVER",
-            ],
-            [
-                "APRON",
-                "CAPSADDLE",
-                "MASKMANTLE",
-                "SQUEAKS",
-                "STAR",
-                "TOESTAIL",
-                "RAVENPAW",
-                "PANTS",
-                "REVERSEPANTS",
-                "SKUNK",
-                "KARPATI",
-                "HALFWHITE",
-                "APPALOOSA",
-                "DAPPLEPAW",
-            ],
-            [
-                "HEART",
-                "LILTWO",
-                "GLASS",
-                "MOORISH",
-                "SEPIAPOINT",
-                "MINKPOINT",
-                "SEALPOINT",
-                "MAO",
-                "LUNA",
-                "CHESTSPECK",
-                "WINGS",
-                "PAINTED",
-                "HEARTTWO",
-                "WOODPECKER",
-            ],
-            [
-                "BOOTS",
-                "MISS",
-                "COW",
-                "COWTWO",
-                "BUB",
-                "BOWTIE",
-                "MUSTACHE",
-                "REVERSEHEART",
-                "SPARROW",
-                "VEST",
-                "LOVEBUG",
-                "TRIXIE",
-                "SAMMY",
-                "SPARKLE",
-            ],
-            [
-                "RIGHTEAR",
-                "LEFTEAR",
-                "ESTRELLA",
-                "SHOOTINGSTAR",
-                "EYESPOT",
-                "REVERSEEYE",
-                "FADEBELLY",
-                "FRONT",
-                "BLOSSOMSTEP",
-                "PEBBLE",
-                "TAILTWO",
-                "BUDDY",
-                "BACKSPOT",
-                "EYEBAGS",
-            ],
-            [
-                "BULLSEYE",
-                "FINN",
-                "DIGIT",
-                "KROPKA",
-                "FCTWO",
-                "FCONE",
-                "MIA",
-                "SCAR",
-                "BUSTER",
-                "SMOKEY",
-                "HAWKBLAZE",
-                "CAKE",
-                "ROSINA",
-                "PRINCESS",
-            ],
-            ["LOCKET", "BLAZEMASK", "TEARS", "DOUGIE"],
-        ]
+        white_patches = _sprites["white_patches"]
 
         for row, patches in enumerate(white_patches):
             for col, patch in enumerate(patches):
                 self.make_group("whitepatches", (col, row), f"white{patch}")
 
         # Define colors and categories
-        color_categories = [
-            ["WHITE", "PALEGREY", "SILVER", "GREY", "DARKGREY", "GHOST", "BLACK"],
-            ["CREAM", "PALEGINGER", "GOLDEN", "GINGER", "DARKGINGER", "SIENNA"],
-            ["LIGHTBROWN", "LILAC", "BROWN", "GOLDEN-BROWN", "DARKBROWN", "CHOCOLATE"],
-        ]
-
-        color_types = [
-            "singlecolours",
-            "tabbycolours",
-            "marbledcolours",
-            "rosettecolours",
-            "smokecolours",
-            "tickedcolours",
-            "speckledcolours",
-            "bengalcolours",
-            "mackerelcolours",
-            "classiccolours",
-            "sokokecolours",
-            "agouticolours",
-            "singlestripecolours",
-            "maskedcolours",
-        ]
+        color_categories = _sprites["color_categories"]
+        color_types = _sprites["color_types"]
 
         for row, colors in enumerate(color_categories):
             for col, color in enumerate(colors):
@@ -395,151 +171,32 @@ class Sprites:
                     self.make_group(color_type, (col, row), f"{color_type[:-7]}{color}")
 
         # tortiepatchesmasks
-        tortiepatchesmasks = [
-            [
-                "ONE",
-                "TWO",
-                "THREE",
-                "FOUR",
-                "REDTAIL",
-                "DELILAH",
-                "HALF",
-                "STREAK",
-                "MASK",
-                "SMOKE",
-            ],
-            [
-                "MINIMALONE",
-                "MINIMALTWO",
-                "MINIMALTHREE",
-                "MINIMALFOUR",
-                "OREO",
-                "SWOOP",
-                "CHIMERA",
-                "CHEST",
-                "ARMTAIL",
-                "GRUMPYFACE",
-            ],
-            [
-                "MOTTLED",
-                "SIDEMASK",
-                "EYEDOT",
-                "BANDANA",
-                "PACMAN",
-                "STREAMSTRIKE",
-                "SMUDGED",
-                "DAUB",
-                "EMBER",
-                "BRIE",
-            ],
-            [
-                "ORIOLE",
-                "ROBIN",
-                "BRINDLE",
-                "PAIGE",
-                "ROSETAIL",
-                "SAFI",
-                "DAPPLENIGHT",
-                "BLANKET",
-                "BELOVED",
-                "BODY",
-            ],
-            ["SHILOH", "FRECKLED", "HEARTBEAT"],
-        ]
+        tortiepatchesmasks = _sprites["tortiepatchesmasks"]
 
         for row, masks in enumerate(tortiepatchesmasks):
             for col, mask in enumerate(masks):
                 self.make_group("tortiepatchesmasks", (col, row), f"tortiemask{mask}")
 
-        # Define skin colors
-        skin_colors = [
-            ["BLACK", "RED", "PINK", "DARKBROWN", "BROWN", "LIGHTBROWN"],
-            ["DARK", "DARKGREY", "GREY", "DARKSALMON", "SALMON", "PEACH"],
-            ["DARKMARBLED", "MARBLED", "LIGHTMARBLED", "DARKBLUE", "BLUE", "LIGHTBLUE"],
-        ]
+        # Define skin colors 
+        skin_colors = _sprites["skin_colors"]
 
         for row, colors in enumerate(skin_colors):
             for col, color in enumerate(colors):
                 self.make_group("skin", (col, row), f"skin{color}")
 
-        self.load_scars()
+        self.load_scars(_sprites)
         self.load_symbols()
 
-    def load_scars(self):
+    def load_scars(self, _sprites):
         """
         Loads scar sprites and puts them into groups.
         """
 
         # Define scars
-        scars_data = [
-            [
-                "ONE",
-                "TWO",
-                "THREE",
-                "MANLEG",
-                "BRIGHTHEART",
-                "MANTAIL",
-                "BRIDGE",
-                "RIGHTBLIND",
-                "LEFTBLIND",
-                "BOTHBLIND",
-                "BURNPAWS",
-                "BURNTAIL",
-            ],
-            [
-                "BURNBELLY",
-                "BEAKCHEEK",
-                "BEAKLOWER",
-                "BURNRUMP",
-                "CATBITE",
-                "RATBITE",
-                "FROSTFACE",
-                "FROSTTAIL",
-                "FROSTMITT",
-                "FROSTSOCK",
-                "QUILLCHUNK",
-                "QUILLSCRATCH",
-            ],
-            [
-                "TAILSCAR",
-                "SNOUT",
-                "CHEEK",
-                "SIDE",
-                "THROAT",
-                "TAILBASE",
-                "BELLY",
-                "TOETRAP",
-                "SNAKE",
-                "LEGBITE",
-                "NECKBITE",
-                "FACE",
-            ],
-            [
-                "HINDLEG",
-                "BACK",
-                "QUILLSIDE",
-                "SCRATCHSIDE",
-                "TOE",
-                "BEAKSIDE",
-                "CATBITETWO",
-                "SNAKETWO",
-                "FOUR",
-            ],
-        ]
+        scars_data = _sprites["scars_data"]
 
         # define missing parts
-        missing_parts_data = [
-            [
-                "LEFTEAR",
-                "RIGHTEAR",
-                "NOTAIL",
-                "NOLEFTEAR",
-                "NORIGHTEAR",
-                "NOEAR",
-                "HALFTAIL",
-                "NOPAW",
-            ]
-        ]
+        missing_parts_data = _sprites["missing_parts_data"]
 
         # scars
         for row, scars in enumerate(scars_data):
@@ -552,102 +209,18 @@ class Sprites:
                 self.make_group("missingscars", (col, row), f"scars{missing_part}")
 
         # accessories
-        # to my beloved modders, im very sorry for reordering everything <333 -clay
-        medcatherbs_data = [
-            [
-                "MAPLE LEAF",
-                "HOLLY",
-                "BLUE BERRIES",
-                "FORGET ME NOTS",
-                "RYE STALK",
-                "CATTAIL",
-                "POPPY",
-                "ORANGE POPPY",
-                "CYAN POPPY",
-                "WHITE POPPY",
-                "PINK POPPY",
-            ],
-            [
-                "BLUEBELLS",
-                "LILY OF THE VALLEY",
-                "SNAPDRAGON",
-                "HERBS",
-                "PETALS",
-                "NETTLE",
-                "HEATHER",
-                "GORSE",
-                "JUNIPER",
-                "RASPBERRY",
-                "LAVENDER",
-            ],
-            [
-                "OAK LEAVES",
-                "CATMINT",
-                "MAPLE SEED",
-                "LAUREL",
-                "BULB WHITE",
-                "BULB YELLOW",
-                "BULB ORANGE",
-                "BULB PINK",
-                "BULB BLUE",
-                "CLOVER",
-                "DAISY",
-            ],
-        ]
-        dryherbs_data = [["DRY HERBS", "DRY CATMINT", "DRY NETTLES", "DRY LAURELS"]]
-        wild_data = [
-            [
-                "RED FEATHERS",
-                "BLUE FEATHERS",
-                "JAY FEATHERS",
-                "GULL FEATHERS",
-                "SPARROW FEATHERS",
-                "MOTH WINGS",
-                "ROSY MOTH WINGS",
-                "MORPHO BUTTERFLY",
-                "MONARCH BUTTERFLY",
-                "CICADA WINGS",
-                "BLACK CICADA",
-            ]
-        ]
+        #to my beloved modders, im very sorry for reordering everything <333 -clay
+        medcatherbs_data = _sprites["medcatherbs_data"]
+        dryherbs_data = _sprites["dryherbs_data"]
+        wild_data = _sprites["wild_data"]
 
-        collars_data = [
-            ["CRIMSON", "BLUE", "YELLOW", "CYAN", "RED", "LIME"],
-            ["GREEN", "RAINBOW", "BLACK", "SPIKES", "WHITE"],
-            ["PINK", "PURPLE", "MULTI", "INDIGO"],
-        ]
+        collars_data = _sprites["collars_data"]
 
-        bellcollars_data = [
-            [
-                "CRIMSONBELL",
-                "BLUEBELL",
-                "YELLOWBELL",
-                "CYANBELL",
-                "REDBELL",
-                "LIMEBELL",
-            ],
-            ["GREENBELL", "RAINBOWBELL", "BLACKBELL", "SPIKESBELL", "WHITEBELL"],
-            ["PINKBELL", "PURPLEBELL", "MULTIBELL", "INDIGOBELL"],
-        ]
+        bellcollars_data = _sprites["bellcollars_data"]
 
-        bowcollars_data = [
-            ["CRIMSONBOW", "BLUEBOW", "YELLOWBOW", "CYANBOW", "REDBOW", "LIMEBOW"],
-            ["GREENBOW", "RAINBOWBOW", "BLACKBOW", "SPIKESBOW", "WHITEBOW"],
-            ["PINKBOW", "PURPLEBOW", "MULTIBOW", "INDIGOBOW"],
-        ]
+        bowcollars_data = _sprites["bowcollars_data"]
 
-        nyloncollars_data = [
-            [
-                "CRIMSONNYLON",
-                "BLUENYLON",
-                "YELLOWNYLON",
-                "CYANNYLON",
-                "REDNYLON",
-                "LIMENYLON",
-            ],
-            ["GREENNYLON", "RAINBOWNYLON", "BLACKNYLON", "SPIKESNYLON", "WHITENYLON"],
-            ["PINKNYLON", "PURPLENYLON", "MULTINYLON", "INDIGONYLON"],
-        ]
+        nyloncollars_data = _sprites["nyloncollars_data"]
 
         # medcatherbs
         for row, herbs in enumerate(medcatherbs_data):
