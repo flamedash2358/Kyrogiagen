@@ -1,0 +1,108 @@
+name: UI & Sprite (report typos further down)
+description: Report an issue with sprites, buttons, backgrounds, visual overlaps etc.
+title: "[UI & Sprite] "
+labels: [ 'visual' ]
+body:
+  - type: checkboxes
+    id: existing_issue
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues
+          required: true
+  - type: checkboxes
+    id: edited_saves_checkbox
+    attributes:
+      label: Bugs in edited saves
+      description: Please confirm that this bug is present in base game ClanGen - without mods or save editing.
+      options:
+        - required: true
+          label: The bug reported in this issue was not experienced on an edited save
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug
+      placeholder: My 12 moon old mediator apprentice doesn't have their accessory in the mediation screen when they try to mediate.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Expected behavior
+      placeholder: The cat's accessory should be visible.
+    validations:
+      required: true
+  - type: dropdown
+    id: grade
+    attributes:
+      label: Grade
+      description: How much of an impact does this issue have on play?
+      options:
+        - Game-breaking - a bug that makes it impossible to play the game
+        - Dire - Still playable, but a major feature is broken
+        - Important - The bug has a large effect on the gameplay but is not urgent
+        - Regular - A typical bug that should be seen to soon, but doesn't necessarily break the game or inhibit the player
+        - Non-vital - This bug can easily be ignored and does not have a large impact on play
+        - Unimportant - This bug has little to no impact on play.
+      default: 3
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: patrol
+    attributes:
+      label: Patrol ID + Outcome Print (if applicable)
+      placeholder: If you don't know what this means, you probably don't need to fill it out.
+  - type: input
+    id: version
+    attributes:
+      label: "Commit # or Game Version Number"
+    validations:
+      required: true
+  - type: dropdown
+    id: fullscreen
+    attributes:
+      label: Are you playing in fullscreen?
+      options:
+        - ''
+        - No
+        - Yes
+    validations:
+      required: true
+  - type: input
+    id: fullscreen_size
+    attributes:
+      label: If yes, what is your monitor size in pixels?
+      placeholder: 1920 x 1080
+  - type: dropdown
+    id: fullscreen_config
+    attributes:
+      label: Select any visual config options you are using
+      description: You can select more than one.
+      options:
+        - Disable sprite antialiasing
+        - Ignore fullscreen scaling rules
+        - Other (specify in additional context)
+        - None of the above
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      placeholder: Add any other context about the problem here.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      placeholder: Add screenshots to help explain your problem.
