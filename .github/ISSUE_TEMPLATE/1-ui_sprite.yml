@@ -6,31 +6,18 @@ body:
   - type: checkboxes
     id: existing_issue
     attributes:
-      label: Is there an existing issue for this?
+      label: Pre-requisites
       options:
         - label: I have searched the existing issues
           required: true
-  - type: checkboxes
-    id: edited_saves_checkbox
-    attributes:
-      label: Bugs in edited saves
-      options:
-        - required: true
-          label: The bug reported in this issue was not experienced on an edited save
+        - label: This issue was encountered (or replicated) on a non-edited Clan
+          required: true
   - type: textarea
     id: description
     attributes:
       label: Description
       description: Describe the bug
-      placeholder: My 12 moon old mediator apprentice doesn't have their accessory in the mediation screen when they try to mediate.
-    validations:
-      required: true
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behavior
-      description: Describe what should have happened instead
-      placeholder: The cat's accessory should be visible.
+      placeholder: "e.g. My 12 moon mediator apprentice doesn't have their accessory on the mediation screen."
     validations:
       required: true
   - type: dropdown
