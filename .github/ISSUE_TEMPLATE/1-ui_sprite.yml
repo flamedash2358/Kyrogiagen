@@ -7,7 +7,6 @@ body:
     id: existing_issue
     attributes:
       label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists for the bug you encountered.
       options:
         - label: I have searched the existing issues
           required: true
@@ -15,7 +14,6 @@ body:
     id: edited_saves_checkbox
     attributes:
       label: Bugs in edited saves
-      description: Please confirm that this bug is present in base game ClanGen - without mods or save editing.
       options:
         - required: true
           label: The bug reported in this issue was not experienced on an edited save
@@ -61,7 +59,7 @@ body:
         4. See error
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: patrol
     attributes:
       label: Patrol ID + Outcome Print (if applicable)
@@ -91,6 +89,7 @@ body:
     attributes:
       label: Select any visual config options you are using
       description: You can select more than one.
+      multiple: true
       options:
         - Disable sprite antialiasing
         - Ignore fullscreen scaling rules
