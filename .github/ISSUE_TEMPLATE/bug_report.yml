@@ -8,12 +8,12 @@ body:
       label: Type of bug
       description: What kind of issue are you experiencing?
       options:
-      - Please choose an option...
-      - UI - anything to do with the user interface - maybe a button is not working, or the way some assets are formatted seems to be off. 
-      - Sprite - an issue with the art in the game
-      - Audio - issues related to the audio system
-      - Code - general bugs related to how the game runs and responds to you. 
-      - 'Typo - misspellings or incorrect grammar - IMPORTANT: "bugs" of this type are collected here: https://github.com/ClanGenOfficial/clangen/issues/1818'
+        - Please choose an option...
+        - UI - anything to do with the user interface - maybe a button is not working, or the way some assets are formatted seems to be off.
+        - Sprite - an issue with the art in the game
+        - Audio - issues related to the audio system
+        - Code - general bugs related to how the game runs and responds to you.
+        - 'Typo - misspellings or incorrect grammar - IMPORTANT: "bugs" of this type are collected here: https://github.com/ClanGenOfficial/clangen/issues/1818'
     validations:
       required: true
   - type: textarea
@@ -30,13 +30,13 @@ body:
       label: Grade
       description: How much of an impact does this issue have on play?
       options:
-      - Please choose an option...
-      - Game-breaking - a bug that makes it impossible to play the game
-      - Dire - Still playable, but a major feature is broken
-      - Important - The bug has a large effect on the gameplay but is not urgent
-      - Regular - A typical bug that should be seen to soon, but doesn't necessarily break the game or inhibit the player
-      - Non-vital - This bug can easily be ignored and does not have a large impact on play
-      - Unimportant - This bug has little to no impact on play. 
+        - Please choose an option...
+        - Game-breaking - a bug that makes it impossible to play the game
+        - Dire - Still playable, but a major feature is broken
+        - Important - The bug has a large effect on the gameplay but is not urgent
+        - Regular - A typical bug that should be seen to soon, but doesn't necessarily break the game or inhibit the player
+        - Non-vital - This bug can easily be ignored and does not have a large impact on play
+        - Unimportant - This bug has little to no impact on play.
     validations:
       required: true
   - type: textarea
@@ -68,6 +68,6 @@ body:
       placeholder: Add any other context about the problem here.
   - type: textarea
     id: screenshots
-    attributes: 
+    attributes:
       label: Screenshots
       placeholder: If applicable, add screenshots to help explain your problem.
