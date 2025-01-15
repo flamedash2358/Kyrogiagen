@@ -28,7 +28,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
+    id: expected
     attributes:
       label: Expected behavior
       description: Describe what should have happened instead
@@ -77,8 +77,8 @@ body:
     attributes:
       label: Are you playing in fullscreen?
       options:
-        - No
-        - Yes
+        - "No"
+        - "Yes"
     validations:
       required: true
   - type: input
