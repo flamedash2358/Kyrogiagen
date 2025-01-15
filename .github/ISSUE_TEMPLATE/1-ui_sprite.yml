@@ -73,7 +73,8 @@ body:
   - type: dropdown
     id: fullscreen
     attributes:
-      label: Are you playing in fullscreen?
+      label: Is this bug only happening in fullscreen?
+      description: Answer "yes" if the issue is resolved by using windowed mode, or if it relates to fullscreen.
       options:
         - "No"
         - "Yes"
@@ -82,8 +83,9 @@ body:
   - type: input
     id: fullscreen_size
     attributes:
-      label: If yes, what is your monitor size in pixels?
-      placeholder: 1920 x 1080
+      label: If yes, what is your display size in pixels?
+      description: Include height and width; this can usually be found in your computer's display settings.
+      placeholder: e.g. 1920x1080
   - type: dropdown
     id: fullscreen_config
     attributes:
@@ -94,7 +96,6 @@ body:
         - Disable sprite antialiasing
         - Ignore fullscreen scaling rules
         - Other (specify in additional context)
-        - None of the above
   - type: textarea
     id: additional_context
     attributes:
