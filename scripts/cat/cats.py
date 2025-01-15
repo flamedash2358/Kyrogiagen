@@ -3439,7 +3439,7 @@ class Cat:
                 "vitiligo": self.pelt.vitiligo,
                 "points": self.pelt.points,
                 "white_patches_tint": self.pelt.white_patches_tint,
-                "pattern": self.pelt.pattern,
+                "tortie_marking": self.pelt.tortiemarking,
                 "tortie_base": self.pelt.tortiebase,
                 "tortie_color": self.pelt.tortiecolour,
                 "tortie_pattern": self.pelt.tortiepattern,

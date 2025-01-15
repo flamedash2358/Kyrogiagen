@@ -84,6 +84,17 @@ def json_load():
                 if cat["eye_colour2"] == "BLUE2":
                     cat["eye_colour2"] = "COBALT"
 
+            if "tint" in cat:
+                if cat["tint"] == "none":
+                    cat["tint"] = None
+            if "white_patches_tint" in cat:
+                if cat["white_patches_tint"] == "none":
+                    cat["white_patches_tint"] = None
+
+            if "pattern" in cat:
+                cat["tortie_marking"] = cat["pattern"]
+                del cat["pattern"]
+
             new_cat.pelt = Pelt(
                 name=cat["pelt_name"],
                 length=cat["pelt_length"],
@@ -126,9 +137,9 @@ def json_load():
                 tortiebase=cat["tortie_base"],
                 tortiecolour=cat["tortie_color"],
                 tortiepattern=cat["tortie_pattern"],
-                pattern=cat["pattern"],
+                tortiemarking=cat["tortie_marking"],
                 skin=cat["skin"],
-                tint=cat["tint"] if "tint" in cat else "none",
+                tint=cat["tint"] if "tint" in cat else None,
                 scars=cat["scars"] if "scars" in cat else [],
                 accessory=cat["accessory"],
                 opacity=cat["opacity"] if "opacity" in cat else 100,
@@ -162,7 +173,7 @@ def json_load():
             )
             new_cat.moons = cat["moons"]
 
-            if "facets" in cat:
+            if "facets" in cat and cat["facets"] is not None:
                 facets = [int(i) for i in cat["facets"].split(",")]
                 new_cat.personality = Personality(
                     trait=cat["trait"],
@@ -387,7 +398,7 @@ def csv_load(all_cats):
                 (
                     the_cat.pelt.reverse,
                     the_cat.pelt.white_patches,
-                    the_cat.pelt.pattern,
+                    the_cat.pelt.tortiemarking,
                 ) = (attr[18], attr[19], attr[20])
                 game.switches[
                     "error_message"
