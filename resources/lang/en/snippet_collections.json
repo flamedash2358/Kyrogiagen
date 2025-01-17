@@ -16,20 +16,20 @@
     "sight": {
       "general": [
         ["blood pooling on the ground", "blood dripping from a leaf"],
-        ["spread claws", "a cat's paw devoid of claws"],
+        ["spread claws", "a dragon's talon devoid of claws"],
         ["snarling teeth", "bloodied teeth"],
         ["a bird's feather"],
-        ["soft fur"],
+        ["glistening scales"],
         ["sunlight glinting off a plant"],
         ["pouring rain", "storms never-ending", "a rainstorm on a sunny day"],
         ["hail pounding the ground"],
         ["snow falling softly", "a blizzard raging"],
         ["wind howling"],
-        ["bright sunshine", "the sun", "the sun blotted out by a great shadow", "a wolf eating the sun", "a cat pulling the sun from the sky", "a rabbit stealing the sun", "a warrior's form blocking the sun"],
+        ["bright sunshine", "the sun", "the sun blotted out by a great shadow", "a wolf eating the sun", "a dragon pulling the sun from the sky", "a Wyvern stealing the sun", "a warrior's form blocking the sun"],
         ["blinding light", "a trail of light stretching through the camp"],
         ["blazing heat"],
         ["dark clouds", "a bloody red cloud", "rolling clouds", "clouds covering the sky", "a single beam of moonlight from the clouds"],
-        ["rushing fire", "fire engulfing a cat", "fire covering the camp", "fire trapped in stone", "the camp in flames", "an animal leaping from flames"],
+        ["rushing fire", "fire engulfing a dragon", "fire covering the camp", "fire trapped in stone", "the camp in flames", "an animal leaping from flames"],
         ["flooding water", "water flowing upwards"],
         ["mud splattered on the rocks"],
         ["rocks falling"],
@@ -42,29 +42,29 @@
         ["a dry river still flowing with water", "a clear pool of water", "a rippling pool of water", "a pool of water with something just below the surface", "claw-marks on a still puddle", "a rainbow on the water"],
         ["deathberries", "wilting herbs", "bountiful herbs"],
         ["the moon", "a blackbird covering the moon", "a bleeding moon"],
-        ["the stars", "the stars falling from the sky", "Silverpelt slowly disappearing", "dozens of new stars", "twinkling stars"],
+        ["the stars", "the stars falling from the sky", "Silversnake slowly disappearing", "dozens of new stars", "twinkling stars"],
         ["frozen paws"],
         ["an unyielding fog", "a suffocating fog"],
         ["an oppressive darkness", "darkness unending", "a panther-black night", "darkness despite the shining sun"],
-        ["the apprentices' den", "the leader's den", "the nursery", "the warriors' den", "the elders' den"],
+        ["the trainees' den", "the leader's den", "the hatchery", "the warriors' den", "the elders' den"],
         ["a deep lake"],
         ["a snake eating it's own tail"],
         ["a ghostly pair of eyes"],
-        ["two pawprints overlapping"],
-        ["a broken Twoleg collar"],
-        ["the glowing eyes of a monster"],
+        ["two talonprints overlapping"],
+        ["a broken Wyvern collar"],
+        ["the glowing eyes of a stalker"],
         ["skeletal trees against the sky"],
-        ["abandoned Twoleg dens", "spreading Twoleg dens"],
-        ["a tattered Twoleg pelt"],
-        ["the reflection of a lion", "a tiger's reflection"],
+        ["abandoned Wyvern camp", "spreading Wyvern camps"],
+        ["a tattered Wyvern pelt"],
+        ["the reflection of a Wyvern", "a Stalker's reflection"],
         ["a twig burning from both ends"],
         ["the grin of a wolf"],
         ["a lost object finally returned", "a missing possession finally found"],
-        ["a figure with the voice of StarClan"],
-        ["a cat not yet born"],
-        ["a cat nearly forgotten"],
-        ["a cat covered in blood"],
-        ["a cat standing beside a Twoleg"],
+        ["a figure with the voice of The Great Wyrm"],
+        ["a dragon not yet born"],
+        ["a dragon nearly forgotten"],
+        ["a dragon covered in blood"],
+        ["a dragon standing beside a Wyvern"],
         ["stones dissolving in water"]
       ],
       "forest": [
@@ -93,22 +93,22 @@
         ["echoing snarls", "the snarl of a friend", "the snarls of an enemy", "snarling from the dark", "hissing", "the hiss of a friend", "an enemy's hiss"],
         ["wailing cries"],
         ["a thundering voice"],
-        ["a kit's mew", "the mewl of a newborn", "the squeal of kittens"],
+        ["a dragonet's chirp", "the cracking of an egg", "the squeal of hatchlings"],
         ["the sound of barking"],
-        ["howling in the distance", "a distant howl of pain", "cats howling to the moon"],
+        ["howling in the distance", "a distant howl of pain", "dragons howling to the moon"],
         ["a monster roaring"],
         ["the purring of a friend", "the purr of an enemy", "the purr of a mother", "a rumbling purr"],
         ["the squeak of prey being killed", "the squeal of dying prey"],
         ["a bird call", "bird song on a clear morning"],
         ["crashing waves", "the roar of waves in the distance"],
-        ["the sounds of battle", "the screams of fighting cats"],
+        ["the sounds of battle", "the screams of fighting dragons"],
         ["the rushing sound of a river"],
         ["{PRONOUN/cat_tag/poss} own voice answering {PRONOUN/cat_tag/object}"],
         ["the sound of cracking ice"],
         ["the sound of a heartbeat"],
         ["a whispered message", "whispers of hope long past"],
         ["a dying promise"],
-        ["a cat's final words"]
+        ["a dragon's final words"]
 
       ],
       "forest": [
@@ -132,14 +132,14 @@
     },
     "smell": {
       "general": [
-        ["the smell of the medicine cat den"],
+        ["the smell of the medic den"],
         ["the scent of catmint"],
         ["the scent of another Clan"],
         ["the scent of someone long dead"],
         ["the smell of sickness"],
         ["the scent of traveling herbs"],
-        ["pawsteps that smell like no cat"],
-        ["the scent of milk far from the nursery"]
+        ["talonsteps that smell like no dragn"],
+        ["the scent of eggs far from the hatchery"]
       ],
       "forest": [
 
@@ -162,7 +162,7 @@
     },
     "emotional": {
       "general": [
-        ["the excitement of an apprentice", "an apprentice's vigor", "the naivety of an apprentice"],
+        ["the excitement of a trainee", "a trainee's vigor", "the naivety of a trainee"],
         ["the strength of a warrior", "the steadfastness of a warrior", "a warrior's loyalty"],
         ["the ache of an elder's bones", "the wisdom of an elder"],
         ["the sensation of falling"],
@@ -192,8 +192,8 @@
     },
     "touch": {
       "general": [
-        ["the brush of a pelt against {PRONOUN/cat_tag/poss} own"],
-        ["the touch of a mentor to an apprentice's forehead"],
+        ["the brush of scales against {PRONOUN/cat_tag/poss} own"],
+        ["the touch of a teacher to a trainee's forehead"],
         ["a tail twining with {PRONOUN/cat_tag/poss} own"],
         ["the warmth of a parent"]
       ],
@@ -223,38 +223,38 @@
       "general": [
         ["a five-pointed leaf", "a star-shaped leaf", "an oddly torn leaf"],
         ["a stone of two halves perfectly fitting together", "a stone with shining chips in it", "a stone with odd patterns on it", "a sparkling stone"],
-        ["an odd pile of soft downy fur", "a tuft of fox fur", "a tuft of badger fur", "a charred scrap of fur"],
+        ["an odd pile of soft downy fur", "a tuft of frost-dragon fur", "a bird dragon's feather", "a charred scale"],
         ["a shard of glass"],
         ["withered deathberries"],
-        ["a strangely shaped cloud", "a cat shaped cloud"],
+        ["a strangely shaped cloud", "a dragon shaped cloud"],
         ["a gleaming feather", "an oddly shaped feather", "a broken feather", "tattered feathers"],
         ["the tooth of a large predator", "the claw of a large predator", "an old bloody claw"],
         ["an eagle's talon", "the talon of a hawk"],
         ["a piece of fresh prey already rotting"],
         ["a two-headed adder", "a dead snake eating it's own tail", "a perfectly shed snake-skin"],
         ["a glowing bug fallen to the ground"],
-        ["a pawprint of red on rock"],
+        ["a talonprint of red on rock"],
         ["destroyed herbs", "wilting herbs"],
         ["a bird's broken egg", "a perfectly intact yet hollow bird's egg"],
         ["a dew-covered spider's web"],
         ["a torn collar"],
-        ["the bones of fresh-kill", "a cracked mouse skull", "a cracked rabbit skull"],
+        ["the bones of fresh-kill", "a cracked deer skull", "a cracked wolf skull"],
         ["a shining beetle shell"],
         ["a green moth"],
-        ["an emaciated vole", "an emaciated rabbit", "an emaciated mouse"],
+        ["an emaciated goat", "an emaciated deer", "an emaciated wolf"],
         ["a headless centipede"],
         ["an abandoned bee-stinger"],
         ["a shed whisker"]
       ],
       "forest": [
-        ["a crooked-jawed squirrel", "a dying rat"],
+        ["a crooked-jawed wolf", "a dying eagle"],
         ["a split acorn", "a perfect walnut", "a massive slab of tree-bark", "a scorched pine cone"],
         ["a branch that looks whole but comes apart with a gentle touch", "a stick rotted through"]
       ],
       "plains": [
         ["a patch of dying grass", "wilted grass", "a single burnt stalk of grass", "sprouting grass"],
         ["a towering thundercloud", "the vast blue clear sky", "the flat horizon simmering in the far distance"],
-        ["a crooked-jawed squirrel", "a white rabbit", "a white spotted rabbit"]
+        ["a crooked-jawed wolf", "a white cattle", "a white spotted cattle"]
 
       ],
       "beach": [
@@ -264,7 +264,7 @@
 
       ],
       "mountainous": [
-        ["a crooked-jawed squirrel"]
+        ["a crooked-jawed wolf"]
       ],
       "wetlands": [
         ["a three-eyed fish"],
@@ -279,7 +279,7 @@
     "sound": {
       "general": [
         ["a whispering on the wind"],
-        ["the sound of a cat no longer here"]
+        ["the sound of a dragon no longer here"]
       ],
       "forest": [
 
@@ -304,8 +304,8 @@
     },
     "smell": {
       "general": [
-        ["the scent of spoiled queen's milk"],
-        ["the scent of a long dead cat"]
+        ["the scent of spoiled eggs"],
+        ["the scent of a long dead dragon"]
 
       ],
       "forest": [
@@ -331,7 +331,7 @@
     "emotional": {
       "general": [
         ["a pervasive feeling of dread"],
-        ["the feeling of ants crawling through fur", "the drag of a claw through fur"],
+        ["the feeling of ants crawling through scale", "the drag of a claw across scales"],
         ["the imprint of fangs on skin"],
         ["the feeling of a hidden onlooker", "the oppressive feeling of eyes unseen"],
         ["the stillness that comes before disaster"]
@@ -436,7 +436,7 @@
   ],
     "sound": {
       "general": [
-        ["the rumble of many paws over the ground"],
+        ["the roar of many wingbeats overhead"],
         ["echoes of a past conversation", "echoes of a past argument"],
         ["whispers of a deed long past", "whispers of a secret long lost"],
         ["a betrayal on the wind"],
@@ -444,8 +444,8 @@
         ["the whisper of voices rapidly fading"],
         ["the sound of wingbeats in the wind"],
         ["the sounds of a heated argument"],
-        ["near silent pawsteps"],
-        ["the soft noises of kits nursing"],
+        ["near silent talonsteps"],
+        ["the soft noises of eggs rattling"],
         ["a peal of laughter"],
         ["distant wails of grief"]
       ],
@@ -470,7 +470,7 @@
     },
     "smell": {
       "general": [
-        ["the smell of kittypet food"],
+        ["the smell of stray food"],
         ["a strange acidic scent"],
         ["the smell of dirt baked by the sun"],
         ["the smell of rain"]
@@ -499,15 +499,15 @@
         ["blood spilt in battle", "a battle from long ago", "the terror of a battle field"],
         ["a war won", "a battle lost"],
         ["an old rendezvous", "a friendly meeting", "a truce between enemies"],
-        ["a cat's last breath"],
+        ["a dragon's last breath"],
         ["a promise kept", "a half-remembered promise", "a promise already broken", "a promise not yet made"],
         ["a story half-remembered"],
-        ["the excitement of an apprentice", "an apprentice's vigor", "the naivety of an apprentice"],
+        ["the excitement of a trainee", "a trainee's vigor", "the naivety of a trainee"],
         ["the strength of a warrior", "the steadfastness of a warrior", "a warrior's loyalty"],
         ["the ache of an elder's bones", "an elder's wisdom"],
         ["drowning"],
         ["lingering grief", "grief's sharp impact"],
-        ["a newborn's innocence","the loss of innocence"],
+        ["a hatchling's innocence","the loss of innocence"],
         ["a memory being forgotten", "a fading memory", "a memory long lost"],
         ["forgetting something important", "forgetting a secret once precious"],
         ["wishing for something now missing", "longing for a long lost possession"],
@@ -543,14 +543,14 @@
         ["deathly still air", "an unseen fire's heat"],
         ["trembling stones"],
         ["falling through the air", "flying through the air"],
-        ["the warmth of a parent", "the embrace of a family","the warmth of family in the darkness before a kit's eyes open"],
-        ["tails entwining", "the slip of wet fur", "teeth snapping against fur", "claws against a scruff"],
-        ["a mentor's touch to an apprentice's forehead"],
+        ["the warmth of a parent", "the embrace of a family","the warmth of family in the darkness before the hatching of an egg"],
+        ["tails entwining", "the slip of wet scales", "teeth snapping against scales", "claws against a throat"],
+        ["a teacher's touch to a trainee's forehead"],
         ["slipping on muddy earth despite the dry ground", "sinking into muddy earth"],
-        ["paws damp with water", "paws damp with blood", "paws heavy with blood"],
-        ["another cat's violent shove"],
+        ["talons damp with water", "talons damp with blood", "talons heavy with blood"],
+        ["another dragon's violent shove"],
         ["sharpening one's claws against stone"],
-        ["wind whipping through fur"]
+        ["wind whipping past"]
       ],
       "forest": [
 
@@ -604,36 +604,36 @@
     ],
     "general": [
       ["The Thieving Fox"],
-      ["The Tenacious Rabbit", "The Rabbit Prince"],
-      ["The Hare King", "The Witch Hare"],
-      ["The Lion's Promise", "How The Tiger Got Its Stripes","The Leopard's Spots","The Cougar's Claws"],
-      ["The Place of No Stars", "The Stars of Silverpelt"],
+      ["The Tenacious Wolf", "The Wolf Prince"],
+      ["The Feather-Dragon King", "The Witch Feather-Dragon"],
+      ["The Frost-Mane's Promise", "How The Frost Mane Got Its Fur","The Frog-Dragon's Spots","The Great Wyrm's Claws"],
+      ["The Place of No Stars", "The Stars of Silversnake"],
       ["The Great Tail-Chaser"],
       ["The Hole In The Sky"],
       ["The Bird Who Lost Its Wings"]
     ],
     "forest": [
-      ["The Cat Who Became a Porcupine", "The Cat Who Carried the Sun", "The Cat Who Grew Into an Oak", "The Willow Cat",
-        "The Badger Who Befriended a Cat","The Cats Made of Light", "The Cats Made of Shadow"],
+      ["The Dragon Who Became a Porcupine", "The Dragon Who Carried the Sun", "The Dragon Who Grew Into an Oak", "The Willow Dragon",
+        "The Wolf Who Befriended a Dragon","The Dragon Made of Light", "The Dragon Made of Shadow"],
       ["The Old Forests of the Ancestors", "The Forest's Origin", "The First Seed", "The Squirrel Who Planted the Forest"],
       ["The Star Bugs"],
       ["The Sun-drown Place"]
 
     ],
     "plains": [
-      ["The Cat Who Dug a Tunnel Through The World", "The Blind Hunter Who Saved The Clan", "The Cat Without a Song",
-        "The Cat Who Carried The Sun", "The Cat Made From The Earth", "The Cats Made of Light", "The Great Worm-cat",
-        "The Cats Made of Shadow"],
+      ["The Dragon Who Dug a Tunnel Through The World", "The Blind Hunter Who Saved The Clan", "The Dragon Without a Song",
+        "The Dragon Who Carried The Sun", "The Dragon Made From The Earth", "The Dragon Made of Light", "The Great Worm-Dragon",
+        "The Dragon Made of Shadow"],
       ["the Thunderbeasts"],
       ["How The Great Skytowers Came To Be"],
-      ["The Metal Trees of the Twolegs"],
+      ["The Fire Starters of the Wyverns"],
       ["The Weasel's Lie"],
       ["The Sun-drown Place"]
 
     ],
     "beach": [
-      ["The Cursed Cat", "The Cat Who Carried The Sun", "The Cat Who Swam Over The Sea", "The Fish Who Became a Cat",
-        "The Cat Who Spoke To Fish", "The Cats Made of Shadow"],
+      ["The Cursed Dragon", "The Dragon Who Carried The Sun", "The Dragon Who Swam Over The Sea", "The Fish Who Became a Dragon",
+        "The Dragon Who Spoke To Fish", "The Dragon Made of Shadow"],
       ["The Dolphin's Farewell"],
       ["The Dead's Token"],
       ["The Ocean's Tears", "The Crying Sky"],
@@ -643,8 +643,8 @@
 
     ],
     "mountainous": [
-      ["The Eagle Who Became a Cat", "The She-cat Who Traded Her Voice", "The Cat Who Flew", "The Cat Who Carried The Sun",
-      "The Cats Made of Light", "The Cat Who Moved The Mountains", "The Cats Made of Shadow"],
+      ["The Eagle Who Became a Dragon", "The She-Dragon Who Traded Her Voice", "The Dragon Who Flew", "The Dragon Who Carried The Sun",
+      "The Dragon Made of Light", "The Dragon Who Moved The Mountains", "The Dragon Made of Shadow"],
       ["The Mountain's Shadow"],
       ["The Hummingbird's Feather"],
       ["The Betrayal of the Ravens"],
