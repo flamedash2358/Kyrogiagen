@@ -26,70 +26,70 @@
             "many": "warriors"
         },
         "medicine cat": {
-            "one": "medicine cat",
-            "many": "medicine cats"
+            "one": "medic",
+            "many": "medics"
         },
         "mediator": {
             "one": "mediator",
             "many": "mediators"
         },
         "apprentice": {
-            "one": "apprentice",
-            "many": "apprentices"
+            "one": "trainee",
+            "many": "trainees"
         },
         "medicine cat apprentice": {
-            "one": "medicine cat apprentice",
-            "many": "medicine cat apprentices"
+            "one": "medic trainee",
+            "many": "medic trainees"
         },
         "mediator apprentice": {
-            "one": "mediator apprentice",
-            "many": "mediator apprentices"
+            "one": "mediator trainee",
+            "many": "mediator trainees"
         },
         "queen": {
             "one": "queen",
             "many": "queens"
         },
         "queen/pregnant": {
-            "one": "queen/pregnant cat",
-            "many": "queens/pregnant cats"
+            "one": "queen/gravid dragon",
+            "many": "queens/gravid dragons"
         },
         "newborn": {
-            "one": "newborn",
-            "many": "newborns"
+            "one": "egg",
+            "many": "eggs"
         },
         "kitten": {
-            "one": "kitten",
-            "many": "kittens"
+            "one": "hatchling",
+            "many": "hatchlings"
         },
         "kitten_profile": "young",
-        "adolescent": "adolescent",
+        "adolescent": "dragonet",
         "young adult": "young adult",
         "adult": "adult",
         "senior adult": "senior adult",
         "senior": "senior",
         "kit": {
-            "one": "kit",
-            "many": "kits"
+            "one": "dragonet",
+            "many": "dragonets"
         },
         "elder": {
             "one": "elder",
             "many": "elders"
         },
         "loner": {
-            "one": "loner",
-            "many": "loners"
+            "one": "wanderer",
+            "many": "wanderers"
         },
         "rogue": {
-            "one": "rogue",
-            "many": "rogues"
+            "one": "harbinger",
+            "many": "harbingers"
         },
         "kittypet": {
-            "one": "kittypet",
-            "many": "kittypets"
+            "one": "stray",
+            "many": "strays"
         },
         "former Clancat": {
-            "one": "former Clancat",
-            "many": "former Clancats"
+            "one": "former Clandragon",
+            "many": "former Clandragons"
         },
         "exiled": {
             "one": "exiled",
@@ -100,9 +100,9 @@
             "one": "mate",
             "many": "mates"
         },
-        "she-cat": "she-cat",
-        "tom": "tom",
-        "cat": "cat",
+        "she-cat": "she-dragon",
+        "tom": "tom-dragon",
+        "cat": "dragon",
         "female": "female",
         "male": "male",
         "trans female": "trans female",
@@ -110,8 +110,8 @@
         "nonbinary": "nonbinary",
         "is": "is",
         "are": "are",
-        "can_work": "This cat can work",
-        "cant_work": "This cat isn't able to work",
+        "can_work": "This dragon can work",
+        "cant_work": "This dragon isn't able to work",
         "cant_work_condition": "Can't work with this condition",
         "exp_label": "exp: %{exp}",
         "newleaf": "newleaf",
@@ -137,8 +137,8 @@
         "sibling": "sibling",
         "sibling_littermate": "sibling (littermate)",
         "cousin": "cousin",
-        "starclan": "StarClan",
-        "dark_forest": "Dark Forest",
+        "starclan": "The Starfallen",
+        "dark_forest": "Abyss",
         "unknown_residence": "Unknown Residence",
         "empty": "empty",
         "none": "none",
@@ -158,18 +158,18 @@
             "many": "%{count} others"
         },
         "mentor": {
-            "one": "mentor",
-            "many": "mentors"
+            "one": "teacher",
+            "many": "teachers"
         },
-        "mentor_label": "mentor: %{mentor}",
+        "mentor_label": "teacher: %{mentor}",
         "apprentice_label": {
             "zero": "",
-            "one": "apprentice: %{apprentices}",
-            "many": "apprentices: %{apprentices}"
+            "one": "trainee: %{apprentices}",
+            "many": "trainees: %{apprentices}"
         },
         "former_apprentice_label": {
-            "one": "former apprentice: %{apprentices}",
-            "many": "former apprentices: %{apprentices}"
+            "one": "former trainee: %{apprentices}",
+            "many": "former trainees: %{apprentices}"
         },
         "apprentice_extra": {
             "zero": "",
@@ -186,7 +186,7 @@
             "many": "has had this condition for %{count} moons"
         },
         "had_injury_for": "has been hurt for %{moons}",
-        "pregnant_for": "has been pregnant for %{moons}",
+        "pregnant_for": "has been gravid for %{moons}",
         "recovering_from_birth_for": "has been recovering for %{moons}",
         "sick": "sick",
         "injured": "injured",
