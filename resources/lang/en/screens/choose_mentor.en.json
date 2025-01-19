@@ -1,28 +1,28 @@
 {
     "en": {
-        "heading": "Choose a new mentor for m_c",
-        "info": "If an apprentice is 6 moons old and their mentor is changed, they will not be listed as a former apprentice on their old mentor's profile. Apprentices without a mentor will have one automatically assigned next moon. An apprentice's mentor can have an influence on their trait and skill later in life.\nChoose your mentors wisely.",
+        "heading": "Choose a new teacher for m_c",
+        "info": "If a trainee is 6 moons old and their teacher is changed, they will not be listed as a former trainee on their old teacher's profile. Trainees without a teacher will have one automatically assigned next moon. A trainee's teacher can have an influence on their trait and skill later in life.\nChoose your teachers wisely.",
         "current_mentor": {
-            "zero": "m_c does not have a mentor",
+            "zero": "m_c does not have a teacher",
             "one": "m_c's current mentor is r_c"
         },
-        "set_mentor": "Confirm Mentor",
-        "unset_mentor": "Remove Mentor",
-        "current_mentor_warning": "Current mentor selected",
-        "no_mentor_warning": "<font color=#FF0000>No mentor selected</font>",
-        "no_current_apprentices": "No current apprentices",
-        "no_current_apprentices_tooltip": "Only show mentors with no current apprentices",
-        "no_former_apprentices": "No former apprentices",
-        "no_former_apprentices_tooltip": "Only show mentors who have not had an apprentice",
+        "set_mentor": "Confirm Teacher",
+        "unset_mentor": "Remove Teacher",
+        "current_mentor_warning": "Current teacher selected",
+        "no_mentor_warning": "<font color=#FF0000>No teacher selected</font>",
+        "no_current_apprentices": "No current trainees",
+        "no_current_apprentices_tooltip": "Only show teachers with no current trainees",
+        "no_former_apprentices": "No former trainees",
+        "no_former_apprentices_tooltip": "Only show teachers who have not had a trainee",
         "former_apps": {
             "zero": "",
-            "one": "\n%{count} former app",
-            "many": "\n%{count} former apps"
+            "one": "\n%{count} former trainee",
+            "many": "\n%{count} former trainees"
         },
         "current_apps": {
             "zero": "",
-            "one": "\n%{count} current app",
-            "many": "\n%{count} current apps"
+            "one": "\n%{count} current trainee",
+            "many": "\n%{count} current trainees"
         }
     }
 }
