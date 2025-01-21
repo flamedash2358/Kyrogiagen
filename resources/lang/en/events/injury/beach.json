@@ -63,7 +63,7 @@
         "location": ["beach:camp2"],
         "season": ["leaf-bare"],
         "weight": 30,
-        "event_text": "m_c was dashing around the apprentice rock, when {PRONOUN/m_c/subject} slipped and fell into the high tide waters of the cave. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} alright, though a bit bruised and embarrassed.",
+        "event_text": "m_c was dashing around the trainee rock, when {PRONOUN/m_c/subject} slipped and fell into the high tide waters of the cave. {PRONOUN/m_c/subject/CAP}{VERB/m_c/'re/'s} alright, though a bit bruised and embarrassed.",
         "m_c": {
             "status": ["apprentice"],
             "trait": ["adventurous", "bold", "childish", "daring", "playful", "troublesome"]
@@ -80,7 +80,7 @@
         "location": ["beach:camp1"],
         "season": ["greenleaf", "newleaf", "leaf-fall"],
         "weight": 30,
-        "event_text": "m_c was messing around in the tide pools of the camp clearing, when {PRONOUN/m_c/poss} paw slipped and {PRONOUN/m_c/subject} fell in face first. {PRONOUN/m_c/poss/CAP} pride is wounded, but otherwise {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} only bruised.",
+        "event_text": "m_c was messing around in the tide pools of the camp clearing, when {PRONOUN/m_c/poss} talon slipped and {PRONOUN/m_c/subject} fell in face first. {PRONOUN/m_c/poss/CAP} pride is wounded, but otherwise {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} only bruised.",
         "m_c": {
             "age": ["adolescent"],
             "status": ["apprentice"],
@@ -176,7 +176,7 @@
         "location": ["beach:camp1_camp2"],
         "season": ["any"],
         "weight": 30,
-        "event_text": "m_c was grabbed by a seagull, but luckily r_c saves {PRONOUN/m_c/object}! The kit is still left injured from the ordeal.",
+        "event_text": "m_c was grabbed by a Wyvern, but luckily r_c saves {PRONOUN/m_c/object}! The dragonet is still left injured from the ordeal.",
         "m_c": {
             "status": ["kitten"]
         },
@@ -194,8 +194,8 @@
         "history": [
             {
                 "cats": ["m_c"],
-                "scar": "m_c was scarred as a kit, when a seagull tried to carry {PRONOUN/m_c/object} off.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a seagull tried to carry {PRONOUN/m_c/object} off."
+                "scar": "m_c was scarred as a dragonet, when a Wyvern tried to carry {PRONOUN/m_c/object} off.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a Wyvern tried to carry {PRONOUN/m_c/object} off."
             }
         ],
         "relationships": [
@@ -218,7 +218,7 @@
         "location": ["beach:camp1_camp2"],
         "season": ["any"],
         "weight": 30,
-        "event_text": "m_c was grabbed by a pelican, but luckily r_c saves {PRONOUN/m_c/object}! The kit is still left injured from the ordeal.",
+        "event_text": "m_c was grabbed by a Wyvern, but luckily r_c saves {PRONOUN/m_c/object}! The dragonet is still left injured from the ordeal.",
         "m_c": {
             "status": ["kitten"]
         },
@@ -236,8 +236,8 @@
         "history": [
             {
                 "cats": ["m_c"],
-                "scar": "m_c was scarred as a kit when a pelican tried to carry {PRONOUN/m_c/object} off.",
-                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a pelican tried to carry {PRONOUN/m_c/object} off."
+                "scar": "m_c was scarred as a dragonet when a Wyvern tried to carry {PRONOUN/m_c/object} off.",
+                "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a Wyvern tried to carry {PRONOUN/m_c/object} off."
             }
         ],
         "relationships": [
@@ -383,7 +383,7 @@
         "location": ["beach"],
         "season": ["greenleaf", "newleaf", "leaf-fall"],
         "weight": 30,
-        "event_text": "m_c found a hole in the rocks and, curious as all kits are, stuck {PRONOUN/m_c/poss} paw inside. The whole camp comes running when {PRONOUN/m_c/subject} {VERB/m_c/screech/screeches} in pain. It seems a snake was living in that hole.",
+        "event_text": "m_c found a hole in the rocks and, curious as all dragonets are, stuck {PRONOUN/m_c/poss} talon inside. The whole camp comes running when {PRONOUN/m_c/subject} {VERB/m_c/screech/screeches} in pain. It seems a snake was living in that hole.",
         "m_c": {
             "status": ["kitten"],
             "trait": ["daring", "impulsive", "noisy", "troublesome", "attention-seeker"]
@@ -398,7 +398,7 @@
         "history": [
             {
                 "cats": ["m_c"],
-                "scar": "m_c was scarred as a kit when a snake bit {PRONOUN/m_c/object}.",
+                "scar": "m_c was scarred as a dragonet when a snake bit {PRONOUN/m_c/object}.",
                 "reg_death": "m_c died from {PRONOUN/m_c/poss} wounds after a snake bit {PRONOUN/m_c/object}."
             }
         ]
