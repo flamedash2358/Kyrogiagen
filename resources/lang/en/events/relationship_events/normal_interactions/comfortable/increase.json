@@ -3,7 +3,7 @@
 		"id": "comfort_inc_low1",
 		"intensity": "low",
 		"interactions": [
-			"m_c finds a bit of fluff that smells like r_c and adds it to {PRONOUN/m_c/poss} nest.",
+			"m_c finds a bit of moss that smells like r_c and adds it to {PRONOUN/m_c/poss} nest.",
 			"m_c has a friendly chat with r_c that leaves them both feeling happy.",
 			"r_c's laugh reminds m_c of someone {PRONOUN/m_c/subject} {VERB/m_c/miss/misses}.",
 			"m_c overhears r_c humming a comforting tune.",
@@ -45,7 +45,7 @@
 			"m_c appreciates r_c's diligence when checking {PRONOUN/m_c/object} for ticks.",
 			"r_c knows just the right herb to soothe m_c's aching bones.",
 			"r_c is always so patient when m_c approaches {PRONOUN/r_c/object} with pain.",
-			"m_c is happy to see r_c is the cat who is helping {PRONOUN/m_c/object} today."
+			"m_c is happy to see r_c is the dragon who is helping {PRONOUN/m_c/object} today."
 		],
 		"main_status_constraint": [
 			"elder"
@@ -59,7 +59,7 @@
 	{
 		"id": "comfort_inc_med1",
 		"interactions": [
-			"r_c helps m_c pick burrs out of {PRONOUN/m_c/poss} fur.",
+			"r_c helps m_c pick burrs out of {PRONOUN/m_c/poss} scales.",
 			"m_c notices that r_c brought {PRONOUN/m_c/object} a big piece of prey.",
 			"r_c is the only one who gets m_c's joke.",
 			"m_c overhears something about r_c that {PRONOUN/m_c/subject} can relate to.",
@@ -189,7 +189,7 @@
 		"id": "comfortable_kit_inc_med1",
 		"interactions": [
 			"m_c wants to snuggle with r_c.",
-			"m_c lets r_c groom {PRONOUN/m_c/object} messy fur.",
+			"m_c lets r_c groom {PRONOUN/m_c/object} messy scales.",
 			"r_c teaches m_c how to eat politely."
 		],
 		"main_status_constraint": [
@@ -217,10 +217,10 @@
 		"interactions": [
 			"m_c spent the whole day playing {PRONOUN/m_c/poss} favorite games with r_c.",
 			"m_c had a friendly argument with r_c about which prey tastes the best.",
-			"m_c makes r_c {PRONOUN/m_c/poss} deputy in a game of KittenClan.",
-			"m_c and r_c play a prank on an older cat together.",
+			"m_c makes r_c {PRONOUN/m_c/poss} deputy in a game of DragonetClan.",
+			"m_c and r_c play a prank on an older dragon together.",
 			"The Clan looks all over for m_c and r_c and find out they have a secret hiding place.",
-			"m_c and r_c are playing KittenClan. r_c's dying of a hundred diseases, but m_c is the best medicine cat ever.",
+			"m_c and r_c are playing DragonetClan. r_c's dying of a hundred diseases, but m_c is the best medic ever.",
 			"m_c and r_c spend the whole day playing hide-n-seek.",
 			"m_c takes a nap with r_c after a long day playing moss-ball."
 		],
@@ -243,7 +243,7 @@
 		"interactions": [
 			"m_c chomps on r_c's ear.",
 			"m_c won't stop copying everything r_c does.",
-			"m_c asks r_c where kits come from.",
+			"m_c asks r_c where eggs come from.",
 			"m_c asks r_c innocent but invasive questions.",
 			"m_c is demanding r_c's attention."
 		],
@@ -259,11 +259,11 @@
 		"id": "comfort_med_inc_medium1",
 		"interactions": [
 			"m_c thanks r_c for checking when {PRONOUN/r_c/subject} {VERB/r_c/ask/asks} if {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} feeling alright.",
-			"m_c drops into the medicine den to ask r_c if {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} eaten yet.",
+			"m_c drops into the medic's den to ask r_c if {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} eaten yet.",
 			"m_c brings r_c a piece of fresh-kill after a long day of healing work.",
-			"m_c helps r_c fix nests in the medicine den.",
+			"m_c helps r_c fix nests in the medic's den.",
 			"m_c lets r_c vent to {PRONOUN/m_c/object} about the difficulties as a healer.",
-			"After a rough storm gets into the medicine den, m_c helps r_c pick up herbs."
+			"After a rough storm gets into the medic's den, m_c helps r_c pick up herbs."
 		],
 		"random_status_constraint": [
 			"medicine cat",
@@ -313,7 +313,7 @@
 		"intensity": "high",
 		"interactions": [
 			"m_c feels most like {PRONOUN/m_c/self} when {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} around r_c.",
-			"m_c could recognize r_c just by the sound of {PRONOUN/r_c/poss} paw steps.",
+			"m_c could recognize r_c just by the sound of {PRONOUN/r_c/poss} talon steps.",
 			"m_c finds peace in r_c's company where it can't be found anywhere else.",
 			"When m_c panics about something, {PRONOUN/m_c/subject} {VERB/m_c/think/thinks} of r_c to feel better.",
 			"m_c wakes up r_c every morning so they're up together.",
