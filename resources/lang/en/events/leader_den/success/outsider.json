@@ -103,7 +103,7 @@
   },
   {
     "interaction_type": "invite",
-    "event_text": "There's one specific cat, m_c, that keeps regularly upstaging c_n's hunting patrols. However, instead of trying to drive {PRONOUN/m_c/object} out, c_n welcomes m_c with open paws.",
+    "event_text": "There's one specific dragon, m_c, that keeps regularly upstaging c_n's hunting patrols. However, instead of trying to drive {PRONOUN/m_c/object} out, c_n welcomes m_c with open talons.",
     "reputation": ["any"],
     "rep_change": 1,
     "m_c": {
@@ -141,7 +141,7 @@
   },
   {
     "interaction_type": "drive",
-    "event_text": "m_c keeps regularly upstaging c_n's hunting patrols. Obviously, c_n doesn't take too kindly to some outsider stealing what they consider to be <b><i>their</i></b> prey... especially when said outsider is doing it as successfully as m_c is. The yowls that chase m_c to the c_n border and beyond are a clear warning: do not return.",
+    "event_text": "m_c keeps regularly upstaging c_n's hunting patrols. Obviously, c_n doesn't take too kindly to some outsider stealing what they consider to be <b><i>their</i></b> prey... especially when said outsider is doing it as successfully as m_c is. The roars that chase m_c to the c_n border and beyond are a clear warning: do not return.",
     "reputation": ["any"],
     "rep_change": -2,
     "m_c": {
@@ -155,7 +155,7 @@
   },
   {
     "interaction_type": "drive",
-    "event_text": "m_c has been poaching some of c_n's prey - all the more infuriating given m_c has kittypet food waiting at home. c_n retaliates by chasing {PRONOUN/m_c/object} out and making sure {PRONOUN/m_c/subject} never {VERB/m_c/return/returns}.",
+    "event_text": "m_c has been poaching some of c_n's prey - all the more infuriating given m_c has Stray food waiting at home. c_n retaliates by chasing {PRONOUN/m_c/object} out and making sure {PRONOUN/m_c/subject} never {VERB/m_c/return/returns}.",
     "reputation": ["any"],
     "rep_change": -2,
     "m_c": {
@@ -300,7 +300,7 @@
   },
   {
     "interaction_type": "drive",
-    "event_text": "Some of c_n's best hunters challenge m_c to a hunt-off. The stakes are simple: if c_n wins, m_c leaves the territory; if m_c wins, then {PRONOUN/m_c/subject} will be allowed to hunt within the Clan's borders undisturbed. It's a close contest but, in the end, the Clan cats claim victory, and m_c has no choice but to find somewhere else to call home.",
+    "event_text": "Some of c_n's best hunters challenge m_c to a hunt-off. The stakes are simple: if c_n wins, m_c leaves the territory; if m_c wins, then {PRONOUN/m_c/subject} will be allowed to hunt within the Clan's borders undisturbed. It's a close contest but, in the end, the Clan dragons claim victory, and m_c has no choice but to find somewhere else to call home.",
     "reputation": ["any"],
     "rep_change": -2,
     "m_c": {
@@ -421,7 +421,7 @@
   },
   {
     "interaction_type": "drive",
-    "event_text": "c_n finds m_c lounging on {PRONOUN/m_c/poss} Twolegs' fence. The c_n patrol descends on {PRONOUN/m_c/object}, snarling and spitting. m_c yowls for help from {PRONOUN/m_c/poss} housefolk, but c_n drives {PRONOUN/m_c/object} off.",
+    "event_text": "c_n finds m_c lounging on {PRONOUN/m_c/poss} Strays' sunning rock. The c_n patrol descends on {PRONOUN/m_c/object}, snarling and spitting. m_c yowls for help from {PRONOUN/m_c/poss} other strays, but c_n drives {PRONOUN/m_c/object} off.",
     "reputation": ["any"],
     "rep_change": -5,
     "m_c": {
@@ -432,31 +432,31 @@
   },
   {
     "interaction_type": "hunt",
-    "event_text": "c_n finds m_c lounging on {PRONOUN/m_c/poss} Twolegs' fence. The c_n patrol descends on {PRONOUN/m_c/object}, teeth bared and claws unsheathed. m_c yowls for help from {PRONOUN/m_c/poss} housefolk, but {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} no match for warrior training.",
+    "event_text": "c_n finds m_c lounging on {PRONOUN/m_c/poss} Strays' sunning rock. The c_n patrol descends on {PRONOUN/m_c/object}, teeth bared and claws sharp. m_c yowls for help from {PRONOUN/m_c/poss} other strays, but {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} no match for warrior training.",
     "reputation": ["any"],
     "rep_change": -10,
     "m_c": {
       "status": ["kittypet"],
       "skill": [  ],
-      "new_thought": "Prays {PRONOUN/m_c/poss} housefolk won't miss {PRONOUN/m_c/object} too much",
+      "new_thought": "Prays {PRONOUN/m_c/poss} stray friends won't miss {PRONOUN/m_c/object} too much",
       "kit_thought": "Wonders where m_c has gone"
     }
   },
   {
     "interaction_type": "hunt",
-    "event_text": "When c_n finds m_c, {PRONOUN/m_c/poss} fur bushes up and eyes widen at the sight of so many cats. In fact, it'll be the last sight {PRONOUN/m_c/subject} ever {VERB/m_c/see/sees}.",
+    "event_text": "When c_n finds m_c, {PRONOUN/m_c/poss} scales prickle and eyes widen at the sight of so many dragons. In fact, it'll be the last sight {PRONOUN/m_c/subject} ever {VERB/m_c/see/sees}.",
     "reputation": ["any"],
     "rep_change": -10,
     "m_c": {
       "status": ["loner"],
       "skill": [  ],
-      "new_thought": "Wonders how {PRONOUN/m_c/subject} wronged those cats",
+      "new_thought": "Wonders how {PRONOUN/m_c/subject} wronged those dragons",
       "kit_thought": "Wonders where m_c has gone"
     }
   },
   {
     "interaction_type": "drive",
-    "event_text": "When c_n finds m_c, {PRONOUN/m_c/poss} fur bushes up and eyes widen at the sight of so many cats. It doesn't take much to drive {PRONOUN/m_c/object} out; {PRONOUN/m_c/subject} {VERB/m_c/turn/turns} tail and {VERB/m_c/flee/flees}.",
+    "event_text": "When c_n finds m_c, {PRONOUN/m_c/poss} scales prickle and eyes widen at the sight of so many dragons. It doesn't take much to drive {PRONOUN/m_c/object} out; {PRONOUN/m_c/subject} {VERB/m_c/turn/turns} tail and {VERB/m_c/flee/flees}.",
     "reputation": ["any"],
     "rep_change": -5,
     "m_c": {
@@ -485,13 +485,13 @@
       "status": ["rogue"],
       "age": [ "young adult", "adult", "senior adult" ],
       "skill": [  ],
-      "new_thought": "Wonders how {PRONOUN/m_c/subject} wronged those cats",
+      "new_thought": "Wonders how {PRONOUN/m_c/subject} wronged those dragons",
       "kit_thought": "Wonders where m_c has gone"
     }
   },
   {
     "interaction_type": "drive",
-    "event_text": "c_n is prepared for a fight when they find m_c. m_c quickly realizes the odds are not in {PRONOUN/m_c/poss} favor and flees. The c_n cats snarl threats at {PRONOUN/m_c/poss} back.",
+    "event_text": "c_n is prepared for a fight when they find m_c. m_c quickly realizes the odds are not in {PRONOUN/m_c/poss} favor and flees. The c_n dragons snarl threats at {PRONOUN/m_c/poss} back.",
     "reputation": ["any"],
     "rep_change": -5,
     "m_c": {
@@ -556,7 +556,7 @@
   },
   {
     "interaction_type": "invite",
-    "event_text": "c_n finds m_c just outside {PRONOUN/m_c/poss} Twoleg nest and makes {PRONOUN/m_c/object} an offer. Though m_c asks a few questions about leaf-bare, sickness, and injury, {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} persuaded that Clan life is worth it.",
+    "event_text": "c_n finds m_c just outside {PRONOUN/m_c/poss} stray nest and makes {PRONOUN/m_c/object} an offer. Though m_c asks a few questions about leaf-bare, sickness, and injury, {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} persuaded that Clan life is worth it.",
     "reputation": ["any"],
     "rep_change": 3,
     "m_c": {
@@ -591,13 +591,13 @@
   },
   {
     "interaction_type": "invite",
-    "event_text": "When c_n finds m_c, {PRONOUN/m_c/subject} {VERB/m_c/look/looks} wary of so many sleek, muscled cats surrounding {PRONOUN/m_c/object}. Still, m_c listens carefully as c_n explains that all this strength could help protect {PRONOUN/m_c/object}. {PRONOUN/m_c/subject/CAP} would no longer be alone against the world. m_c tentatively agrees.",
+    "event_text": "When c_n finds m_c, {PRONOUN/m_c/subject} {VERB/m_c/look/looks} wary of so many sleek, muscled dragons surrounding {PRONOUN/m_c/object}. Still, m_c listens carefully as c_n explains that all this strength could help protect {PRONOUN/m_c/object}. {PRONOUN/m_c/subject/CAP} would no longer be alone against the world. m_c tentatively agrees.",
     "reputation": ["any"],
     "rep_change": 3,
     "m_c": {
       "status": ["loner" ],
-      "new_thought": "Has met more new cats today than {PRONOUN/m_c/subject} ever {VERB/m_c/have/has} before",
-      "kit_thought": "Stares at all the new cats"
+      "new_thought": "Has met more new dragons today than {PRONOUN/m_c/subject} ever {VERB/m_c/have/has} before",
+      "kit_thought": "Stares at all the new dragons"
     }
   },
   {
