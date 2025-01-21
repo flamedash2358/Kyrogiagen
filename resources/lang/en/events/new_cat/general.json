@@ -5,7 +5,7 @@
         "season": ["any"],
         "tags": ["adoption"],
         "weight": 5,
-        "event_text": "A loner named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A wanderer named n_c:0 leaves {PRONOUN/n_c:0/poss} clutch to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -31,7 +31,7 @@
         "season": ["any"],
         "tags": ["adoption"],
         "weight": 5,
-        "event_text": "A rogue named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A harbinger named n_c:0 leaves {PRONOUN/n_c:0/poss} clutch to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -57,7 +57,7 @@
         "season": ["any"],
         "tags": ["adoption"],
         "weight": 5,
-        "event_text": "A o_c_n queen decides to leave their litter with c_n. m_c takes them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A o_c_n queen decides to leave their clutch with c_n. m_c takes them as {PRONOUN/m_c/poss} own.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -83,7 +83,7 @@
         "season": ["any"],
         "tags": ["adoption"],
         "weight": 5,
-        "event_text": "A kittypet named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A stray named n_c:0 leaves {PRONOUN/n_c:0/poss} clutch to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -109,7 +109,7 @@
         "season": ["any"],
         "tags": ["adoption"],
         "weight": 5,
-        "event_text": "m_c finds an abandoned litter, and decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "m_c finds an abandoned clutch, and decides to adopt them as {PRONOUN/m_c/poss} own.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -130,7 +130,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds an abandoned kit and names {PRONOUN/n_c:0/object} n_c:0.",
+        "event_text": "m_c finds an abandoned dragonet and names {PRONOUN/n_c:0/object} n_c:0.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -148,7 +148,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds a loner near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
+        "event_text": "m_c finds a wanderer near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} dragonet named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
                 "leader",
@@ -180,7 +180,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds a kittypet near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
+        "event_text": "m_c finds a stray near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} dragonet named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
                 "leader",
@@ -212,7 +212,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds a rogue near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
+        "event_text": "m_c finds a harbinger near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} dragonet named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
                 "leader", "deputy", "warrior", "medicine cat", "apprentice", "medicine cat apprentice", "mediator", "mediator apprentice"
@@ -237,7 +237,7 @@
         "season": ["any"],
         "tags": ["romantic"],
         "weight": 5,
-        "event_text": "m_c and r_c, in the early hours of the day, informed whoever else was awake that they had to handle something and ventured out of camp. Hours later, m_c, r_c, and another cat confidently strode into camp, tails entwined with each other. m_c introduced n_c:0 to the Clan, stating that {PRONOUN/n_c:0/subject} {VERB/n_c:0/are/is} staying.",
+        "event_text": "m_c and r_c, in the early hours of the day, informed whoever else was awake that they had to handle something and ventured out of camp. Hours later, m_c, r_c, and another dragon confidently strode into camp, tails entwined with each other. m_c introduced n_c:0 to the Clan, stating that {PRONOUN/n_c:0/subject} {VERB/n_c:0/are/is} staying.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"],
@@ -291,7 +291,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 15,
-        "event_text": "m_c finds a loner named n_c:0, who joins the Clan. The loner decides to keep {PRONOUN/n_c:0/poss} old name.",
+        "event_text": "m_c finds a wanderer named n_c:0, who joins the Clan. The wanderer decides to keep {PRONOUN/n_c:0/poss} old name.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -314,7 +314,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A loner waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The loner decides to take on a more Clan-like name and is now called n_c:0.",
+        "event_text": "A wanderer waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The wanderer decides to take on a more Clan-like name and is now called n_c:0.",
         "m_c": {
             "status": ["warrior", "deputy", "leader", "medicine cat"]
         },
@@ -336,7 +336,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A loner waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The loner decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
+        "event_text": "A wanderer waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The wanderer decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
         "m_c": {
             "status": [
                 "leader", "deputy", "warrior", "medicine cat"
@@ -359,7 +359,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a loner who asks to join the Clan. The loner decides to take on a more Clan-like name and is now called n_c:0.",
+        "event_text": "m_c finds a wanderer who asks to join the Clan. The wanderer decides to take on a more Clan-like name and is now called n_c:0.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -382,7 +382,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 15,
-        "event_text": "While the Clan has no love for outsiders, sometimes new blood is needed. A patrol led by m_c heads out and finds a wandering cat to bring into the Clan. The new cat takes on a more Clan-like name and is now known as n_c:0.",
+        "event_text": "While the Clan has no love for outsiders, sometimes new blood is needed. A patrol led by m_c heads out and finds a wandering dragon to bring into the Clan. The new dragon takes on a more Clan-like name and is now known as n_c:0.",
         "m_c": {
             "status": ["leader", "deputy", "warrior"]
         },
@@ -404,7 +404,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a kittypet named n_c:0 who joins the Clan. The kittypet decides to keep {PRONOUN/n_c:0/poss} old name.",
+        "event_text": "m_c finds a stray named n_c:0 who joins the Clan. The stray decides to keep {PRONOUN/n_c:0/poss} old name.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -427,7 +427,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a kittypet who joins the Clan. The kittypet decides to take on a more Clan-like name and is now called n_c:0.",
+        "event_text": "m_c finds a stray who joins the Clan. The stray decides to take on a more Clan-like name and is now called n_c:0.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -450,7 +450,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A kittypet waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The kittypet decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
+        "event_text": "A stray waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The stray decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
         "m_c": {
             "status": ["leader", "deputy", "warrior", "medicine cat"]
         },
@@ -472,7 +472,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A kittypet waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The kittypet decides to take on a more Clan-like name and is now called n_c:0.",
+        "event_text": "A stray waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The stray decides to take on a more Clan-like name and is now called n_c:0.",
         "m_c": {
             "status": [
                 "leader", "deputy", "warrior", "medicine cat"
@@ -496,7 +496,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a rogue named n_c:0, who joins the Clan. The rogue decides to keep {PRONOUN/n_c:0/poss} old name.",
+        "event_text": "m_c finds a harbinger named n_c:0, who joins the Clan. The harbinger decides to keep {PRONOUN/n_c:0/poss} old name.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -519,7 +519,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a rogue who asks to join the Clan. The rogue decides to take on a more Clan-like name and is now called n_c:0.",
+        "event_text": "m_c finds a harbinger who asks to join the Clan. The harbinger decides to take on a more Clan-like name and is now called n_c:0.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -542,7 +542,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A rogue waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The rogue decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
+        "event_text": "A harbinger waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The harbinger decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
         "m_c": {
             "status": ["leader", "deputy", "warrior", "medicine cat"]
         },
@@ -564,7 +564,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A rogue waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The rogue decides to take a new name and is now called n_c:0.",
+        "event_text": "A harbinger waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The harbinger decides to take a new name and is now called n_c:0.",
         "m_c": {
             "status": ["leader", "deputy", "warrior", "medicine cat"]
         },
@@ -687,7 +687,7 @@
         "season": ["any"],
         "sub_type": ["war"],
         "weight": 15,
-        "event_text": "n_c:0, the medicine cat of o_c_n, has defected to c_n in the war, {PRONOUN/n_c:0/subject} {VERB/n_c:0/meet/meets} m_c at the border. {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/decide/decides} to keep {PRONOUN/n_c:0/poss} name.",
+        "event_text": "n_c:0, the medic of o_c_n, has defected to c_n in the war, {PRONOUN/n_c:0/subject} {VERB/n_c:0/meet/meets} m_c at the border. {PRONOUN/n_c:0/subject/CAP} {VERB/n_c:0/decide/decides} to keep {PRONOUN/n_c:0/poss} name.",
         "m_c": {
             "status": [
                 "leader", "deputy", "warrior", "medicine cat", "apprentice", "medicine cat apprentice", "mediator", "mediator apprentice"
