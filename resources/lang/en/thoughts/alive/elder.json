@@ -18,7 +18,7 @@
             "Is complaining about {PRONOUN/m_c/poss} aching joints",
             "Is telling stories about when {PRONOUN/m_c/subject} {VERB/m_c/were/was} young",
             "Is complaining about thorns in {PRONOUN/m_c/poss} nest",
-            "Is thinking about how too many cats die young",
+            "Is thinking about how too many dragons die young",
             "Is complaining about being cold",
             "Is grateful {PRONOUN/m_c/subject} {VERB/m_c/have/has} lived so long",
             "Is sharing {PRONOUN/m_c/poss} wisdom",
@@ -33,7 +33,7 @@
             "Doesn't like how times have changed since {PRONOUN/m_c/subject} {VERB/m_c/were/was} young",
             "Is feeling rather cross today",
             "Thinks that times have changed for the better since {PRONOUN/m_c/subject} {VERB/m_c/were/was} young",
-            "Is recalling something no other cat remembers anymore",
+            "Is recalling something no other dragon remembers anymore",
             "Is grumbling about the weather",
             "Feels {PRONOUN/m_c/poss} bones creak as {PRONOUN/m_c/subject} {VERB/m_c/walk/walks}"
         ],
@@ -59,9 +59,9 @@
     {
         "id": "adventurous_elder_to_apprentices",
         "thoughts": [
-            "Tells a group of awe-struck apprentices all the exciting adventures {PRONOUN/m_c/subject} had outside Clan territory",
-            "Reminds an apprentice that there is so, so much more than life within the borders",
-            "Informs an apprentice of all the best landmarks outside c_n territory"
+            "Tells a group of awe-struck trainees all the exciting adventures {PRONOUN/m_c/subject} had outside Clan territory",
+            "Reminds a trainee that there is so, so much more than life within the borders",
+            "Informs a trainee of all the best landmarks outside c_n territory"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -108,7 +108,7 @@
     {
         "id": "arrogant_elder",
         "thoughts": [
-            "Yells at anycat within earshot to bring {PRONOUN/m_c/object} fresh moss",
+            "Yells at anydragon within earshot to bring {PRONOUN/m_c/object} fresh moss",
             "Is telling stories - only about {PRONOUN/m_c/self}, of course"
         ],
         "main_age_constraint": [
@@ -122,7 +122,7 @@
     {
         "id": "arrogant_elder_to_younger_cats",
         "thoughts": [
-            "Is bossing the younger cats around"
+            "Is bossing the younger dragons around"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -171,9 +171,9 @@
     {
         "id": "bloodthirsty_elder_to_apprentice",
         "thoughts": [
-            "Snarls at an apprentice when they bring thorns into the den",
-            "Snaps at an apprentice to hurry up with cleaning the elder's den",
-            "Lectures an apprentice on not holding back in battle"
+            "Snarls at a trainee when they bring thorns into the den",
+            "Snaps at a trainee to hurry up with cleaning the elder's den",
+            "Lectures a trainee on not holding back in battle"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -232,8 +232,8 @@
     {
         "id": "careful_elder_to_apprentice",
         "thoughts": [
-            "Asks an apprentice to triple-check there's no thorns in {PRONOUN/m_c/poss} bedding",
-            "Is telling cautionary tales to apprentices"
+            "Asks a trainee to triple-check there's no thorns in {PRONOUN/m_c/poss} bedding",
+            "Is telling cautionary tales to trainees"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -249,7 +249,7 @@
     {
         "id": "charismatic_elder",
         "thoughts": [
-            "Has everycat engaged in an extravagant story",
+            "Has everydragon engaged in an extravagant story",
             "Hasn't lost any of {PRONOUN/m_c/poss} charm"
         ],
         "main_age_constraint": [
@@ -293,7 +293,7 @@
         "id": "compassionate_elder",
         "thoughts": [
             "Insists the warriors eat before {PRONOUN/m_c/object}",
-            "Offers advice to cats who need it"
+            "Offers advice to dragons who need it"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -306,7 +306,7 @@
     {
         "id": "compassionate_elder_to_apprentice",
         "thoughts": [
-            "Helps an apprentice to clean out the elder's den"
+            "Helps a trainee to clean out the elder's den"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -354,7 +354,7 @@
         "id": "cunning_elder",
         "thoughts": [
             "Persuades a Clanmate to bring {PRONOUN/m_c/object} fresh-kill, though {PRONOUN/m_c/subject} could have got it {PRONOUN/m_c/self}",
-            "Always ends up with the nicest piece of prey, without anycat realising"
+            "Always ends up with the nicest piece of prey, without anydragon realising"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -367,8 +367,8 @@
     {
         "id": "cunning_elder_to_apprentices",
         "thoughts": [
-            "Convinces an apprentice that they get given an easier warrior assessment if they help the elders",
-            "Persuades an apprentice to clean out the elder's den"
+            "Convinces a trainee that they get given an easier warrior assessment if they help the elders",
+            "Persuades a trainee to clean out the elder's den"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -384,7 +384,7 @@
     {
         "id": "daring_elder",
         "thoughts": [
-            "Is stubbornly refusing the medicine cat's herbs, claiming {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't need them",
+            "Is stubbornly refusing the medic's herbs, claiming {PRONOUN/m_c/subject} {VERB/m_c/do/does}n't need them",
             "Is telling exciting tales from {PRONOUN/m_c/poss} youth",
             "Insists {PRONOUN/m_c/subject} can race just as well as the warriors"
         ],
@@ -414,8 +414,8 @@
     {
         "id": "fierce_elder",
         "thoughts": [
-            "Thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} still young enough to take a fox",
-            "Thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} still young enough to take a dog",
+            "Thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} still young enough to take a stalker",
+            "Thinks {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} still young enough to take a forest walker",
             "Is telling stories to epic battles",
             "Misses going on border patrol",
             "Wishes elders could fight in battles"
@@ -509,7 +509,7 @@
     {
         "id": "grumpy_elder",
         "thoughts": [
-            "Snarls when a cat suggests {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} too old to do something",
+            "Snarls when a dragon suggests {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} too old to do something",
             "Hisses that {PRONOUN/m_c/poss} nest has thorns in it",
             "Refuses to tell a story when asked",
             "Grouchily agrees to tell a story... just this once"
@@ -539,8 +539,8 @@
     {
         "id": "insecure_elder_to_apprentices",
         "thoughts": [
-            "Hopes the apprentices don't find {PRONOUN/m_c/object} too boring",
-            "Feels guilty watching an apprentice clean {PRONOUN/m_c/poss} bedding"
+            "Hopes the trainees don't find {PRONOUN/m_c/object} too boring",
+            "Feels guilty watching a trainee clean {PRONOUN/m_c/poss} bedding"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -558,7 +558,7 @@
         "thoughts": [
             "Goes on yet another walk, alone, just outside camp",
             "Sits alone in the elder's den",
-            "Is surprised when another cat asks {PRONOUN/m_c/object} for a story",
+            "Is surprised when another dragon asks {PRONOUN/m_c/object} for a story",
             "Is feeling trapped inside camp"
         ],
         "main_age_constraint": [
@@ -572,7 +572,7 @@
     {
         "id": "loving_elder",
         "thoughts": [
-            "Insists other cats eat before {PRONOUN/m_c/object}",
+            "Insists other dragons eat before {PRONOUN/m_c/object}",
             "Smiles as {PRONOUN/m_c/subject} {VERB/m_c/reminisce/reminisces} about the past"
         ],
         "main_age_constraint": [
@@ -586,7 +586,7 @@
     {
         "id": "loving_elder_to_apprentice",
         "thoughts": [
-            "Purrs reassuringly as an apprentice whines about their day"
+            "Purrs reassuringly as a trainee whines about their day"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -617,8 +617,8 @@
     {
         "id": "loyal_elder_to_younger_cats",
         "thoughts": [
-            "Is lecturing younger cats on the warrior code",
-            "Is lecturing younger cats on the importance of loyalty to the Clan"
+            "Is lecturing younger dragons on the warrior code",
+            "Is lecturing younger dragons on the importance of loyalty to the Clan"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -637,7 +637,7 @@
         "id": "nervous_elder",
         "thoughts": [
             "Worries that {PRONOUN/m_c/subject} would be defenceless in battle",
-            "Frets that a fox might break into the elder's den"
+            "Frets that a stalker might break into the elder's den"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -650,8 +650,8 @@
     {
         "id": "oblivious_elder",
         "thoughts": [
-            "Tells a long, <i>long</i> story that no cat is interested in",
-            "Doesn't seem to notice another cat roll their eyes as {PRONOUN/m_c/subject} {VERB/m_c/complain/complains} about {PRONOUN/m_c/poss} aching joints. Again."
+            "Tells a long, <i>long</i> story that no dragon is interested in",
+            "Doesn't seem to notice another dragon roll their eyes as {PRONOUN/m_c/subject} {VERB/m_c/complain/complains} about {PRONOUN/m_c/poss} aching joints. Again."
         ],
         "main_age_constraint": [
             "senior adult",
@@ -678,8 +678,8 @@
     {
         "id": "playful_elder_to_kits",
         "thoughts": [
-            "Bats a moss ball around for kits to chase",
-            "Entertains kits with funny stories"
+            "Bats a moss ball around for dragonets to chase",
+            "Entertains dragonets with funny stories"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -709,8 +709,8 @@
     {
         "id": "responsible_elder_to_younger_cats",
         "thoughts": [
-            "Lectures younger cats on the importance of responsibility",
-            "Reminds younger cats to take responsibility for their actions"
+            "Lectures younger dragons on the importance of responsibility",
+            "Reminds younger dragons to take responsibility for their actions"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -757,7 +757,7 @@
     {
         "id": "sincere_elder",
         "thoughts": [
-            "Thinks hard about how best to advise every cat",
+            "Thinks hard about how best to advise every dragon",
             "Gives r_c {PRONOUN/m_c/poss} honest advice",
             "Offers stories of {PRONOUN/m_c/poss} past failures to reassure a Clanmate"
         ],
@@ -772,7 +772,7 @@
     {
         "id": "sincere_elder_to_medicine_cat",
         "thoughts": [
-            "Is grateful of all the medicine cat does to help {PRONOUN/m_c/object}, and makes sure they know it"
+            "Is grateful of all the medic does to help {PRONOUN/m_c/object}, and makes sure they know it"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -788,7 +788,7 @@
     {
         "id": "sneaky_elder",
         "thoughts": [
-            "Always seems to find out every cat's secret",
+            "Always seems to find out every dragon's secret",
             "Finds <i>another</i> secret exit near the elder's den",
             "Never seems to be in the elder's den..."
         ],
@@ -803,7 +803,7 @@
     {
         "id": "strange_elder",
         "thoughts": [
-            "Tells stories... but no cat can quite tell if they're true",
+            "Tells stories... but no dragon can quite tell if they're true",
             "Insists on only having moss from a certain tree"
         ],
         "main_age_constraint": [
@@ -817,7 +817,7 @@
     {
         "id": "strict_elder",
         "thoughts": [
-            "Gives the sternest lectures of any c_n cat!",
+            "Gives the sternest lectures of any c_n dragon!",
             "Isn't afraid to berate rule-breakers",
             "Is sure {PRONOUN/m_c/subject} didn't break the rules this much when <i>{PRONOUN/m_c/subject}</i> was younger"
         ],
@@ -834,7 +834,7 @@
         "thoughts": [
             "Thinks for a long time about how best to offer advice",
             "Spends the evening planning out a story",
-            "Took the time to clean out {PRONOUN/m_c/poss} own bedding today, so other cats don't have to"
+            "Took the time to clean out {PRONOUN/m_c/poss} own bedding today, so other dragons don't have to"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -877,8 +877,8 @@
     {
         "id": "vengeful_elder",
         "thoughts": [
-            "Wonders if {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the only cat who remembers a past wrongdoing",
-            "Is still glaring at a certain cat after they brought {PRONOUN/m_c/object} bedding with thorns in it"
+            "Wonders if {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} the only dragon who remembers a past wrongdoing",
+            "Is still glaring at a certain dragon after they brought {PRONOUN/m_c/object} bedding with thorns in it"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -892,8 +892,8 @@
         "id": "wise_elder",
         "thoughts": [
             "Is being asked for advice for the fifth time today",
-            "Is more than happy to grant advice to cats who ask for it",
-            "Thinks back to a time no other cat remembers while solving a problem"
+            "Is more than happy to grant advice to dragons who ask for it",
+            "Thinks back to a time no other dragon remembers while solving a problem"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -963,8 +963,8 @@
     {
         "id": "camp_elder_to_apprentice",
         "thoughts": [
-            "Teaches an apprentice how to build the comfiest nests",
-            "Watches an apprentice try and construct {PRONOUN/m_c/poss} nest, knowing {PRONOUN/m_c/subject} could do a far better job"
+            "Teaches a trainee how to build the comfiest nests",
+            "Watches a trainee try and construct {PRONOUN/m_c/poss} nest, knowing {PRONOUN/m_c/subject} could do a far better job"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -980,8 +980,8 @@
     {
         "id": "kitsitter_elder",
         "thoughts": [
-            "Spends the day collecting trinkets around camp for kits to play with",
-            "Helps to reinforce the nursery"
+            "Spends the day collecting trinkets around camp for dragonets to play with",
+            "Helps to reinforce the hatchery"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -994,9 +994,9 @@
     {
         "id": "kitsitter_elder_to_kits",
         "thoughts": [
-            "Offers to watch over the kits for the day",
-            "Comes up with new games for the kits to play",
-            "Keeps all the kits entertained with exciting stories"
+            "Offers to watch over the dragonets for the day",
+            "Comes up with new games for the dragonets to play",
+            "Keeps all the dragonets entertained with exciting stories"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -1059,11 +1059,11 @@
     {
         "id": "elder_to_alive_younger_cats",
         "thoughts": [
-            "Is giving advice to the younger cats",
+            "Is giving advice to the younger dragons",
             "Is telling scary stories to the younger cats",
-            "Is sharing wisdom with the younger cats that is... less than helpful",
-            "Is recounting daring expeditions for the younger cats",
-            "Is telling a rather tall tale to any cat who will listen"
+            "Is sharing wisdom with the younger dragons that is... less than helpful",
+            "Is recounting daring expeditions for the younger dragons",
+            "Is telling a rather tall tale to any dragon who will listen"
         ],
         "main_age_constraint": [
             "senior adult",
@@ -1078,8 +1078,8 @@
     {
         "id": "elder_to_alive_apprentice",
         "thoughts": [
-            "Is requesting an apprentice's help with {PRONOUN/m_c/poss} ticks",
-            "Is asking apprentices to help check {PRONOUN/m_c/object} for ticks"
+            "Is requesting a trainee's help with {PRONOUN/m_c/poss} ticks",
+            "Is asking trainees to help check {PRONOUN/m_c/object} for ticks"
         ],
         "main_age_constraint": [
             "senior"
@@ -1117,7 +1117,7 @@
     {
         "id": "elder_alive_to_dead_mate",
         "thoughts": [
-            "Wonders when {PRONOUN/m_c/subject}'ll join r_c in StarClan",
+            "Wonders when {PRONOUN/m_c/subject}'ll join r_c among the Starfallen",
             "Almost can't believe that r_c was the first to go",
             "Had a dream about r_c last night",
             "Purrs softly while thinking about r_c",
@@ -1156,9 +1156,9 @@
     {
         "id": "gen_retired_disabled_to_med_thoughts",
         "thoughts": [
-            "Wonders if the medicine cat needs any help today",
+            "Wonders if the medic needs any help today",
             "Offers to help r_c sort herbs",
-            "Wonders if {PRONOUN/m_c/subject} could've been a medicine cat with r_c instead of retiring",
+            "Wonders if {PRONOUN/m_c/subject} could've been a medic with r_c instead of retiring",
             "Brought r_c some fresh-kill"
         ],
         "perm_conditions": {
@@ -1179,10 +1179,10 @@
     {
         "id": "gen_retired_disabled_to_kit_thoughts",
         "thoughts": [
-            "Plays with the kits as a form of exercise",
-            "Offers to watch the kits",
+            "Plays with the dragonets as a form of exercise",
+            "Offers to watch the dragonets",
             "Is busy telling r_c a story",
-            "Knows exactly how to keep the kits busy"
+            "Knows exactly how to keep the dragons busy"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1353,8 +1353,8 @@
     {
         "id": "blind_adolescent_retired_to_alive_apprentice",
         "thoughts": [
-            "Sadly listens as the apprentices share stories of their feats",
-            "Joins in as the apprentices share stories of their feats",
+            "Sadly listens as the trainees share stories of their feats",
+            "Joins in as the trainees share stories of their feats",
             "Asks r_c to describe what {PRONOUN/r_c/subject} saw on patrol today"
         ],
         "perm_conditions": {
@@ -1422,7 +1422,7 @@
         "id": "wasting_disease_gen_retired_to_alive_med",
         "thoughts": [
             "Thanks r_c for {PRONOUN/r_c/poss} patience",
-            "Feels confined to the medicine cat den"
+            "Feels confined to the medic den"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1443,7 +1443,7 @@
     {
         "id": "wasting_disease_adolescent_retired_to_alive_adult",
         "thoughts": [
-            "Wishes the older cats would stop trying to get {PRONOUN/m_c/object} to eat more"
+            "Wishes the older dragons would stop trying to get {PRONOUN/m_c/object} to eat more"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1466,7 +1466,7 @@
     {
         "id": "wasting_disease_adolescent_retired_to_alive_apprentice",
         "thoughts": [
-            "Enviously watches the apprentices talk about training"
+            "Enviously watches the trainees talk about training"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1488,7 +1488,7 @@
     {
         "id": "deaf_gen_retired_to_alive_gen",
         "thoughts": [
-            "Idly feels the thumps of {PRONOUN/m_c/poss} Clanmates' pawsteps on the ground",
+            "Idly feels the thumps of {PRONOUN/m_c/poss} Clanmates' talonsteps on the ground",
             "Has learned to feel vibrations through the ground",
             "Is teaching r_c tail signals",
             "Tries to read r_c's posture",
@@ -1513,7 +1513,7 @@
     {
         "id": "deaf_adolescent_retired_to_alive_apprentice",
         "thoughts": [
-            "Enviously watches the apprentices talk about training"
+            "Enviously watches the trainees talk about training"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1536,7 +1536,7 @@
         "id": "missing_leg/tail_gen_retired_to_alive_gen",
         "thoughts": [
             "Is training {PRONOUN/m_c/poss} balance with r_c",
-            "Is heading to the medicine cat den because {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} starting to feel phantom pain"
+            "Is heading to the medic den because {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} starting to feel phantom pain"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1559,7 +1559,7 @@
     {
         "id": "lost_leg/tail_gen_retired_to_alive_kit",
         "thoughts": [
-            "Tells the story of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} limb to an interested group of kits",
+            "Tells the story of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} limb to an interested group of dragonets",
             "Is playing along as r_c tells the legend of how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} limb"
         ],
         "perm_conditions": {
@@ -1583,7 +1583,7 @@
     {
         "id": "lost_leg/tail_gen_retired_to_alive_app",
         "thoughts": [
-            "Explains what 'phantom pain' is to a curious apprentice"
+            "Explains what 'phantom pain' is to a curious trainee"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1601,7 +1601,7 @@
     {
         "id": "missing_leg_gen_retired_to_alive_gen",
         "thoughts": [
-            "Ironically giggles after hearing r_c's dramatic response to stubbing {PRONOUN/r_c/poss} paw",
+            "Ironically giggles after hearing r_c's dramatic response to stubbing {PRONOUN/r_c/poss} talon",
             "Is excited to no longer have to step on sharp stones",
             "Manages to make a once-difficult jump with ease",
             "Boasts about being the champion of balancing on one leg"
@@ -1693,8 +1693,8 @@
     {
         "id": "missing_tail_gen_retired_to_alive_kit",
         "thoughts": [
-            "Is being grumped at by a kit because {PRONOUN/m_c/subject} {VERB/m_c/have/has} no tail to chomp on",
-            "Is being asked how {PRONOUN/m_c/subject} can balance by a kit"
+            "Is being grumped at by a dragonet because {PRONOUN/m_c/subject} {VERB/m_c/have/has} no tail to chomp on",
+            "Is being asked how {PRONOUN/m_c/subject} can balance by a dragonet"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1766,7 +1766,7 @@
         "thoughts": [
             "Gently explains {PRONOUN/m_c/poss} scars to r_c",
             "Overdramatizes how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} tail to r_c",
-            "Is patiently answering curious kits' questions on how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} tail"
+            "Is patiently answering curious dragonets' questions on how {PRONOUN/m_c/subject} lost {PRONOUN/m_c/poss} tail"
         ],
         "perm_conditions": {
             "m_c": [
@@ -1786,8 +1786,8 @@
     {
         "id": "missing_tail_gen_retired_to_alive_app",
         "thoughts": [
-            "Happily trains the apprentices on new balancing techniques",
-            "Is showing the apprentices how to get into the hunting crouch without a tail"
+            "Happily trains the trainees on new balancing techniques",
+            "Is showing the trainees how to get into the hunting crouch without a tail"
         ],
         "perm_conditions": {
             "m_c": [
