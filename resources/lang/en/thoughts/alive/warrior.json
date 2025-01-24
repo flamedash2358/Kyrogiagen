@@ -2,15 +2,15 @@
     {
         "id": "warrior_gen_alive_kits",
         "thoughts": [
-            "Is watching over the kits",
-            "Begrudgingly allows kits to play with {PRONOUN/m_c/poss} tail",
-            "Was roped into playing moss ball with the kits",
-            "Is being begged by r_c to teach {PRONOUN/r_c/object} a few moves, despite r_c being a kit",
+            "Is watching over the dragonets",
+            "Begrudgingly allows dragonets to play with {PRONOUN/m_c/poss} tail",
+            "Was roped into playing moss ball with the dragonets",
+            "Is being begged by r_c to teach {PRONOUN/r_c/object} a few moves, despite r_c being a dragonet",
             "Somehow got roped up in watching r_c for the day",
             "Theatrically dies after r_c slays {PRONOUN/m_c/object}",
             "Has to pretend to be a captured warrior for r_c's games",
             "Is pretending to be a big, evil warrior for r_c",
-            "Gave a badger ride to r_c, and is now being begged by more kittens to do the same"
+            "Gave a mourner ride to r_c, and is now being begged by more dragonets to do the same"
         ],
         "random_status_constraint": [
             "kitten"
@@ -22,7 +22,7 @@
     {
         "id": "warrior_gen_alive_apprentice",
         "thoughts": [
-            "Has the apprentices very engaged in a very, very tall tale"
+            "Has the trainees very engaged in a very, very tall tale"
         ],
         "random_status_constraint": [
             "apprentice"
@@ -43,7 +43,7 @@
     {
         "id": "gen_older_warrior",
         "thoughts": [
-            "Tries to set a good example for younger cats"
+            "Tries to set a good example for younger dragons"
         ],
         "main_age_constraint": [
             "senior",
@@ -57,8 +57,8 @@
     {
         "id": "warrior_gen_medicine_cat",
         "thoughts": [
-            "Plans to visit the medicine cat",
-            "Is helping to escort the medicine cat to gather herbs"
+            "Plans to visit the medic",
+            "Is helping to escort the medic to gather herbs"
         ],
         "random_status_constraint": [
             "medicine cat"
@@ -87,7 +87,7 @@
             "forest"
         ],
         "thoughts": [
-            "Wishes {PRONOUN/m_c/poss} pelt would turn silver as the moon, just like the wolves"
+            "Wishes {PRONOUN/m_c/poss} scales would turn silver as the moon, just like the wolves"
         ],
         "main_trait_constraint": [
             "ambitious"
@@ -103,7 +103,7 @@
             "Sucks up to the leader and deputy by offering to lead every patrol",
             "Sets out to catch five pieces of fresh-kill today",
             "Evaluates how {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} going to sharpen up {PRONOUN/m_c/poss} battle skills",
-            "Tries to emulate the leader's body language when talking to younger cats",
+            "Tries to emulate the leader's body language when talking to younger dragons",
             "Feels inadequate about being nothing more than an ordinary warrior",
             "Knows {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} a shoo-in for deputy"
         ],
@@ -115,7 +115,7 @@
         "id": "careful_warrior",
         "thoughts": [
             "Is dutifully standing guard outside of camp",
-            "Is going back to check on an old fox burrow {PRONOUN/m_c/subject} discovered yesterday, just to be safe",
+            "Is going back to check on an old stalker burrow {PRONOUN/m_c/subject} discovered yesterday, just to be safe",
             "Coaches other warriors to take a more guarded stance for their technique"
         ],
         "main_trait_constraint": [
@@ -152,10 +152,10 @@
     {
         "id": "compassionate_warrior",
         "thoughts": [
-            "Patiently waits for a rabbit to come out of its burrow, eventually catching it",
+            "Patiently waits for a hare to come out of its burrow, eventually catching it",
             "Offered to walk at the front of the patrol",
-            "Offered to stick {PRONOUN/m_c/poss} nose into a badger sett to check if the badger is still there",
-            "Offered to stick {PRONOUN/m_c/poss} nose into a fox den to check if the fox is still there",
+            "Offered to stick {PRONOUN/m_c/poss} nose into a mourner sett to check if the mourner is still there",
+            "Offered to stick {PRONOUN/m_c/poss} nose into a stalker den to check if the stalker is still there",
             "Volunteered for extra patrols",
             "Volunteered for extra duties",
             "Volunteered to stand guard of the camp",
@@ -188,7 +188,7 @@
             "Is challenging some Clanmates to a sparring match, two-on-one!",
             "Batted at a snake on a patrol recently and fled",
             "Is walking along the edge of a very tall cliff",
-            "Recently avoided a monster on the Thunderpath by the skin of {PRONOUN/m_c/poss} teeth!",
+            "Recently avoided a Wyvern on the Thunderpath by the skin of {PRONOUN/m_c/poss} teeth!",
             "Challenges a Clanmate to a friendly spar"
         ],
         "main_trait_constraint": [
@@ -225,7 +225,7 @@
     {
         "id": "fierce_warrior_to_living_medcat",
         "thoughts": [
-            "Is asking the medicine cat for herbs that may help {PRONOUN/m_c/object} in battle"
+            "Is asking the medic for herbs that may help {PRONOUN/m_c/object} in battle"
         ],
         "random_status_constraint": [
             "medicine cat",
@@ -241,7 +241,7 @@
     {
         "id": "fierce_warrior_to_living_apprentices",
         "thoughts": [
-            "Is arguing for more battle training for the apprentices"
+            "Is arguing for more battle training for the trainees"
         ],
         "random_status_constraint": [
             "apprentice"
@@ -328,7 +328,7 @@
     {
         "id": "troublesome_warrior",
         "thoughts": [
-            "Ate a mouse while out on patrol"
+            "Ate a deer while out on patrol"
         ],
         "main_trait_constraint": [
             "troublesome"
@@ -355,9 +355,9 @@
             "Excitedly plays games with r_c, letting {PRONOUN/r_c/object} win every time",
             "Is woken up by r_c jumping on {PRONOUN/m_c/object}, begging for something",
             "Grooms r_c clean and makes {PRONOUN/r_c/object} presentable",
-            "Carries r_c to the nursery because {PRONOUN/r_c/subject} fell asleep",
+            "Carries r_c to the hatchery because {PRONOUN/r_c/subject} fell asleep",
             "Is scolding r_c for almost being reckless",
-            "Hopes {PRONOUN/m_c/poss} kits arent getting into too much trouble",
+            "Hopes {PRONOUN/m_c/poss} dragonets arent getting into too much trouble",
             "Is in awe with how fast r_c is growing"
         ],
         "relationship_constraint": [
@@ -373,8 +373,8 @@
     {
         "id": "warrior_formerly_a_loner_alive_kits",
         "thoughts": [
-            "Is telling the kits about {PRONOUN/m_c/poss} days as a loner",
-            "Is being begged by r_c to tell {PRONOUN/r_c/object} about what being a loner was like"
+            "Is telling the dragonets about {PRONOUN/m_c/poss} days as a wanderer",
+            "Is being begged by r_c to tell {PRONOUN/r_c/object} about what being a wanderer was like"
         ],
         "main_backstory_constraint": [
             "loner1",
@@ -394,8 +394,8 @@
     {
         "id": "warrior_formerly_a_rogue_alive_kits",
         "thoughts": [
-            "Is telling the kits about {PRONOUN/m_c/poss} days as a rogue",
-            "Is being begged by r_c to tell {PRONOUN/r_c/object} more what being a rogue was like"
+            "Is telling the dragonets about {PRONOUN/m_c/poss} days as a harbinger",
+            "Is being begged by r_c to tell {PRONOUN/r_c/object} more what being a harbinger was like"
         ],
         "main_backstory_constraint": [
             "rogue1",
