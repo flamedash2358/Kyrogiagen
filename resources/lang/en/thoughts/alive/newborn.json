@@ -2,16 +2,16 @@
     {
         "id": "gen_newborn",
         "thoughts": [
-            "Mewls pitifully for milk",
-            "Tries to figure out all of the smells around {PRONOUN/m_c/object}",
-            "Snoozes peacefully",
-            "Tries to open {PRONOUN/m_c/poss} eyes, but it's all blurry",
+            "Rolls around pitifully for warmth",
+            "Tries to figure out all of the noise around {PRONOUN/m_c/object}",
+            "Rests peacefully",
+            "Tries to crack {PRONOUN/m_c/poss} shell, but it remains solid as ever",
             "Head empty",
             "Almost rolled out of the nest",
-            "Tried suckling on a piece of bedding",
-            "Is squealing loudly",
-            "Mewls at someone nudging {PRONOUN/m_c/object}",
-            "Hisses at all the strange new smells"
+            "Is rapidly glowing",
+            "Is glowing",
+            "Glows at someone nudging {PRONOUN/m_c/object}",
+            "Glows angrily at the lack of warmth"
         ],
         "main_age_constraint": [
             "newborn"
@@ -20,12 +20,12 @@
     {
         "id": "gen_newborn_to_parent",
         "thoughts":[
-            "Snuggles closer to r_c",
-            "Smells r_c and immediately perks up",
-            "Mews at r_c as {PRONOUN/r_c/subject} {VERB/r_c/shift/shifts} in the nest",
-            "Squeaks pitifully as r_c checks on {PRONOUN/m_c/object}",
-            "Nuzzles up to r_c with a purr",
-            "Squeaks pitifully as r_c grooms {PRONOUN/m_c/object}"
+            "Rolls closer to r_c",
+            "Feels r_c and calms down",
+            "Glows at r_c as {PRONOUN/r_c/subject} {VERB/r_c/shift/shifts} in the nest",
+            "Glows pitifully as r_c checks on {PRONOUN/m_c/object}",
+            "Rolls up closer to r_c with a soft glow",
+            "Glows pitifully as r_c grooms {PRONOUN/m_c/object}"
         ],
         "main_age_constraint": [
             "newborn"
@@ -40,7 +40,7 @@
     {
         "id": "gen_newborn_to_sibling",
         "thoughts":[
-            "Tried suckling on r_c's tail",
+            "Tried rolling over r_c's tail",
             "Is being buried under r_c",
             "Was almost shoved out of the nest by r_c"
         ],
