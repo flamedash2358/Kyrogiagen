@@ -36,23 +36,23 @@
             "hovered_text": "#E1E2FF",
             "selected_text": "#E1E2FF",
             "disabled_text": "#E1E2FF",
-            "link_text": "#000000",
-            "link_hover": "#000000",
-            "link_selected": "#000000",
-            "text_shadow": "#000000",
-            "normal_border": "#000000",
-            "hovered_border": "#000000",
-            "disabled_border": "#000000",
-            "active_border": "#000000",
-            "selected_border": "#000000",
-            "normal_text_shadow": "#000000"
+            "link_text": "#00000000",
+            "link_hover": "#00000000",
+            "link_selected": "#00000000",
+            "text_shadow": "#00000000",
+            "normal_border": "#00000000",
+            "hovered_border": "#00000000",
+            "disabled_border": "#00000000",
+            "active_border": "#00000000",
+            "selected_border": "#00000000",
+            "normal_text_shadow": "#00000000"
         },
         "misc": {"shadow_width": "0", "tool_tip_delay": "0", "text_horiz_alignment": "center"}
     },
     "#search_entry_box": {
         "font": {"name": "notosans", "size": "13"},
         "colours": {
-            "dark_bg": "#000000",
+            "dark_bg": "#00000000",
             "selected_bg": "#E1E1FF",
             "normal_text": "#000000",
             "selected_text": "#DCDCDC"
@@ -109,8 +109,8 @@
     "#dev_watermark": {
         "font": {"name": "notosans", "size": "19", "bold": "1"},
         "colours": {
-            "dark_bg": "#000000",
-            "normal_text": "#E1E2FF",
+            "dark_bg": "#00000000",
+            "normal_text": "#EFE5CE88",
             "link_text": "#9A45A2",
             "link_hover": "#824673",
             "link_selected": "#824673"
@@ -255,7 +255,7 @@
     "text_entry_line": {
         "font": {"size": "15", "name": "notosans"},
         "colours": {
-            "dark_bg": "#FFFFFF",
+            "dark_bg": "#FFFF0000",
             "selected_bg": "#616297",
             "normal_text": "#000000",
             "selected_text": "#DCDCDC",
