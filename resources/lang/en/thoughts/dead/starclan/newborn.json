@@ -2,23 +2,23 @@
     {
         "id": "gen_dead_newborn",
         "thoughts": [
-            "Mewls pitifully for milk",
-            "Snoozes peacefully",
-            "Wobbles around StarClan happily",
-            "Is drinking milk from a StarClan queen",
-            "Tries opening {PRONOUN/m_c/poss} eyes to see the 'stars' everyone is talking about",
-            "Tries to practice walking to play with the other cats",
-            "Attempts to snarl but can only manage a tiny mewl",
-            "Rolls through the starry grass"
+            "Glows pitifully for warmth",
+            "Rests peacefully",
+            "Rolls around the Starfallen happily",
+            "Is being incubated by a Starfallen queen",
+            "Tries escaping {PRONOUN/m_c/poss} shell to see the 'stars' everyone is talking about",
+            "Tries to hatch to play with the other dragons",
+            "Attempts to roll out of the nest but is firmly stuck",
+            "Carried through the starry grass"
         ]
     },
     {
         "id": "gen_dead_newborn_to_alive_parent",
         "thoughts":[
             "Thinks {PRONOUN/m_c/subject} heard r_c's voice",
-            "Is mewling for r_c",
-            "Searches for r_c's scent",
-            "Blindly reaches out for r_c"
+            "Is glowing for r_c",
+            "Searches for r_c's warmth",
+            "Blindly rolls around for r_c"
         ],
         "relationship_constraint": [
             "child/parent"
@@ -33,7 +33,7 @@
             "Is being watched by r_c",
             "Is being bathed by r_c",
             "Is tucked under r_c's belly",
-            "Blindly swipes at r_c's tail"
+            "Blindly rolls at r_c's tail"
         ],
         "random_living_status": [
             "starclan"
