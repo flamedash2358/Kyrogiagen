@@ -33,63 +33,62 @@ class Pelt:
 
     # ATTRIBUTES, including non-pelt related
     pelt_colours = [
-        "WHITE",
-        "PALEGREY",
-        "SILVER",
-        "GREY",
-        "DARKGREY",
-        "GHOST",
+        "RED",
+        "PALEBROWN",
+        "ABYSS",
+        "MAGENTA",
+        "QUARTZ",
+        "RUBY",
         "BLACK",
-        "CREAM",
-        "PALEGINGER",
-        "GOLDEN",
-        "GINGER",
-        "DARKGINGER",
-        "SIENNA",
-        "LIGHTBROWN",
-        "LILAC",
         "BROWN",
-        "GOLDEN-BROWN",
+        "FOREST",
+        "STARFALLEN",
+        "EMERALD",
+        "TOPAZ",
+        "SKY",
         "DARKBROWN",
-        "CHOCOLATE",
+        "SAPHIRE",
+        "SILVER",
+        "COPPER",
+        "PURPLE",
+        "OPAL",
     ]
     pelt_c_no_white = [
-        "PALEGREY",
-        "SILVER",
-        "GREY",
-        "DARKGREY",
-        "GHOST",
+        "RED",
+        "PALEBROWN",
+        "ABYSS",
+        "MAGENTA",
+        "RUBY",
         "BLACK",
-        "CREAM",
-        "PALEGINGER",
-        "GOLDEN",
-        "GINGER",
-        "DARKGINGER",
-        "SIENNA",
-        "LIGHTBROWN",
-        "LILAC",
         "BROWN",
-        "GOLDEN-BROWN",
+        "FOREST",
+        "STARFALLEN",
+        "EMERALD",
+        "TOPAZ",
+        "SKY",
         "DARKBROWN",
-        "CHOCOLATE",
+        "SAPHIRE",
+        "SILVER",
+        "COPPER",
+        "PURPLE",
     ]
     pelt_c_no_bw = [
-        "PALEGREY",
-        "SILVER",
-        "GREY",
-        "DARKGREY",
-        "CREAM",
-        "PALEGINGER",
-        "GOLDEN",
-        "GINGER",
-        "DARKGINGER",
-        "SIENNA",
-        "LIGHTBROWN",
-        "LILAC",
+        "RED",
+        "PALEBROWN",
+        "ABYSS",
+        "MAGENTA",
+        "RUBY",
         "BROWN",
-        "GOLDEN-BROWN",
+        "FOREST",
+        "STARFALLEN",
+        "EMERALD",
+        "TOPAZ",
+        "SKY",
         "DARKBROWN",
-        "CHOCOLATE",
+        "SAPHIRE",
+        "SILVER",
+        "COPPER",
+        "PURPLE",
     ]
 
     tortiepatterns = [
@@ -156,51 +155,53 @@ class Pelt:
 
     pelt_length = ["short", "medium", "long"]
     eye_colours = [
+        "RED",
+        "ORANGE",
         "YELLOW",
-        "AMBER",
-        "HAZEL",
-        "PALEGREEN",
         "GREEN",
         "BLUE",
-        "DARKBLUE",
-        "GREY",
-        "CYAN",
-        "EMERALD",
-        "PALEBLUE",
-        "PALEYELLOW",
-        "GOLD",
-        "HEATHERBLUE",
-        "COPPER",
-        "SAGE",
-        "COBALT",
-        "SUNLITICE",
-        "GREENYELLOW",
-        "BRONZE",
+        "PURPLE",
+        "PINK",
+        "INDIGO",
+        "ROSE",
+        "AMBER",
+        "TURQUOISE",
+        "BLOODORANGE",
+        "LIME",
+        "MAGENTA",
+        "WHITE",
+        "PALESILVER",
         "SILVER",
-        "ORANGE"
+        "GOLD",
+        "LAVENDER",
+        "SKY",
+        "BRONZE",
+        "AQUA",
     ]
     yellow_eyes = [
         "YELLOW",
         "AMBER",
-        "PALEYELLOW",
+        "ORANGE",
+        "RED",
+        "BLOODORANGE",
         "GOLD",
-        "COPPER",
-        "GREENYELLOW",
         "BRONZE",
-        "SILVER",
-        "ORANGE"
+        "ROSE",
     ]
     blue_eyes = [
         "BLUE",
-        "DARKBLUE",
-        "CYAN",
-        "PALEBLUE",
-        "HEATHERBLUE",
-        "COBALT",
-        "SUNLITICE",
-        "GREY",
+        "AQUA",
+        "INDIGO",
+        "PURPLE",
+        "MAGENTA",
+        "PINK",
+        "SKY",
+        "LAVENDER",
+        "WHITE",
+        "SILVER",
+        "PALESILVER",
     ]
-    green_eyes = ["PALEGREEN", "GREEN", "EMERALD", "SAGE", "HAZEL"]
+    green_eyes = ["LIME", "GREEN", "TURQUOISE",]
 
     # bite scars by @wood pank on discord
 
@@ -412,63 +413,57 @@ class Pelt:
 
     # SPRITE NAMES
     single_colours = [
-        "WHITE",
-        "PALEGREY",
-        "SILVER",
-        "GREY",
-        "DARKGREY",
-        "GHOST",
+        "RED",
+        "PALEBROWN",
+        "ABYSS",
+        "MAGENTA",
+        "QUARTZ",
+        "RUBY",
         "BLACK",
-        "CREAM",
-        "PALEGINGER",
-        "GOLDEN",
-        "GINGER",
-        "DARKGINGER",
-        "SIENNA",
-        "LIGHTBROWN",
-        "LILAC",
         "BROWN",
-        "GOLDEN-BROWN",
+        "FOREST",
+        "STARFALLEN",
+        "EMERALD",
+        "TOPAZ",
+        "SKY",
         "DARKBROWN",
-        "CHOCOLATE",
+        "SAPHIRE",
+        "SILVER",
+        "COPPER",
+        "PURPLE",
+        "OPAL",
     ]
-    ginger_colours = ["CREAM", "PALEGINGER", "GOLDEN", "GINGER", "DARKGINGER", "SIENNA"]
-    black_colours = ["GREY", "DARKGREY", "GHOST", "BLACK"]
-    white_colours = ["WHITE", "PALEGREY", "SILVER"]
-    brown_colours = [
-        "LIGHTBROWN",
-        "LILAC",
-        "BROWN",
-        "GOLDEN-BROWN",
-        "DARKBROWN",
-        "CHOCOLATE",
-    ]
+    ginger_colours = ["TOPAZ", "RUBY", "PURPLE", "SKY", "EMERALD"]
+    black_colours = ["STARFALLEN", "ABYSS", "SILVER", "FOREST", "BLACK", "MAGENTA", "SAPHIRE"]
+    white_colours = ["OPAL", "QUARTZ"]
+    brown_colours = ["RED", "PALEBROWN", "BROWN", "COPPER", "DARKBROWN"]
+    
     colour_categories = [ginger_colours, black_colours, white_colours, brown_colours]
+
+    
     eye_sprites = [
+        "RED",
+        "ORANGE",
         "YELLOW",
-        "AMBER",
-        "HAZEL",
-        "PALEGREEN",
         "GREEN",
         "BLUE",
-        "DARKBLUE",
-        "BLUEYELLOW",
-        "BLUEGREEN",
-        "GREY",
-        "CYAN",
-        "EMERALD",
-        "PALEBLUE",
-        "PALEYELLOW",
-        "GOLD",
-        "HEATHERBLUE",
-        "COPPER",
-        "SAGE",
-        "COBALT",
-        "SUNLITICE",
-        "GREENYELLOW",
-        "BRONZE",
+        "PURPLE",
+        "PINK",
+        "INDIGO",
+        "ROSE",
+        "AMBER",
+        "TURQUOISE",
+        "BLOODORANGE",
+        "LIME",
+        "MAGENTA",
+        "WHITE",
+        "PALESILVER",
         "SILVER",
-        "ORANGE"
+        "GOLD",
+        "LAVENDER",
+        "SKY",
+        "BRONZE",
+        "AQUA",
     ]
     little_white = [
         "LITTLE",
@@ -754,9 +749,9 @@ class Pelt:
 
         # Eye Color Convert Stuff
         if self.eye_colour == "BLUE2":
-            self.eye_colour = "COBALT"
+            self.eye_colour = "BLUE"
         if self.eye_colour2 == "BLUE2":
-            self.eye_colour2 = "COBALT"
+            self.eye_colour2 = "BLUE"
 
         if self.eye_colour in ["BLUEYELLOW", "BLUEGREEN"]:
             if self.eye_colour == "BLUEYELLOW":
@@ -1230,9 +1225,9 @@ class Pelt:
                             [self.tortiebase, "single"], weights=[97, 3], k=1
                         )[0]
 
-                    if self.colour == "WHITE":
+                    if self.colour == "QUARTZ":
                         possible_colors = Pelt.white_colours.copy()
-                        possible_colors.remove("WHITE")
+                        possible_colors.remove("QUARTZ")
                         self.colour = choice(possible_colors)
 
                     # Ginger is often duplicated to increase its chances
@@ -1254,10 +1249,10 @@ class Pelt:
                         )
                         self.tortiecolour = choice(possible_colors)
                     else:
-                        self.tortiecolour = "GOLDEN"
+                        self.tortiecolour = "COPPER"
 
             else:
-                self.tortiecolour = "GOLDEN"
+                self.tortiecolour = "COPPER"
         else:
             self.tortiebase = None
             self.tortiepattern = None
