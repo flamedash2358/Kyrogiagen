@@ -180,30 +180,30 @@ class Sprites:
         # Define eye colors
         eye_colors = [
             [
+                "RED",
+                "ORANGE",
                 "YELLOW",
-                "AMBER",
-                "HAZEL",
-                "PALEGREEN",
                 "GREEN",
                 "BLUE",
-                "DARKBLUE",
-                "GREY",
-                "CYAN",
-                "EMERALD",
-                "HEATHERBLUE",
-                "SUNLITICE",
+                "PURPLE",
+                "PINK",
+                "INDIGO",
+                "ROSE",
+                "AMBER",
+                "TURQUOISE",
+                "BLOODORANGE",
             ],
             [
-                "COPPER",
-                "SAGE",
-                "COBALT",
-                "PALEBLUE",
-                "BRONZE",
+                "LIME",
+                "MAGENTA",
+                "WHITE",
+                "PALESILVER",
                 "SILVER",
-                "PALEYELLOW",
                 "GOLD",
-                "GREENYELLOW",
-                "ORANGE"
+                "LAVENDER",
+                "SKY",
+                "BRONZE",
+                "AQUA",
             ],
         ]
 
@@ -367,9 +367,9 @@ class Sprites:
 
         # Define colors and categories
         color_categories = [
-            ["WHITE", "PALEGREY", "SILVER", "GREY", "DARKGREY", "GHOST", "BLACK"],
-            ["CREAM", "PALEGINGER", "GOLDEN", "GINGER", "DARKGINGER", "SIENNA"],
-            ["LIGHTBROWN", "LILAC", "BROWN", "GOLDEN-BROWN", "DARKBROWN", "CHOCOLATE"],
+            ["RED", "PALEBROWN", "ABYSS", "MAGENTA", "QUARTZ", "RUBY", "BLACK"],
+            ["BROWN", "FOREST", "STARFALLEN", "EMERALD", "TOPAZ", "SKY"],
+            ["DARKBROWN", "SAPHIRE", "SILVER", "COPPER", "PURPLE", "OPAL"],
         ]
 
         color_types = [
