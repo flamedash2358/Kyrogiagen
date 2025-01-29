@@ -73,9 +73,9 @@ def json_load():
             )
 
             if cat["eye_colour"] == "BLUE2":
-                cat["eye_colour"] = "COBALT"
+                cat["eye_colour"] = "SKY"
             if cat["eye_colour"] in ["BLUEYELLOW", "BLUEGREEN"]:
-                if cat["eye_colour"] == "BLUEYELLOW":
+                if cat["eye_colour"] == "AMBER":
                     cat["eye_colour2"] = "YELLOW"
                 elif cat["eye_colour"] == "BLUEGREEN":
                     cat["eye_colour2"] = "GREEN"
@@ -282,11 +282,11 @@ def json_load():
             cat.thoughts()
         except Exception as e:
             logger.exception(
-                f"There was an error when thoughts for cat #{cat} are created."
+                f"There was an error when thoughts for dragon #{cat} are created."
             )
             game.switches[
                 "error_message"
-            ] = f"There was an error when thoughts for cat #{cat} are created."
+            ] = f"There was an error when thoughts for dragon #{cat} are created."
             game.switches["traceback"] = e
             raise
 
@@ -338,13 +338,13 @@ def csv_load(all_cats):
                         attr[x] = False
                 game.switches[
                     "error_message"
-                ] = "1There was an error loading cat # " + str(attr[0])
+                ] = "1There was an error loading dragon # " + str(attr[0])
                 the_pelt = Pelt(
                     colour=attr[2], name=attr[11], length=attr[9], eye_color=attr[17]
                 )
                 game.switches[
                     "error_message"
-                ] = "2There was an error loading cat # " + str(attr[0])
+                ] = "2There was an error loading dragon # " + str(attr[0])
                 the_cat = Cat(
                     ID=attr[0],
                     prefix=attr[1].split(":")[0],
@@ -358,32 +358,32 @@ def csv_load(all_cats):
 
                 game.switches[
                     "error_message"
-                ] = "3There was an error loading cat # " + str(attr[0])
+                ] = "3There was an error loading dragon # " + str(attr[0])
                 the_cat.age, the_cat.mentor = attr[4], attr[8]
                 game.switches[
                     "error_message"
-                ] = "4There was an error loading cat # " + str(attr[0])
+                ] = "4There was an error loading dragon # " + str(attr[0])
                 (
                     the_cat.pelt.cat_sprites["kitten"],
                     the_cat.pelt.cat_sprites["adolescent"],
                 ) = int(attr[13]), int(attr[14])
                 game.switches[
                     "error_message"
-                ] = "5There was an error loading cat # " + str(attr[0])
+                ] = "5There was an error loading dragon # " + str(attr[0])
                 the_cat.pelt.cat_sprites["adult"], the_cat.pelt.cat_sprites["elder"] = (
                     int(attr[15]),
                     int(attr[16]),
                 )
                 game.switches[
                     "error_message"
-                ] = "6There was an error loading cat # " + str(attr[0])
+                ] = "6There was an error loading dragon # " + str(attr[0])
                 (
                     the_cat.pelt.cat_sprites["young adult"],
                     the_cat.pelt.cat_sprites["senior adult"],
                 ) = int(attr[15]), int(attr[15])
                 game.switches[
                     "error_message"
-                ] = "7There was an error loading cat # " + str(attr[0])
+                ] = "7There was an error loading dragon # " + str(attr[0])
                 (
                     the_cat.pelt.reverse,
                     the_cat.pelt.white_patches,
@@ -391,7 +391,7 @@ def csv_load(all_cats):
                 ) = (attr[18], attr[19], attr[20])
                 game.switches[
                     "error_message"
-                ] = "8There was an error loading cat # " + str(attr[0])
+                ] = "8There was an error loading dragon # " + str(attr[0])
                 (
                     the_cat.pelt.tortiebase,
                     the_cat.pelt.tortiepattern,
@@ -399,7 +399,7 @@ def csv_load(all_cats):
                 ) = (attr[21], attr[22], attr[23])
                 game.switches[
                     "error_message"
-                ] = "9There was an error loading cat # " + str(attr[0])
+                ] = "9There was an error loading dragon # " + str(attr[0])
                 the_cat.trait, the_cat.pelt.skin, the_cat.specialty = (
                     attr[5],
                     attr[24],
@@ -407,7 +407,7 @@ def csv_load(all_cats):
                 )
                 game.switches[
                     "error_message"
-                ] = "10There was an error loading cat # " + str(attr[0])
+                ] = "10There was an error loading dragon # " + str(attr[0])
                 the_cat.skill = attr[25]
                 if len(attr) > 28:
                     the_cat.pelt.accessory = attr[28]
@@ -417,7 +417,7 @@ def csv_load(all_cats):
                     the_cat.specialty2 = None
                 game.switches[
                     "error_message"
-                ] = "11There was an error loading cat # " + str(attr[0])
+                ] = "11There was an error loading dragon # " + str(attr[0])
                 if len(attr) > 34:
                     the_cat.experience = int(attr[34])
                     experiencelevels = [
@@ -438,7 +438,7 @@ def csv_load(all_cats):
                     the_cat.experience = 0
                 game.switches[
                     "error_message"
-                ] = "12There was an error loading cat # " + str(attr[0])
+                ] = "12There was an error loading dragon # " + str(attr[0])
                 if len(attr) > 30:
                     # Attributes that are to be added after the update
                     the_cat.moons = int(attr[30])
@@ -451,17 +451,17 @@ def csv_load(all_cats):
                         the_cat.pelt.cat_sprites["dead"] = attr[33]
                 game.switches[
                     "error_message"
-                ] = "13There was an error loading cat # " + str(attr[0])
+                ] = "13There was an error loading dragon # " + str(attr[0])
                 if len(attr) > 35:
                     the_cat.dead_for = int(attr[35])
                 game.switches[
                     "error_message"
-                ] = "14There was an error loading cat # " + str(attr[0])
+                ] = "14There was an error loading dragon # " + str(attr[0])
                 if len(attr) > 36 and attr[36] is not None:
                     the_cat.apprentice = attr[36].split(";")
                 game.switches[
                     "error_message"
-                ] = "15There was an error loading cat # " + str(attr[0])
+                ] = "15There was an error loading dragon # " + str(attr[0])
                 if len(attr) > 37:
                     the_cat.pelt.paralyzed = bool(attr[37])
                 if len(attr) > 38:
@@ -474,11 +474,11 @@ def csv_load(all_cats):
                     the_cat.former_apprentices = attr[41].split(";")
         game.switches[
             "error_message"
-        ] = "There was an error loading this clan's mentors, apprentices, relationships, or sprite info."
+        ] = "There was an error loading this clan's teachers, trainees, relationships, or sprite info."
         for inter_cat in all_cats.values():
             # Load the mentors and apprentices after all cats have been loaded
             game.switches["error_message"] = (
-                "There was an error loading this clan's mentors/apprentices. Last cat read was "
+                "There was an error loading this clan's teachers/trainees. Last dragon read was "
                 + str(inter_cat)
             )
             inter_cat.mentor = Cat.all_cats.get(inter_cat.mentor)
@@ -500,14 +500,13 @@ def csv_load(all_cats):
             inter_cat.former_apprentices = [a.ID for a in former_apps]
             if not inter_cat.dead:
                 game.switches["error_message"] = (
-                    "There was an error loading this clan's relationships. Last cat read was "
+                    "There was an error loading this clan's relationships. Last dragon read was "
                     + str(inter_cat)
                 )
                 inter_cat.load_relationship_of_cat()
             game.switches["error_message"] = (
-                "There was an error loading a cat's sprite info. Last cat read was "
                 + str(inter_cat)
-            )
+             )
             # update_sprite(inter_cat)
         # generate the relationship if some is missing
         if not the_cat.dead:
