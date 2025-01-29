@@ -218,6 +218,12 @@ class PatrolScreen(Screens):
             else:
                 self.patrol_type = "hunting"
             self.update_button()
+        elif event.ui_element == self.elements["pillar"]:
+            if self.patrol_type == "ruins":
+                self.patrol_type = "general"
+            else:
+                self.patrol_type = "ruins"
+            self.update_button()
         elif event.ui_element == self.elements["patrol_start"]:
             self.elements["patrol_start"].disable()
             self.selected_cat = None
@@ -427,6 +433,7 @@ class PatrolScreen(Screens):
             self.elements["mouse"].enable()
             self.elements["claws"].enable()
             self.elements["herb"].enable()
+            self.elements["pillar"].enable()
             self.elements["info"].kill()  # clearing the text before displaying new text
 
             if self.patrol_type != "med" and self.current_patrol:
@@ -441,12 +448,15 @@ class PatrolScreen(Screens):
                 text = "screens.patrol.border"
             elif self.patrol_type == "hunting":
                 text = "screens.patrol.hunting"
+            elif self.patrol_type == "ruins":
+                text = "screens.patrol.ruins"
             elif self.patrol_type == "med":
                 if self.current_patrol:
                     text = "screens.patrol.herb_gathering"
                     self.elements["mouse"].disable()
                     self.elements["claws"].disable()
                     self.elements["paw"].disable()
+                    self.elements["pillar"].disable()
                 else:
                     text = "screens.patrol.herb_gathering"
             else:
@@ -666,6 +676,15 @@ class PatrolScreen(Screens):
             manager=MANAGER,
         )
         self.elements["herb"].disable()
+        self.elements["pillar"] = UISurfaceImageButton(
+            ui_scale(pygame.Rect((323, 600), (34, 34))),
+            Icon.PILLAR,
+            get_button_dict(ButtonStyles.ICON, (34, 34)),
+            object_id="@buttonstyles_icon",
+            manager=MANAGER,
+        )
+        self.elements["pillar"].disable()
+
 
         # Able cat page buttons
         self.elements["last_page"] = UIImageButton(
