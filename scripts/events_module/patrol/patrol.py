@@ -66,6 +66,8 @@ class Patrol:
         self.BORDER = None
         self.MEDCAT_SZN = None
         self.MEDCAT = None
+        self.RUINS_SZN = None
+        self.RUINS = None
         self.NEW_CAT = None
         self.NEW_CAT_HOSTILE = None
         self.NEW_CAT_WELCOMING = None
@@ -76,6 +78,7 @@ class Patrol:
         self.BORDER_GEN = None
         self.TRAINING_GEN = None
         self.MEDCAT_GEN = None
+        self.RUINS_GEN = None
         self.DISASTER = None
 
     def setup_patrol(self, patrol_cats: List[Cat], patrol_type: str) -> str:
@@ -246,7 +249,7 @@ class Patrol:
             self.random_cat = choice(patrol_cats)
 
         print("Patrol Leader:", str(self.patrol_leader.name))
-        print("Random Cat:", str(self.random_cat.name))
+        print("Random Dragon:", str(self.random_cat.name))
 
     def get_possible_patrols(
         self,
@@ -295,6 +298,10 @@ class Patrol:
                     possible_patrols.extend(
                         self.generate_patrol_events(self.MEDCAT_SZN)
                     )
+                    possible_patrols.extend(self.generate_patrol_events(self.RUINS))
+                    possible_patrols.extend(
+                        self.generate_patrol_events(self.RUINS_SZN)
+                    )
                     possible_patrols.extend(
                         self.generate_patrol_events(self.HUNTING_GEN)
                     )
@@ -306,6 +313,9 @@ class Patrol:
                     )
                     possible_patrols.extend(
                         self.generate_patrol_events(self.MEDCAT_GEN)
+                    )
+                     possible_patrols.extend(
+                        self.generate_patrol_events(self.RUINS_GEN)
                     )
                     possible_patrols.extend(self.generate_patrol_events(self.DISASTER))
                     possible_patrols.extend(
@@ -381,10 +391,13 @@ class Patrol:
         possible_patrols.extend(self.generate_patrol_events(self.TRAINING_SZN))
         possible_patrols.extend(self.generate_patrol_events(self.MEDCAT))
         possible_patrols.extend(self.generate_patrol_events(self.MEDCAT_SZN))
+        possible_patrols.extend(self.generate_patrol_events(self.RUINS))
+        possible_patrols.extend(self.generate_patrol_events(self.RUINS_SZN))
         possible_patrols.extend(self.generate_patrol_events(self.HUNTING_GEN))
         possible_patrols.extend(self.generate_patrol_events(self.BORDER_GEN))
         possible_patrols.extend(self.generate_patrol_events(self.TRAINING_GEN))
         possible_patrols.extend(self.generate_patrol_events(self.MEDCAT_GEN))
+        possible_patrols.extend(self.generate_patrol_events(self.RUINS_GEN))
 
         if game_setting_disaster:
             dis_chance = int(random.getrandbits(3))  # disaster patrol chance
@@ -491,7 +504,7 @@ class Patrol:
 
         if "rom_two_apps" in romantic_event.tags:
             if len(patrol_apprentices) < 2:
-                print("somehow, there are not enough apprentices for romantic patrol")
+                print("somehow, there are not enough trainees for romantic patrol")
                 return False
             love1 = patrol_apprentices[0]
             love2 = patrol_apprentices[1]
@@ -556,7 +569,7 @@ class Patrol:
         # This make sure general only gets hunting, border, or training patrols
         # chose fix type will make it not depending on the content amount
         if patrol_type == "general":
-            patrol_type = random.choice(["hunting", "border", "training"])
+            patrol_type = random.choice(["hunting", "border", "training", "ruins"])
 
         # makes sure that it grabs patrols in the correct biomes, season, with the correct number of cats
         for patrol in possible_patrols:
@@ -604,6 +617,8 @@ class Patrol:
             elif "border" not in patrol.types and patrol_type == "border":
                 continue
             elif "training" not in patrol.types and patrol_type == "training":
+                continue
+            elif "ruins" not in patrol.types and patrol_type == "ruins":
                 continue
             elif "herb_gathering" not in patrol.types and patrol_type == "med":
                 continue
@@ -819,6 +834,8 @@ class Patrol:
             ("BORDER", f"{biome_dir}border/any.json"),
             ("TRAINING_SZN", f"{biome_dir}training/{leaf}.json"),
             ("TRAINING", f"{biome_dir}training/any.json"),
+            ("RUINS_SZN", f"{biome_dir}ruins/{leaf}.json"),
+            ("RUINS", f"{biome_dir}ruins/any.json"),
             ("MEDCAT_SZN", f"{biome_dir}med/{leaf}.json"),
             ("MEDCAT", f"{biome_dir}med/any.json"),
             ("NEW_CAT", "new_cat.json"),
@@ -831,6 +848,7 @@ class Patrol:
             ("BORDER_GEN", "general/border.json"),
             ("MEDCAT_GEN", "general/medcat.json"),
             ("TRAINING_GEN", "general/training.json"),
+            ("RUINS_GEN", "general/ruins.json"),
             ("DISASTER", "disaster.json"),
         ]
         for patrol_property, location in resources:
