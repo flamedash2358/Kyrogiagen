@@ -18,11 +18,11 @@ status_dict = {
     "make clan screen": "Making a Clan",
     "mediation screen": "Mediating a dispute",
     "patrol screen": "On a patrol",
-    "profile screen": "Viewing a cat's profile",
+    "profile screen": "Viewing a dragon's profile",
     "ceremony screen": "Holding a ceremony",
-    "starclan screen": "Viewing StarClan",
-    "dark forest screen": "Viewing the Dark Forest",
-    "med den screen": "In the medicine den",
+    "starclan screen": "Viewing the Starfallen",
+    "dark forest screen": "Viewing the Abyss",
+    "med den screen": "In the medic's den",
 }
 
 
@@ -103,7 +103,7 @@ class _DiscordRPC(threading.Thread):
                 print("Failed to get image string, game may not be fully loaded yet. "
                       "Don't worry, it will fix itself. Hopefully.")
                 img_str = "discord"  # fallback incase the game isn't loaded yet
-                img_text = "Clangen!!"
+                img_text = "KyrogiaGen!!"
 
             # Example: beach_greenleaf_camp1_dark
 
@@ -122,7 +122,7 @@ class _DiscordRPC(threading.Thread):
                     large_image=img_str.lower(),
                     large_text=img_text,
                     small_image="discord",
-                    small_text=f"Managing {cats_amount} cats",
+                    small_text=f"Managing {cats_amount} dragons",
                     start=self._start_time,
                     buttons=[
                         {
