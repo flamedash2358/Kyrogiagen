@@ -148,7 +148,7 @@ class PatrolOutcome:
         if not (special_outcomes or reg_outcomes):
             reg_outcomes.append(
                 PatrolOutcome(
-                    text="There's nothing here, and that's a problem. Please report! ",
+                    text="There's no outcome here, and that's a problem. Please report! ",
                 )
             )
 
@@ -333,7 +333,7 @@ class PatrolOutcome:
 
         print("---")
         print(
-            f"Finding stat cat. Outcome Type: Success = {self.success}, Antag = {self.antagonize}"
+            f"Finding stat dragon. Outcome Type: Success = {self.success}, Antag = {self.antagonize}"
         )
         print(f"Can Have Stat: {self.can_have_stat}")
 
@@ -469,7 +469,7 @@ class PatrolOutcome:
 
         if not cats_to_kill:
             print(
-                f"Something was indicated in dead_cats, but no cats were indicated: {self.dead_cats}"
+                f"Something was indicated in dead_cats, but no dragons were indicated: {self.dead_cats}"
             )
             return ""
 
