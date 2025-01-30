@@ -759,7 +759,7 @@ class PatrolScreen(Screens):
 
         # Start Patrol Button
         self.elements["patrol_start"] = UISurfaceImageButton(
-            ui_scale(pygame.Rect((0, 600), (135, 30))),
+            ui_scale(pygame.Rect((0, 640), (135, 30))),
             "screens.patrol.go_on_patrol",
             get_button_dict(ButtonStyles.SQUOVAL, (135, 30)),
             object_id="@buttonstyles_squoval",
