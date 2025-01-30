@@ -314,7 +314,7 @@ class Patrol:
                     possible_patrols.extend(
                         self.generate_patrol_events(self.MEDCAT_GEN)
                     )
-                     possible_patrols.extend(
+                    possible_patrols.extend(
                         self.generate_patrol_events(self.RUINS_GEN)
                     )
                     possible_patrols.extend(self.generate_patrol_events(self.DISASTER))
