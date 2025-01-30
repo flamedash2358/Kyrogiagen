@@ -6,7 +6,6 @@
 	"types": ["ruins"],
 	"tags": [],
 	"patrol_art": null,
-	"patrol_art_clean": null,
 	"min_cats": 1,
 	"max_cats": 6,
 	"min_max_status": {},
@@ -19,13 +18,11 @@
 	"text": "The patrol takes a moment to consider their options, p_l remembers another entrance they can use to enter the ruins! Flying around the group purrs happily at the sight of a free entrance, heading inside to explore.",
 	"exp": 7,
   "weight": 20,
-  "art": null
   },
     {		
 	"text": "p_l claws at the rocks, testing to see if they can be moved without further collapse, and much to {PRONOUN/p_l/poss} surprise it appears to be possible! Calling over the rest of the patrol they tediously move the rocks out of the way and by the end of the day they've freed the entrance. Even if they couldnt explore it was still a productive patrol!",
 	"exp": 7,
   "weight": 10,
-  "art": null
   },
 	],
 	"fail_outcomes": [
@@ -33,14 +30,12 @@
     "text": "p_l sighs and ends the patrol early, that was their only safe entrance into the ruins! Besides {PRONOUN/p_l/subject} {VERB/don't/doesn't} want to spend an entire day searching for another entrance when they could all do something else.",
     "exp": 0,
     "weight": 20,
-    "art": null
     },
 		{
     "text": "p_l chimes up about an alternate entrance the patrol could use, however when the patrol arrives to it and p_l crawls in, the crash of rocks sounds from within the tunnel. When the patrol calls out however, they're met without response.",
     "exp": 0,
-    "weight": 10
+    "weight": 10,
     "dead_cats": ["p_l"],
-    "art": null
     "history_text": {
 		"reg_death": "m_c got buried inside old ruins of the past.",
 		"lead_death": "got buried inside old ruins of the past.",
@@ -49,14 +44,14 @@
     {
     "text": "p_l chimes up about an alternate entrance the patrol could use, however when the patrol arrives to it and they all crawl in they hear the deafening crash of rocks as the ceiling above collapses, sending the entire patrol to join those who fell here so long ago.",
     "exp": 0,
-    "weight": 5
+    "weight": 5,
     "dead_cats": ["patrol"],
-    "art": null
     "history_text": {
 		"reg_death": "m_c got buried inside old ruins of the past.",
 		"lead_death": "got buried inside old ruins of the past.",
 		"scars": "m_c was scarred from a collapse",
     	},
      }
-  ]
+    ]
+  }
 ]
