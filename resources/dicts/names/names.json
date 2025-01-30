@@ -12,37 +12,37 @@
   ],
   "pelt_suffixes": {
     "TwoColour": [" of Patch", " of Spot", " of Splash", " of Patch", " of Spots", " of Swan"],
-    "Tabby": ["stripe", "feather", "leaf", "stripe", "shade", "swirl"],
-    "Marbled": ["stripe", "feather", "leaf", "stripe", "shade", "swirl"],
-    "Speckled": ["dapple", "speckle", "spot", "speck", "freckle", "fleck"],
-    "Bengal": ["dapple", "speckle", "spots", "speck", "freckle", "fleck"],
-    "Rosette": ["dapple", "speckle", "spots", "dapple", "freckle", "fleck"],
-    "Smoke": ["fade", "dusk", "dawn", "smoke"],
-    "Ticked": ["spots", "pelt", "speckle", "freckle"],
-    "Mackerel": ["stripe", "feather", "leaf", "stripe", "fern"],
-    "Classic": ["stripe", "feather", "leaf", "stripe", "fern", "swirl"],
-    "Sokoke": ["stripe", "feather", "leaf", "stripe", "fern", "swirl"],
-    "Agouti": ["back", "pelt", "fur"],
-    "Singlestripe": ["stripe", "streak", "back", "shade", "stem", "shadow"],
-    "Masked": ["stripe", "mask", "mask", "shade"],
-    "Tortie": ["dapple", "speckle", "spot", "dapple"],
-    "Calico": ["stripe", "dapple", "patch", "patch"]
+    "Tabby": [" of Stripe", " of Feather", " of Leaf", " of Stripe", " of Shade", " of Swirl"],
+    "Marbled": [" of Stripe", " of Feather", " of Leaf", " of Stripe", " of Shade", " of Swirl"],
+    "Speckled": [" of Dapple", " of Speckle", " of Spot", " of Speck", " of Freckle", " of Fleck"],
+    "Bengal": [" of Dapple", " of Speckle", " of Spots", " of Speck", " of Freckle", " of Fleck"],
+    "Rosette": [" of Dapple", " of Speckle", " of Spots", " of Speck", " of Freckle", " of Fleck"],
+    "Smoke": [" of Fade", " of Dusk", " of Dawn", " of Smoke"],
+    "Ticked": [" of Spots", " of Scales", " of Speckle", " of Freckle"],
+    "Mackerel": [" of Stripe", " of Feather", " of Leaf", " of Stripe", " of Fern"],
+    "Classic": [" of Stripe", " of Feather", " of Leaf", " of Stripe", " of Fern", " of Swirl"],
+    "Sokoke": [" of Stripe", " of Feather", " of Leaf", " of Stripe", " of Fern", " of Swirl"],
+    "Agouti": [" of Glow", " of Scales", " of Shimmmer"],
+    "Singlestripe": [" of Stripe", " of Streak", " of Glow", " of Shade", " of Stem", " of Shadow"],
+    "Masked": [" of Stripe", " of Mask", " of Shade"],
+    "Tortie": [" of Dapple", " of Speckle", " of Spot", ],
+    "Calico": [" of Stripe", " of Dapple", " of Patch"]
   },
   "tortie_pelt_suffixes": {
-    "single": ["dapple", "speckle", "spots", "splash"],
-    "tabby": ["stripe", "feather", "leaf", "stripe", "shade", "fern"],
-    "marbled": ["stripe", "feather", "leaf", "stripe", "shade", "fern"],
-    "speckled": ["dapple", "speckle", "spot", "speck", "freckle"],
-    "bengal": ["dapple", "speckle", "spots", "speck", "fern", "freckle"],
-    "rosette": ["dapple", "speckle", "spots", "dapple", "fern", "freckle"],
-    "smoke": ["fade", "dusk", "dawn", "smoke"],
-    "ticked": ["spots", "pelt", "speckle", "freckle"],
-    "mackerel": ["stripe", "feather", "fern", "shade"],
-    "classic": ["stripe", "feather", "fern"],
-    "sokoke": ["stripe", "feather", "fern", "shade", "dapple"],
-    "agouti": ["back", "pelt", "fur", "dapple", "splash"],
-    "singlestripe": ["stripe", "back", "shade", "stem", "dapple"],
-    "masked": ["stripe", "dapple", "mask", "mask", "shade"]
+    "single": [" of Dapple", " of Speckle", " of Spots", " of Splash"],
+    "tabby": [" of Stripe", " of Feather", " of Leaf", " of Stripe", " of Fern"],
+    "marbled": [" of Stripe", " of Feather", " of Leaf", " of Stripe", " of Fern"],
+    "speckled": [" of Dapple", " of Speckle", " of Spots", " of Dapple", " of Freckle"],
+    "bengal": [" of Dapple", " of Speckle", " of Spots", " of Dapple", " of Fern", " of Freckle"],
+    "rosette": [" of Dapple", " of Speckle", " of Spots", " of Dapple", " of Fern", " of Freckle"],
+    "smoke": [" of Fade", " of Dusk", " of Dawn", " of Smoke"],
+    "ticked": [" of Spots", " of Scales", " of Speckle", " of Freckle"],
+    "mackerel": [" of Stripe", " of Feather", " of Fern", " of Shade"],
+    "classic": [" of Stripe", " of Feather", " of Fern"],
+    "sokoke": [" of Stripe", " of Feather", " of Fern", " of Shade", " of Dapple"],
+    "agouti": [" of Glow", " of Scales", " of Dapple", " of Splash"],
+    "singlestripe": [" of Stripe", " of Glow", " of Shade", " of Stem", " of Dapple"],
+    "masked": [" of Stripe", " of Dapple", " of Mask", " of Shade"]
   },
 
   "normal_prefixes": [
@@ -97,14 +97,14 @@
   ],
 
   "colour_prefixes": {
-    "WHITE": [
+    "OPAL": [
     "White", "White", "Pale", "Snow", "Snowy", "Cloud", "Cloudy", "Milk", "Hail", "Frost", "Frozen", "Freeze", "Ice", "Icy", "Icicle",
     "Blizzard", "Flurry", "Moon", "Light", "Bone", "Bright", "Swan", "Dove", "Cotton", "Hawthorn", "Laurel", "Wisp",
     "Fringe", "Ibis", "Air", "Bright", "Rime", "Ghost", "Privet", "Egg"
     ],
-    "PALEGREY": [
-    "Gray", "Gray", "Silver", "Pale", "Light", "Cloud", "Cloudy", "Hail", "Frost", "Ice", "Icy", "Mouse", "Bright", "Fog", "Freeze",
-    "Frozen", "Stone", "Pebble", "Dove", "Sky", "Cotton", "Heather", "Ashen", "Tufted", "Pipit", "Azalea",
+    "QUARTZ": [
+    "White", "Quartz", "Moon", "Pale", "Light", "Cloud", "Cloudy", "Hail", "Frost", "Ice", "Icy", "Mouse", "Bright", "Fog", "Freeze",
+    "Frozen", "Gem", "Crystal", "Dove", "Sky", "Cotton", "Heather", "Ashen", "Tufted", "Pipit", "Azalea",
     "Fringe", "Mistle", "Icicle", "Rime"
     ],
     "SILVER": [
@@ -112,10 +112,8 @@
     "River", "Blizzard", "Flurry", "Bone", "Bleak", "Stone", "Pebble", "Heather", "Scale", "Crocus",
     "Rue", "Fringe", "Glint", "Mistle", "Shatter", "Gossamer", "Air", "Pale", "Ermine", "Stoat", "Gull", "Vine", "Lilac", "Rime"
     ],
-    "GREY": [
-    "Gray", "Gray", "Ash", "Ashen", "Cinder", "Rock", "Stone", "Shade", "Mouse", "Smoke", "Smoky", "Shadow", "Fog", "Bone",
-    "Bleak", "Rain", "Storm", "Soot", "Pebble", "Mist", "Misty", "Heather", "Trout", "Shrike", "Plume", "Teasel",
-    "Lyre", "Rat", "Gull", "Pigeon", "Rime"
+    "RED": [
+    "Red", "Mahogany", "Ruby", "Maroon", "Blood", "Flower", "Brick"
     ],
     "DARKGREY": [
     "Gray", "Gray", "Shade", "Raven", "Crow", "Stone", "Dark", "Dark", "Night", "Cinder", "Ash", "Ashen", "Twilight",
@@ -234,52 +232,52 @@
 
   "biome_suffixes": {
     "Forest": [
-    "acorn", "antler", "beak", "branch", "clove", "cone", "dapple", "deer", "fawn", "fern", "fog", "frond", "grove", "moss", 
-    "sap", "shade", "twig", "wood", "thicket", "glade", "bear"
+    " of Acorn", " of Antler", " of Beak", " of Branch", " of Clove", " of Cone", " of Dapple", " of Deer", " of Fawn", " of Fern", " of Fog", " of Frond", " of Grove", " of Moss", 
+    " of Sap", " of Shade", " of Twig", " of Wood", " of Thicket", " of Glade", " of Bear"
     ],
     "Beach": [
-    "current", "shell", "tide", "sand", "wave", "flood", "shore", "coast", "fin", "splash", "surf", "squid", "coral", "pearl",
-    "pool", "ripple", "drip", "drop", "shine", "shimmer", "foam", "sea", "ocean", "torrent", "tide", "gill", "cove"
+    " of Current", " of Shell", " of Tide", " of Sand", " of Wave", " of Flood", " of Shore", " of Coast", " of Fin", " of Splash", " of Surf", " of Squid", " of Coral", " of Pearl",
+    " of Pool", " of Ripple", " of Drip", " of Drop", " of Shine", " of Shimmer", " of Foam", " of Sea", " of Ocean", " of Torrent", " of Tide", " of Gill", " of Cove"
     ],
     "Plains": [
-    "field", "meadow", "wool", "oat", "lamb", "elk", "flutter", "pollen", "bull", "bee", "swish", "breeze", "runner",
-    "tunnel", "horse", "sheep", "burrow", "brush"
+    " of Field", " of Meadow", " of Wool", " of Oat", " of Lamb", " of Elk", " of Flutter", " of Pollen", " of Bull", " of Bee", " of Swish", " of Breeze", " of Runner",
+    " of Tunnel", " of Horse", " of Sheep", " of Burrow", " of Brush"
     ],
     "Mountainous": [
-    "cave", "caw", "cliff", "crag", "cricket", "drop", "eagle", "echo", "fall", "frost", "goat", "horn", "lichen",
-    "mound", "peak", "point", "ram", "shatter", "shard", "stone", "steep", "summit", "quake", "whisper",
-    "whistle"
+    " of Cave", " of Caw", " of Cliff", " of Crag", " of Cricket", " of Drop", " of Eagle", " of Echo", " of Fall", " of Frost", " of Goat", " of Horn", " of Lichen",
+    " of Mound", " of Peak", " of Point", " of Ram", " of Shatter", " of Shard", " of Stone", " of Steep", " of Summit", " of Quake", " of Whisper",
+    " of Whistle"
     ],
     "Wetlands": [
-    "flood", "swamp", "splash", "croak", "duck", "bog", "mud", "skipper", "wade", "lily", "moss", "root", "song", "bug", "glow",
-    "wave", "creek", "ripple", "turtle", "mire"
+    " of Flood", " of Swamp", " of Splash", " of Croak", " of Duck", " of Bog", " of Mud", " of Skipper", " of Wade", " of Lily", " of Moss", " of Root", " of Song", " of Bug", " of Glow",
+    " of Wave", " of Creek", " of Ripple", " of Turtle", " of Mire"
     ],
     "Desert": [
-    "prickle", "dune", "sand", "canyon", "rattle", "wind", "dust", "sun", "fly", "scorpion", "snake", "needle", "fang", "tooth", "bite",
-    "aloe"
+    " of Prickle", " of Dune", " of Sand", " of Canyon", " of Rattle", " of Wind", " of Dust", " of Sun", " of Fly", " of Scorpion", " of Snake", " of Needle", " of Fang", " of Tooth", " of Bite",
+    " of Aloe"
     ]
   },
 
   "eye_prefixes": {
     "YELLOW": ["Yellow", "Moon", "Daisy", "Honey", "Light", "Sun", "Lemon"],
     "AMBER": ["Amber", "Sun", "Fire", "Gold", "Honey", "Scorch", "Flame", "Blaze", "Pumpkin"],
-    "HAZEL": ["Hazel", "Tawny", "Hazel", "Gold", "Daisy", "Sand", "Almond"],
-    "PALEGREEN": ["Pale", "Green", "Mint", "Fern", "Weed", "Olive", "Stem", "Lime", "Agave"],
+    "MAGENTA": ["Magenta", "Purple", "Red", "Glow", "Dusk", "Night", "Bloom"],
+    "INDIGO": ["Purple", "Blue", "Indigo", "Dusk", "Space", "Night", "Void"],
     "GREEN": ["Green", "Green", "Fern", "Weed", "Holly", "Clover", "Olive", "Jade", "Tree", "Algae", "Aloe"],
     "BLUE": ["Blue", "Blue", "Ice", "Sky", "Lake", "Frost", "Water", "Icicle", "Frosty", "Cold", "Rime"],
-    "DARKBLUE": ["Dark", "Blue", "Blue", "Sky", "Lake", "Berry", "Water", "Deep", "Cobalt", "River", "Night", "Rain"],
-    "GREY": ["Gray", "Stone", "Silver", "Ripple", "Moon", "Rain", "Storm", "Heather"],
-    "CYAN": ["Sky", "Blue", "River", "Rapid", "Ice", "Frost", "Cold", "Rime"],
-    "EMERALD": ["Emerald", "Green", "Shine", "Green", "Pine", "Weed"],
-    "PALEBLUE": ["Pale", "Blue", "Blue", "Sky", "River", "Ripple", "Day", "Cloud", "Rime"],
-    "PALEYELLOW": ["Pale", "Yellow", "Sun", "Gold", "Light", "Daisy"],
+    "PURPLE": ["Dark", "Purple", "Indigo", "Night", "Amythist", "Berry", "Dusk", "Deep"],
+    "ROSE": ["Rose", "Pink", "Red", "Blossom", "Flora", "Flower", "Cherry", "Apple"],
+    "TURQUOISE": ["Sky", "Blue", "River", "Rapid", "Ice", "Frost", "Cold", "Rime"],
+    "RED": ["Red", "Blood", "Rose", "Dawn", "Maroon", "Eclipse", "Ruby"],
+    "BLOODORANGE": ["Dusk", "Dawn", "Grapefruit", "Orange", "Red", "Blood", "Eclipse", "Day", "Ruby", "Tourmaline"],
+    "WHITE": ["White", "Moon", "Cloud", "Glow", "Dove", "Daisy"],
     "GOLD": ["Gold", "Golden", "Sun", "Amber", "Sap", "Honey", "Yellow"],
-    "HEATHERBLUE": ["Heather", "Blue", "Lilac", "Rosemary", "Lavender", "Wisteria"],
-    "COPPER": ["Copper", "Red", "Amber", "Brown", "Fire", "Cinnamon"],
-    "SAGE": ["Sage", "Leaf", "Olive", "Bush", "Clove", "Green", "Weed"],
-    "COBALT": ["Blue", "Blue", "Ice", "Icy", "Sky", "Lake", "Frost", "Water", "Frosty", "Rime"],
-    "SUNLITICE": ["Sun", "Ice", "Icy", "Frost", "Dawn", "Dusk", "Odd", "Glow", "Mouse"],
-    "GREENYELLOW": ["Green", "Yellow", "Tawny", "Hazel", "Gold", "Daisy", "Sand", "Sandy", "Weed"],
+    "PALESILVER": ["Silver", "Gray", "Moon", "Glow", "White", "Storm", "Cloud"],
+    "BRONZE": ["Copper", "Red", "Amber", "Brown", "Fire", "Cinnamon", "Bronze"],
+    "AQUA": ["Sage", "Leaf", "Olive", "Bush", "Clove", "Green", "Weed"],
+    "SKY": ["Blue", "Blue", "Ice", "Icy", "Sky", "Lake", "Frost", "Water", "Frosty", "Rime"],
+    "LAVENDER": ["Purple", "Lavender", "Indigo", "Flower", "Night", "Dusk", "Glow", "Lilac"],
+    "LIME": ["Green", "Yellow", "Tawny", "Hazel", "Gold", "Daisy", "Sand", "Sandy", "Weed"],
     "SILVER": ["Gray", "Stone", "Silver", "Silver", "Moon", "Rain", "Storm", "Pale", "Light"],
     "ORANGE": ["Amber", "Sun", "Fire", "Honey", "Flame", "Blaze", "Pumpkin", "Red", "Ember", "Orange"]
   },
@@ -405,9 +403,9 @@
     "Ziti", "Zoe", "Zoomie", "Zorro", "Zorua", "Zuberi", "Zuko", "Zuma", "Zuna", "Zuva"
   ],
 	"animal_suffixes": [
-		"badger", "bat", "bear", "bee", "beetle", "bird", "bug", "cricket", "deer", "eagle", "elk", "falcon", "fawn", "fish", "fox", "goose", "hare", "hawk", "horse", 
-    "jay", "kestrel", "kite", "lamb", "leopard", "lion", "minnow", "moth", "mouse", "newt", "ram", "raven", "roach", "scorpion", "sheep", "snake", "spider", 
-    "squid", "swan", "thrush", "tiger", "turtle"
+		" of Badger", " of Bat", " of Bear", " of Bee", " of Beetle", " of Bird", " of Bug", " of Cricket", " of Deer", " of Eagle", " of Elk", " of Falcon", " of Fawn", " of Fish", " of Fox", " of Goose", " of Hare", " of Hawk", " of Horse", 
+    " of Jay", " of Kestrel", " of Kite", " of Lamb", " of Leopard", " of Lion", " of Minnow", " of Moth", " of Mouse", " of Newt", "of Ram", " of Raven", " of Roach", " of Scorpion", " of Sheep", " of Snake", " of Spider", 
+    " of Squid", " of Swan", " of Thrush", " of Tiger", " of Turtle"
 	],
 	"animal_prefixes": [
 		"Addax", "Adder", "Albatross", "Alligator", "Alpaca", "Ant", "Antelope", "Aphid", "Avocet", "Axolotl", "Badger", "Barracuda", "Bass", "Bat", "Bear", "Beaver", 
