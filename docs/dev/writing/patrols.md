@@ -129,8 +129,9 @@ What each parameter does, and what the options are for patrol.
 | bord          | border type patrol               |
 | train         | training type patrol             |
 | med           | herb gathering type patrol       |
-| *ruins         | ruins type patrol                |
-`patrols with * are KyrogiaGen exclusives`
+| *ruins         | ruins type patrol               |
+
+> patrols with * are KyrogiaGen exclusives
 
 Example:
 >`fst_hunt_foxgray_leafbarescavenge_huntinglocked3` is a hunting patrol in the forest biome, involves a gray fox, and takes place in leafbare. The word scavenge tells us it's about a gray fox scavenging something, huntinglocked indicates it's locked behind p_l having the hunting skill, and 3 tells us it is the third variant of this patrol that exists in the game. 
