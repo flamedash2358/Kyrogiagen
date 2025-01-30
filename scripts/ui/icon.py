@@ -19,6 +19,7 @@ class Icon(StrEnum):
     MOUSE = "\U0001F401"
     SCRATCHES = "\U0001F485"
     HERB = "\U0001F33F"
+    PILLAR = "\U0001F05E"
 
     NEWLEAF = "\U0001FAB4"
     GREENLEAF = "\u2600"
