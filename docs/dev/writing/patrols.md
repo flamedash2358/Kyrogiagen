@@ -172,6 +172,9 @@ Please have a look at the [full biome differences list](index.md#clangen-biomes)
 | "herb_gathering" | herb_gathering (ie, medicine cat) patrol |
 | "border"         | border patrol                            |
 | "training"       | training patrol                          |
+| "ruins"*         | ruins patrol                             |
+
+> * are KyrogiaGen exclusive
 
 **Differences between the types** 
 > Training patrols are an easy difficulty for [success chance](#chance-of-success-int), but the lowest with regards to [exp reward](#exp-int). They are a relatively safe patrol type of low danger, and the [injuries](#injury-listdictstr-various) cats can obtain on them should either be rare (low weighed outcome), or minor. Training patrols have high [relationship rewards](#relationships-listdictstr-various).
@@ -182,8 +185,9 @@ Please have a look at the [full biome differences list](index.md#clangen-biomes)
 
 > Herb gathering patrols are of moderate difficulty for [success chance](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#chance-of-success-int) (like hunting patrols). Herb gathering patrols are focused on gathering herbs and thus need to have a [herb reward](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#herbs-liststr) under most circumstances. Herb gathering patrols are of medium danger, and the [injuries](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#injury-listdictstr-various) cats can obtain on them should either be minor and common (high weighed outcome), moderate and of a normal weight, or severe and of a low weight. The same guidelines apply to [killing cats](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#dead_cats-liststr) on this patrol type. Herb gathering patrols should be highly seasonal, as not all herbs are available in all seasons, or in the same seasons in different [biomes](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Basic#clangen-biomes). 
 
-> The subtypes of [new_cat](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#outsider_rep) and [other_clan](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#other_clan_rep) patrols should primarily use the type specific success, danger, injuries, death, and rewards of whatever the primary patrol type is. For example, use the success chance for herd gathering patrols if your medicine cat finds an injured kitten. However, a subtype is more likely to move away from the 'normal' setting for that type of patrol as they are by definition unusual examples of that patrol type. Brainstorm with other developers!
+> Ruins patrols are as difficult as border patrols, usually exploring the lost cities and kingdoms that fell to The Eclipse Event, the former homes of the dragon species its relivant to! These patrols are usually not seasonal, and dont exactly have any biome specalties due to these dragons exploring a common homeground! One may encounter other dragon species on these, trapped new dragons, and very often acessories/supplies
 
+> The subtypes of [new_cat](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#outsider_rep) and [other_clan](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#other_clan_rep) patrols should primarily use the type specific success, danger, injuries, death, and rewards of whatever the primary patrol type is. For example, use the success chance for herd gathering patrols if your medicine cat finds an injured kitten. However, a subtype is more likely to move away from the 'normal' setting for that type of patrol as they are by definition unusual examples of that patrol type. Brainstorm with other developers!
 
 !!! tip
 	There are two further subtypes of patrols which occur as isolated events within the four main types. These are other_clan and new_cat patrols. Other clan patrols deal with the Clans neighboring the player Clan and are discussed [here](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#other_clan_rep). New cat patrols deal with patrols where a new cat joins the player Clan. The chance of finding a new_cat patrol is discussed [here](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#outsider_rep), the new_cat tag is discussed [here](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#tags-liststr), and the code to generate a new_cat is discussed [here](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#new_cat-listliststr). A patrol is firstly one of the four types, e.g herb gathering, and then can also be a other_clan or new_cat (or both!) patrol in addition to the four basic types. 
@@ -283,6 +287,8 @@ Please have a look at the [full biome differences list](index.md#clangen-biomes)
 
 > Border patrols gain most of their danger not necessarily from an increased chance of failing, but from worse consequences being associated with their failure (death, massive injury). However, border patrols also tend to be more varied in their chance of success than most patrol types, with both extremely safe and extremely risky patrols present in the patrol pool. You are both welcome and encouraged to adjust the chance of success away from the default values.
 
+> Ruins patrols follow a similar philosophy to border patrols, failing these patrols however is even more dangerous due to unstable ruins terrain. Most often failure can result in death, however the rewards of these patrols should be boosted due to the danger factor.
+
 > Tiri has made default success chances to work from for the general [non biome specific patrols](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#default-success-any-biome), for [beach](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#default-success-beach), for [desert](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#default-success-desert), for [forest](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#default-success-forest), for [mountains](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#default-success-mountainous), for [plains](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#default-success-plains), and for [wetlands](https://github.com/ClanGenOfficial/clangen/wiki/%5BWriting%5D-%E2%80%90-Patrols#default-success-wetlands).
 
 
@@ -297,8 +303,9 @@ Please have a look at the [full biome differences list](index.md#clangen-biomes)
 | hunting                 | 50                     |
 | herb_gathering          | 50                     |
 | training                | 60                     |
+| ruins*                  | 40                     |
 
-
+> * KyrogiaGen exclusive
 
 ##### Default Success Beach: 
 
@@ -328,7 +335,12 @@ Please have a look at the [full biome differences list](index.md#clangen-biomes)
 | leaf-fall                   | herb_gathering         | 50                     |
 | newleaf                     | herb_gathering         | 50                     |
 |-----------------------------|------------------------|------------------------|
-
+| Non-seasonal default        | ruins                  | 40                     |
+| greenleaf                   | ruins                  | 40                     |
+| leaf-bare                   | ruins                  | 40                     |
+| leaf-fall                   | ruins                  | 40                     |
+| newleaf                     | ruins                  | 40                     |
+|-----------------------------|------------------------|------------------------|
 
 
 ##### Default Success Desert: 
@@ -358,6 +370,12 @@ Please have a look at the [full biome differences list](index.md#clangen-biomes)
 | leaf-bare                   | herb_gathering         | 50                     |
 | leaf-fall                   | herb_gathering         | 40                     |
 | newleaf                     | herb_gathering         | 40                     |
+|-----------------------------|------------------------|------------------------|
+| Non-seasonal default        | ruins                  | 40                     |
+| greenleaf                   | ruins                  | 40                     |
+| leaf-bare                   | ruins                  | 40                     |
+| leaf-fall                   | ruins                  | 40                     |
+| newleaf                     | ruins                  | 40                     |
 |-----------------------------|------------------------|------------------------|
 
 
@@ -390,6 +408,12 @@ Please have a look at the [full biome differences list](index.md#clangen-biomes)
 | leaf-fall                   | herb_gathering         | 50                     |
 | newleaf                     | herb_gathering         | 50                     |
 |-----------------------------|------------------------|------------------------|
+| Non-seasonal default        | ruins                  | 40                     |
+| greenleaf                   | ruins                  | 40                     |
+| leaf-bare                   | ruins                  | 40                     |
+| leaf-fall                   | ruins                  | 40                     |
+| newleaf                     | ruins                  | 40                     |
+|-----------------------------|------------------------|------------------------|
 
 
 
@@ -420,6 +444,12 @@ Please have a look at the [full biome differences list](index.md#clangen-biomes)
 | leaf-bare                   | herb_gathering         | 40                     |
 | leaf-fall                   | herb_gathering         | 60                     |
 | newleaf                     | herb_gathering         | 60                     |
+|-----------------------------|------------------------|------------------------|
+| Non-seasonal default        | ruins                  | 40                     |
+| greenleaf                   | ruins                  | 40                     |
+| leaf-bare                   | ruins                  | 40                     |
+| leaf-fall                   | ruins                  | 40                     |
+| newleaf                     | ruins                  | 40                     |
 |-----------------------------|------------------------|------------------------|
 
 
@@ -452,6 +482,12 @@ Please have a look at the [full biome differences list](index.md#clangen-biomes)
 | leaf-fall                   | herb_gathering         | 50                     |
 | newleaf                     | herb_gathering         | 50                     |
 |-----------------------------|------------------------|------------------------|
+| Non-seasonal default        | ruins                  | 40                     |
+| greenleaf                   | ruins                  | 40                     |
+| leaf-bare                   | ruins                  | 40                     |
+| leaf-fall                   | ruins                  | 40                     |
+| newleaf                     | ruins                  | 40                     |
+|-----------------------------|------------------------|------------------------|
 
 
 
@@ -482,6 +518,12 @@ Please have a look at the [full biome differences list](index.md#clangen-biomes)
 | leaf-bare                   | herb_gathering         | 50                     |
 | leaf-fall                   | herb_gathering         | 60                     |
 | newleaf                     | herb_gathering         | 60                     |
+|-----------------------------|------------------------|------------------------|
+| Non-seasonal default        | ruins                  | 40                     |
+| greenleaf                   | ruins                  | 40                     |
+| leaf-bare                   | ruins                  | 40                     |
+| leaf-fall                   | ruins                  | 40                     |
+| newleaf                     | ruins                  | 40                     |
 |-----------------------------|------------------------|------------------------|
 
 
